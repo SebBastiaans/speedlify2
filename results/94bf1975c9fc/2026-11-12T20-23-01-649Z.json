@@ -1,0 +1,368 @@
+{
+  "url": "https://www.intel.com/",
+  "name": "Intel",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1794514981649,
+  "date": "2026-11-12T20:23:01.649Z",
+  "runId": "2026-11-12T19-53-36-131Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 84147,
+  "error": null,
+  "variance": {
+    "min": 32,
+    "max": 51,
+    "spread": 19,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.intel.com/",
+    "finalUrl": "https://www.intel.com/content/www/us/en/homepage.html",
+    "redirect": {
+      "from": "https://www.intel.com/",
+      "to": "https://www.intel.com/content/www/us/en/homepage.html",
+      "chain": [
+        {
+          "url": "https://www.intel.com/",
+          "status": 301
+        },
+        {
+          "url": "https://www.intel.com/content/www/us/en/homepage.html",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        301
+      ],
+      "change": "path",
+      "permanent": true,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 49,
+      "accessibility": 96,
+      "best-practices": 58,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1356,
+      "lcp": 12059,
+      "si": 5011,
+      "tbt": 1003,
+      "tti": 14450,
+      "cls": 0,
+      "ttfb": 486,
+      "maxPotentialFid": 315,
+      "serverResponseTime": 27,
+      "networkRtt": 28.4,
+      "networkServerLatency": 89.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 53.9,
+      "resourceLoadDelay": 17.7,
+      "resourceLoadDuration": 75.7,
+      "elementRenderDelay": 1047.1
+    },
+    "weight": {
+      "total": 2289255,
+      "requests": 172,
+      "mainDocument": 19581,
+      "byType": {
+        "total": {
+          "bytes": 2288596,
+          "requests": 170
+        },
+        "image": {
+          "bytes": 999398,
+          "requests": 25
+        },
+        "script": {
+          "bytes": 946634,
+          "requests": 93
+        },
+        "font": {
+          "bytes": 198757,
+          "requests": 7
+        },
+        "other": {
+          "bytes": 87597,
+          "requests": 30
+        },
+        "stylesheet": {
+          "bytes": 36393,
+          "requests": 13
+        },
+        "document": {
+          "bytes": 19817,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 851110,
+          "requests": 40
+        }
+      },
+      "scripts": 93,
+      "stylesheets": 13,
+      "fonts": 7
+    },
+    "thirdParty": {
+      "count": 8,
+      "bytes": 916667,
+      "mainThreadMs": 242,
+      "top": [
+        {
+          "entity": "Optanon",
+          "bytes": 325493,
+          "mainThreadMs": 55.6,
+          "byType": {
+            "script": 167141,
+            "other": 71774,
+            "image": 86578
+          },
+          "typedBytes": 325493
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 316597,
+          "mainThreadMs": 124,
+          "byType": {
+            "script": 316597
+          },
+          "typedBytes": 316597
+        },
+        {
+          "entity": "Adobe Scene7",
+          "bytes": 162875,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 159795,
+            "other": 3080
+          },
+          "typedBytes": 162875
+        },
+        {
+          "entity": "Qualtrics",
+          "bytes": 77181,
+          "mainThreadMs": 14.3,
+          "byType": {
+            "script": 72514,
+            "other": 4667
+          },
+          "typedBytes": 77181
+        },
+        {
+          "entity": "Clarity",
+          "bytes": 27195,
+          "mainThreadMs": 44.3,
+          "byType": {
+            "script": 26641,
+            "other": 554
+          },
+          "typedBytes": 27195
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 4746.5,
+      "byGroup": {
+        "scriptEvaluation": 2939.8,
+        "other": 923.7,
+        "scriptParseCompile": 486.4,
+        "styleLayout": 215.3,
+        "parseHTML": 94.4,
+        "paintCompositeRender": 50,
+        "garbageCollection": 36.8
+      },
+      "bootupMs": 3014,
+      "longTasks": 16,
+      "longestTaskMs": 315
+    },
+    "dom": {
+      "elements": 1111,
+      "depth": 27,
+      "maxChildren": 105
+    },
+    "waste": {
+      "unusedJsBytes": 240487,
+      "unusedCssBytes": 42190,
+      "legacyJsBytes": 8901,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 2146,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 302,
+      "renderBlockingCount": 13,
+      "poorlyCachedBytes": 483410.23620833317,
+      "poorlyCachedCount": 85
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 27,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 6
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 785.8,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 39
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2481.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T20:23:26.753Z",
+      "runtimeMs": 12306.2
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1223.9,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 8645.2,
+    "elementRenderDelay": 18
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "akamai",
+      "name": "Akamai",
+      "icon": "Akamai",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AkamaiGHost"
+    },
+    "violations": 1,
+    "passes": 607,
+    "incomplete": 3,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#slide-0 > .cmp-animated-hero__bg-slide-info > .cmp-animated-hero__bg-title[aria-hidden=\"true\"]",
+            "snippet": "<div aria-hidden=\"true\" class=\"cmp-animated-hero__bg-title\" style=\"font-size: 90.8642px;\"> Quantum </div>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "2ef3593e6868",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"23488-66009e2230a73-gzip\""
+        }
+      },
+      {
+        "hash": "24c75238e7cc",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"23488-66009e2230a73-gzip\""
+        }
+      },
+      {
+        "hash": "24c75238e7cc",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"23488-66009e2230a73-gzip\""
+        }
+      },
+      {
+        "hash": "24c75238e7cc",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"23488-66009e2230a73-gzip\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

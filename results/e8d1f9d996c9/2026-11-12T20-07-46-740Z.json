@@ -1,0 +1,336 @@
+{
+  "url": "https://reactrouter.com/",
+  "name": "React Router",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1794514066740,
+  "date": "2026-11-12T20:07:46.740Z",
+  "runId": "2026-11-12T19-53-36-131Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 40709,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://reactrouter.com/",
+    "finalUrl": "https://reactrouter.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 86,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 913,
+      "lcp": 913,
+      "si": 913,
+      "tbt": 0,
+      "tti": 913,
+      "cls": 0,
+      "ttfb": 613,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 12,
+      "networkRtt": 0,
+      "networkServerLatency": 12.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 13.4,
+      "elementRenderDelay": 85.5
+    },
+    "weight": {
+      "total": 313505,
+      "requests": 21,
+      "mainDocument": 5764,
+      "byType": {
+        "total": {
+          "bytes": 313505,
+          "requests": 21
+        },
+        "script": {
+          "bytes": 141284,
+          "requests": 9
+        },
+        "image": {
+          "bytes": 98781,
+          "requests": 6
+        },
+        "font": {
+          "bytes": 52896,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 11008,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 5764,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3772,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 9,
+      "stylesheets": 2,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 517.9,
+      "byGroup": {
+        "other": 256.8,
+        "scriptEvaluation": 148.6,
+        "styleLayout": 61,
+        "parseHTML": 23.7,
+        "paintCompositeRender": 21.5,
+        "scriptParseCompile": 6.2
+      },
+      "bootupMs": 150.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 104,
+      "depth": 8,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 79683,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 109837.6,
+      "poorlyCachedCount": 6
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 14,
+      "failingNodes": 9,
+      "failing": [
+        {
+          "id": "dlitem",
+          "title": "Definition list items are not wrapped in `<dl>` elements",
+          "weight": 7,
+          "nodes": 8
+        },
+        {
+          "id": "definition-list",
+          "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 18
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2444,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T20:08:01.447Z",
+      "runtimeMs": 6242.8
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.9,
+    "elementRenderDelay": 490.3
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "reactrouter",
+      "name": "React Router",
+      "icon": "Reactrouter",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "reactrouter",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "fly",
+      "name": "Fly.io",
+      "icon": "Flydotio",
+      "source": "fly-request-id"
+    },
+    "headers": {
+      "fly-request-id": "01M78NZ8P690ZZYFTASQ5RZCT7-dfw",
+      "server": "Fly/366e4bf88 (2026-10-27)",
+      "via": "1.1 fly.io, 1.1 fly.io, 1.1 varnish",
+      "x-served-by": "cache-dfw-kdfw8210049-DFW"
+    },
+    "violations": 9,
+    "passes": 165,
+    "incomplete": 5,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "dlitem",
+        "impact": "serious",
+        "nodes": 8,
+        "help": "<dt> and <dd> elements must be contained by a <dl>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/dlitem?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".w-\\[308px\\].gap-2:nth-child(1) > div > dd",
+            "snippet": "<dd class=\"text-2xl font-semibold text-gray-700 dark:text-gray-200\">5,076,578,164</dd>"
+          },
+          {
+            "selector": ".w-\\[308px\\].gap-2:nth-child(1) > div > .text-gray-500.dark\\:text-gray-400",
+            "snippet": "<dt class=\"text-gray-500 dark:text-gray-400\">Downloads on npm</dt>"
+          },
+          {
+            "selector": ".w-\\[308px\\].gap-2:nth-child(2) > div > dd",
+            "snippet": "<dd class=\"text-2xl font-semibold text-gray-700 dark:text-gray-200\">1,341</dd>"
+          },
+          {
+            "selector": ".w-\\[308px\\].gap-2:nth-child(2) > div > .text-gray-500.dark\\:text-gray-400",
+            "snippet": "<dt class=\"text-gray-500 dark:text-gray-400\">Contributors on GitHub</dt>"
+          },
+          {
+            "selector": ".w-\\[308px\\].gap-2:nth-child(3) > div > dd",
+            "snippet": "<dd class=\"text-2xl font-semibold text-gray-700 dark:text-gray-200\">56,637</dd>"
+          }
+        ]
+      },
+      {
+        "id": "definition-list",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/definition-list?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".grid-cols-1",
+            "snippet": "<dl class=\"grid grid-cols-1 gap-x-6 gap-y-16 md:grid-cols-2\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "f73c45d573e0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1667",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "f73c45d573e0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "f73c45d573e0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "f73c45d573e0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "20",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "f73c45d573e0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "35",
+          "x-cache": "HIT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
