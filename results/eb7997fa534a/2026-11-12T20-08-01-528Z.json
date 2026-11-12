@@ -1,0 +1,309 @@
+{
+  "url": "https://nextjs.org/",
+  "name": "Next.js",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1794514081528,
+  "date": "2026-11-12T20:08:01.528Z",
+  "runId": "2026-11-12T19-53-29-211Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 61657,
+  "error": null,
+  "variance": {
+    "min": 97,
+    "max": 98,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://nextjs.org/",
+    "finalUrl": "https://nextjs.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 75
+    },
+    "timings": {
+      "fcp": 1390,
+      "lcp": 1390,
+      "si": 1650,
+      "tbt": 164,
+      "tti": 4237,
+      "cls": 0,
+      "ttfb": 640,
+      "maxPotentialFid": 214,
+      "serverResponseTime": 32,
+      "networkRtt": 19.1,
+      "networkServerLatency": 40.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 117.4,
+      "elementRenderDelay": 170.5
+    },
+    "weight": {
+      "total": 884879,
+      "requests": 63,
+      "mainDocument": 37867,
+      "byType": {
+        "total": {
+          "bytes": 884879,
+          "requests": 63
+        },
+        "script": {
+          "bytes": 605202,
+          "requests": 42
+        },
+        "font": {
+          "bytes": 94813,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 85864,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 51544,
+          "requests": 8
+        },
+        "document": {
+          "bytes": 37867,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 9589,
+          "requests": 6
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 7916,
+          "requests": 1
+        }
+      },
+      "scripts": 42,
+      "stylesheets": 4,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 7916,
+      "mainThreadMs": 1.5,
+      "top": [
+        {
+          "entity": "vercel-scripts.com",
+          "bytes": 7916,
+          "mainThreadMs": 1.5,
+          "byType": {
+            "script": 7916
+          },
+          "typedBytes": 7916
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2405.4,
+      "byGroup": {
+        "scriptEvaluation": 1395.7,
+        "other": 411.8,
+        "styleLayout": 261.7,
+        "scriptParseCompile": 142.2,
+        "garbageCollection": 123.8,
+        "parseHTML": 42.3,
+        "paintCompositeRender": 27.9
+      },
+      "bootupMs": 1356.6,
+      "longTasks": 4,
+      "longestTaskMs": 214
+    },
+    "dom": {
+      "elements": 755,
+      "depth": 23,
+      "maxChildren": 67
+    },
+    "waste": {
+      "unusedJsBytes": 128051,
+      "unusedCssBytes": 13052,
+      "legacyJsBytes": 24860,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 450,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 7586.166666666667,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 28,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 60
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4450.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T20:08:02.721Z",
+      "runtimeMs": 9990.3
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 596.5,
+    "elementRenderDelay": 1847.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "Nextdotjs",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "next",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "iad1::6k65j-1794514140705-39a8dff35477"
+    },
+    "violations": 1,
+    "passes": 820,
+    "incomplete": 29,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".border-2",
+            "snippet": "<a aria-label=\"Read the Next.js 16 ...\" class=\"group flex min-h-60 ...\" href=\"/blog/next-16\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "48786c3970a6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1116",
+          "etag": "W/\"88bc1a0a366447d4337ebce7f1008f5a\"",
+          "x-nextjs-prerender": "1",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "48786c3970a6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1126",
+          "etag": "W/\"88bc1a0a366447d4337ebce7f1008f5a\"",
+          "x-nextjs-prerender": "1",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "48786c3970a6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1136",
+          "etag": "W/\"88bc1a0a366447d4337ebce7f1008f5a\"",
+          "x-nextjs-prerender": "1",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "48786c3970a6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1146",
+          "etag": "W/\"88bc1a0a366447d4337ebce7f1008f5a\"",
+          "x-nextjs-prerender": "1",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "48786c3970a6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
