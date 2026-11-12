@@ -1,0 +1,437 @@
+{
+  "url": "https://www.google.com/",
+  "name": "Google",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1794514543031,
+  "date": "2026-11-12T20:15:43.031Z",
+  "runId": "2026-11-12T19-53-33-725Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 56718,
+  "error": null,
+  "variance": {
+    "min": 61,
+    "max": 63,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.google.com/",
+    "finalUrl": "https://www.google.com/?zx=1794514553515",
+    "redirect": {
+      "from": "https://www.google.com/",
+      "to": "https://www.google.com/?zx=1794514553515",
+      "chain": [
+        {
+          "url": "https://www.google.com/",
+          "status": 200
+        },
+        {
+          "url": "https://www.google.com/?zx=1794514553515",
+          "status": null
+        }
+      ],
+      "statuses": [
+        200
+      ],
+      "change": "query",
+      "permanent": false,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 63,
+      "accessibility": 86,
+      "best-practices": 100,
+      "seo": 83,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1161,
+      "lcp": 7055,
+      "si": 2664,
+      "tbt": 510,
+      "tti": 7063,
+      "cls": 0.005,
+      "ttfb": 465,
+      "maxPotentialFid": 239,
+      "serverResponseTime": 101,
+      "networkRtt": 5.6,
+      "networkServerLatency": 104.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 102.6,
+      "elementRenderDelay": 1076.3
+    },
+    "weight": {
+      "total": 1058564,
+      "requests": 49,
+      "mainDocument": 67486,
+      "byType": {
+        "total": {
+          "bytes": 1058564,
+          "requests": 47
+        },
+        "script": {
+          "bytes": 873309,
+          "requests": 8
+        },
+        "other": {
+          "bytes": 79161,
+          "requests": 33
+        },
+        "document": {
+          "bytes": 67486,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 24525,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 7230,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 6853,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 126751,
+          "requests": 5
+        }
+      },
+      "scripts": 8,
+      "stylesheets": 2,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 126751,
+      "mainThreadMs": 22.8,
+      "top": [
+        {
+          "entity": "Google CDN",
+          "bytes": 102172,
+          "mainThreadMs": 22.6,
+          "byType": {
+            "script": 95354,
+            "stylesheet": 6818
+          },
+          "typedBytes": 102172
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 24525,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 24525
+          },
+          "typedBytes": 24525
+        },
+        {
+          "entity": "google.com",
+          "bytes": 54,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "other": 54
+          },
+          "typedBytes": 54
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2176.9,
+      "byGroup": {
+        "scriptEvaluation": 1203.9,
+        "other": 514.8,
+        "scriptParseCompile": 218.3,
+        "styleLayout": 115.6,
+        "paintCompositeRender": 47.7,
+        "parseHTML": 45.7,
+        "garbageCollection": 30.9
+      },
+      "bootupMs": 1335.9,
+      "longTasks": 6,
+      "longestTaskMs": 239
+    },
+    "dom": {
+      "elements": 493,
+      "depth": 23,
+      "maxChildren": 38
+    },
+    "waste": {
+      "unusedJsBytes": 482759,
+      "unusedCssBytes": 11222,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 30,
+      "failingNodes": 10,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 7
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "list",
+          "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 45
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3068.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T20:15:52.967Z",
+      "runtimeMs": 8301.7
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 653.7,
+    "elementRenderDelay": 7110.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "gws",
+      "name": "Google",
+      "icon": "Google",
+      "source": "server"
+    },
+    "headers": {
+      "server": "gws"
+    },
+    "violations": 22,
+    "passes": 466,
+    "incomplete": 3,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 11,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[jsname=\"TikT2b\"]",
+            "snippet": "<div jsname=\"TikT2b\" jsslot=\"\">"
+          },
+          {
+            "selector": ".VsEpQb",
+            "snippet": "<div jsname=\"gYxgdc\" class=\"VsEpQb\" aria-level=\"1\" role=\"heading\">Trending searches</div>"
+          },
+          {
+            "selector": "li[jsaction=\"click:.CLIENT\"]:nth-child(1) > .jh86Nb > .MWnfue > .h5AwLb",
+            "snippet": "<span class=\"h5AwLb\">microsoft outage</span>"
+          },
+          {
+            "selector": "li[jsaction=\"click:.CLIENT\"]:nth-child(2) > .jh86Nb > .MWnfue > .h5AwLb",
+            "snippet": "<span class=\"h5AwLb\">logan circle washington dc shooting</span>"
+          },
+          {
+            "selector": "li[jsaction=\"click:.CLIENT\"]:nth-child(3) > .jh86Nb > .MWnfue",
+            "snippet": "<div class=\"MWnfue\"> <span class=\"h5AwLb\">nvidia ceo jensen huang</span> <span class=\"SwwBmb DiX1e\">Jensen Huang — Taiwanese-American electrical engineer and former president of NVIDIA</span> </div>"
+          }
+        ]
+      },
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 8,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".gLFyf",
+            "snippet": "<textarea jsname=\"yZiJbe\" class=\"gLFyf\" aria-describedby=\"sb_input_box_aria_de...\" aria-expanded=\"false\" aria-haspopup=\"listbox\" autocorrect=\"on\" maxlength=\"2048\" role=\"combobox\" title=\"\" placeholder…"
+          },
+          {
+            "selector": "li[jsaction=\"click:.CLIENT\"]:nth-child(1)",
+            "snippet": "<li role=\"link\" tabindex=\"0\" jsaction=\"click:.CLIENT\" style=\"opacity: 1;\">"
+          },
+          {
+            "selector": "li[jsaction=\"click:.CLIENT\"]:nth-child(2)",
+            "snippet": "<li role=\"link\" tabindex=\"0\" jsaction=\"click:.CLIENT\" style=\"opacity: 1;\">"
+          },
+          {
+            "selector": "li[jsaction=\"click:.CLIENT\"]:nth-child(3)",
+            "snippet": "<li role=\"link\" tabindex=\"0\" jsaction=\"click:.CLIENT\" style=\"opacity: 1;\">"
+          },
+          {
+            "selector": "li[jsaction=\"click:.CLIENT\"]:nth-child(4)",
+            "snippet": "<li role=\"link\" tabindex=\"0\" jsaction=\"click:.CLIENT\" style=\"opacity: 1;\">"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#promo_image19059559",
+            "snippet": "<img id=\"promo_image19059559\" src=\"data:image/png;base6...\" style=\"height:19px;width:19...\" data-aatf=\"1\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "list",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".o5j3Ue",
+            "snippet": "<ul jsname=\"rn6yge\" class=\"o5j3Ue\" data-num_pips_row=\"7\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "de1a0a0c4989",
+        "nonce": "b5c5d58839ec",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "62b1643066b4",
+        "nonce": "f6f4879f3ffa",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "0c8d0a302777",
+        "nonce": "f3c82905995e",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "8881d0044020",
+        "nonce": "7d10c7280b32",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "e20080700cf5",
+        "nonce": "e78fd0fcfd30",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
