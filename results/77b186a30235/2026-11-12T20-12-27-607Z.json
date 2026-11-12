@@ -1,0 +1,327 @@
+{
+  "url": "https://www.amazon.com/",
+  "name": "Amazon",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1794514347607,
+  "date": "2026-11-12T20:12:27.607Z",
+  "runId": "2026-11-12T19-53-35-419Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 39545,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 99,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.amazon.com/",
+    "finalUrl": "https://www.amazon.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1674,
+      "lcp": 1674,
+      "si": 1674,
+      "tbt": 0,
+      "tti": 1674,
+      "cls": 0,
+      "ttfb": 618,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 22,
+      "networkRtt": 0,
+      "networkServerLatency": 17.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 23.6,
+      "elementRenderDelay": 38.8
+    },
+    "weight": {
+      "total": 40939,
+      "requests": 4,
+      "mainDocument": 1576,
+      "byType": {
+        "total": {
+          "bytes": 40180,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 21602,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 17002,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 1576,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 40180,
+          "requests": 3
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 38604,
+      "mainThreadMs": 1.4,
+      "top": [
+        {
+          "entity": "Marketplace Web Service",
+          "bytes": 38604,
+          "mainThreadMs": 1.4,
+          "byType": {
+            "stylesheet": 21602,
+            "image": 17002
+          },
+          "typedBytes": 38604
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 107.8,
+      "byGroup": {
+        "other": 69.7,
+        "styleLayout": 17.4,
+        "scriptEvaluation": 9.1,
+        "parseHTML": 7.7,
+        "paintCompositeRender": 3.4,
+        "scriptParseCompile": 0.5
+      },
+      "bootupMs": 4.1,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 32,
+      "depth": 12,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 20146,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 907,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 11,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 2
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2447,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T20:12:42.614Z",
+      "runtimeMs": 6099.9
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.2,
+    "elementRenderDelay": 191
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "Server",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "Server"
+    },
+    "violations": 5,
+    "passes": 41,
+    "incomplete": 3,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".a-alert",
+            "snippet": "<div class=\"a-box a-alert a-alert-info a-spacing-base\"> <div class=\"a-box-inner\"> <i class=\"a-icon a-icon-alert\" alt=\"Alert icon\"></i> <h4>Click the button below to continue shopping</h4> </div> </di…"
+          },
+          {
+            "selector": ".a-spacing-small",
+            "snippet": "<div class=\"a-text-center a-spacing-small a-size-mini\">"
+          },
+          {
+            "selector": ".a-color-base",
+            "snippet": "<div class=\"a-text-center a-size-mini a-color-base\"> © 1996-2025, Amazon.com, Inc. or its affiliates </div>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html class=\"a-no-js\" lang=\"en-us\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html class=\"a-no-js\" lang=\"en-us\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "8d7808a84f6f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "NotCacheable from child"
+        }
+      },
+      {
+        "hash": "51f96334a1d3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "NotCacheable from child"
+        }
+      },
+      {
+        "hash": "109f3ce62476",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "NotCacheable from child"
+        }
+      },
+      {
+        "hash": "fc19c4610b3e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "NotCacheable from child"
+        }
+      },
+      {
+        "hash": "3283201f0513",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "NotCacheable from child"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,390 @@
+{
+  "url": "https://starter.buildawesome.one/",
+  "name": "starter.buildawesome.one",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1794513306766,
+  "date": "2026-11-12T19:55:06.766Z",
+  "runId": "2026-11-12T19-53-35-419Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23621,
+  "error": null,
+  "variance": {
+    "min": 97,
+    "max": 97,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://starter.buildawesome.one/",
+    "finalUrl": "https://starter.buildawesome.one/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 97,
+      "accessibility": 81,
+      "best-practices": 100,
+      "seo": 82,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1823,
+      "lcp": 1823,
+      "si": 1823,
+      "tbt": 150,
+      "tti": 5101,
+      "cls": 0.009,
+      "ttfb": 606,
+      "maxPotentialFid": 189,
+      "serverResponseTime": 6,
+      "networkRtt": 0.1,
+      "networkServerLatency": 117.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 7.7,
+      "elementRenderDelay": 69.2
+    },
+    "weight": {
+      "total": 495901,
+      "requests": 21,
+      "mainDocument": 1982,
+      "byType": {
+        "total": {
+          "bytes": 476982,
+          "requests": 19
+        },
+        "script": {
+          "bytes": 322187,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 115777,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 34701,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 3314,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 602,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 401,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 474360,
+          "requests": 17
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 4,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 490496,
+      "mainThreadMs": 116.1,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 308238,
+          "mainThreadMs": 93.4,
+          "byType": {
+            "script": 308220,
+            "image": 18
+          },
+          "typedBytes": 308238
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 160014,
+          "mainThreadMs": 20.8,
+          "byType": {
+            "script": 9536,
+            "stylesheet": 34701,
+            "font": 115777
+          },
+          "typedBytes": 160014
+        },
+        {
+          "entity": "blades.dev",
+          "bytes": 16847,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 16847
+          },
+          "typedBytes": 16847
+        },
+        {
+          "entity": "zgo.at",
+          "bytes": 4431,
+          "mainThreadMs": 1.9,
+          "byType": {
+            "script": 4431
+          },
+          "typedBytes": 4431
+        },
+        {
+          "entity": "gstatic.com",
+          "bytes": 584,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 584
+          },
+          "typedBytes": 584
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 939.6,
+      "byGroup": {
+        "scriptEvaluation": 422.6,
+        "other": 228,
+        "styleLayout": 139.3,
+        "scriptParseCompile": 92.5,
+        "parseHTML": 30.6,
+        "paintCompositeRender": 22.2,
+        "garbageCollection": 4.5
+      },
+      "bootupMs": 443.9,
+      "longTasks": 6,
+      "longestTaskMs": 189
+    },
+    "dom": {
+      "elements": 152,
+      "depth": 10,
+      "maxChildren": 19
+    },
+    "waste": {
+      "unusedJsBytes": 144022,
+      "unusedCssBytes": 18216,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1067,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 16059.799999999997,
+      "poorlyCachedCount": 10
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 19,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 2
+        },
+        {
+          "id": "object-alt",
+          "title": "`<object>` elements do not have alternate text",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 32
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2442,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T19:55:21.601Z",
+      "runtimeMs": 6407.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": null,
+      "source": "meta",
+      "raw": "Build Awesome One¹ Starter (https://starter.buildawesome.one/)"
+    },
+    "probe": {
+      "metas": [
+        "Build Awesome One¹ Starter (https://starter.buildawesome.one/)"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M78N8MXZ9N3CXARMKTWF5534"
+    },
+    "violations": 5,
+    "passes": 268,
+    "incomplete": 0,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 2,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "th:nth-child(1) > p > a[title=\"github.com\"][target=\"_blank\"][rel=\"noopener noreferrer\"] > i > img",
+            "snippet": "<img src=\"https://www.google.com/s2/favicons?domain=github.com&amp;sz=64\">"
+          },
+          {
+            "selector": "th:nth-child(3) > p > a[title=\"github.com\"][target=\"_blank\"][rel=\"noopener noreferrer\"] > i > img",
+            "snippet": "<img src=\"https://www.google.com/s2/favicons?domain=github.com&amp;sz=64\">"
+          }
+        ]
+      },
+      {
+        "id": "object-alt",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "<object> elements must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "object:nth-child(1)",
+            "snippet": "<object data=\"https://buildawesome.one/gh.svg\"></object>"
+          },
+          {
+            "selector": "object[data=\"https://blades.dev/gh.svg\"]",
+            "snippet": "<object data=\"https://blades.dev/gh.svg\"></object>"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "li:nth-child(3) > a",
+            "snippet": "<a href=\"https://github.com/buildawesome-one/starter\"><i class=\"fa-brands fa-github\"></i></a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9d104d7ba757",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"c854c735e7a9751d887a9c93f95c3f88-ssl\""
+        }
+      },
+      {
+        "hash": "9d104d7ba757",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"c854c735e7a9751d887a9c93f95c3f88-ssl\""
+        }
+      },
+      {
+        "hash": "9d104d7ba757",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"c854c735e7a9751d887a9c93f95c3f88-ssl\""
+        }
+      },
+      {
+        "hash": "9d104d7ba757",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535981",
+          "etag": "W/\"c854c735e7a9751d887a9c93f95c3f88-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

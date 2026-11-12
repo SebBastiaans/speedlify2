@@ -1,0 +1,445 @@
+{
+  "url": "https://jquery.com/",
+  "name": "jQuery",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1794514115054,
+  "date": "2026-11-12T20:08:35.054Z",
+  "runId": "2026-11-12T19-53-35-419Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 40575,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 99,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://jquery.com/",
+    "finalUrl": "https://jquery.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 86,
+      "best-practices": 88,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1666,
+      "lcp": 1666,
+      "si": 1666,
+      "tbt": 0,
+      "tti": 1666,
+      "cls": 0.001,
+      "ttfb": 615,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 34,
+      "networkRtt": 1.9,
+      "networkServerLatency": 14.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 56.3,
+      "elementRenderDelay": 104.8
+    },
+    "weight": {
+      "total": 184002,
+      "requests": 20,
+      "mainDocument": 7404,
+      "byType": {
+        "total": {
+          "bytes": 181963,
+          "requests": 18
+        },
+        "image": {
+          "bytes": 63638,
+          "requests": 9
+        },
+        "font": {
+          "bytes": 59954,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 31808,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 19159,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 7404,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 181963,
+          "requests": 18
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 3,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 314.8,
+      "byGroup": {
+        "other": 130.5,
+        "styleLayout": 92.8,
+        "scriptEvaluation": 42.1,
+        "paintCompositeRender": 24.8,
+        "parseHTML": 16.4,
+        "scriptParseCompile": 8.1
+      },
+      "bootupMs": 11.4,
+      "longTasks": 1,
+      "longestTaskMs": 51
+    },
+    "dom": {
+      "elements": 311,
+      "depth": 17,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 4267,
+      "renderBlockingMs": 1051,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 86902.11249999999,
+      "poorlyCachedCount": 16
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 28,
+      "failingNodes": 23,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 18
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2481.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-12T20:08:36.317Z",
+      "runtimeMs": 6470.2
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127,
+    "elementRenderDelay": 439.7
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "wordpress",
+      "name": "WordPress",
+      "icon": "Wordpress",
+      "version": "7.1",
+      "source": "meta",
+      "raw": "WordPress 7.1"
+    },
+    "probe": {
+      "metas": [
+        "WordPress 7.1"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5982c54af0da5d9-IAD",
+      "server": "cloudflare",
+      "x-powered-by": "PHP/8.4.27"
+    },
+    "violations": 30,
+    "passes": 421,
+    "incomplete": 52,
+    "violationRules": 6,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 18,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#banner > a:nth-child(1)",
+            "snippet": "<a href=\"https://www.herodevs.com/support/jquery-nes?utm_source=jQuery&amp;utm_medium=link&amp;utm_campaign=eol_support_jQuery\">herodevs.com</a>"
+          },
+          {
+            "selector": "#banner > a:nth-child(2)",
+            "snippet": "<a href=\"https://tuxcare.com/lp/click-jquery-support/\">tuxcare.com</a>"
+          },
+          {
+            "selector": "#menu-trigger",
+            "snippet": "<button hidden=\"\" id=\"menu-trigger\" class=\"button menu-trigger\" aria-expanded=\"false\" aria-haspopup=\"menu\">Navigation</button>"
+          },
+          {
+            "selector": ".download-version",
+            "snippet": "<span class=\"download-version\">v4.0.0</span>"
+          },
+          {
+            "selector": ".syntaxhighlighter.javascript:nth-child(4) > table > tbody > tr > .code > pre > .container > .line > code > .hljs-string:nth-child(1)",
+            "snippet": "<span class=\"hljs-string\">\"button.continue\"</span>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 6,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#banner",
+            "snippet": "<div id=\"banner\">"
+          },
+          {
+            "selector": ".logo",
+            "snippet": "<h2 class=\"logo\"><a href=\"/\" title=\"jQuery\">jQuery</a></h2>"
+          },
+          {
+            "selector": "#banner-secondary",
+            "snippet": "<div id=\"banner-secondary\" class=\"row\">"
+          },
+          {
+            "selector": "#home-content > .eight",
+            "snippet": "<section class=\"eight columns\">"
+          },
+          {
+            "selector": "section:nth-child(3)",
+            "snippet": "<section>"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".syntaxhighlighter.javascript:nth-child(4)",
+            "snippet": "<div class=\"syntaxhighlighter javascript\">"
+          },
+          {
+            "selector": ".syntaxhighlighter.javascript:nth-child(7)",
+            "snippet": "<div class=\"syntaxhighlighter javascript\">"
+          },
+          {
+            "selector": ".syntaxhighlighter.javascript:nth-child(10)",
+            "snippet": "<div class=\"syntaxhighlighter javascript\">"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".visuallyhidden",
+            "snippet": "<button type=\"submit\" class=\"visuallyhidden\"></button>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html class=\"js\" lang=\"en-US\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html class=\"js\" lang=\"en-US\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "cf800f366a6b",
+        "nonce": "024ba064b77a",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1767",
+          "cf-cache-status": "HIT",
+          "last-modified": "Thu, 12 Nov 2026 19:39:09 GMT"
+        }
+      },
+      {
+        "hash": "cf800f366a6b",
+        "nonce": "024ba064b77a",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1773",
+          "cf-cache-status": "HIT",
+          "last-modified": "Thu, 12 Nov 2026 19:39:09 GMT"
+        }
+      },
+      {
+        "hash": "cf800f366a6b",
+        "nonce": "024ba064b77a",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1780",
+          "cf-cache-status": "HIT",
+          "last-modified": "Thu, 12 Nov 2026 19:39:09 GMT"
+        }
+      },
+      {
+        "hash": "cf800f366a6b",
+        "nonce": "024ba064b77a",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1786",
+          "cf-cache-status": "HIT",
+          "last-modified": "Thu, 12 Nov 2026 19:39:09 GMT"
+        }
+      },
+      {
+        "hash": "cf800f366a6b",
+        "nonce": "024ba064b77a",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1804",
+          "cf-cache-status": "HIT",
+          "last-modified": "Thu, 12 Nov 2026 19:39:09 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
