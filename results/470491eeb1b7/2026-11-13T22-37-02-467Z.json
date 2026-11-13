@@ -1,0 +1,523 @@
+{
+  "url": "https://xtdb.com/",
+  "name": "xtdb.com",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1794609422467,
+  "date": "2026-11-13T22:37:02.467Z",
+  "runId": "2026-11-13T22-35-43-396Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 31863,
+  "error": null,
+  "variance": {
+    "min": 84,
+    "max": 85,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://xtdb.com/",
+    "finalUrl": "https://xtdb.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 84,
+      "accessibility": 87,
+      "best-practices": 100,
+      "seo": 75,
+      "agentic-browsing": 48
+    },
+    "timings": {
+      "fcp": 1708,
+      "lcp": 4238,
+      "si": 2023,
+      "tbt": 0,
+      "tti": 4238,
+      "cls": 0.07,
+      "ttfb": 638,
+      "maxPotentialFid": 50,
+      "serverResponseTime": 37,
+      "networkRtt": 0.2,
+      "networkServerLatency": 102.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 39.2,
+      "elementRenderDelay": 234.3
+    },
+    "weight": {
+      "total": 585603,
+      "requests": 28,
+      "mainDocument": 27016,
+      "byType": {
+        "total": {
+          "bytes": 585603,
+          "requests": 28
+        },
+        "image": {
+          "bytes": 305751,
+          "requests": 6
+        },
+        "script": {
+          "bytes": 123048,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 106020,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 27016,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 21502,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 2266,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3623,
+          "requests": 5
+        }
+      },
+      "scripts": 8,
+      "stylesheets": 5,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 3623,
+      "mainThreadMs": 1.7,
+      "top": [
+        {
+          "entity": "juxt.pro",
+          "bytes": 2076,
+          "mainThreadMs": 1.5,
+          "byType": {
+            "script": 1476,
+            "other": 600
+          },
+          "typedBytes": 2076
+        },
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 1547,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1547
+          },
+          "typedBytes": 1547
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1787.7,
+      "byGroup": {
+        "other": 725.4,
+        "paintCompositeRender": 473.5,
+        "styleLayout": 369.8,
+        "scriptEvaluation": 171.4,
+        "parseHTML": 32,
+        "garbageCollection": 9.7,
+        "scriptParseCompile": 6
+      },
+      "bootupMs": 153.3,
+      "longTasks": 1,
+      "longestTaskMs": 55
+    },
+    "dom": {
+      "elements": 1186,
+      "depth": 24,
+      "maxChildren": 32
+    },
+    "waste": {
+      "unusedJsBytes": 49666,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 920,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 5,
+      "applicableCount": 30,
+      "failingNodes": 50,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 32
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 8
+        },
+        {
+          "id": "aria-input-field-name",
+          "title": "ARIA input fields do not have accessible names",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 3
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 3,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are not crawlable",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 39
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4136,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-13T22:37:23.215Z",
+      "runtimeMs": 9091
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": "7.3.2",
+      "source": "meta",
+      "raw": "Astro v7.3.2"
+    },
+    "probe": {
+      "metas": [
+        "Astro v7.3.2"
+      ],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "amazons3",
+      "name": "Amazon S3",
+      "icon": "Amazon",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AmazonS3",
+      "via": "1.1 a9fbb36f9e09db412e5a358af1c8a2c6.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "SOC8n6uMsA3JGEq4UZUkX4oSb77pf6Y9vR3wspLG8yJDadonhl4n7w=="
+    },
+    "violations": 56,
+    "passes": 1507,
+    "incomplete": 142,
+    "violationRules": 9,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 32,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".delay-200 > .flex-col.relative.flex > .p-1.bg-gray-100.dark\\:bg-gray-800 > xtplay-txs > .cm-editor.ͼ1.ͼ2 > .cm-scroller > .cm-content.cm-lineWrapping[spellcheck=\"false\"] > .cm-line > .ͼ5:nth-child(1)",
+            "snippet": "<span class=\"ͼ5\">INSERT</span>"
+          },
+          {
+            "selector": ".delay-200 > .flex-col.relative.flex > .p-1.bg-gray-100.dark\\:bg-gray-800 > xtplay-txs > .cm-editor.ͼ1.ͼ2 > .cm-scroller > .cm-content.cm-lineWrapping[spellcheck=\"false\"] > .cm-line > .ͼ5:nth-child(2)",
+            "snippet": "<span class=\"ͼ5\">INTO</span>"
+          },
+          {
+            "selector": ".ͼ5:nth-child(4)",
+            "snippet": "<span class=\"ͼ5\">id</span>"
+          },
+          {
+            "selector": ".delay-200 > .flex-col.relative.flex > .p-1.bg-gray-100.dark\\:bg-gray-800 > xtplay-txs > .cm-editor.ͼ1.ͼ2 > .cm-scroller > .cm-content.cm-lineWrapping[spellcheck=\"false\"] > .cm-line > .ͼ5:nth-child(7)",
+            "snippet": "<span class=\"ͼ5\">VALUES</span>"
+          },
+          {
+            "selector": ".delay-300 > .flex-col.relative.flex > .p-1.bg-gray-100.dark\\:bg-gray-800 > xtplay-txs > .cm-editor.ͼ1.ͼ2 > .cm-scroller > .cm-content.cm-lineWrapping[spellcheck=\"false\"] > .cm-line > .ͼ5:nth-child(1)",
+            "snippet": "<span class=\"ͼ5\">UPDATE</span>"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 8,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".testimonial-box.h-full.flex-col:nth-child(1) > .group[aria-label=\"Watch video\"][rel=\"noopener noreferrer\"]",
+            "snippet": "<a href=\"https://www.juxt.pro/blog/kent-beck-podcast/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Watch video\" class=\"block h-full group\">"
+          },
+          {
+            "selector": ".testimonial-box.h-full.flex-col:nth-child(2) > .group[aria-label=\"Watch video\"][rel=\"noopener noreferrer\"]",
+            "snippet": "<a href=\"https://github.com/orgs/xtdb/discussions/4419\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Watch video\" class=\"block h-full group\">"
+          },
+          {
+            "selector": ".testimonial-box.h-full.flex-col:nth-child(3) > .group[aria-label=\"Watch video\"][rel=\"noopener noreferrer\"]",
+            "snippet": "<a href=\"https://www.juxt.pro/blog/gene-kim-podcast/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Watch video\" class=\"block h-full group\">"
+          },
+          {
+            "selector": ".testimonial-box.h-full.flex-col:nth-child(4) > .group[aria-label=\"Watch video\"][rel=\"noopener noreferrer\"]",
+            "snippet": "<a href=\"https://www.juxt.pro/blog/ryan-robitaille-podcast/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Watch video\" class=\"block h-full group\">"
+          },
+          {
+            "selector": "a[href$=\"uAwuDSRtNo4\"]",
+            "snippet": "<a href=\"https://youtu.be/uAwuDSRtNo4\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Watch video\" class=\"block h-full group\">"
+          }
+        ]
+      },
+      {
+        "id": "aria-input-field-name",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "ARIA input fields must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-input-field-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".delay-200 > .flex-col.relative.flex > .p-1.bg-gray-100.dark\\:bg-gray-800 > xtplay-txs > .cm-editor.ͼ1.ͼ2 > .cm-scroller > .cm-content.cm-lineWrapping[spellcheck=\"false\"]",
+            "snippet": "<div spellcheck=\"false\" autocorrect=\"off\" autocapitalize=\"off\" writingsuggestions=\"false\" translate=\"no\" contenteditable=\"true\" class=\"cm-content cm-lineWrapping\" role=\"textbox\" aria-multiline=\"true\"…"
+          },
+          {
+            "selector": ".delay-300 > .flex-col.relative.flex > .p-1.bg-gray-100.dark\\:bg-gray-800 > xtplay-txs > .cm-editor.ͼ1.ͼ2 > .cm-scroller > .cm-content.cm-lineWrapping[spellcheck=\"false\"]",
+            "snippet": "<div spellcheck=\"false\" autocorrect=\"off\" autocapitalize=\"off\" writingsuggestions=\"false\" translate=\"no\" contenteditable=\"true\" class=\"cm-content cm-lineWrapping\" role=\"textbox\" aria-multiline=\"true\"…"
+          },
+          {
+            "selector": ".delay-400 > .flex-col.relative.flex > .p-1.bg-gray-100.dark\\:bg-gray-800 > xtplay-txs > .cm-editor.ͼ1.ͼ2 > .cm-scroller > .cm-content.cm-lineWrapping[spellcheck=\"false\"]",
+            "snippet": "<div spellcheck=\"false\" autocorrect=\"off\" autocapitalize=\"off\" writingsuggestions=\"false\" translate=\"no\" contenteditable=\"true\" class=\"cm-content cm-lineWrapping\" role=\"textbox\" aria-multiline=\"true\"…"
+          },
+          {
+            "selector": ".delay-600 > .flex-col.relative.flex > .p-1.bg-gray-100.dark\\:bg-gray-800 > xtplay-txs > .cm-editor.ͼ1.ͼ2 > .cm-scroller > .cm-content.cm-lineWrapping[spellcheck=\"false\"]",
+            "snippet": "<div spellcheck=\"false\" autocorrect=\"off\" autocapitalize=\"off\" writingsuggestions=\"false\" translate=\"no\" contenteditable=\"true\" class=\"cm-content cm-lineWrapping\" role=\"textbox\" aria-multiline=\"true\"…"
+          },
+          {
+            "selector": "xtplay-query > .cm-editor.ͼ1.ͼ2 > .cm-scroller > .cm-content.cm-lineWrapping[spellcheck=\"false\"]",
+            "snippet": "<div spellcheck=\"false\" autocorrect=\"off\" autocapitalize=\"off\" writingsuggestions=\"false\" translate=\"no\" contenteditable=\"true\" class=\"cm-content cm-lineWrapping\" role=\"textbox\" aria-multiline=\"true\"…"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".bg-\\[\\#0e1921\\] > .space-y-1.mb-4[data-astro-cid-yzxeoirf=\"\"] > h3",
+            "snippet": "<h3 class=\"text-2xl font-bold text-white\" data-astro-cid-yzxeoirf=\"\">Temporal Records</h3>"
+          },
+          {
+            "selector": ".hover\\:border-gray-600.lg\\:p-8.p-6:nth-child(1) > .relative[data-astro-cid-msy2rn5v=\"\"] > .sm\\:items-start.sm\\:justify-between.sm\\:flex-row > .flex-1[data-astro-cid-msy2rn5v=\"\"] > h4",
+            "snippet": "<h4 class=\"text-2xl font-bold text-white mb-2\" data-astro-cid-msy2rn5v=\"\">Virtual Power Plant orchestration</h4>"
+          },
+          {
+            "selector": ".basis-12.m-2.grow:nth-child(2) > h3",
+            "snippet": "<h3 class=\"mb-4 text-lg text-white\">Connect</h3>"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 2,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".p-6.bg-gray-100.dark\\:bg-gray-800:nth-child(1) > .justify-between.items-center[data-astro-cid-ujmrg5nk=\"\"] > .hover\\:text-gray-900.dark\\:text-gray-500.dark\\:hover\\:text-gray-200",
+            "snippet": "<button class=\"text-gray-500 hover:text-gray-900 dark:text-gray-500 dark:hover:text-gray-200 ml-4\" onclick=\"copyToClipboard(this.parentElement.querySelector('code').textContent, this)\" data-astro-cid…"
+          },
+          {
+            "selector": ".p-6.bg-gray-100.dark\\:bg-gray-800:nth-child(2) > .justify-between.items-center[data-astro-cid-ujmrg5nk=\"\"] > .hover\\:text-gray-900.dark\\:text-gray-500.dark\\:hover\\:text-gray-200",
+            "snippet": "<button class=\"text-gray-500 hover:text-gray-900 dark:text-gray-500 dark:hover:text-gray-200 ml-4\" onclick=\"copyToClipboard(this.parentElement.querySelector('code').textContent, this)\" data-astro-cid…"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#main-content",
+            "snippet": "<main id=\"main-content\">"
+          },
+          {
+            "selector": "#site-header",
+            "snippet": "<nav class=\"fixed w-full z-50 backdrop-blur-md bg-black/80 text-white transition-all duration-200 border-b border-grey/50\" id=\"site-header\" data-astro-cid-4oan7hod=\"\">"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".p-6.bg-gray-100.dark\\:bg-gray-800:nth-child(1) > .justify-between.items-center[data-astro-cid-ujmrg5nk=\"\"] > pre",
+            "snippet": "<pre class=\"text-gray-900 dark:text-gray-100 font-mono\" data-astro-cid-ujmrg5nk=\"\"><code data-astro-cid-ujmrg5nk=\"\">docker run -p 5432:5432 ghcr.io/xtdb/xtdb</code></pre>"
+          },
+          {
+            "selector": ".p-6.bg-gray-100.dark\\:bg-gray-800:nth-child(2) > .justify-between.items-center[data-astro-cid-ujmrg5nk=\"\"] > pre",
+            "snippet": "<pre class=\"text-gray-900 dark:text-gray-100 font-mono\" data-astro-cid-ujmrg5nk=\"\"><code data-astro-cid-ujmrg5nk=\"\">psql -h localhost xtdb -c \"SELECT 42\"</code></pre>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-main-is-top-level",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Main landmark should not be contained in another landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-main-is-top-level?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#main-content > main",
+            "snippet": "<main style=\"background-color: #0a0a0a;\" data-astro-cid-lcdefpme=\"\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-no-duplicate-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should not have more than one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#main-content",
+            "snippet": "<main id=\"main-content\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d9f518197c2d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2789352",
+          "etag": "W/\"a6cc9158dca6a081ca098e7771b12473\"",
+          "last-modified": "Mon, 12 Oct 2026 15:47:32 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "d9f518197c2d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2789363",
+          "etag": "W/\"a6cc9158dca6a081ca098e7771b12473\"",
+          "last-modified": "Mon, 12 Oct 2026 15:47:32 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "d9f518197c2d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2789372",
+          "etag": "W/\"a6cc9158dca6a081ca098e7771b12473\"",
+          "last-modified": "Mon, 12 Oct 2026 15:47:32 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "d9f518197c2d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2789380",
+          "etag": "W/\"a6cc9158dca6a081ca098e7771b12473\"",
+          "last-modified": "Mon, 12 Oct 2026 15:47:32 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
