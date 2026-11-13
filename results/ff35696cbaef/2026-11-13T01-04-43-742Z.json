@@ -1,0 +1,376 @@
+{
+  "url": "https://alprado.com/icons",
+  "name": "alprado.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794531883742,
+  "date": "2026-11-13T01:04:43.742Z",
+  "runId": "2026-11-13T01-04-02-322Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27522,
+  "error": null,
+  "variance": {
+    "min": 79,
+    "max": 86,
+    "spread": 7,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://alprado.com/icons",
+    "finalUrl": "https://alprado.com/",
+    "redirect": {
+      "from": "https://alprado.com/icons",
+      "to": "https://alprado.com/",
+      "chain": [
+        {
+          "url": "https://alprado.com/icons",
+          "status": 301
+        },
+        {
+          "url": "https://alprado.com/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        301
+      ],
+      "change": "path",
+      "permanent": true,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 80,
+      "accessibility": 92,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1008,
+      "lcp": 4759,
+      "si": 1410,
+      "tbt": 186,
+      "tti": 4759,
+      "cls": 0.002,
+      "ttfb": 666,
+      "maxPotentialFid": 189,
+      "serverResponseTime": 34,
+      "networkRtt": 0,
+      "networkServerLatency": 66.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 70,
+      "elementRenderDelay": 276.3
+    },
+    "weight": {
+      "total": 892364,
+      "requests": 29,
+      "mainDocument": 27994,
+      "byType": {
+        "total": {
+          "bytes": 892364,
+          "requests": 29
+        },
+        "image": {
+          "bytes": 566455,
+          "requests": 17
+        },
+        "script": {
+          "bytes": 220480,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 73153,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 27994,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 3168,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1114,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 198685,
+          "requests": 5
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 198685,
+      "mainThreadMs": 75.2,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 195389,
+          "mainThreadMs": 74.2,
+          "byType": {
+            "script": 195389
+          },
+          "typedBytes": 195389
+        },
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 3191,
+          "mainThreadMs": 1,
+          "byType": {
+            "script": 3191
+          },
+          "typedBytes": 3191
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 105,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 64,
+            "other": 41
+          },
+          "typedBytes": 105
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 746.2,
+      "byGroup": {
+        "scriptEvaluation": 319.5,
+        "other": 181,
+        "styleLayout": 120.8,
+        "scriptParseCompile": 48.8,
+        "parseHTML": 44.4,
+        "paintCompositeRender": 23.2,
+        "garbageCollection": 8.5
+      },
+      "bootupMs": 353.2,
+      "longTasks": 2,
+      "longestTaskMs": 189
+    },
+    "dom": {
+      "elements": 585,
+      "depth": 16,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 64268,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 664612,
+      "poorlyCachedCount": 21
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 23,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "frame-title",
+          "title": "`<frame>` or `<iframe>` elements do not have a title",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 816.2,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 31
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2994,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-13T01:05:01.748Z",
+      "runtimeMs": 7947.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "wordpress",
+      "name": "WordPress",
+      "icon": "Wordpress",
+      "version": "7.1.4",
+      "source": "meta",
+      "raw": "WordPress 7.1.4"
+    },
+    "probe": {
+      "metas": [
+        "WordPress 7.1.4",
+        "Site Kit by Google 1.191.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Caddy",
+      "detailIcon": "Caddy",
+      "source": "server"
+    },
+    "headers": {
+      "server": "FrankenPHP Caddy"
+    },
+    "violations": 4,
+    "passes": 992,
+    "incomplete": 16,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[data-id=\"185\"]",
+            "snippet": "<a href=\"https://alprado.com/acerca-de-mi/\" data-type=\"page\" data-id=\"185\">Conoce mi trayectoria</a>"
+          }
+        ]
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Frames must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe",
+            "snippet": "<iframe src=\"https://www.google.c...\" width=\"600\" height=\"560\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-c...\" class=\"map\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".wp-elements-29",
+            "snippet": "<div class=\"wp-block-group has-b...\" style=\"margin-bottom:0;padd...\">"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".slider",
+            "snippet": "<div class=\"wp-block-group alignwide slider has-custom-css is-nowrap is-layout-flex wp-container-core-group-is-layout-f632e6f1 wp-block-group-is-layout-flex wp-custom-css-8d6cf30d\" style=\"margin-bott…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9d6627a7d2b1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmtm6ad25k3j-3eyy-zstd\"",
+          "last-modified": "Thu, 12 Nov 2026 23:17:11 GMT"
+        }
+      },
+      {
+        "hash": "9d6627a7d2b1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmtm6ad25k3j-3eyy-zstd\"",
+          "last-modified": "Thu, 12 Nov 2026 23:17:11 GMT"
+        }
+      },
+      {
+        "hash": "9d6627a7d2b1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmtm6ad25k3j-3eyy-zstd\"",
+          "last-modified": "Thu, 12 Nov 2026 23:17:11 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
