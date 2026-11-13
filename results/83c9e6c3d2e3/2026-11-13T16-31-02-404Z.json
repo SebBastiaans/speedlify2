@@ -1,0 +1,341 @@
+{
+  "url": "https://qwik.dev/",
+  "name": "Qwik",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1794587462404,
+  "date": "2026-11-13T16:31:02.404Z",
+  "runId": "2026-11-13T16-18-37-301Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 71986,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 100,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://qwik.dev/",
+    "finalUrl": "https://qwik.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 96,
+      "best-practices": 81,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1910,
+      "lcp": 1910,
+      "si": 1910,
+      "tbt": 0,
+      "tti": 1910,
+      "cls": 0,
+      "ttfb": 459,
+      "maxPotentialFid": 32,
+      "serverResponseTime": 44,
+      "networkRtt": 0.9,
+      "networkServerLatency": 161
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 45.8,
+      "elementRenderDelay": 122.7
+    },
+    "weight": {
+      "total": 2411505,
+      "requests": 462,
+      "mainDocument": 45445,
+      "byType": {
+        "total": {
+          "bytes": 2411506,
+          "requests": 461
+        },
+        "image": {
+          "bytes": 1091276,
+          "requests": 12
+        },
+        "script": {
+          "bytes": 861294,
+          "requests": 203
+        },
+        "other": {
+          "bytes": 388274,
+          "requests": 241
+        },
+        "document": {
+          "bytes": 45445,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 25217,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 370952,
+          "requests": 7
+        }
+      },
+      "scripts": 204,
+      "stylesheets": 0,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10351,
+      "mainThreadMs": 10.5,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 10.5,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2062.1,
+      "byGroup": {
+        "other": 1165.1,
+        "scriptEvaluation": 657.3,
+        "styleLayout": 117.4,
+        "scriptParseCompile": 43.3,
+        "parseHTML": 41.7,
+        "paintCompositeRender": 37.3
+      },
+      "bootupMs": 653.8,
+      "longTasks": 2,
+      "longestTaskMs": 184
+    },
+    "dom": {
+      "elements": 740,
+      "depth": 22,
+      "maxChildren": 15
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 1122,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 876352.3999999999,
+      "poorlyCachedCount": 13
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 25,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 56
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2489.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-13T16:31:18.824Z",
+      "runtimeMs": 10871.4
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 857.5,
+    "elementRenderDelay": 0
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "qwik",
+      "name": "Qwik",
+      "icon": "Qwik",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "qwik"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a59f2bb6bc52bd54-ATL",
+      "server": "cloudflare"
+    },
+    "violations": 4,
+    "passes": 1057,
+    "incomplete": 48,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".c4vuk63 > .builder-text > p",
+            "snippet": "<p>npm create qwik@latest</p>"
+          },
+          {
+            "selector": ".c4kg5g5",
+            "snippet": "<a href=\"/examples/introduction/hello-world\" target=\"_self\" class=\"c4kg5g5\">View Examples</a>"
+          },
+          {
+            "selector": ".c22yjwp",
+            "snippet": "<a href=\"https://qwik.dev/ecosystem\" target=\"_self\" class=\"c22yjwp\">See All</a>"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" q:render=\"ssr\" q:route=\"/\" q:container=\"resumed\" q:version=\"1.20.4-dev+508fba1\" q:base=\"/build/\" q:locale=\"\" q:manifest-hash=\"52d2kn\" q:instance=\"xc4ra43gdd\" data-theme=\"light\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c8dd20f36c2e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1979",
+          "cf-cache-status": "MISS",
+          "last-modified": "Fri, 13 Nov 2026 15:58:05 GMT"
+        }
+      },
+      {
+        "hash": "c8dd20f36c2e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cf-cache-status": "HIT",
+          "last-modified": "Fri, 13 Nov 2026 15:58:05 GMT"
+        }
+      },
+      {
+        "hash": "c8dd20f36c2e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "25",
+          "cf-cache-status": "HIT",
+          "last-modified": "Fri, 13 Nov 2026 15:58:05 GMT"
+        }
+      },
+      {
+        "hash": "c8dd20f36c2e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "36",
+          "cf-cache-status": "HIT",
+          "last-modified": "Fri, 13 Nov 2026 15:58:05 GMT"
+        }
+      },
+      {
+        "hash": "c8dd20f36c2e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "63",
+          "cf-cache-status": "HIT",
+          "last-modified": "Fri, 13 Nov 2026 15:58:05 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
