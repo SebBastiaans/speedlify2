@@ -1,0 +1,433 @@
+{
+  "url": "https://www.palantir.com/",
+  "name": "Palantir",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1794558459354,
+  "date": "2026-11-13T08:27:39.354Z",
+  "runId": "2026-11-13T07-53-57-042Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 82981,
+  "error": null,
+  "variance": {
+    "min": 64,
+    "max": 66,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.palantir.com/",
+    "finalUrl": "https://www.palantir.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 65,
+      "accessibility": 95,
+      "best-practices": 92,
+      "seo": 85,
+      "agentic-browsing": 24
+    },
+    "timings": {
+      "fcp": 1116,
+      "lcp": 115188,
+      "si": 6872,
+      "tbt": 192,
+      "tti": 125436,
+      "cls": 0.064,
+      "ttfb": 613,
+      "maxPotentialFid": 214,
+      "serverResponseTime": 12,
+      "networkRtt": 0.1,
+      "networkServerLatency": 42.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 13.9,
+      "elementRenderDelay": 710.7
+    },
+    "weight": {
+      "total": 45446276,
+      "requests": 81,
+      "mainDocument": 61921,
+      "byType": {
+        "total": {
+          "bytes": 45443009,
+          "requests": 80
+        },
+        "image": {
+          "bytes": 39921277,
+          "requests": 14
+        },
+        "media": {
+          "bytes": 3361330,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 1641401,
+          "requests": 33
+        },
+        "other": {
+          "bytes": 180685,
+          "requests": 21
+        },
+        "font": {
+          "bytes": 144906,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 131489,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 61921,
+          "requests": 1
+        },
+        "third-party": {
+          "bytes": 20950425,
+          "requests": 15
+        }
+      },
+      "scripts": 33,
+      "stylesheets": 6,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 20950425,
+      "mainThreadMs": 60.7,
+      "top": [
+        {
+          "entity": "ctfassets.net",
+          "bytes": 20530109,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 20530109
+          },
+          "typedBytes": 20530109
+        },
+        {
+          "entity": "Optanon",
+          "bytes": 245487,
+          "mainThreadMs": 37.3,
+          "byType": {
+            "script": 153889,
+            "other": 45129,
+            "image": 46469
+          },
+          "typedBytes": 245487
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 174829,
+          "mainThreadMs": 23.4,
+          "byType": {
+            "script": 174829
+          },
+          "typedBytes": 174829
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2822.2,
+      "byGroup": {
+        "scriptEvaluation": 1011.8,
+        "other": 978.1,
+        "scriptParseCompile": 375,
+        "styleLayout": 275.7,
+        "paintCompositeRender": 69.9,
+        "parseHTML": 56.2,
+        "garbageCollection": 55.5
+      },
+      "bootupMs": 1252.6,
+      "longTasks": 10,
+      "longestTaskMs": 214
+    },
+    "dom": {
+      "elements": 1461,
+      "depth": 17,
+      "maxChildren": 28
+    },
+    "waste": {
+      "unusedJsBytes": 997004,
+      "unusedCssBytes": 121919,
+      "legacyJsBytes": 21360,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 16847015.20000001,
+      "poorlyCachedCount": 54
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 29,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 2
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "title": "`[aria-*]` attributes do not have valid values",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 4
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are not crawlable",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 4,
+      "baselineLimitedFeatures": 44
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4230,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-13T08:27:58.497Z",
+      "runtimeMs": 8757.9
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 575.8,
+    "elementRenderDelay": 10798.8
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "Nextdotjs",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "next",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "amazons3",
+      "name": "Amazon S3",
+      "icon": "Amazon",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AmazonS3",
+      "via": "1.1 varnish",
+      "x-served-by": "cache-chi-kmdw8640084-CHI"
+    },
+    "violations": 7,
+    "passes": 2072,
+    "incomplete": 90,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".ptcom-design__announcementBarTextCell__1ulabpz",
+            "snippet": "<div class=\"ptcom-design__announcementBarTextCell__1ulabpz\"><div><p>Read CEO Alex Karp’s <a href=\"/q3-2026-letter\">Letter to Shareholders</a> </p></div></div>"
+          },
+          {
+            "selector": ".ptcom-design__skipnav__1g4b6dk",
+            "snippet": "<a href=\"#main\" class=\"ptcom-design__skipnav__1g4b6dk\">Skip to Content</a>"
+          },
+          {
+            "selector": ".ptcom-design__primaryButtonWrapper__1g4b6dk",
+            "snippet": "<div class=\"ptcom-design__primaryButtonWrapper__1g4b6dk\"><a class=\"ptcom-design__button__1d8xeyx\" aria-controls=\"drawer\"><span aria-hidden=\"true\" class=\"ptcom-design__glyphLeft__1d8xeyx\">↖</span> Get…"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[aria-label=\"Palantir GB Homepage\"]",
+            "snippet": "<a class=\"ptcom-design__locale__1v32dv\" aria-label=\"Palantir GB Homepage\" href=\"/uk\">UK</a>"
+          },
+          {
+            "selector": ".ot-cookie-policy-link",
+            "snippet": "<a class=\"ot-cookie-policy-link\" href=\"https://www.palantir.com/cookie-statement/\" aria-label=\"More information about your privacy, opens in a new tab\" rel=\"noopener noreferrer\" target=\"_blank\">Cooki…"
+          }
+        ]
+      },
+      {
+        "id": "aria-valid-attr-value",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "ARIA attributes must conform to valid values",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-valid-attr-value?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".ptcom-design__button__1d8xeyx",
+            "snippet": "<a class=\"ptcom-design__button__1d8xeyx\" aria-controls=\"drawer\"><span aria-hidden=\"true\" class=\"ptcom-design__glyphLeft__1d8xeyx\">↖</span> Get Started</a>"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".ptcom-design__cards__1xz2rij",
+            "snippet": "<div class=\"ptcom-design__cards__1xz2rij\" style=\"--rotation-duration: 324s;\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d99c3e1fde07",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gsp"
+        ],
+        "headers": {
+          "age": "2856",
+          "etag": "\"8dcc222ed0471feb1d0fea05d8dfacc8\"",
+          "last-modified": "Thu, 12 Nov 2026 21:57:32 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "d99c3e1fde07",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gsp"
+        ],
+        "headers": {
+          "age": "2865",
+          "etag": "\"8dcc222ed0471feb1d0fea05d8dfacc8\"",
+          "last-modified": "Thu, 12 Nov 2026 21:57:32 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "d99c3e1fde07",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gsp"
+        ],
+        "headers": {
+          "age": "2874",
+          "etag": "\"8dcc222ed0471feb1d0fea05d8dfacc8\"",
+          "last-modified": "Thu, 12 Nov 2026 21:57:32 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "d99c3e1fde07",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gsp"
+        ],
+        "headers": {
+          "age": "2883",
+          "etag": "\"8dcc222ed0471feb1d0fea05d8dfacc8\"",
+          "last-modified": "Thu, 12 Nov 2026 21:57:32 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "d99c3e1fde07",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gsp"
+        ],
+        "headers": {
+          "age": "2932",
+          "etag": "\"8dcc222ed0471feb1d0fea05d8dfacc8\"",
+          "last-modified": "Thu, 12 Nov 2026 21:57:32 GMT",
+          "x-cache": "HIT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

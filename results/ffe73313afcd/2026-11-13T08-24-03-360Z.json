@@ -1,0 +1,410 @@
+{
+  "url": "https://www.cisco.com/",
+  "name": "Cisco",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1794558243360,
+  "date": "2026-11-13T08:24:03.360Z",
+  "runId": "2026-11-13T07-53-57-042Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 115651,
+  "error": null,
+  "variance": {
+    "min": 47,
+    "max": 51,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.cisco.com/",
+    "finalUrl": "https://www.cisco.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 49,
+      "accessibility": 96,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 46
+    },
+    "timings": {
+      "fcp": 2872,
+      "lcp": 2872,
+      "si": 4695,
+      "tbt": 1054,
+      "tti": 26015,
+      "cls": 0.316,
+      "ttfb": 650,
+      "maxPotentialFid": 419,
+      "serverResponseTime": 37,
+      "networkRtt": 16,
+      "networkServerLatency": 145.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 38.2,
+      "elementRenderDelay": 213.5
+    },
+    "weight": {
+      "total": 3764651,
+      "requests": 250,
+      "mainDocument": 31448,
+      "byType": {
+        "total": {
+          "bytes": 3762112,
+          "requests": 232
+        },
+        "script": {
+          "bytes": 2402390,
+          "requests": 112
+        },
+        "image": {
+          "bytes": 708406,
+          "requests": 55
+        },
+        "other": {
+          "bytes": 325554,
+          "requests": 53
+        },
+        "stylesheet": {
+          "bytes": 241606,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 49417,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 34739,
+          "requests": 7
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2268768,
+          "requests": 123
+        }
+      },
+      "scripts": 116,
+      "stylesheets": 4,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 18,
+      "bytes": 2265767,
+      "mainThreadMs": 723,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 515709,
+          "mainThreadMs": 166.1,
+          "byType": {
+            "script": 515709
+          },
+          "typedBytes": 515709
+        },
+        {
+          "entity": "Brightcove",
+          "bytes": 265556,
+          "mainThreadMs": 104.8,
+          "byType": {
+            "script": 257677,
+            "other": 7389,
+            "image": 490
+          },
+          "typedBytes": 265556
+        },
+        {
+          "entity": "Optanon",
+          "bytes": 225215,
+          "mainThreadMs": 17.3,
+          "byType": {
+            "script": 144582,
+            "other": 45154,
+            "image": 35479
+          },
+          "typedBytes": 225215
+        },
+        {
+          "entity": "brightcovecdn.com",
+          "bytes": 223186,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "other": 223186
+          },
+          "typedBytes": 223186
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 220702,
+          "mainThreadMs": 97.9,
+          "byType": {
+            "script": 220702
+          },
+          "typedBytes": 220702
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 7094.9,
+      "byGroup": {
+        "scriptEvaluation": 4050.1,
+        "other": 1503.9,
+        "styleLayout": 650.7,
+        "scriptParseCompile": 418.1,
+        "paintCompositeRender": 255,
+        "parseHTML": 145.3,
+        "garbageCollection": 71.8
+      },
+      "bootupMs": 4005.4,
+      "longTasks": 20,
+      "longestTaskMs": 419
+    },
+    "dom": {
+      "elements": 4538,
+      "depth": 39,
+      "maxChildren": 49
+    },
+    "waste": {
+      "unusedJsBytes": 857648,
+      "unusedCssBytes": 185901,
+      "legacyJsBytes": 56316,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 5414,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1800,
+      "renderBlockingCount": 12,
+      "poorlyCachedBytes": 1578336.2232611107,
+      "poorlyCachedCount": 105
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 37,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "tabindex",
+          "title": "Some elements have a `[tabindex]` value greater than 0",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "skip-link",
+          "title": "Skip links are not focusable.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 7
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 3,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 65
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4084,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-13T08:24:38.643Z",
+      "runtimeMs": 14768.4
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 708.9,
+    "elementRenderDelay": 3207.2
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "3.3.3"
+      }
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {
+      "x-served-by": "cache-chi-klot8100091-CHI"
+    },
+    "violations": 24,
+    "passes": 1744,
+    "incomplete": 11,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 18,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".fw-c-skiplinks__container > li:nth-child(2)",
+            "snippet": "<li><a id=\"fw-c-skiplinks__skiplink--search\" href=\"#fw-c-header__button--search\">Skip to search</a></li>"
+          },
+          {
+            "selector": ".cdc-homepage-scroll-animate-in",
+            "snippet": "<div class=\"container responsivegrid aem-GridColumn aem-GridColumn--default--12 cdc-homepage-scroll-animate-target cdc-homepage-scroll-animate-in\">"
+          },
+          {
+            "selector": "h1",
+            "snippet": "<h1 class=\"muse-heading-hero\"> The critical infrastructure for the AI era </h1>"
+          },
+          {
+            "selector": ".muse-l-grid > .cmp-teaser__content > .cmp-teaser__action-container > .cds-c-cta__wrapper:nth-child(2)",
+            "snippet": "<span class=\"cds-c-cta__wrapper\"> <a class=\"cds-c-cta cds-c-cta--secondary \" href=\"/site/us/en/about/whats-new.html\" target=\"_self\"><span class=\"cmp-button__text\">What's new</span></a> </span>"
+          },
+          {
+            "selector": "#_content_experience-fragments_cdc_site_us_en_homepage_2026-quick-tasks-targetable_master_jcr_content_root_experiencefragment66d5db14-f98f-4462-8c6f-bb56288ee1b3",
+            "snippet": "<div id=\"_content_experience-fragments_cdc_site_us_en_homepage_2026-quick-tasks-targetable_master_jcr_content_root_experiencefragment66d5db14-f98f-4462-8c6f-bb56288ee1b3\" class=\"campaign \" style=\"vis…"
+          }
+        ]
+      },
+      {
+        "id": "tabindex",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Elements should not have tabindex greater than zero",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/tabindex?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#features-accordion-item-2d9e2e6166 > div[slot=\"feature-title\"] > .cds-c-features-accordion-item__title.title",
+            "snippet": "<div class=\"title cds-c-features-accordion-item__title\" tabindex=\"1\"> <div data-c-version=\"DM:Title (V2):V2.1.0\" id=\"title-2aa6ccc270\" class=\"cmp-title muse-prose \"> <h3 class=\"cmp-title__text \">AI-r…"
+          },
+          {
+            "selector": "#features-accordion-item-ece9c10011 > div[slot=\"feature-title\"] > .cds-c-features-accordion-item__title.title",
+            "snippet": "<div class=\"title cds-c-features-accordion-item__title\" tabindex=\"1\"> <div data-c-version=\"DM:Title (V2):V2.1.0\" id=\"title-ce389deba2\" class=\"cmp-title muse-prose \"> <h3 class=\"cmp-title__text \">Futu…"
+          },
+          {
+            "selector": "#features-accordion-item-591eef1be0 > div[slot=\"feature-title\"] > .cds-c-features-accordion-item__title.title",
+            "snippet": "<div class=\"title cds-c-features-accordion-item__title\" tabindex=\"1\"> <div data-c-version=\"DM:Title (V2):V2.1.0\" id=\"title-08037a1fde\" class=\"cmp-title muse-prose \"> <h3 class=\"cmp-title__text \">Digi…"
+          }
+        ]
+      },
+      {
+        "id": "label-title-only",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Form elements should have a visible label",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-title-only?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#fw-c-global-search__form-phrase",
+            "snippet": "<input type=\"text\" aria-activedescendan...=\"\" aria-labelledby=\"fw-c-global-search__...\" aria-autocomplete=\"both\" aria-describedby=\"fw-c-global-search__...\" aria-expanded=\"false\" aria-haspopup=\"listbo…"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#fw-c-global-search",
+            "snippet": "<section id=\"fw-c-global-search\" class=\"fw-c-search --global-search\" is=\"cdc-global-search\" role=\"search\">"
+          }
+        ]
+      },
+      {
+        "id": "skip-link",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "The skip-link target should exist and be focusable",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/skip-link?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#fw-c-skiplinks__skiplink--search",
+            "snippet": "<a id=\"fw-c-skiplinks__skiplink--search\" href=\"#fw-c-header__button--search\">Skip to search</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "47671dd01400",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "3b4052e55085",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "e91668202d69",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "e1f9aa89e886",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "e86ee696958f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
