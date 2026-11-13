@@ -1,0 +1,274 @@
+{
+  "url": "https://www.ilithya.rocks/",
+  "name": "www.ilithya.rocks",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794587035981,
+  "date": "2026-11-13T16:23:55.981Z",
+  "runId": "2026-11-13T16-18-33-401Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 1,
+  "durationMs": 399167,
+  "error": null,
+  "partialErrors": [
+    "lighthouse timed out after 120000ms",
+    "The \"start lh:runner:gather\" performance mark has not been set"
+  ],
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://www.ilithya.rocks/",
+    "finalUrl": "https://www.ilithya.rocks/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 70,
+      "accessibility": 96,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 903,
+      "lcp": 903,
+      "si": 2077,
+      "tbt": 171155,
+      "tti": 179650,
+      "cls": 0,
+      "ttfb": 723,
+      "maxPotentialFid": 2161,
+      "serverResponseTime": 32,
+      "networkRtt": 6.9,
+      "networkServerLatency": 122.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 86.7,
+      "elementRenderDelay": 72.8
+    },
+    "weight": {
+      "total": 207426,
+      "requests": 7,
+      "mainDocument": 5438,
+      "byType": {
+        "total": {
+          "bytes": 207426,
+          "requests": 6
+        },
+        "script": {
+          "bytes": 148759,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 32181,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 21048,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 5438,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 0,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 179156.5,
+      "byGroup": {
+        "other": 177121.8,
+        "scriptEvaluation": 1768,
+        "garbageCollection": 104,
+        "styleLayout": 86.4,
+        "paintCompositeRender": 66.9,
+        "parseHTML": 6,
+        "scriptParseCompile": 3.3
+      },
+      "bootupMs": 1736.5,
+      "longTasks": 20,
+      "longestTaskMs": 2161
+    },
+    "dom": {
+      "elements": 70,
+      "depth": 7,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 66809,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 21,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "aria-prohibited-attr",
+          "title": "Elements use prohibited ARIA attributes",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 11
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3050.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-13T16:23:57.198Z",
+      "runtimeMs": 75282.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": true,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7AVT97AZ3GTJM91EQTBRFVA"
+    },
+    "violations": 2,
+    "passes": 157,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#js-canvas-title",
+            "snippet": "<div id=\"js-canvas-title\" class=\"u-fixed-cnt u-info-motion\" aria-label=\"3D render of typography (artist, creative technologist, and educator) with floating cubes and donuts\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#js-picker > ul",
+            "snippet": "<ul>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "390a21afd5b7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"8cbcdd4b330f2fddd2be6468d288580f-ssl\""
+        }
+      },
+      {
+        "hash": "390a21afd5b7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535988",
+          "etag": "W/\"8cbcdd4b330f2fddd2be6468d288580f-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

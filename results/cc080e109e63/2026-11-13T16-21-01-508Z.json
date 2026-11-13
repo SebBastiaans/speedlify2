@@ -1,0 +1,263 @@
+{
+  "url": "https://aila.ngo/",
+  "name": "aila.ngo",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794586861508,
+  "date": "2026-11-13T16:21:01.508Z",
+  "runId": "2026-11-13T16-18-33-401Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24747,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://aila.ngo/",
+    "finalUrl": "https://aila.ngo/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1039,
+      "lcp": 1039,
+      "si": 1039,
+      "tbt": 0,
+      "tti": 1039,
+      "cls": 0,
+      "ttfb": 739,
+      "maxPotentialFid": 47,
+      "serverResponseTime": 131,
+      "networkRtt": 0,
+      "networkServerLatency": 139.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 132.8,
+      "elementRenderDelay": 211.4
+    },
+    "weight": {
+      "total": 294202,
+      "requests": 16,
+      "mainDocument": 9060,
+      "byType": {
+        "total": {
+          "bytes": 291111,
+          "requests": 15
+        },
+        "image": {
+          "bytes": 121216,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 76392,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 75735,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 9060,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 7826,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 882,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 284,
+      "byGroup": {
+        "other": 135.1,
+        "styleLayout": 104.7,
+        "scriptEvaluation": 15.4,
+        "paintCompositeRender": 15.1,
+        "parseHTML": 11.3,
+        "scriptParseCompile": 2.5
+      },
+      "bootupMs": 13.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 306,
+      "depth": 11,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 24,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 37
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3053,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-13T16:21:18.838Z",
+      "runtimeMs": 7110.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "xmit",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "xmit"
+    },
+    "violations": 0,
+    "passes": 423,
+    "incomplete": 8,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "4e218aa7d1ec",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "bzBq8ev8jb6ROquQYzmnAVG3wWGXS_E9auRGXGgZYfQDk",
+          "last-modified": "Tue, 10 Nov 2026 19:30:25 GMT"
+        }
+      },
+      {
+        "hash": "4e218aa7d1ec",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "bzBq8ev8jb6ROquQYzmnAVG3wWGXS_E9auRGXGgZYfQDk",
+          "last-modified": "Tue, 10 Nov 2026 19:30:25 GMT"
+        }
+      },
+      {
+        "hash": "4e218aa7d1ec",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "bzBq8ev8jb6ROquQYzmnAVG3wWGXS_E9auRGXGgZYfQDk",
+          "last-modified": "Tue, 10 Nov 2026 19:30:25 GMT"
+        }
+      },
+      {
+        "hash": "4e218aa7d1ec",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "bzBq8ev8jb6ROquQYzmnAVG3wWGXS_E9auRGXGgZYfQDk",
+          "last-modified": "Tue, 10 Nov 2026 19:30:25 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
