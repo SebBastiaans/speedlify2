@@ -1,0 +1,428 @@
+{
+  "url": "https://coastline941.com/",
+  "name": "coastline941.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794609372939,
+  "date": "2026-11-13T22:36:12.939Z",
+  "runId": "2026-11-13T22-35-46-906Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 57422,
+  "error": null,
+  "variance": {
+    "min": 34,
+    "max": 99,
+    "spread": 65,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://coastline941.com/",
+    "finalUrl": "https://coastline941.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 70,
+      "accessibility": 78,
+      "best-practices": 58,
+      "seo": 100,
+      "agentic-browsing": 56
+    },
+    "timings": {
+      "fcp": 1789,
+      "lcp": 2595,
+      "si": 5241,
+      "tbt": 0,
+      "tti": 2595,
+      "cls": 0.556,
+      "ttfb": 668,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 68,
+      "networkRtt": 249.2,
+      "networkServerLatency": 718.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 69.3,
+      "resourceLoadDelay": 264,
+      "resourceLoadDuration": 76.3,
+      "elementRenderDelay": 24
+    },
+    "weight": {
+      "total": 31754052,
+      "requests": 201,
+      "mainDocument": 8487,
+      "byType": {
+        "total": {
+          "bytes": 31748664,
+          "requests": 192
+        },
+        "image": {
+          "bytes": 28744631,
+          "requests": 113
+        },
+        "other": {
+          "bytes": 2761313,
+          "requests": 19
+        },
+        "script": {
+          "bytes": 216247,
+          "requests": 56
+        },
+        "document": {
+          "bytes": 24714,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 1759,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 31302530,
+          "requests": 169
+        }
+      },
+      "scripts": 56,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 26629,
+      "mainThreadMs": 20.8,
+      "top": [
+        {
+          "entity": "Baidu Analytics",
+          "bytes": 23735,
+          "mainThreadMs": 17.7,
+          "byType": {
+            "script": 23137,
+            "image": 598
+          },
+          "typedBytes": 23735
+        },
+        {
+          "entity": "idztv123.vip",
+          "bytes": 2218,
+          "mainThreadMs": 2.5,
+          "byType": {
+            "script": 2218
+          },
+          "typedBytes": 2218
+        },
+        {
+          "entity": "bdstatic.com",
+          "bytes": 560,
+          "mainThreadMs": 0.6,
+          "byType": {
+            "script": 560
+          },
+          "typedBytes": 560
+        },
+        {
+          "entity": "baidu.com",
+          "bytes": 116,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 116
+          },
+          "typedBytes": 116
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 510.9,
+      "byGroup": {
+        "other": 182.7,
+        "styleLayout": 136.7,
+        "scriptEvaluation": 113.3,
+        "paintCompositeRender": 43.9,
+        "parseHTML": 25,
+        "scriptParseCompile": 9.3
+      },
+      "bootupMs": 80.6,
+      "longTasks": 1,
+      "longestTaskMs": 72
+    },
+    "dom": {
+      "elements": 559,
+      "depth": 8,
+      "maxChildren": 13
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 955,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 23134258.165975437,
+      "poorlyCachedCount": 100
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 15,
+      "failingNodes": 63,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 61
+        },
+        {
+          "id": "frame-title",
+          "title": "`<frame>` or `<iframe>` elements do not have a title",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "meta-viewport",
+          "title": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "h2",
+      "legacyHttpRequests": 103,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 14
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3091.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-13T22:36:50.335Z",
+      "runtimeMs": 14491.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 202,
+    "passes": 3045,
+    "incomplete": 61,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 110,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#warpperId >>> .sc-gUQvok",
+            "snippet": "<div class=\"sc-gUQvok lkoswL\">"
+          },
+          {
+            "selector": "#warpperId >>> .slick-current",
+            "snippet": "<div data-index=\"0\" class=\"slick-slide slick-active slick-current\" tabindex=\"-1\" aria-hidden=\"false\" style=\"outline: none; width: 412px;\">"
+          },
+          {
+            "selector": "#warpperId >>> .fhozUs",
+            "snippet": "<div height=\"75px\" width=\"100%\" class=\"sc-bkkeKt sc-dJjYzT fhozUs ciOzeC\">"
+          },
+          {
+            "selector": "#warpperId >>> .sc-fXeWAj > .ITGOw[height=\"auto\"][width=\"100%\"]:nth-child(4)",
+            "snippet": "<div height=\"auto\" width=\"100%\" class=\"sc-bkkeKt ITGOw\">"
+          },
+          {
+            "selector": "#warpperId >>> .sc-fXeWAj > .hrsGj.sc-kfPuZi.ITGOw",
+            "snippet": "<div height=\"auto\" width=\"100%\" class=\"sc-bkkeKt sc-kfPuZi ITGOw hrsGj\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 61,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".crumb",
+            "snippet": "<div class=\"crumb\">首页 &gt; 电影 &gt; 正在热播</div>"
+          },
+          {
+            "selector": "#grid-hot > .card:nth-child(1) > .info > .meta > span:nth-child(1)",
+            "snippet": "<span>2023 · 电视剧</span>"
+          },
+          {
+            "selector": "#grid-hot > .card:nth-child(1) > .info > .meta > .score",
+            "snippet": "<span class=\"score\">8.7</span>"
+          },
+          {
+            "selector": "#grid-hot > .card:nth-child(2) > .info > .meta > span:nth-child(1)",
+            "snippet": "<span>2023 · 电视剧</span>"
+          },
+          {
+            "selector": "#grid-hot > .card:nth-child(2) > .info > .meta > .score",
+            "snippet": "<span class=\"score\">8.5</span>"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 29,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#warpperId >>> .slick-current > div > .ITGOw.sc-dJjYzT[height=\"auto\"] > .bofkRY",
+            "snippet": "<img src=\"https://wbep-image.sf-express.com/cx/6/c862aee4b76647eeaf88d4a79b4d00e8.gif\" height=\"auto\" width=\"100%\" class=\"sc-iwjdpV bofkRY\">"
+          },
+          {
+            "selector": "#warpperId >>> .gnPkuk.sc-ieecCq.eWYSgU:nth-child(1) > .sc-fKVqWL.EPffz.jqAWAv > .eKWwzI[width=\"40px\"]",
+            "snippet": "<img src=\"https://pic.tujia.com/upload/tim/day_2604/202604202056222511.png\" width=\"40px\" height=\"auto\" class=\"sc-iwjdpV eKWwzI\">"
+          },
+          {
+            "selector": "#warpperId >>> .dhTnFa.sc-ieecCq.eWYSgU:nth-child(2) > .sc-fKVqWL.EPffz.jqAWAv > .eKWwzI[width=\"40px\"]",
+            "snippet": "<img src=\"https://pic.tujia.com/upload/tim/day_2604/202604202056247687.png\" width=\"40px\" height=\"auto\" class=\"sc-iwjdpV eKWwzI\">"
+          },
+          {
+            "selector": "#warpperId >>> .gnPkuk.sc-ieecCq.eWYSgU:nth-child(3) > .sc-fKVqWL.EPffz.jqAWAv > .eKWwzI[width=\"40px\"]",
+            "snippet": "<img src=\"https://pic.tujia.com/upload/tim/day_2604/202604202056287754.png\" width=\"40px\" height=\"auto\" class=\"sc-iwjdpV eKWwzI\">"
+          },
+          {
+            "selector": "#warpperId >>> .dhTnFa.sc-ieecCq.eWYSgU:nth-child(4) > .sc-fKVqWL.EPffz.jqAWAv > .eKWwzI[width=\"40px\"]",
+            "snippet": "<img src=\"https://img.meituan.net/seashopimage/dbd73fa5480b5ef443d9c4885ed3abd74610.gif\" width=\"40px\" height=\"auto\" class=\"sc-iwjdpV eKWwzI\">"
+          }
+        ]
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Frames must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#warpperId",
+            "snippet": "<iframe width=\"100%\" height=\"100%\" id=\"warpperId\" src=\"https://rhmkzptwye.070482.lifestyle:8283/?nb=vss-068&amp;bm=v10&amp;ml=kp&amp;t\"> </iframe>"
+          }
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Zooming and scaling must not be disabled",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "body > meta[name=\"viewport\"]",
+            "snippet": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d2ba68285706",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "d2ba68285706",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "d2ba68285706",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "aa08d9e29a68",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {},
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
