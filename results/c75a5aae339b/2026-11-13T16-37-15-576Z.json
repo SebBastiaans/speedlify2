@@ -1,0 +1,274 @@
+{
+  "url": "https://sglazov.ru/",
+  "name": "sglazov.ru",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794587835576,
+  "date": "2026-11-13T16:37:15.576Z",
+  "runId": "2026-11-13T16-18-56-459Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27857,
+  "error": null,
+  "variance": {
+    "min": 94,
+    "max": 100,
+    "spread": 6,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://sglazov.ru/",
+    "finalUrl": "https://sglazov.ru/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 73,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1071,
+      "lcp": 1071,
+      "si": 2309,
+      "tbt": 6,
+      "tti": 2978,
+      "cls": 0,
+      "ttfb": 771,
+      "maxPotentialFid": 61,
+      "serverResponseTime": 175,
+      "networkRtt": 0,
+      "networkServerLatency": 257.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 176.8,
+      "elementRenderDelay": 1166
+    },
+    "weight": {
+      "total": 524490,
+      "requests": 19,
+      "mainDocument": 6430,
+      "byType": {
+        "total": {
+          "bytes": 519865,
+          "requests": 17
+        },
+        "font": {
+          "bytes": 417269,
+          "requests": 6
+        },
+        "script": {
+          "bytes": 70090,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 16018,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 6955,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 6430,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3103,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 66663,
+          "requests": 2
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 2,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 66663,
+      "mainThreadMs": 19.5,
+      "top": [
+        {
+          "entity": "Yandex Metrica",
+          "bytes": 66663,
+          "mainThreadMs": 19.5,
+          "byType": {
+            "script": 65596,
+            "other": 1067
+          },
+          "typedBytes": 66663
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 306.8,
+      "byGroup": {
+        "other": 132.1,
+        "scriptEvaluation": 101.7,
+        "styleLayout": 34.6,
+        "parseHTML": 18.8,
+        "scriptParseCompile": 13.3,
+        "paintCompositeRender": 6.4
+      },
+      "bootupMs": 100.8,
+      "longTasks": 1,
+      "longestTaskMs": 61
+    },
+    "dom": {
+      "elements": 111,
+      "depth": 8,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 35389,
+      "unusedCssBytes": 13637,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 58532.8,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 15
+        },
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 28
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3497.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-13T16:37:35.142Z",
+      "runtimeMs": 7789.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.7",
+      "source": "meta",
+      "raw": "Eleventy v3.1.7"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.7"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx/1.30.6"
+    },
+    "violations": 0,
+    "passes": 208,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "210b8882f5a7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "210b8882f5a7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "210b8882f5a7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "210b8882f5a7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

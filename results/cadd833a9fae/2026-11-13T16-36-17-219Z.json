@@ -1,0 +1,381 @@
+{
+  "url": "https://yarnpkg.com/",
+  "name": "Yarn",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1794587777219,
+  "date": "2026-11-13T16:36:17.219Z",
+  "runId": "2026-11-13T16-18-56-459Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 55356,
+  "error": null,
+  "variance": {
+    "min": 73,
+    "max": 90,
+    "spread": 17,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://yarnpkg.com/",
+    "finalUrl": "https://yarnpkg.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 78,
+      "accessibility": 93,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1113,
+      "lcp": 5365,
+      "si": 3197,
+      "tbt": 126,
+      "tti": 8192,
+      "cls": 0.002,
+      "ttfb": 650,
+      "maxPotentialFid": 215,
+      "serverResponseTime": 33,
+      "networkRtt": 0,
+      "networkServerLatency": 246.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 35,
+      "resourceLoadDelay": 87.3,
+      "resourceLoadDuration": 80.9,
+      "elementRenderDelay": 58.6
+    },
+    "weight": {
+      "total": 1695329,
+      "requests": 32,
+      "mainDocument": 6919,
+      "byType": {
+        "total": {
+          "bytes": 1695329,
+          "requests": 30
+        },
+        "image": {
+          "bytes": 965668,
+          "requests": 10
+        },
+        "script": {
+          "bytes": 606665,
+          "requests": 7
+        },
+        "stylesheet": {
+          "bytes": 57964,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 45524,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 12589,
+          "requests": 10
+        },
+        "document": {
+          "bytes": 6919,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 54888,
+          "requests": 4
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 54888,
+      "mainThreadMs": 24.1,
+      "top": [
+        {
+          "entity": "datadoghq-browser-agent.com",
+          "bytes": 49421,
+          "mainThreadMs": 24.1,
+          "byType": {
+            "script": 49421
+          },
+          "typedBytes": 49421
+        },
+        {
+          "entity": "GitHub",
+          "bytes": 5330,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 5330
+          },
+          "typedBytes": 5330
+        },
+        {
+          "entity": "browser-intake-datadoghq.eu",
+          "bytes": 137,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 137
+          },
+          "typedBytes": 137
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 4190.6,
+      "byGroup": {
+        "other": 3220.9,
+        "scriptEvaluation": 646.2,
+        "scriptParseCompile": 188,
+        "styleLayout": 64.1,
+        "paintCompositeRender": 41.7,
+        "parseHTML": 15.3,
+        "garbageCollection": 14.4
+      },
+      "bootupMs": 824.5,
+      "longTasks": 5,
+      "longestTaskMs": 215
+    },
+    "dom": {
+      "elements": 163,
+      "depth": 11,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 290261,
+      "unusedCssBytes": 49965,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 154926,
+      "unminifiedCssBytes": 12747,
+      "renderBlockingMs": 300,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 1141041.796666666,
+      "poorlyCachedCount": 19
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 24,
+      "failingNodes": 7,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 6
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 6
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 25
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3506,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-13T16:36:26.791Z",
+      "runtimeMs": 7620.3
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.8,
+    "resourceLoadDelay": 474.4,
+    "resourceLoadDuration": 6105.6,
+    "elementRenderDelay": 35.7
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "docusaurus",
+      "name": "Docusaurus",
+      "icon": "Docusaurus",
+      "version": "3.7.0",
+      "source": "meta",
+      "raw": "Docusaurus v3.7.0"
+    },
+    "probe": {
+      "metas": [
+        "Docusaurus v3.7.0"
+      ],
+      "marks": [
+        "docusaurus",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a59f33138fc7f3b4-PDX",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M7AWAA28K0XKMFMSFR8FYKX3"
+    },
+    "violations": 7,
+    "passes": 174,
+    "incomplete": 10,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 6,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "img[src$=\"icon-workspaces.png\"]",
+            "snippet": "<img class=\"icon_cRwW\" width=\"200\" height=\"180\" src=\"/img/icon-workspaces.png\">"
+          },
+          {
+            "selector": "img[src$=\"icon-stability.png\"]",
+            "snippet": "<img class=\"icon_cRwW\" width=\"200\" height=\"180\" src=\"/img/icon-stability.png\">"
+          },
+          {
+            "selector": "img[src$=\"icon-documentation.png\"]",
+            "snippet": "<img class=\"icon_cRwW\" width=\"200\" height=\"180\" src=\"/img/icon-documentation.png\">"
+          },
+          {
+            "selector": "img[src$=\"icon-plugins.png\"]",
+            "snippet": "<img class=\"icon_cRwW\" width=\"200\" height=\"180\" src=\"/img/icon-plugins.png\">"
+          },
+          {
+            "selector": "img[src$=\"icon-innovation.png\"]",
+            "snippet": "<img class=\"icon_cRwW\" width=\"200\" height=\"180\" src=\"/img/icon-innovation.png\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".col.col--4.feature_CLW0:nth-child(1) > .padding-horiz--md.text--center > h3",
+            "snippet": "<h3>Workspaces</h3>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "53abd1aaa892",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "36113",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31499887",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "53abd1aaa892",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "36121",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31499879",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "53abd1aaa892",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "34509",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31501491",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "53abd1aaa892",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "29288",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31506712",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "53abd1aaa892",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "35175",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31500826",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

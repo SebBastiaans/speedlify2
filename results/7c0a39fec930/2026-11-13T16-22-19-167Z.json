@@ -1,0 +1,335 @@
+{
+  "url": "https://alextheward.com/",
+  "name": "alextheward.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794586939167,
+  "date": "2026-11-13T16:22:19.167Z",
+  "runId": "2026-11-13T16-18-56-459Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 19395,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://alextheward.com/",
+    "finalUrl": "https://alextheward.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 96,
+      "best-practices": 92,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 781,
+      "lcp": 1973,
+      "si": 781,
+      "tbt": 0,
+      "tti": 1973,
+      "cls": 0,
+      "ttfb": 612,
+      "maxPotentialFid": 42,
+      "serverResponseTime": 23,
+      "networkRtt": 0,
+      "networkServerLatency": 38.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 25.1,
+      "resourceLoadDelay": 29,
+      "resourceLoadDuration": 13.4,
+      "elementRenderDelay": 24.4
+    },
+    "weight": {
+      "total": 197291,
+      "requests": 12,
+      "mainDocument": 8864,
+      "byType": {
+        "total": {
+          "bytes": 197291,
+          "requests": 12
+        },
+        "script": {
+          "bytes": 84454,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 55524,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 43782,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 8864,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3023,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 1644,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 128507,
+          "requests": 6
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 128236,
+      "mainThreadMs": 3.2,
+      "top": [
+        {
+          "entity": "Unpkg",
+          "bytes": 81007,
+          "mainThreadMs": 0.8,
+          "byType": {
+            "script": 81007
+          },
+          "typedBytes": 81007
+        },
+        {
+          "entity": "bunny.net",
+          "bytes": 43782,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 43782
+          },
+          "typedBytes": 43782
+        },
+        {
+          "entity": "cthonicstudios.com",
+          "bytes": 3447,
+          "mainThreadMs": 2.4,
+          "byType": {
+            "script": 3447
+          },
+          "typedBytes": 3447
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 220.1,
+      "byGroup": {
+        "other": 93.8,
+        "scriptEvaluation": 70.8,
+        "styleLayout": 36.4,
+        "paintCompositeRender": 7.9,
+        "parseHTML": 7,
+        "scriptParseCompile": 4.1
+      },
+      "bootupMs": 55.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 83,
+      "depth": 10,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 54980,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 18657,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 3418.275,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 22,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is not valid",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 11
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3466.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-13T16:22:32.596Z",
+      "runtimeMs": 5849.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.0.0",
+      "source": "meta",
+      "raw": "Eleventy v3.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "bunny",
+      "name": "Bunny CDN",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "BunnyCDN-WA1-1431"
+    },
+    "violations": 2,
+    "passes": 182,
+    "incomplete": 2,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#main-menu",
+            "snippet": "<nav id=\"main-menu\">"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"search\"]",
+            "snippet": "<a href=\"/search\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "fd62d2b9527c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Thu, 12 Nov 2026 20:01:40 GMT"
+        }
+      },
+      {
+        "hash": "fd62d2b9527c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Thu, 12 Nov 2026 20:01:40 GMT"
+        }
+      },
+      {
+        "hash": "fd62d2b9527c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Thu, 12 Nov 2026 20:01:40 GMT"
+        }
+      },
+      {
+        "hash": "fd62d2b9527c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Thu, 12 Nov 2026 20:01:40 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

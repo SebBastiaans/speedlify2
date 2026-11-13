@@ -1,0 +1,470 @@
+{
+  "url": "https://alaskahikesearch.com/",
+  "name": "alaskahikesearch.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794586915481,
+  "date": "2026-11-13T16:21:55.481Z",
+  "runId": "2026-11-13T16-18-56-459Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20685,
+  "error": null,
+  "variance": {
+    "min": 74,
+    "max": 74,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://alaskahikesearch.com/",
+    "finalUrl": "https://alaskahikesearch.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 74,
+      "accessibility": 65,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1722,
+      "lcp": 11424,
+      "si": 1722,
+      "tbt": 0,
+      "tti": 11461,
+      "cls": 0,
+      "ttfb": 493,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 72,
+      "networkRtt": 0.9,
+      "networkServerLatency": 43.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 73.4,
+      "resourceLoadDelay": 69.7,
+      "resourceLoadDuration": 41.9,
+      "elementRenderDelay": 27.3
+    },
+    "weight": {
+      "total": 1982750,
+      "requests": 18,
+      "mainDocument": 3438,
+      "byType": {
+        "total": {
+          "bytes": 1982750,
+          "requests": 18
+        },
+        "image": {
+          "bytes": 1931051,
+          "requests": 8
+        },
+        "stylesheet": {
+          "bytes": 27616,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 14660,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 5985,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 3438,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 35763,
+          "requests": 4
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 35763,
+      "mainThreadMs": 6.6,
+      "top": [
+        {
+          "entity": "Bootstrap CDN",
+          "bytes": 25397,
+          "mainThreadMs": 1.4,
+          "byType": {
+            "stylesheet": 25397
+          },
+          "typedBytes": 25397
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10330,
+          "mainThreadMs": 5.1,
+          "byType": {
+            "script": 10330
+          },
+          "typedBytes": 10330
+        },
+        {
+          "entity": "cloudflareinsights.com",
+          "bytes": 36,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "other": 36
+          },
+          "typedBytes": 36
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 214,
+      "byGroup": {
+        "other": 116.1,
+        "scriptEvaluation": 44.6,
+        "styleLayout": 29.7,
+        "parseHTML": 11.5,
+        "paintCompositeRender": 8,
+        "scriptParseCompile": 4
+      },
+      "bootupMs": 7.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 177,
+      "depth": 11,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 23894,
+      "legacyJsBytes": 10335,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 929,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 5431.0150347222225,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 6,
+      "applicableCount": 15,
+      "failingNodes": 16,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 6
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 6
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 6
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 17
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3449.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-13T16:22:09.877Z",
+      "runtimeMs": 6147.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a59f1d2b094bfefd-PDX",
+      "server": "cloudflare"
+    },
+    "violations": 21,
+    "passes": 260,
+    "incomplete": 10,
+    "violationRules": 8,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 6,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".col:nth-child(1) > .card > div:nth-child(1) > a > img",
+            "snippet": "<img class=\"card-img-top\" src=\"/img/hikes/eagle-symphony-lakes-banner.jpg\">"
+          },
+          {
+            "selector": ".col:nth-child(2) > .card > div:nth-child(1) > a > img",
+            "snippet": "<img class=\"card-img-top\" src=\"/img/hikes/exit-glacier-banner.jpg\">"
+          },
+          {
+            "selector": "img[src$=\"flat-top-banner.jpg\"]",
+            "snippet": "<img class=\"card-img-top\" src=\"/img/hikes/flat-top-banner.jpg\">"
+          },
+          {
+            "selector": "a[href$=\"resurrection-pass\"] > img",
+            "snippet": "<img class=\"card-img-top\" src=\"/img/hikes/resurrection-pass-banner.jpg\">"
+          },
+          {
+            "selector": "a[href$=\"reed-lakes\"] > img",
+            "snippet": "<img class=\"card-img-top\" src=\"/img/hikes/reed-lakes-banner.jpg\">"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 6,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".col:nth-child(1) > .card > div:nth-child(1) > a",
+            "snippet": "<a href=\"/hikes/eagle-and-symphony-lakes\"><img class=\"card-img-top\" src=\"/img/hikes/eagle-symphony-lakes-banner.jpg\"></a>"
+          },
+          {
+            "selector": ".col:nth-child(2) > .card > div:nth-child(1) > a",
+            "snippet": "<a href=\"/hikes/exit-glacier-and-harding-icefield\"><img class=\"card-img-top\" src=\"/img/hikes/exit-glacier-banner.jpg\"></a>"
+          },
+          {
+            "selector": "div:nth-child(1) > a[href$=\"flat-top\"]",
+            "snippet": "<a href=\"/hikes/flat-top\"><img class=\"card-img-top\" src=\"/img/hikes/flat-top-banner.jpg\"></a>"
+          },
+          {
+            "selector": "div:nth-child(1) > a[href$=\"resurrection-pass\"]",
+            "snippet": "<a href=\"/hikes/resurrection-pass\"><img class=\"card-img-top\" src=\"/img/hikes/resurrection-pass-banner.jpg\"></a>"
+          },
+          {
+            "selector": "div:nth-child(1) > a[href$=\"reed-lakes\"]",
+            "snippet": "<a href=\"/hikes/reed-lakes\"><img class=\"card-img-top\" src=\"/img/hikes/reed-lakes-banner.jpg\"></a>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 4,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".container-fluid > .row:nth-child(1)",
+            "snippet": "<div class=\"row\">"
+          },
+          {
+            "selector": ".stats",
+            "snippet": "<div class=\"row stats\">"
+          },
+          {
+            "selector": ".callout.container",
+            "snippet": "<div class=\"container callout\">"
+          },
+          {
+            "selector": ".hike-cards",
+            "snippet": "<div class=\"container hike-cards\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".callout.container > .row > .offset-md-3.col-md-6 > h2 > span",
+            "snippet": "<span>Hikes</span>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".col:nth-child(1) > .card > .card-body > h5",
+            "snippet": "<h5 class=\"card-title\"><a href=\"/hikes/eagle-and-symphony-lakes\">Eagle &amp; Symphony Lakes</a></h5>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".navbar-dark",
+            "snippet": "<nav class=\"navbar navbar-expand-sm navbar-dark\"> <div class=\"container-xl\"> <h1 class=\"navbar-brand\"><a href=\"/\">Alaska Hike Search</a></h1> </div> </nav>"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "p:nth-child(1) > a[href=\"/\"]",
+            "snippet": "<a href=\"/\">Alaska Hike Search</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "1abf0d25f608",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "EXPIRED",
+          "last-modified": "Fri, 13 Nov 2026 16:21:56 GMT"
+        }
+      },
+      {
+        "hash": "1abf0d25f608",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "EXPIRED",
+          "last-modified": "Fri, 13 Nov 2026 16:22:03 GMT"
+        }
+      },
+      {
+        "hash": "1abf0d25f608",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "EXPIRED",
+          "last-modified": "Fri, 13 Nov 2026 16:22:09 GMT"
+        }
+      },
+      {
+        "hash": "1abf0d25f608",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "EXPIRED",
+          "last-modified": "Fri, 13 Nov 2026 16:22:12 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
