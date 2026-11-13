@@ -1,0 +1,306 @@
+{
+  "url": "https://www.teotimepacreau.fr/",
+  "name": "www.teotimepacreau.fr",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794556987127,
+  "date": "2026-11-13T08:03:07.127Z",
+  "runId": "2026-11-13T07-54-02-201Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22533,
+  "error": null,
+  "variance": {
+    "min": 84,
+    "max": 86,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.teotimepacreau.fr/",
+    "finalUrl": "https://www.teotimepacreau.fr/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 86,
+      "accessibility": 93,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1748,
+      "lcp": 4081,
+      "si": 1748,
+      "tbt": 0,
+      "tti": 4082,
+      "cls": 0,
+      "ttfb": 620,
+      "maxPotentialFid": 21,
+      "serverResponseTime": 20,
+      "networkRtt": 0,
+      "networkServerLatency": 20.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 22,
+      "elementRenderDelay": 661.7
+    },
+    "weight": {
+      "total": 602213,
+      "requests": 9,
+      "mainDocument": 3885,
+      "byType": {
+        "total": {
+          "bytes": 602213,
+          "requests": 9
+        },
+        "font": {
+          "bytes": 557451,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 30227,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 6591,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 3885,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 2957,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1102,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 29175,
+          "requests": 1
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 29175,
+      "mainThreadMs": 25.7,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 29175,
+          "mainThreadMs": 25.7,
+          "byType": {
+            "script": 29175
+          },
+          "typedBytes": 29175
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 653.3,
+      "byGroup": {
+        "other": 237.8,
+        "styleLayout": 191.8,
+        "scriptEvaluation": 157.7,
+        "paintCompositeRender": 47.3,
+        "parseHTML": 10.2,
+        "scriptParseCompile": 8.6
+      },
+      "bootupMs": 160.4,
+      "longTasks": 1,
+      "longestTaskMs": 69
+    },
+    "dom": {
+      "elements": 98,
+      "depth": 9,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 7,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 34
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2486.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-13T08:03:22.863Z",
+      "runtimeMs": 6346.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M79YXPBBAKPAMAQT8A3MGEK9"
+    },
+    "violations": 3,
+    "passes": 157,
+    "incomplete": 3,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "section:nth-child(4) > .homepage-projets-titre-flexer > h2",
+            "snippet": "<h2>Essais</h2>"
+          },
+          {
+            "selector": "section:nth-child(4) > ul > li > a",
+            "snippet": "<a href=\"/essais/challenger-pratiques-transformation-organisationelle-par-le-design-de-services\">Comment challenger les pratiques de transformation organisationelle par le design de services ?</a>"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#theme-toggler",
+            "snippet": "<button data-theme=\"dark\" id=\"theme-toggler\" name=\"Sélecteur de thème coloré\" style=\"appearance: none; border: none; background-color: transparent; position: absolute; left: 0; right: 0; top: calc(.5…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e5d972d4e0d0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "23916",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31512084",
+          "etag": "W/\"1703369aabf6ec857867338627e54eef-ssl\""
+        }
+      },
+      {
+        "hash": "e5d972d4e0d0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "23924",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31512076",
+          "etag": "W/\"1703369aabf6ec857867338627e54eef-ssl\""
+        }
+      },
+      {
+        "hash": "e5d972d4e0d0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "23930",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31512070",
+          "etag": "W/\"1703369aabf6ec857867338627e54eef-ssl\""
+        }
+      },
+      {
+        "hash": "e5d972d4e0d0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31512064",
+          "etag": "W/\"1703369aabf6ec857867338627e54eef-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

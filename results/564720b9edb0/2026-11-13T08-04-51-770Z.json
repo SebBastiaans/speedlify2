@@ -1,0 +1,444 @@
+{
+  "url": "https://www.tripgazer.com/",
+  "name": "www.tripgazer.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794557091770,
+  "date": "2026-11-13T08:04:51.770Z",
+  "runId": "2026-11-13T07-54-02-201Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 68044,
+  "error": null,
+  "variance": {
+    "min": 26,
+    "max": 36,
+    "spread": 10,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.tripgazer.com/",
+    "finalUrl": "https://www.tripgazer.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 30,
+      "accessibility": 92,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 91
+    },
+    "timings": {
+      "fcp": 4401,
+      "lcp": 15537,
+      "si": 9281,
+      "tbt": 1161,
+      "tti": 20903,
+      "cls": 0.127,
+      "ttfb": 621,
+      "maxPotentialFid": 322,
+      "serverResponseTime": 20,
+      "networkRtt": 113.1,
+      "networkServerLatency": 386.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 22.4,
+      "resourceLoadDelay": 707.5,
+      "resourceLoadDuration": 39.6,
+      "elementRenderDelay": 579.9
+    },
+    "weight": {
+      "total": 4887775,
+      "requests": 310,
+      "mainDocument": 50698,
+      "byType": {
+        "total": {
+          "bytes": 4887776,
+          "requests": 218
+        },
+        "image": {
+          "bytes": 2355432,
+          "requests": 37
+        },
+        "script": {
+          "bytes": 1929734,
+          "requests": 86
+        },
+        "document": {
+          "bytes": 303654,
+          "requests": 17
+        },
+        "font": {
+          "bytes": 223662,
+          "requests": 8
+        },
+        "other": {
+          "bytes": 47931,
+          "requests": 58
+        },
+        "stylesheet": {
+          "bytes": 27363,
+          "requests": 12
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 4256651,
+          "requests": 213
+        }
+      },
+      "scripts": 87,
+      "stylesheets": 12,
+      "fonts": 8
+    },
+    "thirdParty": {
+      "count": 21,
+      "bytes": 1874153,
+      "mainThreadMs": 749.2,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 495206,
+          "mainThreadMs": 198.8,
+          "byType": {
+            "script": 495206
+          },
+          "typedBytes": 495206
+        },
+        {
+          "entity": "grow.me",
+          "bytes": 351515,
+          "mainThreadMs": 7,
+          "byType": {
+            "script": 336150,
+            "other": 15365
+          },
+          "typedBytes": 351515
+        },
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 290027,
+          "mainThreadMs": 190.3,
+          "byType": {
+            "script": 289947,
+            "other": 80
+          },
+          "typedBytes": 290027
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 209071,
+          "mainThreadMs": 0.9,
+          "byType": {
+            "stylesheet": 7781,
+            "font": 201290
+          },
+          "typedBytes": 209071
+        },
+        {
+          "entity": "iubenda",
+          "bytes": 122703,
+          "mainThreadMs": 48.1,
+          "byType": {
+            "script": 122131,
+            "other": 572
+          },
+          "typedBytes": 122703
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 8490.1,
+      "byGroup": {
+        "scriptEvaluation": 4666.1,
+        "other": 1656.3,
+        "styleLayout": 974.9,
+        "paintCompositeRender": 525.7,
+        "scriptParseCompile": 395.5,
+        "garbageCollection": 195.9,
+        "parseHTML": 75.7
+      },
+      "bootupMs": 4818,
+      "longTasks": 20,
+      "longestTaskMs": 322
+    },
+    "dom": {
+      "elements": 1427,
+      "depth": 15,
+      "maxChildren": 90
+    },
+    "waste": {
+      "unusedJsBytes": 648940,
+      "unusedCssBytes": 44806,
+      "legacyJsBytes": 18681,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 13107,
+      "renderBlockingMs": 2618,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 477860.83664804435,
+      "poorlyCachedCount": 54
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 30,
+      "failingNodes": 88,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 84
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 2
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "list",
+          "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 13
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 49
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2452.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-13T08:05:37.889Z",
+      "runtimeMs": 19096.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "lit",
+        "fontawesome"
+      ],
+      "markVersions": {
+        "lit": "3.3.3"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M79Z26NYTAJV43VZ80017FPR"
+    },
+    "violations": 90,
+    "passes": 2747,
+    "incomplete": 10,
+    "violationRules": 6,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 84,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "li:nth-child(1) > article > .btn-cont > .btn",
+            "snippet": "<a class=\"btn\" href=\"/what-to-pack-for-south-korea-in-winter/\">READ <span class=\"line-1\"></span> <span class=\"line-2\"></span> <span class=\"line-3\"></span> <span class=\"line-4\"></span></a>"
+          },
+          {
+            "selector": ".btn[href=\"/best-free-packing-list-apps/\"]",
+            "snippet": "<a class=\"btn\" href=\"/best-free-packing-list-apps/\">READ <span class=\"line-1\"></span> <span class=\"line-2\"></span> <span class=\"line-3\"></span> <span class=\"line-4\"></span></a>"
+          },
+          {
+            "selector": "li:nth-child(4) > article > .btn-cont > .btn",
+            "snippet": "<a class=\"btn\" href=\"/things-to-do-near-yankee-candle-deerfield-ma/\">READ <span class=\"line-1\"></span> <span class=\"line-2\"></span> <span class=\"line-3\"></span> <span class=\"line-4\"></span></a>"
+          },
+          {
+            "selector": "li:nth-child(6) > article > .btn-cont > .btn",
+            "snippet": "<a class=\"btn\" href=\"/packing-for-a-caribbean-cruise-checklist/\">READ <span class=\"line-1\"></span> <span class=\"line-2\"></span> <span class=\"line-3\"></span> <span class=\"line-4\"></span></a>"
+          },
+          {
+            "selector": ".btn[href=\"/disney-cruise-packing-list/\"]",
+            "snippet": "<a class=\"btn\" href=\"/disney-cruise-packing-list/\">READ <span class=\"line-1\"></span> <span class=\"line-2\"></span> <span class=\"line-3\"></span> <span class=\"line-4\"></span></a>"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[aria-label=\"Buy Maps\"]",
+            "snippet": "<div class=\"google-anno-skip goo...\" tabindex=\"0\" role=\"link\" aria-label=\"Buy Maps\" data-google-vignette=\"false\" data-google-intersti...=\"false\" style=\"color-scheme: initia...\">"
+          },
+          {
+            "selector": ".google-anno-sc.google-anno-skip[aria-label=\"Plan Vacations\"]",
+            "snippet": "<div class=\"google-anno-skip goo...\" tabindex=\"0\" role=\"link\" aria-label=\"Plan Vacations\" data-google-vignette=\"false\" data-google-intersti...=\"false\" style=\"color-scheme: initia...\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "li:nth-child(1) > article > h3",
+            "snippet": "<h3><a href=\"/what-to-pack-for-south-korea-in-winter/\">What to Pack for South Korea in Winter</a></h3>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-no-duplicate-banner",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should not have more than one banner landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-banner?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".site-header",
+            "snippet": "<header class=\"site-header\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".site-header",
+            "snippet": "<header class=\"site-header\">"
+          }
+        ]
+      },
+      {
+        "id": "list",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".article-post",
+            "snippet": "<ul class=\"article-post columns-2\" style=\"height: auto !important;\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "84aead52dfbf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"70306ef6b67b3bee599a856114b3ba97-ssl\""
+        }
+      },
+      {
+        "hash": "84aead52dfbf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "22",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535978",
+          "etag": "W/\"70306ef6b67b3bee599a856114b3ba97-ssl\""
+        }
+      },
+      {
+        "hash": "84aead52dfbf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "44",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535956",
+          "etag": "W/\"70306ef6b67b3bee599a856114b3ba97-ssl\""
+        }
+      },
+      {
+        "hash": "84aead52dfbf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535937",
+          "etag": "W/\"70306ef6b67b3bee599a856114b3ba97-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
