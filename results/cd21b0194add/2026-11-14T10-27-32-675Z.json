@@ -1,0 +1,294 @@
+{
+  "url": "https://www.opt-out.ai/",
+  "name": "www.opt-out.ai",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794652052675,
+  "date": "2026-11-14T10:27:32.675Z",
+  "runId": "2026-11-14T10-19-49-560Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 77354,
+  "error": null,
+  "variance": {
+    "min": 83,
+    "max": 87,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.opt-out.ai/",
+    "finalUrl": "https://www.opt-out.ai/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 85,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 83,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2473,
+      "lcp": 2473,
+      "si": 10208,
+      "tbt": 0,
+      "tti": 2473,
+      "cls": 0.047,
+      "ttfb": 1386,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 877,
+      "networkRtt": 0,
+      "networkServerLatency": 786.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 878.9,
+      "elementRenderDelay": 5666.3
+    },
+    "weight": {
+      "total": 28085,
+      "requests": 11,
+      "mainDocument": 1567,
+      "byType": {
+        "total": {
+          "bytes": 27678,
+          "requests": 9
+        },
+        "image": {
+          "bytes": 11868,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 7906,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 5233,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 1567,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1104,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 7363,
+          "requests": 3
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 7363,
+      "mainThreadMs": 1.5,
+      "top": [
+        {
+          "entity": "parity.domains",
+          "bytes": 6259,
+          "mainThreadMs": 1.5,
+          "byType": {
+            "script": 6259
+          },
+          "typedBytes": 6259
+        },
+        {
+          "entity": "namecheap.com",
+          "bytes": 1104,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 1104
+          },
+          "typedBytes": 1104
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 183.9,
+      "byGroup": {
+        "other": 108.7,
+        "scriptEvaluation": 33.8,
+        "styleLayout": 24.4,
+        "paintCompositeRender": 8.8,
+        "parseHTML": 6,
+        "scriptParseCompile": 2.2
+      },
+      "bootupMs": 11.6,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 57,
+      "depth": 9,
+      "maxChildren": 4
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 936,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 18074.841666666667,
+      "poorlyCachedCount": 4
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "td-has-header",
+          "title": "`<td>` elements in a large `<table>` do not have table headers.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is not valid",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "http/1.1",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 16
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3534,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-14T10:27:56.895Z",
+      "runtimeMs": 30208.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx/1.28.3 (Ubuntu)"
+    },
+    "violations": 0,
+    "passes": 107,
+    "incomplete": 6,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "893dcec5e742",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6a6b771b-b93\"",
+          "last-modified": "Thu, 30 Jul 2026 16:08:59 GMT"
+        }
+      },
+      {
+        "hash": "893dcec5e742",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6a6b771b-b93\"",
+          "last-modified": "Thu, 30 Jul 2026 16:08:59 GMT"
+        }
+      },
+      {
+        "hash": "893dcec5e742",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6a6b771b-b93\"",
+          "last-modified": "Thu, 30 Jul 2026 16:08:59 GMT"
+        }
+      },
+      {
+        "hash": "893dcec5e742",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6a6b771b-b93\"",
+          "last-modified": "Thu, 30 Jul 2026 16:08:59 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
