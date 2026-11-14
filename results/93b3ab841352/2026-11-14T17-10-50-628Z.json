@@ -1,0 +1,279 @@
+{
+  "url": "https://bored.horse/",
+  "name": "bored.horse",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794676250628,
+  "date": "2026-11-14T17:10:50.628Z",
+  "runId": "2026-11-14T17-03-50-334Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 35734,
+  "error": null,
+  "variance": {
+    "min": 93,
+    "max": 100,
+    "spread": 7,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://bored.horse/",
+    "finalUrl": "https://bored.horse/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1001,
+      "lcp": 1001,
+      "si": 1001,
+      "tbt": 0,
+      "tti": 1001,
+      "cls": 0,
+      "ttfb": 643,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 28,
+      "networkRtt": 0,
+      "networkServerLatency": 123.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 29.8,
+      "elementRenderDelay": 67.8
+    },
+    "weight": {
+      "total": 141208,
+      "requests": 23,
+      "mainDocument": 17404,
+      "byType": {
+        "total": {
+          "bytes": 141208,
+          "requests": 23
+        },
+        "font": {
+          "bytes": 92794,
+          "requests": 5
+        },
+        "image": {
+          "bytes": 22826,
+          "requests": 11
+        },
+        "document": {
+          "bytes": 17404,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 5404,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 2780,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3798,
+          "requests": 3
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 0,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 3798,
+      "mainThreadMs": 1.6,
+      "top": [
+        {
+          "entity": "hedengren.services",
+          "bytes": 3798,
+          "mainThreadMs": 1.6,
+          "byType": {
+            "script": 2867,
+            "other": 931
+          },
+          "typedBytes": 3798
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 318,
+      "byGroup": {
+        "other": 176.4,
+        "styleLayout": 70.4,
+        "paintCompositeRender": 27.4,
+        "scriptEvaluation": 24.7,
+        "parseHTML": 17.2,
+        "scriptParseCompile": 1.9
+      },
+      "bootupMs": 15.4,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 283,
+      "depth": 11,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 30,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 25
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3016.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-14T17:11:17.444Z",
+      "runtimeMs": 7589.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5a7a2977e0f2c7e-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 570,
+    "incomplete": 42,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".tape",
+            "snippet": "<div class=\"tape\" role=\"note\" aria-label=\"Disclaimer: there are no actual horses here. Just horsin' around.\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "6f26b86406de",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "EXPIRED"
+        }
+      },
+      {
+        "hash": "6f26b86406de",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12",
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "6f26b86406de",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "23",
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "6f26b86406de",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "29",
+          "cf-cache-status": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
