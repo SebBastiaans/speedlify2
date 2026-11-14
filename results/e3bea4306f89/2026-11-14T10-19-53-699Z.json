@@ -1,0 +1,263 @@
+{
+  "url": "https://geshov.ru/",
+  "name": "geshov.ru",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1794651593699,
+  "date": "2026-11-14T10:19:53.699Z",
+  "runId": "2026-11-14T10-19-46-096Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 37222,
+  "error": null,
+  "variance": {
+    "min": 71,
+    "max": 94,
+    "spread": 23,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://geshov.ru/",
+    "finalUrl": "https://geshov.ru/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 94,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1559,
+      "lcp": 2779,
+      "si": 3268,
+      "tbt": 45,
+      "tti": 2781,
+      "cls": 0.003,
+      "ttfb": 784,
+      "maxPotentialFid": 95,
+      "serverResponseTime": 188,
+      "networkRtt": 0,
+      "networkServerLatency": 184.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 189,
+      "elementRenderDelay": 1196.2
+    },
+    "weight": {
+      "total": 414968,
+      "requests": 30,
+      "mainDocument": 24853,
+      "byType": {
+        "total": {
+          "bytes": 414968,
+          "requests": 30
+        },
+        "script": {
+          "bytes": 273537,
+          "requests": 16
+        },
+        "stylesheet": {
+          "bytes": 52066,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 39325,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 25187,
+          "requests": 7
+        },
+        "document": {
+          "bytes": 24853,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 16,
+      "stylesheets": 4,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 1170.7,
+      "byGroup": {
+        "scriptEvaluation": 469.8,
+        "other": 343.1,
+        "styleLayout": 145,
+        "paintCompositeRender": 83.1,
+        "scriptParseCompile": 74.3,
+        "parseHTML": 35.9,
+        "garbageCollection": 19.4
+      },
+      "bootupMs": 479.8,
+      "longTasks": 1,
+      "longestTaskMs": 95
+    },
+    "dom": {
+      "elements": 475,
+      "depth": 12,
+      "maxChildren": 25
+    },
+    "waste": {
+      "unusedJsBytes": 81756,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 13913,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 300,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 23,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 42
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3080.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-14T10:20:09.481Z",
+      "runtimeMs": 10098.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "Nextdotjs",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "next",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "OpenResty",
+      "detailIcon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "openresty",
+      "x-powered-by": "Next.js"
+    },
+    "violations": 0,
+    "passes": 594,
+    "incomplete": 57,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "2238a5a308aa",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"fj7h4wbwib2r3k\"",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1\n1"
+        }
+      },
+      {
+        "hash": "2238a5a308aa",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"fj7h4wbwib2r3k\"",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1\n1"
+        }
+      },
+      {
+        "hash": "2238a5a308aa",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"fj7h4wbwib2r3k\"",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1\n1"
+        }
+      },
+      {
+        "hash": "2238a5a308aa",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"fj7h4wbwib2r3k\"",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1, 1"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
