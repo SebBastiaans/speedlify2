@@ -1,0 +1,266 @@
+{
+  "url": "https://briefs.video/",
+  "name": "briefs.video",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794691720291,
+  "date": "2026-11-14T21:28:40.291Z",
+  "runId": "2026-11-14T21-27-26-045Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23722,
+  "error": null,
+  "variance": {
+    "min": 74,
+    "max": 100,
+    "spread": 26,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://briefs.video/",
+    "finalUrl": "https://briefs.video/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 76,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 847,
+      "lcp": 7911,
+      "si": 2214,
+      "tbt": 19,
+      "tti": 8083,
+      "cls": 0.015,
+      "ttfb": 636,
+      "maxPotentialFid": 69,
+      "serverResponseTime": 35,
+      "networkRtt": 0,
+      "networkServerLatency": 35.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 36.1,
+      "resourceLoadDelay": 7.7,
+      "resourceLoadDuration": 36.5,
+      "elementRenderDelay": 1233.4
+    },
+    "weight": {
+      "total": 1800533,
+      "requests": 33,
+      "mainDocument": 6615,
+      "byType": {
+        "total": {
+          "bytes": 1799624,
+          "requests": 31
+        },
+        "image": {
+          "bytes": 1704923,
+          "requests": 21
+        },
+        "font": {
+          "bytes": 47725,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 37045,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 6615,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 2617,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 699,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 864.5,
+      "byGroup": {
+        "other": 648.2,
+        "styleLayout": 151.1,
+        "paintCompositeRender": 26.8,
+        "parseHTML": 15.5,
+        "scriptEvaluation": 15.4,
+        "garbageCollection": 6.5,
+        "scriptParseCompile": 1
+      },
+      "bootupMs": 14.5,
+      "longTasks": 2,
+      "longestTaskMs": 69
+    },
+    "dom": {
+      "elements": 224,
+      "depth": 14,
+      "maxChildren": 18
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 24,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 10
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3501.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-14T21:28:56.400Z",
+      "runtimeMs": 7228.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7DZDEYFSPCDT8Q0PFVZR1JA"
+    },
+    "violations": 1,
+    "passes": 451,
+    "incomplete": 36,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".triangle",
+            "snippet": "<img class=\"triangle\" alt=\"in the corner of the web page there is a white triangle with ‘a white triangle’ written on it for no reason whatsoever\" src=\"/assets/images/white-triangle.svg\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "cf0855443ffe",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2308",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31533692",
+          "etag": "W/\"58c02ff86c8be57d56ad37c2d5b74031-ssl\""
+        }
+      },
+      {
+        "hash": "cf0855443ffe",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2317",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31533683",
+          "etag": "W/\"58c02ff86c8be57d56ad37c2d5b74031-ssl\""
+        }
+      },
+      {
+        "hash": "cf0855443ffe",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2323",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31533677",
+          "etag": "W/\"58c02ff86c8be57d56ad37c2d5b74031-ssl\""
+        }
+      },
+      {
+        "hash": "cf0855443ffe",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31533671",
+          "etag": "W/\"58c02ff86c8be57d56ad37c2d5b74031-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
