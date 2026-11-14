@@ -1,0 +1,459 @@
+{
+  "url": "https://chromatichq.com/",
+  "name": "chromatichq.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794692295811,
+  "date": "2026-11-14T21:38:15.811Z",
+  "runId": "2026-11-14T21-27-29-536Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 36661,
+  "error": null,
+  "variance": {
+    "min": 52,
+    "max": 58,
+    "spread": 6,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://chromatichq.com/",
+    "finalUrl": "https://chromatichq.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 53,
+      "accessibility": 93,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 932,
+      "lcp": 13192,
+      "si": 3278,
+      "tbt": 939,
+      "tti": 13247,
+      "cls": 0,
+      "ttfb": 609,
+      "maxPotentialFid": 305,
+      "serverResponseTime": 9,
+      "networkRtt": 14.4,
+      "networkServerLatency": 92.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 59.6,
+      "elementRenderDelay": 1989.2
+    },
+    "weight": {
+      "total": 1584562,
+      "requests": 87,
+      "mainDocument": 5701,
+      "byType": {
+        "total": {
+          "bytes": 1584562,
+          "requests": 87
+        },
+        "script": {
+          "bytes": 951707,
+          "requests": 29
+        },
+        "font": {
+          "bytes": 318857,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 195576,
+          "requests": 32
+        },
+        "stylesheet": {
+          "bytes": 65540,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 34330,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 18552,
+          "requests": 15
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1045292,
+          "requests": 38
+        }
+      },
+      "scripts": 29,
+      "stylesheets": 3,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 9,
+      "bytes": 942000,
+      "mainThreadMs": 473.4,
+      "top": [
+        {
+          "entity": "Google CDN",
+          "bytes": 360128,
+          "mainThreadMs": 58.3,
+          "byType": {
+            "other": 360128
+          },
+          "typedBytes": 360128
+        },
+        {
+          "entity": "Hubspot",
+          "bytes": 346506,
+          "mainThreadMs": 103.4,
+          "byType": {
+            "script": 337201,
+            "other": 5543,
+            "image": 3762
+          },
+          "typedBytes": 346506
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 183175,
+          "mainThreadMs": 34.2,
+          "byType": {
+            "script": 183175
+          },
+          "typedBytes": 183175
+        },
+        {
+          "entity": "Sentry",
+          "bytes": 26712,
+          "mainThreadMs": 263.6,
+          "byType": {
+            "script": 26412,
+            "other": 300
+          },
+          "typedBytes": 26712
+        },
+        {
+          "entity": "LinkedIn Ads",
+          "bytes": 22599,
+          "mainThreadMs": 13.1,
+          "byType": {
+            "script": 21837,
+            "image": 494,
+            "other": 268
+          },
+          "typedBytes": 22599
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 5082.8,
+      "byGroup": {
+        "scriptEvaluation": 2551,
+        "other": 1327.8,
+        "styleLayout": 589.2,
+        "scriptParseCompile": 282,
+        "paintCompositeRender": 180.5,
+        "garbageCollection": 101.1,
+        "parseHTML": 51.2
+      },
+      "bootupMs": 2721,
+      "longTasks": 18,
+      "longestTaskMs": 305
+    },
+    "dom": {
+      "elements": 332,
+      "depth": 12,
+      "maxChildren": 30
+    },
+    "waste": {
+      "unusedJsBytes": 336462,
+      "unusedCssBytes": 24026,
+      "legacyJsBytes": 13716,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 2342,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 156,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 331141.2,
+      "poorlyCachedCount": 10
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 33,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "aria-required-attr",
+          "title": "`[role]`s do not have all required `[aria-*]` attributes",
+          "weight": 10,
+          "nodes": 3
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 7
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 47
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2462.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-14T21:38:17.188Z",
+      "runtimeMs": 11385.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "2.0.1",
+      "source": "meta",
+      "raw": "Eleventy v2.0.1"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v2.0.1"
+      ],
+      "marks": [
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7DZZB5PV7PJM1703XE5FWT5"
+    },
+    "violations": 41,
+    "passes": 496,
+    "incomplete": 3,
+    "violationRules": 6,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 31,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#top",
+            "snippet": "<div id=\"top\" class=\"block block--hero\">"
+          },
+          {
+            "selector": "#clients > .container--medium.container",
+            "snippet": "<div class=\"container container--medium\">"
+          },
+          {
+            "selector": "img[alt=\"Statefarm logo\"]",
+            "snippet": "<img width=\"120\" src=\"/assets/images/clients/statefarm-logo-grey.svg\" alt=\"Statefarm logo\">"
+          },
+          {
+            "selector": "img[alt=\"Casper Sleep logo\"]",
+            "snippet": "<img width=\"120\" src=\"/assets/images/clients/casper-grey.svg\" alt=\"Casper Sleep logo\">"
+          },
+          {
+            "selector": "img[alt=\"MSNBC logo\"]",
+            "snippet": "<img width=\"120\" src=\"/assets/images/clients/full-msnbc-grey.svg\" alt=\"MSNBC logo\">"
+          }
+        ]
+      },
+      {
+        "id": "aria-required-attr",
+        "impact": "critical",
+        "nodes": 3,
+        "help": "Required ARIA attributes must be provided",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".inputs-list",
+            "snippet": "<ul role=\"checkbox\" class=\"inputs-list multi-container\">"
+          },
+          {
+            "selector": ".hs-form-radio[role=\"radio\"]:nth-child(1)",
+            "snippet": "<li class=\"hs-form-radio\" role=\"radio\"><label for=\"budget_secured0-c37d3ce1-287d-4056-8e89-c446aef5be8c\" class=\"hs-form-radio-display\"><input id=\"budget_secured0-c37d3ce1-287d-4056-8e89-c446aef5be8c\"…"
+          },
+          {
+            "selector": ".hs-form-radio[role=\"radio\"]:nth-child(2)",
+            "snippet": "<li class=\"hs-form-radio\" role=\"radio\"><label for=\"budget_secured1-c37d3ce1-287d-4056-8e89-c446aef5be8c\" class=\"hs-form-radio-display\"><input id=\"budget_secured1-c37d3ce1-287d-4056-8e89-c446aef5be8c\"…"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Interactive controls must not be nested",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".inputs-list",
+            "snippet": "<ul role=\"checkbox\" class=\"inputs-list multi-container\">"
+          },
+          {
+            "selector": ".hs-form-radio[role=\"radio\"]:nth-child(1)",
+            "snippet": "<li class=\"hs-form-radio\" role=\"radio\"><label for=\"budget_secured0-c37d3ce1-287d-4056-8e89-c446aef5be8c\" class=\"hs-form-radio-display\"><input id=\"budget_secured0-c37d3ce1-287d-4056-8e89-c446aef5be8c\"…"
+          },
+          {
+            "selector": ".hs-form-radio[role=\"radio\"]:nth-child(2)",
+            "snippet": "<li class=\"hs-form-radio\" role=\"radio\"><label for=\"budget_secured1-c37d3ce1-287d-4056-8e89-c446aef5be8c\" class=\"hs-form-radio-display\"><input id=\"budget_secured1-c37d3ce1-287d-4056-8e89-c446aef5be8c\"…"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" dir=\"ltr\" prefix=\"og: https://ogp.me/ns#\" class=\"js-enabled\">"
+          },
+          {
+            "selector": "iframe[title=\"reCAPTCHA\"] >>> html",
+            "snippet": "<html dir=\"ltr\" lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".inputs-list",
+            "snippet": "<ul role=\"checkbox\" class=\"inputs-list multi-container\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#trusted-by-prominent-organizations",
+            "snippet": "<h3 class=\"text-align--center\" id=\"trusted-by-prominent-organizations\">Trusted by Prominent Organizations</h3>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7ced69952c0a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "27940",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31508060",
+          "etag": "W/\"b850a2de1c44226dc1fcd0abb09b7bb7-ssl\""
+        }
+      },
+      {
+        "hash": "7ced69952c0a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "27951",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31508049",
+          "etag": "W/\"b850a2de1c44226dc1fcd0abb09b7bb7-ssl\""
+        }
+      },
+      {
+        "hash": "7ced69952c0a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "27962",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31508038",
+          "etag": "W/\"b850a2de1c44226dc1fcd0abb09b7bb7-ssl\""
+        }
+      },
+      {
+        "hash": "7ced69952c0a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31508029",
+          "etag": "W/\"b850a2de1c44226dc1fcd0abb09b7bb7-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

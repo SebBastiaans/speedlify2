@@ -1,0 +1,280 @@
+{
+  "url": "https://borsch.dev/",
+  "name": "borsch.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794691690934,
+  "date": "2026-11-14T21:28:10.934Z",
+  "runId": "2026-11-14T21-27-29-536Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20458,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://borsch.dev/",
+    "finalUrl": "https://borsch.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 788,
+      "lcp": 788,
+      "si": 788,
+      "tbt": 0,
+      "tti": 788,
+      "cls": 0,
+      "ttfb": 467,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 35,
+      "networkRtt": 0.1,
+      "networkServerLatency": 17.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 36.8,
+      "elementRenderDelay": 48.4
+    },
+    "weight": {
+      "total": 38491,
+      "requests": 7,
+      "mainDocument": 6475,
+      "byType": {
+        "total": {
+          "bytes": 34911,
+          "requests": 6
+        },
+        "script": {
+          "bytes": 17416,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 10582,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 6475,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 438,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10351,
+          "requests": 1
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10351,
+      "mainThreadMs": 8.1,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 8.1,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 176.4,
+      "byGroup": {
+        "other": 86.9,
+        "scriptEvaluation": 59.9,
+        "styleLayout": 14.3,
+        "parseHTML": 6.3,
+        "scriptParseCompile": 4.6,
+        "paintCompositeRender": 4.4
+      },
+      "bootupMs": 34,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 41,
+      "depth": 7,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 17530.12,
+      "poorlyCachedCount": 4
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 21
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2468.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-14T21:28:25.267Z",
+      "runtimeMs": 5824.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5a91b27ecd0b1fd-IAD",
+      "server": "cloudflare",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "f892a34c807a10080653141e53ca9b72b5379e79",
+      "x-github-request-id": "AD6E:12D229:15EDECE:1A8976F:6AF8CF69",
+      "x-served-by": "cache-iad-kiad7000072-IAD"
+    },
+    "violations": 0,
+    "passes": 105,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "1b6e3aa7a428",
+        "nonce": "44f0970cec68",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 23 May 2026 13:48:13 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "0cf8722f40b8",
+        "nonce": "1a9222ddfc53",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 23 May 2026 13:48:13 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "524bf47e927d",
+        "nonce": "50e8d1f34237",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 23 May 2026 13:48:13 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "e58b2eb9e402",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 23 May 2026 13:48:13 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

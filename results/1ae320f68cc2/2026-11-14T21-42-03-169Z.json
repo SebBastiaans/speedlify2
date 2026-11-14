@@ -1,0 +1,353 @@
+{
+  "url": "https://css-tip.com/",
+  "name": "css-tip.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794692523169,
+  "date": "2026-11-14T21:42:03.169Z",
+  "runId": "2026-11-14T21-27-29-536Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24294,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://css-tip.com/",
+    "finalUrl": "https://css-tip.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 95,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 802,
+      "lcp": 802,
+      "si": 802,
+      "tbt": 60,
+      "tti": 3455,
+      "cls": 0,
+      "ttfb": 613,
+      "maxPotentialFid": 117,
+      "serverResponseTime": 8,
+      "networkRtt": 1.8,
+      "networkServerLatency": 59
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 9.4,
+      "elementRenderDelay": 59.1
+    },
+    "weight": {
+      "total": 405762,
+      "requests": 17,
+      "mainDocument": 7083,
+      "byType": {
+        "total": {
+          "bytes": 405762,
+          "requests": 17
+        },
+        "script": {
+          "bytes": 199915,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 183235,
+          "requests": 8
+        },
+        "other": {
+          "bytes": 15529,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 7083,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 214544,
+          "requests": 9
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 214544,
+      "mainThreadMs": 67.1,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 172144,
+          "mainThreadMs": 57.4,
+          "byType": {
+            "script": 172144
+          },
+          "typedBytes": 172144
+        },
+        {
+          "entity": "Carbon Ads",
+          "bytes": 24401,
+          "mainThreadMs": 6.9,
+          "byType": {
+            "script": 10437,
+            "image": 13027,
+            "other": 937
+          },
+          "typedBytes": 24401
+        },
+        {
+          "entity": "servedby-buysellads.com",
+          "bytes": 17334,
+          "mainThreadMs": 2.8,
+          "byType": {
+            "script": 17334
+          },
+          "typedBytes": 17334
+        },
+        {
+          "entity": "BuySellAds",
+          "bytes": 596,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 596
+          },
+          "typedBytes": 596
+        },
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 69,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 69
+          },
+          "typedBytes": 69
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 544,
+      "byGroup": {
+        "scriptEvaluation": 235.4,
+        "other": 139.4,
+        "styleLayout": 78.7,
+        "scriptParseCompile": 60.2,
+        "paintCompositeRender": 19.3,
+        "parseHTML": 11
+      },
+      "bootupMs": 248.1,
+      "longTasks": 2,
+      "longestTaskMs": 117
+    },
+    "dom": {
+      "elements": 143,
+      "depth": 8,
+      "maxChildren": 15
+    },
+    "waste": {
+      "unusedJsBytes": 74961,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 185034.45,
+      "poorlyCachedCount": 9
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 23
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2444,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-14T21:42:11.749Z",
+      "runtimeMs": 7447
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.0.0",
+      "source": "meta",
+      "raw": "Eleventy v3.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "1bf726d3bbc4a6f999cfeb8183ca48e2784c806c",
+      "x-github-request-id": "4B6E:6F646:2B5C3B6:2E903D9:6AF8CB3A",
+      "x-served-by": "cache-iad-kcgs7200064-IAD"
+    },
+    "violations": 1,
+    "passes": 256,
+    "incomplete": 76,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".nuxt > a[rel=\"noopener\"][target=\"_blank\"]",
+            "snippet": "<a rel=\"noopener\" href=\"https://certificates.dev/nuxt?utm_source=CSSTIP&amp;utm_medium=website&amp;utm_campaign=affiliate&amp;friend=CSSTIP\" target=\"_blank\">Get Nuxt Certified</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "f781486eee0a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"6af6f8ab-5622\"",
+          "last-modified": "Fri, 13 Nov 2026 11:46:51 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "f781486eee0a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "etag": "W/\"6af6f8ab-5622\"",
+          "last-modified": "Fri, 13 Nov 2026 11:46:51 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "f781486eee0a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "etag": "W/\"6af6f8ab-5622\"",
+          "last-modified": "Fri, 13 Nov 2026 11:46:51 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "f781486eee0a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "18",
+          "etag": "W/\"6af6f8ab-5622\"",
+          "last-modified": "Fri, 13 Nov 2026 11:46:51 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
