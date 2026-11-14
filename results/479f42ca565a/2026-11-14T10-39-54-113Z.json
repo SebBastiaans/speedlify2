@@ -1,0 +1,396 @@
+{
+  "url": "https://www.nvidia.com/",
+  "name": "Nvidia",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1794652794113,
+  "date": "2026-11-14T10:39:54.113Z",
+  "runId": "2026-11-14T10-19-47-861Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 121125,
+  "error": null,
+  "variance": {
+    "min": 27,
+    "max": 27,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.nvidia.com/",
+    "finalUrl": "https://www.nvidia.com/en-us/",
+    "redirect": {
+      "from": "https://www.nvidia.com/",
+      "to": "https://www.nvidia.com/en-us",
+      "chain": [
+        {
+          "url": "https://www.nvidia.com/",
+          "status": 307
+        },
+        {
+          "url": "https://www.nvidia.com/en-us/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        307
+      ],
+      "change": "path",
+      "permanent": false,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 27,
+      "accessibility": 100,
+      "best-practices": 81,
+      "seo": 77,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 8386,
+      "lcp": 17530,
+      "si": 8386,
+      "tbt": 3545,
+      "tti": 17553,
+      "cls": 0,
+      "ttfb": 637,
+      "maxPotentialFid": 3075,
+      "serverResponseTime": 49,
+      "networkRtt": 0.5,
+      "networkServerLatency": 37
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 71.4,
+      "resourceLoadDelay": 2072.3,
+      "resourceLoadDuration": 36.3,
+      "elementRenderDelay": 286.3
+    },
+    "weight": {
+      "total": 3092302,
+      "requests": 51,
+      "mainDocument": 85501,
+      "byType": {
+        "total": {
+          "bytes": 3085772,
+          "requests": 47
+        },
+        "font": {
+          "bytes": 1189155,
+          "requests": 7
+        },
+        "script": {
+          "bytes": 992018,
+          "requests": 19
+        },
+        "image": {
+          "bytes": 482442,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 212620,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 124036,
+          "requests": 10
+        },
+        "document": {
+          "bytes": 85501,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 562692,
+          "requests": 13
+        }
+      },
+      "scripts": 19,
+      "stylesheets": 5,
+      "fonts": 7
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 562692,
+      "mainThreadMs": 155.6,
+      "top": [
+        {
+          "entity": "Adobe Tag Manager",
+          "bytes": 326315,
+          "mainThreadMs": 103.7,
+          "byType": {
+            "script": 326315
+          },
+          "typedBytes": 326315
+        },
+        {
+          "entity": "Optanon",
+          "bytes": 236377,
+          "mainThreadMs": 51.9,
+          "byType": {
+            "script": 161902,
+            "other": 63711,
+            "image": 10764
+          },
+          "typedBytes": 236377
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 9636.8,
+      "byGroup": {
+        "styleLayout": 6840.7,
+        "scriptEvaluation": 1361.6,
+        "other": 765.9,
+        "scriptParseCompile": 390.5,
+        "parseHTML": 194.2,
+        "paintCompositeRender": 55.2,
+        "garbageCollection": 28.7
+      },
+      "bootupMs": 1599.7,
+      "longTasks": 13,
+      "longestTaskMs": 3075
+    },
+    "dom": {
+      "elements": 4551,
+      "depth": 29,
+      "maxChildren": 34
+    },
+    "waste": {
+      "unusedJsBytes": 369336,
+      "unusedCssBytes": 214379,
+      "legacyJsBytes": 20391,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 3293,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 11797,
+      "renderBlockingCount": 18,
+      "poorlyCachedBytes": 1675730.4000000001,
+      "poorlyCachedCount": 15
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 31,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 5
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 3,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are not crawlable",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is not valid",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 787,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 53
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2446,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-14T10:40:41.155Z",
+      "runtimeMs": 19146.3
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1697.4,
+    "resourceLoadDelay": 24384.9,
+    "resourceLoadDuration": 1889.9,
+    "elementRenderDelay": 34.1
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "akamai",
+      "name": "Akamai",
+      "icon": "Akamai",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AkamaiGHost"
+    },
+    "violations": 9,
+    "passes": 1689,
+    "incomplete": 90,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-tab-name",
+        "impact": "serious",
+        "nodes": 6,
+        "help": "ARIA tab nodes must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-tab-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#progressBox_1",
+            "snippet": "<div class=\"progressBox activeBox\" id=\"progressBox_1\" role=\"tab\" tabindex=\"0\" aria-selected=\"true\" data-theme=\"black\">"
+          },
+          {
+            "selector": "#progressBox_2",
+            "snippet": "<div class=\"progressBox\" id=\"progressBox_2\" role=\"tab\" tabindex=\"-1\" aria-selected=\"false\" data-theme=\"White\">"
+          },
+          {
+            "selector": "#progressBox_3",
+            "snippet": "<div class=\"progressBox\" id=\"progressBox_3\" role=\"tab\" tabindex=\"-1\" aria-selected=\"false\" data-theme=\"White\">"
+          },
+          {
+            "selector": "#progressBox_4",
+            "snippet": "<div class=\"progressBox\" id=\"progressBox_4\" role=\"tab\" tabindex=\"-1\" aria-selected=\"false\" data-theme=\"black\">"
+          },
+          {
+            "selector": "#progressBox_5",
+            "snippet": "<div class=\"progressBox\" id=\"progressBox_5\" role=\"tab\" tabindex=\"-1\" aria-selected=\"false\" data-theme=\"black\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#meganavigation383963e2_46ad_492c_bde9_75cea89dcbf2",
+            "snippet": "<nav class=\"global-nav\" id=\"meganavigation383963e2_46ad_492c_bde9_75cea89dcbf2\">"
+          },
+          {
+            "selector": "#home-wmfg-carousel",
+            "snippet": "<div id=\"home-wmfg-carousel\" class=\"cmp-carousel\" role=\"region\" aria-label=\"Carousel\" aria-roledescription=\"carousel\" data-cmp-variation=\"carousel-home\" data-cmp-autoplay=\"\" data-cmp-delay=\"7000\" dat…"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#nv-cs-item-mob > .nav-cs-link[aria-haspopup=\"dialog\"][aria-controls=\"country-selector-modal\"]",
+            "snippet": "<button type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" aria-controls=\"country-selector-modal\" aria-label=\"Country Selector\" class=\"nav-cs-link menu-level-1 nav-tool-button\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7672a466d9b7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"b216a-660311b1caf58\"",
+          "last-modified": "Fri, 13 Nov 2026 23:51:24 GMT"
+        }
+      },
+      {
+        "hash": "d0cc94c62806",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"b216a-660311b119d8e\"",
+          "last-modified": "Fri, 13 Nov 2026 23:51:24 GMT"
+        }
+      },
+      {
+        "hash": "d0cc94c62806",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"b216a-660311b119d8e\"",
+          "last-modified": "Fri, 13 Nov 2026 23:51:24 GMT"
+        }
+      },
+      {
+        "hash": "d0cc94c62806",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"b216a-660311b119d8e\"",
+          "last-modified": "Fri, 13 Nov 2026 23:51:24 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

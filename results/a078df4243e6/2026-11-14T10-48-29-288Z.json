@@ -1,0 +1,391 @@
+{
+  "url": "https://www.sony.com/",
+  "name": "Sony",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1794653309288,
+  "date": "2026-11-14T10:48:29.288Z",
+  "runId": "2026-11-14T10-19-47-861Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 108689,
+  "error": null,
+  "variance": {
+    "min": 26,
+    "max": 26,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.sony.com/",
+    "finalUrl": "https://www.sony.com/en/",
+    "redirect": {
+      "from": "https://www.sony.com/",
+      "to": "https://www.sony.com/en",
+      "chain": [
+        {
+          "url": "https://www.sony.com/",
+          "status": 302
+        },
+        {
+          "url": "https://www.sony.com/en/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        302
+      ],
+      "change": "path",
+      "permanent": false,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 26,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 82,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 9899,
+      "lcp": 16084,
+      "si": 11482,
+      "tbt": 6912,
+      "tti": 22607,
+      "cls": 0,
+      "ttfb": 653,
+      "maxPotentialFid": 1305,
+      "serverResponseTime": 77,
+      "networkRtt": 26.9,
+      "networkServerLatency": 468.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 135.9,
+      "resourceLoadDelay": 1862.1,
+      "resourceLoadDuration": 62.4,
+      "elementRenderDelay": 21.9
+    },
+    "weight": {
+      "total": 3535254,
+      "requests": 103,
+      "mainDocument": 25132,
+      "byType": {
+        "total": {
+          "bytes": 3533768,
+          "requests": 97
+        },
+        "script": {
+          "bytes": 2135616,
+          "requests": 37
+        },
+        "image": {
+          "bytes": 886469,
+          "requests": 18
+        },
+        "font": {
+          "bytes": 261852,
+          "requests": 6
+        },
+        "other": {
+          "bytes": 175440,
+          "requests": 21
+        },
+        "stylesheet": {
+          "bytes": 49259,
+          "requests": 14
+        },
+        "document": {
+          "bytes": 25132,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2563340,
+          "requests": 46
+        }
+      },
+      "scripts": 39,
+      "stylesheets": 14,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 2562927,
+      "mainThreadMs": 1941.5,
+      "top": [
+        {
+          "entity": "Optanon",
+          "bytes": 1910810,
+          "mainThreadMs": 1336.8,
+          "byType": {
+            "script": 1239508,
+            "other": 49353,
+            "image": 621949
+          },
+          "typedBytes": 1910810
+        },
+        {
+          "entity": "Monotype",
+          "bytes": 308464,
+          "mainThreadMs": 483.7,
+          "byType": {
+            "script": 46466,
+            "stylesheet": 146,
+            "font": 261852
+          },
+          "typedBytes": 308464
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 150730,
+          "mainThreadMs": 84.5,
+          "byType": {
+            "script": 150730
+          },
+          "typedBytes": 150730
+        },
+        {
+          "entity": "marsflag.com",
+          "bytes": 144748,
+          "mainThreadMs": 36.4,
+          "byType": {
+            "script": 120514,
+            "stylesheet": 23581,
+            "other": 653
+          },
+          "typedBytes": 144748
+        },
+        {
+          "entity": "Adobe Tag Manager",
+          "bytes": 43954,
+          "mainThreadMs": 0,
+          "byType": {
+            "script": 43954
+          },
+          "typedBytes": 43954
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 14669.2,
+      "byGroup": {
+        "scriptEvaluation": 11012.3,
+        "scriptParseCompile": 1319.3,
+        "other": 1056.6,
+        "styleLayout": 574.1,
+        "paintCompositeRender": 362.2,
+        "garbageCollection": 259.7,
+        "parseHTML": 84.9
+      },
+      "bootupMs": 12235.6,
+      "longTasks": 20,
+      "longestTaskMs": 1305
+    },
+    "dom": {
+      "elements": 1152,
+      "depth": 15,
+      "maxChildren": 18
+    },
+    "waste": {
+      "unusedJsBytes": 605577,
+      "unusedCssBytes": 48943,
+      "legacyJsBytes": 8904,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 13604,
+      "renderBlockingCount": 21,
+      "poorlyCachedBytes": 1557135.9366666663,
+      "poorlyCachedCount": 56
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 33,
+      "failingNodes": 6,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are not crawlable",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "hreflang",
+          "title": "Document doesn't have a valid `hreflang`",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 3,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 804.6,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 114
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2492.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-14T10:48:30.670Z",
+      "runtimeMs": 15205.8
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1704.7,
+    "resourceLoadDelay": 18700,
+    "resourceLoadDuration": 1550.7,
+    "elementRenderDelay": 244.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "vue"
+      ],
+      "markVersions": {
+        "vue": "3.5.42"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "akamai",
+      "name": "Akamai",
+      "icon": "Akamai",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AkamaiGHost"
+    },
+    "violations": 3,
+    "passes": 1009,
+    "incomplete": 9,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".headline-news-more",
+            "snippet": "<a href=\"#news\" aria-label=\"news\" data-ss=\"\" class=\"headline-news-more b\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#onetrust-banner-sdk",
+            "snippet": "<div id=\"onetrust-banner-sdk\" class=\"otFlat bottom ot-wo-title vertical-align-content ot-buttons-fw\" tabindex=\"0\" aria-label=\"Privacy\" aria-describedby=\"onetrust-policy-text\" style=\"bottom: 0px;\">"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#tmpl-header_nav",
+            "snippet": "<nav id=\"tmpl-header_nav\" class=\"tmpl-header_nav tmpl-headerNav\" aria-label=\"Global header navigation\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e71b2237d861",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "b71cb8e1cb61",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "b71cb8e1cb61",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "b71cb8e1cb61",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
