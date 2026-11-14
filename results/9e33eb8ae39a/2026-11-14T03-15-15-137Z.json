@@ -1,0 +1,305 @@
+{
+  "url": "https://archipylago.dev/",
+  "name": "archipylago.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794626115137,
+  "date": "2026-11-14T03:15:15.137Z",
+  "runId": "2026-11-14T03-12-05-012Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22992,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 98,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://archipylago.dev/",
+    "finalUrl": "https://archipylago.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 99
+    },
+    "timings": {
+      "fcp": 1558,
+      "lcp": 2625,
+      "si": 1558,
+      "tbt": 0,
+      "tti": 2625,
+      "cls": 0.06,
+      "ttfb": 631,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 31,
+      "networkRtt": 0.1,
+      "networkServerLatency": 31
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 33.4,
+      "elementRenderDelay": 105
+    },
+    "weight": {
+      "total": 542473,
+      "requests": 33,
+      "mainDocument": 6882,
+      "byType": {
+        "total": {
+          "bytes": 542473,
+          "requests": 33
+        },
+        "image": {
+          "bytes": 469747,
+          "requests": 24
+        },
+        "font": {
+          "bytes": 59438,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 6882,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 5139,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 1267,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 61204,
+          "requests": 5
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 3,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 61204,
+      "mainThreadMs": 0.7,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 59438,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 59438
+          },
+          "typedBytes": 59438
+        },
+        {
+          "entity": "bunny.net",
+          "bytes": 1766,
+          "mainThreadMs": 0.7,
+          "byType": {
+            "stylesheet": 1766
+          },
+          "typedBytes": 1766
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 290.6,
+      "byGroup": {
+        "other": 171,
+        "styleLayout": 64.5,
+        "paintCompositeRender": 32.1,
+        "parseHTML": 12.7,
+        "scriptEvaluation": 9.8,
+        "scriptParseCompile": 0.5
+      },
+      "bootupMs": 8.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 180,
+      "depth": 11,
+      "maxChildren": 13
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 777,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 16,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 9
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2722.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-14T03:15:24.586Z",
+      "runtimeMs": 6491.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7C0VAPGZK81H2QZZEA2W98K"
+    },
+    "violations": 5,
+    "passes": 417,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "image-redundant-alt",
+        "impact": "minor",
+        "nodes": 5,
+        "help": "Alternative text of images should not be repeated as text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-redundant-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "img[src$=\"mastodon.svg\"]",
+            "snippet": "<img src=\"/assets/img/icons/mastodon.svg\" alt=\"mastodon\">"
+          },
+          {
+            "selector": "a[href$=\"hamatti.org\"] > img[src$=\"website.svg\"][alt=\"website\"]",
+            "snippet": "<img src=\"/assets/img/icons/website.svg\" alt=\"website\">"
+          },
+          {
+            "selector": "a[target=\"_blank\"]:nth-child(3) > img[src$=\"linkedin.svg\"][alt=\"linkedin\"]",
+            "snippet": "<img src=\"/assets/img/icons/linkedin.svg\" alt=\"linkedin\">"
+          },
+          {
+            "selector": "a[href$=\"idealic.digital/\"] > img[src$=\"website.svg\"][alt=\"website\"]",
+            "snippet": "<img src=\"/assets/img/icons/website.svg\" alt=\"website\">"
+          },
+          {
+            "selector": "a[target=\"_blank\"]:nth-child(2) > img[src$=\"linkedin.svg\"][alt=\"linkedin\"]",
+            "snippet": "<img src=\"/assets/img/icons/linkedin.svg\" alt=\"linkedin\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "3cdb2e106bf5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"5a1d9bbcaed7a021c0ac56a55fe1f336-ssl\""
+        }
+      },
+      {
+        "hash": "3cdb2e106bf5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"5a1d9bbcaed7a021c0ac56a55fe1f336-ssl\""
+        }
+      },
+      {
+        "hash": "3cdb2e106bf5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535985",
+          "etag": "W/\"5a1d9bbcaed7a021c0ac56a55fe1f336-ssl\""
+        }
+      },
+      {
+        "hash": "3cdb2e106bf5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535980",
+          "etag": "W/\"5a1d9bbcaed7a021c0ac56a55fe1f336-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
