@@ -1,0 +1,333 @@
+{
+  "url": "https://www.salesforce.com/",
+  "name": "Salesforce",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1794692205443,
+  "date": "2026-11-14T21:36:45.443Z",
+  "runId": "2026-11-14T21-27-28-681Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 170453,
+  "error": null,
+  "variance": {
+    "min": 27,
+    "max": 32,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.salesforce.com/",
+    "finalUrl": "https://www.salesforce.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 31,
+      "accessibility": 100,
+      "best-practices": 73,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2819,
+      "lcp": 27334,
+      "si": 11138,
+      "tbt": 7001,
+      "tti": 49234,
+      "cls": 0,
+      "ttfb": 665,
+      "maxPotentialFid": 2195,
+      "serverResponseTime": 98,
+      "networkRtt": 5.7,
+      "networkServerLatency": 191.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 100.6,
+      "elementRenderDelay": 3076.7
+    },
+    "weight": {
+      "total": 15841988,
+      "requests": 395,
+      "mainDocument": 131329,
+      "byType": {
+        "total": {
+          "bytes": 15840664,
+          "requests": 393
+        },
+        "image": {
+          "bytes": 9706868,
+          "requests": 131
+        },
+        "script": {
+          "bytes": 4887664,
+          "requests": 146
+        },
+        "other": {
+          "bytes": 462459,
+          "requests": 86
+        },
+        "media": {
+          "bytes": 354947,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 168610,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 134406,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 125710,
+          "requests": 19
+        },
+        "third-party": {
+          "bytes": 15840664,
+          "requests": 393
+        }
+      },
+      "scripts": 147,
+      "stylesheets": 19,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 24,
+      "bytes": 14477385,
+      "mainThreadMs": 3049.8,
+      "top": [
+        {
+          "entity": "Vidyard",
+          "bytes": 6951797,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 6951797
+          },
+          "typedBytes": 6951797
+        },
+        {
+          "entity": "ctfassets.net",
+          "bytes": 2638348,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 2638348
+          },
+          "typedBytes": 2638348
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 2254176,
+          "mainThreadMs": 628.3,
+          "byType": {
+            "script": 2254176
+          },
+          "typedBytes": 2254176
+        },
+        {
+          "entity": "sfdcstatic.com",
+          "bytes": 1725462,
+          "mainThreadMs": 1512.1,
+          "byType": {
+            "script": 1398760,
+            "stylesheet": 72754,
+            "font": 168610,
+            "image": 65769,
+            "other": 1587
+          },
+          "typedBytes": 1707480
+        },
+        {
+          "entity": "sfdcdigital.com",
+          "bytes": 370814,
+          "mainThreadMs": 0,
+          "byType": {
+            "media": 354947,
+            "other": 7366,
+            "image": 8501
+          },
+          "typedBytes": 370814
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 21367,
+      "byGroup": {
+        "scriptEvaluation": 14190.1,
+        "other": 3645.8,
+        "styleLayout": 1412.5,
+        "scriptParseCompile": 1176.3,
+        "parseHTML": 335.1,
+        "paintCompositeRender": 320.1,
+        "garbageCollection": 287.2
+      },
+      "bootupMs": 14836.7,
+      "longTasks": 20,
+      "longestTaskMs": 2195
+    },
+    "dom": {
+      "elements": 7725,
+      "depth": 24,
+      "maxChildren": 28
+    },
+    "waste": {
+      "unusedJsBytes": 2055463,
+      "unusedCssBytes": 104848,
+      "legacyJsBytes": 28024,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 6685,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 2926,
+      "renderBlockingCount": 13,
+      "poorlyCachedBytes": 7515581.229164388,
+      "poorlyCachedCount": 33
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 30,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 4,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 22
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 20
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 7
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 75
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2747.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-14T21:37:48.106Z",
+      "runtimeMs": 30959.4
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.3,
+    "elementRenderDelay": 16476
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": "Access Denied",
+    "host": {
+      "id": "akamai",
+      "name": "Akamai",
+      "icon": "Akamai",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AkamaiGHost"
+    },
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "94ce1142ac03",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"132cc9-+yg9BaTnOLTtxAjFPCALPE9Wlbk\""
+        }
+      },
+      {
+        "hash": "ca540ec0f9e5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"132d94-DZCZSfQtUVfjYXD0j30qOCfMXbk\""
+        }
+      },
+      {
+        "hash": "e79bbb15e4c6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"132cc0-monxvX5EGaOwTYUlaFp35gxZ/10\""
+        }
+      },
+      {
+        "hash": "672987402d71",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"132d94-DZCZSfQtUVfjYXD0j30qOCfMXbk\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

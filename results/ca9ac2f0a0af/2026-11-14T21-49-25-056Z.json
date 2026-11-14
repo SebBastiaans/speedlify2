@@ -1,0 +1,433 @@
+{
+  "url": "https://central.sonatype.com/",
+  "name": "Maven Central",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1794692965056,
+  "date": "2026-11-14T21:49:25.056Z",
+  "runId": "2026-11-14T21-27-28-681Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 77042,
+  "error": null,
+  "variance": {
+    "min": 30,
+    "max": 68,
+    "spread": 38,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://central.sonatype.com/",
+    "finalUrl": "https://central.sonatype.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 42,
+      "accessibility": 95,
+      "best-practices": 69,
+      "seo": 92,
+      "agentic-browsing": 53
+    },
+    "timings": {
+      "fcp": 2227,
+      "lcp": 3613,
+      "si": 2227,
+      "tbt": 1005,
+      "tti": 12919,
+      "cls": 0.744,
+      "ttfb": 688,
+      "maxPotentialFid": 556,
+      "serverResponseTime": 97,
+      "networkRtt": 0.2,
+      "networkServerLatency": 88.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 98.9,
+      "resourceLoadDelay": 178.1,
+      "resourceLoadDuration": 165,
+      "elementRenderDelay": 197.4
+    },
+    "weight": {
+      "total": 2428317,
+      "requests": 80,
+      "mainDocument": 8703,
+      "byType": {
+        "total": {
+          "bytes": 2426218,
+          "requests": 77
+        },
+        "script": {
+          "bytes": 1706765,
+          "requests": 30
+        },
+        "image": {
+          "bytes": 545241,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 91196,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 63106,
+          "requests": 15
+        },
+        "other": {
+          "bytes": 11207,
+          "requests": 19
+        },
+        "document": {
+          "bytes": 8703,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 596814,
+          "requests": 7
+        }
+      },
+      "scripts": 32,
+      "stylesheets": 15,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 596835,
+      "mainThreadMs": 196.1,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 514658,
+          "mainThreadMs": 146.9,
+          "byType": {
+            "script": 514658
+          },
+          "typedBytes": 514658
+        },
+        {
+          "entity": "Osano CMP",
+          "bytes": 81883,
+          "mainThreadMs": 49.2,
+          "byType": {
+            "script": 81883
+          },
+          "typedBytes": 81883
+        },
+        {
+          "entity": "scarf.sh",
+          "bytes": 216,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 216
+          },
+          "typedBytes": 216
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 57,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 57
+          },
+          "typedBytes": 57
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 21,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 21
+          },
+          "typedBytes": 21
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3831.9,
+      "byGroup": {
+        "scriptEvaluation": 2536.5,
+        "other": 513.6,
+        "scriptParseCompile": 482.6,
+        "styleLayout": 141.1,
+        "garbageCollection": 68.3,
+        "paintCompositeRender": 55.9,
+        "parseHTML": 34
+      },
+      "bootupMs": 2828.5,
+      "longTasks": 11,
+      "longestTaskMs": 556
+    },
+    "dom": {
+      "elements": 564,
+      "depth": 16,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 1043611,
+      "unusedCssBytes": 13601,
+      "legacyJsBytes": 45883,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1505,
+      "renderBlockingCount": 13,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 28,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 5,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 3
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 3,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 22
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2691,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-14T21:49:46.972Z",
+      "runtimeMs": 9712.5
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.2,
+    "resourceLoadDelay": 1024.2,
+    "resourceLoadDuration": 1764.1,
+    "elementRenderDelay": 212.3
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "Nextdotjs",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "next",
+        "react",
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5a93ba60b1b7cc6-ATL",
+      "server": "cloudflare",
+      "x-powered-by": "Next.js"
+    },
+    "violations": 22,
+    "passes": 1181,
+    "incomplete": 19,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 18,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h1",
+            "snippet": "<h1 class=\"_2288cW_header\" data-test=\"hero-header\">Find OSS Components</h1>"
+          },
+          {
+            "selector": "._2288cW_subHeader",
+            "snippet": "<p class=\"_2288cW_subHeader _2288cW_searchSubHeader\">As stewards of Central for nearly 20 years and inventors of both software supply chain management and Nexus Repository, Sonatype knows that the in…"
+          },
+          {
+            "selector": ".O_OOpa_textContainer",
+            "snippet": "<div class=\"O_OOpa_textContainer\">"
+          },
+          {
+            "selector": ".O_OOpa_eyebrow",
+            "snippet": "<div class=\"O_OOpa_eyebrow\"><span class=\"O_OOpa_eyebrowPrimary\">Field Guide</span><span class=\"O_OOpa_eyebrowDot\">·</span><span class=\"O_OOpa_eyebrowMuted\">HeroDevs</span></div>"
+          },
+          {
+            "selector": ".O_OOpa_cardTitle",
+            "snippet": "<h3 class=\"nx-h3 O_OOpa_cardTitle\">Practical Dependency Management</h3>"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".O_OOpa_eyebrowMuted",
+            "snippet": "<span class=\"O_OOpa_eyebrowMuted\">HeroDevs</span>"
+          },
+          {
+            "selector": ".O_OOpa_topicsLabel",
+            "snippet": "<span class=\"O_OOpa_topicsLabel\">Inside the guide</span>"
+          },
+          {
+            "selector": ".O_OOpa_attribution > span",
+            "snippet": "<span>HeroDevs · Sonatype Partner</span>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".O_OOpa_textTitle",
+            "snippet": "<h3 class=\"nx-h3 O_OOpa_textTitle\"><span>Commercial Support for End‑of‑Life OSS</span> <span><label class=\"nx-small-tag nx-small-tag--pink\"><span class=\"nx-small-tag__text\">NEW</span></label></span><…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "077bf508949a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "077bf508949a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "077bf508949a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "077bf508949a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "077bf508949a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
