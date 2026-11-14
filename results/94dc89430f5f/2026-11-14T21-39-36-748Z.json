@@ -1,0 +1,358 @@
+{
+  "url": "https://christiangreciano.com/",
+  "name": "christiangreciano.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794692376748,
+  "date": "2026-11-14T21:39:36.748Z",
+  "runId": "2026-11-14T21-27-30-494Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22268,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 99,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://christiangreciano.com/",
+    "finalUrl": "https://christiangreciano.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 781,
+      "lcp": 781,
+      "si": 3159,
+      "tbt": 0,
+      "tti": 781,
+      "cls": 0.01,
+      "ttfb": 610,
+      "maxPotentialFid": 38,
+      "serverResponseTime": 8,
+      "networkRtt": 0,
+      "networkServerLatency": 88.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 9.1,
+      "elementRenderDelay": 33.5
+    },
+    "weight": {
+      "total": 2294531,
+      "requests": 17,
+      "mainDocument": 5901,
+      "byType": {
+        "total": {
+          "bytes": 2294531,
+          "requests": 17
+        },
+        "image": {
+          "bytes": 2238628,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 33579,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 14110,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 5901,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 2313,
+          "requests": 6
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 15808,
+          "requests": 11
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 6,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 25840,
+      "mainThreadMs": 8.7,
+      "top": [
+        {
+          "entity": "ko-fi.com",
+          "bytes": 12227,
+          "mainThreadMs": 2,
+          "byType": {
+            "script": 5334,
+            "stylesheet": 2637,
+            "image": 4256
+          },
+          "typedBytes": 12227
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 7624,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 7624
+          },
+          "typedBytes": 7624
+        },
+        {
+          "entity": "simpleanalyticscdn.com",
+          "bytes": 5989,
+          "mainThreadMs": 6.4,
+          "byType": {
+            "script": 5894,
+            "image": 95
+          },
+          "typedBytes": 5989
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 424.8,
+      "byGroup": {
+        "other": 196.2,
+        "scriptEvaluation": 100.3,
+        "styleLayout": 70.6,
+        "paintCompositeRender": 35.9,
+        "parseHTML": 16.7,
+        "scriptParseCompile": 5.1
+      },
+      "bootupMs": 104.1,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 71,
+      "depth": 9,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 2249075.4,
+      "poorlyCachedCount": 10
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "frame-title",
+          "title": "`<frame>` or `<iframe>` elements do not have a title",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 12
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2497.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-14T21:39:45.297Z",
+      "runtimeMs": 6455.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.2",
+      "source": "meta",
+      "raw": "Eleventy v3.1.2"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.2"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "amazons3",
+      "name": "Amazon S3",
+      "icon": "Amazon",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AmazonS3",
+      "via": "1.1 0819e703158679947bab2d0bebe6285e.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "ZesKa_3fHLNORU_Lhf1uwwcaLkW0XqmfDcNHm_wAkav1JKZAOJNa6Q=="
+    },
+    "violations": 8,
+    "passes": 138,
+    "incomplete": 2,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 6,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href=\"/\"]",
+            "snippet": "<a href=\"/\">Home</a>"
+          },
+          {
+            "selector": "a[href$=\"notes.html\"]",
+            "snippet": "<a href=\"/notes.html\">Study Notes</a>"
+          },
+          {
+            "selector": "a[href$=\"flashcards.html\"]",
+            "snippet": "<a href=\"/flashcards.html\">Flashcards</a>"
+          },
+          {
+            "selector": "a[href$=\"blog/\"]",
+            "snippet": "<a href=\"/blog/\">Blog</a>"
+          },
+          {
+            "selector": "a[aria-label=\"RSS Feed\"]",
+            "snippet": "<a href=\"/feed/feed.xml\" aria-label=\"RSS Feed\">"
+          }
+        ]
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Frames must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#kofi-wo-container-mobikofi-widget-overlay-abd8e9c1-ad4d-4e22-b0b6-ec889b7debd1",
+            "snippet": "<iframe allowtransparency=\"true\" class=\"floatingchat-container-mobi\" style=\"color-scheme: auto;\" id=\"kofi-wo-container-mobikofi-widget-overlay-abd8e9c1-ad4d-4e22-b0b6-ec889b7debd1\"></iframe>"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#kofi-wo-container-mobikofi-widget-overlay-abd8e9c1-ad4d-4e22-b0b6-ec889b7debd1 >>> #kofi-widget-overlay-abd8e9c1-ad4d-4e22-b0b6-ec889b7debd1-donate-button-image",
+            "snippet": "<img id=\"kofi-widget-overlay-abd8e9c1-ad4d-4e22-b0b6-ec889b7debd1-donate-button-image\" src=\"https://storage.ko-fi.com/cdn/logomarkLogo.png\" class=\"kofiimg\" data-rotation=\"0\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d95764ddd4d1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2209950",
+          "etag": "W/\"a8cd86d785f1e91a5afbf18463d33088\"",
+          "last-modified": "Mon, 14 Sep 2026 19:24:04 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "d95764ddd4d1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2209957",
+          "etag": "W/\"a8cd86d785f1e91a5afbf18463d33088\"",
+          "last-modified": "Mon, 14 Sep 2026 19:24:04 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "d95764ddd4d1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2209964",
+          "etag": "W/\"a8cd86d785f1e91a5afbf18463d33088\"",
+          "last-modified": "Mon, 14 Sep 2026 19:24:04 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "d95764ddd4d1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2209969",
+          "etag": "W/\"a8cd86d785f1e91a5afbf18463d33088\"",
+          "last-modified": "Mon, 14 Sep 2026 19:24:04 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

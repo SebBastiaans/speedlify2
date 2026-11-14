@@ -1,0 +1,395 @@
+{
+  "url": "https://chrishannah.me/",
+  "name": "chrishannah.me",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794692324965,
+  "date": "2026-11-14T21:38:44.965Z",
+  "runId": "2026-11-14T21-27-30-494Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23548,
+  "error": null,
+  "variance": {
+    "min": 93,
+    "max": 95,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://chrishannah.me/",
+    "finalUrl": "https://chrishannah.me/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 93,
+      "accessibility": 89,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 88
+    },
+    "timings": {
+      "fcp": 1713,
+      "lcp": 1713,
+      "si": 1713,
+      "tbt": 0,
+      "tti": 1713,
+      "cls": 0.149,
+      "ttfb": 636,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 51,
+      "networkRtt": 0.1,
+      "networkServerLatency": 150.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 53.2,
+      "elementRenderDelay": 79.3
+    },
+    "weight": {
+      "total": 1482232,
+      "requests": 18,
+      "mainDocument": 17312,
+      "byType": {
+        "total": {
+          "bytes": 1482232,
+          "requests": 18
+        },
+        "image": {
+          "bytes": 1326291,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 116589,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 18933,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 17312,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1903,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 1204,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 131504,
+          "requests": 9
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 131504,
+      "mainThreadMs": 10.1,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 117793,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 1204,
+            "font": 116589
+          },
+          "typedBytes": 117793
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 6.6,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "tinylytics.app",
+          "bytes": 2107,
+          "mainThreadMs": 2.7,
+          "byType": {
+            "script": 1782,
+            "other": 325
+          },
+          "typedBytes": 2107
+        },
+        {
+          "entity": "minifocus.app",
+          "bytes": 1253,
+          "mainThreadMs": 0.5,
+          "byType": {
+            "script": 1036,
+            "other": 217
+          },
+          "typedBytes": 1253
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 370,
+      "byGroup": {
+        "other": 142.2,
+        "styleLayout": 112.2,
+        "scriptEvaluation": 60.8,
+        "paintCompositeRender": 32.4,
+        "parseHTML": 16.8,
+        "scriptParseCompile": 5.6
+      },
+      "bootupMs": 12.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 267,
+      "depth": 10,
+      "maxChildren": 15
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2583,
+      "renderBlockingMs": 777,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 5492.30365625,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failingNodes": 84,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 74
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 10
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 16
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2483.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-14T21:39:00.867Z",
+      "runtimeMs": 6971.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "cf-ray": "a5a92abfed3f2514-IAD",
+      "server": "cloudflare",
+      "x-vercel-id": "cle1::kn9xx-1794692346878-b95b6862ad64"
+    },
+    "violations": 85,
+    "passes": 497,
+    "incomplete": 6,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 74,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".site-banner-inner",
+            "snippet": "<div class=\"site-banner-inner\">Check out <a href=\"https://miniroll.app?ref=chrishannah.me\">Miniroll.app</a>, a way to create, share, and explore blogrolls!</div>"
+          },
+          {
+            "selector": ".tagline",
+            "snippet": "<div class=\"tagline\">Code, camera, keyboard.</div>"
+          },
+          {
+            "selector": ".site-nav > a[href=\"/\"]",
+            "snippet": "<a href=\"/\">Home</a>"
+          },
+          {
+            "selector": ".site-nav > a[href$=\"archive/\"]",
+            "snippet": "<a href=\"/archive/\">Archive</a>"
+          },
+          {
+            "selector": ".site-nav > a[href$=\"projects/\"]",
+            "snippet": "<a href=\"/projects/\">Projects</a>"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 10,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "article[data-type=\"post\"]:nth-child(1) > .entry-date > .type[href$=\"post/\"]",
+            "snippet": "<a class=\"type\" href=\"/post/\">Post</a>"
+          },
+          {
+            "selector": "article[data-type=\"post\"]:nth-child(2) > .entry-date > .type[href$=\"post/\"]",
+            "snippet": "<a class=\"type\" href=\"/post/\">Post</a>"
+          },
+          {
+            "selector": "article[data-type=\"post\"]:nth-child(3) > .entry-date > .type[href$=\"post/\"]",
+            "snippet": "<a class=\"type\" href=\"/post/\">Post</a>"
+          },
+          {
+            "selector": ".type[href$=\"link/\"]",
+            "snippet": "<a class=\"type\" href=\"/link/\">Link</a>"
+          },
+          {
+            "selector": "article[data-type=\"post\"]:nth-child(5) > .entry-date > .type[href$=\"post/\"]",
+            "snippet": "<a class=\"type\" href=\"/post/\">Post</a>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".site-nav",
+            "snippet": "<nav class=\"site-nav\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "140270deced8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "110964",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 14:49:21 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "140270deced8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "110972",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 14:49:21 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "140270deced8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "110979",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 14:49:21 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "140270deced8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "\"aa4147fa8f4a0e1383bfbd9dea3c16ed\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
