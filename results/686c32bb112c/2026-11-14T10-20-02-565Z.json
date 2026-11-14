@@ -1,0 +1,287 @@
+{
+  "url": "https://www.humankode.com/",
+  "name": "www.humankode.com",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1794651602565,
+  "date": "2026-11-14T10:20:02.565Z",
+  "runId": "2026-11-14T10-19-54-424Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26541,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.humankode.com/",
+    "finalUrl": "https://www.humankode.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 849,
+      "lcp": 849,
+      "si": 849,
+      "tbt": 0,
+      "tti": 849,
+      "cls": 0,
+      "ttfb": 618,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 16,
+      "networkRtt": 0,
+      "networkServerLatency": 173
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 17.8,
+      "elementRenderDelay": 61.8
+    },
+    "weight": {
+      "total": 10326,
+      "requests": 3,
+      "mainDocument": 9161,
+      "byType": {
+        "total": {
+          "bytes": 10326,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 9161,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1165,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 382,
+          "requests": 1
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 382,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 216,
+      "byGroup": {
+        "other": 95.8,
+        "styleLayout": 55.6,
+        "scriptEvaluation": 43.5,
+        "parseHTML": 13,
+        "scriptParseCompile": 5.5,
+        "paintCompositeRender": 2.7
+      },
+      "bootupMs": 47.2,
+      "longTasks": 1,
+      "longestTaskMs": 51
+    },
+    "dom": {
+      "elements": 88,
+      "depth": 12,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 16,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 16
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2467,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-14T10:20:21.558Z",
+      "runtimeMs": 6456.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "hugo",
+      "name": "Hugo",
+      "icon": "Hugo",
+      "version": "0.164.0",
+      "source": "meta",
+      "raw": "Hugo 0.164.0"
+    },
+    "probe": {
+      "metas": [
+        "Hugo 0.164.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "amazons3",
+      "name": "Amazon S3",
+      "icon": "Amazon",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AmazonS3",
+      "via": "1.1 b972ddb21199e78c50db3b97a65aa6ec.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "4eLGK2fwCDx3X7NxeG_bCDWjhlLRuLo31Ajk4Fj11AyZl9jDAX8Zfg=="
+    },
+    "violations": 1,
+    "passes": 134,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".py-4 > nav",
+            "snippet": "<nav class=\"max-w-[870px] mx-auto flex justify-between items-center\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9935faa28d35",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "22816",
+          "etag": "\"d227ae442f190570734481fd898791c7\"",
+          "last-modified": "Sun, 08 Nov 2026 16:34:00 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "9935faa28d35",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "22824",
+          "etag": "\"d227ae442f190570734481fd898791c7\"",
+          "last-modified": "Sun, 08 Nov 2026 16:34:00 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "9935faa28d35",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "22831",
+          "etag": "\"d227ae442f190570734481fd898791c7\"",
+          "last-modified": "Sun, 08 Nov 2026 16:34:00 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "9935faa28d35",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "22837",
+          "etag": "\"d227ae442f190570734481fd898791c7\"",
+          "x-cache": "Hit from cloudfront"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
