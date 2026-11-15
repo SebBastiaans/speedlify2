@@ -1,0 +1,474 @@
+{
+  "url": "https://www.samsung.com/",
+  "name": "Samsung",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1794735056024,
+  "date": "2026-11-15T09:30:56.024Z",
+  "runId": "2026-11-15T09-20-08-346Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 399393,
+  "error": null,
+  "variance": {
+    "min": 23,
+    "max": 39,
+    "spread": 16,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.samsung.com/",
+    "finalUrl": "https://www.samsung.com/ca/",
+    "redirect": {
+      "from": "https://www.samsung.com/",
+      "to": "https://www.samsung.com/ca",
+      "chain": [
+        {
+          "url": "https://www.samsung.com/",
+          "status": 301
+        },
+        {
+          "url": "https://www.samsung.com/ca/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        301
+      ],
+      "change": "path",
+      "permanent": true,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 24,
+      "accessibility": 88,
+      "best-practices": 54,
+      "seo": 77,
+      "agentic-browsing": 51
+    },
+    "timings": {
+      "fcp": 2527,
+      "lcp": 7668,
+      "si": 6825,
+      "tbt": 5606,
+      "tti": 38246,
+      "cls": 0.233,
+      "ttfb": 495,
+      "maxPotentialFid": 494,
+      "serverResponseTime": 53,
+      "networkRtt": 189.4,
+      "networkServerLatency": 510.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 92.2,
+      "resourceLoadDelay": 17.6,
+      "resourceLoadDuration": 36.5,
+      "elementRenderDelay": 186.9
+    },
+    "weight": {
+      "total": 5458924,
+      "requests": 280,
+      "mainDocument": 48733,
+      "byType": {
+        "total": {
+          "bytes": 5458925,
+          "requests": 259
+        },
+        "script": {
+          "bytes": 3457529,
+          "requests": 128
+        },
+        "other": {
+          "bytes": 965796,
+          "requests": 77
+        },
+        "font": {
+          "bytes": 528746,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 350228,
+          "requests": 24
+        },
+        "stylesheet": {
+          "bytes": 96140,
+          "requests": 13
+        },
+        "document": {
+          "bytes": 60486,
+          "requests": 11
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3239305,
+          "requests": 198
+        }
+      },
+      "scripts": 129,
+      "stylesheets": 13,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 32,
+      "bytes": 3227116,
+      "mainThreadMs": 2591.6,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 659121,
+          "mainThreadMs": 186,
+          "byType": {
+            "script": 659121
+          },
+          "typedBytes": 659121
+        },
+        {
+          "entity": "sprinklr.com",
+          "bytes": 648333,
+          "mainThreadMs": 120.9,
+          "byType": {
+            "script": 426900,
+            "image": 221433
+          },
+          "typedBytes": 648333
+        },
+        {
+          "entity": "Insider",
+          "bytes": 342574,
+          "mainThreadMs": 219.4,
+          "byType": {
+            "script": 341652,
+            "other": 922
+          },
+          "typedBytes": 342574
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 261389,
+          "mainThreadMs": 120.1,
+          "byType": {
+            "script": 261389
+          },
+          "typedBytes": 261389
+        },
+        {
+          "entity": "Adobe Tag Manager",
+          "bytes": 182314,
+          "mainThreadMs": 172.3,
+          "byType": {
+            "script": 182314
+          },
+          "typedBytes": 182314
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 22543.7,
+      "byGroup": {
+        "scriptEvaluation": 15876.4,
+        "other": 3181.8,
+        "scriptParseCompile": 1327.3,
+        "styleLayout": 1040.1,
+        "garbageCollection": 592.4,
+        "paintCompositeRender": 263.8,
+        "parseHTML": 262
+      },
+      "bootupMs": 16286,
+      "longTasks": 20,
+      "longestTaskMs": 494
+    },
+    "dom": {
+      "elements": 4769,
+      "depth": 20,
+      "maxChildren": 427
+    },
+    "waste": {
+      "unusedJsBytes": 1413059,
+      "unusedCssBytes": 48040,
+      "legacyJsBytes": 44360,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 7288,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 3267,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 2014961.783886174,
+      "poorlyCachedCount": 129
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 32,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 2
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "title": "Elements use prohibited ARIA attributes",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 5,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 33
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 4
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 7
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 3,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 6
+        },
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are not crawlable",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 2,
+      "protocol": "h2",
+      "legacyHttpRequests": 33,
+      "redirectMs": 795.5,
+      "consoleErrors": 4,
+      "baselineLimitedFeatures": 52
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2443,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T09:33:13.798Z",
+      "runtimeMs": 66739.4
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1348.5,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 1047,
+    "elementRenderDelay": 1647.2
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": true,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {},
+    "violations": 9,
+    "passes": 1175,
+    "incomplete": 19,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".cod03-delivery-location-selector__region-deliver-text",
+            "snippet": "<span class=\"cod03-delivery-location-selector__region-deliver-text\">Province: </span>"
+          },
+          {
+            "selector": ".cod03-delivery-location-selector__region-name",
+            "snippet": "<span class=\"cod03-delivery-location-selector__region-name\">Quebec</span>"
+          },
+          {
+            "selector": ".truste-custom-samsung-wrap",
+            "snippet": "<div class=\"truste-custom-samsung-wrap\">"
+          }
+        ]
+      },
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 2,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[data-headline-text=\"galaxy s26 series\"] > .co76-feature-kv__text-wrap > .co76-feature-kv__headline",
+            "snippet": "<h2 class=\"co76-feature-kv__headline\"> </h2>"
+          },
+          {
+            "selector": "div[data-headline-text=\"immerse yourself in the game \"] > .co76-feature-kv__text-wrap > .co76-feature-kv__headline",
+            "snippet": "<h2 class=\"co76-feature-kv__headline\"> </h2>"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".hd08-hero-kv-home__cta-wrap > .cta-kv-display-on[aria-label=\"Early Black Friday\"][data-update-date=\"20260722\"]",
+            "snippet": "<a class=\"cta cta--outlined ct...\" aria-label=\"Early Black Friday\" href=\"/ca/offer/black-frid...\" data-update-date=\"20260722\" data-contents-title=\"galaxy z fold8 ultra...\" data-title=\"buy\" target=\"_s…"
+          },
+          {
+            "selector": "a[aria-label=\"Open in a New Window\"]",
+            "snippet": "<a class=\"footer-terms__link\" href=\"https://shop.samsung.com/ca/termsandconditions\" target=\"_blank\" an-tr=\"nv02_footer bottom--cta-bottom\" an-ca=\"navigation\" an-ac=\"footer\" an-la=\"bottom:legal menu:t…"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".hd08-hero-kv-home__clickable-state",
+            "snippet": "<button class=\"hd08-hero-kv-home__clickable-state\" data-js-action=\"hd08ClickableState\"></button>"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".truste-custom-img > img",
+            "snippet": "<img src=\"https://consent.trustarc.com/get?name=samsungblack_logo.png\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "1f78299dfc06",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"771dc-6604c12184790\"",
+          "last-modified": "Sun, 15 Nov 2026 08:01:37 GMT"
+        }
+      },
+      {
+        "hash": "adf7eeed726d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"770fd-6604b38438250\"",
+          "last-modified": "Sun, 15 Nov 2026 07:00:43 GMT"
+        }
+      },
+      {
+        "hash": "01371d7afb9c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"771dc-6604c12184790\"",
+          "last-modified": "Sun, 15 Nov 2026 08:01:37 GMT"
+        }
+      },
+      {
+        "hash": "c73ee0106e28",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"770fd-6604b38438250\"",
+          "last-modified": "Sun, 15 Nov 2026 07:00:43 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

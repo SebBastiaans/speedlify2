@@ -1,0 +1,354 @@
+{
+  "url": "https://www.intel.com/",
+  "name": "Intel",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1794734991340,
+  "date": "2026-11-15T09:29:51.340Z",
+  "runId": "2026-11-15T09-20-08-346Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 61683,
+  "error": null,
+  "variance": {
+    "min": 42,
+    "max": 73,
+    "spread": 31,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.intel.com/",
+    "finalUrl": "https://www.intel.com/content/www/us/en/homepage.html",
+    "redirect": {
+      "from": "https://www.intel.com/",
+      "to": "https://www.intel.com/content/www/us/en/homepage.html",
+      "chain": [
+        {
+          "url": "https://www.intel.com/",
+          "status": 200
+        },
+        {
+          "url": "https://www.intel.com/content/www/us/en/homepage.html",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        200
+      ],
+      "change": "path",
+      "permanent": false,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 73,
+      "accessibility": 97,
+      "best-practices": 77,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1368,
+      "lcp": 6768,
+      "si": 3628,
+      "tbt": 180,
+      "tti": 9913,
+      "cls": 0.006,
+      "ttfb": 468,
+      "maxPotentialFid": 284,
+      "serverResponseTime": 12,
+      "networkRtt": 0,
+      "networkServerLatency": 281.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 14.9,
+      "resourceLoadDelay": 13.4,
+      "resourceLoadDuration": 52.8,
+      "elementRenderDelay": 84.8
+    },
+    "weight": {
+      "total": 2101474,
+      "requests": 93,
+      "mainDocument": 19578,
+      "byType": {
+        "total": {
+          "bytes": 2100797,
+          "requests": 91
+        },
+        "image": {
+          "bytes": 1304055,
+          "requests": 25
+        },
+        "script": {
+          "bytes": 463668,
+          "requests": 27
+        },
+        "font": {
+          "bytes": 198759,
+          "requests": 7
+        },
+        "other": {
+          "bytes": 77152,
+          "requests": 16
+        },
+        "stylesheet": {
+          "bytes": 36405,
+          "requests": 13
+        },
+        "document": {
+          "bytes": 20758,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 726584,
+          "requests": 24
+        }
+      },
+      "scripts": 27,
+      "stylesheets": 13,
+      "fonts": 7
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 726584,
+      "mainThreadMs": 54.7,
+      "top": [
+        {
+          "entity": "Adobe Scene7",
+          "bytes": 402157,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 399079,
+            "other": 3078
+          },
+          "typedBytes": 402157
+        },
+        {
+          "entity": "Optanon",
+          "bytes": 324403,
+          "mainThreadMs": 54.7,
+          "byType": {
+            "script": 166453,
+            "other": 71548,
+            "image": 86402
+          },
+          "typedBytes": 324403
+        },
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 24,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 24
+          },
+          "typedBytes": 24
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1991.7,
+      "byGroup": {
+        "scriptEvaluation": 895.1,
+        "other": 554.8,
+        "scriptParseCompile": 232.8,
+        "styleLayout": 194.5,
+        "parseHTML": 78.1,
+        "paintCompositeRender": 36.4
+      },
+      "bootupMs": 939,
+      "longTasks": 7,
+      "longestTaskMs": 284
+    },
+    "dom": {
+      "elements": 1017,
+      "depth": 27,
+      "maxChildren": 45
+    },
+    "waste": {
+      "unusedJsBytes": 102300,
+      "unusedCssBytes": 38962,
+      "legacyJsBytes": 8887,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 4555,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 300,
+      "renderBlockingCount": 13,
+      "poorlyCachedBytes": 536894.749347222,
+      "poorlyCachedCount": 22
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 30,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 917.8,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 33
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2439.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T09:30:02.920Z",
+      "runtimeMs": 8055.3
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 649.2,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 8255.8,
+    "elementRenderDelay": 24.9
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "amazons3",
+      "name": "Amazon S3",
+      "icon": "Amazon",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AmazonS3"
+    },
+    "violations": 2,
+    "passes": 652,
+    "incomplete": 5,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#slide-0 > .cmp-animated-hero__bg-slide-info > .cmp-animated-hero__bg-title[aria-hidden=\"true\"]",
+            "snippet": "<div aria-hidden=\"true\" class=\"cmp-animated-hero__bg-title\" style=\"font-size: 90.8642px;\"> Quantum </div>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#onetrust-banner-sdk",
+            "snippet": "<div id=\"onetrust-banner-sdk\" class=\"otFloatingFlat ot-bottom-left\" tabindex=\"0\" aria-label=\"Welcome!\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "29991e6c1d7c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"23488-66046d0a4afe3-gzip\""
+        }
+      },
+      {
+        "hash": "72e198ddb6e1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"23488-66046d0a4afe3-gzip\""
+        }
+      },
+      {
+        "hash": "72e198ddb6e1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"23488-66046d0a4afe3-gzip\""
+        }
+      },
+      {
+        "hash": "72e198ddb6e1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"23488-66046d0a4afe3-gzip\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

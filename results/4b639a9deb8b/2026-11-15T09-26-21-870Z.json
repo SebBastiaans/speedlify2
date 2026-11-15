@@ -1,0 +1,356 @@
+{
+  "url": "https://firekeepers.info/",
+  "name": "firekeepers.info",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794734781870,
+  "date": "2026-11-15T09:26:21.870Z",
+  "runId": "2026-11-15T09-20-08-346Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24986,
+  "error": null,
+  "variance": {
+    "min": 95,
+    "max": 97,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://firekeepers.info/",
+    "finalUrl": "https://firekeepers.info/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 98,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2239,
+      "lcp": 2270,
+      "si": 2239,
+      "tbt": 0,
+      "tti": 2270,
+      "cls": 0.025,
+      "ttfb": 680,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 107,
+      "networkRtt": 20.1,
+      "networkServerLatency": 229.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 222.5,
+      "elementRenderDelay": 95.5
+    },
+    "weight": {
+      "total": 665258,
+      "requests": 19,
+      "mainDocument": 45452,
+      "byType": {
+        "total": {
+          "bytes": 665258,
+          "requests": 18
+        },
+        "image": {
+          "bytes": 324168,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 243269,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 45452,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 34590,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 17330,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 449,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 271077,
+          "requests": 6
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 271077,
+      "mainThreadMs": 12.1,
+      "top": [
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 252688,
+          "mainThreadMs": 5.2,
+          "byType": {
+            "stylesheet": 17330,
+            "font": 235358
+          },
+          "typedBytes": 252688
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 6.9,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 7911,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 7911
+          },
+          "typedBytes": 7911
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 579.2,
+      "byGroup": {
+        "styleLayout": 214.9,
+        "other": 180.3,
+        "parseHTML": 72.9,
+        "scriptEvaluation": 58.7,
+        "paintCompositeRender": 44,
+        "scriptParseCompile": 8.3
+      },
+      "bootupMs": 8.2,
+      "longTasks": 1,
+      "longestTaskMs": 64
+    },
+    "dom": {
+      "elements": 495,
+      "depth": 13,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 51836,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 921,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 4505.306059027777,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 27,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 31
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2478,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T09:26:23.138Z",
+      "runtimeMs": 8952.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.6",
+      "source": "meta",
+      "raw": "Eleventy v3.1.6"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.6"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {
+        "fontawesome": "7.0.1"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5ad37555db00682-YUL",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M7F8FMB5BWJPEQSRS0W67TYE"
+    },
+    "violations": 11,
+    "passes": 799,
+    "incomplete": 34,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 9,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#welcome",
+            "snippet": "<div class=\"container\" id=\"welcome\">"
+          },
+          {
+            "selector": "#about",
+            "snippet": "<div class=\"container\" id=\"about\">"
+          },
+          {
+            "selector": "#breakfast",
+            "snippet": "<div class=\"container-fluid grape\" id=\"breakfast\">"
+          },
+          {
+            "selector": "#menus",
+            "snippet": "<h2 class=\"sh-text text-end\" id=\"menus\"> <strong> <a href=\"\" class=\"none\"> Menus </a> </strong> </h2>"
+          },
+          {
+            "selector": ".col-md-10.mx-auto.p-md-5 > .text-end:nth-child(2)",
+            "snippet": "<p class=\"text-end\">Firekeepers Restaurant Lunch and Dinner Menu</p>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".desktop",
+            "snippet": "<nav class=\"desktop grape bbt\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e93897e2c7b5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "31614",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31504386",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "e93897e2c7b5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "31623",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31504377",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "e93897e2c7b5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "31630",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31504370",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "e93897e2c7b5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "31636",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31504364",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

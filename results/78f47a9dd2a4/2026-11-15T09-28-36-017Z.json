@@ -1,0 +1,274 @@
+{
+  "url": "https://fpl.ultigamemate.com/",
+  "name": "fpl.ultigamemate.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794734916017,
+  "date": "2026-11-15T09:28:36.017Z",
+  "runId": "2026-11-15T09-20-08-346Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 1,
+  "durationMs": 22183,
+  "error": null,
+  "partialErrors": [
+    "NO_NAVSTART: Something went wrong with recording the trace over your page load. Please run Lighthouse again. (NO_NAVSTART)",
+    "NO_NAVSTART: Something went wrong with recording the trace over your page load. Please run Lighthouse again. (NO_NAVSTART)"
+  ],
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://fpl.ultigamemate.com/",
+    "finalUrl": "https://fpl.ultigamemate.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1072,
+      "lcp": 1072,
+      "si": 1072,
+      "tbt": 0,
+      "tti": 1072,
+      "cls": 0.001,
+      "ttfb": 622,
+      "maxPotentialFid": 45,
+      "serverResponseTime": 21,
+      "networkRtt": 0.2,
+      "networkServerLatency": 22.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 22.9,
+      "elementRenderDelay": 186.8
+    },
+    "weight": {
+      "total": 462946,
+      "requests": 34,
+      "mainDocument": 9566,
+      "byType": {
+        "total": {
+          "bytes": 460419,
+          "requests": 33
+        },
+        "font": {
+          "bytes": 269271,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 72494,
+          "requests": 9
+        },
+        "script": {
+          "bytes": 62716,
+          "requests": 13
+        },
+        "stylesheet": {
+          "bytes": 39195,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 9566,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 7177,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 22975,
+          "requests": 2
+        }
+      },
+      "scripts": 13,
+      "stylesheets": 4,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 22975,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "highlightly.net",
+          "bytes": 22975,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 22975
+          },
+          "typedBytes": 22975
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 611.6,
+      "byGroup": {
+        "other": 352.1,
+        "scriptEvaluation": 99.6,
+        "styleLayout": 98.3,
+        "paintCompositeRender": 32.7,
+        "parseHTML": 26.5,
+        "scriptParseCompile": 2.3
+      },
+      "bootupMs": 71.2,
+      "longTasks": 1,
+      "longestTaskMs": 91
+    },
+    "dom": {
+      "elements": 365,
+      "depth": 11,
+      "maxChildren": 21
+    },
+    "waste": {
+      "unusedJsBytes": 34790,
+      "unusedCssBytes": 18539,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 4398,
+      "unminifiedCssBytes": 15651,
+      "renderBlockingMs": 300,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 20574.899999999994,
+      "poorlyCachedCount": 9
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 31,
+      "failingNodes": 8,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 8
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 16,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": null,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 41
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2483,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T09:28:51.275Z",
+      "runtimeMs": 6408.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7F8KMMMPZ55E2PRJKBRSNK8"
+    },
+    "violations": 8,
+    "passes": 415,
+    "incomplete": 66,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 8,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "p:nth-child(1) > a[href=\"/\"]",
+            "snippet": "<a href=\"/\">UltiGameMate</a>"
+          },
+          {
+            "selector": "p:nth-child(2) > a[href$=\"rules/\"]",
+            "snippet": "<a href=\"/rules/\">How to Play</a>"
+          },
+          {
+            "selector": "p:nth-child(2) > a[href$=\"results/\"]",
+            "snippet": "<a href=\"/results/\">Results</a>"
+          },
+          {
+            "selector": "p:nth-child(2) > a[href$=\"calculator/\"]",
+            "snippet": "<a href=\"/calculator/\">Calculator</a>"
+          },
+          {
+            "selector": "p:nth-child(2) > a:nth-child(4)",
+            "snippet": "<a href=\"https://ultigamemate.com/privacy/\">Privacy Policy</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "46ae0892df30",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535986",
+          "etag": "W/\"d786884e7e43a59f9e3355997d48acac-ssl\""
+        }
+      },
+      {
+        "hash": "46ae0892df30",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535981",
+          "etag": "W/\"d786884e7e43a59f9e3355997d48acac-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
