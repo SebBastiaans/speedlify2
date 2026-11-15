@@ -1,0 +1,345 @@
+{
+  "url": "https://www.wix.com/",
+  "name": "Wix",
+  "group": "builders",
+  "groupName": "Website Builders",
+  "timestamp": 1794779613403,
+  "date": "2026-11-15T21:53:33.403Z",
+  "runId": "2026-11-15T21-46-18-578Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 1,
+  "durationMs": 157524,
+  "error": null,
+  "partialErrors": [
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)",
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)"
+  ],
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://www.wix.com/",
+    "finalUrl": "https://www.wix.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 57,
+      "accessibility": 100,
+      "best-practices": 73,
+      "seo": 100,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 3198,
+      "lcp": 3198,
+      "si": 4248,
+      "tbt": 2137,
+      "tti": 23548,
+      "cls": 0,
+      "ttfb": 661,
+      "maxPotentialFid": 438,
+      "serverResponseTime": 28,
+      "networkRtt": 61.7,
+      "networkServerLatency": 172.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 33,
+      "elementRenderDelay": 1188.2
+    },
+    "weight": {
+      "total": 4016059,
+      "requests": 359,
+      "mainDocument": 287616,
+      "byType": {
+        "total": {
+          "bytes": 4013164,
+          "requests": 357
+        },
+        "script": {
+          "bytes": 2594184,
+          "requests": 126
+        },
+        "other": {
+          "bytes": 858485,
+          "requests": 158
+        },
+        "document": {
+          "bytes": 288943,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 142891,
+          "requests": 60
+        },
+        "font": {
+          "bytes": 120463,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 8198,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 4013164,
+          "requests": 357
+        }
+      },
+      "scripts": 127,
+      "stylesheets": 3,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 14,
+      "bytes": 1903343,
+      "mainThreadMs": 803.2,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 1359574,
+          "mainThreadMs": 561.2,
+          "byType": {
+            "script": 1359574
+          },
+          "typedBytes": 1359574
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 273330,
+          "mainThreadMs": 171.4,
+          "byType": {
+            "script": 273330
+          },
+          "typedBytes": 273330
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 104277,
+          "mainThreadMs": 12.1,
+          "byType": {
+            "script": 103137,
+            "other": 499,
+            "stylesheet": 385,
+            "image": 256
+          },
+          "typedBytes": 104277
+        },
+        {
+          "entity": "Sentry",
+          "bytes": 42371,
+          "mainThreadMs": 7.1,
+          "byType": {
+            "script": 42371
+          },
+          "typedBytes": 42371
+        },
+        {
+          "entity": "openai.com",
+          "bytes": 39530,
+          "mainThreadMs": 12.5,
+          "byType": {
+            "script": 37209,
+            "other": 2321
+          },
+          "typedBytes": 39530
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 11595.4,
+      "byGroup": {
+        "scriptEvaluation": 6252.4,
+        "other": 2839.5,
+        "styleLayout": 1071.1,
+        "scriptParseCompile": 724.7,
+        "parseHTML": 312.7,
+        "garbageCollection": 215.2,
+        "paintCompositeRender": 179.8
+      },
+      "bootupMs": 5967,
+      "longTasks": 20,
+      "longestTaskMs": 438
+    },
+    "dom": {
+      "elements": 4606,
+      "depth": 33,
+      "maxChildren": 69
+    },
+    "waste": {
+      "unusedJsBytes": 845747,
+      "unusedCssBytes": 17757,
+      "legacyJsBytes": 36538,
+      "duplicatedJsBytes": 28309,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 765,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 284339.98,
+      "poorlyCachedCount": 17
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 34,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "presentation-role-conflict",
+          "title": "Elements with `role=\"none\"` or `role=\"presentation\"` have conflicts",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 22
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 3
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": null,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 3,
+      "baselineLimitedFeatures": 65
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2207.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T21:54:45.471Z",
+      "runtimeMs": 20669.6
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.9,
+    "elementRenderDelay": 494.7
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "wix",
+      "name": "Wix",
+      "icon": "Wix",
+      "version": null,
+      "source": "meta",
+      "raw": "Wix.com Website Builder"
+    },
+    "probe": {
+      "metas": [
+        "Wix.com Website Builder"
+      ],
+      "marks": [
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "Pepyaka",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "Pepyaka",
+      "via": "1.1 google",
+      "x-served-by": "cache-bfi-kbfi7400028-BFI"
+    },
+    "violations": 1,
+    "passes": 4363,
+    "incomplete": 104,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "presentation-role-conflict",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Elements marked as presentational should be consistently ignored",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/presentation-role-conflict?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#comp-moioxzgl6webglcanvas",
+            "snippet": "<canvas id=\"comp-moioxzgl6webglcanvas\" class=\"g4gDzl webglcanvas\" aria-label=\"\" role=\"presentation\" data-testid=\"canvas\"></canvas>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "1c2c7c53d1c3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "30444",
+          "etag": "W/\"35d341dd3b1f250bb292ffe7cb1173dd\"",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "1c2c7c53d1c3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "30465",
+          "etag": "W/\"35d341dd3b1f250bb292ffe7cb1173dd\"",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "1c2c7c53d1c3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "30524",
+          "etag": "W/\"35d341dd3b1f250bb292ffe7cb1173dd\"",
+          "x-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
