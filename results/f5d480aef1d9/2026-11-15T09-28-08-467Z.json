@@ -1,0 +1,259 @@
+{
+  "url": "https://everywhereschool.live/",
+  "name": "everywhereschool.live",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794734888467,
+  "date": "2026-11-15T09:28:08.467Z",
+  "runId": "2026-11-15T09-20-12-377Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 19511,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://everywhereschool.live/",
+    "finalUrl": "https://everywhereschool.live/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 770,
+      "lcp": 1653,
+      "si": 770,
+      "tbt": 0,
+      "tti": 1653,
+      "cls": 0,
+      "ttfb": 603,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 4,
+      "networkRtt": 0.1,
+      "networkServerLatency": 2.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 5.5,
+      "elementRenderDelay": 51.9
+    },
+    "weight": {
+      "total": 101171,
+      "requests": 10,
+      "mainDocument": 780,
+      "byType": {
+        "total": {
+          "bytes": 76004,
+          "requests": 9
+        },
+        "font": {
+          "bytes": 61624,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 6816,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 5363,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 1421,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 780,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1421,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 2,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 1421,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "cloudfront.net",
+          "bytes": 1421,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 1421
+          },
+          "typedBytes": 1421
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 121.2,
+      "byGroup": {
+        "other": 73.6,
+        "styleLayout": 30.6,
+        "scriptEvaluation": 9.1,
+        "paintCompositeRender": 3.8,
+        "parseHTML": 3.5,
+        "scriptParseCompile": 0.6
+      },
+      "bootupMs": 3.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 22,
+      "depth": 6,
+      "maxChildren": 4
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 16,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 3
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2947.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T09:28:21.940Z",
+      "runtimeMs": 5375.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7F8JPYTB7BP8FBQM4W75NZE"
+    },
+    "violations": 0,
+    "passes": 55,
+    "incomplete": 3,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "03d5d98425b2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"b8d88a23441cc25421ea8e34261b10c8-ssl\""
+        }
+      },
+      {
+        "hash": "03d5d98425b2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"b8d88a23441cc25421ea8e34261b10c8-ssl\""
+        }
+      },
+      {
+        "hash": "03d5d98425b2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535988",
+          "etag": "W/\"b8d88a23441cc25421ea8e34261b10c8-ssl\""
+        }
+      },
+      {
+        "hash": "03d5d98425b2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535983",
+          "etag": "W/\"b8d88a23441cc25421ea8e34261b10c8-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,316 @@
+{
+  "url": "https://eleventyblog.vercel.app/",
+  "name": "eleventyblog.vercel.app",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1794734714924,
+  "date": "2026-11-15T09:25:14.924Z",
+  "runId": "2026-11-15T09-20-12-377Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21783,
+  "error": null,
+  "variance": {
+    "min": 79,
+    "max": 99,
+    "spread": 20,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://eleventyblog.vercel.app/",
+    "finalUrl": "https://eleventyblog.vercel.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 79,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 60
+    },
+    "timings": {
+      "fcp": 907,
+      "lcp": 1807,
+      "si": 907,
+      "tbt": 0,
+      "tti": 1822,
+      "cls": 0.464,
+      "ttfb": 607,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 2,
+      "networkRtt": 0.2,
+      "networkServerLatency": 239.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 3.7,
+      "resourceLoadDelay": 16.8,
+      "resourceLoadDuration": 38.7,
+      "elementRenderDelay": 21.8
+    },
+    "weight": {
+      "total": 540149,
+      "requests": 17,
+      "mainDocument": 11467,
+      "byType": {
+        "total": {
+          "bytes": 540149,
+          "requests": 17
+        },
+        "image": {
+          "bytes": 472795,
+          "requests": 12
+        },
+        "stylesheet": {
+          "bytes": 31143,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 24744,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 11467,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 1
+        },
+        "third-party": {
+          "bytes": 362770,
+          "requests": 10
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 362770,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "googleusercontent.com",
+          "bytes": 228264,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 228264
+          },
+          "typedBytes": 228264
+        },
+        {
+          "entity": "pages.dev",
+          "bytes": 126340,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 126340
+          },
+          "typedBytes": 126340
+        },
+        {
+          "entity": "getbootstrap.com",
+          "bytes": 8166,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 8166
+          },
+          "typedBytes": 8166
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 239.9,
+      "byGroup": {
+        "other": 109.2,
+        "styleLayout": 49,
+        "paintCompositeRender": 42.2,
+        "parseHTML": 17.6,
+        "scriptEvaluation": 14.9,
+        "scriptParseCompile": 6.9
+      },
+      "bootupMs": 6.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 421,
+      "depth": 14,
+      "maxChildren": 108
+    },
+    "waste": {
+      "unusedJsBytes": 20669,
+      "unusedCssBytes": 28752,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 96858.48000000001,
+      "poorlyCachedCount": 5
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2963,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T09:25:23.031Z",
+      "runtimeMs": 6320.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "2.0.1",
+      "source": "meta",
+      "raw": "Eleventy v2.0.1"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v2.0.1"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "sfo1::mt56z-1794734734981-19f19690ab5c"
+    },
+    "violations": 2,
+    "passes": 852,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".col-12.text-center.p-3",
+            "snippet": "<div class=\"col-12 p-3 text-center\"><a href=\"https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll\" class=\"col-md-4 col-12 p-3 btn btn-dark text-white\">👉 HIRE ME 👈</a></div>"
+          },
+          {
+            "selector": ".p-md-5.col-12.bg-bgs",
+            "snippet": "<div class=\"col-12 p-3 p-md-5 bg-bgs\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "8f28f9ee719b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "182971",
+          "etag": "W/\"c691f5563646675722ae02ca7e754b7f\"",
+          "last-modified": "Fri, 13 Nov 2026 06:35:44 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "8f28f9ee719b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "182978",
+          "etag": "W/\"c691f5563646675722ae02ca7e754b7f\"",
+          "last-modified": "Fri, 13 Nov 2026 06:35:44 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "8f28f9ee719b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "182985",
+          "etag": "W/\"c691f5563646675722ae02ca7e754b7f\"",
+          "last-modified": "Fri, 13 Nov 2026 06:35:44 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "8f28f9ee719b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"c691f5563646675722ae02ca7e754b7f\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
