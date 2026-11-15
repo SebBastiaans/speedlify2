@@ -1,0 +1,316 @@
+{
+  "url": "https://vuepress.vuejs.org/",
+  "name": "VuePress",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1794762543647,
+  "date": "2026-11-15T17:09:03.647Z",
+  "runId": "2026-11-15T17-05-44-334Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 48473,
+  "error": null,
+  "variance": {
+    "min": 94,
+    "max": 98,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://vuepress.vuejs.org/",
+    "finalUrl": "https://vuepress.vuejs.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 97,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 837,
+      "lcp": 2268,
+      "si": 837,
+      "tbt": 146,
+      "tti": 3617,
+      "cls": 0,
+      "ttfb": 618,
+      "maxPotentialFid": 143,
+      "serverResponseTime": 19,
+      "networkRtt": 0,
+      "networkServerLatency": 18.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 21.1,
+      "resourceLoadDelay": 9.5,
+      "resourceLoadDuration": 85,
+      "elementRenderDelay": 34.1
+    },
+    "weight": {
+      "total": 796434,
+      "requests": 81,
+      "mainDocument": 4457,
+      "byType": {
+        "total": {
+          "bytes": 796434,
+          "requests": 79
+        },
+        "other": {
+          "bytes": 374901,
+          "requests": 73
+        },
+        "script": {
+          "bytes": 246635,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 153988,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 16453,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 4457,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 173905,
+          "requests": 1
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 173905,
+      "mainThreadMs": 66.1,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 173905,
+          "mainThreadMs": 66.1,
+          "byType": {
+            "script": 173905
+          },
+          "typedBytes": 173905
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 883.4,
+      "byGroup": {
+        "scriptEvaluation": 504.3,
+        "other": 238.3,
+        "scriptParseCompile": 50.1,
+        "parseHTML": 45.7,
+        "styleLayout": 38.7,
+        "paintCompositeRender": 6.3
+      },
+      "bootupMs": 551.2,
+      "longTasks": 4,
+      "longestTaskMs": 143
+    },
+    "dom": {
+      "elements": 356,
+      "depth": 13,
+      "maxChildren": 13
+    },
+    "waste": {
+      "unusedJsBytes": 100485,
+      "unusedCssBytes": 12993,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 24,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 23
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2487.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T17:09:19.008Z",
+      "runtimeMs": 6607.2
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 601.8,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 2053,
+    "elementRenderDelay": 13.7
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "vuepress",
+      "name": "VuePress",
+      "icon": "Vuedotjs",
+      "version": "2.0.0",
+      "source": "meta",
+      "raw": "VuePress 2.0.0-rc.26"
+    },
+    "probe": {
+      "metas": [
+        "VuePress 2.0.0-rc.26"
+      ],
+      "marks": [
+        "vue"
+      ],
+      "markVersions": {
+        "vue": "3.5.23"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7G2ZHRYK4B4Z6MMT8RGE6YW"
+    },
+    "violations": 2,
+    "passes": 218,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".primary",
+            "snippet": "<a aria-label=\"Get Started\" class=\"route-link auto-link vp-hero-action-button primary\" href=\"/guide/getting-started\"><!--[--><!--[--><!--]--><!--]-->Get Started<!--[--><!--[--><!--]--><!--]--></a>"
+          },
+          {
+            "selector": ".secondary",
+            "snippet": "<a aria-label=\"Introduction\" class=\"route-link auto-link vp-hero-action-button secondary\" href=\"/guide/introduction\"><!--[--><!--[--><!--]--><!--]-->Introduction<!--[--><!--[--><!--]--><!--]--></a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d3305d397dae",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "197311",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31338689",
+          "etag": "W/\"514ad82aa774ddab3f60842e7791bb49-ssl\""
+        }
+      },
+      {
+        "hash": "d3305d397dae",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "197318",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31338682",
+          "etag": "W/\"514ad82aa774ddab3f60842e7791bb49-ssl\""
+        }
+      },
+      {
+        "hash": "d3305d397dae",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "197325",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31338675",
+          "etag": "W/\"514ad82aa774ddab3f60842e7791bb49-ssl\""
+        }
+      },
+      {
+        "hash": "d3305d397dae",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "197331",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31338669",
+          "etag": "W/\"514ad82aa774ddab3f60842e7791bb49-ssl\""
+        }
+      },
+      {
+        "hash": "d3305d397dae",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31338645",
+          "etag": "W/\"514ad82aa774ddab3f60842e7791bb49-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

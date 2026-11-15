@@ -1,0 +1,367 @@
+{
+  "url": "https://nordcraft.com/",
+  "name": "Nordcraft",
+  "group": "builders",
+  "groupName": "Website Builders",
+  "timestamp": 1794762592209,
+  "date": "2026-11-15T17:09:52.209Z",
+  "runId": "2026-11-15T17-05-44-334Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 74689,
+  "error": null,
+  "partialErrors": [
+    "NO_NAVSTART: Something went wrong with recording the trace over your page load. Please run Lighthouse again. (NO_NAVSTART)"
+  ],
+  "variance": {
+    "min": 48,
+    "max": 52,
+    "spread": 4,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://nordcraft.com/",
+    "finalUrl": "https://nordcraft.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 48,
+      "accessibility": 93,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1619,
+      "lcp": 6723,
+      "si": 4563,
+      "tbt": 1379,
+      "tti": 7743,
+      "cls": 0,
+      "ttfb": 1500,
+      "maxPotentialFid": 624,
+      "serverResponseTime": 1420,
+      "networkRtt": 16.4,
+      "networkServerLatency": 974
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 1500.2,
+      "elementRenderDelay": 830.4
+    },
+    "weight": {
+      "total": 1586998,
+      "requests": 85,
+      "mainDocument": 105855,
+      "byType": {
+        "total": {
+          "bytes": 1586998,
+          "requests": 85
+        },
+        "image": {
+          "bytes": 897003,
+          "requests": 40
+        },
+        "script": {
+          "bytes": 380526,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 130326,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 105855,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 53890,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 19398,
+          "requests": 28
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 4558,
+          "requests": 1
+        }
+      },
+      "scripts": 8,
+      "stylesheets": 4,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 4558,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 4558,
+          "mainThreadMs": 0,
+          "byType": {
+            "script": 4558
+          },
+          "typedBytes": 4558
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 5277.5,
+      "byGroup": {
+        "styleLayout": 2093,
+        "other": 1424.1,
+        "scriptEvaluation": 1042.5,
+        "paintCompositeRender": 451.1,
+        "garbageCollection": 139.7,
+        "parseHTML": 102.4,
+        "scriptParseCompile": 24.7
+      },
+      "bootupMs": 1056.6,
+      "longTasks": 14,
+      "longestTaskMs": 624
+    },
+    "dom": {
+      "elements": 3955,
+      "depth": 20,
+      "maxChildren": 112
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 46490,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 6452,
+      "unminifiedCssBytes": 17125,
+      "renderBlockingMs": 151,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 561430.3583333334,
+      "poorlyCachedCount": 44
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 28,
+      "failingNodes": 7,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 46
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2451,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T17:09:53.486Z",
+      "runtimeMs": 12571
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.4,
+    "elementRenderDelay": 3813.2
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5afdf53accceacf-ORD",
+      "server": "cloudflare",
+      "x-powered-by": "Nordcraft"
+    },
+    "violations": 185,
+    "passes": 2925,
+    "incomplete": 117,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 179,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".dkDVat",
+            "snippet": "<a href=\"/\" aria-label=\"Home\" data-prerender=\"moderate\" data-id=\"0.0.0.1\" data-node-id=\"xwaTDqHVW4oxtqLcLpSAz\" class=\"dkDVat\">"
+          },
+          {
+            "selector": "span[data-id=\"0.3.0.2.0.0.0.1\"]",
+            "snippet": "<span data-id=\"0.3.0.2.0.0.0.1\" data-node-id=\"IvXb5ccP704qpoZ8kPvxe\" class=\"Tmjky\"><span data-node-type=\"text\" data-node-id=\"SnVls5AqB2z_p52ZPQ6Rd\" data-id=\"0.3.0.2.0.0.0.1.0\">Star</span></span>"
+          },
+          {
+            "selector": ".bRvbHv",
+            "snippet": "<a href=\"https://bsky.app/profile/nordcraft.com\" target=\"_blank\" aria-label=\"nordcraft.com on bsky.app\" data-id=\"0.3.0.2.0.0.1\" data-node-id=\"root\" class=\"bRvbHv bluesky-flutter hero-links:-47pK-WR6m…"
+          },
+          {
+            "selector": "span[data-id=\"0.3.0.2.0.0.2.1\"]",
+            "snippet": "<span data-id=\"0.3.0.2.0.0.2.1\" data-node-id=\"dR8ybGmGfDCcMbA6sFQln\" class=\"Tmjky\"><span data-node-type=\"text\" data-node-id=\"Ac1iD96S-Dc-iKY4dhbUI\" data-id=\"0.3.0.2.0.0.2.1.0\">Chat</span></span>"
+          },
+          {
+            "selector": "h1",
+            "snippet": "<h1 data-id=\"0.3.0.2.0.1\" data-node-id=\"root\" class=\"cCoRmh grid-hero:toZtk4srf06J99j0rg7VC beovFz\"><span data-node-type=\"text\" data-node-id=\"TXQGGeN3jXZMrDzKtCCgW\" data-id=\"0.3.0.2.0.1.0[default]\">D…"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "span[data-id=\"0.7.0.1.0.1.2.2.0(2).0\"]",
+            "snippet": "<span data-node-type=\"text\" data-node-id=\"descriptionLayerText\" data-id=\"0.7.0.1.0.1.2.2.0(2).0\">A quiet trail through snow-covered pines. Three hours of fresh air, no signal, and the best views in t…"
+          },
+          {
+            "selector": "span[data-id=\"0.7.0.1.1.1.0.0(25).1.0\"]",
+            "snippet": "<span data-node-type=\"text\" data-node-id=\"tickLabelText\" data-id=\"0.7.0.1.1.1.0.0(25).1.0\">v26</span>"
+          },
+          {
+            "selector": "span[data-id=\"0.7.0.1.1.1.0.0(30).1.0\"]",
+            "snippet": "<span data-node-type=\"text\" data-node-id=\"tickLabelText\" data-id=\"0.7.0.1.1.1.0.0(30).1.0\">v31</span>"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".dYirtx",
+            "snippet": "<div data-id=\"0.9.4.1.2\" data-node-id=\"BHVNO8SQw1dHy60MVvQNW\" class=\"dYirtx\">"
+          },
+          {
+            "selector": ".dMenZZ",
+            "snippet": "<div data-id=\"0.9.4.1.4.1\" data-node-id=\"k_CIeHo5qNia-v1lQpIk8\" class=\"dMenZZ\">"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".bRvbHv",
+            "snippet": "<a href=\"https://bsky.app/profile/nordcraft.com\" target=\"_blank\" aria-label=\"nordcraft.com on bsky.app\" data-id=\"0.3.0.2.0.0.1\" data-node-id=\"root\" class=\"bRvbHv bluesky-flutter hero-links:-47pK-WR6m…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ad3345dfe78a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "10a91e2d5824",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "5f93a6e36562",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "c6362304eb6b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {},
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
