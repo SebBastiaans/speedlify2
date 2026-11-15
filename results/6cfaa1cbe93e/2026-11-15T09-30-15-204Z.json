@@ -1,0 +1,395 @@
+{
+  "url": "https://www.heroku.com/",
+  "name": "Heroku",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1794735015204,
+  "date": "2026-11-15T09:30:15.204Z",
+  "runId": "2026-11-15T09-20-03-039Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 72626,
+  "error": null,
+  "variance": {
+    "min": 85,
+    "max": 86,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.heroku.com/",
+    "finalUrl": "https://www.heroku.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 85,
+      "accessibility": 93,
+      "best-practices": 73,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2016,
+      "lcp": 2016,
+      "si": 3058,
+      "tbt": 480,
+      "tti": 19458,
+      "cls": 0.021,
+      "ttfb": 607,
+      "maxPotentialFid": 276,
+      "serverResponseTime": 16,
+      "networkRtt": 35.1,
+      "networkServerLatency": 173.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 109.6,
+      "elementRenderDelay": 159.7
+    },
+    "weight": {
+      "total": 2794855,
+      "requests": 112,
+      "mainDocument": 53074,
+      "byType": {
+        "total": {
+          "bytes": 2794855,
+          "requests": 110
+        },
+        "script": {
+          "bytes": 1847967,
+          "requests": 47
+        },
+        "other": {
+          "bytes": 467208,
+          "requests": 19
+        },
+        "font": {
+          "bytes": 211953,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 128599,
+          "requests": 12
+        },
+        "document": {
+          "bytes": 81626,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 57502,
+          "requests": 24
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1211994,
+          "requests": 37
+        }
+      },
+      "scripts": 47,
+      "stylesheets": 12,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 13,
+      "bytes": 1110960,
+      "mainThreadMs": 243.6,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 535891,
+          "mainThreadMs": 150.5,
+          "byType": {
+            "script": 535891
+          },
+          "typedBytes": 535891
+        },
+        {
+          "entity": "Google CDN",
+          "bytes": 360128,
+          "mainThreadMs": 67,
+          "byType": {
+            "other": 360128
+          },
+          "typedBytes": 360128
+        },
+        {
+          "entity": "herokucdn.com",
+          "bytes": 146217,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 146217
+          },
+          "typedBytes": 146217
+        },
+        {
+          "entity": "LinkedIn Ads",
+          "bytes": 22934,
+          "mainThreadMs": 4.4,
+          "byType": {
+            "script": 21828,
+            "image": 740,
+            "other": 366
+          },
+          "typedBytes": 22934
+        },
+        {
+          "entity": "Parse.ly",
+          "bytes": 22852,
+          "mainThreadMs": 17.5,
+          "byType": {
+            "script": 22356,
+            "other": 341,
+            "image": 155
+          },
+          "typedBytes": 22852
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3382.2,
+      "byGroup": {
+        "scriptEvaluation": 1817.7,
+        "other": 648.1,
+        "styleLayout": 387.6,
+        "scriptParseCompile": 229.3,
+        "parseHTML": 138.8,
+        "paintCompositeRender": 103.1,
+        "garbageCollection": 57.5
+      },
+      "bootupMs": 1805.8,
+      "longTasks": 15,
+      "longestTaskMs": 276
+    },
+    "dom": {
+      "elements": 2313,
+      "depth": 31,
+      "maxChildren": 351
+    },
+    "waste": {
+      "unusedJsBytes": 845827,
+      "unusedCssBytes": 98465,
+      "legacyJsBytes": 36386,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 3111,
+      "renderBlockingMs": 1663,
+      "renderBlockingCount": 11,
+      "poorlyCachedBytes": 71832.4,
+      "poorlyCachedCount": 9
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 29,
+      "failingNodes": 11,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 10
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 4,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 10
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 49
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4371.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T09:30:16.381Z",
+      "runtimeMs": 11889.4
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.6,
+    "elementRenderDelay": 843.9
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 3,
+    "passes": 1552,
+    "incomplete": 6,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".elementor-element-508241cc > p > a:nth-child(1)",
+            "snippet": "<a href=\"https://elements.heroku.com/buildpacks\">third-party buildpack</a>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".menu-footer-1-container",
+            "snippet": "<nav class=\"menu-footer-1-container\" aria-label=\"Menu\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#overlay-description",
+            "snippet": "<div id=\"overlay-description\" class=\"sr-only\"> Search overlay panel for performing site-wide searches </div>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "5ecbd37139ff",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5ecbd37139ff",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5ecbd37139ff",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5ecbd37139ff",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5ecbd37139ff",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

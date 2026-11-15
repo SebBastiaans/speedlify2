@@ -1,0 +1,235 @@
+{
+  "url": "https://dryan.com/",
+  "name": "dryan.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794734835405,
+  "date": "2026-11-15T09:27:15.405Z",
+  "runId": "2026-11-15T09-20-03-039Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 1,
+  "durationMs": 33916,
+  "error": null,
+  "partialErrors": [
+    "NO_NAVSTART: Something went wrong with recording the trace over your page load. Please run Lighthouse again. (NO_NAVSTART)",
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)"
+  ],
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://dryan.com/",
+    "finalUrl": "https://dryan.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 81,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1123,
+      "lcp": 1123,
+      "si": 2154,
+      "tbt": 32,
+      "tti": 2405,
+      "cls": 0,
+      "ttfb": 823,
+      "maxPotentialFid": 82,
+      "serverResponseTime": 408,
+      "networkRtt": 14.6,
+      "networkServerLatency": 223
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 474.1,
+      "elementRenderDelay": 508.5
+    },
+    "weight": {
+      "total": 172225,
+      "requests": 20,
+      "mainDocument": 8335,
+      "byType": {
+        "total": {
+          "bytes": 172225,
+          "requests": 20
+        },
+        "font": {
+          "bytes": 72475,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 64089,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 20534,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 8335,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 6792,
+          "requests": 7
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 43467,
+          "requests": 2
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 5,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 43467,
+      "mainThreadMs": 10,
+      "top": [
+        {
+          "entity": "dryan.tech",
+          "bytes": 32989,
+          "mainThreadMs": 3.9,
+          "byType": {
+            "script": 32989
+          },
+          "typedBytes": 32989
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 6.1,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 466.6,
+      "byGroup": {
+        "scriptEvaluation": 232.3,
+        "other": 134.3,
+        "styleLayout": 58.8,
+        "parseHTML": 13.2,
+        "scriptParseCompile": 11.9,
+        "paintCompositeRender": 8.9,
+        "garbageCollection": 7.2
+      },
+      "bootupMs": 208.4,
+      "longTasks": 1,
+      "longestTaskMs": 82
+    },
+    "dom": {
+      "elements": 258,
+      "depth": 13,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 26379,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2999,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 122343.775,
+      "poorlyCachedCount": 11
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 21,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 53
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4088.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T09:27:16.589Z",
+      "runtimeMs": 8229.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": "Just a moment...",
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5ad38cb9cba8bdc-MSP",
+      "server": "cloudflare"
+    },
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7c1ada3a3dae",
+        "nonce": "f6a2f622e305",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

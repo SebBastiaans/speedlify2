@@ -1,0 +1,365 @@
+{
+  "url": "https://davidrhoden.com/",
+  "name": "davidrhoden.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794734634815,
+  "date": "2026-11-15T09:23:54.815Z",
+  "runId": "2026-11-15T09-20-03-039Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24951,
+  "error": null,
+  "variance": {
+    "min": 59,
+    "max": 82,
+    "spread": 23,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://davidrhoden.com/",
+    "finalUrl": "https://davidrhoden.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 82,
+      "accessibility": 95,
+      "best-practices": 81,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1756,
+      "lcp": 4699,
+      "si": 1802,
+      "tbt": 67,
+      "tti": 5561,
+      "cls": 0.003,
+      "ttfb": 499,
+      "maxPotentialFid": 90,
+      "serverResponseTime": 46,
+      "networkRtt": 11.4,
+      "networkServerLatency": 184.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 47.2,
+      "resourceLoadDelay": 35.9,
+      "resourceLoadDuration": 72.1,
+      "elementRenderDelay": 43
+    },
+    "weight": {
+      "total": 918536,
+      "requests": 28,
+      "mainDocument": 34856,
+      "byType": {
+        "total": {
+          "bytes": 909985,
+          "requests": 27
+        },
+        "image": {
+          "bytes": 509966,
+          "requests": 6
+        },
+        "script": {
+          "bytes": 248312,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 91352,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 34856,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 21874,
+          "requests": 6
+        },
+        "other": {
+          "bytes": 3625,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 298286,
+          "requests": 13
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 6,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 298286,
+      "mainThreadMs": 47.6,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 188741,
+          "mainThreadMs": 41.4,
+          "byType": {
+            "script": 188741
+          },
+          "typedBytes": 188741
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 93086,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1734,
+            "font": 91352
+          },
+          "typedBytes": 93086
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 3.9,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "umami.is",
+          "bytes": 5270,
+          "mainThreadMs": 2,
+          "byType": {
+            "script": 4627,
+            "other": 643
+          },
+          "typedBytes": 5270
+        },
+        {
+          "entity": "cdnfonts.com",
+          "bytes": 838,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 838
+          },
+          "typedBytes": 838
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 674.1,
+      "byGroup": {
+        "scriptEvaluation": 327.2,
+        "other": 170.8,
+        "styleLayout": 89.7,
+        "scriptParseCompile": 43.5,
+        "parseHTML": 22.2,
+        "garbageCollection": 10.7,
+        "paintCompositeRender": 9.9
+      },
+      "bootupMs": 344.1,
+      "longTasks": 3,
+      "longestTaskMs": 90
+    },
+    "dom": {
+      "elements": 466,
+      "depth": 13,
+      "maxChildren": 15
+    },
+    "waste": {
+      "unusedJsBytes": 80580,
+      "unusedCssBytes": 13469,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 3649,
+      "renderBlockingMs": 2170,
+      "renderBlockingCount": 7,
+      "poorlyCachedBytes": 4140.400000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 26,
+      "failingNodes": 22,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 21
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 37
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4176.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T09:24:11.555Z",
+      "runtimeMs": 6528.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5ad33b6dbf69200-MSP",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M7F8B3JZ33P015J0B7HFB36P"
+    },
+    "violations": 22,
+    "passes": 556,
+    "incomplete": 13,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 21,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".main-link",
+            "snippet": "<a class=\"main-link\" href=\"/\">David Rhoden.</a>"
+          },
+          {
+            "selector": ".latest-post-excerpt",
+            "snippet": "<p class=\"latest-post-excerpt\">Or maybe they do disappoint, as usual.</p>"
+          },
+          {
+            "selector": "a[href$=\"note/\"]",
+            "snippet": "<a class=\"latest-post-tag\" href=\"/tags/note/\" rel=\"tag\">note</a>"
+          },
+          {
+            "selector": "a[href$=\"the-new-york-times/\"]",
+            "snippet": "<a class=\"latest-post-tag\" href=\"/tags/the-new-york-times/\" rel=\"tag\">The New York Times</a>"
+          },
+          {
+            "selector": "a[href$=\"south-dakota/\"]",
+            "snippet": "<a class=\"latest-post-tag\" href=\"/tags/south-dakota/\" rel=\"tag\">South Dakota</a>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#the-blue-wave-washed-across-much-of-america\\.-but-not-here\\.",
+            "snippet": "<h4 id=\"the-blue-wave-washed-across-much-of-america.-but-not-here.\" tabindex=\"-1\"><em>The Blue Wave Washed Across Much of America. But Not Here.</em></h4>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "3c1802fa50bc",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "3c1802fa50bc",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "3c1802fa50bc",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535985",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "3c1802fa50bc",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "21",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535979",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

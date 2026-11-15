@@ -1,0 +1,357 @@
+{
+  "url": "https://railway.com/",
+  "name": "Railway",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1794735291477,
+  "date": "2026-11-15T09:34:51.477Z",
+  "runId": "2026-11-15T09-20-03-039Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 241703,
+  "error": null,
+  "variance": {
+    "min": 29,
+    "max": 43,
+    "spread": 14,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://railway.com/",
+    "finalUrl": "https://railway.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 31,
+      "accessibility": 96,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 98
+    },
+    "timings": {
+      "fcp": 8610,
+      "lcp": 19951,
+      "si": 8610,
+      "tbt": 1438,
+      "tti": 21428,
+      "cls": 0,
+      "ttfb": 638,
+      "maxPotentialFid": 499,
+      "serverResponseTime": 36,
+      "networkRtt": 52.4,
+      "networkServerLatency": 94.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 102.2,
+      "resourceLoadDelay": 36.4,
+      "resourceLoadDuration": 145.2,
+      "elementRenderDelay": 2057.3
+    },
+    "weight": {
+      "total": 3643889,
+      "requests": 258,
+      "mainDocument": 206248,
+      "byType": {
+        "total": {
+          "bytes": 3638650,
+          "requests": 255
+        },
+        "script": {
+          "bytes": 2305424,
+          "requests": 145
+        },
+        "image": {
+          "bytes": 823907,
+          "requests": 51
+        },
+        "font": {
+          "bytes": 209348,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 206817,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 72301,
+          "requests": 6
+        },
+        "other": {
+          "bytes": 20853,
+          "requests": 45
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 529966,
+          "requests": 57
+        }
+      },
+      "scripts": 147,
+      "stylesheets": 6,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 11,
+      "bytes": 529460,
+      "mainThreadMs": 235.9,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 212703,
+          "mainThreadMs": 0.4,
+          "byType": {
+            "stylesheet": 3355,
+            "font": 209348
+          },
+          "typedBytes": 212703
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 161302,
+          "mainThreadMs": 46.9,
+          "byType": {
+            "script": 161302
+          },
+          "typedBytes": 161302
+        },
+        {
+          "entity": "Osano CMP",
+          "bytes": 75841,
+          "mainThreadMs": 174,
+          "byType": {
+            "script": 72423,
+            "other": 3418
+          },
+          "typedBytes": 75841
+        },
+        {
+          "entity": "IPONWEB",
+          "bytes": 60692,
+          "mainThreadMs": 13.1,
+          "byType": {
+            "script": 59985,
+            "other": 707
+          },
+          "typedBytes": 60692
+        },
+        {
+          "entity": "browser-intake-datadoghq.com",
+          "bytes": 7170,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "other": 7170
+          },
+          "typedBytes": 7170
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 9000.5,
+      "byGroup": {
+        "scriptEvaluation": 4469.9,
+        "other": 2729,
+        "styleLayout": 817.3,
+        "garbageCollection": 477.5,
+        "paintCompositeRender": 308,
+        "parseHTML": 110,
+        "scriptParseCompile": 88.7
+      },
+      "bootupMs": 4260.9,
+      "longTasks": 20,
+      "longestTaskMs": 499
+    },
+    "dom": {
+      "elements": 8368,
+      "depth": 24,
+      "maxChildren": 143
+    },
+    "waste": {
+      "unusedJsBytes": 1048885,
+      "unusedCssBytes": 63625,
+      "legacyJsBytes": 40210,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1327,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 913282.0916666668,
+      "poorlyCachedCount": 43
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 27,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 4
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 9
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 64
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4113.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T09:34:52.716Z",
+      "runtimeMs": 58839
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 787.8,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 6317.6,
+    "elementRenderDelay": 8580.8
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "react",
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "2.8.0"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "railway",
+      "name": "Railway",
+      "icon": "Railway",
+      "source": "server"
+    },
+    "headers": {
+      "server": "railway-hikari"
+    },
+    "violations": 2,
+    "passes": 8320,
+    "incomplete": 87,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".opacity-40.sm\\:flex-row.sm\\:items-center > .items-center.flex:nth-child(1) > .leading-6.text-base.font-medium",
+            "snippet": "<div class=\"text-base leading-6 font-medium text-white\">Alternative to</div>"
+          },
+          {
+            "selector": ".w-\\[360px\\].h-\\[246px\\].pt-6:nth-child(6) > .gap-3.items-center.flex > .text-sm.leading-5 > .text-white\\/50",
+            "snippet": "<div class=\"text-white/50\">@0x0elliot</div>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a21d1a4a7ed9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "MISS"
+        }
+      },
+      {
+        "hash": "2f21db2aebde",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "MISS"
+        }
+      },
+      {
+        "hash": "11b313171aef",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "MISS"
+        }
+      },
+      {
+        "hash": "c1480deb8639",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "MISS"
+        }
+      },
+      {
+        "hash": "f739535d190a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "MISS"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

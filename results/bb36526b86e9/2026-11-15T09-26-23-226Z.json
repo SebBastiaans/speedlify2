@@ -1,0 +1,345 @@
+{
+  "url": "https://doddle.agency/",
+  "name": "doddle.agency",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794734783226,
+  "date": "2026-11-15T09:26:23.226Z",
+  "runId": "2026-11-15T09-20-03-039Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24584,
+  "error": null,
+  "variance": {
+    "min": 93,
+    "max": 94,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://doddle.agency/",
+    "finalUrl": "https://doddle.agency/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 93,
+      "accessibility": 95,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 40
+    },
+    "timings": {
+      "fcp": 1855,
+      "lcp": 1855,
+      "si": 2721,
+      "tbt": 45,
+      "tti": 6029,
+      "cls": 0.136,
+      "ttfb": 712,
+      "maxPotentialFid": 119,
+      "serverResponseTime": 106,
+      "networkRtt": 25.9,
+      "networkServerLatency": 111.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 612.9,
+      "elementRenderDelay": 283.5
+    },
+    "weight": {
+      "total": 1189479,
+      "requests": 30,
+      "mainDocument": 12384,
+      "byType": {
+        "total": {
+          "bytes": 1182004,
+          "requests": 29
+        },
+        "image": {
+          "bytes": 613974,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 493062,
+          "requests": 15
+        },
+        "font": {
+          "bytes": 45763,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 15719,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 12384,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1102,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1044732,
+          "requests": 14
+        }
+      },
+      "scripts": 15,
+      "stylesheets": 5,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 1044732,
+      "mainThreadMs": 62.4,
+      "top": [
+        {
+          "entity": "Cloudinary",
+          "bytes": 612927,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 612927
+          },
+          "typedBytes": 612927
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 324477,
+          "mainThreadMs": 53.8,
+          "byType": {
+            "script": 324477
+          },
+          "typedBytes": 324477
+        },
+        {
+          "entity": "termsfeed.com",
+          "bytes": 59030,
+          "mainThreadMs": 8.4,
+          "byType": {
+            "script": 59030
+          },
+          "typedBytes": 59030
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 47196,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1433,
+            "font": 45763
+          },
+          "typedBytes": 47196
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 555,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 555
+          },
+          "typedBytes": 555
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 763.1,
+      "byGroup": {
+        "scriptEvaluation": 301,
+        "other": 215.4,
+        "styleLayout": 118.7,
+        "scriptParseCompile": 66,
+        "paintCompositeRender": 35.4,
+        "parseHTML": 15.4,
+        "garbageCollection": 11.4
+      },
+      "bootupMs": 325.3,
+      "longTasks": 2,
+      "longestTaskMs": 119
+    },
+    "dom": {
+      "elements": 448,
+      "depth": 11,
+      "maxChildren": 24
+    },
+    "waste": {
+      "unusedJsBytes": 196149,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1778,
+      "renderBlockingCount": 6,
+      "poorlyCachedBytes": 58744,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 15,
+      "failing": [
+        {
+          "id": "aria-allowed-attr",
+          "title": "`[aria-*]` attributes do not match their roles",
+          "weight": 10,
+          "nodes": 15
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 20
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3916,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T09:26:24.414Z",
+      "runtimeMs": 7954.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "LiteSpeed",
+      "detailIcon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "LiteSpeed"
+    },
+    "violations": 15,
+    "passes": 806,
+    "incomplete": 22,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "nodes": 15,
+        "help": "Elements must only use supported ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".accordion:nth-child(1) > .accordion-header",
+            "snippet": "<div class=\"accordion-header\" aria-expanded=\"false\">"
+          },
+          {
+            "selector": ".accordion:nth-child(2) > .accordion-header",
+            "snippet": "<div class=\"accordion-header\" aria-expanded=\"false\">"
+          },
+          {
+            "selector": ".accordion:nth-child(3) > .accordion-header",
+            "snippet": "<div class=\"accordion-header\" aria-expanded=\"false\">"
+          },
+          {
+            "selector": ".accordion:nth-child(4) > .accordion-header",
+            "snippet": "<div class=\"accordion-header\" aria-expanded=\"false\">"
+          },
+          {
+            "selector": ".accordion:nth-child(5) > .accordion-header",
+            "snippet": "<div class=\"accordion-header\" aria-expanded=\"false\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "4fa9dced416d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Mon, 21 Oct 2024 07:36:12 GMT"
+        }
+      },
+      {
+        "hash": "4fa9dced416d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Mon, 21 Oct 2024 07:36:12 GMT"
+        }
+      },
+      {
+        "hash": "4fa9dced416d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Mon, 21 Oct 2024 07:36:12 GMT"
+        }
+      },
+      {
+        "hash": "4fa9dced416d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Mon, 21 Oct 2024 07:36:12 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
