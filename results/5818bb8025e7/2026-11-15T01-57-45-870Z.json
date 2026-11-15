@@ -1,0 +1,318 @@
+{
+  "url": "https://eddy.000000076.xyz/",
+  "name": "eddy.000000076.xyz",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1794707865870,
+  "date": "2026-11-15T01:57:45.870Z",
+  "runId": "2026-11-15T01-52-46-357Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 19712,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://eddy.000000076.xyz/",
+    "finalUrl": "https://eddy.000000076.xyz/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 91,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 805,
+      "lcp": 805,
+      "si": 805,
+      "tbt": 0,
+      "tti": 805,
+      "cls": 0,
+      "ttfb": 490,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 71,
+      "networkRtt": 0,
+      "networkServerLatency": 40.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 72.4,
+      "elementRenderDelay": 20.9
+    },
+    "weight": {
+      "total": 24327,
+      "requests": 6,
+      "mainDocument": 5778,
+      "byType": {
+        "total": {
+          "bytes": 20149,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 13337,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 5778,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1034,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10352,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10352,
+      "mainThreadMs": 4.2,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10352,
+          "mainThreadMs": 4.2,
+          "byType": {
+            "script": 10352
+          },
+          "typedBytes": 10352
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 106.1,
+      "byGroup": {
+        "other": 55.6,
+        "scriptEvaluation": 26.7,
+        "styleLayout": 15.3,
+        "parseHTML": 6,
+        "paintCompositeRender": 1.7,
+        "scriptParseCompile": 0.7
+      },
+      "bootupMs": 5.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 59,
+      "depth": 7,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10357,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 4140.8,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 21,
+      "failingNodes": 6,
+      "failing": [
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 11
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3555.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T01:57:53.399Z",
+      "runtimeMs": 5768.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.6",
+      "source": "meta",
+      "raw": "Eleventy v3.1.6"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.6",
+        "Eleventy v3.1.6"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5aaa61348dfd32b-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 6,
+    "passes": 114,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"jekyllrb.com/\"]",
+            "snippet": "<a href=\"https://jekyllrb.com/\" target=\"_blank\">Jekyll</a>"
+          },
+          {
+            "selector": "a[rel=\"noopener\"]",
+            "snippet": "<a href=\"https://11ty.dev/\" target=\"_blank\" rel=\"noopener\">11ty</a>"
+          },
+          {
+            "selector": "p > a:nth-child(3)",
+            "snippet": "<a href=\"http://go-dh.github.io/mincomp/\">minimal computing principles</a>"
+          },
+          {
+            "selector": "a[href$=\"documentation/\"]",
+            "snippet": "<a href=\"/ed/documentation/\">our documentation</a>"
+          },
+          {
+            "selector": "a[href$=\"about/\"]",
+            "snippet": "<a href=\"/ed/about/\">about</a>"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".header-anchor",
+            "snippet": "<a class=\"header-anchor\" href=\"#hi\"></a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "2896d0e8c295",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "2896d0e8c295",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "2896d0e8c295",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "2896d0e8c295",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

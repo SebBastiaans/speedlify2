@@ -1,0 +1,335 @@
+{
+  "url": "https://mochajs.org/",
+  "name": "Mocha",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1794708622445,
+  "date": "2026-11-15T02:10:22.445Z",
+  "runId": "2026-11-15T01-52-46-357Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 46372,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://mochajs.org/",
+    "finalUrl": "https://mochajs.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 944,
+      "lcp": 1681,
+      "si": 944,
+      "tbt": 0,
+      "tti": 1681,
+      "cls": 0,
+      "ttfb": 603,
+      "maxPotentialFid": 41,
+      "serverResponseTime": 3,
+      "networkRtt": 0.7,
+      "networkServerLatency": 172.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 4.2,
+      "elementRenderDelay": 102.3
+    },
+    "weight": {
+      "total": 313034,
+      "requests": 103,
+      "mainDocument": 12058,
+      "byType": {
+        "total": {
+          "bytes": 313034,
+          "requests": 103
+        },
+        "image": {
+          "bytes": 215305,
+          "requests": 89
+        },
+        "script": {
+          "bytes": 71280,
+          "requests": 8
+        },
+        "stylesheet": {
+          "bytes": 13076,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 12058,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1315,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 253372,
+          "requests": 87
+        }
+      },
+      "scripts": 8,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 253092,
+      "mainThreadMs": 8.5,
+      "top": [
+        {
+          "entity": "opencollective.com",
+          "bytes": 204873,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 204873
+          },
+          "typedBytes": 204873
+        },
+        {
+          "entity": "Matomo",
+          "bytes": 45201,
+          "mainThreadMs": 8.5,
+          "byType": {
+            "script": 45059,
+            "other": 142
+          },
+          "typedBytes": 45201
+        },
+        {
+          "entity": "Netlify",
+          "bytes": 1795,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 1795
+          },
+          "typedBytes": 1795
+        },
+        {
+          "entity": "shields.io",
+          "bytes": 1223,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 1223
+          },
+          "typedBytes": 1223
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 647.8,
+      "byGroup": {
+        "other": 324.4,
+        "styleLayout": 146.4,
+        "scriptEvaluation": 98.7,
+        "paintCompositeRender": 35.3,
+        "parseHTML": 28.6,
+        "scriptParseCompile": 14.4
+      },
+      "bootupMs": 42.3,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 666,
+      "depth": 15,
+      "maxChildren": 78
+    },
+    "waste": {
+      "unusedJsBytes": 29234,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 88940.32202048412,
+      "poorlyCachedCount": 84
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 25,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are not crawlable",
+          "weight": 1,
+          "nodes": 4
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 35
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3465.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T02:10:32.180Z",
+      "runtimeMs": 7514.2
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.7,
+    "elementRenderDelay": 249.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": "7.4.2",
+      "source": "meta",
+      "raw": "Astro v7.4.2"
+    },
+    "probe": {
+      "metas": [
+        "Astro v7.4.2",
+        "Starlight v0.42.7"
+      ],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7EFHYJV4YXTQAZFJP9HY6HX"
+    },
+    "violations": 1,
+    "passes": 815,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".sl-skip-link",
+            "snippet": "<a class=\"sl-skip-link astro-qb7clj6f\" href=\"#_top\">Skip to content</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "3b701798cbdd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=stale; fwd-status=200; stored",
+          "etag": "W/\"ca7ced7323b08c42413defbcfa2f8ddb-ssl\""
+        }
+      },
+      {
+        "hash": "3b701798cbdd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535991",
+          "etag": "W/\"ca7ced7323b08c42413defbcfa2f8ddb-ssl\""
+        }
+      },
+      {
+        "hash": "3b701798cbdd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535984",
+          "etag": "W/\"ca7ced7323b08c42413defbcfa2f8ddb-ssl\""
+        }
+      },
+      {
+        "hash": "3b701798cbdd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "24",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535976",
+          "etag": "W/\"ca7ced7323b08c42413defbcfa2f8ddb-ssl\""
+        }
+      },
+      {
+        "hash": "3b701798cbdd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535957",
+          "etag": "W/\"ca7ced7323b08c42413defbcfa2f8ddb-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
