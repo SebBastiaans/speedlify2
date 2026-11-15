@@ -1,0 +1,607 @@
+{
+  "url": "https://www.ferrari.com/",
+  "name": "Ferrari",
+  "group": "nextjs-showcase",
+  "groupName": "Next.js Showcase",
+  "timestamp": 1794763138565,
+  "date": "2026-11-15T17:18:58.565Z",
+  "runId": "2026-11-15T17-05-53-741Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 149531,
+  "error": null,
+  "variance": {
+    "min": 21,
+    "max": 30,
+    "spread": 9,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.ferrari.com/",
+    "finalUrl": "https://www.ferrari.com/en-US",
+    "redirect": {
+      "from": "https://www.ferrari.com/",
+      "to": "https://www.ferrari.com/en-US",
+      "chain": [
+        {
+          "url": "https://www.ferrari.com/",
+          "status": 302
+        },
+        {
+          "url": "https://www.ferrari.com/en-US/",
+          "status": 302
+        },
+        {
+          "url": "https://www.ferrari.com/en-US",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        302,
+        302
+      ],
+      "change": "path",
+      "permanent": false,
+      "schemeUpgrade": false,
+      "hops": 2
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 24,
+      "accessibility": 81,
+      "best-practices": 77,
+      "seo": 83,
+      "agentic-browsing": 21
+    },
+    "timings": {
+      "fcp": 3592,
+      "lcp": 35092,
+      "si": 19886,
+      "tbt": 3904,
+      "tti": 37299,
+      "cls": 0.128,
+      "ttfb": 702,
+      "maxPotentialFid": 734,
+      "serverResponseTime": 203,
+      "networkRtt": 3.3,
+      "networkServerLatency": 385.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 702,
+      "elementRenderDelay": 2510
+    },
+    "weight": {
+      "total": 34819457,
+      "requests": 290,
+      "mainDocument": 20331,
+      "byType": {
+        "total": {
+          "bytes": 34819466,
+          "requests": 277
+        },
+        "other": {
+          "bytes": 28383418,
+          "requests": 156
+        },
+        "script": {
+          "bytes": 5672533,
+          "requests": 63
+        },
+        "image": {
+          "bytes": 609821,
+          "requests": 43
+        },
+        "font": {
+          "bytes": 115109,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 26928,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 11657,
+          "requests": 6
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 32484701,
+          "requests": 237
+        }
+      },
+      "scripts": 72,
+      "stylesheets": 6,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 15,
+      "bytes": 34686041,
+      "mainThreadMs": 1501,
+      "top": [
+        {
+          "entity": "Adobe Scene7",
+          "bytes": 31969092,
+          "mainThreadMs": 450.9,
+          "byType": {
+            "script": 297428,
+            "other": 31171498,
+            "stylesheet": 368,
+            "image": 499798
+          },
+          "typedBytes": 31969092
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 1422894,
+          "mainThreadMs": 715.5,
+          "byType": {
+            "script": 1422876,
+            "image": 18
+          },
+          "typedBytes": 1422894
+        },
+        {
+          "entity": "Google CDN",
+          "bytes": 359628,
+          "mainThreadMs": 44.4,
+          "byType": {
+            "script": 359628
+          },
+          "typedBytes": 359628
+        },
+        {
+          "entity": "Optanon",
+          "bytes": 256170,
+          "mainThreadMs": 58.4,
+          "byType": {
+            "script": 158862,
+            "other": 58707,
+            "image": 38601
+          },
+          "typedBytes": 256170
+        },
+        {
+          "entity": "Accessibe Accessibility Overlay",
+          "bytes": 254787,
+          "mainThreadMs": 57.1,
+          "byType": {
+            "script": 254512,
+            "other": 275
+          },
+          "typedBytes": 254787
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 18600.2,
+      "byGroup": {
+        "scriptEvaluation": 11146.5,
+        "other": 3209.6,
+        "styleLayout": 1933.4,
+        "scriptParseCompile": 1155.5,
+        "paintCompositeRender": 728,
+        "garbageCollection": 292.2,
+        "parseHTML": 135
+      },
+      "bootupMs": 12108.5,
+      "longTasks": 20,
+      "longestTaskMs": 734
+    },
+    "dom": {
+      "elements": 4405,
+      "depth": 34,
+      "maxChildren": 61
+    },
+    "waste": {
+      "unusedJsBytes": 2412498,
+      "unusedCssBytes": 34606,
+      "legacyJsBytes": 33846,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 81380,
+      "unminifiedCssBytes": 2714,
+      "renderBlockingMs": 468,
+      "renderBlockingCount": 9,
+      "poorlyCachedBytes": 1018914.9954736119,
+      "poorlyCachedCount": 37
+    },
+    "accessibility": {
+      "failingCount": 7,
+      "applicableCount": 35,
+      "failingNodes": 21,
+      "failing": [
+        {
+          "id": "aria-valid-attr-value",
+          "title": "`[aria-*]` attributes do not have valid values",
+          "weight": 10,
+          "nodes": 9
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 6
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 2
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "listitem",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "select-name",
+          "title": "Select elements do not have associated label elements.",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "svg-img-alt",
+          "title": "SVG elements with an `img` role do not have an accessible text alternative",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 8
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 4
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 6
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 991.8,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 57
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3508.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T17:19:49.829Z",
+      "runtimeMs": 25636.4
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 2266.7,
+    "elementRenderDelay": 33286.3
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "react",
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "3.3.2"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "Ferrari",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "Ferrari",
+      "via": "1.1 8bf233dd8a97bd754666b427b6d19d34.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "JWVraWTb-HXEXAYocvqgphL96DpTcxj3LFeG97eckldqCEO0WtahwQ==",
+      "x-powered-by": "Ferrari.com",
+      "x-served-by": "cache-dub4362-DUB"
+    },
+    "violations": 30,
+    "passes": 2508,
+    "incomplete": 45,
+    "violationRules": 11,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 9,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "img[alt=\"Facebook\"]",
+            "snippet": "<img src=\"https://cdn.ferrari.com/cms/network/media/img/resize/5ca483b65d32fb0b9e2ac5a3-facebook?\" alt=\"Facebook\" role=\"presentation\">"
+          },
+          {
+            "selector": "img[alt=\"Instagram\"]",
+            "snippet": "<img src=\"https://cdn.ferrari.com/cms/network/media/img/resize/5ca4860a5d32fb0b9e2ac5a8-instagram?\" alt=\"Instagram\" role=\"presentation\">"
+          },
+          {
+            "selector": "img[alt=\"Linkedin\"]",
+            "snippet": "<img src=\"https://cdn.ferrari.com/cms/network/media/img/resize/5ca487ee5d32fb0b9e2ac5ad-linkedin?\" alt=\"Linkedin\" role=\"presentation\">"
+          },
+          {
+            "selector": "img[alt=\"Tik Tok\"]",
+            "snippet": "<img src=\"https://cdn.ferrari.com/cms/network/media/img/resize/628cd2388a4b79293d7c99ff-tiktok?\" alt=\"Tik Tok\" role=\"presentation\">"
+          },
+          {
+            "selector": "img[alt=\"Twitch\"]",
+            "snippet": "<img src=\"https://cdn.ferrari.com/cms/network/media/img/resize/628cd2a7bc2f334e875664a9-twitch?\" alt=\"Twitch\" role=\"presentation\">"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 6,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "f-carousel-editorial f-carousel-editorial-item[show=\"true\"] > f-aem-dynamic-media-image[resize-id=\"carousel-editorial-item\"][alt-text=\"\"] > span[data-aem-image-root=\"\"] > picture > img",
+            "snippet": "<img src=\"https://ferrari.scen...\" style=\" max-width: va...\">"
+          },
+          {
+            "selector": "f-editorial-split-banner-item[pretitle=\"Collections\"] > f-aem-dynamic-media-image[resize-id=\"editorial-split-banner\"][alt-text=\"\"] > span[data-aem-image-root=\"\"] > picture > img",
+            "snippet": "<img src=\"https://ferrari.scen...\" style=\"max-width: var(--f-a...\">"
+          },
+          {
+            "selector": "f-editorial-split-banner-item[pretitle=\"Ferrari Museums\"] > f-aem-dynamic-media-image[resize-id=\"editorial-split-banner\"][alt-text=\"\"] > span[data-aem-image-root=\"\"] > picture > img",
+            "snippet": "<img src=\"https://ferrari.scen...\" style=\"max-width: var(--f-a...\">"
+          },
+          {
+            "selector": "f-editorial-split-banner-item[maintitle=\"A New Manual Era\"] > f-aem-dynamic-media-image[resize-id=\"editorial-split-banner\"][alt-text=\"\"] > span[data-aem-image-root=\"\"] > picture > img",
+            "snippet": "<img src=\"https://ferrari.scen...\" style=\"max-width: var(--f-a...\">"
+          },
+          {
+            "selector": "f-editorial-split-banner-item[maintitle=\"Sketch Body\"] > f-aem-dynamic-media-image[resize-id=\"editorial-split-banner\"][alt-text=\"\"] > span[data-aem-image-root=\"\"] > picture > img",
+            "snippet": "<img src=\"https://ferrari.scen...\" style=\"max-width: var(--f-a...\">"
+          }
+        ]
+      },
+      {
+        "id": "aria-valid-attr-value",
+        "impact": "critical",
+        "nodes": 5,
+        "help": "ARIA attributes must conform to valid values",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-valid-attr-value?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "f-carousel-editorial f-carousel-navigator[autoplay-timeout=\"7000\"]",
+            "snippet": "<f-carousel-navigator hide-arrows=\"\" transparent=\"\" loop=\"\" manual-change=\"\" autoplay-timeout=\"7000\" theme=\"light\" active-index=\"0\" aria-controls=\"swiper-wrapper-af25f4c37510883ae\"></f-carousel-navig…"
+          },
+          {
+            "selector": "f-carousel-editorial f-carousel-navigator[autoplay-timeout=\"7000\"] .f-carousel-navigator__button--active[aria-label=\"Go to slide 1\"][aria-current=\"true\"]",
+            "snippet": "<button class=\" f-carousel-navigator__button f-carousel-navigator__button--active f-carousel-navigator__button--autoplay \" aria-label=\"Go to slide 1\" aria-current=\"true\" aria-controls=\"swiper-wrapper…"
+          },
+          {
+            "selector": "f-carousel-editorial f-carousel-navigator[autoplay-timeout=\"7000\"] .f-carousel-navigator__button[aria-label=\"Go to slide 2\"][aria-current=\"false\"]",
+            "snippet": "<button class=\" f-carousel-navigator__button f-carousel-navigator__button--autoplay \" aria-label=\"Go to slide 2\" aria-current=\"false\" aria-controls=\"swiper-wrapper-af25f4c37510883ae\">"
+          },
+          {
+            "selector": "f-carousel-editorial f-carousel-navigator[autoplay-timeout=\"7000\"] .f-carousel-navigator__button[aria-label=\"Go to slide 3\"][aria-current=\"false\"]",
+            "snippet": "<button class=\" f-carousel-navigator__button f-carousel-navigator__button--autoplay \" aria-label=\"Go to slide 3\" aria-current=\"false\" aria-controls=\"swiper-wrapper-af25f4c37510883ae\">"
+          },
+          {
+            "selector": "f-carousel-editorial f-carousel-navigator[autoplay-timeout=\"7000\"] button[aria-label=\"Go to slide 4\"]",
+            "snippet": "<button class=\" f-carousel-navigator__button f-carousel-navigator__button--autoplay \" aria-label=\"Go to slide 4\" aria-current=\"false\" aria-controls=\"swiper-wrapper-af25f4c37510883ae\">"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".Footer_change-country__2GcKO",
+            "snippet": "<a class=\"Footer_change-country__2GcKO\" title=\"Change country\" aria-label=\"Change country\" href=\"https://www.ferrari.com/choose-your-country?referrer=/en-US&sitemapIdRef=official-ferrari-website&orig…"
+          },
+          {
+            "selector": ".ot-cookie-policy-link",
+            "snippet": "<a class=\"ot-cookie-policy-link\" href=\"https://privacyportal-de.onetrust.com/webform/98d779e0-913c-4c73-b9fe-4e0e2e29c727/76b38252-9624-4618-97f0-7727351824e0\" aria-label=\"More information about your…"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[data-acsb=\"sr-trigger\"]",
+            "snippet": "<a href=\"https://accessibe.co...\" target=\"_blank\" rel=\"noopener\" tabindex=\"-1\" data-acsb=\"sr-trigger\" data-acsb-sr-only=\"true\" class=\"acsb-sr-only\" style=\"position: absolute; ...\">"
+          },
+          {
+            "selector": ".Header_logo__3zG9o",
+            "snippet": "<div class=\"Header_logo__3zG9o\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "f-cover-carousel f-carousel-navigator[autoplay-timeout=\"6000\"] .f-carousel-navigator--dynamic",
+            "snippet": "<nav aria-label=\"carousel navigator\" part=\"wrapper\" class=\"f-carousel-navigator...\" style=\"--f-carousel-navigat...\">"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[data-eventtit=\"shell\"]",
+            "snippet": "<a target=\"_blank\" data-eventcat=\"GW_LEGAL\" data-eventtit=\"shell\" href=\"https://www.shell.com\"><img src=\"https://cdn.ferrari.com/cms/network/media/img/resize/5ca48a335d32fb0b9e2ac5b3-shell?\" alt=\"Log…"
+          }
+        ]
+      },
+      {
+        "id": "listitem",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/listitem?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".Header_item__1xRhY",
+            "snippet": "<li class=\"Header_item__1xRhY Header_search__m372a\"><button href=\"/search\" data-event-module-slug=\"header\" data-event-type=\"CTA\" data-event-label=\"search\" data-event-target=\"_self\" data-eventcat=\"GW_…"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Interactive controls must not be nested",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#btn-collections",
+            "snippet": "<div class=\"Footer_nav-title__2k7O1\" tabindex=\"0\" role=\"button\" aria-expanded=\"false\" aria-controls=\"submenu-collections\" id=\"btn-collections\" data-eventcat=\"GW_FOOTER\" data-eventlbl=\"collections\" da…"
+          }
+        ]
+      },
+      {
+        "id": "select-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Select element must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/select-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "f-popup-contact-form #country",
+            "snippet": "<select id=\"country\" name=\"country\"> <!--?lit$047645014$--><option value=\"\" selected=\"\" disabled=\"\"><!--?lit$047645014$-->Choose your country or region*</option> <!--?lit$047645014$--> </select>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "2bd28ad7e59c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "191",
+          "etag": "\"21f69-660528fab0ca8-gzip:dtagent103492610201219386bR3\"",
+          "last-modified": "Sun, 15 Nov 2026 15:46:13 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "24ecc7c643b2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "95",
+          "etag": "\"21f69-660528fab0ca8-gzip:dtagent103492610201219386bR3\"",
+          "last-modified": "Sun, 15 Nov 2026 15:46:13 GMT",
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "162bbecdc61e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "121",
+          "etag": "\"21f69-660528fab0ca8-gzip:dtagent103492610201219386bR3\"",
+          "last-modified": "Sun, 15 Nov 2026 15:46:13 GMT",
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "3466872d0514",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "27",
+          "etag": "\"21f69-660528fab0ca8-gzip:dtagent103492610201219386bR3\"",
+          "last-modified": "Sun, 15 Nov 2026 15:46:13 GMT",
+          "x-cache": "Miss from cloudfront"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

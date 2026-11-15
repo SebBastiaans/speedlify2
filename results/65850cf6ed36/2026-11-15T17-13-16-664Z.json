@@ -1,0 +1,424 @@
+{
+  "url": "https://webdriver.io/",
+  "name": "WebdriverIO",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1794762796664,
+  "date": "2026-11-15T17:13:16.664Z",
+  "runId": "2026-11-15T17-05-53-741Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 96041,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 99,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://webdriver.io/",
+    "finalUrl": "https://webdriver.io/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 90,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1114,
+      "lcp": 1114,
+      "si": 3444,
+      "tbt": 82,
+      "tti": 4964,
+      "cls": 0.028,
+      "ttfb": 638,
+      "maxPotentialFid": 207,
+      "serverResponseTime": 12,
+      "networkRtt": 7.4,
+      "networkServerLatency": 143.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 93.9,
+      "elementRenderDelay": 188.2
+    },
+    "weight": {
+      "total": 9178069,
+      "requests": 174,
+      "mainDocument": 17901,
+      "byType": {
+        "total": {
+          "bytes": 9178069,
+          "requests": 171
+        },
+        "image": {
+          "bytes": 8431834,
+          "requests": 141
+        },
+        "script": {
+          "bytes": 500457,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 89089,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 81117,
+          "requests": 19
+        },
+        "stylesheet": {
+          "bytes": 57671,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 17901,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 5523635,
+          "requests": 104
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 5523635,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "GitHub",
+          "bytes": 5523364,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 5513384,
+            "other": 9980
+          },
+          "typedBytes": 5523364
+        },
+        {
+          "entity": "mendable.ai",
+          "bytes": 271,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 271
+          },
+          "typedBytes": 271
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3051.3,
+      "byGroup": {
+        "other": 1307.6,
+        "scriptEvaluation": 712.9,
+        "styleLayout": 616.9,
+        "paintCompositeRender": 245,
+        "scriptParseCompile": 109.4,
+        "parseHTML": 38.7,
+        "garbageCollection": 20.9
+      },
+      "bootupMs": 779.7,
+      "longTasks": 3,
+      "longestTaskMs": 207
+    },
+    "dom": {
+      "elements": 1497,
+      "depth": 15,
+      "maxChildren": 49
+    },
+    "waste": {
+      "unusedJsBytes": 206414,
+      "unusedCssBytes": 37187,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 157,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 5283659.666666668,
+      "poorlyCachedCount": 98
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 32,
+      "failingNodes": 130,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 78
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 42
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 9
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 5
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 5,
+      "baselineLimitedFeatures": 34
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3472,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T17:13:17.857Z",
+      "runtimeMs": 11885.8
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.6,
+    "elementRenderDelay": 1375.6
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "docusaurus",
+      "name": "Docusaurus",
+      "icon": "Docusaurus",
+      "version": "3.10.2",
+      "source": "meta",
+      "raw": "Docusaurus v3.10.2"
+    },
+    "probe": {
+      "metas": [
+        "Docusaurus v3.10.2"
+      ],
+      "marks": [
+        "docusaurus",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "pdx1::2tnmb-1794762889936-74b823248b36"
+    },
+    "violations": 53,
+    "passes": 2748,
+    "incomplete": 67,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 42,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".heroText_Ug_O > .heroActions_kdR1 > .button--primary.primaryButton_rESM.button",
+            "snippet": "<a class=\"button button--primary button--lg primaryButton_rESM\" href=\"/docs/gettingstarted\">Get Started</a>"
+          },
+          {
+            "selector": ".section_v95j:nth-child(2) > .sectionHeader_aVBW > .eyebrow_WWDV",
+            "snippet": "<span class=\"eyebrow_WWDV\">One API</span>"
+          },
+          {
+            "selector": ".token-line:nth-child(1) > .string.token",
+            "snippet": "<span class=\"token string\" style=\"color: rgb(227, 17, 108);\">'@wdio/globals'</span>"
+          },
+          {
+            "selector": ".token-line:nth-child(3) > .function.token",
+            "snippet": "<span class=\"token function\" style=\"color: rgb(215, 58, 73);\">describe</span>"
+          },
+          {
+            "selector": ".token-line:nth-child(3) > .string.token",
+            "snippet": "<span class=\"token string\" style=\"color: rgb(227, 17, 108);\">'webdriver.io'</span>"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 9,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".sponsors > p:nth-child(2) > a[href$=\"openjsf.org/\"]",
+            "snippet": "<a href=\"https://openjsf.org/\">OpenJS Foundation</a>"
+          },
+          {
+            "selector": "a[href$=\"linuxfoundation.org/\"]",
+            "snippet": "<a href=\"https://linuxfoundation.org/\">Linux Foundation</a>"
+          },
+          {
+            "selector": "p:nth-child(4) > a[href$=\"sponsor\"]",
+            "snippet": "<a href=\"/docs/sponsor\">becoming a sponsor</a>"
+          },
+          {
+            "selector": "a[href$=\"openjsf.org\"]:nth-child(1)",
+            "snippet": "<a href=\"https://openjsf.org\">OpenJS Foundation</a>"
+          },
+          {
+            "selector": "a[href$=\"openjsf.org\"]:nth-child(2)",
+            "snippet": "<a href=\"https://openjsf.org\">OpenJS Foundation</a>"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".devtoolsStage_ZH0k",
+            "snippet": "<button type=\"button\" class=\"devtoolsStage_ZH0k\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-label=\"Enlarge recording: Live mode\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#ms-floating-button",
+            "snippet": "<div id=\"ms-floating-button\" class=\" ms-fixed ms-bottom-4 ms-right-8 ms-z-[100] ms-flex ms-flex-col ms-items-end hover:ms-cursor-pointer\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "764d589da5ee",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "749838",
+          "etag": "W/\"622f240fb3a041a43478675e234a6723\"",
+          "last-modified": "Sat, 07 Nov 2026 00:55:59 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "764d589da5ee",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "749850",
+          "etag": "W/\"622f240fb3a041a43478675e234a6723\"",
+          "last-modified": "Sat, 07 Nov 2026 00:55:59 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "764d589da5ee",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "749861",
+          "etag": "W/\"622f240fb3a041a43478675e234a6723\"",
+          "last-modified": "Sat, 07 Nov 2026 00:55:59 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "764d589da5ee",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "749872",
+          "etag": "W/\"622f240fb3a041a43478675e234a6723\"",
+          "last-modified": "Sat, 07 Nov 2026 00:55:59 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "764d589da5ee",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"622f240fb3a041a43478675e234a6723\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
