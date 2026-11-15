@@ -1,0 +1,350 @@
+{
+  "url": "https://evilpedia.online/",
+  "name": "evilpedia.online",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794734742247,
+  "date": "2026-11-15T09:25:42.247Z",
+  "runId": "2026-11-15T09-20-15-135Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27746,
+  "error": null,
+  "variance": {
+    "min": 97,
+    "max": 98,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://evilpedia.online/",
+    "finalUrl": "https://evilpedia.online/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 92,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1086,
+      "lcp": 1086,
+      "si": 1086,
+      "tbt": 163,
+      "tti": 1432,
+      "cls": 0.006,
+      "ttfb": 480,
+      "maxPotentialFid": 184,
+      "serverResponseTime": 51,
+      "networkRtt": 0,
+      "networkServerLatency": 30.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 52.5,
+      "elementRenderDelay": 128.2
+    },
+    "weight": {
+      "total": 57354,
+      "requests": 10,
+      "mainDocument": 18612,
+      "byType": {
+        "total": {
+          "bytes": 57354,
+          "requests": 10
+        },
+        "document": {
+          "bytes": 18612,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 15176,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 13172,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 4604,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 3264,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2526,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 1283.8,
+      "byGroup": {
+        "other": 634,
+        "styleLayout": 463.1,
+        "paintCompositeRender": 140.8,
+        "parseHTML": 19.3,
+        "scriptEvaluation": 14.2,
+        "garbageCollection": 9.3,
+        "scriptParseCompile": 3.2
+      },
+      "bootupMs": 7.4,
+      "longTasks": 6,
+      "longestTaskMs": 184
+    },
+    "dom": {
+      "elements": 2924,
+      "depth": 9,
+      "maxChildren": 203
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 22,
+      "failingNodes": 12,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 11
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 7
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3522,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T09:26:00.342Z",
+      "runtimeMs": 8317.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5ad366a0e5608ad-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 24,
+    "passes": 4599,
+    "incomplete": 33,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 11,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "tr:nth-child(38) > .rating-cell:nth-child(7) > .avg-no",
+            "snippet": "<span class=\"avg-no\" style=\"background-color: rgb(182, 77, 77); color: #ffffffe6\">7.23</span>"
+          },
+          {
+            "selector": "tr:nth-child(115) > .rating-cell:nth-child(5) > .rating-no",
+            "snippet": "<span class=\"rating-no\" style=\"background-color: rgb(182, 78, 78); color: #ffffffe6\">7.2</span>"
+          },
+          {
+            "selector": "tr:nth-child(115) > .rating-cell:nth-child(7) > .avg-no",
+            "snippet": "<span class=\"avg-no\" style=\"background-color: rgb(184, 81, 81); color: #ffffffe6\">7.07</span>"
+          },
+          {
+            "selector": "tr:nth-child(121) > .rating-cell:nth-child(7) > .avg-no",
+            "snippet": "<span class=\"avg-no\" style=\"background-color: rgb(183, 80, 80); color: #ffffffe6\">7.13</span>"
+          },
+          {
+            "selector": "tr:nth-child(125) > .rating-cell:nth-child(4) > .rating-no",
+            "snippet": "<span class=\"rating-no\" style=\"background-color: rgb(185, 85, 85)\">6.9</span>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 11,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[role=\"doc-subtitle\"]",
+            "snippet": "<div role=\"doc-subtitle\"> All the evil scores from the hit comedy podcast <a href=\"https://thesonarnetwork.com/evil-men/\">Evil Men</a> </div>"
+          },
+          {
+            "selector": "#episodes",
+            "snippet": "<div id=\"episodes\" class=\"sheet\">"
+          },
+          {
+            "selector": "h2",
+            "snippet": "<h2>Evil Stats</h2>"
+          },
+          {
+            "selector": ".chart.card-item:nth-child(1)",
+            "snippet": "<div class=\"card-item chart\"><img src=\"/scatter.svg\" alt=\"A scatterplot showing various scores given by the hosts of Evil Men\" loading=\"lazy\"></div>"
+          },
+          {
+            "selector": ".average.card-item:nth-child(2) > p:nth-child(2)",
+            "snippet": "<p>Chris's average rating is 4.97</p>"
+          }
+        ]
+      },
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h1",
+            "snippet": "<h1>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ec60f7b7d24a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "ec60f7b7d24a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "ec60f7b7d24a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "ec60f7b7d24a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
