@@ -1,0 +1,313 @@
+{
+  "url": "https://cover.000000076.xyz/",
+  "name": "cover.000000076.xyz",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1794707964204,
+  "date": "2026-11-15T01:59:24.204Z",
+  "runId": "2026-11-15T01-52-42-101Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 68270,
+  "error": null,
+  "variance": {
+    "min": 54,
+    "max": 98,
+    "spread": 44,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://cover.000000076.xyz/",
+    "finalUrl": "https://cover.000000076.xyz/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1855,
+      "lcp": 1855,
+      "si": 1855,
+      "tbt": 0,
+      "tti": 1855,
+      "cls": 0,
+      "ttfb": 477,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 334,
+      "networkRtt": 0.1,
+      "networkServerLatency": 35.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 335.4,
+      "elementRenderDelay": 110.2
+    },
+    "weight": {
+      "total": 542721,
+      "requests": 17,
+      "mainDocument": 20984,
+      "byType": {
+        "total": {
+          "bytes": 540473,
+          "requests": 16
+        },
+        "font": {
+          "bytes": 276562,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 156411,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 50066,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 20984,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 20255,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 16195,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 331322,
+          "requests": 8
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 4,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 331322,
+      "mainThreadMs": 14.6,
+      "top": [
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 295906,
+          "mainThreadMs": 3.2,
+          "byType": {
+            "stylesheet": 19344,
+            "font": 276562
+          },
+          "typedBytes": 295906
+        },
+        {
+          "entity": "FontAwesome CDN",
+          "bytes": 25065,
+          "mainThreadMs": 4,
+          "byType": {
+            "script": 5844,
+            "other": 19221
+          },
+          "typedBytes": 25065
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 7.4,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 315.4,
+      "byGroup": {
+        "other": 146.5,
+        "scriptEvaluation": 73.9,
+        "styleLayout": 43.3,
+        "parseHTML": 42.3,
+        "paintCompositeRender": 7.1,
+        "scriptParseCompile": 2.3
+      },
+      "bootupMs": 12.3,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 46,
+      "depth": 5,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 71548,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1856,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 42683.97499999999,
+      "poorlyCachedCount": 7
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 14,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 14
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2447.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T02:00:24.471Z",
+      "runtimeMs": 7252.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.6",
+      "source": "meta",
+      "raw": "Eleventy v3.1.6"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.6"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5aaa996fa59a88e-DFW",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 57,
+    "incomplete": 23,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div",
+            "snippet": "<div class=\"content\">"
+          },
+          {
+            "selector": "p",
+            "snippet": "<p class=\"footer-text\">MIT License/CC BY 4.0 License <a class=\"des\" href=\"https://en.wikipedia.org/wiki/Kathryn_Janeway\">Kathryn Janeway</a> , Powered by <a class=\"des\" href=\"https://11ty.dev\">11ty</…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "226a0cd0e92c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Mon, 07 Sep 2026 15:41:45 GMT"
+        }
+      },
+      {
+        "hash": "226a0cd0e92c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Mon, 07 Sep 2026 15:41:45 GMT"
+        }
+      },
+      {
+        "hash": "226a0cd0e92c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Mon, 07 Sep 2026 15:41:45 GMT"
+        }
+      },
+      {
+        "hash": "226a0cd0e92c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Mon, 07 Sep 2026 15:41:45 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

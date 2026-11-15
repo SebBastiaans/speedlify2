@@ -1,0 +1,272 @@
+{
+  "url": "https://crayonsandco.de/",
+  "name": "crayonsandco.de",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794708090461,
+  "date": "2026-11-15T02:01:30.461Z",
+  "runId": "2026-11-15T01-52-42-101Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27125,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://crayonsandco.de/",
+    "finalUrl": "https://crayonsandco.de/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1382,
+      "lcp": 1382,
+      "si": 1382,
+      "tbt": 0,
+      "tti": 1382,
+      "cls": 0,
+      "ttfb": 632,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 25,
+      "networkRtt": 6.5,
+      "networkServerLatency": 177.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 26.3,
+      "elementRenderDelay": 113.5
+    },
+    "weight": {
+      "total": 232689,
+      "requests": 28,
+      "mainDocument": 99969,
+      "byType": {
+        "total": {
+          "bytes": 230819,
+          "requests": 27
+        },
+        "document": {
+          "bytes": 99969,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 45747,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 35445,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 24155,
+          "requests": 15
+        },
+        "stylesheet": {
+          "bytes": 23204,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 2299,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 5280,
+          "requests": 3
+        }
+      },
+      "scripts": 15,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 5280,
+      "mainThreadMs": 2.2,
+      "top": [
+        {
+          "entity": "umami.is",
+          "bytes": 5280,
+          "mainThreadMs": 2.2,
+          "byType": {
+            "script": 4633,
+            "other": 647
+          },
+          "typedBytes": 5280
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 437.7,
+      "byGroup": {
+        "other": 201.4,
+        "styleLayout": 112.1,
+        "scriptEvaluation": 58,
+        "parseHTML": 32.6,
+        "paintCompositeRender": 28.3,
+        "scriptParseCompile": 5.3
+      },
+      "bootupMs": 32.5,
+      "longTasks": 1,
+      "longestTaskMs": 61
+    },
+    "dom": {
+      "elements": 628,
+      "depth": 11,
+      "maxChildren": 35
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 24,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 32
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2406.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T02:01:40.384Z",
+      "runtimeMs": 7498.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "sfo1::l887b-1794708114804-a1ecea0d4718"
+    },
+    "violations": 0,
+    "passes": 1005,
+    "incomplete": 26,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "89d2dd2a3cbd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "146136",
+          "etag": "W/\"0880795b8b25589d89b044a378c8f6f5\"",
+          "last-modified": "Fri, 13 Nov 2026 09:25:55 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "89d2dd2a3cbd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "146145",
+          "etag": "W/\"0880795b8b25589d89b044a378c8f6f5\"",
+          "last-modified": "Fri, 13 Nov 2026 09:25:55 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "89d2dd2a3cbd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "146152",
+          "etag": "W/\"0880795b8b25589d89b044a378c8f6f5\"",
+          "last-modified": "Fri, 13 Nov 2026 09:25:55 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "89d2dd2a3cbd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"0880795b8b25589d89b044a378c8f6f5\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
