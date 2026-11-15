@@ -1,0 +1,383 @@
+{
+  "url": "https://foursquare.com/",
+  "name": "foursquare.com",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1794762354985,
+  "date": "2026-11-15T17:05:54.985Z",
+  "runId": "2026-11-15T17-05-53-859Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 43819,
+  "error": null,
+  "variance": {
+    "min": 61,
+    "max": 81,
+    "spread": 20,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://foursquare.com/",
+    "finalUrl": "https://foursquare.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 73,
+      "accessibility": 95,
+      "best-practices": 96,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1508,
+      "lcp": 3968,
+      "si": 2895,
+      "tbt": 530,
+      "tti": 9150,
+      "cls": 0.003,
+      "ttfb": 608,
+      "maxPotentialFid": 205,
+      "serverResponseTime": 7,
+      "networkRtt": 0.7,
+      "networkServerLatency": 190.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 8.7,
+      "resourceLoadDelay": 17.7,
+      "resourceLoadDuration": 161.3,
+      "elementRenderDelay": 98.1
+    },
+    "weight": {
+      "total": 10005963,
+      "requests": 99,
+      "mainDocument": 39217,
+      "byType": {
+        "total": {
+          "bytes": 10005963,
+          "requests": 95
+        },
+        "media": {
+          "bytes": 5489154,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 3588858,
+          "requests": 68
+        },
+        "script": {
+          "bytes": 667590,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 109643,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 100481,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 39217,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 11020,
+          "requests": 6
+        },
+        "third-party": {
+          "bytes": 463407,
+          "requests": 17
+        }
+      },
+      "scripts": 12,
+      "stylesheets": 4,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 463428,
+      "mainThreadMs": 198.5,
+      "top": [
+        {
+          "entity": "Hubspot",
+          "bytes": 212819,
+          "mainThreadMs": 67.5,
+          "byType": {
+            "script": 201787,
+            "other": 9626,
+            "image": 1406
+          },
+          "typedBytes": 212819
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 198314,
+          "mainThreadMs": 95.7,
+          "byType": {
+            "script": 198314
+          },
+          "typedBytes": 198314
+        },
+        {
+          "entity": "leandata.com",
+          "bytes": 25514,
+          "mainThreadMs": 7.2,
+          "byType": {
+            "script": 24882,
+            "other": 632
+          },
+          "typedBytes": 25514
+        },
+        {
+          "entity": "Parse.ly",
+          "bytes": 19265,
+          "mainThreadMs": 26.4,
+          "byType": {
+            "script": 18767,
+            "other": 344,
+            "image": 154
+          },
+          "typedBytes": 19265
+        },
+        {
+          "entity": "trakkr.ai",
+          "bytes": 5560,
+          "mainThreadMs": 0.9,
+          "byType": {
+            "script": 5372,
+            "image": 188
+          },
+          "typedBytes": 5560
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3202.9,
+      "byGroup": {
+        "scriptEvaluation": 1242.3,
+        "other": 1026.7,
+        "styleLayout": 382.7,
+        "scriptParseCompile": 258.2,
+        "parseHTML": 165.5,
+        "paintCompositeRender": 103.2,
+        "garbageCollection": 24.3
+      },
+      "bootupMs": 1445.5,
+      "longTasks": 11,
+      "longestTaskMs": 205
+    },
+    "dom": {
+      "elements": 1548,
+      "depth": 29,
+      "maxChildren": 24
+    },
+    "waste": {
+      "unusedJsBytes": 291171,
+      "unusedCssBytes": 86212,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 600,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 197830.80833333335,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 34,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 5
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 27
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2416.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T17:06:24.756Z",
+      "runtimeMs": 12416.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "wordpress",
+      "name": "WordPress",
+      "icon": "Wordpress",
+      "version": "6.9.11",
+      "source": "meta",
+      "raw": "WordPress 6.9.11"
+    },
+    "probe": {
+      "metas": [
+        "WordPress 6.9.11"
+      ],
+      "marks": [
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx",
+      "via": "1.1 varnish",
+      "x-powered-by": "WordPress VIP <https://wpvip.com>",
+      "x-served-by": "cache-pao-kpao1770029-PAO"
+    },
+    "violations": 4,
+    "passes": 949,
+    "incomplete": 5,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[rel=\"home\"]",
+            "snippet": "<a href=\"https://foursquare.com/\" rel=\"home\"> <img width=\"250\" height=\"32\" src=\"https://foursquare.com/wp-content/uploads/sites/2/2024/10/header_new_logo.svg\" class=\"attachment-full size-full\" alt=\"\"…"
+          },
+          {
+            "selector": "a[href$=\"H0xlLxm0\"]",
+            "snippet": "<a href=\"https://eu1.hubs.ly/H0xlLxm0\"></a>"
+          }
+        ]
+      },
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".site-title",
+            "snippet": "<h1 class=\"site-title\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#media-and-text-v8-fdd38ca6-2eef-4374-a706-7b8d403d1678 > .container > .media_and_text__body > .media_and_text__content > h3",
+            "snippet": "<h3><mark style=\"background-color:rgba(0, 0, 0, 0)\" class=\"has-inline-color has-white-color\">Foursquare has joined Infillion, the first fully composable advertising platform.</mark></h3>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "4f39ec2491a4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT, MISS"
+        }
+      },
+      {
+        "hash": "4f39ec2491a4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT, MISS"
+        }
+      },
+      {
+        "hash": "4f39ec2491a4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT, MISS"
+        }
+      },
+      {
+        "hash": "4f39ec2491a4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT, MISS"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
