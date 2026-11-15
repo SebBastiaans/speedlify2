@@ -1,0 +1,405 @@
+{
+  "url": "https://divriots.com/",
+  "name": "divriots.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794707959562,
+  "date": "2026-11-15T01:59:19.562Z",
+  "runId": "2026-11-15T01-52-38-768Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27300,
+  "error": null,
+  "variance": {
+    "min": 89,
+    "max": 90,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://divriots.com/",
+    "finalUrl": "https://divriots.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 90,
+      "accessibility": 94,
+      "best-practices": 96,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1722,
+      "lcp": 3482,
+      "si": 1722,
+      "tbt": 12,
+      "tti": 3482,
+      "cls": 0.018,
+      "ttfb": 610,
+      "maxPotentialFid": 62,
+      "serverResponseTime": 28,
+      "networkRtt": 0,
+      "networkServerLatency": 56.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 29.6,
+      "resourceLoadDelay": 41.2,
+      "resourceLoadDuration": 23.5,
+      "elementRenderDelay": 116.8
+    },
+    "weight": {
+      "total": 919347,
+      "requests": 35,
+      "mainDocument": 165368,
+      "byType": {
+        "total": {
+          "bytes": 919347,
+          "requests": 35
+        },
+        "image": {
+          "bytes": 607971,
+          "requests": 22
+        },
+        "document": {
+          "bytes": 165368,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 129148,
+          "requests": 6
+        },
+        "script": {
+          "bytes": 13435,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 2056,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1369,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 656470,
+          "requests": 27
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 656470,
+      "mainThreadMs": 1.7,
+      "top": [
+        {
+          "entity": "figweb.site",
+          "bytes": 599340,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 599340
+          },
+          "typedBytes": 599340
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 53937,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 53937
+          },
+          "typedBytes": 53937
+        },
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3193,
+          "mainThreadMs": 1.7,
+          "byType": {
+            "script": 2757,
+            "image": 436
+          },
+          "typedBytes": 3193
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1395.1,
+      "byGroup": {
+        "other": 829.3,
+        "paintCompositeRender": 226.8,
+        "styleLayout": 192.1,
+        "scriptEvaluation": 80.7,
+        "parseHTML": 40.8,
+        "scriptParseCompile": 20.5,
+        "garbageCollection": 4.8
+      },
+      "bootupMs": 88.9,
+      "longTasks": 1,
+      "longestTaskMs": 62
+    },
+    "dom": {
+      "elements": 893,
+      "depth": 13,
+      "maxChildren": 18
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 65008.50446759258,
+      "poorlyCachedCount": 5
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 24,
+      "failingNodes": 9,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 8
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are not crawlable",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 27
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3071.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T01:59:38.243Z",
+      "runtimeMs": 7962.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5aaa87c4bd9e808-ORD",
+      "server": "cloudflare",
+      "x-served-by": "cache-chi-klot8100083-CHI"
+    },
+    "violations": 45,
+    "passes": 1221,
+    "incomplete": 14,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 35,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#hero",
+            "snippet": "<section id=\"hero\">"
+          },
+          {
+            "selector": "#Text_reveal_up",
+            "snippet": "<span id=\"Text_reveal_up\" class=\"pointer-events-none text\"><span id=\"__6\">Trusted by great companies</span></span>"
+          },
+          {
+            "selector": "#Frame_reveal_up",
+            "snippet": "<div id=\"Frame_reveal_up\">"
+          },
+          {
+            "selector": "#Frame_reveal_up_0",
+            "snippet": "<div id=\"Frame_reveal_up_0\">"
+          },
+          {
+            "selector": "#Frame_24",
+            "snippet": "<div id=\"Frame_24\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 8,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#__19",
+            "snippet": "<span id=\"__19\">No screenshots. No file exports. Fully editable.</span>"
+          },
+          {
+            "selector": "#__44",
+            "snippet": "<span id=\"__44\">Works on Chrome, Edge, Brave, Dia, Opera, Vivaldi, and other Chromium-based browsers.</span>"
+          },
+          {
+            "selector": "#__60",
+            "snippet": "<span id=\"__60\">From web, image, or prompt → straight to editable Figma.</span>"
+          },
+          {
+            "selector": "#__71",
+            "snippet": "<span id=\"__71\">Don’t recreate, import what you have.</span>"
+          },
+          {
+            "selector": "#__109",
+            "snippet": "<span id=\"__109\">From canvas to production in one click.</span>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" data-astro-cid-z4jru4n3=\"\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" data-astro-cid-z4jru4n3=\"\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "8a4fc6493454",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 09:00:50 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "8a4fc6493454",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 09:00:50 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "8a4fc6493454",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 09:00:50 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "8a4fc6493454",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 09:00:50 GMT",
+          "x-cache": "HIT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

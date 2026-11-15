@@ -1,0 +1,271 @@
+{
+  "url": "https://www.chobble.com/",
+  "name": "chobble.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794707731950,
+  "date": "2026-11-15T01:55:31.950Z",
+  "runId": "2026-11-15T01-52-38-768Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21641,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.chobble.com/",
+    "finalUrl": "https://www.chobble.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 790,
+      "lcp": 790,
+      "si": 790,
+      "tbt": 0,
+      "tti": 790,
+      "cls": 0,
+      "ttfb": 622,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 23,
+      "networkRtt": 0,
+      "networkServerLatency": 104.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 24.6,
+      "elementRenderDelay": 53.6
+    },
+    "weight": {
+      "total": 125572,
+      "requests": 16,
+      "mainDocument": 5502,
+      "byType": {
+        "total": {
+          "bytes": 125572,
+          "requests": 16
+        },
+        "script": {
+          "bytes": 64957,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 29908,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 10926,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 7409,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 6870,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 5502,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 2,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 216.7,
+      "byGroup": {
+        "other": 120.2,
+        "styleLayout": 32.5,
+        "scriptEvaluation": 26.7,
+        "scriptParseCompile": 15.6,
+        "paintCompositeRender": 13.3,
+        "parseHTML": 8.3
+      },
+      "bootupMs": 10.1,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 164,
+      "depth": 9,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 8642,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 41511,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 43657.6,
+      "poorlyCachedCount": 13
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 24,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 10
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2948,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T01:55:40.357Z",
+      "runtimeMs": 6405.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "bunny",
+      "name": "Bunny CDN",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "BunnyCDN-IL1-1070"
+    },
+    "violations": 1,
+    "passes": 399,
+    "incomplete": 2,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".container > nav",
+            "snippet": "<nav>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a4a1598cb431",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 14 Nov 2026 13:10:07 GMT"
+        }
+      },
+      {
+        "hash": "a4a1598cb431",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 14 Nov 2026 13:10:07 GMT"
+        }
+      },
+      {
+        "hash": "a4a1598cb431",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 14 Nov 2026 13:10:07 GMT"
+        }
+      },
+      {
+        "hash": "a4a1598cb431",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 14 Nov 2026 13:10:07 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

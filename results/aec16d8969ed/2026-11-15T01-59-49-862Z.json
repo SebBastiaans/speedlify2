@@ -1,0 +1,329 @@
+{
+  "url": "https://docs.flutter.dev/",
+  "name": "docs.flutter.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794707989862,
+  "date": "2026-11-15T01:59:49.862Z",
+  "runId": "2026-11-15T01-52-38-768Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23766,
+  "error": null,
+  "variance": {
+    "min": 95,
+    "max": 96,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://docs.flutter.dev/",
+    "finalUrl": "https://docs.flutter.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 95,
+      "accessibility": 97,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 1734,
+      "lcp": 1734,
+      "si": 1734,
+      "tbt": 220,
+      "tti": 7157,
+      "cls": 0.029,
+      "ttfb": 606,
+      "maxPotentialFid": 267,
+      "serverResponseTime": 2,
+      "networkRtt": 17.4,
+      "networkServerLatency": 33.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 151.7,
+      "elementRenderDelay": 139
+    },
+    "weight": {
+      "total": 1261790,
+      "requests": 72,
+      "mainDocument": 17417,
+      "byType": {
+        "total": {
+          "bytes": 1261790,
+          "requests": 71
+        },
+        "font": {
+          "bytes": 602076,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 474013,
+          "requests": 39
+        },
+        "image": {
+          "bytes": 105215,
+          "requests": 11
+        },
+        "other": {
+          "bytes": 43069,
+          "requests": 14
+        },
+        "stylesheet": {
+          "bytes": 20000,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 17417,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1071517,
+          "requests": 22
+        }
+      },
+      "scripts": 39,
+      "stylesheets": 4,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 8,
+      "bytes": 1071536,
+      "mainThreadMs": 120.1,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 605364,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 3288,
+            "font": 602076
+          },
+          "typedBytes": 605364
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 328573,
+          "mainThreadMs": 111.6,
+          "byType": {
+            "script": 328573
+          },
+          "typedBytes": 328573
+        },
+        {
+          "entity": "YouTube",
+          "bytes": 101072,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 101072
+          },
+          "typedBytes": 101072
+        },
+        {
+          "entity": "Google CDN",
+          "bytes": 30957,
+          "mainThreadMs": 5.4,
+          "byType": {
+            "script": 28614,
+            "stylesheet": 2276,
+            "other": 67
+          },
+          "typedBytes": 30957
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 4388,
+          "mainThreadMs": 2.8,
+          "byType": {
+            "script": 4388
+          },
+          "typedBytes": 4388
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1326.9,
+      "byGroup": {
+        "scriptEvaluation": 679.2,
+        "other": 313.9,
+        "styleLayout": 150.3,
+        "scriptParseCompile": 111.3,
+        "parseHTML": 30.8,
+        "paintCompositeRender": 21.2,
+        "garbageCollection": 20.2
+      },
+      "bootupMs": 725.2,
+      "longTasks": 5,
+      "longestTaskMs": 267
+    },
+    "dom": {
+      "elements": 2239,
+      "depth": 16,
+      "maxChildren": 40
+    },
+    "waste": {
+      "unusedJsBytes": 177294,
+      "unusedCssBytes": 11833,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1595,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 180617.6000000001,
+      "poorlyCachedCount": 47
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 29,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "tabindex",
+          "title": "Some elements have a `[tabindex]` value greater than 0",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 31
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3141,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T01:59:51.073Z",
+      "runtimeMs": 7419.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {
+      "x-served-by": "cache-chi-kmdw8640042-CHI"
+    },
+    "violations": 1,
+    "passes": 803,
+    "incomplete": 3,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "tabindex",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements should not have tabindex greater than zero",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/tabindex?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#skip-to-main",
+            "snippet": "<a id=\"skip-to-main\" class=\"filled-button\" tabindex=\"1\" href=\"#site-content-title\">Skip to main content</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "5b0e6253e969",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"ed3db1c6e4bc3701227295cdac50226b6e85f89c8116893364d224b41f808df2-br\"",
+          "last-modified": "Fri, 13 Nov 2026 19:34:50 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5b0e6253e969",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"ed3db1c6e4bc3701227295cdac50226b6e85f89c8116893364d224b41f808df2-br\"",
+          "last-modified": "Fri, 13 Nov 2026 19:34:50 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5b0e6253e969",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"ed3db1c6e4bc3701227295cdac50226b6e85f89c8116893364d224b41f808df2-br\"",
+          "last-modified": "Fri, 13 Nov 2026 19:34:50 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5b0e6253e969",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"ed3db1c6e4bc3701227295cdac50226b6e85f89c8116893364d224b41f808df2-br\"",
+          "last-modified": "Fri, 13 Nov 2026 19:34:50 GMT",
+          "x-cache": "HIT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

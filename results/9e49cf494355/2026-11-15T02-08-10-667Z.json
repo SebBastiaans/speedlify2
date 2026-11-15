@@ -1,0 +1,371 @@
+{
+  "url": "https://www.apple.com/",
+  "name": "Apple",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1794708490667,
+  "date": "2026-11-15T02:08:10.667Z",
+  "runId": "2026-11-15T01-52-38-768Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 65316,
+  "error": null,
+  "variance": {
+    "min": 71,
+    "max": 73,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.apple.com/",
+    "finalUrl": "https://www.apple.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 72,
+      "accessibility": 92,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 2336,
+      "lcp": 7066,
+      "si": 3660,
+      "tbt": 118,
+      "tti": 8836,
+      "cls": 0.006,
+      "ttfb": 628,
+      "maxPotentialFid": 105,
+      "serverResponseTime": 50,
+      "networkRtt": 0,
+      "networkServerLatency": 39.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 51,
+      "resourceLoadDelay": 10.8,
+      "resourceLoadDuration": 83.6,
+      "elementRenderDelay": 176.8
+    },
+    "weight": {
+      "total": 2646811,
+      "requests": 57,
+      "mainDocument": 43884,
+      "byType": {
+        "total": {
+          "bytes": 2623669,
+          "requests": 51
+        },
+        "font": {
+          "bytes": 938327,
+          "requests": 5
+        },
+        "image": {
+          "bytes": 649298,
+          "requests": 9
+        },
+        "media": {
+          "bytes": 437570,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 430032,
+          "requests": 21
+        },
+        "stylesheet": {
+          "bytes": 76997,
+          "requests": 9
+        },
+        "other": {
+          "bytes": 47561,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 43884,
+          "requests": 1
+        },
+        "third-party": {
+          "bytes": 2623669,
+          "requests": 51
+        }
+      },
+      "scripts": 21,
+      "stylesheets": 9,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 2056.7,
+      "byGroup": {
+        "other": 786.1,
+        "scriptEvaluation": 565.4,
+        "styleLayout": 398.7,
+        "paintCompositeRender": 110,
+        "scriptParseCompile": 79.6,
+        "parseHTML": 76.3,
+        "garbageCollection": 40.7
+      },
+      "bootupMs": 577.3,
+      "longTasks": 6,
+      "longestTaskMs": 105
+    },
+    "dom": {
+      "elements": 1819,
+      "depth": 19,
+      "maxChildren": 21
+    },
+    "waste": {
+      "unusedJsBytes": 155846,
+      "unusedCssBytes": 40691,
+      "legacyJsBytes": 18699,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1200,
+      "renderBlockingCount": 12,
+      "poorlyCachedBytes": 2240499.5630555563,
+      "poorlyCachedCount": 42
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 33,
+      "failingNodes": 17,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 13
+        },
+        {
+          "id": "aria-required-children",
+          "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+          "weight": 10,
+          "nodes": 2
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 8
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 28
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3026,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T02:08:31.864Z",
+      "runtimeMs": 9663.9
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 705.2,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 2391,
+    "elementRenderDelay": 2020.9
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "preact"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "Apple",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "Apple"
+    },
+    "violations": 20,
+    "passes": 1317,
+    "incomplete": 84,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 13,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#media-gallery-item-2-link > .media-gallery-contents > .media-gallery-bottom-content > .button-neutral.media-gallery-button.button",
+            "snippet": "<div class=\"button button-neutral media-gallery-button\" aria-hidden=\"true\">Stream now</div>"
+          },
+          {
+            "selector": "#media-gallery-item-3-link > .media-gallery-contents > .media-gallery-bottom-content > .button-neutral.media-gallery-button.button",
+            "snippet": "<div class=\"button button-neutral media-gallery-button\" aria-hidden=\"true\">F1 on Apple TV</div>"
+          },
+          {
+            "selector": "#media-gallery-item-4-link > .media-gallery-contents > .media-gallery-bottom-content > .button-neutral.media-gallery-button.button",
+            "snippet": "<div class=\"button button-neutral media-gallery-button\" aria-hidden=\"true\">Stream now</div>"
+          },
+          {
+            "selector": "#media-gallery-item-5-link > .media-gallery-contents > .media-gallery-bottom-content > .button-neutral.media-gallery-button.button",
+            "snippet": "<div class=\"button button-neutral media-gallery-button\" aria-hidden=\"true\">MLS on Apple TV</div>"
+          },
+          {
+            "selector": "#media-gallery-item-6-link > .media-gallery-contents > .media-gallery-bottom-content > .button-neutral.media-gallery-button.button",
+            "snippet": "<div class=\"button button-neutral media-gallery-button\" aria-hidden=\"true\">Stream now</div>"
+          }
+        ]
+      },
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 2,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "li[data-tv-show=\"12 12 12\"]",
+            "snippet": "<li id=\"endless-entertainmen...\" class=\"media-gallery-item t...\" data-media-gallery-i...=\"1\" data-tv-show=\"12 12 12\" data-title=\"12 12 12\" data-ac-gallery-item=\"\" data-analytics-galle...=\"12 12 12\" d…"
+          },
+          {
+            "selector": "li[data-fam-arcade=\"hello kitty island adventure\"]",
+            "snippet": "<li id=\"endless-entertainmen...\" class=\"media-gallery-item t...\" data-media-gallery-i...=\"1\" data-media-gallery-i...=\"arcade\" data-fam-arcade=\"hello kitty island a...\" data-ac-gallery-item=\"\" data-an…"
+          }
+        ]
+      },
+      {
+        "id": "aria-required-children",
+        "impact": "critical",
+        "nodes": 2,
+        "help": "Certain ARIA roles must contain particular children",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-children?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#tv-media-gallery > .media-gallery-item-container[role=\"list\"]",
+            "snippet": "<ul class=\"media-gallery-item-container\" role=\"list\" style=\"transform: translate3d(0px, 0px, 0px);\">"
+          },
+          {
+            "selector": "#fam-media-gallery > .media-gallery-item-container[role=\"list\"]",
+            "snippet": "<ul class=\"media-gallery-item-container\" role=\"list\" style=\"transform: translate3d(0px, 0px, 0px);\">"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#globalnav-menubutton-link-bag",
+            "snippet": "<a id=\"globalnav-menubutton...\" href=\"/us/shop/goto/bag\" aria-label=\"Shopping Bag\" aria-expanded=\"false\" aria-controls=\"globalnav-submenu-ba...\" data-globalnav-item-...=\"bag\" role=\"button\" data-topna…"
+          },
+          {
+            "selector": "#media-gallery-item-1-link",
+            "snippet": "<a id=\"media-gallery-item-1...\" class=\"media-gallery-wrappe...\" href=\"https://tv.apple.com...\" data-analytics-title=\"stream now\" data-rid-relay=\"{\"289\":\"itsct\"}\" data-analytics-exit-...=\"\" data-analy…"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h1",
+            "snippet": "<h1 class=\"visuallyhidden\">Apple</h1>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "508dac2d38d6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "508dac2d38d6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "508dac2d38d6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "508dac2d38d6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "508dac2d38d6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

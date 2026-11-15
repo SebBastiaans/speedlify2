@@ -1,0 +1,320 @@
+{
+  "url": "https://htmx.org/",
+  "name": "htmx",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1794708242256,
+  "date": "2026-11-15T02:04:02.256Z",
+  "runId": "2026-11-15T01-52-38-768Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 49390,
+  "error": null,
+  "variance": {
+    "min": 83,
+    "max": 91,
+    "spread": 8,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://htmx.org/",
+    "finalUrl": "https://htmx.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 86,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1538,
+      "lcp": 4220,
+      "si": 1538,
+      "tbt": 0,
+      "tti": 4220,
+      "cls": 0,
+      "ttfb": 620,
+      "maxPotentialFid": 26,
+      "serverResponseTime": 21,
+      "networkRtt": 0.2,
+      "networkServerLatency": 19.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 22,
+      "resourceLoadDelay": 82.4,
+      "resourceLoadDuration": 45,
+      "elementRenderDelay": 45.9
+    },
+    "weight": {
+      "total": 979752,
+      "requests": 64,
+      "mainDocument": 5688,
+      "byType": {
+        "total": {
+          "bytes": 979752,
+          "requests": 64
+        },
+        "image": {
+          "bytes": 744813,
+          "requests": 45
+        },
+        "script": {
+          "bytes": 181369,
+          "requests": 13
+        },
+        "stylesheet": {
+          "bytes": 36212,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 13050,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 4308,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 160242,
+          "requests": 12
+        }
+      },
+      "scripts": 13,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 9641,
+      "mainThreadMs": 3.2,
+      "top": [
+        {
+          "entity": "GitHub",
+          "bytes": 9641,
+          "mainThreadMs": 3.2,
+          "byType": {
+            "script": 6903,
+            "other": 2738
+          },
+          "typedBytes": 9641
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 743,
+      "byGroup": {
+        "other": 428,
+        "styleLayout": 141.5,
+        "scriptEvaluation": 84.2,
+        "paintCompositeRender": 37.2,
+        "scriptParseCompile": 25.2,
+        "parseHTML": 20.9,
+        "garbageCollection": 5.9
+      },
+      "bootupMs": 54.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 294,
+      "depth": 13,
+      "maxChildren": 31
+    },
+    "waste": {
+      "unusedJsBytes": 23497,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 18361,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 750,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 6327.75,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 26,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 15
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3134,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-15T02:04:11.041Z",
+      "runtimeMs": 6865.8
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.5,
+    "resourceLoadDelay": 654.6,
+    "resourceLoadDuration": 1603.5,
+    "elementRenderDelay": 25
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "zola",
+      "name": "Zola",
+      "icon": null,
+      "version": null,
+      "source": "meta",
+      "raw": "Zola v.TODO"
+    },
+    "probe": {
+      "metas": [
+        "Zola v.TODO"
+      ],
+      "marks": [
+        "htmx"
+      ],
+      "markVersions": {
+        "htmx": "2.0.11"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7EF6CMED565RSTM33T23DED"
+    },
+    "violations": 2,
+    "passes": 623,
+    "incomplete": 12,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "main",
+            "snippet": "<main class=\"c content \">"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "pre",
+            "snippet": "<pre data-lang=\"html\" style=\"background-color:#1f2329;color:#abb2bf;\" class=\"language-html \">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c640452e79cb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "21795",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31514205",
+          "etag": "W/\"4ca9fbcf432a283687b0634dd20bc86e-ssl\""
+        }
+      },
+      {
+        "hash": "c640452e79cb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "21803",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31514197",
+          "etag": "W/\"4ca9fbcf432a283687b0634dd20bc86e-ssl\""
+        }
+      },
+      {
+        "hash": "c640452e79cb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "21810",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31514190",
+          "etag": "W/\"4ca9fbcf432a283687b0634dd20bc86e-ssl\""
+        }
+      },
+      {
+        "hash": "c640452e79cb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "21817",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31514183",
+          "etag": "W/\"4ca9fbcf432a283687b0634dd20bc86e-ssl\""
+        }
+      },
+      {
+        "hash": "c640452e79cb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31514160",
+          "etag": "W/\"4ca9fbcf432a283687b0634dd20bc86e-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
