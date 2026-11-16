@@ -1,0 +1,349 @@
+{
+  "url": "https://www.fffuel.co/",
+  "name": "fffuel.co",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794821864563,
+  "date": "2026-11-16T09:37:44.563Z",
+  "runId": "2026-11-16T09-37-29-353Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 31208,
+  "error": null,
+  "variance": {
+    "min": 93,
+    "max": 99,
+    "spread": 6,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.fffuel.co/",
+    "finalUrl": "https://www.fffuel.co/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 92,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 940,
+      "lcp": 1990,
+      "si": 940,
+      "tbt": 0,
+      "tti": 1990,
+      "cls": 0.008,
+      "ttfb": 490,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 30,
+      "networkRtt": 0,
+      "networkServerLatency": 39.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 31.3,
+      "resourceLoadDelay": 47.6,
+      "resourceLoadDuration": 53.3,
+      "elementRenderDelay": 116.6
+    },
+    "weight": {
+      "total": 441823,
+      "requests": 75,
+      "mainDocument": 8931,
+      "byType": {
+        "total": {
+          "bytes": 434860,
+          "requests": 74
+        },
+        "image": {
+          "bytes": 328659,
+          "requests": 65
+        },
+        "font": {
+          "bytes": 49885,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 30734,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 14776,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 8931,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1875,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 12267,
+          "requests": 2
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 2,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 12267,
+      "mainThreadMs": 7.1,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10352,
+          "mainThreadMs": 6,
+          "byType": {
+            "script": 10352
+          },
+          "typedBytes": 10352
+        },
+        {
+          "entity": "Plausible",
+          "bytes": 1915,
+          "mainThreadMs": 1.1,
+          "byType": {
+            "script": 1915
+          },
+          "typedBytes": 1915
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1002.1,
+      "byGroup": {
+        "other": 620.2,
+        "styleLayout": 219.6,
+        "paintCompositeRender": 77.1,
+        "scriptEvaluation": 52.7,
+        "parseHTML": 15.8,
+        "garbageCollection": 11.7,
+        "scriptParseCompile": 5
+      },
+      "bootupMs": 10.3,
+      "longTasks": 1,
+      "longestTaskMs": 59
+    },
+    "dom": {
+      "elements": 336,
+      "depth": 8,
+      "maxChildren": 68
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10357,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 4140.8,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 17,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "aria-prohibited-attr",
+          "title": "Elements use prohibited ARIA attributes",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 21
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3553.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T09:37:57.805Z",
+      "runtimeMs": 8657.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.13.10"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "cf-ray": "a5b585875823ef88-PDX",
+      "server": "cloudflare",
+      "x-vercel-id": "pdx1::2sl5n-1794821894302-b287551d8e5b"
+    },
+    "violations": 73,
+    "passes": 595,
+    "incomplete": 135,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 71,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"syntax.fm/\"]",
+            "snippet": "<a href=\"https://syntax.fm/\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Syntax - Web Development Podcast</a>"
+          },
+          {
+            "selector": "h2",
+            "snippet": "<h2 class=\"xl:hidden mb-0\" style=\"grid-column: 1/-1\">SVG generators, tools &amp; design resources<br>↓</h2>"
+          },
+          {
+            "selector": ".bg-white\\/25.hover\\:bg-white[href$=\"cccolor/\"]",
+            "snippet": "<a class=\"bg-white/25 hover:bg-white transition-colors duration-300 !no-underline square grid place-items-center text-xl sm:text-2xl lg:text-4xl\" title=\"HEX, RGB & HSL color picker for HTML and CSS\" …"
+          },
+          {
+            "selector": "a[title=\"color palette generator\"]",
+            "snippet": "<a class=\"bg-white/25 hover:bg...\" title=\"color palette genera...\" style=\"background: linear-g...\" href=\"/pppalette/\">"
+          },
+          {
+            "selector": "a[href$=\"hhhue/\"]",
+            "snippet": "<a class=\"bg-white/25 hover:bg-white transition-colors duration-300 !no-underline square grid place-items-center text-xl sm:text-2xl lg:text-4xl\" title=\"curated collection of beautiful color palettes…"
+          }
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "label",
+            "snippet": "<label for=\"themeSwitch\" class=\"theme-switch__label !top-10\" aria-label=\"Color theme switcher\"><span></span></label>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "63dce6e7a4eb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "255312",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 10:42:34 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "63dce6e7a4eb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "255323",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 10:42:34 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "63dce6e7a4eb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "255331",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 10:42:34 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "63dce6e7a4eb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "\"a1b4cde5d8d0b4beb7f9ba2cd527e104\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
