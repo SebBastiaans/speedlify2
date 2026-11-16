@@ -1,0 +1,302 @@
+{
+  "url": "https://jlswermann.artandwhatnot.com/",
+  "name": "jlswermann.artandwhatnot.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794822020477,
+  "date": "2026-11-16T09:40:20.477Z",
+  "runId": "2026-11-16T09-37-26-285Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21417,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 99,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://jlswermann.artandwhatnot.com/",
+    "finalUrl": "https://jlswermann.artandwhatnot.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 98,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 781,
+      "lcp": 2419,
+      "si": 1478,
+      "tbt": 0,
+      "tti": 2419,
+      "cls": 0,
+      "ttfb": 465,
+      "maxPotentialFid": 28,
+      "serverResponseTime": 14,
+      "networkRtt": 0.1,
+      "networkServerLatency": 14.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 15.8,
+      "resourceLoadDelay": 31,
+      "resourceLoadDuration": 4.9,
+      "elementRenderDelay": 1499.7
+    },
+    "weight": {
+      "total": 901107,
+      "requests": 14,
+      "mainDocument": 6671,
+      "byType": {
+        "total": {
+          "bytes": 901107,
+          "requests": 14
+        },
+        "image": {
+          "bytes": 831510,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 39751,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 13263,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 6671,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 5126,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 4786,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 838570,
+          "requests": 5
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 838570,
+      "mainThreadMs": 5.4,
+      "top": [
+        {
+          "entity": "Cloudinary",
+          "bytes": 828219,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 828219
+          },
+          "typedBytes": 828219
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 5.4,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 278.1,
+      "byGroup": {
+        "other": 144.2,
+        "styleLayout": 56.3,
+        "scriptEvaluation": 39.5,
+        "paintCompositeRender": 27.2,
+        "parseHTML": 9.4,
+        "scriptParseCompile": 1.5
+      },
+      "bootupMs": 7.3,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 169,
+      "depth": 10,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 4140.400000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 22,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "skip-link",
+          "title": "Skip links are not focusable.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 19
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3479,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T09:40:29.298Z",
+      "runtimeMs": 6188.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5b5891a1cd3d6b5-IAD",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M7HVNV2JWHDD286CZFC63RGH"
+    },
+    "violations": 1,
+    "passes": 335,
+    "incomplete": 17,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "skip-link",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "The skip-link target should exist and be focusable",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/skip-link?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[data-menu-item=\"home\"]",
+            "snippet": "<a class=\"menu-link active\" href=\"/#\" data-menu-item=\"home\"> <span>Home</span> </a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a95e863dd77d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "a95e863dd77d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "a95e863dd77d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535986",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "a95e863dd77d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "19",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535981",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
