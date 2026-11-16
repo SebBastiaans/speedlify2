@@ -1,0 +1,446 @@
+{
+  "url": "https://www.duda.co/",
+  "name": "Duda",
+  "group": "builders",
+  "groupName": "Website Builders",
+  "timestamp": 1794794873112,
+  "date": "2026-11-16T02:07:53.112Z",
+  "runId": "2026-11-16T02-00-48-028Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 533574,
+  "error": null,
+  "variance": {
+    "min": 25,
+    "max": 25,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.duda.co/",
+    "finalUrl": "https://www.duda.co/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 25,
+      "accessibility": 95,
+      "best-practices": 73,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 6809,
+      "lcp": 29921,
+      "si": 26961,
+      "tbt": 73859,
+      "tti": 104047,
+      "cls": 0,
+      "ttfb": 600,
+      "maxPotentialFid": 1951,
+      "serverResponseTime": 102,
+      "networkRtt": 54,
+      "networkServerLatency": 151
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 181.1,
+      "resourceLoadDelay": 503.5,
+      "resourceLoadDuration": 18,
+      "elementRenderDelay": 1650.7
+    },
+    "weight": {
+      "total": 12026938,
+      "requests": 412,
+      "mainDocument": 93683,
+      "byType": {
+        "total": {
+          "bytes": 12026938,
+          "requests": 268
+        },
+        "other": {
+          "bytes": 7746192,
+          "requests": 78
+        },
+        "script": {
+          "bytes": 3071622,
+          "requests": 81
+        },
+        "image": {
+          "bytes": 714328,
+          "requests": 82
+        },
+        "font": {
+          "bytes": 291797,
+          "requests": 11
+        },
+        "stylesheet": {
+          "bytes": 107456,
+          "requests": 13
+        },
+        "document": {
+          "bytes": 95543,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 11928013,
+          "requests": 263
+        }
+      },
+      "scripts": 81,
+      "stylesheets": 13,
+      "fonts": 11
+    },
+    "thirdParty": {
+      "count": 34,
+      "bytes": 11597961,
+      "mainThreadMs": 2749.2,
+      "top": [
+        {
+          "entity": "cdn-website.com",
+          "bytes": 8033261,
+          "mainThreadMs": 60.8,
+          "byType": {
+            "image": 704023,
+            "script": 249460,
+            "stylesheet": 73990,
+            "other": 6756832,
+            "font": 248956
+          },
+          "typedBytes": 8033261
+        },
+        {
+          "entity": "Unpkg",
+          "bytes": 964943,
+          "mainThreadMs": 1620.8,
+          "byType": {
+            "script": 98073,
+            "other": 866870
+          },
+          "typedBytes": 964943
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 718786,
+          "mainThreadMs": 257.8,
+          "byType": {
+            "script": 718786
+          },
+          "typedBytes": 718786
+        },
+        {
+          "entity": "multiscreensite.com",
+          "bytes": 354514,
+          "mainThreadMs": 18.9,
+          "byType": {
+            "script": 354014,
+            "other": 500
+          },
+          "typedBytes": 354514
+        },
+        {
+          "entity": "audioeye.com",
+          "bytes": 303643,
+          "mainThreadMs": 422.2,
+          "byType": {
+            "script": 290067,
+            "stylesheet": 12356,
+            "font": 1159,
+            "other": 61
+          },
+          "typedBytes": 303643
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 175501.5,
+      "byGroup": {
+        "other": 156027.2,
+        "scriptEvaluation": 16075.5,
+        "styleLayout": 1498.6,
+        "paintCompositeRender": 994,
+        "scriptParseCompile": 441.6,
+        "garbageCollection": 358.7,
+        "parseHTML": 105.8
+      },
+      "bootupMs": 16003,
+      "longTasks": 20,
+      "longestTaskMs": 1951
+    },
+    "dom": {
+      "elements": 1846,
+      "depth": 31,
+      "maxChildren": 84
+    },
+    "waste": {
+      "unusedJsBytes": 1116104,
+      "unusedCssBytes": 21286,
+      "legacyJsBytes": 72188,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 86644,
+      "unminifiedCssBytes": 6532,
+      "renderBlockingMs": 5595,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 893056.17375,
+      "poorlyCachedCount": 59
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 30,
+      "failingNodes": 8,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 5
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 19
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 83
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4038.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T02:07:54.310Z",
+      "runtimeMs": 100631.7
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.1,
+    "resourceLoadDelay": 6378.2,
+    "resourceLoadDuration": 1195,
+    "elementRenderDelay": 26.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": true,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "preact"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx",
+      "via": "1.1 035d65c907e13685da3ec5fa72be633a.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "5rk1ARh02aIzAO7IrdknoeOeOMFbiWVkfJVpp0YBKzfRSow9LdllsQ=="
+    },
+    "violations": 9,
+    "passes": 2189,
+    "incomplete": 12,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "button[aria-controls=\"cmp-panel-1\"]",
+            "snippet": "<button type=\"button\" class=\"cmp-toggle\" aria-expanded=\"true\" aria-controls=\"cmp-panel-1\" aria-label=\"Build tools\"> <span class=\"t-show\">Show tools</span> <span class=\"t-hide\">Hide tools</span> <i ro…"
+          },
+          {
+            "selector": "button[aria-controls=\"cmp-panel-2\"]",
+            "snippet": "<button type=\"button\" class=\"cmp-toggle\" aria-expanded=\"false\" aria-controls=\"cmp-panel-2\" aria-label=\"Convert tools\"> <span class=\"t-show\">Show tools</span> <span class=\"t-hide\">Hide tools</span> <i…"
+          },
+          {
+            "selector": "button[aria-controls=\"cmp-panel-3\"]",
+            "snippet": "<button type=\"button\" class=\"cmp-toggle\" aria-expanded=\"false\" aria-controls=\"cmp-panel-3\" aria-label=\"Get found tools\"> <span class=\"t-show\">Show tools</span> <span class=\"t-hide\">Hide tools</span> …"
+          },
+          {
+            "selector": ".salespeak-mci-bubble",
+            "snippet": "<div class=\"salespeak-mci-bubble salespeak-mci--show\" role=\"button\" tabindex=\"0\" aria-label=\"Open launcher\">"
+          },
+          {
+            "selector": ".salespeak-mci-avatar-wrap",
+            "snippet": "<div class=\"salespeak-mci-avatar-wrap\" role=\"button\" tabindex=\"0\" aria-label=\"Open launcher\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".termly-styles-module-solid-b00f91",
+            "snippet": "<button data-tid=\"banner-accept\" class=\"termly-styles-module...\" style=\"background: rgb(245,...\">"
+          },
+          {
+            "selector": "#\\31 574017673",
+            "snippet": "<span class=\"text\" id=\"1574017673\">Start free trial</span>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".carousel-item:nth-child(2) > .carousel-content > h3",
+            "snippet": "<h3 class=\"carousel-title\">Engineered for performance</h3>"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Interactive controls must not be nested",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".salespeak-mci-bubble",
+            "snippet": "<div class=\"salespeak-mci-bubble salespeak-mci--show\" role=\"button\" tabindex=\"0\" aria-label=\"Open launcher\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "38180a7ec963",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"1601747186\"",
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "38180a7ec963",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "101",
+          "etag": "\"1601747186\"",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "38180a7ec963",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "196",
+          "etag": "\"1601747186\"",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "38180a7ec963",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "296",
+          "etag": "\"1601747186\"",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "38180a7ec963",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"1601747186\"",
+          "x-cache": "Miss from cloudfront"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
