@@ -1,0 +1,481 @@
+{
+  "url": "https://geolytix.com/",
+  "name": "geolytix.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794822156804,
+  "date": "2026-11-16T09:42:36.804Z",
+  "runId": "2026-11-16T09-37-34-806Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 43506,
+  "error": null,
+  "variance": {
+    "min": 79,
+    "max": 88,
+    "spread": 9,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://geolytix.com/",
+    "finalUrl": "https://geolytix.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 80,
+      "accessibility": 79,
+      "best-practices": 96,
+      "seo": 85,
+      "agentic-browsing": 25
+    },
+    "timings": {
+      "fcp": 1205,
+      "lcp": 2913,
+      "si": 1323,
+      "tbt": 165,
+      "tti": 8979,
+      "cls": 0.254,
+      "ttfb": 613,
+      "maxPotentialFid": 133,
+      "serverResponseTime": 11,
+      "networkRtt": 34.8,
+      "networkServerLatency": 250.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 74.8,
+      "resourceLoadDelay": 24.3,
+      "resourceLoadDuration": 80.6,
+      "elementRenderDelay": 74.5
+    },
+    "weight": {
+      "total": 19945041,
+      "requests": 139,
+      "mainDocument": 47206,
+      "byType": {
+        "total": {
+          "bytes": 19939930,
+          "requests": 138
+        },
+        "media": {
+          "bytes": 15832780,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 3161484,
+          "requests": 117
+        },
+        "script": {
+          "bytes": 792024,
+          "requests": 11
+        },
+        "font": {
+          "bytes": 97276,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 47206,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 6607,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2553,
+          "requests": 4
+        },
+        "third-party": {
+          "bytes": 19741751,
+          "requests": 110
+        }
+      },
+      "scripts": 11,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 20251307,
+      "mainThreadMs": 127.8,
+      "top": [
+        {
+          "entity": "Cloudinary",
+          "bytes": 19470758,
+          "mainThreadMs": 0,
+          "byType": {
+            "media": 16342336,
+            "image": 3128422
+          },
+          "typedBytes": 19470758
+        },
+        {
+          "entity": "Google CDN",
+          "bytes": 360127,
+          "mainThreadMs": 32.9,
+          "byType": {
+            "script": 360127
+          },
+          "typedBytes": 360127
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 317149,
+          "mainThreadMs": 62.2,
+          "byType": {
+            "script": 317149
+          },
+          "typedBytes": 317149
+        },
+        {
+          "entity": "Hubspot",
+          "bytes": 101151,
+          "mainThreadMs": 32,
+          "byType": {
+            "script": 98436,
+            "other": 716,
+            "image": 1999
+          },
+          "typedBytes": 101151
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 1011,
+          "mainThreadMs": 0.7,
+          "byType": {
+            "script": 1011
+          },
+          "typedBytes": 1011
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2209.5,
+      "byGroup": {
+        "other": 832.8,
+        "scriptEvaluation": 694.8,
+        "styleLayout": 369.1,
+        "scriptParseCompile": 128.7,
+        "paintCompositeRender": 117.6,
+        "parseHTML": 49.2,
+        "garbageCollection": 17.3
+      },
+      "bootupMs": 802.6,
+      "longTasks": 9,
+      "longestTaskMs": 133
+    },
+    "dom": {
+      "elements": 1095,
+      "depth": 15,
+      "maxChildren": 32
+    },
+    "waste": {
+      "unusedJsBytes": 408590,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 25015,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 94374.22500000002,
+      "poorlyCachedCount": 4
+    },
+    "accessibility": {
+      "failingCount": 6,
+      "applicableCount": 27,
+      "failingNodes": 45,
+      "failing": [
+        {
+          "id": "aria-hidden-focus",
+          "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+          "weight": 7,
+          "nodes": 37
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 4
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "title": "`[aria-*]` attributes do not have valid values",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "html-has-lang",
+          "title": "`<html>` element does not have a `[lang]` attribute",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 43
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3385,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T09:42:37.997Z",
+      "runtimeMs": 8695.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "pdx1::ztxqd-1794822183450-014d2ba82952"
+    },
+    "violations": 46,
+    "passes": 1526,
+    "incomplete": 31,
+    "violationRules": 7,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "nodes": 37,
+        "help": "ARIA hidden element must not be focusable or contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-hidden-focus?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#tns1 > .tns-item[aria-hidden=\"true\"]:nth-child(1)",
+            "snippet": "<li class=\"tns-item\" aria-hidden=\"true\" tabindex=\"-1\">"
+          },
+          {
+            "selector": "#tns1 > .tns-item[aria-hidden=\"true\"]:nth-child(2)",
+            "snippet": "<li class=\"tns-item\" aria-hidden=\"true\" tabindex=\"-1\">"
+          },
+          {
+            "selector": "#tns1 > .tns-item[aria-hidden=\"true\"]:nth-child(3)",
+            "snippet": "<li class=\"tns-item\" aria-hidden=\"true\" tabindex=\"-1\">"
+          },
+          {
+            "selector": "#tns1 > .tns-item[aria-hidden=\"true\"]:nth-child(4)",
+            "snippet": "<li class=\"tns-item\" aria-hidden=\"true\" tabindex=\"-1\">"
+          },
+          {
+            "selector": "#tns1 > .tns-item[aria-hidden=\"true\"]:nth-child(5)",
+            "snippet": "<li class=\"tns-item\" aria-hidden=\"true\" tabindex=\"-1\">"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "menu-toggle > .w-\\[10rem\\][href=\"/\"]",
+            "snippet": "<a href=\"/\" class=\"w-[10rem]\">"
+          },
+          {
+            "selector": "a[plain=\"\"]",
+            "snippet": "<a href=\"/ai-location-planning/\" class=\"icon breakout-button text-4\" plain=\"\">"
+          },
+          {
+            "selector": ".w-\\[10rem\\].no-underline[href=\"/\"]",
+            "snippet": "<a href=\"/\" class=\"w-[10rem] no-underline\">"
+          },
+          {
+            "selector": "li:nth-child(1) > a[href$=\"geolytix\"]",
+            "snippet": "<a href=\"https://twitter.com/geolytix\" target=\"_blank\" rel=\"noopener noreferrer\">"
+          }
+        ]
+      },
+      {
+        "id": "aria-valid-attr-value",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "ARIA attributes must conform to valid values",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-valid-attr-value?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".lg\\:hidden",
+            "snippet": "<button type=\"button\" class=\"lg:hidden\" aria-label=\"Toggle main menu\" aria-controls=\"menu\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".text-salmon",
+            "snippet": "<h3 class=\"max-w-[20ch] text-salmon\">The core of your location or real estate strategy</h3>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".gap-s-l > .space-y-xs:nth-child(1) > h4",
+            "snippet": "<h4 class=\"mono\">Network Strategy</h4>"
+          }
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<html> element must have a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html class=\"no-js\" lang=\"\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "aside:nth-child(3)",
+            "snippet": "<aside class=\"relative py-2xl\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "db62bdba4d66",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "282095",
+          "etag": "W/\"828d1a977b6900fbe72a5fa1e335f8f6\"",
+          "last-modified": "Fri, 13 Nov 2026 03:21:03 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "db62bdba4d66",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "282103",
+          "etag": "W/\"828d1a977b6900fbe72a5fa1e335f8f6\"",
+          "last-modified": "Fri, 13 Nov 2026 03:21:03 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "db62bdba4d66",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "282112",
+          "etag": "W/\"828d1a977b6900fbe72a5fa1e335f8f6\"",
+          "last-modified": "Fri, 13 Nov 2026 03:21:03 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "db62bdba4d66",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"828d1a977b6900fbe72a5fa1e335f8f6\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
