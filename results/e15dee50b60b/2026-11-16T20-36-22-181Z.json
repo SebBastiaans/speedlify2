@@ -1,0 +1,301 @@
+{
+  "url": "https://qrayg.com/",
+  "name": "qrayg.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794861382181,
+  "date": "2026-11-16T20:36:22.181Z",
+  "runId": "2026-11-16T20-26-27-847Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25369,
+  "error": null,
+  "variance": {
+    "min": 82,
+    "max": 89,
+    "spread": 7,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://qrayg.com/",
+    "finalUrl": "https://qrayg.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 89,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1730,
+      "lcp": 3544,
+      "si": 1730,
+      "tbt": 103,
+      "tti": 3544,
+      "cls": 0.025,
+      "ttfb": 621,
+      "maxPotentialFid": 94,
+      "serverResponseTime": 21,
+      "networkRtt": 0.1,
+      "networkServerLatency": 21.3
+    },
+    "lcpBreakdown": null,
+    "weight": {
+      "total": 238702,
+      "requests": 12,
+      "mainDocument": 4151,
+      "byType": {
+        "total": {
+          "bytes": 231500,
+          "requests": 11
+        },
+        "script": {
+          "bytes": 99785,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 91562,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 32781,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 4151,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3221,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 36337,
+          "requests": 5
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 3,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 36337,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 33593,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 812,
+            "font": 32781
+          },
+          "typedBytes": 33593
+        },
+        {
+          "entity": "iconify.design",
+          "bytes": 2744,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 2744
+          },
+          "typedBytes": 2744
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1723.4,
+      "byGroup": {
+        "other": 1011.6,
+        "scriptEvaluation": 380.7,
+        "styleLayout": 189.3,
+        "parseHTML": 55,
+        "paintCompositeRender": 49.4,
+        "scriptParseCompile": 25.9,
+        "garbageCollection": 11.4
+      },
+      "bootupMs": 405.1,
+      "longTasks": 5,
+      "longestTaskMs": 94
+    },
+    "dom": {
+      "elements": 360,
+      "depth": 11,
+      "maxChildren": 24
+    },
+    "waste": {
+      "unusedJsBytes": 22581,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 23,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "aria-command-name",
+          "title": "`button`, `link`, and `menuitem` elements do not have accessible names.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 59
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3523,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T20:36:39.932Z",
+      "runtimeMs": 7287.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.6",
+      "source": "meta",
+      "raw": "Eleventy v3.1.6"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.6"
+      ],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.15.12"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7K1760XE0DXE8E42S9MFSZR"
+    },
+    "violations": 1,
+    "passes": 138,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-command-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "ARIA commands must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-command-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".dropdown.dropdown-end.group:nth-child(1) > .btn-circle.hover\\:bg-current\\/10.group-focus-within\\:bg-current\\/10",
+            "snippet": "<div data-cuelume-hover=\"tick\" data-cuelume-press=\"\" data-cuelume-release=\"\" tabindex=\"0\" class=\"btn btn-ghost btn-circle hover:bg-current/10 group-focus-within:bg-current/10\" role=\"button\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d4766bf2a37e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"47949328dc593a08ec18a4b2ecef81c2-ssl\""
+        }
+      },
+      {
+        "hash": "d4766bf2a37e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535991",
+          "etag": "W/\"47949328dc593a08ec18a4b2ecef81c2-ssl\""
+        }
+      },
+      {
+        "hash": "d4766bf2a37e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535984",
+          "etag": "W/\"47949328dc593a08ec18a4b2ecef81c2-ssl\""
+        }
+      },
+      {
+        "hash": "d4766bf2a37e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535977",
+          "etag": "W/\"47949328dc593a08ec18a4b2ecef81c2-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

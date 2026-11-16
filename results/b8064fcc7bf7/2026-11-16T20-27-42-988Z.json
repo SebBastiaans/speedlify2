@@ -1,0 +1,277 @@
+{
+  "url": "https://nordhealth.com/",
+  "name": "nordhealth.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794860862988,
+  "date": "2026-11-16T20:27:42.988Z",
+  "runId": "2026-11-16T20-26-27-847Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23629,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://nordhealth.com/",
+    "finalUrl": "https://nordhealth.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 996,
+      "lcp": 996,
+      "si": 1571,
+      "tbt": 0,
+      "tti": 996,
+      "cls": 0,
+      "ttfb": 641,
+      "maxPotentialFid": 30,
+      "serverResponseTime": 92,
+      "networkRtt": 0,
+      "networkServerLatency": 89.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 93,
+      "elementRenderDelay": 195.4
+    },
+    "weight": {
+      "total": 253756,
+      "requests": 22,
+      "mainDocument": 7747,
+      "byType": {
+        "total": {
+          "bytes": 253756,
+          "requests": 22
+        },
+        "font": {
+          "bytes": 115840,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 61334,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 47646,
+          "requests": 11
+        },
+        "script": {
+          "bytes": 10654,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 10535,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 7747,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3187,
+          "requests": 2
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 3187,
+      "mainThreadMs": 1,
+      "top": [
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3187,
+          "mainThreadMs": 1,
+          "byType": {
+            "script": 2755,
+            "image": 432
+          },
+          "typedBytes": 3187
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1038.8,
+      "byGroup": {
+        "other": 769.5,
+        "styleLayout": 95.8,
+        "scriptEvaluation": 90.1,
+        "paintCompositeRender": 65.5,
+        "parseHTML": 9.4,
+        "garbageCollection": 5.1,
+        "scriptParseCompile": 3.3
+      },
+      "bootupMs": 85.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 402,
+      "depth": 13,
+      "maxChildren": 29
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10405,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 25,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 23
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3498,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T20:27:59.213Z",
+      "runtimeMs": 6472.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "1.0.1",
+      "source": "meta",
+      "raw": "Eleventy v1.0.1"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v1.0.1"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "amazons3",
+      "name": "Amazon S3",
+      "icon": "Amazon",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AmazonS3",
+      "via": "1.1 ac695892d6ed07904483819bdb88134e.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "sSdUfmNXeCYPXrhvaabtFw0WUIQVGY3tIyM9ucetaNJdBJPbBiSRew=="
+    },
+    "violations": 0,
+    "passes": 392,
+    "incomplete": 18,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "3e11bcc663c1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "790",
+          "etag": "W/\"ea4f6731ff55b223da4c8d8564eff53e\"",
+          "last-modified": "Wed, 11 Nov 2026 07:43:44 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "3e11bcc663c1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "798",
+          "etag": "W/\"ea4f6731ff55b223da4c8d8564eff53e\"",
+          "last-modified": "Wed, 11 Nov 2026 07:43:44 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "3e11bcc663c1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "805",
+          "etag": "W/\"ea4f6731ff55b223da4c8d8564eff53e\"",
+          "last-modified": "Wed, 11 Nov 2026 07:43:44 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "3e11bcc663c1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "808",
+          "etag": "W/\"ea4f6731ff55b223da4c8d8564eff53e\"",
+          "last-modified": "Wed, 11 Nov 2026 07:43:44 GMT",
+          "x-cache": "Hit from cloudfront"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
