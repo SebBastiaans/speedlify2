@@ -1,0 +1,342 @@
+{
+  "url": "https://manu.ninja/",
+  "name": "manu.ninja",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794861021439,
+  "date": "2026-11-16T20:30:21.439Z",
+  "runId": "2026-11-16T20-26-16-581Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26587,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 99,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://manu.ninja/",
+    "finalUrl": "https://manu.ninja/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 80,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 831,
+      "lcp": 831,
+      "si": 831,
+      "tbt": 71,
+      "tti": 3246,
+      "cls": 0.046,
+      "ttfb": 625,
+      "maxPotentialFid": 111,
+      "serverResponseTime": 226,
+      "networkRtt": 0,
+      "networkServerLatency": 25
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 227.1,
+      "elementRenderDelay": 48.4
+    },
+    "weight": {
+      "total": 401196,
+      "requests": 10,
+      "mainDocument": 13741,
+      "byType": {
+        "total": {
+          "bytes": 399719,
+          "requests": 9
+        },
+        "script": {
+          "bytes": 303463,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 56207,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 16032,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 13741,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 10276,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 302426,
+          "requests": 2
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 0,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 302426,
+      "mainThreadMs": 52.7,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 302426,
+          "mainThreadMs": 52.7,
+          "byType": {
+            "script": 302426
+          },
+          "typedBytes": 302426
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 485.5,
+      "byGroup": {
+        "scriptEvaluation": 206.2,
+        "other": 110.5,
+        "styleLayout": 75.8,
+        "scriptParseCompile": 54.8,
+        "paintCompositeRender": 20.2,
+        "garbageCollection": 9.1,
+        "parseHTML": 9
+      },
+      "bootupMs": 253.1,
+      "longTasks": 2,
+      "longestTaskMs": 111
+    },
+    "dom": {
+      "elements": 653,
+      "depth": 9,
+      "maxChildren": 40
+    },
+    "waste": {
+      "unusedJsBytes": 149416,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 7191.970443384028,
+      "poorlyCachedCount": 4
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 13,
+      "failingNodes": 185,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 132
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 52
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3597.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T20:30:40.215Z",
+      "runtimeMs": 7372.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5b941541a31b248-PDX",
+      "server": "cloudflare",
+      "x-powered-by": "PleskLin"
+    },
+    "violations": 56,
+    "passes": 1352,
+    "incomplete": 0,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 52,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".Navigation-item[href=\"/\"]",
+            "snippet": "<a class=\"Navigation-item\" href=\"/\">Blog</a>"
+          },
+          {
+            "selector": "a[href$=\"talks\"]",
+            "snippet": "<a class=\"Navigation-item\" href=\"/talks\">Talks</a>"
+          },
+          {
+            "selector": "a[href$=\"projects\"]",
+            "snippet": "<a class=\"Navigation-item\" href=\"/projects\">Projects</a>"
+          },
+          {
+            "selector": "a[href$=\"about\"]",
+            "snippet": "<a class=\"Navigation-item\" href=\"/about\">About</a>"
+          },
+          {
+            "selector": "h2",
+            "snippet": "<h2 class=\"Introduction-bigText\">Hi, I’m Manuel.</h2>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".Banner",
+            "snippet": "<h1 class=\"Banner\"><a href=\"/\"><img class=\"Banner-logo\" src=\"/logo.svg\" alt=\"Logo\"> <span class=\"Banner-title\">manu.ninja</span> <span class=\"Banner-line\">Front-End Development, Games and Digital Art…"
+          },
+          {
+            "selector": ".Introduction",
+            "snippet": "<div class=\"Introduction\"><div class=\"Column\"><h2 class=\"Introduction-bigText\">Hi, I’m Manuel.</h2><p class=\"Introduction-smallText\">I make web applications, games and digital art.<br>You are enjoyin…"
+          },
+          {
+            "selector": ".Column:nth-child(3)",
+            "snippet": "<div class=\"Column\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7a04c560ffdb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 23 Jun 2022 06:54:05 GMT"
+        }
+      },
+      {
+        "hash": "7a04c560ffdb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 23 Jun 2022 06:54:05 GMT"
+        }
+      },
+      {
+        "hash": "7a04c560ffdb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 23 Jun 2022 06:54:05 GMT"
+        }
+      },
+      {
+        "hash": "7a04c560ffdb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 23 Jun 2022 06:54:05 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

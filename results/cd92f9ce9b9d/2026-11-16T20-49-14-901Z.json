@@ -1,0 +1,255 @@
+{
+  "url": "https://hex.pm/",
+  "name": "Hex",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1794862154901,
+  "date": "2026-11-16T20:49:14.901Z",
+  "runId": "2026-11-16T20-26-16-581Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 57660,
+  "error": null,
+  "variance": {
+    "min": 64,
+    "max": 76,
+    "spread": 12,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://hex.pm/",
+    "finalUrl": "https://hex.pm/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 76,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1737,
+      "lcp": 6673,
+      "si": 1737,
+      "tbt": 0,
+      "tti": 6673,
+      "cls": 0.008,
+      "ttfb": 673,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 90,
+      "networkRtt": 0.1,
+      "networkServerLatency": 103.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 91.6,
+      "resourceLoadDelay": 8,
+      "resourceLoadDuration": 308.5,
+      "elementRenderDelay": 22.1
+    },
+    "weight": {
+      "total": 2363030,
+      "requests": 16,
+      "mainDocument": 15952,
+      "byType": {
+        "total": {
+          "bytes": 2363030,
+          "requests": 16
+        },
+        "image": {
+          "bytes": 2173360,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 79833,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 62597,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 30870,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 15952,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 418,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 81129,
+          "requests": 3
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 81129,
+      "mainThreadMs": 0.3,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 81129,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 1296,
+            "font": 79833
+          },
+          "typedBytes": 81129
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 590.1,
+      "byGroup": {
+        "other": 370.7,
+        "styleLayout": 78.6,
+        "scriptEvaluation": 73.6,
+        "paintCompositeRender": 25.5,
+        "parseHTML": 21.9,
+        "scriptParseCompile": 13.9,
+        "garbageCollection": 6
+      },
+      "bootupMs": 79.3,
+      "longTasks": 1,
+      "longestTaskMs": 191
+    },
+    "dom": {
+      "elements": 608,
+      "depth": 16,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 45267,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 914,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 2768.7333333333336,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 21,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 23
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3549.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T20:49:24.471Z",
+      "runtimeMs": 7899.3
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 653.7,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 9014,
+    "elementRenderDelay": 14.2
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {
+      "via": "1.1 google"
+    },
+    "violations": 0,
+    "passes": 717,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7684fcaef251",
+        "nonce": "826a2eb922ec",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "1109346a83fa",
+        "nonce": "e01a6d96a813",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "0b7f395b984f",
+        "nonce": "fd6106d37f9a",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "9b8ec392bf4a",
+        "nonce": "905061d62402",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "4a1bfc1b7a2a",
+        "nonce": "68afaed7e3f3",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,391 @@
+{
+  "url": "https://www.microsoft.com/",
+  "name": "Microsoft",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1794861353267,
+  "date": "2026-11-16T20:35:53.267Z",
+  "runId": "2026-11-16T20-26-16-581Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 113201,
+  "error": null,
+  "variance": {
+    "min": 5,
+    "max": 5,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.microsoft.com/",
+    "finalUrl": "https://www.microsoft.com/en-us",
+    "redirect": {
+      "from": "https://www.microsoft.com/",
+      "to": "https://www.microsoft.com/en-us",
+      "chain": [
+        {
+          "url": "https://www.microsoft.com/",
+          "status": 302
+        },
+        {
+          "url": "https://www.microsoft.com/en-us",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        302
+      ],
+      "change": "path",
+      "permanent": false,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 5,
+      "accessibility": 100,
+      "best-practices": 50,
+      "seo": 92,
+      "agentic-browsing": 56
+    },
+    "timings": {
+      "fcp": 4506,
+      "lcp": 33243,
+      "si": 15002,
+      "tbt": 3339,
+      "tti": 40765,
+      "cls": 0.567,
+      "ttfb": 670,
+      "maxPotentialFid": 593,
+      "serverResponseTime": 157,
+      "networkRtt": 79.5,
+      "networkServerLatency": 150
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 278.1,
+      "resourceLoadDelay": 1154.2,
+      "resourceLoadDuration": 18.4,
+      "elementRenderDelay": 1426.8
+    },
+    "weight": {
+      "total": 8908971,
+      "requests": 291,
+      "mainDocument": 37519,
+      "byType": {
+        "total": {
+          "bytes": 8711403,
+          "requests": 290
+        },
+        "image": {
+          "bytes": 4444839,
+          "requests": 51
+        },
+        "script": {
+          "bytes": 2782190,
+          "requests": 170
+        },
+        "font": {
+          "bytes": 1097618,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 282500,
+          "requests": 14
+        },
+        "other": {
+          "bytes": 58219,
+          "requests": 44
+        },
+        "document": {
+          "bytes": 46037,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 8711403,
+          "requests": 290
+        }
+      },
+      "scripts": 170,
+      "stylesheets": 14,
+      "fonts": 7
+    },
+    "thirdParty": {
+      "count": 15,
+      "bytes": 584194,
+      "mainThreadMs": 326.6,
+      "top": [
+        {
+          "entity": "Clicktale",
+          "bytes": 232941,
+          "mainThreadMs": 180.4,
+          "byType": {
+            "script": 232418,
+            "other": 523
+          },
+          "typedBytes": 232941
+        },
+        {
+          "entity": "s-microsoft.com",
+          "bytes": 150667,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 150667
+          },
+          "typedBytes": 150667
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 90694,
+          "mainThreadMs": 12.2,
+          "byType": {
+            "script": 90694
+          },
+          "typedBytes": 90694
+        },
+        {
+          "entity": "DemandBase",
+          "bytes": 46533,
+          "mainThreadMs": 14.9,
+          "byType": {
+            "script": 46089,
+            "other": 444
+          },
+          "typedBytes": 46533
+        },
+        {
+          "entity": "Clarity",
+          "bytes": 33076,
+          "mainThreadMs": 113.4,
+          "byType": {
+            "script": 31394,
+            "other": 964,
+            "image": 718
+          },
+          "typedBytes": 33076
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 19863.3,
+      "byGroup": {
+        "scriptEvaluation": 11361.1,
+        "styleLayout": 5600.8,
+        "other": 1839.9,
+        "scriptParseCompile": 512.1,
+        "parseHTML": 225.7,
+        "garbageCollection": 189.4,
+        "paintCompositeRender": 134.2
+      },
+      "bootupMs": 9268.7,
+      "longTasks": 20,
+      "longestTaskMs": 593
+    },
+    "dom": {
+      "elements": 4341,
+      "depth": 22,
+      "maxChildren": 55
+    },
+    "waste": {
+      "unusedJsBytes": 704548,
+      "unusedCssBytes": 247869,
+      "legacyJsBytes": 49976,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 647994,
+      "unminifiedCssBytes": 6828,
+      "renderBlockingMs": 4450,
+      "renderBlockingCount": 13,
+      "poorlyCachedBytes": 5111951.021569209,
+      "poorlyCachedCount": 220
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 36,
+      "failingNodes": 6,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 6
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 6,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 38
+        },
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 5
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 5
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 891.7,
+      "consoleErrors": 5,
+      "baselineLimitedFeatures": 60
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3517.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T20:35:54.446Z",
+      "runtimeMs": 21164.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "react",
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "3.3.3"
+      }
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {},
+    "violations": 8,
+    "passes": 1622,
+    "incomplete": 17,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 7,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "button[aria-label=\"Sign In\"]",
+            "snippet": "<button type=\"button\" aria-label=\"Sign In\" data-bi-cn=\"GlobalNav_Account_co...\" data-m=\"{\"compnm\": \"UHF\", \"v...\" style=\"height: 36px; width:...\">"
+          },
+          {
+            "selector": "a[aria-label=\"Shop Microsoft Store Deals now\"]",
+            "snippet": "<a href=\"https://www.microsof...\" target=\"_self\" aria-label=\"Shop Microsoft Store...\" title=\"Shop deals\" lang=\"en-us\" data-bi-cn=\"Shop deals\" data-bi-ecn=\"Shop deals\" data-bi-hn=\"Get extended free re…"
+          },
+          {
+            "selector": "#action-ocf3cb > a[data-bi-cn=\"Shop now\"][data-bi-ecn=\"Shop now\"][data-bi-sn=\"1\"]",
+            "snippet": "<a target=\"_self\" href=\"https://www.microsof...\" aria-label=\"Shop Surface Pro, 13...\" title=\"Shop Surface Pro, 13...\" data-bi-bhvr=\"0\" data-bi-tags=\"{}\" data-bi-cn=\"Shop now\" data-bi-ecn=\"Shop now\" d…"
+          },
+          {
+            "selector": "a[aria-label=\"Get Microsoft 365 offer\"]",
+            "snippet": "<a target=\"_self\" href=\"https://www.microsof...\" aria-label=\"Get Microsoft 365 of...\" title=\"Get Microsoft 365 of...\" data-bi-bhvr=\"0\" data-bi-tags=\"{}\" data-bi-cn=\"Get offer​\" data-bi-ecn=\"Get offer…"
+          },
+          {
+            "selector": "#action-oc4bdf > a[data-bi-cn=\"Read the story\"][data-bi-ecn=\"Read the story\"][data-bi-sn=\"2\"]",
+            "snippet": "<a target=\"_self\" href=\"https://unlocked.mic...\" aria-label=\"Read about how Micro...\" title=\"Read about how Micro...\" data-bi-bhvr=\"0\" data-bi-tags=\"{\"data-bi-view\":\"| G...\" data-bi-cn=\"Read the stor…"
+          }
+        ]
+      },
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#base-ui-shell-oc2524 > .msstore-chatonpage[data-action-type=\"hybridInputAndPills\"] > .msstore-chatonpage__heading-container > h2",
+            "snippet": "<h2 style=\"color: #fefefe\"> </h2>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "77d97178152f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "217d46a902cd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "c8d344a1bb5c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
