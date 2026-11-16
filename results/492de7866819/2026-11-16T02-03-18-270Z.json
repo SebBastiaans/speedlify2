@@ -1,0 +1,294 @@
+{
+  "url": "https://www.zachleat.com/web/lighthouse-in-footer",
+  "name": "www.zachleat.com",
+  "group": "zachleat",
+  "groupName": "zachleat",
+  "timestamp": 1794794598270,
+  "date": "2026-11-16T02:03:18.270Z",
+  "runId": "2026-11-16T02-00-56-033Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 43265,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.zachleat.com/web/lighthouse-in-footer",
+    "finalUrl": "https://www.zachleat.com/web/lighthouse-in-footer/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1170,
+      "lcp": 1170,
+      "si": 1170,
+      "tbt": 0,
+      "tti": 1170,
+      "cls": 0.023,
+      "ttfb": 606,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 4,
+      "networkRtt": 0,
+      "networkServerLatency": 109.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 31.9,
+      "elementRenderDelay": 73
+    },
+    "weight": {
+      "total": 155652,
+      "requests": 20,
+      "mainDocument": 53216,
+      "byType": {
+        "total": {
+          "bytes": 153934,
+          "requests": 18
+        },
+        "font": {
+          "bytes": 71243,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 53216,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 15890,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 5824,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 4170,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 3591,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 5442,
+          "requests": 3
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 1,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 5442,
+      "mainThreadMs": 1.2,
+      "top": [
+        {
+          "entity": "zgo.at",
+          "bytes": 4363,
+          "mainThreadMs": 1.2,
+          "byType": {
+            "script": 4363
+          },
+          "typedBytes": 4363
+        },
+        {
+          "entity": "11ty.dev",
+          "bytes": 697,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 697
+          },
+          "typedBytes": 697
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 431.1,
+      "byGroup": {
+        "styleLayout": 149.8,
+        "other": 140.5,
+        "scriptEvaluation": 56.6,
+        "parseHTML": 38.4,
+        "paintCompositeRender": 37.6,
+        "garbageCollection": 5.4,
+        "scriptParseCompile": 2.8
+      },
+      "bootupMs": 39.8,
+      "longTasks": 1,
+      "longestTaskMs": 66
+    },
+    "dom": {
+      "elements": 1627,
+      "depth": 13,
+      "maxChildren": 202
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 557.6,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 28,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 755.6,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 44
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3555.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T02:03:28.592Z",
+      "runtimeMs": 6381.8
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1462.5,
+    "elementRenderDelay": 0
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7H1H2TM089RPTPCBAFQYR3J"
+    },
+    "violations": 0,
+    "passes": 2284,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b6663eb2c11e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"1e109c737e5af4b5a4d4f2836f163b79-ssl\""
+        }
+      },
+      {
+        "hash": "b6663eb2c11e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535991",
+          "etag": "W/\"1e109c737e5af4b5a4d4f2836f163b79-ssl\""
+        }
+      },
+      {
+        "hash": "b6663eb2c11e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535984",
+          "etag": "W/\"1e109c737e5af4b5a4d4f2836f163b79-ssl\""
+        }
+      },
+      {
+        "hash": "b6663eb2c11e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "23",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535977",
+          "etag": "W/\"1e109c737e5af4b5a4d4f2836f163b79-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
