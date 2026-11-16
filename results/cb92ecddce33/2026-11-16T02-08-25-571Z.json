@@ -1,0 +1,341 @@
+{
+  "url": "https://jonas.brusman.se/",
+  "name": "jonas.brusman.se",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794794905571,
+  "date": "2026-11-16T02:08:25.571Z",
+  "runId": "2026-11-16T02-00-48-932Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23693,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://jonas.brusman.se/",
+    "finalUrl": "https://jonas.brusman.se/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 88,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 959,
+      "lcp": 2017,
+      "si": 959,
+      "tbt": 0,
+      "tti": 2017,
+      "cls": 0,
+      "ttfb": 659,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 77,
+      "networkRtt": 0.1,
+      "networkServerLatency": 476.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 78.2,
+      "elementRenderDelay": 183
+    },
+    "weight": {
+      "total": 12300848,
+      "requests": 38,
+      "mainDocument": 5435,
+      "byType": {
+        "total": {
+          "bytes": 12300848,
+          "requests": 38
+        },
+        "image": {
+          "bytes": 12135566,
+          "requests": 7
+        },
+        "other": {
+          "bytes": 70125,
+          "requests": 21
+        },
+        "font": {
+          "bytes": 54494,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 26021,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 9207,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 5435,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10733,
+          "requests": 2
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 10733,
+      "mainThreadMs": 7.1,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 7.1,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 759.3,
+      "byGroup": {
+        "other": 407.5,
+        "paintCompositeRender": 151.5,
+        "scriptEvaluation": 98.5,
+        "styleLayout": 86.4,
+        "parseHTML": 8.1,
+        "garbageCollection": 5.1,
+        "scriptParseCompile": 2.3
+      },
+      "bootupMs": 46.1,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 145,
+      "depth": 8,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 4780774.800000001,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 13,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 34
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3907.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T02:08:41.821Z",
+      "runtimeMs": 6884.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.0.0",
+      "source": "meta",
+      "raw": "Eleventy v3.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5b2f32a3a545be5-DFW",
+      "server": "cloudflare"
+    },
+    "violations": 5,
+    "passes": 269,
+    "incomplete": 5,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".text-neutral-500 > .link[href$=\"photos.brusman.se\"]",
+            "snippet": "<a href=\"https://photos.brusman.se\" class=\"link\">photos.brusman.se</a>"
+          },
+          {
+            "selector": ".whitespace-nowrap",
+            "snippet": "<a href=\"https://photos.brusman.se/ahus-2026\" class=\"link whitespace-nowrap\">Read journal →</a>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html class=\"dark:dark light\" lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html class=\"dark:dark light\" lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".gap-x-8",
+            "snippet": "<div class=\"grid gap-x-8 gap-y-10 grid-cols-1 items-start max-w-5xl md:grid-cols-2\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b47c29af1e66",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "b47c29af1e66",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "b47c29af1e66",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "b47c29af1e66",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
