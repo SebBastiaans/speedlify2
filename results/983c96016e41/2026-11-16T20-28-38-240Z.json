@@ -1,0 +1,305 @@
+{
+  "url": "https://laybl.app/",
+  "name": "laybl.app",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794860918240,
+  "date": "2026-11-16T20:28:38.240Z",
+  "runId": "2026-11-16T20-26-11-664Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25372,
+  "error": null,
+  "variance": {
+    "min": 75,
+    "max": 78,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://laybl.app/",
+    "finalUrl": "https://laybl.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 76,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1556,
+      "lcp": 6741,
+      "si": 1556,
+      "tbt": 46,
+      "tti": 6817,
+      "cls": 0.003,
+      "ttfb": 634,
+      "maxPotentialFid": 110,
+      "serverResponseTime": 43,
+      "networkRtt": 0.1,
+      "networkServerLatency": 34.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 44.1,
+      "elementRenderDelay": 1262.5
+    },
+    "weight": {
+      "total": 1143326,
+      "requests": 19,
+      "mainDocument": 8617,
+      "byType": {
+        "total": {
+          "bytes": 1142795,
+          "requests": 18
+        },
+        "image": {
+          "bytes": 682589,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 400182,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 35540,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 15147,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 8617,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 720,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 217991,
+          "requests": 3
+        }
+      },
+      "scripts": 8,
+      "stylesheets": 2,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 217991,
+      "mainThreadMs": 49.1,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 181616,
+          "mainThreadMs": 49,
+          "byType": {
+            "script": 181616
+          },
+          "typedBytes": 181616
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 36375,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 835,
+            "font": 35540
+          },
+          "typedBytes": 36375
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 759.2,
+      "byGroup": {
+        "scriptEvaluation": 353.6,
+        "other": 226.4,
+        "styleLayout": 82.5,
+        "scriptParseCompile": 42.5,
+        "paintCompositeRender": 25.7,
+        "garbageCollection": 14.6,
+        "parseHTML": 13.9
+      },
+      "bootupMs": 374.7,
+      "longTasks": 2,
+      "longestTaskMs": 110
+    },
+    "dom": {
+      "elements": 261,
+      "depth": 10,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 189631,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 921,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 22,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 4
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 39
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3492,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T20:28:49.291Z",
+      "runtimeMs": 6727.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "vite",
+      "name": "Vite",
+      "icon": "Vite",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "react",
+        "vite"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5b93ed7ee5acf69-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 4,
+    "passes": 521,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".reveal-in.reveal:nth-child(1) > .text-brass.label",
+            "snippet": "<p class=\"label text-brass\">High-net-worth home contents intelligence</p>"
+          },
+          {
+            "selector": "nav[aria-label=\"Site\"] > .text-brass.label",
+            "snippet": "<p class=\"label text-brass\">Site</p>"
+          },
+          {
+            "selector": "nav[aria-label=\"Company\"] > .text-brass.label",
+            "snippet": "<p class=\"label text-brass\">Company</p>"
+          },
+          {
+            "selector": "div:nth-child(4) > .text-brass.label",
+            "snippet": "<p class=\"label text-brass\">Elsewhere</p>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "74e52759630c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "ef318b987f2d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "1a9add13963c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "e5b8fd183b97",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

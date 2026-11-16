@@ -1,0 +1,265 @@
+{
+  "url": "https://magnus.anderssen.ch/",
+  "name": "magnus.anderssen.ch",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794861257929,
+  "date": "2026-11-16T20:34:17.929Z",
+  "runId": "2026-11-16T20-26-11-664Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22283,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://magnus.anderssen.ch/",
+    "finalUrl": "https://magnus.anderssen.ch/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 82,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 967,
+      "lcp": 967,
+      "si": 967,
+      "tbt": 0,
+      "tti": 967,
+      "cls": 0.037,
+      "ttfb": 797,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 123,
+      "networkRtt": 0,
+      "networkServerLatency": 196.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 124.3,
+      "elementRenderDelay": 127.8
+    },
+    "weight": {
+      "total": 128267,
+      "requests": 19,
+      "mainDocument": 9713,
+      "byType": {
+        "total": {
+          "bytes": 128267,
+          "requests": 19
+        },
+        "script": {
+          "bytes": 56439,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 45400,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 9812,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 9713,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 6903,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 12,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 232.9,
+      "byGroup": {
+        "other": 111.3,
+        "scriptEvaluation": 65.3,
+        "styleLayout": 37.1,
+        "paintCompositeRender": 8.2,
+        "parseHTML": 6.7,
+        "scriptParseCompile": 4.1
+      },
+      "bootupMs": 33.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 63,
+      "depth": 11,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 15
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3466,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T20:34:26.453Z",
+      "runtimeMs": 6672.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "svelte"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx/1.31.3"
+    },
+    "violations": 0,
+    "passes": 143,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "21e483a03cde",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"1bcuwaa\""
+        }
+      },
+      {
+        "hash": "21e483a03cde",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"1bcuwaa\""
+        }
+      },
+      {
+        "hash": "21e483a03cde",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"1bcuwaa\""
+        }
+      },
+      {
+        "hash": "21e483a03cde",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"1bcuwaa\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

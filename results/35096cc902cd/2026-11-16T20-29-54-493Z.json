@@ -1,0 +1,268 @@
+{
+  "url": "https://lerhonewalker.com/",
+  "name": "lerhonewalker.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794860994493,
+  "date": "2026-11-16T20:29:54.493Z",
+  "runId": "2026-11-16T20-26-11-664Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 22660,
+  "error": null,
+  "partialErrors": [
+    "NO_NAVSTART: Something went wrong with recording the trace over your page load. Please run Lighthouse again. (NO_NAVSTART)"
+  ],
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://lerhonewalker.com/",
+    "finalUrl": "https://lerhonewalker.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 877,
+      "lcp": 877,
+      "si": 1694,
+      "tbt": 36,
+      "tti": 3108,
+      "cls": 0,
+      "ttfb": 516,
+      "maxPotentialFid": 89,
+      "serverResponseTime": 76,
+      "networkRtt": 0.6,
+      "networkServerLatency": 66.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 77.4,
+      "elementRenderDelay": 178.4
+    },
+    "weight": {
+      "total": 361009,
+      "requests": 14,
+      "mainDocument": 11283,
+      "byType": {
+        "total": {
+          "bytes": 359615,
+          "requests": 13
+        },
+        "script": {
+          "bytes": 191832,
+          "requests": 5
+        },
+        "image": {
+          "bytes": 74332,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 54446,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 26676,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 11283,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1046,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 184018,
+          "requests": 2
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 184018,
+      "mainThreadMs": 46.5,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 173667,
+          "mainThreadMs": 41.7,
+          "byType": {
+            "script": 173667
+          },
+          "typedBytes": 173667
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 4.8,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 430.6,
+      "byGroup": {
+        "scriptEvaluation": 175,
+        "other": 127.2,
+        "styleLayout": 52.6,
+        "scriptParseCompile": 32.5,
+        "parseHTML": 20.5,
+        "garbageCollection": 12.6,
+        "paintCompositeRender": 10.2
+      },
+      "bootupMs": 180.4,
+      "longTasks": 2,
+      "longestTaskMs": 89
+    },
+    "dom": {
+      "elements": 321,
+      "depth": 11,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 74566,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 5858.6916666666675,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 28,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 55
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3428,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T20:30:09.648Z",
+      "runtimeMs": 6615.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": "7.4.12",
+      "source": "meta",
+      "raw": "Astro v7.4.12"
+    },
+    "probe": {
+      "metas": [
+        "Astro v7.4.12"
+      ],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5b94093ab0b69e2-DFW",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 571,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "68b8c0890fc9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "68b8c0890fc9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "68b8c0890fc9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

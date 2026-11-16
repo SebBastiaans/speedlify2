@@ -1,0 +1,296 @@
+{
+  "url": "https://freshkosher.cruises/",
+  "name": "freshkosher.cruises",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794860782434,
+  "date": "2026-11-16T20:26:22.434Z",
+  "runId": "2026-11-16T20-26-11-664Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 36303,
+  "error": null,
+  "partialErrors": [
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)"
+  ],
+  "variance": {
+    "min": 76,
+    "max": 78,
+    "spread": 2,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://freshkosher.cruises/",
+    "finalUrl": "https://freshkosher.cruises/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 76,
+      "accessibility": 90,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 1909,
+      "lcp": 3979,
+      "si": 3576,
+      "tbt": 381,
+      "tti": 7889,
+      "cls": 0.002,
+      "ttfb": 467,
+      "maxPotentialFid": 319,
+      "serverResponseTime": 263,
+      "networkRtt": 178,
+      "networkServerLatency": 260.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 463,
+      "resourceLoadDelay": 21.7,
+      "resourceLoadDuration": 814.1,
+      "elementRenderDelay": 30.9
+    },
+    "weight": {
+      "total": 1330678,
+      "requests": 55,
+      "mainDocument": 19814,
+      "byType": {
+        "total": {
+          "bytes": 1327810,
+          "requests": 50
+        },
+        "image": {
+          "bytes": 615167,
+          "requests": 18
+        },
+        "script": {
+          "bytes": 313393,
+          "requests": 10
+        },
+        "font": {
+          "bytes": 305550,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 44914,
+          "requests": 6
+        },
+        "other": {
+          "bytes": 28972,
+          "requests": 9
+        },
+        "document": {
+          "bytes": 19814,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10541,
+          "requests": 3
+        }
+      },
+      "scripts": 10,
+      "stylesheets": 6,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 11035,
+      "mainThreadMs": 9.7,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 9.7,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        },
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 494,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 494
+          },
+          "typedBytes": 494
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 63,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 63
+          },
+          "typedBytes": 63
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2605.2,
+      "byGroup": {
+        "scriptEvaluation": 1189,
+        "other": 664.9,
+        "styleLayout": 473.8,
+        "paintCompositeRender": 119.6,
+        "parseHTML": 68,
+        "scriptParseCompile": 64.9,
+        "garbageCollection": 25.1
+      },
+      "bootupMs": 1157.5,
+      "longTasks": 6,
+      "longestTaskMs": 319
+    },
+    "dom": {
+      "elements": 2177,
+      "depth": 14,
+      "maxChildren": 35
+    },
+    "waste": {
+      "unusedJsBytes": 101671,
+      "unusedCssBytes": 12325,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 318,
+      "renderBlockingCount": 6,
+      "poorlyCachedBytes": 308097.24,
+      "poorlyCachedCount": 4
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 30,
+      "failingNodes": 56,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 36
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "title": "Elements use prohibited ARIA attributes",
+          "weight": 7,
+          "nodes": 14
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 3
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 50
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2940.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T20:26:24.911Z",
+      "runtimeMs": 13372.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": "Just a moment...",
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5b93bbacd4141eb-NRT",
+      "server": "cloudflare"
+    },
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "334d4785a2de",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "ae86350da7c8",
+        "nonce": "cbc9f9d6443c",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
