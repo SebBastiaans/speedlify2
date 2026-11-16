@@ -1,0 +1,452 @@
+{
+  "url": "https://jeremenichelli.io/",
+  "name": "jeremenichelli.io",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794861185599,
+  "date": "2026-11-16T20:33:05.599Z",
+  "runId": "2026-11-16T20-26-25-885Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 57568,
+  "error": null,
+  "variance": {
+    "min": 57,
+    "max": 61,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://jeremenichelli.io/",
+    "finalUrl": "https://jeremenichelli.io/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 61,
+      "accessibility": 81,
+      "best-practices": 92,
+      "seo": 100,
+      "agentic-browsing": 19
+    },
+    "timings": {
+      "fcp": 1893,
+      "lcp": 26543,
+      "si": 2262,
+      "tbt": 165,
+      "tti": 27211,
+      "cls": 0.214,
+      "ttfb": 518,
+      "maxPotentialFid": 194,
+      "serverResponseTime": 508,
+      "networkRtt": 0.4,
+      "networkServerLatency": 72.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 510,
+      "resourceLoadDelay": 100.4,
+      "resourceLoadDuration": 299.7,
+      "elementRenderDelay": 113.3
+    },
+    "weight": {
+      "total": 12113116,
+      "requests": 119,
+      "mainDocument": 49361,
+      "byType": {
+        "total": {
+          "bytes": 12111484,
+          "requests": 118
+        },
+        "image": {
+          "bytes": 11796351,
+          "requests": 101
+        },
+        "script": {
+          "bytes": 94943,
+          "requests": 6
+        },
+        "other": {
+          "bytes": 86664,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 51923,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 49361,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 32242,
+          "requests": 6
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2679131,
+          "requests": 35
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 6,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 2679131,
+      "mainThreadMs": 10.3,
+      "top": [
+        {
+          "entity": "cloudfont.xyz",
+          "bytes": 2104629,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 2104629
+          },
+          "typedBytes": 2104629
+        },
+        {
+          "entity": "cloudfiledinary.com",
+          "bytes": 558592,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 558592
+          },
+          "typedBytes": 558592
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 9.7,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 4480,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 4480
+          },
+          "typedBytes": 4480
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 1079,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 1079
+          },
+          "typedBytes": 1079
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2843.3,
+      "byGroup": {
+        "other": 1460,
+        "paintCompositeRender": 542.6,
+        "scriptEvaluation": 442.2,
+        "styleLayout": 338.8,
+        "parseHTML": 45.4,
+        "garbageCollection": 10.9,
+        "scriptParseCompile": 3.4
+      },
+      "bootupMs": 415.3,
+      "longTasks": 5,
+      "longestTaskMs": 194
+    },
+    "dom": {
+      "elements": 1843,
+      "depth": 14,
+      "maxChildren": 53
+    },
+    "waste": {
+      "unusedJsBytes": 23241,
+      "unusedCssBytes": 15145,
+      "legacyJsBytes": 20072,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1689,
+      "renderBlockingCount": 6,
+      "poorlyCachedBytes": 60447.59999999999,
+      "poorlyCachedCount": 10
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 26,
+      "failingNodes": 25,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 20
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 3
+        },
+        {
+          "id": "aria-dialog-name",
+          "title": "Elements with `role=\"dialog\"` or `role=\"alertdialog\"` do not have accessible names.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "meta-viewport",
+          "title": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 37
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3420,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T20:33:45.807Z",
+      "runtimeMs": 15980.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.14.9"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5b94623282ef0b6-DFW",
+      "server": "cloudflare"
+    },
+    "violations": 132,
+    "passes": 1157,
+    "incomplete": 31,
+    "violationRules": 6,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 106,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".left-1\\/2.-translate-x-1\\/2[href$=\"jeremenichelli.io\"]",
+            "snippet": "<a href=\"https://jeremenichelli.io\" class=\"absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center z-20\"> <img src=\"https://jeremenichelli.io/storage/logos/LKuNhprmbBG86duqUSv7J…"
+          },
+          {
+            "selector": ".pengumuman > .ml-2",
+            "snippet": "<span class=\"ml-2\">Pengumuman:</span>"
+          },
+          {
+            "selector": "marquee",
+            "snippet": "<marquee behavior=\"\" direction=\"\" class=\"min-h-6\">"
+          },
+          {
+            "selector": ".swiper-slide-visible > .block[href=\"#\"] > .lg\\:hidden.aspect-\\[33\\/20\\].w-full > .skeleton-img-wrapper.h-full.overflow-hidden > .aspect-\\[33\\/20\\][alt=\"#\"][loading=\"eager\"]",
+            "snippet": "<img src=\"storage/uploads/1793302100_6ae39e543fe40.jpg\" alt=\"#\" loading=\"eager\" class=\"skeleton-img relative z-10 w-full h-full object-cover rounded-lg aspect-[33/20]\">"
+          },
+          {
+            "selector": ".swiper-slide-next.swiper-slide[data-swiper-slide-index=\"1\"] > .block[href=\"#\"] > .lg\\:hidden.aspect-\\[33\\/20\\].w-full > .skeleton-img-wrapper.h-full.overflow-hidden > .aspect-\\[33\\/20\\][alt=\"#\"][loading=\"eager\"]",
+            "snippet": "<img src=\"storage/uploads/1779378814_6a0f2a7e0b05b.jpg\" alt=\"#\" loading=\"eager\" class=\"skeleton-img relative z-10 w-full h-full object-cover rounded-lg aspect-[33/20]\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 20,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".gap-1.flex-col[href$=\"jeremenichelli.io\"] > span",
+            "snippet": "<span>Home</span>"
+          },
+          {
+            "selector": ".gap-1.flex-col.text-xs:nth-child(2) > span",
+            "snippet": "<span>Promosi</span>"
+          },
+          {
+            "selector": ".mt-1.font-semibold.text-xs",
+            "snippet": "<span class=\"mt-1 text-xs font-semibold text-white\"> Login </span>"
+          },
+          {
+            "selector": ".gap-1:nth-child(4) > span",
+            "snippet": "<span>Daftar</span>"
+          },
+          {
+            "selector": ".gap-1.flex-col[target=\"_blank\"] > span",
+            "snippet": "<span>Live Chat</span>"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 3,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".z-30",
+            "snippet": "<button @click=\"mobileSidebarOpen = !mobileSidebarOpen\" type=\"button\" class=\"text-white relative z-30 cursor-pointer hover:opacity-80 transition-opacity\">"
+          },
+          {
+            "selector": ".ml-auto > button[\\@click=\"showLoginModal = true\"]",
+            "snippet": "<button @click=\"showLoginModal = true\" class=\"text-white\">"
+          },
+          {
+            "selector": ".bottom-\\[65\\%\\]",
+            "snippet": "<button @click=\"showLoginModal = true\" class=\"absolute left-1/2 bottom-[65%] -translate-x-1/2 z-20 flex flex-col items-center\">"
+          }
+        ]
+      },
+      {
+        "id": "aria-dialog-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "ARIA dialog and alertdialog nodes should have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-dialog-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[x-init=\"init()\"]",
+            "snippet": "<div x-data=\"{ open: false,...\" x-init=\"init()\" x-show=\"open\" class=\"fixed inset-0 z-50\" aria-modal=\"true\" role=\"dialog\" @keydown.escape.wind...=\"closeForDuration()\">"
+          }
+        ]
+      },
+      {
+        "id": "marquee",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<marquee> elements are deprecated and must not be used",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/marquee?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "marquee",
+            "snippet": "<marquee behavior=\"\" direction=\"\" class=\"min-h-6\">"
+          }
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Zooming and scaling must not be disabled",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "meta[name=\"viewport\"]",
+            "snippet": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "4b299aca562d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "c6e9ea81ec02",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "db1c2f26c289",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "41566fb183d3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

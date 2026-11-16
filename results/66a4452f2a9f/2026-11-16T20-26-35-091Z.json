@@ -1,0 +1,415 @@
+{
+  "url": "https://scottpdawson.com/",
+  "name": "scottpdawson.com",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1794860795091,
+  "date": "2026-11-16T20:26:35.091Z",
+  "runId": "2026-11-16T20-26-25-885Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 38698,
+  "error": null,
+  "variance": {
+    "min": 41,
+    "max": 55,
+    "spread": 14,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://scottpdawson.com/",
+    "finalUrl": "https://scottpdawson.substack.com/",
+    "redirect": {
+      "from": "https://scottpdawson.com/",
+      "to": "https://scottpdawson.substack.com/",
+      "chain": [
+        {
+          "url": "https://scottpdawson.com/",
+          "status": 301
+        },
+        {
+          "url": "https://scottpdawson.substack.com/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        301
+      ],
+      "change": "host",
+      "permanent": true,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 50,
+      "accessibility": 88,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 3438,
+      "lcp": 5990,
+      "si": 4807,
+      "tbt": 759,
+      "tti": 18518,
+      "cls": 0,
+      "ttfb": 494,
+      "maxPotentialFid": 358,
+      "serverResponseTime": 6,
+      "networkRtt": 3.7,
+      "networkServerLatency": 116.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 25.8,
+      "resourceLoadDelay": 46,
+      "resourceLoadDuration": 89,
+      "elementRenderDelay": 39.7
+    },
+    "weight": {
+      "total": 3263496,
+      "requests": 272,
+      "mainDocument": 18803,
+      "byType": {
+        "total": {
+          "bytes": 3263496,
+          "requests": 272
+        },
+        "script": {
+          "bytes": 2329703,
+          "requests": 207
+        },
+        "image": {
+          "bytes": 598766,
+          "requests": 15
+        },
+        "stylesheet": {
+          "bytes": 265287,
+          "requests": 37
+        },
+        "other": {
+          "bytes": 34478,
+          "requests": 10
+        },
+        "document": {
+          "bytes": 20974,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 14288,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3144102,
+          "requests": 264
+        }
+      },
+      "scripts": 207,
+      "stylesheets": 37,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 10,
+      "bytes": 3263438,
+      "mainThreadMs": 349.6,
+      "top": [
+        {
+          "entity": "substackcdn.com",
+          "bytes": 2714082,
+          "mainThreadMs": 215.4,
+          "byType": {
+            "script": 1899939,
+            "stylesheet": 211645,
+            "image": 598702,
+            "other": 3796
+          },
+          "typedBytes": 2714082
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 357528,
+          "mainThreadMs": 84.6,
+          "byType": {
+            "script": 357528
+          },
+          "typedBytes": 357528
+        },
+        {
+          "entity": "substack.com",
+          "bytes": 119394,
+          "mainThreadMs": 21.2,
+          "byType": {
+            "document": 20974,
+            "stylesheet": 53642,
+            "other": 30490,
+            "font": 14288
+          },
+          "typedBytes": 119394
+        },
+        {
+          "entity": "datadoghq-browser-agent.com",
+          "bytes": 56380,
+          "mainThreadMs": 20.5,
+          "byType": {
+            "script": 56380
+          },
+          "typedBytes": 56380
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10352,
+          "mainThreadMs": 7.2,
+          "byType": {
+            "script": 10352
+          },
+          "typedBytes": 10352
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3567.6,
+      "byGroup": {
+        "scriptEvaluation": 1721.1,
+        "other": 1094.9,
+        "styleLayout": 395.2,
+        "scriptParseCompile": 150.2,
+        "parseHTML": 96.8,
+        "garbageCollection": 92.3,
+        "paintCompositeRender": 17.2
+      },
+      "bootupMs": 1750.8,
+      "longTasks": 12,
+      "longestTaskMs": 358
+    },
+    "dom": {
+      "elements": 845,
+      "depth": 29,
+      "maxChildren": 203
+    },
+    "waste": {
+      "unusedJsBytes": 566393,
+      "unusedCssBytes": 83776,
+      "legacyJsBytes": 30629,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1727,
+      "renderBlockingCount": 22,
+      "poorlyCachedBytes": 44381.6,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 26,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "frame-title",
+          "title": "`<frame>` or `<iframe>` elements do not have a title",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "meta-viewport",
+          "title": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 766.8,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 64
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3466,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-16T20:27:01.479Z",
+      "runtimeMs": 11132.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7K0NMWXD5EHFNPYTW476KD6"
+    },
+    "violations": 8,
+    "passes": 168,
+    "incomplete": 0,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 5,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".publication-name",
+            "snippet": "<h1 class=\"publication-name with-cover balancedText-oQ__Kv\">Scott Dawson</h1>"
+          },
+          {
+            "selector": "p",
+            "snippet": "<p class=\"publication-tagline with-cover verbose with-cover balancedText-oQ__Kv\">Scott Dawson shares thoughtful stories from upstate New York—blending running, remote work, and modern life—with the k…"
+          },
+          {
+            "selector": ".publication-meta",
+            "snippet": "<div class=\"publication-meta\">Launched 4 years ago</div>"
+          },
+          {
+            "selector": ".emailFormContainer-TcAFa_ > .container-IpPqBD > form > .sideBySideWrap-vGXrwP > .emailInputWrapper-QlA86j",
+            "snippet": "<div class=\"emailInputWrapper-QlA86j\">"
+          },
+          {
+            "selector": ".pc-mobile-paddingX-16",
+            "snippet": "<div class=\"pencraft pc-paddingX-0 pc-mobile-paddingX-16 pc-paddingTop-16 pc-reset tosText-yAQHNw\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".pc-width-100p",
+            "snippet": "<button class=\"pencraft pc-width-100p pc-reset pencraft button-kENIJe buttonBase-GK1x3M buttonText-X0uSmG buttonStyle-r7yGCK priority_quaternary-kpMibu size_md-gCDS3o\" tabindex=\"0\" type=\"button\">"
+          }
+        ]
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Frames must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe",
+            "snippet": "<iframe src=\"https://substack.com/session-attribution-frame\" width=\"0\" height=\"0\" style=\"display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: none;\"></i…"
+          }
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Zooming and scaling must not be disabled",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "meta[name=\"viewport\"]",
+            "snippet": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "0f9e93aa8d20",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "EXPIRED"
+        }
+      },
+      {
+        "hash": "0f9e93aa8d20",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cf-cache-status": "HIT",
+          "etag": "W/\"14462-jpuC6q5Z6QzWbx+Z/HErYs/WmoI\""
+        }
+      },
+      {
+        "hash": "0f9e93aa8d20",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "24",
+          "cf-cache-status": "HIT",
+          "etag": "W/\"14462-jpuC6q5Z6QzWbx+Z/HErYs/WmoI\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
