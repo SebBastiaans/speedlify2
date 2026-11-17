@@ -1,0 +1,335 @@
+{
+  "url": "https://reduxflakes.nekoweb.org/",
+  "name": "reduxflakes.nekoweb.org",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794887475554,
+  "date": "2026-11-17T03:51:15.554Z",
+  "runId": "2026-11-17T03-50-02-767Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 46585,
+  "error": null,
+  "variance": {
+    "min": 75,
+    "max": 78,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://reduxflakes.nekoweb.org/",
+    "finalUrl": "https://reduxflakes.nekoweb.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 76,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 978,
+      "lcp": 7892,
+      "si": 978,
+      "tbt": 0,
+      "tti": 7914,
+      "cls": 0.021,
+      "ttfb": 466,
+      "maxPotentialFid": 46,
+      "serverResponseTime": 17,
+      "networkRtt": 24.3,
+      "networkServerLatency": 179.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 18.9,
+      "resourceLoadDelay": 37.6,
+      "resourceLoadDuration": 32.1,
+      "elementRenderDelay": 95.5
+    },
+    "weight": {
+      "total": 1559694,
+      "requests": 55,
+      "mainDocument": 16629,
+      "byType": {
+        "total": {
+          "bytes": 1559694,
+          "requests": 54
+        },
+        "image": {
+          "bytes": 1213260,
+          "requests": 30
+        },
+        "font": {
+          "bytes": 278438,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 30040,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 26341,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 7162,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 4453,
+          "requests": 7
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 293061,
+          "requests": 23
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 1,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 12,
+      "bytes": 32399,
+      "mainThreadMs": 4.4,
+      "top": [
+        {
+          "entity": "Fastly",
+          "bytes": 7750,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 7750
+          },
+          "typedBytes": 7750
+        },
+        {
+          "entity": "keepandroidopen.org",
+          "bytes": 4816,
+          "mainThreadMs": 2.8,
+          "byType": {
+            "script": 4816
+          },
+          "typedBytes": 4816
+        },
+        {
+          "entity": "ioxtv.co",
+          "bytes": 4508,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 4508
+          },
+          "typedBytes": 4508
+        },
+        {
+          "entity": "zgo.at",
+          "bytes": 4441,
+          "mainThreadMs": 1.4,
+          "byType": {
+            "script": 4441
+          },
+          "typedBytes": 4441
+        },
+        {
+          "entity": "the-end-of-science.com",
+          "bytes": 3527,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 3527
+          },
+          "typedBytes": 3527
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1153.3,
+      "byGroup": {
+        "other": 652,
+        "styleLayout": 250.7,
+        "paintCompositeRender": 168.9,
+        "scriptEvaluation": 41.8,
+        "parseHTML": 30.5,
+        "garbageCollection": 5.1,
+        "scriptParseCompile": 4.3
+      },
+      "bootupMs": 24.9,
+      "longTasks": 1,
+      "longestTaskMs": 58
+    },
+    "dom": {
+      "elements": 1060,
+      "depth": 10,
+      "maxChildren": 112
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 434152.36373370566,
+      "poorlyCachedCount": 35
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 30,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 26
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3417,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T03:51:31.762Z",
+      "runtimeMs": 12836.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v4.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5bbc798f882577b-EWR",
+      "server": "cloudflare",
+      "x-powered-by": "Nekoweb"
+    },
+    "violations": 3,
+    "passes": 937,
+    "incomplete": 128,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"keepandroidopen.org\"]",
+            "snippet": "<a href=\"https://keepandroidopen.org\" target=\"_blank\" rel=\"noopener\">Android will become a locked-down platform in</a>"
+          },
+          {
+            "selector": ".kao-banner > span",
+            "snippet": "<span>44d 20h 8m 1s</span>"
+          },
+          {
+            "selector": ".acs-skip",
+            "snippet": "<a href=\"#main-content\" class=\"acs-skip\">Skip to main content</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "2e40103af966",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "171548",
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "2e40103af966",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "171563",
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "2e40103af966",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "171576",
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "550967d74a88",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "171586",
+          "cf-cache-status": "HIT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
