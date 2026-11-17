@@ -1,0 +1,426 @@
+{
+  "url": "https://vite.dev/",
+  "name": "Vite",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1794954941317,
+  "date": "2026-11-17T22:35:41.317Z",
+  "runId": "2026-11-17T22-19-29-853Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 80966,
+  "error": null,
+  "variance": {
+    "min": 62,
+    "max": 67,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://vite.dev/",
+    "finalUrl": "https://vite.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 62,
+      "accessibility": 85,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 834,
+      "lcp": 5555,
+      "si": 1407,
+      "tbt": 700,
+      "tti": 5555,
+      "cls": 0.001,
+      "ttfb": 605,
+      "maxPotentialFid": 342,
+      "serverResponseTime": 5,
+      "networkRtt": 0.1,
+      "networkServerLatency": 22.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 6.6,
+      "elementRenderDelay": 173.4
+    },
+    "weight": {
+      "total": 2598355,
+      "requests": 86,
+      "mainDocument": 9977,
+      "byType": {
+        "total": {
+          "bytes": 2598355,
+          "requests": 60
+        },
+        "image": {
+          "bytes": 1550116,
+          "requests": 39
+        },
+        "other": {
+          "bytes": 686857,
+          "requests": 9
+        },
+        "script": {
+          "bytes": 158395,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 147328,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 45682,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 9977,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 24610,
+          "requests": 3
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 24610,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "opencollective.com",
+          "bytes": 21975,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 21975
+          },
+          "typedBytes": 21975
+        },
+        {
+          "entity": "iconify.design",
+          "bytes": 2635,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 2635
+          },
+          "typedBytes": 2635
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 5380.8,
+      "byGroup": {
+        "scriptEvaluation": 2918.4,
+        "other": 1686.6,
+        "styleLayout": 342.6,
+        "paintCompositeRender": 281.4,
+        "parseHTML": 115,
+        "garbageCollection": 24.5,
+        "scriptParseCompile": 12.3
+      },
+      "bootupMs": 2900.7,
+      "longTasks": 11,
+      "longestTaskMs": 342
+    },
+    "dom": {
+      "elements": 635,
+      "depth": 16,
+      "maxChildren": 15
+    },
+    "waste": {
+      "unusedJsBytes": 53930,
+      "unusedCssBytes": 32840,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 300,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 76340.7,
+      "poorlyCachedCount": 34
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 20,
+      "failingNodes": 6,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 3
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 61
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2624.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T22:36:07.701Z",
+      "runtimeMs": 11859.2
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.9,
+    "elementRenderDelay": 1316.4
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "vitepress",
+      "name": "VitePress",
+      "icon": "Vitepress",
+      "version": "2.0.0",
+      "source": "meta",
+      "raw": "VitePress v2.0.0-alpha.21"
+    },
+    "probe": {
+      "metas": [
+        "VitePress v2.0.0-alpha.21"
+      ],
+      "marks": [
+        "vue"
+      ],
+      "markVersions": {
+        "vue": "3.5.44"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7NTG1AZCWZJTWB3AQC5DKY1"
+    },
+    "violations": 46,
+    "passes": 657,
+    "incomplete": 32,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 40,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".md\\:items-start.md\\:text-left.text-center",
+            "snippet": "<div class=\"flex flex-col gap-5 items-center md:items-start text-center md:text-left\">"
+          },
+          {
+            "selector": ".sm\\:min-h-\\[30rem\\]",
+            "snippet": "<div class=\"flex flex-col sm:min-h-[30rem]\"><div class=\"relative px-10 pb-10 md:pt-10 h-full flex flex-col justify-center overflow-clip\"><div class=\"touch-none select-none pointer-events-none\"><canva…"
+          },
+          {
+            "selector": ".md\\:py-8",
+            "snippet": "<section class=\"wrapper wrapper--ticks border-t px-10 py-6 md:py-8 flex flex-col justify-center gap-5\" data-v-d8176196=\"\"><h6 class=\"text-center md:text-start text-white\" data-v-d8176196=\"\">Trusted b…"
+          },
+          {
+            "selector": ".wrapper--ticks[data-v-d8176196=\"\"]:nth-child(4)",
+            "snippet": "<section class=\"wrapper wrapper--ticks border-t\" data-v-d8176196=\"\">"
+          },
+          {
+            "selector": ".sm\\:py-28.py-14.sm\\:px-10:nth-child(5)",
+            "snippet": "<section class=\"wrapper border-t px-5 sm:px-10 py-14 sm:py-28 flex flex-col justify-center gap-3 text-center items-center\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h6",
+            "snippet": "<h6 class=\"text-center md:text-start text-white\" data-v-d8176196=\"\">Trusted by the world's best software teams</h6>"
+          },
+          {
+            "selector": ".gap-3.justify-between.flex-col:nth-child(1) > .p-5.sm\\:p-10.gap-3 > .sm\\:text-pretty",
+            "snippet": "<h5 class=\"text-balance sm:text-pretty text-white\"> Instant Server Start </h5>"
+          },
+          {
+            "selector": ".lg\\:grid-cols-2.divide-x.divide-y:nth-child(8) > .p-5.sm\\:p-10.gap-3:nth-child(1) > .sm\\:text-pretty",
+            "snippet": "<h5 class=\"text-balance sm:text-pretty text-white\"> Flexible Plugin System </h5>"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".py-7.opacity-85.hover\\:opacity-100:nth-child(11) > .h-8.w-\\[120px\\].spsr-logo",
+            "snippet": "<img data-v-d5f67a2e=\"\" src=\"https://sponsors.vite.dev/images/cloudways.png\" class=\"spsr-logo object-contain h-8 w-[120px]\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en-US\" dir=\"ltr\" data-variant=\"vite\" data-theme=\"dark\">"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".py-7.opacity-85.hover\\:opacity-100:nth-child(11)",
+            "snippet": "<a data-v-d5f67a2e=\"\" href=\"https://www.cloudways.com/en/velocity.php?id=1258368&data1=Vite\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"spsr-link flex items-center justify-center px-8 transitio…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "df74497e6945",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "84291",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31451709",
+          "etag": "W/\"abf45af5dcb5b6960161f13c918cdcca-ssl\""
+        }
+      },
+      {
+        "hash": "df74497e6945",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "84304",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31451696",
+          "etag": "W/\"abf45af5dcb5b6960161f13c918cdcca-ssl\""
+        }
+      },
+      {
+        "hash": "df74497e6945",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "84316",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31451684",
+          "etag": "W/\"abf45af5dcb5b6960161f13c918cdcca-ssl\""
+        }
+      },
+      {
+        "hash": "df74497e6945",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "84328",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31451672",
+          "etag": "W/\"abf45af5dcb5b6960161f13c918cdcca-ssl\""
+        }
+      },
+      {
+        "hash": "df74497e6945",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31451632",
+          "etag": "W/\"abf45af5dcb5b6960161f13c918cdcca-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

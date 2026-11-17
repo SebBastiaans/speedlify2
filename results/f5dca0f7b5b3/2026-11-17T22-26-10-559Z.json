@@ -1,0 +1,442 @@
+{
+  "url": "https://sleepasloth.com/",
+  "name": "sleepasloth.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794954370559,
+  "date": "2026-11-17T22:26:10.559Z",
+  "runId": "2026-11-17T22-19-29-853Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 52559,
+  "error": null,
+  "variance": {
+    "min": 56,
+    "max": 58,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://sleepasloth.com/",
+    "finalUrl": "https://sleepasloth.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 57,
+      "accessibility": 90,
+      "best-practices": 73,
+      "seo": 100,
+      "agentic-browsing": 75
+    },
+    "timings": {
+      "fcp": 1116,
+      "lcp": 5084,
+      "si": 3254,
+      "tbt": 1136,
+      "tti": 17347,
+      "cls": 0,
+      "ttfb": 619,
+      "maxPotentialFid": 303,
+      "serverResponseTime": 10,
+      "networkRtt": 83.2,
+      "networkServerLatency": 370.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 83.6,
+      "resourceLoadDelay": 135.3,
+      "resourceLoadDuration": 334.5,
+      "elementRenderDelay": 93.1
+    },
+    "weight": {
+      "total": 3449182,
+      "requests": 320,
+      "mainDocument": 60349,
+      "byType": {
+        "total": {
+          "bytes": 3449182,
+          "requests": 319
+        },
+        "script": {
+          "bytes": 1554514,
+          "requests": 76
+        },
+        "other": {
+          "bytes": 1016021,
+          "requests": 180
+        },
+        "image": {
+          "bytes": 670594,
+          "requests": 24
+        },
+        "stylesheet": {
+          "bytes": 85308,
+          "requests": 31
+        },
+        "document": {
+          "bytes": 64901,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 57844,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1742223,
+          "requests": 84
+        }
+      },
+      "scripts": 76,
+      "stylesheets": 31,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 12,
+      "bytes": 1770105,
+      "mainThreadMs": 453.5,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 521835,
+          "mainThreadMs": 138.4,
+          "byType": {
+            "script": 521835
+          },
+          "typedBytes": 521835
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 366096,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 366096
+          },
+          "typedBytes": 366096
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 210052,
+          "mainThreadMs": 66.8,
+          "byType": {
+            "script": 210052
+          },
+          "typedBytes": 210052
+        },
+        {
+          "entity": "pop-convert.com",
+          "bytes": 165245,
+          "mainThreadMs": 85.7,
+          "byType": {
+            "script": 162156,
+            "other": 3089
+          },
+          "typedBytes": 165245
+        },
+        {
+          "entity": "nice-team.net",
+          "bytes": 163494,
+          "mainThreadMs": 29.8,
+          "byType": {
+            "script": 150165,
+            "stylesheet": 13329
+          },
+          "typedBytes": 163494
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 7179.3,
+      "byGroup": {
+        "scriptEvaluation": 3150.1,
+        "other": 1969.8,
+        "styleLayout": 1095.2,
+        "scriptParseCompile": 540.4,
+        "paintCompositeRender": 201.5,
+        "parseHTML": 164,
+        "garbageCollection": 58.4
+      },
+      "bootupMs": 2976.8,
+      "longTasks": 17,
+      "longestTaskMs": 303
+    },
+    "dom": {
+      "elements": 1415,
+      "depth": 22,
+      "maxChildren": 58
+    },
+    "waste": {
+      "unusedJsBytes": 609340,
+      "unusedCssBytes": 24985,
+      "legacyJsBytes": 18312,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 46042,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 6,
+      "poorlyCachedBytes": 540004.714585661,
+      "poorlyCachedCount": 32
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 33,
+      "failingNodes": 40,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 30
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 6
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": null,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 61
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2430.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T22:26:11.838Z",
+      "runtimeMs": 15001.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5c228fd5b937ad6-SJC",
+      "server": "cloudflare"
+    },
+    "violations": 40,
+    "passes": 1461,
+    "incomplete": 16,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 30,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".section-template--32754858295628__rich_text_EefCmG-padding > .rich-text__wrapper.rich-text__wrapper--center.page-width > .rich-text__blocks.center > .rich-text__heading.h2",
+            "snippet": "<h2 class=\"rich-text__heading rte inline-richtext h2 scroll-trigger animate--slide-in scroll-trigger--offscreen\" data-cascade=\"\" style=\"--animation-order: 1;\"> Make bedtime sound like you </h2>"
+          },
+          {
+            "selector": ".caption-with-letter-spacing",
+            "snippet": "<p class=\"product__text inline-richtext caption-with-letter-spacing\">YOUR VOICE. THEIR BEDTIME ROUTINE.</p>"
+          },
+          {
+            "selector": ".product__title",
+            "snippet": "<h2 class=\"product__title h2\">SleepaSloth Baby Sound Machine </h2>"
+          },
+          {
+            "selector": ".price__regular > .price-item--regular.price-item",
+            "snippet": "<span class=\"price-item price-item--regular\"> £74.00 GBP </span>"
+          },
+          {
+            "selector": ".product__tax",
+            "snippet": "<div class=\"product__tax caption rte\">Taxes included. <a href=\"/policies/shipping-policy\">Shipping</a> calculated at checkout. </div>"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 6,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#Slide-template--32754858295628__multicolumn_jMjnw3-1 > .multicolumn-card.content-container[target=\"_blank\"]",
+            "snippet": "<a href=\"https://issuu.com/familiesonline/docs/familiessoutheastlondonjanuaryfebruary2024print/10?fr=sNjFiYjY5MzA1MTM\" class=\"multicolumn-card content-container\" target=\"_blank\">"
+          },
+          {
+            "selector": "#Slide-template--32754858295628__multicolumn_jMjnw3-2 > .multicolumn-card.content-container[target=\"_blank\"]",
+            "snippet": "<a href=\"https://www.familyeducation.com/babies/sleep/this-new-gadget-will-help-newborns-sleep-better-and-parents-too\" class=\"multicolumn-card content-container\" target=\"_blank\">"
+          },
+          {
+            "selector": "#Slide-template--32754858295628__multicolumn_jMjnw3-3 > .multicolumn-card.content-container[target=\"_blank\"]",
+            "snippet": "<a href=\"https://www.claphammums.com/2022/sleepasloth-the-smart-baby-sleep-aid-made-in-clapham\" class=\"multicolumn-card content-container\" target=\"_blank\">"
+          },
+          {
+            "selector": "#Slide-template--32754858295628__multicolumn_jMjnw3-4 > .multicolumn-card.content-container[target=\"_blank\"]",
+            "snippet": "<a href=\"https://smallbusinesssaturdayuk.com/nations-favourite-businesses\" class=\"multicolumn-card content-container\" target=\"_blank\">"
+          },
+          {
+            "selector": "#Slide-template--32754858295628__multicolumn_jMjnw3-5 > .multicolumn-card.content-container[target=\"_blank\"]",
+            "snippet": "<a href=\"https://www.enterprisenation.com/learn-something/laurene-mosely-sleepasloth-startupuk/\" class=\"multicolumn-card content-container\" target=\"_blank\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".ml-form-embedContent > p",
+            "snippet": "<p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\"><strong>Sign up for occasional news,&nbsp;baby sleep tips&nbsp;and special offers!</strong></span></p>"
+          },
+          {
+            "selector": ".ml-form-formContent",
+            "snippet": "<div class=\"ml-form-formContent\">"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[rel=\"noopener noreferrer\"]",
+            "snippet": "<a href=\"https://www.instagram.com/sleepasloth/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display: inline-block;\" aria-label=\"Visit our Instagram profile\">@sleepasloth</a>"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#Slider-template--32754858295628__multicolumn_PemEVx",
+            "snippet": "<ul class=\"multicolumn-list contains-content-container grid grid--2-col-tablet-down grid--4-col-desktop slider slider--tablet grid--peek\" id=\"Slider-template--32754858295628__multicolumn_PemEVx\" role…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ccd6594514ac",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "8d3e56528af1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "\"sfr:computation:v2:217ac04ee088d987ab0383ef7aa7c907136eb6c24edd4f102637daa7a72dff30:f2fd233cb3c388676c53929bf4527dee\""
+        }
+      },
+      {
+        "hash": "2a8db62e458e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "\"sfr:computation:v2:217ac04ee088d987ab0383ef7aa7c907136eb6c24edd4f102637daa7a72dff30:f2fd233cb3c388676c53929bf4527dee\""
+        }
+      },
+      {
+        "hash": "bf6330098002",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "\"sfr:computation:v2:217ac04ee088d987ab0383ef7aa7c907136eb6c24edd4f102637daa7a72dff30:f2fd233cb3c388676c53929bf4527dee\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
