@@ -1,0 +1,308 @@
+{
+  "url": "https://www.servicenow.com/",
+  "name": "ServiceNow",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1794955380650,
+  "date": "2026-11-17T22:43:00.650Z",
+  "runId": "2026-11-17T22-19-24-226Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 1,
+  "durationMs": 103300,
+  "error": null,
+  "partialErrors": [
+    "CHROME_INTERSTITIAL_ERROR: Chrome prevented page load with an interstitial. Make sure you are testing the correct URL and that the server is properly responding to all requests.",
+    "CHROME_INTERSTITIAL_ERROR: Chrome prevented page load with an interstitial. Make sure you are testing the correct URL and that the server is properly responding to all requests."
+  ],
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://www.servicenow.com/",
+    "finalUrl": "https://www.servicenow.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 23,
+      "accessibility": 95,
+      "best-practices": 54,
+      "seo": 83,
+      "agentic-browsing": 37
+    },
+    "timings": {
+      "fcp": 4142,
+      "lcp": 14695,
+      "si": 8347,
+      "tbt": 2842,
+      "tti": 23639,
+      "cls": 0.158,
+      "ttfb": 640,
+      "maxPotentialFid": 518,
+      "serverResponseTime": 38,
+      "networkRtt": 50.4,
+      "networkServerLatency": 127.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 64.5,
+      "elementRenderDelay": 1309.1
+    },
+    "weight": {
+      "total": 3649874,
+      "requests": 223,
+      "mainDocument": 130263,
+      "byType": {
+        "total": {
+          "bytes": 3649875,
+          "requests": 212
+        },
+        "script": {
+          "bytes": 2591451,
+          "requests": 86
+        },
+        "image": {
+          "bytes": 418757,
+          "requests": 47
+        },
+        "font": {
+          "bytes": 368461,
+          "requests": 10
+        },
+        "document": {
+          "bytes": 135098,
+          "requests": 6
+        },
+        "other": {
+          "bytes": 69043,
+          "requests": 54
+        },
+        "stylesheet": {
+          "bytes": 67065,
+          "requests": 9
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1353512,
+          "requests": 119
+        }
+      },
+      "scripts": 88,
+      "stylesheets": 9,
+      "fonts": 10
+    },
+    "thirdParty": {
+      "count": 20,
+      "bytes": 1342847,
+      "mainThreadMs": 1210,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 255779,
+          "mainThreadMs": 156.8,
+          "byType": {
+            "script": 255779
+          },
+          "typedBytes": 255779
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 219503,
+          "mainThreadMs": 173.6,
+          "byType": {
+            "script": 219503
+          },
+          "typedBytes": 219503
+        },
+        {
+          "entity": "Adobe Tag Manager",
+          "bytes": 217635,
+          "mainThreadMs": 166.6,
+          "byType": {
+            "script": 216648,
+            "other": 987
+          },
+          "typedBytes": 217635
+        },
+        {
+          "entity": "ContentSquare",
+          "bytes": 203352,
+          "mainThreadMs": 115.1,
+          "byType": {
+            "script": 203008,
+            "other": 344
+          },
+          "typedBytes": 203352
+        },
+        {
+          "entity": "DemandBase",
+          "bytes": 85158,
+          "mainThreadMs": 44.2,
+          "byType": {
+            "script": 82632,
+            "stylesheet": 2084,
+            "other": 442
+          },
+          "typedBytes": 85158
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 30740.9,
+      "byGroup": {
+        "other": 11565.1,
+        "scriptEvaluation": 11228.9,
+        "paintCompositeRender": 3639.2,
+        "styleLayout": 2698.9,
+        "scriptParseCompile": 1045.3,
+        "garbageCollection": 317,
+        "parseHTML": 246.6
+      },
+      "bootupMs": 11512.1,
+      "longTasks": 20,
+      "longestTaskMs": 518
+    },
+    "dom": {
+      "elements": 3988,
+      "depth": 30,
+      "maxChildren": 81
+    },
+    "waste": {
+      "unusedJsBytes": 931944,
+      "unusedCssBytes": 44256,
+      "legacyJsBytes": 84923,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 304,
+      "renderBlockingCount": 8,
+      "poorlyCachedBytes": 981721.8584722222,
+      "poorlyCachedCount": 126
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 32,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 4
+        },
+        {
+          "id": "tabindex",
+          "title": "Some elements have a `[tabindex]` value greater than 0",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 5,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 34
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 18
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 5
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 3
+        },
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are not crawlable",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 4,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 18,
+      "baselineLimitedFeatures": 64
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2456,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T22:43:02.044Z",
+      "runtimeMs": 73598.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": null,
+    "host": null,
+    "headers": {},
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": null,
+    "top": [],
+    "error": "net::ERR_HTTP2_PROTOCOL_ERROR at https://www.servicenow.com/"
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7bcdb735f705",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,285 @@
+{
+  "url": "https://saneef.com/",
+  "name": "saneef.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794953972364,
+  "date": "2026-11-17T22:19:32.364Z",
+  "runId": "2026-11-17T22-19-24-226Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 31549,
+  "error": null,
+  "variance": {
+    "min": 65,
+    "max": 100,
+    "spread": 35,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://saneef.com/",
+    "finalUrl": "https://saneef.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1689,
+      "lcp": 1689,
+      "si": 2558,
+      "tbt": 0,
+      "tti": 1689,
+      "cls": 0,
+      "ttfb": 657,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 188,
+      "networkRtt": 0,
+      "networkServerLatency": 131.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 189.8,
+      "elementRenderDelay": 1151.2
+    },
+    "weight": {
+      "total": 86317,
+      "requests": 11,
+      "mainDocument": 13883,
+      "byType": {
+        "total": {
+          "bytes": 84900,
+          "requests": 10
+        },
+        "font": {
+          "bytes": 59868,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 13883,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 6640,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 2940,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 1569,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1744,
+          "requests": 2
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 1795,
+      "mainThreadMs": 1.9,
+      "top": [
+        {
+          "entity": "neatstats.net",
+          "bytes": 1795,
+          "mainThreadMs": 1.9,
+          "byType": {
+            "script": 1744,
+            "other": 51
+          },
+          "typedBytes": 1795
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 210,
+      "byGroup": {
+        "other": 102.2,
+        "styleLayout": 53.1,
+        "parseHTML": 20.8,
+        "scriptEvaluation": 20.4,
+        "paintCompositeRender": 11.3,
+        "scriptParseCompile": 2.2
+      },
+      "bootupMs": 12.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 180,
+      "depth": 11,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 882,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 1744,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 25,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 20
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2471,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T22:19:48.623Z",
+      "runtimeMs": 7839.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5c21ed34aeeb04a-ATL",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M7NSH013F0K940AG3GZWS79S"
+    },
+    "violations": 1,
+    "passes": 387,
+    "incomplete": 8,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "footer > nav:nth-child(1)",
+            "snippet": "<nav class=\"flow flow-space-s\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "908ce06be755",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "908ce06be755",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "11",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535989",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "908ce06be755",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "19",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535981",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "908ce06be755",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "18",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
