@@ -1,0 +1,283 @@
+{
+  "url": "https://astro.build/",
+  "name": "Astro",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1794922082284,
+  "date": "2026-11-17T13:28:02.284Z",
+  "runId": "2026-11-17T13-19-19-029Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 43145,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://astro.build/",
+    "finalUrl": "https://astro.build/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1311,
+      "lcp": 1311,
+      "si": 1311,
+      "tbt": 0,
+      "tti": 1311,
+      "cls": 0,
+      "ttfb": 632,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 50,
+      "networkRtt": 0.2,
+      "networkServerLatency": 63
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 51.1,
+      "elementRenderDelay": 125.4
+    },
+    "weight": {
+      "total": 354899,
+      "requests": 25,
+      "mainDocument": 83383,
+      "byType": {
+        "total": {
+          "bytes": 354899,
+          "requests": 24
+        },
+        "font": {
+          "bytes": 195971,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 83383,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 44976,
+          "requests": 9
+        },
+        "stylesheet": {
+          "bytes": 21075,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 8818,
+          "requests": 8
+        },
+        "other": {
+          "bytes": 676,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3193,
+          "requests": 2
+        }
+      },
+      "scripts": 8,
+      "stylesheets": 2,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 3193,
+      "mainThreadMs": 2.6,
+      "top": [
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3193,
+          "mainThreadMs": 2.6,
+          "byType": {
+            "script": 2757,
+            "image": 436
+          },
+          "typedBytes": 3193
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 381,
+      "byGroup": {
+        "other": 158.9,
+        "styleLayout": 115.7,
+        "parseHTML": 37.6,
+        "scriptEvaluation": 34.3,
+        "paintCompositeRender": 25.9,
+        "garbageCollection": 5.4,
+        "scriptParseCompile": 3.2
+      },
+      "bootupMs": 21.1,
+      "longTasks": 1,
+      "longestTaskMs": 64
+    },
+    "dom": {
+      "elements": 1804,
+      "depth": 18,
+      "maxChildren": 20
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 10384,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 21613.499999999996,
+      "poorlyCachedCount": 8
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 31,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 42
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4300,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T13:28:11.443Z",
+      "runtimeMs": 6975.6
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.6,
+    "elementRenderDelay": 604.2
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": "7.4.12",
+      "source": "meta",
+      "raw": "Astro v7.4.12"
+    },
+    "probe": {
+      "metas": [
+        "Astro v7.4.12"
+      ],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5bf14855ed72c32-ORD",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 1682,
+    "incomplete": 48,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7dced4437a3e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT",
+          "etag": "W/\"785ffb55918a9871451d5d8af16c73da\""
+        }
+      },
+      {
+        "hash": "7dced4437a3e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT",
+          "etag": "W/\"785ffb55918a9871451d5d8af16c73da\""
+        }
+      },
+      {
+        "hash": "7dced4437a3e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT",
+          "etag": "W/\"785ffb55918a9871451d5d8af16c73da\""
+        }
+      },
+      {
+        "hash": "7dced4437a3e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT",
+          "etag": "W/\"785ffb55918a9871451d5d8af16c73da\""
+        }
+      },
+      {
+        "hash": "7dced4437a3e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT",
+          "etag": "\"785ffb55918a9871451d5d8af16c73da\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
