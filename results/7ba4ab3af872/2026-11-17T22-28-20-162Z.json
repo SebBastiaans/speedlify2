@@ -1,0 +1,344 @@
+{
+  "url": "https://techniquesdemeditation.com/",
+  "name": "techniquesdemeditation.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794954500162,
+  "date": "2026-11-17T22:28:20.162Z",
+  "runId": "2026-11-17T22-19-25-596Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 47701,
+  "error": null,
+  "variance": {
+    "min": 66,
+    "max": 66,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://techniquesdemeditation.com/",
+    "finalUrl": "https://techniquesdemeditation.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 66,
+      "accessibility": 93,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 3100,
+      "lcp": 21013,
+      "si": 4963,
+      "tbt": 0,
+      "tti": 21028,
+      "cls": 0,
+      "ttfb": 589,
+      "maxPotentialFid": 30,
+      "serverResponseTime": 165,
+      "networkRtt": 0.1,
+      "networkServerLatency": 138.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 166.6,
+      "resourceLoadDelay": 257.9,
+      "resourceLoadDuration": 133.7,
+      "elementRenderDelay": 1780.6
+    },
+    "weight": {
+      "total": 4036910,
+      "requests": 37,
+      "mainDocument": 15613,
+      "byType": {
+        "total": {
+          "bytes": 4028533,
+          "requests": 28
+        },
+        "other": {
+          "bytes": 3182750,
+          "requests": 10
+        },
+        "document": {
+          "bytes": 468608,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 247910,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 81754,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 46341,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 1170,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3732824,
+          "requests": 16
+        }
+      },
+      "scripts": 12,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 94332,
+      "mainThreadMs": 28,
+      "top": [
+        {
+          "entity": "ontraport.com",
+          "bytes": 55683,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 55683
+          },
+          "typedBytes": 55683
+        },
+        {
+          "entity": "cloudflare.com",
+          "bytes": 28298,
+          "mainThreadMs": 19.5,
+          "byType": {
+            "script": 28298
+          },
+          "typedBytes": 28298
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 8.5,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 459.8,
+      "byGroup": {
+        "other": 205.8,
+        "scriptEvaluation": 139.7,
+        "styleLayout": 65.9,
+        "paintCompositeRender": 19.6,
+        "parseHTML": 16.1,
+        "scriptParseCompile": 12.7
+      },
+      "bootupMs": 115.6,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 248,
+      "depth": 12,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 34261.6125,
+      "poorlyCachedCount": 5
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failingNodes": 6,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 3,
+      "baselineLimitedFeatures": 53
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3495.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T22:28:47.843Z",
+      "runtimeMs": 15295.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5c22c00ab408ca2-LHR",
+      "server": "cloudflare"
+    },
+    "violations": 6,
+    "passes": 425,
+    "incomplete": 4,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href=\"https://fluance.io/fr\"]",
+            "snippet": "<a href=\"https://fluance.io/fr\">Fluance</a>"
+          },
+          {
+            "selector": "a[href$=\"fr/\"]",
+            "snippet": "<a href=\"https://cedricv.com/fr/\">coaching pour entrepreneurs</a>"
+          },
+          {
+            "selector": "article:nth-child(1) > .post-card-content > span",
+            "snippet": "<span style=\"font-size: 0.75rem; text-transform: uppercase; color: var(--teal); font-weight: 600; margin-bottom: 0.5rem; display: block;\"> yoga </span>"
+          },
+          {
+            "selector": "article:nth-child(2) > .post-card-content > span",
+            "snippet": "<span style=\"font-size: 0.75rem; text-transform: uppercase; color: var(--teal); font-weight: 600; margin-bottom: 0.5rem; display: block;\"> pleine-conscience </span>"
+          },
+          {
+            "selector": "article:nth-child(3) > .post-card-content > span",
+            "snippet": "<span style=\"font-size: 0.75rem; text-transform: uppercase; color: var(--teal); font-weight: 600; margin-bottom: 0.5rem; display: block;\"> developpement-personnel </span>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".intro-card:nth-child(1) > h3",
+            "snippet": "<h3>PAR OÙ COMMENCER ?</h3>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "47c5e3310f29",
+        "nonce": "ac2950204528",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "3109acc3a8b8",
+        "nonce": "660d9d39b61c",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "3426e984a475",
+        "nonce": "0f93e338a24d",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "23855a8e0d78",
+        "nonce": "6d2d4f3950d7",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
