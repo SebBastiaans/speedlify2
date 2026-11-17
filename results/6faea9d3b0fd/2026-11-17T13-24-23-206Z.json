@@ -1,0 +1,505 @@
+{
+  "url": "https://quire.getty.edu/",
+  "name": "quire.getty.edu",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794921863206,
+  "date": "2026-11-17T13:24:23.206Z",
+  "runId": "2026-11-17T13-19-31-702Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 35497,
+  "error": null,
+  "variance": {
+    "min": 35,
+    "max": 57,
+    "spread": 22,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://quire.getty.edu/",
+    "finalUrl": "https://quire.getty.edu/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 52,
+      "accessibility": 78,
+      "best-practices": 54,
+      "seo": 83,
+      "agentic-browsing": 45
+    },
+    "timings": {
+      "fcp": 1072,
+      "lcp": 5350,
+      "si": 4084,
+      "tbt": 1174,
+      "tti": 14005,
+      "cls": 0.102,
+      "ttfb": 621,
+      "maxPotentialFid": 1257,
+      "serverResponseTime": 22,
+      "networkRtt": 54.5,
+      "networkServerLatency": 160.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 23.6,
+      "elementRenderDelay": 171.5
+    },
+    "weight": {
+      "total": 5573082,
+      "requests": 123,
+      "mainDocument": 14543,
+      "byType": {
+        "total": {
+          "bytes": 5572702,
+          "requests": 122
+        },
+        "other": {
+          "bytes": 2700734,
+          "requests": 69
+        },
+        "image": {
+          "bytes": 1567091,
+          "requests": 29
+        },
+        "script": {
+          "bytes": 1085330,
+          "requests": 16
+        },
+        "font": {
+          "bytes": 151652,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 47805,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 20090,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 935749,
+          "requests": 33
+        }
+      },
+      "scripts": 16,
+      "stylesheets": 2,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 12,
+      "bytes": 930475,
+      "mainThreadMs": 302.9,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 562264,
+          "mainThreadMs": 169.5,
+          "byType": {
+            "script": 562264
+          },
+          "typedBytes": 562264
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 220079,
+          "mainThreadMs": 65.2,
+          "byType": {
+            "script": 220062,
+            "image": 17
+          },
+          "typedBytes": 220079
+        },
+        {
+          "entity": "ID5 Identity Cloud",
+          "bytes": 36370,
+          "mainThreadMs": 7.1,
+          "byType": {
+            "script": 36370
+          },
+          "typedBytes": 36370
+        },
+        {
+          "entity": "Criteo",
+          "bytes": 29083,
+          "mainThreadMs": 18.2,
+          "byType": {
+            "script": 29083
+          },
+          "typedBytes": 29083
+        },
+        {
+          "entity": "Snapchat",
+          "bytes": 25936,
+          "mainThreadMs": 23.9,
+          "byType": {
+            "script": 25757,
+            "image": 122,
+            "other": 57
+          },
+          "typedBytes": 25936
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3538.6,
+      "byGroup": {
+        "scriptEvaluation": 2566.9,
+        "other": 497.1,
+        "scriptParseCompile": 221,
+        "styleLayout": 104.8,
+        "garbageCollection": 76.2,
+        "paintCompositeRender": 43,
+        "parseHTML": 29.6
+      },
+      "bootupMs": 2597.2,
+      "longTasks": 10,
+      "longestTaskMs": 1257
+    },
+    "dom": {
+      "elements": 1017,
+      "depth": 15,
+      "maxChildren": 26
+    },
+    "waste": {
+      "unusedJsBytes": 402455,
+      "unusedCssBytes": 39933,
+      "legacyJsBytes": 10870,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 300,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 288004.68333333335,
+      "poorlyCachedCount": 10
+    },
+    "accessibility": {
+      "failingCount": 5,
+      "applicableCount": 27,
+      "failingNodes": 12,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "title": "`[aria-*]` attributes do not have valid values",
+          "weight": 10,
+          "nodes": 2
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 2
+        },
+        {
+          "id": "tabindex",
+          "title": "Some elements have a `[tabindex]` value greater than 0",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 4,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 17
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "canonical",
+          "title": "Document does not have a valid `rel=canonical`",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 25
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3469.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T13:24:39.716Z",
+      "runtimeMs": 8206.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7MTX5EFTCR56Y2GXAPYCF09"
+    },
+    "violations": 16,
+    "passes": 473,
+    "incomplete": 12,
+    "violationRules": 8,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".home-block--first > .home-block__body > p:nth-child(3)",
+            "snippet": "<p>"
+          },
+          {
+            "selector": ".home-block__body > p:nth-child(4)",
+            "snippet": "<p>Created by <a href=\"https://www.getty.edu\" target=\"_blank\" rel=\"noopener\">Getty</a>, free to use.</p>"
+          },
+          {
+            "selector": "a[href$=\"www.getty.edu\"][rel=\"noopener\"][target=\"_blank\"]",
+            "snippet": "<a href=\"https://www.getty.edu\" target=\"_blank\" rel=\"noopener\">Getty</a>"
+          },
+          {
+            "selector": "p > a[href$=\"getting-started/\"]",
+            "snippet": "<a href=\"./docs-v1/getting-started/\">Get Started</a>"
+          },
+          {
+            "selector": ".paired-button.action-button:nth-child(6) > p > a[rel=\"noopener\"][target=\"_blank\"]",
+            "snippet": "<a href=\"https://vimeo.com/820983026/b3a116fb1e\" target=\"_blank\" rel=\"noopener\">Watch the Video<svg class=\"remove-from-epub\"><switch><use xlink:href=\"#start-icon\"></use></switch></svg></a>"
+          }
+        ]
+      },
+      {
+        "id": "aria-valid-attr-value",
+        "impact": "critical",
+        "nodes": 2,
+        "help": "ARIA attributes must conform to valid values",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-valid-attr-value?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".search-button",
+            "snippet": "<button class=\"quire-navbar-button search-button\" aria-controls=\"quire-search\" onclick=\"toggleSearch()\">"
+          },
+          {
+            "selector": "#quire-controls-menu-button",
+            "snippet": "<button class=\"quire-navbar-button menu-button\" id=\"quire-controls-menu-button\" onclick=\"toggleMenu()\" aria-expanded=\"true\" aria-controls=\"quire-menu\" tabindex=\"2\">"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 2,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".quire-navbar-controls__site-logo > img[src$=\"quire-logo--sm.png\"]",
+            "snippet": "<img src=\"./img/quire-logo--sm.png\">"
+          },
+          {
+            "selector": "#homepage-banner-image",
+            "snippet": "<img src=\"/img/illustrations/illustration-multiformat--ambers.png\" id=\"homepage-banner-image\">"
+          }
+        ]
+      },
+      {
+        "id": "image-redundant-alt",
+        "impact": "minor",
+        "nodes": 2,
+        "help": "Alternative text of images should not be repeated as text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-redundant-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "foreignobject[width=\"32\"][height=\"32\"] > img[src$=\"search.png\"][alt=\"Search\"]",
+            "snippet": "<img src=\"./img/icons/search.png\" alt=\"Search\">"
+          },
+          {
+            "selector": "img[src$=\"nav.png\"]",
+            "snippet": "<img src=\"./img/icons/nav.png\" alt=\"Table of Contents\">"
+          }
+        ]
+      },
+      {
+        "id": "tabindex",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements should not have tabindex greater than zero",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/tabindex?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".quire-navbar-skip-link",
+            "snippet": "<a href=\"#main\" class=\"quire-navbar-skip-link\" tabindex=\"1\">Skip to Main Content</a>"
+          },
+          {
+            "selector": "#quire-controls-menu-button",
+            "snippet": "<button class=\"quire-navbar-button menu-button\" id=\"quire-controls-menu-button\" onclick=\"toggleMenu()\" aria-expanded=\"true\" aria-controls=\"quire-menu\" tabindex=\"2\">"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".quire-navbar-controls__site-logo",
+            "snippet": "<a href=\"./\" rel=\"home\" class=\"quire-navbar-controls__site-logo\"><img src=\"./img/quire-logo--sm.png\"></a>"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".quire-navbar-skip-link",
+            "snippet": "<a href=\"#main\" class=\"quire-navbar-skip-link\" tabindex=\"1\">Skip to Main Content</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a0ef8cdecb93",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"9434b55d16ec30f0d21798748f524777-ssl\""
+        }
+      },
+      {
+        "hash": "a0ef8cdecb93",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535985",
+          "etag": "W/\"9434b55d16ec30f0d21798748f524777-ssl\""
+        }
+      },
+      {
+        "hash": "a0ef8cdecb93",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "24",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535976",
+          "etag": "W/\"9434b55d16ec30f0d21798748f524777-ssl\""
+        }
+      },
+      {
+        "hash": "a0ef8cdecb93",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535969",
+          "etag": "W/\"9434b55d16ec30f0d21798748f524777-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

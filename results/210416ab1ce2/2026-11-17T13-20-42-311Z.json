@@ -1,0 +1,270 @@
+{
+  "url": "https://brunopulis.com/",
+  "name": "brunopulis.com",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1794921642311,
+  "date": "2026-11-17T13:20:42.311Z",
+  "runId": "2026-11-17T13-19-31-702Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 20996,
+  "error": null,
+  "partialErrors": [
+    "NO_NAVSTART: Something went wrong with recording the trace over your page load. Please run Lighthouse again. (NO_NAVSTART)"
+  ],
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://brunopulis.com/",
+    "finalUrl": "https://brunopulis.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 945,
+      "lcp": 945,
+      "si": 945,
+      "tbt": 0,
+      "tti": 945,
+      "cls": 0,
+      "ttfb": 615,
+      "maxPotentialFid": 42,
+      "serverResponseTime": 11,
+      "networkRtt": 8.3,
+      "networkServerLatency": 139.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 12.4,
+      "elementRenderDelay": 69.3
+    },
+    "weight": {
+      "total": 175994,
+      "requests": 11,
+      "mainDocument": 15210,
+      "byType": {
+        "total": {
+          "bytes": 175994,
+          "requests": 11
+        },
+        "other": {
+          "bytes": 123968,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 31452,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 15210,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 4630,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 734,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 5251,
+          "requests": 3
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 0,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 5251,
+      "mainThreadMs": 2,
+      "top": [
+        {
+          "entity": "umami.is",
+          "bytes": 5251,
+          "mainThreadMs": 2,
+          "byType": {
+            "script": 4630,
+            "other": 621
+          },
+          "typedBytes": 5251
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 291.2,
+      "byGroup": {
+        "other": 186.5,
+        "styleLayout": 52.7,
+        "scriptEvaluation": 22.4,
+        "paintCompositeRender": 14.1,
+        "parseHTML": 12.9,
+        "scriptParseCompile": 2.6
+      },
+      "bootupMs": 14.3,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 167,
+      "depth": 9,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 25,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 22
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3402,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T13:20:56.925Z",
+      "runtimeMs": 6016
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.6",
+      "source": "meta",
+      "raw": "Eleventy v3.1.6"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.6"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "pdx1::pc5p9-1794921661961-5555ce58a757"
+    },
+    "violations": 0,
+    "passes": 432,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "5453ec05a744",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "383756",
+          "etag": "W/\"022354d9f49949ed207279799328df9d\"",
+          "last-modified": "Fri, 13 Nov 2026 02:44:54 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5453ec05a744",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "383762",
+          "etag": "W/\"022354d9f49949ed207279799328df9d\"",
+          "last-modified": "Fri, 13 Nov 2026 02:44:54 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5453ec05a744",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"022354d9f49949ed207279799328df9d\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

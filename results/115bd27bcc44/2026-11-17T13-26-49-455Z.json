@@ -1,0 +1,325 @@
+{
+  "url": "https://reachlightspeed.com/",
+  "name": "reachlightspeed.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794922009455,
+  "date": "2026-11-17T13:26:49.455Z",
+  "runId": "2026-11-17T13-19-31-702Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22767,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://reachlightspeed.com/",
+    "finalUrl": "https://reachlightspeed.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 865,
+      "lcp": 865,
+      "si": 865,
+      "tbt": 33,
+      "tti": 2755,
+      "cls": 0,
+      "ttfb": 684,
+      "maxPotentialFid": 90,
+      "serverResponseTime": 40,
+      "networkRtt": 0,
+      "networkServerLatency": 83.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 41.7,
+      "elementRenderDelay": 36.1
+    },
+    "weight": {
+      "total": 251982,
+      "requests": 11,
+      "mainDocument": 7040,
+      "byType": {
+        "total": {
+          "bytes": 251982,
+          "requests": 11
+        },
+        "script": {
+          "bytes": 183888,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 61054,
+          "requests": 8
+        },
+        "document": {
+          "bytes": 7040,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 183936,
+          "requests": 3
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 183936,
+      "mainThreadMs": 53.6,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 173537,
+          "mainThreadMs": 47.7,
+          "byType": {
+            "script": 173537
+          },
+          "typedBytes": 173537
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 5.9,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 48,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 48
+          },
+          "typedBytes": 48
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1374.8,
+      "byGroup": {
+        "other": 919.9,
+        "scriptEvaluation": 367.3,
+        "scriptParseCompile": 31.3,
+        "paintCompositeRender": 25.3,
+        "styleLayout": 24,
+        "parseHTML": 7
+      },
+      "bootupMs": 373.3,
+      "longTasks": 2,
+      "longestTaskMs": 90
+    },
+    "dom": {
+      "elements": 76,
+      "depth": 9,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 72450,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 4140.400000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 18
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3525,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T13:26:58.179Z",
+      "runtimeMs": 6501.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5bf1240b90a1ef3-PDX",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M7MV1943AGK5N3WCQDF7ZASA"
+    },
+    "violations": 5,
+    "passes": 82,
+    "incomplete": 9,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 4,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#starfield",
+            "snippet": "<canvas id=\"starfield\" class=\"fixed -z-50 inset-0 w-screen h-screen opacity-50\" width=\"412\" height=\"823\"></canvas>"
+          },
+          {
+            "selector": "h1",
+            "snippet": "<h1 class=\"font-headline tracking-tight text-4xl font-bold italic bg-gradient-to-br from-lightspeed-green via-lightspeed-blue to-lightspeed-purple bg-clip-text text-transparent pb-2 md:text-5xl\">Fast…"
+          },
+          {
+            "selector": "p",
+            "snippet": "<p class=\"text-lg mt-3 md:mt-5 md:text-2xl\">We offer custom design, development, analytics and optimization services for e‑commerce brands.</p>"
+          },
+          {
+            "selector": "#hero-cta",
+            "snippet": "<a href=\"/services/\" class=\"btn mt-6 md:mt-8 hover:opacity-100 hover:bg-gradient-to-r from-lightspeed-teal to-lightspeed-blue\" id=\"hero-cta\">Launch with us</a>"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".ml-3",
+            "snippet": "<a href=\"/\" class=\"relative border-none flex items-center ml-3 mr-2 touch-manipulation active:top-px\" aria-label=\"Home\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "2b318820bd42",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "2b318820bd42",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "2b318820bd42",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13630",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31522371",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "2b318820bd42",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535984",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

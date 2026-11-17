@@ -1,0 +1,436 @@
+{
+  "url": "https://rmendes.net/",
+  "name": "rmendes.net",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794922146740,
+  "date": "2026-11-17T13:29:06.740Z",
+  "runId": "2026-11-17T13-19-31-702Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 53983,
+  "error": null,
+  "variance": {
+    "min": 95,
+    "max": 97,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://rmendes.net/",
+    "finalUrl": "https://rmendes.net/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 90,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 1267,
+      "lcp": 1267,
+      "si": 4999,
+      "tbt": 46,
+      "tti": 4025,
+      "cls": 0,
+      "ttfb": 768,
+      "maxPotentialFid": 105,
+      "serverResponseTime": 327,
+      "networkRtt": 0.2,
+      "networkServerLatency": 168.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 328.7,
+      "elementRenderDelay": 2175.6
+    },
+    "weight": {
+      "total": 3022829,
+      "requests": 65,
+      "mainDocument": 44069,
+      "byType": {
+        "total": {
+          "bytes": 2973662,
+          "requests": 63
+        },
+        "image": {
+          "bytes": 2680570,
+          "requests": 9
+        },
+        "font": {
+          "bytes": 98016,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 86961,
+          "requests": 25
+        },
+        "document": {
+          "bytes": 44069,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 34414,
+          "requests": 19
+        },
+        "stylesheet": {
+          "bytes": 29632,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2676203,
+          "requests": 8
+        }
+      },
+      "scripts": 25,
+      "stylesheets": 5,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 2676203,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "supabase.co",
+          "bytes": 1796315,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 1796315
+          },
+          "typedBytes": 1796315
+        },
+        {
+          "entity": "flightnoise.fyi",
+          "bytes": 647435,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 647435
+          },
+          "typedBytes": 647435
+        },
+        {
+          "entity": "GitHub",
+          "bytes": 92028,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 92028
+          },
+          "typedBytes": 92028
+        },
+        {
+          "entity": "dropsitenews.com",
+          "bytes": 77334,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 77334
+          },
+          "typedBytes": 77334
+        },
+        {
+          "entity": "WordPress",
+          "bytes": 40664,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 40664
+          },
+          "typedBytes": 40664
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1164.4,
+      "byGroup": {
+        "other": 492,
+        "styleLayout": 283.7,
+        "scriptEvaluation": 235.4,
+        "paintCompositeRender": 84.9,
+        "parseHTML": 33.9,
+        "scriptParseCompile": 20,
+        "garbageCollection": 14.6
+      },
+      "bootupMs": 229.7,
+      "longTasks": 3,
+      "longestTaskMs": 105
+    },
+    "dom": {
+      "elements": 2117,
+      "depth": 19,
+      "maxChildren": 368
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 19523,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 2269,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 2132410.8075,
+      "poorlyCachedCount": 5
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 32,
+      "failingNodes": 24,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 11
+        },
+        {
+          "id": "listitem",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "weight": 7,
+          "nodes": 8
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 5
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 32
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3490,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T13:29:39.619Z",
+      "runtimeMs": 15037.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [
+        "svelte",
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.15.8"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 25,
+    "passes": 2406,
+    "incomplete": 8,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 11,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".border-l-amber-400.dark\\:border-l-amber-500:nth-child(1) > .items-start.gap-3.flex > .flex-1.min-w-0 > .gap-3.items-center.text-fg-muted > .text-amber-600.dark\\:text-amber-400.font-medium",
+            "snippet": "<span class=\"font-medium text-amber-600 dark:text-amber-400\">Bookmarked</span>"
+          },
+          {
+            "selector": ".border-l-amber-400.dark\\:border-l-amber-500:nth-child(2) > .items-start.gap-3.flex > .flex-1.min-w-0 > .gap-3.items-center.text-fg-muted > .text-amber-600.dark\\:text-amber-400.font-medium",
+            "snippet": "<span class=\"font-medium text-amber-600 dark:text-amber-400\">Bookmarked</span>"
+          },
+          {
+            "selector": ".border-l-amber-400.dark\\:border-l-amber-500:nth-child(6) > .items-start.gap-3.flex > .flex-1.min-w-0 > .gap-3.items-center.text-fg-muted > .text-amber-600.dark\\:text-amber-400.font-medium",
+            "snippet": "<span class=\"font-medium text-amber-600 dark:text-amber-400\">Bookmarked</span>"
+          },
+          {
+            "selector": ".border-l-amber-400.dark\\:border-l-amber-500:nth-child(8) > .items-start.gap-3.flex > .flex-1.min-w-0 > .gap-3.items-center.text-fg-muted > .text-amber-600.dark\\:text-amber-400.font-medium",
+            "snippet": "<span class=\"font-medium text-amber-600 dark:text-amber-400\">Bookmarked</span>"
+          },
+          {
+            "selector": ".border-l-amber-400.dark\\:border-l-amber-500:nth-child(10) > .items-start.gap-3.flex > .flex-1.min-w-0 > .gap-3.items-center.text-fg-muted > .text-amber-600.dark\\:text-amber-400.font-medium",
+            "snippet": "<span class=\"font-medium text-amber-600 dark:text-amber-400\">Bookmarked</span>"
+          }
+        ]
+      },
+      {
+        "id": "listitem",
+        "impact": "serious",
+        "nodes": 8,
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/listitem?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#blogroll-panel > li:nth-child(2)",
+            "snippet": "<li>"
+          },
+          {
+            "selector": "#blogroll-panel > li:nth-child(3)",
+            "snippet": "<li>"
+          },
+          {
+            "selector": "#blogroll-panel > li:nth-child(4)",
+            "snippet": "<li>"
+          },
+          {
+            "selector": "#blogroll-panel > li:nth-child(5)",
+            "snippet": "<li>"
+          },
+          {
+            "selector": "#blogroll-panel > li:nth-child(6)",
+            "snippet": "<li>"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Interactive controls must not be nested",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "button[\\@click=\"expanded[0] = !expanded[0]\"]",
+            "snippet": "<button class=\"w-full p-4 flex items-center justify-between gap-2 cursor-pointer text-left hover:bg-surface-50 dark:hover:bg-surface-700/50 transition-colors\" @click=\"expanded[0] = !expanded[0]\" :ari…"
+          },
+          {
+            "selector": "button[\\@click=\"expanded[1] = !expanded[1]\"]",
+            "snippet": "<button class=\"w-full p-4 flex items-center justify-between gap-2 cursor-pointer text-left hover:bg-surface-50 dark:hover:bg-surface-700/50 transition-colors\" @click=\"expanded[1] = !expanded[1]\" :ari…"
+          },
+          {
+            "selector": "button[\\@click=\"expanded[2] = !expanded[2]\"]",
+            "snippet": "<button class=\"w-full p-4 flex items-center justify-between gap-2 cursor-pointer text-left hover:bg-surface-50 dark:hover:bg-surface-700/50 transition-colors\" @click=\"expanded[2] = !expanded[2]\" :ari…"
+          },
+          {
+            "selector": "button[\\@click=\"expanded[3] = !expanded[3]\"]",
+            "snippet": "<button class=\"w-full p-4 flex items-center justify-between gap-2 cursor-pointer text-left hover:bg-surface-50 dark:hover:bg-surface-700/50 transition-colors\" @click=\"expanded[3] = !expanded[3]\" :ari…"
+          },
+          {
+            "selector": "button[\\@click=\"expanded[4] = !expanded[4]\"]",
+            "snippet": "<button class=\"w-full p-4 flex items-center justify-between gap-2 cursor-pointer text-left hover:bg-surface-50 dark:hover:bg-surface-700/50 transition-colors\" @click=\"expanded[4] = !expanded[4]\" :ari…"
+          }
+        ]
+      },
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#blogroll-panel",
+            "snippet": "<ul x-show=\"filteredBlogs.length > 0\" class=\"space-y-2\" :class=\"tabs.length > 1 ? '' : 'mt-3'\" role=\"tabpanel\" id=\"blogroll-panel\" :aria-labelledby=\"'blogroll-tab-' + activeTab\" aria-labelledby=\"blog…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ee2865f7e327",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6afb3ff9-3f74b\"",
+          "last-modified": "Mon, 16 Nov 2026 17:40:09 GMT"
+        }
+      },
+      {
+        "hash": "ee2865f7e327",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6afb3ff9-3f74b\"",
+          "last-modified": "Mon, 16 Nov 2026 17:40:09 GMT"
+        }
+      },
+      {
+        "hash": "ee2865f7e327",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6afb3ff9-3f74b\"",
+          "last-modified": "Mon, 16 Nov 2026 17:40:09 GMT"
+        }
+      },
+      {
+        "hash": "ee2865f7e327",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6afb3ff9-3f74b\"",
+          "last-modified": "Mon, 16 Nov 2026 17:40:09 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
