@@ -1,0 +1,427 @@
+{
+  "url": "https://vuejs.org/",
+  "name": "Vue",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1794954647224,
+  "date": "2026-11-17T22:30:47.224Z",
+  "runId": "2026-11-17T22-19-19-661Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 76532,
+  "error": null,
+  "variance": {
+    "min": 90,
+    "max": 90,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://vuejs.org/",
+    "finalUrl": "https://vuejs.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 90,
+      "accessibility": 88,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 89
+    },
+    "timings": {
+      "fcp": 1838,
+      "lcp": 1838,
+      "si": 1838,
+      "tbt": 23,
+      "tti": 3597,
+      "cls": 0.178,
+      "ttfb": 613,
+      "maxPotentialFid": 96,
+      "serverResponseTime": 9,
+      "networkRtt": 0,
+      "networkServerLatency": 243.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 10.7,
+      "elementRenderDelay": 89.7
+    },
+    "weight": {
+      "total": 305626,
+      "requests": 32,
+      "mainDocument": 12289,
+      "byType": {
+        "total": {
+          "bytes": 305626,
+          "requests": 32
+        },
+        "font": {
+          "bytes": 120080,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 101320,
+          "requests": 14
+        },
+        "stylesheet": {
+          "bytes": 40327,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 21920,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 20140,
+          "requests": 8
+        },
+        "image": {
+          "bytes": 1839,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 95932,
+          "requests": 12
+        }
+      },
+      "scripts": 14,
+      "stylesheets": 4,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 12709,
+      "mainThreadMs": 7.1,
+      "top": [
+        {
+          "entity": "bitterbrains.com",
+          "bytes": 8694,
+          "mainThreadMs": 5.8,
+          "byType": {
+            "script": 6934,
+            "other": 1760
+          },
+          "typedBytes": 8694
+        },
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3193,
+          "mainThreadMs": 1.2,
+          "byType": {
+            "script": 2757,
+            "image": 436
+          },
+          "typedBytes": 3193
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 822,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 822
+          },
+          "typedBytes": 822
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 451.4,
+      "byGroup": {
+        "scriptEvaluation": 175.1,
+        "other": 161.2,
+        "styleLayout": 67.5,
+        "parseHTML": 23,
+        "paintCompositeRender": 17.1,
+        "scriptParseCompile": 7.4
+      },
+      "bootupMs": 115.5,
+      "longTasks": 1,
+      "longestTaskMs": 96
+    },
+    "dom": {
+      "elements": 564,
+      "depth": 18,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 34815,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 3369,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1074,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 4715.12,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 27,
+      "failingNodes": 13,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 10
+        },
+        {
+          "id": "frame-title",
+          "title": "`<frame>` or `<iframe>` elements do not have a title",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 19
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2965.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T22:31:04.229Z",
+      "runtimeMs": 7695.3
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.6,
+    "elementRenderDelay": 1497.3
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "vitepress",
+      "name": "VitePress",
+      "icon": "Vitepress",
+      "version": "2.0.0",
+      "source": "meta",
+      "raw": "VitePress v2.0.0-alpha.17"
+    },
+    "probe": {
+      "metas": [
+        "VitePress v2.0.0-alpha.17"
+      ],
+      "marks": [
+        "vitepress",
+        "vue"
+      ],
+      "markVersions": {
+        "vue": "3.5.45"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7NT611C5NQK4PW410C1CFHQ"
+    },
+    "violations": 17,
+    "passes": 505,
+    "incomplete": 3,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 10,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".description",
+            "snippet": "<p class=\"description\" data-v-7d4b747f=\"\"> An approachable, performant and versatile framework for building web user interfaces. </p>"
+          },
+          {
+            "selector": "#vuemastery-action",
+            "snippet": "<a id=\"vuemastery-action\" class=\"why-vue\" href=\"javascript:;\" data-v-bf2d099b=\"\">"
+          },
+          {
+            "selector": "a[href$=\"sponsor/#tier-benefits\"]",
+            "snippet": "<a href=\"/sponsor/#tier-benefits\" data-v-7d4b747f=\"\"> Special Sponsor slot is now vacant - Inquire now </a>"
+          },
+          {
+            "selector": ".vt-box[data-v-7d4b747f=\"\"]:nth-child(1) > p",
+            "snippet": "<p data-v-7d4b747f=\"\"> A rich, incrementally adoptable ecosystem that scales between a library and a full-featured framework. </p>"
+          },
+          {
+            "selector": ".vt-box[data-v-7d4b747f=\"\"]:nth-child(2) > p",
+            "snippet": "<p data-v-7d4b747f=\"\"> Builds on top of standard HTML, CSS and JavaScript with intuitive API and world-class documentation. </p>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 4,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe >>> .bb-prelude",
+            "snippet": "<div class=\"bb-prelude\">Black Friday <br><span>Early Bird</span></div>"
+          },
+          {
+            "selector": "iframe >>> .bb-title > .bb-short",
+            "snippet": "<span class=\"bb-short\">Get a year of Vue School for <b>$149</b> + 3 premium bonuses</span>"
+          },
+          {
+            "selector": "iframe >>> .bb-subtitle > .bb-full",
+            "snippet": "<span class=\"bb-full\">Mastering Nuxt + Pinia + Unlearn.dev's endless AI agent courses</span>"
+          },
+          {
+            "selector": ".VPFooter",
+            "snippet": "<div class=\"VPFooter\" data-v-d85f39a1=\"\">"
+          }
+        ]
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Frames must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe",
+            "snippet": "<iframe scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" style=\"width: 100% !importa...\" src=\"https://media.bitter...\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".sitemap-col:nth-child(1) > h4",
+            "snippet": "<h4>Docs</h4>"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[data-v-d85f39a1=\"\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+            "snippet": "<a class=\"vt-link link link\" href=\"https://opensource.org/licenses/MIT\" target=\"_blank\" rel=\"noopener noreferrer\" data-v-d85f39a1=\"\"><!--[-->MIT License<!--]--><!----><!----></a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ad46f64a2296",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12147",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31523853",
+          "etag": "W/\"4ae93f9e757946f235a4512fb9ff7a86-ssl\""
+        }
+      },
+      {
+        "hash": "ad46f64a2296",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12155",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31523845",
+          "etag": "W/\"4ae93f9e757946f235a4512fb9ff7a86-ssl\""
+        }
+      },
+      {
+        "hash": "ad46f64a2296",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12163",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31523837",
+          "etag": "W/\"4ae93f9e757946f235a4512fb9ff7a86-ssl\""
+        }
+      },
+      {
+        "hash": "ad46f64a2296",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12171",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31523829",
+          "etag": "W/\"4ae93f9e757946f235a4512fb9ff7a86-ssl\""
+        }
+      },
+      {
+        "hash": "ad46f64a2296",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31523810",
+          "etag": "W/\"4ae93f9e757946f235a4512fb9ff7a86-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,312 @@
+{
+  "url": "https://gobeyond.pa/",
+  "name": "gobeyond.pa",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794954269463,
+  "date": "2026-11-17T22:24:29.463Z",
+  "runId": "2026-11-17T22-19-19-661Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 31455,
+  "error": null,
+  "variance": {
+    "min": 72,
+    "max": 75,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://gobeyond.pa/",
+    "finalUrl": "https://gobeyond.pa/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 74,
+      "accessibility": 100,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 1001,
+      "lcp": 5951,
+      "si": 3110,
+      "tbt": 223,
+      "tti": 5951,
+      "cls": 0,
+      "ttfb": 551,
+      "maxPotentialFid": 210,
+      "serverResponseTime": 94,
+      "networkRtt": 3.8,
+      "networkServerLatency": 101.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 95.3,
+      "resourceLoadDelay": 87.7,
+      "resourceLoadDuration": 140.3,
+      "elementRenderDelay": 1035.5
+    },
+    "weight": {
+      "total": 2892369,
+      "requests": 53,
+      "mainDocument": 13715,
+      "byType": {
+        "total": {
+          "bytes": 2890169,
+          "requests": 49
+        },
+        "other": {
+          "bytes": 1566934,
+          "requests": 11
+        },
+        "font": {
+          "bytes": 352271,
+          "requests": 5
+        },
+        "image": {
+          "bytes": 346577,
+          "requests": 13
+        },
+        "script": {
+          "bytes": 326504,
+          "requests": 10
+        },
+        "document": {
+          "bytes": 243900,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 53983,
+          "requests": 7
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2062023,
+          "requests": 16
+        }
+      },
+      "scripts": 13,
+      "stylesheets": 7,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 216615,
+      "mainThreadMs": 90.1,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 203017,
+          "mainThreadMs": 83.7,
+          "byType": {
+            "script": 203017
+          },
+          "typedBytes": 203017
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 5.8,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 3142,
+          "mainThreadMs": 0.6,
+          "byType": {
+            "script": 3142
+          },
+          "typedBytes": 3142
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 105,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 64,
+            "other": 41
+          },
+          "typedBytes": 105
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1027.8,
+      "byGroup": {
+        "scriptEvaluation": 373.6,
+        "other": 358.1,
+        "styleLayout": 131.5,
+        "parseHTML": 71.2,
+        "scriptParseCompile": 59.1,
+        "paintCompositeRender": 23.3,
+        "garbageCollection": 11.1
+      },
+      "bootupMs": 383.4,
+      "longTasks": 2,
+      "longestTaskMs": 210
+    },
+    "dom": {
+      "elements": 457,
+      "depth": 11,
+      "maxChildren": 13
+    },
+    "waste": {
+      "unusedJsBytes": 83529,
+      "unusedCssBytes": 37667,
+      "legacyJsBytes": 19278,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 4140.400000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 30,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 65
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3011.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T22:24:50.524Z",
+      "runtimeMs": 9276.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5c2260feecc4f00-LHR",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 739,
+    "incomplete": 2,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#whatsapp-float",
+            "snippet": "<a href=\"https://wa.me/50769850000?text=Hi%20Go%20Beyond!%20I%20have%20a%20question%20about%20A%20little%20closer%20to%20extraordinary..\" target=\"_blank\" class=\"whatsapp-float\" id=\"whatsapp-float\" ar…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "99c1817d8048",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "99c1817d8048",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "99c1817d8048",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "99c1817d8048",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

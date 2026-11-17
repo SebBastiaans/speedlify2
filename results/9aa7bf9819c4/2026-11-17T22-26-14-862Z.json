@@ -1,0 +1,266 @@
+{
+  "url": "https://wildglobalization.com/",
+  "name": "wildglobalization.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794954374862,
+  "date": "2026-11-17T22:26:14.862Z",
+  "runId": "2026-11-17T22-19-19-661Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26946,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://wildglobalization.com/",
+    "finalUrl": "https://wildglobalization.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 971,
+      "lcp": 971,
+      "si": 2536,
+      "tbt": 0,
+      "tti": 971,
+      "cls": 0,
+      "ttfb": 615,
+      "maxPotentialFid": 33,
+      "serverResponseTime": 150,
+      "networkRtt": 0,
+      "networkServerLatency": 165.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 151.1,
+      "elementRenderDelay": 1203.2
+    },
+    "weight": {
+      "total": 142869,
+      "requests": 9,
+      "mainDocument": 8857,
+      "byType": {
+        "total": {
+          "bytes": 142869,
+          "requests": 9
+        },
+        "image": {
+          "bytes": 112555,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 11940,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 8857,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 6790,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2727,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10350,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10350,
+      "mainThreadMs": 5.8,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10350,
+          "mainThreadMs": 5.8,
+          "byType": {
+            "script": 10350
+          },
+          "typedBytes": 10350
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 219.5,
+      "byGroup": {
+        "other": 99.1,
+        "styleLayout": 62.3,
+        "scriptEvaluation": 37.6,
+        "paintCompositeRender": 11.1,
+        "parseHTML": 8.2,
+        "scriptParseCompile": 1.2
+      },
+      "bootupMs": 16.6,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 295,
+      "depth": 8,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10355,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 125075,
+      "poorlyCachedCount": 5
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 21,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 25
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3047.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T22:26:24.434Z",
+      "runtimeMs": 7824.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v4.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5c2287459cabec6-LHR",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 443,
+    "incomplete": 10,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "097ef068706f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Tue, 22 Sep 2026 15:34:03 GMT"
+        }
+      },
+      {
+        "hash": "097ef068706f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Tue, 22 Sep 2026 15:34:03 GMT"
+        }
+      },
+      {
+        "hash": "097ef068706f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Tue, 22 Sep 2026 15:34:03 GMT"
+        }
+      },
+      {
+        "hash": "097ef068706f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Tue, 22 Sep 2026 15:34:03 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
