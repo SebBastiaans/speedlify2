@@ -1,0 +1,321 @@
+{
+  "url": "https://robinbakker.nl/",
+  "name": "robinbakker.nl",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794921916933,
+  "date": "2026-11-17T13:25:16.933Z",
+  "runId": "2026-11-17T13-19-35-339Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21778,
+  "error": null,
+  "variance": {
+    "min": 86,
+    "max": 95,
+    "spread": 9,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://robinbakker.nl/",
+    "finalUrl": "https://robinbakker.nl/en/",
+    "redirect": {
+      "from": "https://robinbakker.nl/",
+      "to": "https://robinbakker.nl/en",
+      "chain": [
+        {
+          "url": "https://robinbakker.nl/",
+          "status": 200
+        },
+        {
+          "url": "https://robinbakker.nl/en/",
+          "status": null
+        }
+      ],
+      "statuses": [
+        200
+      ],
+      "change": "path",
+      "permanent": false,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 95,
+      "accessibility": 96,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 952,
+      "lcp": 2953,
+      "si": 952,
+      "tbt": 25,
+      "tti": 3080,
+      "cls": 0,
+      "ttfb": 617,
+      "maxPotentialFid": 82,
+      "serverResponseTime": 17,
+      "networkRtt": 0,
+      "networkServerLatency": 19
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 18.4,
+      "elementRenderDelay": 1059.3
+    },
+    "weight": {
+      "total": 439456,
+      "requests": 13,
+      "mainDocument": 18037,
+      "byType": {
+        "total": {
+          "bytes": 439456,
+          "requests": 11
+        },
+        "image": {
+          "bytes": 195589,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 166761,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 21231,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 20604,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 18037,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 17234,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 165421,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 0,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 165421,
+      "mainThreadMs": 38.5,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 165421,
+          "mainThreadMs": 38.5,
+          "byType": {
+            "script": 165421
+          },
+          "typedBytes": 165421
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 494,
+      "byGroup": {
+        "other": 177.4,
+        "scriptEvaluation": 150.6,
+        "styleLayout": 84.1,
+        "paintCompositeRender": 32.6,
+        "scriptParseCompile": 28.5,
+        "parseHTML": 13.1,
+        "garbageCollection": 7.6
+      },
+      "bootupMs": 164.6,
+      "longTasks": 2,
+      "longestTaskMs": 82
+    },
+    "dom": {
+      "elements": 324,
+      "depth": 13,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 73809,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 11
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3557.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T13:25:32.376Z",
+      "runtimeMs": 5935.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7MTYEDGC2F4TRE0T3FGN7Q3"
+    },
+    "violations": 2,
+    "passes": 432,
+    "incomplete": 42,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".start-title > p",
+            "snippet": "<p>web developer</p>"
+          }
+        ]
+      },
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".logo--skipcast",
+            "snippet": "<h2 class=\"logo logo--skipcast\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "8e75916fe362",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7649",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31528351",
+          "etag": "W/\"296bc88a2e975bd241dd5c3cfef0ce67-ssl\""
+        }
+      },
+      {
+        "hash": "8e75916fe362",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7657",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31528343",
+          "etag": "W/\"296bc88a2e975bd241dd5c3cfef0ce67-ssl\""
+        }
+      },
+      {
+        "hash": "8e75916fe362",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7663",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31528337",
+          "etag": "W/\"296bc88a2e975bd241dd5c3cfef0ce67-ssl\""
+        }
+      },
+      {
+        "hash": "8e75916fe362",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31528332",
+          "etag": "W/\"296bc88a2e975bd241dd5c3cfef0ce67-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
