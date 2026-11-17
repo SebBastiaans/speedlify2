@@ -1,0 +1,523 @@
+{
+  "url": "https://replicate.com/",
+  "name": "Replicate",
+  "group": "ai",
+  "groupName": "AI",
+  "timestamp": 1794888436049,
+  "date": "2026-11-17T04:07:16.049Z",
+  "runId": "2026-11-17T03-50-04-377Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 551136,
+  "error": null,
+  "variance": {
+    "min": 58,
+    "max": 58,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://replicate.com/",
+    "finalUrl": "https://replicate.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 58,
+      "accessibility": 86,
+      "best-practices": 96,
+      "seo": 92,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 1996,
+      "lcp": 1996,
+      "si": 48321,
+      "tbt": 82903,
+      "tti": 153429,
+      "cls": 0.007,
+      "ttfb": 518,
+      "maxPotentialFid": 688,
+      "serverResponseTime": 298,
+      "networkRtt": 38,
+      "networkServerLatency": 103.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 299.8,
+      "elementRenderDelay": 225.9
+    },
+    "weight": {
+      "total": 53551892,
+      "requests": 173,
+      "mainDocument": 35217,
+      "byType": {
+        "total": {
+          "bytes": 53551892,
+          "requests": 169
+        },
+        "image": {
+          "bytes": 31008077,
+          "requests": 54
+        },
+        "media": {
+          "bytes": 21441711,
+          "requests": 17
+        },
+        "script": {
+          "bytes": 720117,
+          "requests": 63
+        },
+        "other": {
+          "bytes": 167832,
+          "requests": 25
+        },
+        "font": {
+          "bytes": 144829,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 35217,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 34109,
+          "requests": 3
+        },
+        "third-party": {
+          "bytes": 53514930,
+          "requests": 166
+        }
+      },
+      "scripts": 63,
+      "stylesheets": 3,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 53428525,
+      "mainThreadMs": 1610.2,
+      "top": [
+        {
+          "entity": "replicate.delivery",
+          "bytes": 32123838,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 25139835,
+            "media": 6984003
+          },
+          "typedBytes": 32123838
+        },
+        {
+          "entity": "replicateassets.com",
+          "bytes": 20239025,
+          "mainThreadMs": 1566.7,
+          "byType": {
+            "script": 598009,
+            "stylesheet": 34109,
+            "media": 14457708,
+            "image": 4963626,
+            "font": 144829,
+            "other": 40744
+          },
+          "typedBytes": 20239025
+        },
+        {
+          "entity": "GitHub",
+          "bytes": 904616,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 904616
+          },
+          "typedBytes": 904616
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 122108,
+          "mainThreadMs": 43.5,
+          "byType": {
+            "script": 122108
+          },
+          "typedBytes": 122108
+        },
+        {
+          "entity": "cloudflarestatus.com",
+          "bytes": 38938,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 38938
+          },
+          "typedBytes": 38938
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 173595.2,
+      "byGroup": {
+        "other": 159758.7,
+        "scriptEvaluation": 7652.4,
+        "styleLayout": 3186.4,
+        "paintCompositeRender": 2044.2,
+        "garbageCollection": 587.3,
+        "parseHTML": 291.5,
+        "scriptParseCompile": 74.7
+      },
+      "bootupMs": 7536.1,
+      "longTasks": 20,
+      "longestTaskMs": 688
+    },
+    "dom": {
+      "elements": 2318,
+      "depth": 21,
+      "maxChildren": 48
+    },
+    "waste": {
+      "unusedJsBytes": 186048,
+      "unusedCssBytes": 27261,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 958,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 7872734.16666667,
+      "poorlyCachedCount": 49
+    },
+    "accessibility": {
+      "failingCount": 5,
+      "applicableCount": 30,
+      "failingNodes": 49,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 34
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 9
+        },
+        {
+          "id": "list",
+          "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+          "weight": 7,
+          "nodes": 4
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 48
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2394,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T04:09:05.354Z",
+      "runtimeMs": 107749.6
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1173.1,
+    "elementRenderDelay": 3240
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": true,
+    "generator": {
+      "id": "reactrouter",
+      "name": "React Router",
+      "icon": "Reactrouter",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "reactrouter",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5bbe86e3a50474e-DFW",
+      "server": "cloudflare"
+    },
+    "violations": 124,
+    "passes": 2085,
+    "incomplete": 33,
+    "violationRules": 7,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 74,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".v2-banner-text",
+            "snippet": "<span class=\"v2-banner-text\">Minimax H3 Lite and Highspeed are 50% until end of year</span>"
+          },
+          {
+            "selector": ".via-branding-pinkDarker",
+            "snippet": "<div class=\"absolute inset-0 z-[-1] bg-gradient-to-br from-branding-pink via-branding-pinkDarker to-branding-red object-cover overflow-hidden\">"
+          },
+          {
+            "selector": ".md\\:pr-0",
+            "snippet": "<div class=\"md:pr-0 space-y-4\">"
+          },
+          {
+            "selector": "#node",
+            "snippet": "<button id=\"node\" role=\"tab\" aria-selected=\"true\" class=\"r8-tabs__tab\" type=\"button\" data-active-item=\"true\" aria-controls=\"_R_1jcq55_\"><span class=\"r8-tabs__tab-text\">Node</span></button>"
+          },
+          {
+            "selector": "#python",
+            "snippet": "<button id=\"python\" role=\"tab\" aria-selected=\"false\" class=\"r8-tabs__tab\" type=\"button\" aria-controls=\"_R_2jcq55_\" tabindex=\"-1\"><span class=\"r8-tabs__tab-text\">Python</span></button>"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 32,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".flex:nth-child(1) > pre:nth-child(1) > .javascript > .hljs-keyword:nth-child(1)",
+            "snippet": "<span class=\"hljs-keyword\">import</span>"
+          },
+          {
+            "selector": ".hljs-keyword:nth-child(3)",
+            "snippet": "<span class=\"hljs-keyword\">from</span>"
+          },
+          {
+            "selector": "pre:nth-child(2) > .javascript > .hljs-keyword:nth-child(1)",
+            "snippet": "<span class=\"hljs-keyword\">const</span>"
+          },
+          {
+            "selector": "pre:nth-child(2) > .javascript > .hljs-keyword:nth-child(2)",
+            "snippet": "<span class=\"hljs-keyword\">new</span>"
+          },
+          {
+            "selector": ".flex:nth-child(5) > pre:nth-child(1) > .javascript > .hljs-keyword",
+            "snippet": "<span class=\"hljs-keyword\">const</span>"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 9,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#_R_1jcq55_ > .group.relative > .top-4.opacity-0.group-hover\\:opacity-100 > .undefined.r8-btn--icon.r8-btn--outlined",
+            "snippet": "<button class=\"r8-btn r8-btn--outlined r8-btn--primary r8-btn--md r8-btn--icon undefined\" type=\"button\">"
+          },
+          {
+            "selector": ".flex-1.min-w-0 > .code-snippet.border.border-r8-gray-12 > .group.relative > .top-4.opacity-0.group-hover\\:opacity-100 > .undefined.r8-btn--icon.r8-btn--outlined",
+            "snippet": "<button class=\"r8-btn r8-btn--outlined r8-btn--primary r8-btn--md r8-btn--icon undefined\" type=\"button\">"
+          },
+          {
+            "selector": ".lg\\:ml-8.lg\\:gap-12.top-0 > .pb-6.gap-8.flex-col > div:nth-child(1) > .code-snippet.border.border-r8-gray-12 > .group.relative > .top-4.opacity-0.group-hover\\:opacity-100 > .undefined.r8-btn--icon.r8-btn--outlined",
+            "snippet": "<button class=\"r8-btn r8-btn--outlined r8-btn--primary r8-btn--md r8-btn--icon undefined\" type=\"button\">"
+          },
+          {
+            "selector": "div:nth-child(3) > .code-snippet.border.border-r8-gray-12 > .group.relative > .top-4.opacity-0.group-hover\\:opacity-100 > .undefined.r8-btn--icon.r8-btn--outlined",
+            "snippet": "<button class=\"r8-btn r8-btn--outlined r8-btn--primary r8-btn--md r8-btn--icon undefined\" type=\"button\">"
+          },
+          {
+            "selector": ".pb-0.lg\\:gap-16.lg\\:border-l > .pb-6.gap-8.flex-col > div:nth-child(1) > .code-snippet.border.border-r8-gray-12 > .group.relative > .top-4.opacity-0.group-hover\\:opacity-100 > .undefined.r8-btn--icon.r8-btn--outlined",
+            "snippet": "<button class=\"r8-btn r8-btn--outlined r8-btn--primary r8-btn--md r8-btn--icon undefined\" type=\"button\">"
+          }
+        ]
+      },
+      {
+        "id": "list",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".-mt-4 > div > .marquee > .marquee__group:nth-child(1)",
+            "snippet": "<ul class=\"marquee__group\">"
+          },
+          {
+            "selector": ".marquee--reverse > .marquee__group:nth-child(1)",
+            "snippet": "<ul class=\"marquee__group\">"
+          },
+          {
+            "selector": ".marquee:nth-child(2) > .marquee__group:nth-child(1)",
+            "snippet": "<ul class=\"marquee__group\">"
+          },
+          {
+            "selector": ".mt-6",
+            "snippet": "<ul class=\"space-y-8 mt-6\">"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".flex-1.min-w-0 > .code-snippet.border.border-r8-gray-12 > .group.relative > .overflow-auto.bg-r8-gray-1.p-4",
+            "snippet": "<div class=\"bg-r8-gray-1 text-r8-gray-12 overflow-auto p-4 text-r8-sm\">"
+          },
+          {
+            "selector": "div:nth-child(3) > .code-snippet.border.border-r8-gray-12 > .group.relative > .overflow-auto.bg-r8-gray-1.p-4",
+            "snippet": "<div class=\"bg-r8-gray-1 text-r8-gray-12 overflow-auto p-4 text-r8-sm\">"
+          },
+          {
+            "selector": ".pb-6.gap-8.flex-col > div:nth-child(2) > .code-snippet.border.border-r8-gray-12 > .group.relative > .overflow-auto.bg-r8-gray-1.p-4",
+            "snippet": "<div class=\"bg-r8-gray-1 text-r8-gray-12 overflow-auto p-4 text-r8-sm\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".border-l.border-t.border-branding-red:nth-child(1) > .space-y-1\\.5.p-4 > .lg\\:text-r8-3xl.text-r8-2xl.text-branding-red > h4",
+            "snippet": "<h4>Automatic scale</h4>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" class=\"light\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "02519272e94f",
+        "nonce": "1ece32b3b3ae",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "e68dd0c80c19",
+        "nonce": "44c846113ae6",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "c233fe8cf945",
+        "nonce": "eeaf7aa6076f",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "deef799cb292",
+        "nonce": "42a3e93e3a9f",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "a35a96c75e17",
+        "nonce": "f1e1f2810f4d",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

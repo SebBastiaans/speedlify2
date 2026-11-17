@@ -1,0 +1,381 @@
+{
+  "url": "https://antithesis.com/",
+  "name": "antithesis.com",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1794887411005,
+  "date": "2026-11-17T03:50:11.005Z",
+  "runId": "2026-11-17T03-50-04-377Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 40151,
+  "error": null,
+  "variance": {
+    "min": 38,
+    "max": 55,
+    "spread": 17,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://antithesis.com/",
+    "finalUrl": "https://antithesis.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 54,
+      "accessibility": 96,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1244,
+      "lcp": 6027,
+      "si": 1244,
+      "tbt": 1202,
+      "tti": 13912,
+      "cls": 0,
+      "ttfb": 627,
+      "maxPotentialFid": 333,
+      "serverResponseTime": 19,
+      "networkRtt": 5.3,
+      "networkServerLatency": 525
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 20.6,
+      "resourceLoadDelay": 16.2,
+      "resourceLoadDuration": 59.4,
+      "elementRenderDelay": 126.2
+    },
+    "weight": {
+      "total": 1899241,
+      "requests": 112,
+      "mainDocument": 71405,
+      "byType": {
+        "total": {
+          "bytes": 1865331,
+          "requests": 106
+        },
+        "script": {
+          "bytes": 1174754,
+          "requests": 56
+        },
+        "font": {
+          "bytes": 532647,
+          "requests": 9
+        },
+        "document": {
+          "bytes": 71405,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 36488,
+          "requests": 11
+        },
+        "stylesheet": {
+          "bytes": 29979,
+          "requests": 8
+        },
+        "other": {
+          "bytes": 20058,
+          "requests": 21
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 720505,
+          "requests": 38
+        }
+      },
+      "scripts": 56,
+      "stylesheets": 8,
+      "fonts": 9
+    },
+    "thirdParty": {
+      "count": 12,
+      "bytes": 720812,
+      "mainThreadMs": 246.4,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 377520,
+          "mainThreadMs": 152.5,
+          "byType": {
+            "script": 377520
+          },
+          "typedBytes": 377520
+        },
+        {
+          "entity": "default.com",
+          "bytes": 116199,
+          "mainThreadMs": 25.5,
+          "byType": {
+            "script": 114356,
+            "other": 1843
+          },
+          "typedBytes": 116199
+        },
+        {
+          "entity": "Usercentrics CMP",
+          "bytes": 102665,
+          "mainThreadMs": 14.3,
+          "byType": {
+            "script": 87064,
+            "other": 14956,
+            "image": 645
+          },
+          "typedBytes": 102665
+        },
+        {
+          "entity": "reo.dev",
+          "bytes": 54673,
+          "mainThreadMs": 21.3,
+          "byType": {
+            "script": 54591,
+            "other": 82
+          },
+          "typedBytes": 54673
+        },
+        {
+          "entity": "LinkedIn Ads",
+          "bytes": 22361,
+          "mainThreadMs": 9.8,
+          "byType": {
+            "script": 21786,
+            "image": 309,
+            "other": 266
+          },
+          "typedBytes": 22361
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3594.9,
+      "byGroup": {
+        "scriptEvaluation": 2075.9,
+        "other": 727.9,
+        "scriptParseCompile": 343,
+        "styleLayout": 258.9,
+        "garbageCollection": 65.3,
+        "paintCompositeRender": 63.2,
+        "parseHTML": 60.6
+      },
+      "bootupMs": 2199.6,
+      "longTasks": 14,
+      "longestTaskMs": 333
+    },
+    "dom": {
+      "elements": 1324,
+      "depth": 17,
+      "maxChildren": 31
+    },
+    "waste": {
+      "unusedJsBytes": 481786,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 43531,
+      "duplicatedJsBytes": 19632,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 8,
+      "poorlyCachedBytes": 985120.0366666666,
+      "poorlyCachedCount": 66
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 25,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "aria-hidden-focus",
+          "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 13
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 69
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2384.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T03:50:39.190Z",
+      "runtimeMs": 10040.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": "7.3.6",
+      "source": "meta",
+      "raw": "Astro v7.3.6"
+    },
+    "probe": {
+      "metas": [
+        "Astro v7.3.6"
+      ],
+      "marks": [
+        "astro",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "amazons3",
+      "name": "Amazon S3",
+      "icon": "Amazon",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AmazonS3",
+      "via": "1.1 99efc521448ac72d9653e4dc0952e778.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "ear4zoDfHdGkqeG2ez0ehkgRIaXfQ6VJ1Mep5OSawGBlA-c_q4nmZQ=="
+    },
+    "violations": 5,
+    "passes": 1227,
+    "incomplete": 99,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "ARIA hidden element must not be focusable or contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-hidden-focus?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[data-sid=\"612c.75\"]",
+            "snippet": "<div class=\"vc-copy-slide\" data-index=\"1\" data-active=\"false\" aria-hidden=\"true\" data-astro-cid-yg4nsxa6=\"\" data-sid=\"612c.75\">"
+          },
+          {
+            "selector": "div[data-sid=\"612c.80\"]",
+            "snippet": "<div class=\"vc-copy-slide\" data-index=\"3\" data-active=\"false\" aria-hidden=\"true\" data-astro-cid-yg4nsxa6=\"\" data-sid=\"612c.80\">"
+          },
+          {
+            "selector": "div[data-sid=\"612c.83\"]",
+            "snippet": "<div class=\"vc-copy-slide\" data-index=\"4\" data-active=\"false\" aria-hidden=\"true\" data-astro-cid-yg4nsxa6=\"\" data-sid=\"612c.83\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "._link_oeicz_43",
+            "snippet": "<a class=\"_link_oeicz_43\" href=\"/blog/2026/plugin-launch/\">Antithesis is now for everyone</a>"
+          },
+          {
+            "selector": "._logoLink_1no8l_72",
+            "snippet": "<a href=\"/\" class=\"_logoLink_1no8l_72\" aria-label=\"Antithesis home\"><img src=\"/_astro/antithesis.poHvWeoa.svg\" alt=\"\" class=\"_logo_1no8l_72\"><img src=\"/_astro/iris.C79y6VkI.svg\" alt=\"\" class=\"_logoIr…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "611b16bde843",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12880",
+          "etag": "W/\"387939280dd47f67eed9cc701ee9e12d\"",
+          "last-modified": "Mon, 16 Nov 2026 12:41:40 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "611b16bde843",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12894",
+          "etag": "W/\"387939280dd47f67eed9cc701ee9e12d\"",
+          "last-modified": "Mon, 16 Nov 2026 12:41:40 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "611b16bde843",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12905",
+          "etag": "W/\"387939280dd47f67eed9cc701ee9e12d\"",
+          "last-modified": "Mon, 16 Nov 2026 12:41:40 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "611b16bde843",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12914",
+          "etag": "W/\"387939280dd47f67eed9cc701ee9e12d\"",
+          "last-modified": "Mon, 16 Nov 2026 12:41:40 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

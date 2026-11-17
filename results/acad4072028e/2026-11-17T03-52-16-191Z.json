@@ -1,0 +1,336 @@
+{
+  "url": "https://nathanupchurch.com/",
+  "name": "nathanupchurch.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794887536191,
+  "date": "2026-11-17T03:52:16.191Z",
+  "runId": "2026-11-17T03-50-04-377Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23055,
+  "error": null,
+  "variance": {
+    "min": 90,
+    "max": 92,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://nathanupchurch.com/",
+    "finalUrl": "https://nathanupchurch.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 90,
+      "accessibility": 85,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 31
+    },
+    "timings": {
+      "fcp": 1146,
+      "lcp": 1146,
+      "si": 1174,
+      "tbt": 10,
+      "tti": 4808,
+      "cls": 0.199,
+      "ttfb": 602,
+      "maxPotentialFid": 70,
+      "serverResponseTime": 42,
+      "networkRtt": 144.9,
+      "networkServerLatency": 638.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 364.1,
+      "elementRenderDelay": 127.4
+    },
+    "weight": {
+      "total": 1169054,
+      "requests": 18,
+      "mainDocument": 31359,
+      "byType": {
+        "total": {
+          "bytes": 1169054,
+          "requests": 18
+        },
+        "script": {
+          "bytes": 615911,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 482625,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 33170,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 31359,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 5989,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10124,
+          "requests": 6
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 5,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 10124,
+      "mainThreadMs": 4.2,
+      "top": [
+        {
+          "entity": "zgo.at",
+          "bytes": 4503,
+          "mainThreadMs": 2,
+          "byType": {
+            "script": 4503
+          },
+          "typedBytes": 4503
+        },
+        {
+          "entity": "upchur.ch",
+          "bytes": 3843,
+          "mainThreadMs": 1.6,
+          "byType": {
+            "script": 2860,
+            "other": 983
+          },
+          "typedBytes": 3843
+        },
+        {
+          "entity": "meadow.cafe",
+          "bytes": 1396,
+          "mainThreadMs": 0.6,
+          "byType": {
+            "script": 1396
+          },
+          "typedBytes": 1396
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 347.6,
+      "byGroup": {
+        "other": 140.2,
+        "styleLayout": 70.5,
+        "scriptParseCompile": 56.1,
+        "scriptEvaluation": 51.5,
+        "parseHTML": 17.6,
+        "paintCompositeRender": 11.6
+      },
+      "bootupMs": 87.3,
+      "longTasks": 1,
+      "longestTaskMs": 70
+    },
+    "dom": {
+      "elements": 194,
+      "depth": 11,
+      "maxChildren": 15
+    },
+    "waste": {
+      "unusedJsBytes": 439413,
+      "unusedCssBytes": 14999,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 5532,
+      "renderBlockingMs": 169,
+      "renderBlockingCount": 6,
+      "poorlyCachedBytes": 1123896.28,
+      "poorlyCachedCount": 11
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 14,
+      "failingNodes": 7,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 6
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is not valid",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 22
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2409,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T03:52:17.470Z",
+      "runtimeMs": 7793.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.5",
+      "source": "meta",
+      "raw": "Eleventy v3.1.5"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.5"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 1,
+    "passes": 285,
+    "incomplete": 6,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".home-link",
+            "snippet": "<a href=\"/\" class=\"home-link\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a490a4c6a960",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"6afb2edb-78dc\"",
+          "last-modified": "Mon, 16 Nov 2026 16:27:07 GMT"
+        }
+      },
+      {
+        "hash": "a490a4c6a960",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"6afb2edb-78dc\"",
+          "last-modified": "Mon, 16 Nov 2026 16:27:07 GMT"
+        }
+      },
+      {
+        "hash": "a490a4c6a960",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"6afb2edb-78dc\"",
+          "last-modified": "Mon, 16 Nov 2026 16:27:07 GMT"
+        }
+      },
+      {
+        "hash": "a490a4c6a960",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"6afb2edb-78dc\"",
+          "last-modified": "Mon, 16 Nov 2026 16:27:07 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
