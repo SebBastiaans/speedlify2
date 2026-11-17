@@ -1,0 +1,410 @@
+{
+  "url": "https://mlcommons.org/",
+  "name": "mlcommons.org",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794887475092,
+  "date": "2026-11-17T03:51:15.092Z",
+  "runId": "2026-11-17T03-50-06-028Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 46758,
+  "error": null,
+  "variance": {
+    "min": 64,
+    "max": 69,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://mlcommons.org/",
+    "finalUrl": "https://mlcommons.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 68,
+      "accessibility": 90,
+      "best-practices": 96,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 2404,
+      "lcp": 19774,
+      "si": 4282,
+      "tbt": 138,
+      "tti": 20239,
+      "cls": 0,
+      "ttfb": 670,
+      "maxPotentialFid": 146,
+      "serverResponseTime": 47,
+      "networkRtt": 0.9,
+      "networkServerLatency": 70.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 48.3,
+      "resourceLoadDelay": 10.4,
+      "resourceLoadDuration": 38.3,
+      "elementRenderDelay": 1101
+    },
+    "weight": {
+      "total": 4616178,
+      "requests": 92,
+      "mainDocument": 33722,
+      "byType": {
+        "total": {
+          "bytes": 4616182,
+          "requests": 86
+        },
+        "image": {
+          "bytes": 2197196,
+          "requests": 46
+        },
+        "other": {
+          "bytes": 1601315,
+          "requests": 7
+        },
+        "script": {
+          "bytes": 420040,
+          "requests": 22
+        },
+        "document": {
+          "bytes": 266114,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 73822,
+          "requests": 6
+        },
+        "font": {
+          "bytes": 57695,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2089501,
+          "requests": 13
+        }
+      },
+      "scripts": 27,
+      "stylesheets": 6,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 252403,
+      "mainThreadMs": 72.1,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 164426,
+          "mainThreadMs": 62.1,
+          "byType": {
+            "script": 164426
+          },
+          "typedBytes": 164426
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 59625,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 1930,
+            "font": 57695
+          },
+          "typedBytes": 59625
+        },
+        {
+          "entity": "cloudflare.com",
+          "bytes": 28352,
+          "mainThreadMs": 9.7,
+          "byType": {
+            "script": 28352
+          },
+          "typedBytes": 28352
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1824.4,
+      "byGroup": {
+        "other": 692.6,
+        "scriptEvaluation": 607.1,
+        "styleLayout": 241.7,
+        "scriptParseCompile": 105.6,
+        "parseHTML": 81.8,
+        "paintCompositeRender": 81.7,
+        "garbageCollection": 13.9
+      },
+      "bootupMs": 551.2,
+      "longTasks": 2,
+      "longestTaskMs": 146
+    },
+    "dom": {
+      "elements": 818,
+      "depth": 16,
+      "maxChildren": 50
+    },
+    "waste": {
+      "unusedJsBytes": 96957,
+      "unusedCssBytes": 56721,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 23039,
+      "renderBlockingMs": 2116,
+      "renderBlockingCount": 10,
+      "poorlyCachedBytes": 6246,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 30,
+      "failingNodes": 9,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 3
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 68
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2912.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T03:51:43.527Z",
+      "runtimeMs": 15659.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5bbc7a5294d629c-SEA",
+      "server": "cloudflare",
+      "x-powered-by": "WP Engine"
+    },
+    "violations": 11,
+    "passes": 994,
+    "incomplete": 1,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "article:nth-child(1) > figure > a",
+            "snippet": "<a href=\"https://mlcommons.org/2026/11/mlperf-training-v6-1-results/\">"
+          },
+          {
+            "selector": "article:nth-child(2) > figure > a",
+            "snippet": "<a href=\"https://mlcommons.org/2026/10/introducing-candela/\">"
+          },
+          {
+            "selector": "article:nth-child(3) > figure > a",
+            "snippet": "<a href=\"https://mlcommons.org/2026/10/ailuminate-safety-1-2-1-and-jailbreak-1-1/\">"
+          },
+          {
+            "selector": "article:nth-child(4) > figure > a",
+            "snippet": "<a href=\"https://mlcommons.org/2026/10/composability-ai-safety/\">"
+          },
+          {
+            "selector": "article:nth-child(5) > figure > a",
+            "snippet": "<a href=\"https://mlcommons.org/2026/10/nsf-stride-ai-efficiency-challenge/\">"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 3,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".burger",
+            "snippet": "<button class=\"burger\">"
+          },
+          {
+            "selector": ".nav-buckets__primary > .site-search[role=\"search\"][method=\"get\"] > .search-field > button[type=\"submit\"]",
+            "snippet": "<button type=\"submit\">"
+          },
+          {
+            "selector": ".wrapper > .site-search[role=\"search\"][method=\"get\"] > .search-field > button[type=\"submit\"]",
+            "snippet": "<button type=\"submit\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".wp-block-column.is-layout-flow.wp-block-column-is-layout-flow:nth-child(1) > h4",
+            "snippet": "<h4 class=\"wp-block-heading\">Performance Benchmarks</h4>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".nav-buckets__primary > .site-search[role=\"search\"][method=\"get\"]",
+            "snippet": "<form role=\"search\" method=\"get\" class=\"site-search\" action=\"https://mlcommons.org/\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".skip-link",
+            "snippet": "<a class=\"skip-link screen-reader-text\" href=\"#primary\">Skip to content</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "175e98daf1af",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "559",
+          "cf-cache-status": "HIT",
+          "last-modified": "Tue, 17 Nov 2026 03:51:16 GMT",
+          "x-cache": "HIT: 1"
+        }
+      },
+      {
+        "hash": "175e98daf1af",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "570",
+          "cf-cache-status": "HIT",
+          "last-modified": "Tue, 17 Nov 2026 03:51:16 GMT",
+          "x-cache": "HIT: 1"
+        }
+      },
+      {
+        "hash": "175e98daf1af",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "586",
+          "cf-cache-status": "HIT",
+          "last-modified": "Tue, 17 Nov 2026 03:51:16 GMT",
+          "x-cache": "HIT: 1"
+        }
+      },
+      {
+        "hash": "325f69758761",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "EXPIRED",
+          "last-modified": "Tue, 17 Nov 2026 03:51:57 GMT",
+          "x-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

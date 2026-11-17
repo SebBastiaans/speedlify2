@@ -1,0 +1,270 @@
+{
+  "url": "https://markboulton.co.uk/",
+  "name": "markboulton.co.uk",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794887524852,
+  "date": "2026-11-17T03:52:04.852Z",
+  "runId": "2026-11-17T03-50-06-028Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21281,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 100,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://markboulton.co.uk/",
+    "finalUrl": "https://markboulton.co.uk/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 94,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 61
+    },
+    "timings": {
+      "fcp": 810,
+      "lcp": 810,
+      "si": 810,
+      "tbt": 0,
+      "tti": 810,
+      "cls": 0.124,
+      "ttfb": 628,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 29,
+      "networkRtt": 0,
+      "networkServerLatency": 28.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 30.9,
+      "elementRenderDelay": 137.4
+    },
+    "weight": {
+      "total": 105913,
+      "requests": 9,
+      "mainDocument": 1746,
+      "byType": {
+        "total": {
+          "bytes": 105289,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 96181,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 5305,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 1746,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 1048,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1009,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 152.1,
+      "byGroup": {
+        "other": 81,
+        "styleLayout": 38.7,
+        "scriptEvaluation": 19.1,
+        "paintCompositeRender": 7,
+        "parseHTML": 5.2,
+        "scriptParseCompile": 0.9
+      },
+      "bootupMs": 15.1,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 56,
+      "depth": 7,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 23,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 6
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2869,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T03:52:13.929Z",
+      "runtimeMs": 5910.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7KT4W4J27T9P3NA69N941KT"
+    },
+    "violations": 1,
+    "passes": 143,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "button",
+            "snippet": "<button class=\"[ toggle-button ] [ js-mode-toggle ]\" name=\"dark-mode-toggle\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "6e5c38406c74",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"7278988f8079f96f76f10892bc5fc49d-ssl\""
+        }
+      },
+      {
+        "hash": "6e5c38406c74",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"7278988f8079f96f76f10892bc5fc49d-ssl\""
+        }
+      },
+      {
+        "hash": "6e5c38406c74",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535986",
+          "etag": "W/\"7278988f8079f96f76f10892bc5fc49d-ssl\""
+        }
+      },
+      {
+        "hash": "6e5c38406c74",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "etag": "W/\"7278988f8079f96f76f10892bc5fc49d-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,409 @@
+{
+  "url": "https://mohitkarekar.com/",
+  "name": "mohitkarekar.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794887748041,
+  "date": "2026-11-17T03:55:48.041Z",
+  "runId": "2026-11-17T03-50-06-028Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22980,
+  "error": null,
+  "variance": {
+    "min": 94,
+    "max": 95,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://mohitkarekar.com/",
+    "finalUrl": "https://mohitkarekar.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 95,
+      "accessibility": 82,
+      "best-practices": 96,
+      "seo": 85,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1682,
+      "lcp": 1682,
+      "si": 1682,
+      "tbt": 233,
+      "tti": 5879,
+      "cls": 0.016,
+      "ttfb": 466,
+      "maxPotentialFid": 283,
+      "serverResponseTime": 13,
+      "networkRtt": 2.2,
+      "networkServerLatency": 64
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 14.9,
+      "elementRenderDelay": 162.1
+    },
+    "weight": {
+      "total": 748084,
+      "requests": 32,
+      "mainDocument": 14695,
+      "byType": {
+        "total": {
+          "bytes": 748084,
+          "requests": 31
+        },
+        "script": {
+          "bytes": 622589,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 40071,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 38987,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 25630,
+          "requests": 16
+        },
+        "document": {
+          "bytes": 14695,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 6112,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 623680,
+          "requests": 9
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 623680,
+      "mainThreadMs": 82.1,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 586893,
+          "mainThreadMs": 68.7,
+          "byType": {
+            "script": 586893
+          },
+          "typedBytes": 586893
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 20704,
+          "mainThreadMs": 8.9,
+          "byType": {
+            "script": 20704
+          },
+          "typedBytes": 20704
+        },
+        {
+          "entity": "convertkit.com",
+          "bytes": 15014,
+          "mainThreadMs": 4.2,
+          "byType": {
+            "script": 13963,
+            "other": 1051
+          },
+          "typedBytes": 15014
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 1033,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1033
+          },
+          "typedBytes": 1033
+        },
+        {
+          "entity": "cloudflareinsights.com",
+          "bytes": 36,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "other": 36
+          },
+          "typedBytes": 36
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 679.8,
+      "byGroup": {
+        "other": 186.1,
+        "scriptParseCompile": 183.3,
+        "scriptEvaluation": 175.9,
+        "styleLayout": 79.6,
+        "paintCompositeRender": 26.6,
+        "parseHTML": 20.2,
+        "garbageCollection": 8.1
+      },
+      "bootupMs": 292.9,
+      "longTasks": 1,
+      "longestTaskMs": 283
+    },
+    "dom": {
+      "elements": 448,
+      "depth": 10,
+      "maxChildren": 50
+    },
+    "waste": {
+      "unusedJsBytes": 544681,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 27090,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 765,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 18085.14476388889,
+      "poorlyCachedCount": 4
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 19,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 10
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 10,
+      "baselineLimitedFeatures": 27
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2977.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-17T03:55:56.560Z",
+      "runtimeMs": 6774.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5bbcdc05a34df86-SEA",
+      "server": "cloudflare"
+    },
+    "violations": 9,
+    "passes": 1060,
+    "incomplete": 1,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 6,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".container > div:nth-child(1) > div",
+            "snippet": "<div>"
+          },
+          {
+            "selector": ".formkit-subheader",
+            "snippet": "<div class=\"formkit-subheader\" data-element=\"subheader\" style=\"color: rgb(104, 104, 104); font-size: 18px;\"><p>Subscribe to get my latest posts by email.</p></div>"
+          },
+          {
+            "selector": ".formkit-field",
+            "snippet": "<div class=\"formkit-field\"><input class=\"formkit-input\" name=\"email_address\" aria-label=\"Your email address\" placeholder=\"Your email address\" required=\"\" type=\"email\" style=\"color: rgb(0, 0, 0); bord…"
+          },
+          {
+            "selector": ".formkit-guarantee",
+            "snippet": "<div class=\"formkit-guarantee\" data-element=\"guarantee\" style=\"color: rgb(77, 77, 77); font-size: 13px; font-weight: 400;\"><p>I won't send you spam. Unsubscribe at any time.</p></div>"
+          },
+          {
+            "selector": ".formkit-powered-by-convertkit-container",
+            "snippet": "<div class=\"formkit-powered-by-convertkit-container\">"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "img[src$=\"mk_profile_2026_crop.webp\"]",
+            "snippet": "<img src=\"/img/mk_profile_2026_crop.webp\" width=\"150\" height=\"150\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div:nth-child(1) > p > a",
+            "snippet": "<a href=\"https://twitter.com/zalandotech\">@zalando</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a6430d3699fc",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "EXPIRED",
+          "last-modified": "Tue, 17 Nov 2026 03:55:49 GMT"
+        }
+      },
+      {
+        "hash": "a6430d3699fc",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "EXPIRED",
+          "last-modified": "Tue, 17 Nov 2026 03:55:56 GMT"
+        }
+      },
+      {
+        "hash": "a6430d3699fc",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "EXPIRED",
+          "last-modified": "Tue, 17 Nov 2026 03:56:03 GMT"
+        }
+      },
+      {
+        "hash": "a6430d3699fc",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "EXPIRED",
+          "last-modified": "Tue, 17 Nov 2026 03:56:07 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
