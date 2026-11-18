@@ -1,0 +1,262 @@
+{
+  "url": "https://ww0cj.radio/",
+  "name": "ww0cj.radio",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795007444529,
+  "date": "2026-11-18T13:10:44.529Z",
+  "runId": "2026-11-18T13-06-52-711Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 19064,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 96,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://ww0cj.radio/",
+    "finalUrl": "https://ww0cj.radio/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 94
+    },
+    "timings": {
+      "fcp": 1552,
+      "lcp": 1552,
+      "si": 1552,
+      "tbt": 0,
+      "tti": 1552,
+      "cls": 0.105,
+      "ttfb": 636,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 36,
+      "networkRtt": 0,
+      "networkServerLatency": 36.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 37.5,
+      "elementRenderDelay": 69.2
+    },
+    "weight": {
+      "total": 33671,
+      "requests": 5,
+      "mainDocument": 4099,
+      "byType": {
+        "total": {
+          "bytes": 33671,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 28581,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 4099,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 991,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 29572,
+          "requests": 4
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 29572,
+      "mainThreadMs": 0.3,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 29572,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 991,
+            "font": 28581
+          },
+          "typedBytes": 29572
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 252.5,
+      "byGroup": {
+        "other": 107.4,
+        "scriptEvaluation": 85.3,
+        "styleLayout": 38,
+        "paintCompositeRender": 12.9,
+        "parseHTML": 6.3,
+        "scriptParseCompile": 2.4
+      },
+      "bootupMs": 85.3,
+      "longTasks": 1,
+      "longestTaskMs": 77
+    },
+    "dom": {
+      "elements": 28,
+      "depth": 5,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 766,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 3
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2880.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T13:10:52.016Z",
+      "runtimeMs": 5590.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5c737fffc8322c6-SJC",
+      "server": "cloudflare",
+      "via": "2.0 Caddy, 2.0 heroku-router"
+    },
+    "violations": 0,
+    "passes": 82,
+    "incomplete": 2,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b24b1f4707ed",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "27829",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 18 Nov 2026 05:26:56 GMT"
+        }
+      },
+      {
+        "hash": "b24b1f4707ed",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "27835",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 18 Nov 2026 05:26:56 GMT"
+        }
+      },
+      {
+        "hash": "b24b1f4707ed",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "27841",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 18 Nov 2026 05:26:56 GMT"
+        }
+      },
+      {
+        "hash": "b24b1f4707ed",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "27845",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 18 Nov 2026 05:26:56 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
