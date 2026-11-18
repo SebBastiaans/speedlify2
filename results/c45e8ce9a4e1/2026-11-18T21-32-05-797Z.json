@@ -1,0 +1,349 @@
+{
+  "url": "https://www.usac.ucla.edu/",
+  "name": "usac.ucla.edu",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795037525797,
+  "date": "2026-11-18T21:32:05.797Z",
+  "runId": "2026-11-18T21-25-58-867Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 32051,
+  "error": null,
+  "variance": {
+    "min": 43,
+    "max": 61,
+    "spread": 18,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.usac.ucla.edu/",
+    "finalUrl": "https://www.usac.ucla.edu/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 61,
+      "accessibility": 94,
+      "best-practices": 100,
+      "seo": 85,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2780,
+      "lcp": 12984,
+      "si": 4196,
+      "tbt": 334,
+      "tti": 13051,
+      "cls": 0,
+      "ttfb": 665,
+      "maxPotentialFid": 349,
+      "serverResponseTime": 21,
+      "networkRtt": 0.1,
+      "networkServerLatency": 79.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 22.5,
+      "elementRenderDelay": 695.6
+    },
+    "weight": {
+      "total": 3291762,
+      "requests": 76,
+      "mainDocument": 48234,
+      "byType": {
+        "total": {
+          "bytes": 3291762,
+          "requests": 76
+        },
+        "image": {
+          "bytes": 1712691,
+          "requests": 8
+        },
+        "script": {
+          "bytes": 1256695,
+          "requests": 50
+        },
+        "stylesheet": {
+          "bytes": 167275,
+          "requests": 10
+        },
+        "font": {
+          "bytes": 83567,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 48234,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 23300,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3243445,
+          "requests": 74
+        }
+      },
+      "scripts": 50,
+      "stylesheets": 10,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 3243445,
+      "mainThreadMs": 279.8,
+      "top": [
+        {
+          "entity": "squarespace-cdn.com",
+          "bytes": 1810245,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 1712691,
+            "other": 23217,
+            "font": 74337
+          },
+          "typedBytes": 1810245
+        },
+        {
+          "entity": "Squarespace",
+          "bytes": 931546,
+          "mainThreadMs": 228.1,
+          "byType": {
+            "script": 759244,
+            "stylesheet": 163072,
+            "font": 9230
+          },
+          "typedBytes": 931546
+        },
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 347339,
+          "mainThreadMs": 30.6,
+          "byType": {
+            "script": 347339
+          },
+          "typedBytes": 347339
+        },
+        {
+          "entity": "sqspcdn.com",
+          "bytes": 120794,
+          "mainThreadMs": 9.5,
+          "byType": {
+            "script": 116591,
+            "stylesheet": 4203
+          },
+          "typedBytes": 120794
+        },
+        {
+          "entity": "Google CDN",
+          "bytes": 33521,
+          "mainThreadMs": 11.6,
+          "byType": {
+            "script": 33521
+          },
+          "typedBytes": 33521
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2978,
+      "byGroup": {
+        "scriptEvaluation": 934.8,
+        "other": 815.8,
+        "styleLayout": 611.9,
+        "scriptParseCompile": 396.2,
+        "parseHTML": 121.4,
+        "paintCompositeRender": 70.7,
+        "garbageCollection": 27.2
+      },
+      "bootupMs": 1152.4,
+      "longTasks": 13,
+      "longestTaskMs": 349
+    },
+    "dom": {
+      "elements": 976,
+      "depth": 21,
+      "maxChildren": 20
+    },
+    "waste": {
+      "unusedJsBytes": 369292,
+      "unusedCssBytes": 132610,
+      "legacyJsBytes": 88702,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 2495,
+      "renderBlockingCount": 8,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 26,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 3
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 48
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2763.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T21:32:18.934Z",
+      "runtimeMs": 8828.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {
+        "fontawesome": "5.12.1"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "Squarespace",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "Squarespace"
+    },
+    "violations": 3,
+    "passes": 594,
+    "incomplete": 23,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#block-9e081d59ed7413ddee45 > .sqs-block-content > .sqs-text-block-container > .sqs-html-content[data-sqsp-text-block-content=\"\"] > h3",
+            "snippet": "<h3 style=\"white-space: pre-wrap; transition-timing-function: ease; transition-duration: 0.8s; transition-delay: 0.160563s;\" data-rte-preserve-empty=\"true\" class=\"preSlide slideIn\">Your <em>voice</em…"
+          },
+          {
+            "selector": "#block-424f2b2c5749b3b10c42 > .sqs-block-content > .sqs-text-block-container > .sqs-html-content[data-sqsp-text-block-content=\"\"] > h4",
+            "snippet": "<h4 style=\"text-align: justify; white-space: pre-wrap; transition-timing-function: ease; transition-duration: 0.8s; transition-delay: 0.329577s;\" data-rte-preserve-empty=\"true\" class=\"preFade\">"
+          },
+          {
+            "selector": "#block-257b3fdd36147a5d64cb > .sqs-block-content > .sqs-text-block-container > .sqs-html-content[data-sqsp-text-block-content=\"\"] > h3",
+            "snippet": "<h3 style=\"white-space: pre-wrap; transition-timing-function: ease; transition-duration: 0.8s; transition-delay: 0.48169s;\" data-rte-preserve-empty=\"true\" class=\"preSlide\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "deb06cbb9a5a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16953",
+          "etag": "W/\"d260294d4de262c05e4387161e1de1f0\""
+        }
+      },
+      {
+        "hash": "deb06cbb9a5a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16965",
+          "etag": "W/\"d260294d4de262c05e4387161e1de1f0\""
+        }
+      },
+      {
+        "hash": "deb06cbb9a5a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16974",
+          "etag": "W/\"d260294d4de262c05e4387161e1de1f0\""
+        }
+      },
+      {
+        "hash": "deb06cbb9a5a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16982",
+          "etag": "W/\"d260294d4de262c05e4387161e1de1f0\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,289 @@
+{
+  "url": "https://www.gifgun.io/",
+  "name": "www.gifgun.io",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795037202999,
+  "date": "2026-11-18T21:26:42.999Z",
+  "runId": "2026-11-18T21-25-58-867Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 43177,
+  "error": null,
+  "variance": {
+    "min": 88,
+    "max": 100,
+    "spread": 12,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.gifgun.io/",
+    "finalUrl": "https://www.gifgun.io/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 93,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1014,
+      "lcp": 3203,
+      "si": 1425,
+      "tbt": 0,
+      "tti": 3293,
+      "cls": 0,
+      "ttfb": 624,
+      "maxPotentialFid": 29,
+      "serverResponseTime": 18,
+      "networkRtt": 0.1,
+      "networkServerLatency": 48.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 19.2,
+      "elementRenderDelay": 186.4
+    },
+    "weight": {
+      "total": 8433877,
+      "requests": 21,
+      "mainDocument": 15277,
+      "byType": {
+        "total": {
+          "bytes": 8431734,
+          "requests": 20
+        },
+        "media": {
+          "bytes": 7302782,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 1025583,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 55741,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 15660,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 15277,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 10051,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 6640,
+          "requests": 2
+        },
+        "third-party": {
+          "bytes": 8119987,
+          "requests": 3
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 7830015,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "gifgun.online",
+          "bytes": 7798233,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 785423,
+            "media": 7012810
+          },
+          "typedBytes": 7798233
+        },
+        {
+          "entity": "YouTube",
+          "bytes": 31782,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 31782
+          },
+          "typedBytes": 31782
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 765.4,
+      "byGroup": {
+        "other": 391.2,
+        "styleLayout": 204.3,
+        "scriptEvaluation": 81.2,
+        "paintCompositeRender": 47.7,
+        "parseHTML": 27.1,
+        "scriptParseCompile": 7.9,
+        "garbageCollection": 6
+      },
+      "bootupMs": 74.6,
+      "longTasks": 1,
+      "longestTaskMs": 84
+    },
+    "dom": {
+      "elements": 635,
+      "depth": 12,
+      "maxChildren": 17
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2932,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 185510.6081005587,
+      "poorlyCachedCount": 9
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 34,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 27
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2773,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T21:26:54.123Z",
+      "runtimeMs": 8183.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.6",
+      "source": "meta",
+      "raw": "Eleventy v3.1.6"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.6"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "cle1::v4rd7-1795037229589-82bb700a5373"
+    },
+    "violations": 0,
+    "passes": 827,
+    "incomplete": 17,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "56e03853b766",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "29994",
+          "etag": "W/\"628ac11be87e766f9d5a1af79fa34a24\"",
+          "last-modified": "Wed, 18 Nov 2026 13:06:50 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "56e03853b766",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "30003",
+          "etag": "W/\"628ac11be87e766f9d5a1af79fa34a24\"",
+          "last-modified": "Wed, 18 Nov 2026 13:06:50 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "56e03853b766",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "30012",
+          "etag": "W/\"628ac11be87e766f9d5a1af79fa34a24\"",
+          "last-modified": "Wed, 18 Nov 2026 13:06:50 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "56e03853b766",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"628ac11be87e766f9d5a1af79fa34a24\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

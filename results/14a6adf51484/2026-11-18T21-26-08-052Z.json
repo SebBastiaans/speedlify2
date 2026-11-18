@@ -1,0 +1,327 @@
+{
+  "url": "https://www.galajurk.nl/",
+  "name": "www.galajurk.nl",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795037168052,
+  "date": "2026-11-18T21:26:08.052Z",
+  "runId": "2026-11-18T21-25-58-867Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 31947,
+  "error": null,
+  "variance": {
+    "min": 93,
+    "max": 98,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.galajurk.nl/",
+    "finalUrl": "https://www.galajurk.nl/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 91,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1100,
+      "lcp": 2680,
+      "si": 2314,
+      "tbt": 0,
+      "tti": 2680,
+      "cls": 0,
+      "ttfb": 730,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 119,
+      "networkRtt": 0.1,
+      "networkServerLatency": 130.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 120.6,
+      "resourceLoadDelay": 11,
+      "resourceLoadDuration": 173,
+      "elementRenderDelay": 1033.1
+    },
+    "weight": {
+      "total": 845355,
+      "requests": 24,
+      "mainDocument": 14822,
+      "byType": {
+        "total": {
+          "bytes": 843055,
+          "requests": 23
+        },
+        "image": {
+          "bytes": 776911,
+          "requests": 16
+        },
+        "script": {
+          "bytes": 26282,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 14822,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 12381,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 10509,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2150,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3259,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 3259,
+      "mainThreadMs": 1.5,
+      "top": [
+        {
+          "entity": "Plausible",
+          "bytes": 3259,
+          "mainThreadMs": 1.5,
+          "byType": {
+            "script": 3259
+          },
+          "typedBytes": 3259
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 340.9,
+      "byGroup": {
+        "other": 174.2,
+        "styleLayout": 87.4,
+        "scriptEvaluation": 32.5,
+        "parseHTML": 19.5,
+        "paintCompositeRender": 17.8,
+        "scriptParseCompile": 9.6
+      },
+      "bootupMs": 17.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 641,
+      "depth": 12,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 85514.24166666664,
+      "poorlyCachedCount": 20
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 26,
+      "failingNodes": 31,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 25
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 15
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2779.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T21:26:22.423Z",
+      "runtimeMs": 8774.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "LiteSpeed",
+      "detailIcon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "LiteSpeed"
+    },
+    "violations": 26,
+    "passes": 834,
+    "incomplete": 3,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 25,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".mt-md-4.mx-2.mx-md-0 > p > a[href$=\"galajurken/\"]",
+            "snippet": "<a href=\"/galajurken/\">modieuze galajurk</a>"
+          },
+          {
+            "selector": ".mt-md-4.mx-2.mx-md-0 > p > a[href$=\"avondjurken/\"]",
+            "snippet": "<a href=\"/avondjurken/\">stijlvolle avondjurk</a>"
+          },
+          {
+            "selector": "a[href$=\"info/#afspraak-regels\"]",
+            "snippet": "<a href=\"/info/#afspraak-regels\">voordelen en hoe je een afspraak maakt</a>"
+          },
+          {
+            "selector": ".col > p > a[href$=\"galajurken/\"]",
+            "snippet": "<a href=\"/galajurken/\">feestelijke galajurken</a>"
+          },
+          {
+            "selector": "p > a[href$=\"cocktailjurken/\"]",
+            "snippet": "<a href=\"/cocktailjurken/\">hipste cocktailjurken</a>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".col:nth-child(1) > .card-voettekst.h-100.card > .card-header > h5",
+            "snippet": "<h5>Contact</h5>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c39a9344f275",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Wed, 18 Nov 2026 15:15:34 GMT"
+        }
+      },
+      {
+        "hash": "c39a9344f275",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Wed, 18 Nov 2026 15:15:34 GMT"
+        }
+      },
+      {
+        "hash": "c39a9344f275",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Wed, 18 Nov 2026 15:15:34 GMT"
+        }
+      },
+      {
+        "hash": "c39a9344f275",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Wed, 18 Nov 2026 15:15:34 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
