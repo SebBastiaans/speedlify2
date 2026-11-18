@@ -1,0 +1,259 @@
+{
+  "url": "https://unslump.me/",
+  "name": "unslump.me",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794975855658,
+  "date": "2026-11-18T04:24:15.658Z",
+  "runId": "2026-11-18T04-16-32-829Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23892,
+  "error": null,
+  "variance": {
+    "min": 97,
+    "max": 100,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://unslump.me/",
+    "finalUrl": "https://unslump.me/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 836,
+      "lcp": 836,
+      "si": 1001,
+      "tbt": 37,
+      "tti": 1677,
+      "cls": 0,
+      "ttfb": 667,
+      "maxPotentialFid": 87,
+      "serverResponseTime": 33,
+      "networkRtt": 0,
+      "networkServerLatency": 67.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 34.3,
+      "elementRenderDelay": 153.1
+    },
+    "weight": {
+      "total": 173441,
+      "requests": 40,
+      "mainDocument": 4141,
+      "byType": {
+        "total": {
+          "bytes": 170316,
+          "requests": 38
+        },
+        "script": {
+          "bytes": 103138,
+          "requests": 30
+        },
+        "font": {
+          "bytes": 49034,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 6300,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 5495,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 4141,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2208,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 30,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 436.4,
+      "byGroup": {
+        "other": 207.1,
+        "scriptEvaluation": 171.5,
+        "styleLayout": 26.1,
+        "scriptParseCompile": 14,
+        "parseHTML": 9,
+        "paintCompositeRender": 8.7
+      },
+      "bootupMs": 132.7,
+      "longTasks": 1,
+      "longestTaskMs": 87
+    },
+    "dom": {
+      "elements": 36,
+      "depth": 8,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 21,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 21
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2930.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T04:24:32.233Z",
+      "runtimeMs": 6320
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nuxt",
+      "name": "Nuxt",
+      "icon": "Nuxt",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "nuxt",
+        "vue"
+      ],
+      "markVersions": {
+        "vue": "3.5.40"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-powered-by": "Nuxt",
+      "x-vercel-id": "iad1::iad1::jdsph-1794975877605-1981cb88aa4e"
+    },
+    "violations": 0,
+    "passes": 71,
+    "incomplete": 9,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9238790b4912",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "9238790b4912",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "9238790b4912",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "9238790b4912",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "x-vercel-cache": "MISS"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

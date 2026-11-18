@@ -1,0 +1,535 @@
+{
+  "url": "https://www.qualcomm.com/",
+  "name": "Qualcomm",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1794976508777,
+  "date": "2026-11-18T04:35:08.777Z",
+  "runId": "2026-11-18T04-16-32-829Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 140147,
+  "error": null,
+  "variance": {
+    "min": 8,
+    "max": 13,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.qualcomm.com/",
+    "finalUrl": "https://www.qualcomm.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 8,
+      "accessibility": 77,
+      "best-practices": 96,
+      "seo": 85,
+      "agentic-browsing": 33
+    },
+    "timings": {
+      "fcp": 2493,
+      "lcp": 25762,
+      "si": 10825,
+      "tbt": 2913,
+      "tti": 25980,
+      "cls": 1.927,
+      "ttfb": 635,
+      "maxPotentialFid": 678,
+      "serverResponseTime": 34,
+      "networkRtt": 5.4,
+      "networkServerLatency": 118
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 36.3,
+      "resourceLoadDelay": 1119.7,
+      "resourceLoadDuration": 33.8,
+      "elementRenderDelay": 897
+    },
+    "weight": {
+      "total": 5219332,
+      "requests": 132,
+      "mainDocument": 3524,
+      "byType": {
+        "total": {
+          "bytes": 5217934,
+          "requests": 131
+        },
+        "script": {
+          "bytes": 2756411,
+          "requests": 34
+        },
+        "font": {
+          "bytes": 1135115,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 933901,
+          "requests": 47
+        },
+        "other": {
+          "bytes": 202931,
+          "requests": 37
+        },
+        "stylesheet": {
+          "bytes": 186052,
+          "requests": 8
+        },
+        "document": {
+          "bytes": 3524,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1410846,
+          "requests": 63
+        }
+      },
+      "scripts": 34,
+      "stylesheets": 8,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 8,
+      "bytes": 1410202,
+      "mainThreadMs": 171.7,
+      "top": [
+        {
+          "entity": "Adobe Scene7",
+          "bytes": 824322,
+          "mainThreadMs": 0.7,
+          "byType": {
+            "script": 4516,
+            "image": 819806
+          },
+          "typedBytes": 824322
+        },
+        {
+          "entity": "Optanon",
+          "bytes": 258090,
+          "mainThreadMs": 45.1,
+          "byType": {
+            "script": 159838,
+            "other": 59333,
+            "image": 38919
+          },
+          "typedBytes": 258090
+        },
+        {
+          "entity": "Adobe Tag Manager",
+          "bytes": 183439,
+          "mainThreadMs": 87.9,
+          "byType": {
+            "script": 183439
+          },
+          "typedBytes": 183439
+        },
+        {
+          "entity": "Qualtrics",
+          "bytes": 91199,
+          "mainThreadMs": 13.8,
+          "byType": {
+            "script": 85627,
+            "other": 5059,
+            "image": 513
+          },
+          "typedBytes": 91199
+        },
+        {
+          "entity": "bc0a.com",
+          "bytes": 25804,
+          "mainThreadMs": 11.8,
+          "byType": {
+            "script": 24817,
+            "other": 987
+          },
+          "typedBytes": 25804
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 12276.4,
+      "byGroup": {
+        "scriptEvaluation": 6909.5,
+        "styleLayout": 2208.2,
+        "other": 1748.8,
+        "parseHTML": 606,
+        "paintCompositeRender": 468.7,
+        "garbageCollection": 170,
+        "scriptParseCompile": 165.3
+      },
+      "bootupMs": 6904.6,
+      "longTasks": 20,
+      "longestTaskMs": 678
+    },
+    "dom": {
+      "elements": 1509,
+      "depth": 64,
+      "maxChildren": 30
+    },
+    "waste": {
+      "unusedJsBytes": 1683865,
+      "unusedCssBytes": 180914,
+      "legacyJsBytes": 78528,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 3327,
+      "renderBlockingCount": 9,
+      "poorlyCachedBytes": 1717708.1833333336,
+      "poorlyCachedCount": 70
+    },
+    "accessibility": {
+      "failingCount": 6,
+      "applicableCount": 31,
+      "failingNodes": 13,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 7
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "title": "Elements use prohibited ARIA attributes",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "aria-required-children",
+          "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "list",
+          "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 3
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 3
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 10
+        },
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is not valid",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 3,
+      "baselineLimitedFeatures": 57
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3027,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T04:35:33.159Z",
+      "runtimeMs": 22241.8
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.1,
+    "resourceLoadDelay": 19318.7,
+    "resourceLoadDuration": 2694.6,
+    "elementRenderDelay": 1918.8
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5c4479d3dc3aefe-DFW",
+      "server": "cloudflare",
+      "x-served-by": "cache-bfi-krnt7300103-BFI"
+    },
+    "violations": 17,
+    "passes": 1826,
+    "incomplete": 43,
+    "violationRules": 9,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 7,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".cidQep[href$=\"www.qualcomm.com\"]",
+            "snippet": "<a href=\"https://www.qualcomm.com\" class=\"Flex-sc-v84zqq-0 cidQep\">"
+          },
+          {
+            "selector": ".VerticalBlogCard-module__image___uZOGe",
+            "snippet": "<a class=\"StyledLink-sc-64m86s-0 jslaiV Flex-sc-v84zqq-0 cidQep VerticalBlogCard-module__image___uZOGe\" href=\"/news/onq/2026/09/snapdragon-for-agentic-age\" style=\"--cardTeaserImage: url(&quot;https:/…"
+          },
+          {
+            "selector": "#globalfooter-1a863de3eb > a[href$=\"www.qualcomm.com\"]",
+            "snippet": "<a href=\"https://www.qualcomm.com\">"
+          },
+          {
+            "selector": ".p-xxs.w-\\[40px\\].variant-blue-gray:nth-child(1)",
+            "snippet": "<a class=\"content-driven-cta g...\" href=\"https://www.linkedin...\" target=\"_self\" style=\"--cta-base-color: va...\">"
+          },
+          {
+            "selector": "a[href$=\"qualcomm\"]:nth-child(2)",
+            "snippet": "<a class=\"content-driven-cta g...\" href=\"https://x.com/qualco...\" target=\"_self\" style=\"--cta-base-color: va...\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".Span-sc-1ubrxrj-0.kFhpJk[data-index=\"1\"]",
+            "snippet": "<span data-index=\"1\" class=\"Span-sc-1ubrxrj-0 kFhpJk rte-heading-xs\">Dragonwing</span>"
+          },
+          {
+            "selector": ".Span-sc-1ubrxrj-0.kFhpJk[data-index=\"2\"]",
+            "snippet": "<span data-index=\"2\" class=\"Span-sc-1ubrxrj-0 kFhpJk rte-heading-xs\">Qualcomm Dragonfly</span>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#usntA40Toggle",
+            "snippet": "<div id=\"usntA40Toggle\" data-nosnippet=\"\" style=\"display:none;\" class=\"usntA40mobile usntA40bottom-left usntA40-small\">"
+          },
+          {
+            "selector": "#onetrust-banner-sdk",
+            "snippet": "<div id=\"onetrust-banner-sdk\" class=\"otFloatingRounded ot-bottom-left ot-wo-title vertical-align-content\" tabindex=\"0\" aria-label=\"Privacy\" style=\"bottom: 1rem;\">"
+          }
+        ]
+      },
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "li[role=\"button\"]",
+            "snippet": "<li role=\"button\"><div class=\"inline-block body-xs ot-sdk-show-settings text-theme-neutral-800 hover:text-theme-neutral-600 cursor-pointer\">Cookie Settings</div></li>"
+          }
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".FEJRy",
+            "snippet": "<div aria-label=\"Qualcomm\" location=\"[object Object]\" url=\"/\" class=\"Box-sc-1oaspsu-0 FEJRy\">"
+          }
+        ]
+      },
+      {
+        "id": "aria-required-children",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Certain ARIA roles must contain particular children",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-children?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".shadow-m",
+            "snippet": "<div class=\"AnimatedBox-sc-onis0d-0 dsmUzz absolute shadow-m bg-theme-neutral-000 border border-theme-neutral-200 w-[165px] mt-xxs min-h-[36px] max-h-[216px] overflow-hidden right-0 px-xxs\" role=\"men…"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".gap-x-s.items-center.flex > button:nth-child(3)",
+            "snippet": "<button><div class=\"fill-theme-neutral-800 stroke-theme-neutral-800 w-6\"><svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4 12H20M4 6H20M4 18H20\" stroke=\"#151515\" str…"
+          }
+        ]
+      },
+      {
+        "id": "list",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".GlobalFooter-module__legalLinksList___it2vS",
+            "snippet": "<ul class=\"flex flex-row leading-4 GlobalFooter-module__legalLinksList___it2vS\">"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".YCxXF",
+            "snippet": "<div class=\"Box-sc-1oaspsu-0 YCxXF root-item-with-arrow-container\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "af87485ab842",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5725",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 18 Nov 2026 03:01:06 GMT",
+          "x-cache": "MISS"
+        }
+      },
+      {
+        "hash": "af87485ab842",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5748",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 18 Nov 2026 03:01:06 GMT",
+          "x-cache": "MISS"
+        }
+      },
+      {
+        "hash": "af87485ab842",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5770",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 18 Nov 2026 03:01:06 GMT",
+          "x-cache": "MISS"
+        }
+      },
+      {
+        "hash": "af87485ab842",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5793",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 18 Nov 2026 03:01:06 GMT",
+          "x-cache": "MISS"
+        }
+      },
+      {
+        "hash": "9481dc55cb05",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5859",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 18 Nov 2026 03:01:06 GMT",
+          "x-cache": "MISS"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
