@@ -1,0 +1,304 @@
+{
+  "url": "https://www.wix.com/",
+  "name": "Wix",
+  "group": "builders",
+  "groupName": "Website Builders",
+  "timestamp": 1795009226008,
+  "date": "2026-11-18T13:40:26.008Z",
+  "runId": "2026-11-18T13-06-56-504Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 1,
+  "durationMs": 176565,
+  "error": null,
+  "partialErrors": [
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)",
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)"
+  ],
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://www.wix.com/",
+    "finalUrl": "https://www.wix.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 42,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 5203,
+      "lcp": 5203,
+      "si": 21310,
+      "tbt": 814,
+      "tti": 10298,
+      "cls": 0,
+      "ttfb": 676,
+      "maxPotentialFid": 220,
+      "serverResponseTime": 18,
+      "networkRtt": 0.9,
+      "networkServerLatency": 184.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 20.6,
+      "elementRenderDelay": 12834.5
+    },
+    "weight": {
+      "total": 2330812,
+      "requests": 281,
+      "mainDocument": 287457,
+      "byType": {
+        "total": {
+          "bytes": 2327917,
+          "requests": 280
+        },
+        "script": {
+          "bytes": 904061,
+          "requests": 104
+        },
+        "other": {
+          "bytes": 864647,
+          "requests": 126
+        },
+        "document": {
+          "bytes": 287457,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 140817,
+          "requests": 42
+        },
+        "font": {
+          "bytes": 121473,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 9462,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2327917,
+          "requests": 280
+        }
+      },
+      "scripts": 104,
+      "stylesheets": 3,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 149242,
+      "mainThreadMs": 29.8,
+      "top": [
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 106873,
+          "mainThreadMs": 19.9,
+          "byType": {
+            "script": 106361,
+            "other": 127,
+            "stylesheet": 385
+          },
+          "typedBytes": 106873
+        },
+        {
+          "entity": "Sentry",
+          "bytes": 42369,
+          "mainThreadMs": 9.9,
+          "byType": {
+            "script": 42369
+          },
+          "typedBytes": 42369
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 10858.4,
+      "byGroup": {
+        "scriptEvaluation": 5041.3,
+        "other": 2991.4,
+        "styleLayout": 1474.3,
+        "scriptParseCompile": 525.9,
+        "parseHTML": 521.1,
+        "paintCompositeRender": 154.8,
+        "garbageCollection": 149.5
+      },
+      "bootupMs": 4791.8,
+      "longTasks": 20,
+      "longestTaskMs": 485
+    },
+    "dom": {
+      "elements": 4436,
+      "depth": 33,
+      "maxChildren": 50
+    },
+    "waste": {
+      "unusedJsBytes": 206598,
+      "unusedCssBytes": 17754,
+      "legacyJsBytes": 12552,
+      "duplicatedJsBytes": 30339,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 765,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 1071.9999999999998,
+      "poorlyCachedCount": 7
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 34,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "presentation-role-conflict",
+          "title": "Elements with `role=\"none\"` or `role=\"presentation\"` have conflicts",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 58
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 1334,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T13:41:40.954Z",
+      "runtimeMs": 33781.9
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.3,
+    "elementRenderDelay": 544.9
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "wix",
+      "name": "Wix",
+      "icon": "Wix",
+      "version": null,
+      "source": "meta",
+      "raw": "Wix.com Website Builder"
+    },
+    "probe": {
+      "metas": [
+        "Wix.com Website Builder"
+      ],
+      "marks": [
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "Pepyaka",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "Pepyaka",
+      "via": "1.1 google",
+      "x-served-by": "cache-bur-kbur8200044-BUR"
+    },
+    "violations": 1,
+    "passes": 4396,
+    "incomplete": 104,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "presentation-role-conflict",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Elements marked as presentational should be consistently ignored",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/presentation-role-conflict?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#comp-moioxzgl6webglcanvas",
+            "snippet": "<canvas id=\"comp-moioxzgl6webglcanvas\" class=\"g4gDzl webglcanvas\" aria-label=\"\" role=\"presentation\" data-testid=\"canvas\"></canvas>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "4da95f274772",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "86555",
+          "etag": "W/\"53f4eb9ff47c9bf1af91c01597d07f6c\"",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4da95f274772",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "86589",
+          "etag": "W/\"53f4eb9ff47c9bf1af91c01597d07f6c\"",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4da95f274772",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "86651",
+          "etag": "W/\"53f4eb9ff47c9bf1af91c01597d07f6c\"",
+          "x-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

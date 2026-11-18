@@ -1,0 +1,328 @@
+{
+  "url": "https://mistral.ai/",
+  "name": "Mistral",
+  "group": "ai",
+  "groupName": "AI",
+  "timestamp": 1795008562812,
+  "date": "2026-11-18T13:29:22.812Z",
+  "runId": "2026-11-18T13-06-56-504Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 102517,
+  "error": null,
+  "variance": {
+    "min": 50,
+    "max": 53,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://mistral.ai/",
+    "finalUrl": "https://mistral.ai/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 52,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1886,
+      "lcp": 13611,
+      "si": 3436,
+      "tbt": 885,
+      "tti": 13713,
+      "cls": 0.01,
+      "ttfb": 531,
+      "maxPotentialFid": 350,
+      "serverResponseTime": 56,
+      "networkRtt": 0.6,
+      "networkServerLatency": 167.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 58.1,
+      "elementRenderDelay": 2695
+    },
+    "weight": {
+      "total": 2631842,
+      "requests": 171,
+      "mainDocument": 63071,
+      "byType": {
+        "total": {
+          "bytes": 2627390,
+          "requests": 161
+        },
+        "script": {
+          "bytes": 1366147,
+          "requests": 114
+        },
+        "image": {
+          "bytes": 627331,
+          "requests": 32
+        },
+        "font": {
+          "bytes": 520603,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 63071,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 46361,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 3877,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 718873,
+          "requests": 14
+        }
+      },
+      "scripts": 114,
+      "stylesheets": 4,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 718872,
+      "mainThreadMs": 271.3,
+      "top": [
+        {
+          "entity": "axept.io",
+          "bytes": 373527,
+          "mainThreadMs": 114.5,
+          "byType": {
+            "script": 316304,
+            "stylesheet": 1088,
+            "font": 52336,
+            "other": 3799
+          },
+          "typedBytes": 373527
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 342281,
+          "mainThreadMs": 156.3,
+          "byType": {
+            "script": 342281
+          },
+          "typedBytes": 342281
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 2987,
+          "mainThreadMs": 0.5,
+          "byType": {
+            "stylesheet": 2987
+          },
+          "typedBytes": 2987
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 57,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 57
+          },
+          "typedBytes": 57
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 20,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 20
+          },
+          "typedBytes": 20
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 5276.5,
+      "byGroup": {
+        "other": 2361,
+        "scriptEvaluation": 1457.8,
+        "styleLayout": 692.5,
+        "paintCompositeRender": 416,
+        "scriptParseCompile": 251,
+        "parseHTML": 65.3,
+        "garbageCollection": 32.9
+      },
+      "bootupMs": 1594.3,
+      "longTasks": 11,
+      "longestTaskMs": 350
+    },
+    "dom": {
+      "elements": 2493,
+      "depth": 20,
+      "maxChildren": 230
+    },
+    "waste": {
+      "unusedJsBytes": 391192,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 36181,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1204,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 331759.39999999997,
+      "poorlyCachedCount": 6
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 27,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 59
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2463,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T13:29:41.294Z",
+      "runtimeMs": 16357.6
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.8,
+    "elementRenderDelay": 13733.2
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5c75546ce960c60-SJC",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M7QDN24A10GTE3GZ2X2Y3BDC"
+    },
+    "violations": 0,
+    "passes": 974,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "3f2fbc1112c1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31522712",
+          "cf-cache-status": "BYPASS"
+        }
+      },
+      {
+        "hash": "3f2fbc1112c1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31522695",
+          "cf-cache-status": "BYPASS"
+        }
+      },
+      {
+        "hash": "3f2fbc1112c1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31522679",
+          "cf-cache-status": "BYPASS"
+        }
+      },
+      {
+        "hash": "3f2fbc1112c1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31522661",
+          "cf-cache-status": "BYPASS"
+        }
+      },
+      {
+        "hash": "3f2fbc1112c1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31523942",
+          "cf-cache-status": "BYPASS"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

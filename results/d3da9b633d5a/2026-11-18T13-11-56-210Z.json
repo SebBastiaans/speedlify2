@@ -1,0 +1,359 @@
+{
+  "url": "https://vpnclear.com/",
+  "name": "vpnclear.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795007516210,
+  "date": "2026-11-18T13:11:56.210Z",
+  "runId": "2026-11-18T13-06-56-504Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 87344,
+  "error": null,
+  "variance": {
+    "min": 86,
+    "max": 93,
+    "spread": 7,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://vpnclear.com/",
+    "finalUrl": "https://vpnclear.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 89,
+      "accessibility": 96,
+      "best-practices": 73,
+      "seo": 100,
+      "agentic-browsing": 49
+    },
+    "timings": {
+      "fcp": 1574,
+      "lcp": 1574,
+      "si": 2401,
+      "tbt": 346,
+      "tti": 7723,
+      "cls": 0.08,
+      "ttfb": 651,
+      "maxPotentialFid": 182,
+      "serverResponseTime": 52,
+      "networkRtt": 59.6,
+      "networkServerLatency": 144.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 53.5,
+      "elementRenderDelay": 83.4
+    },
+    "weight": {
+      "total": 1037402,
+      "requests": 81,
+      "mainDocument": 8319,
+      "byType": {
+        "total": {
+          "bytes": 1037402,
+          "requests": 81
+        },
+        "script": {
+          "bytes": 787332,
+          "requests": 30
+        },
+        "document": {
+          "bytes": 120966,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 91804,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 16291,
+          "requests": 23
+        },
+        "image": {
+          "bytes": 13719,
+          "requests": 8
+        },
+        "stylesheet": {
+          "bytes": 7290,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 975004,
+          "requests": 73
+        }
+      },
+      "scripts": 30,
+      "stylesheets": 4,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 629068,
+      "mainThreadMs": 260.2,
+      "top": [
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 392559,
+          "mainThreadMs": 217.4,
+          "byType": {
+            "script": 391974,
+            "other": 585
+          },
+          "typedBytes": 392559
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 97241,
+          "mainThreadMs": 1,
+          "byType": {
+            "stylesheet": 5437,
+            "font": 91804
+          },
+          "typedBytes": 97241
+        },
+        {
+          "entity": "Google FundingChoices",
+          "bytes": 78433,
+          "mainThreadMs": 19.7,
+          "byType": {
+            "script": 78143,
+            "other": 290
+          },
+          "typedBytes": 78433
+        },
+        {
+          "entity": "cloudflare.com",
+          "bytes": 28409,
+          "mainThreadMs": 3.7,
+          "byType": {
+            "script": 28409
+          },
+          "typedBytes": 28409
+        },
+        {
+          "entity": "adtrafficquality.google",
+          "bytes": 21904,
+          "mainThreadMs": 10,
+          "byType": {
+            "script": 8037,
+            "other": 13850,
+            "image": 17
+          },
+          "typedBytes": 21904
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2910.4,
+      "byGroup": {
+        "scriptEvaluation": 1649.5,
+        "other": 663.6,
+        "styleLayout": 322.8,
+        "scriptParseCompile": 147.4,
+        "paintCompositeRender": 62.3,
+        "garbageCollection": 45.6,
+        "parseHTML": 19.1
+      },
+      "bootupMs": 1551.6,
+      "longTasks": 6,
+      "longestTaskMs": 182
+    },
+    "dom": {
+      "elements": 337,
+      "depth": 15,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 309922,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 774,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 160387.33044692737,
+      "poorlyCachedCount": 17
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 12,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 12
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 7
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 33
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2459,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T13:12:58.329Z",
+      "runtimeMs": 12176.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5c73b5b88148ea2-SJC",
+      "server": "cloudflare"
+    },
+    "violations": 12,
+    "passes": 937,
+    "incomplete": 17,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 12,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "header > div > div > .vc-primary[href$=\"free-vpn/\"]",
+            "snippet": "<a class=\"vc-primary\" href=\"/free-vpn/\" style=\"border:none;background:#0E9F6E;color:#fff;font-family:'Manrope',sans-serif;font-weight:700;font-size:14px;padding:10px 17px;border-radius:10px;cursor:po…"
+          },
+          {
+            "selector": ".vc-lift",
+            "snippet": "<a class=\"vc-primary vc-lift\" href=\"/free-vpn/\" ...>"
+          },
+          {
+            "selector": "section:nth-child(3) > div:nth-child(1) > div",
+            "snippet": "<div style=\"font-size:13px;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;color:#0E9F6E\">How it works</div>"
+          },
+          {
+            "selector": "section:nth-child(5) > div > div:nth-child(1) > div > div",
+            "snippet": "<div style=\"font-size:13px;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;color:#0E9F6E\">Free configs</div>"
+          },
+          {
+            "selector": "div[data-action=\"openNode\"] > div:nth-child(3)",
+            "snippet": "<div style=\"font-size:13px;color:#73828D;font-weight:600;margin-top:3px\">22 servers · 154 ms</div>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "da5bb27d1320",
+        "nonce": "47938865d195",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "2f64e3249b20",
+        "nonce": "fd7f8a9ee4be",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "a603a4d342f9",
+        "nonce": "c5cc787e3979",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "8d39ad51bc82",
+        "nonce": "d28110c11616",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

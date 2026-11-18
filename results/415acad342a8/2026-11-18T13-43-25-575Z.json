@@ -1,0 +1,366 @@
+{
+  "url": "https://riafin.com/",
+  "name": "riafin.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795009405575,
+  "date": "2026-11-18T13:43:25.575Z",
+  "runId": "2026-11-18T13-06-56-504Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 32427,
+  "error": null,
+  "variance": {
+    "min": 74,
+    "max": 76,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://riafin.com/",
+    "finalUrl": "https://riafin.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 75,
+      "accessibility": 88,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 33
+    },
+    "timings": {
+      "fcp": 1676,
+      "lcp": 2728,
+      "si": 1676,
+      "tbt": 896,
+      "tti": 7144,
+      "cls": 0,
+      "ttfb": 604,
+      "maxPotentialFid": 93,
+      "serverResponseTime": 5,
+      "networkRtt": 0.1,
+      "networkServerLatency": 21.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 6.4,
+      "elementRenderDelay": 120.5
+    },
+    "weight": {
+      "total": 208246,
+      "requests": 18,
+      "mainDocument": 21602,
+      "byType": {
+        "total": {
+          "bytes": 207106,
+          "requests": 17
+        },
+        "script": {
+          "bytes": 95308,
+          "requests": 10
+        },
+        "font": {
+          "bytes": 48464,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 32689,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 21602,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 9043,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 49626,
+          "requests": 3
+        }
+      },
+      "scripts": 10,
+      "stylesheets": 3,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 49626,
+      "mainThreadMs": 0.2,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 49391,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 927,
+            "font": 48464
+          },
+          "typedBytes": 49391
+        },
+        {
+          "entity": "Tawk.to",
+          "bytes": 235,
+          "mainThreadMs": 0,
+          "byType": {
+            "script": 235
+          },
+          "typedBytes": 235
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 9323.4,
+      "byGroup": {
+        "other": 5286.7,
+        "scriptEvaluation": 3689.1,
+        "styleLayout": 219.4,
+        "garbageCollection": 52.1,
+        "paintCompositeRender": 39.7,
+        "parseHTML": 30,
+        "scriptParseCompile": 6.4
+      },
+      "bootupMs": 3693.8,
+      "longTasks": 20,
+      "longestTaskMs": 113
+    },
+    "dom": {
+      "elements": 1185,
+      "depth": 14,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 29298,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 771,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 26,
+      "failingNodes": 11,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 8
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 2
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 17
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2454,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T13:43:47.617Z",
+      "runtimeMs": 8382.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7QECNCCR0S1F1HNWWJMV1C7"
+    },
+    "violations": 11,
+    "passes": 1989,
+    "incomplete": 57,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 8,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".pricing-note > .text-muted",
+            "snippet": "<p class=\"text-muted\" data-astro-cid-htruwgye=\"\">"
+          },
+          {
+            "selector": ".text-muted > strong",
+            "snippet": "<strong data-astro-cid-htruwgye=\"\">Need an Immediate Quote or Detailed Rate Schedule?</strong>"
+          },
+          {
+            "selector": ".disclaimer-content > p[data-astro-cid-jo6i4kqk=\"\"]:nth-child(1)",
+            "snippet": "<p data-astro-cid-jo6i4kqk=\"\">"
+          },
+          {
+            "selector": ".disclaimer-content > p[data-astro-cid-jo6i4kqk=\"\"]:nth-child(2)",
+            "snippet": "<p data-astro-cid-jo6i4kqk=\"\">"
+          },
+          {
+            "selector": ".disclaimer-content > p[data-astro-cid-jo6i4kqk=\"\"]:nth-child(3)",
+            "snippet": "<p data-astro-cid-jo6i4kqk=\"\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".process-col[data-astro-cid-htruwgye=\"\"]:nth-child(1) > h4",
+            "snippet": "<h4 data-astro-cid-htruwgye=\"\">30-Min Discovery Call</h4>"
+          },
+          {
+            "selector": ".footer-col[data-astro-cid-jo6i4kqk=\"\"]:nth-child(2) > .footer-heading",
+            "snippet": "<h4 class=\"footer-heading\" data-astro-cid-jo6i4kqk=\"\">Navigation</h4>"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div:nth-child(3) > div:nth-child(1) > button",
+            "snippet": "<button style=\"background:none;border:none;cursor:pointer;color:var(--text-primary);padding:8px\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7d81a2d8c4d0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "21874",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31514126",
+          "etag": "W/\"9b62fd4a87cf129b69a0ce33a1281ee7-ssl\""
+        }
+      },
+      {
+        "hash": "7d81a2d8c4d0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "21885",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31514115",
+          "etag": "W/\"9b62fd4a87cf129b69a0ce33a1281ee7-ssl\""
+        }
+      },
+      {
+        "hash": "7d81a2d8c4d0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "21894",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31514106",
+          "etag": "W/\"9b62fd4a87cf129b69a0ce33a1281ee7-ssl\""
+        }
+      },
+      {
+        "hash": "7d81a2d8c4d0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31514098",
+          "etag": "W/\"9b62fd4a87cf129b69a0ce33a1281ee7-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
