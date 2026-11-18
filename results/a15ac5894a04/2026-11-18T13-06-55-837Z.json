@@ -1,0 +1,259 @@
+{
+  "url": "https://darrenhickling.com/",
+  "name": "darrenhickling.com",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795007215837,
+  "date": "2026-11-18T13:06:55.837Z",
+  "runId": "2026-11-18T13-06-50-203Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27555,
+  "error": null,
+  "variance": {
+    "min": 90,
+    "max": 100,
+    "spread": 10,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://darrenhickling.com/",
+    "finalUrl": "https://darrenhickling.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1055,
+      "lcp": 2541,
+      "si": 1055,
+      "tbt": 80,
+      "tti": 2548,
+      "cls": 0,
+      "ttfb": 605,
+      "maxPotentialFid": 136,
+      "serverResponseTime": 4,
+      "networkRtt": 0,
+      "networkServerLatency": 4.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 5.9,
+      "elementRenderDelay": 99.3
+    },
+    "weight": {
+      "total": 386777,
+      "requests": 23,
+      "mainDocument": 31042,
+      "byType": {
+        "total": {
+          "bytes": 386777,
+          "requests": 23
+        },
+        "script": {
+          "bytes": 148760,
+          "requests": 10
+        },
+        "image": {
+          "bytes": 130001,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 37140,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 31042,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 25829,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 14005,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 10,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 887.1,
+      "byGroup": {
+        "scriptEvaluation": 352.8,
+        "other": 195.2,
+        "styleLayout": 178.6,
+        "scriptParseCompile": 74.5,
+        "parseHTML": 51.8,
+        "paintCompositeRender": 34.1
+      },
+      "bootupMs": 408.1,
+      "longTasks": 3,
+      "longestTaskMs": 136
+    },
+    "dom": {
+      "elements": 459,
+      "depth": 14,
+      "maxChildren": 17
+    },
+    "waste": {
+      "unusedJsBytes": 26037,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 13320,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 29,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 48
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2441.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T13:07:08.936Z",
+      "runtimeMs": 6795.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "Nextdotjs",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "next",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7QC9QJ0ZWFZ2P9PDFD0G2YH"
+    },
+    "violations": 0,
+    "passes": 602,
+    "incomplete": 112,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "94d8296115c5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"e03fb360f6603a32506f3d6bb9f882da-ssl\""
+        }
+      },
+      {
+        "hash": "94d8296115c5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535991",
+          "etag": "W/\"e03fb360f6603a32506f3d6bb9f882da-ssl\""
+        }
+      },
+      {
+        "hash": "94d8296115c5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "18",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535983",
+          "etag": "W/\"e03fb360f6603a32506f3d6bb9f882da-ssl\""
+        }
+      },
+      {
+        "hash": "94d8296115c5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535978",
+          "etag": "W/\"e03fb360f6603a32506f3d6bb9f882da-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
