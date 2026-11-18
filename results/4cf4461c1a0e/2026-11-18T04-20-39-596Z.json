@@ -1,0 +1,358 @@
+{
+  "url": "https://webawesome.com/",
+  "name": "webawesome.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1794975639596,
+  "date": "2026-11-18T04:20:39.596Z",
+  "runId": "2026-11-18T04-16-40-145Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 32626,
+  "error": null,
+  "variance": {
+    "min": 69,
+    "max": 74,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://webawesome.com/",
+    "finalUrl": "https://webawesome.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 70,
+      "accessibility": 99,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1230,
+      "lcp": 6180,
+      "si": 2561,
+      "tbt": 324,
+      "tti": 6180,
+      "cls": 0,
+      "ttfb": 630,
+      "maxPotentialFid": 192,
+      "serverResponseTime": 26,
+      "networkRtt": 0.2,
+      "networkServerLatency": 81.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 27.5,
+      "resourceLoadDelay": 6.4,
+      "resourceLoadDuration": 138.8,
+      "elementRenderDelay": 609.6
+    },
+    "weight": {
+      "total": 945555,
+      "requests": 356,
+      "mainDocument": 31653,
+      "byType": {
+        "total": {
+          "bytes": 938486,
+          "requests": 345
+        },
+        "script": {
+          "bytes": 483796,
+          "requests": 187
+        },
+        "other": {
+          "bytes": 254897,
+          "requests": 113
+        },
+        "font": {
+          "bytes": 79516,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 72150,
+          "requests": 40
+        },
+        "document": {
+          "bytes": 31653,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 16474,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 273062,
+          "requests": 114
+        }
+      },
+      "scripts": 187,
+      "stylesheets": 40,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 273062,
+      "mainThreadMs": 55.3,
+      "top": [
+        {
+          "entity": "posthog.com",
+          "bytes": 179836,
+          "mainThreadMs": 54.7,
+          "byType": {
+            "script": 179836
+          },
+          "typedBytes": 179836
+        },
+        {
+          "entity": "FontAwesome CDN",
+          "bytes": 64309,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 64309
+          },
+          "typedBytes": 64309
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 28917,
+          "mainThreadMs": 0.6,
+          "byType": {
+            "script": 28917
+          },
+          "typedBytes": 28917
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3162.8,
+      "byGroup": {
+        "other": 1018.9,
+        "scriptEvaluation": 964.3,
+        "styleLayout": 800.6,
+        "paintCompositeRender": 158.1,
+        "parseHTML": 106.9,
+        "garbageCollection": 57,
+        "scriptParseCompile": 57
+      },
+      "bootupMs": 921.9,
+      "longTasks": 9,
+      "longestTaskMs": 192
+    },
+    "dom": {
+      "elements": 5005,
+      "depth": 22,
+      "maxChildren": 133
+    },
+    "waste": {
+      "unusedJsBytes": 120694,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 14445,
+      "unminifiedJsBytes": 12254,
+      "unminifiedCssBytes": 19853,
+      "renderBlockingMs": 300,
+      "renderBlockingCount": 38,
+      "poorlyCachedBytes": 216006.49734027777,
+      "poorlyCachedCount": 32
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 30,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 65
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3537.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T04:20:51.764Z",
+      "runtimeMs": 8973.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "lit",
+        "webawesome"
+      ],
+      "markVersions": {
+        "lit": "3.3.0"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5c42fcaef9ce609-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 9,
+    "passes": 1744,
+    "incomplete": 101,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-tab-name",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "ARIA tab nodes must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-tab-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#home-components-demo-tab-feedback",
+            "snippet": "<wa-tab id=\"home-components-demo...\" panel=\"demo-feedback\" data-track-event=\"home:component_demo_...\" data-track-context=\"components\" data-track-destinati...=\"feedback\" aria-labelledby=\"wa-tooltip-ns…"
+          },
+          {
+            "selector": "#home-components-demo-tab-charts",
+            "snippet": "<wa-tab id=\"home-components-demo...\" panel=\"demo-charts\" data-track-event=\"home:component_demo_...\" data-track-context=\"components\" data-track-destinati...=\"charts\" aria-labelledby=\"wa-tooltip-6ABYXO…"
+          },
+          {
+            "selector": "#home-components-demo-tab-actions",
+            "snippet": "<wa-tab id=\"home-components-demo...\" panel=\"demo-actions\" data-track-event=\"home:component_demo_...\" data-track-context=\"components\" data-track-destinati...=\"actions\" aria-labelledby=\"wa-tooltip-cOcH…"
+          },
+          {
+            "selector": "#home-components-demo-tab-forms",
+            "snippet": "<wa-tab id=\"home-components-demo...\" panel=\"demo-forms\" data-track-event=\"home:component_demo_...\" data-track-context=\"components\" data-track-destinati...=\"forms\" aria-labelledby=\"wa-tooltip-9hHEEU5Z…"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "wa-page a[href$=\"#main-content\"]",
+            "snippet": "<a href=\"#main-content\" part=\"skip-to-content\" class=\"wa-visually-hidden\"> <slot name=\"skip-to-content\">Skip to content</slot> </a>"
+          },
+          {
+            "selector": ".subheader-logo-simple",
+            "snippet": "<div class=\"subheader-logo-simple\">"
+          },
+          {
+            "selector": "#login-button-icon",
+            "snippet": "<wa-button appearance=\"plain\" size=\"s\" href=\"/login\" data-track-event=\"navigation:header_link_click\" data-track-destination=\"login\" id=\"login-button-icon\" variant=\"neutral\" aria-labelledby=\"wa-toolti…"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".components-demo-preview.preview:nth-child(1) > .wa-stack > h4",
+            "snippet": "<h4 class=\"wa-heading-s\"><a href=\"https://www.youtube.com/watch?v=lDK9QqIzhwk\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wa-link-plain\">Whoaaa, we're half way there…</a></h4>"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#code-block-f671a96f-f92d-4083-9cf9-9c8d4d2a9ced-inner",
+            "snippet": "<code class=\"language-markup\" id=\"code-block-f671a96f-f92d-4083-9cf9-9c8d4d2a9ced-inner\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "935cf1df099d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "BYPASS"
+        }
+      },
+      {
+        "hash": "fe3fba183b99",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "ccb4c646d46b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "91fbaf983f84",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
