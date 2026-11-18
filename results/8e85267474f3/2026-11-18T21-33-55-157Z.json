@@ -1,0 +1,306 @@
+{
+  "url": "https://www.mauropfister.ch/",
+  "name": "www.mauropfister.ch",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795037635157,
+  "date": "2026-11-18T21:33:55.157Z",
+  "runId": "2026-11-18T21-26-01-065Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21250,
+  "error": null,
+  "variance": {
+    "min": 89,
+    "max": 92,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.mauropfister.ch/",
+    "finalUrl": "https://www.mauropfister.ch/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1695,
+      "lcp": 3202,
+      "si": 1695,
+      "tbt": 0,
+      "tti": 3202,
+      "cls": 0,
+      "ttfb": 628,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 28,
+      "networkRtt": 0.1,
+      "networkServerLatency": 28.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 29.6,
+      "resourceLoadDelay": 39.4,
+      "resourceLoadDuration": 25.6,
+      "elementRenderDelay": 43.7
+    },
+    "weight": {
+      "total": 322266,
+      "requests": 16,
+      "mainDocument": 1882,
+      "byType": {
+        "total": {
+          "bytes": 322266,
+          "requests": 16
+        },
+        "image": {
+          "bytes": 184232,
+          "requests": 6
+        },
+        "font": {
+          "bytes": 112910,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 14637,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 5118,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3487,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 1882,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 308975,
+          "requests": 10
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 3,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 308975,
+      "mainThreadMs": 1.8,
+      "top": [
+        {
+          "entity": "Cloudinary",
+          "bytes": 184232,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 184232
+          },
+          "typedBytes": 184232
+        },
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 88452,
+          "mainThreadMs": 1.6,
+          "byType": {
+            "stylesheet": 11082,
+            "font": 77370
+          },
+          "typedBytes": 88452
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 36291,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 751,
+            "font": 35540
+          },
+          "typedBytes": 36291
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 163.1,
+      "byGroup": {
+        "other": 94,
+        "styleLayout": 34.3,
+        "parseHTML": 13.2,
+        "scriptEvaluation": 12.4,
+        "paintCompositeRender": 7,
+        "scriptParseCompile": 2.1
+      },
+      "bootupMs": 6.6,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 62,
+      "depth": 9,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 10397,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1680,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 24,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2985,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T21:34:09.948Z",
+      "runtimeMs": 6190.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {
+        "fontawesome": "5.15.4"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7R99W47JWYDJD3VG5K17RJN"
+    },
+    "violations": 1,
+    "passes": 190,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".header__brand",
+            "snippet": "<a class=\"header__brand\" href=\"/\" rel=\"home\" aria-label=\"Go To Homepage\">mauro</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7f9cd47eba68",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"3974b784e8185baacb695cc4788a50cd-ssl\""
+        }
+      },
+      {
+        "hash": "7f9cd47eba68",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"3974b784e8185baacb695cc4788a50cd-ssl\""
+        }
+      },
+      {
+        "hash": "7f9cd47eba68",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"3974b784e8185baacb695cc4788a50cd-ssl\""
+        }
+      },
+      {
+        "hash": "7f9cd47eba68",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "etag": "W/\"3974b784e8185baacb695cc4788a50cd-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,261 @@
+{
+  "url": "https://www.madebymike.com.au/",
+  "name": "www.madebymike.com.au",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795037553767,
+  "date": "2026-11-18T21:32:33.767Z",
+  "runId": "2026-11-18T21-26-01-065Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22421,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.madebymike.com.au/",
+    "finalUrl": "https://www.madebymike.com.au/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 864,
+      "lcp": 864,
+      "si": 864,
+      "tbt": 0,
+      "tti": 864,
+      "cls": 0.001,
+      "ttfb": 544,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 86,
+      "networkRtt": 0,
+      "networkServerLatency": 94
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 87.8,
+      "elementRenderDelay": 28.4
+    },
+    "weight": {
+      "total": 20983,
+      "requests": 6,
+      "mainDocument": 5043,
+      "byType": {
+        "total": {
+          "bytes": 20983,
+          "requests": 6
+        },
+        "script": {
+          "bytes": 10351,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 5043,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 3190,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2399,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10351,
+          "requests": 1
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10351,
+      "mainThreadMs": 5.9,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 5.9,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 143.6,
+      "byGroup": {
+        "other": 69.5,
+        "scriptEvaluation": 36,
+        "styleLayout": 25.6,
+        "parseHTML": 5.9,
+        "paintCompositeRender": 4.6,
+        "scriptParseCompile": 1.8
+      },
+      "bootupMs": 3.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 104,
+      "depth": 11,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 4140.400000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 23,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 16
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2928,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T21:32:42.138Z",
+      "runtimeMs": 6324.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5ca17268ae63b8e-YYZ",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M7R97D38W6ZSXXMSJ2XDM04T"
+    },
+    "violations": 0,
+    "passes": 194,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "20a39b8ea309",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "20a39b8ea309",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "20a39b8ea309",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "20a39b8ea309",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "19",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535981",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

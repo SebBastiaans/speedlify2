@@ -1,0 +1,276 @@
+{
+  "url": "https://leilukin.com/",
+  "name": "leilukin.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795037686255,
+  "date": "2026-11-18T21:34:46.255Z",
+  "runId": "2026-11-18T21-26-01-065Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 29541,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 99,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://leilukin.com/",
+    "finalUrl": "https://leilukin.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1712,
+      "lcp": 2112,
+      "si": 3993,
+      "tbt": 0,
+      "tti": 2112,
+      "cls": 0,
+      "ttfb": 762,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 176,
+      "networkRtt": 0.1,
+      "networkServerLatency": 162.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 177,
+      "resourceLoadDelay": 8.8,
+      "resourceLoadDuration": 195.3,
+      "elementRenderDelay": 1978.5
+    },
+    "weight": {
+      "total": 205550,
+      "requests": 47,
+      "mainDocument": 7318,
+      "byType": {
+        "total": {
+          "bytes": 203334,
+          "requests": 44
+        },
+        "image": {
+          "bytes": 62936,
+          "requests": 22
+        },
+        "font": {
+          "bytes": 60037,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 50814,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 22229,
+          "requests": 13
+        },
+        "document": {
+          "bytes": 7318,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1433,
+          "requests": 1
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 13,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 1433,
+      "mainThreadMs": 0.7,
+      "top": [
+        {
+          "entity": "Unpkg",
+          "bytes": 1433,
+          "mainThreadMs": 0.7,
+          "byType": {
+            "script": 1433
+          },
+          "typedBytes": 1433
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 328.4,
+      "byGroup": {
+        "other": 171.1,
+        "styleLayout": 68.8,
+        "scriptEvaluation": 42.6,
+        "paintCompositeRender": 25.2,
+        "parseHTML": 18,
+        "scriptParseCompile": 2.8
+      },
+      "bootupMs": 14.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 389,
+      "depth": 10,
+      "maxChildren": 21
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10870,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 12,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 29,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 31
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2998,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T21:35:05.909Z",
+      "runtimeMs": 9431.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.8",
+      "source": "meta",
+      "raw": "Eleventy v3.1.8"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.8"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Caddy",
+      "detailIcon": "Caddy",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Caddy"
+    },
+    "violations": 0,
+    "passes": 972,
+    "incomplete": 3,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "818b1fa2dffb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmy6lg0pwidm-klx-gzip\"",
+          "last-modified": "Wed, 18 Nov 2026 08:08:01 GMT"
+        }
+      },
+      {
+        "hash": "818b1fa2dffb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmy6lg0pwidm-klx-gzip\"",
+          "last-modified": "Wed, 18 Nov 2026 08:08:01 GMT"
+        }
+      },
+      {
+        "hash": "818b1fa2dffb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmy6lg0pwidm-klx-gzip\"",
+          "last-modified": "Wed, 18 Nov 2026 08:08:01 GMT"
+        }
+      },
+      {
+        "hash": "818b1fa2dffb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmy6lg0pwidm-klx-gzip\"",
+          "last-modified": "Wed, 18 Nov 2026 08:08:01 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
