@@ -1,0 +1,314 @@
+{
+  "url": "https://ericcarlisle.com/",
+  "name": "ericcarlisle.com",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795007204769,
+  "date": "2026-11-18T13:06:44.769Z",
+  "runId": "2026-11-18T13-06-43-607Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 69128,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 100,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://ericcarlisle.com/",
+    "finalUrl": "https://ericcarlisle.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 58,
+      "seo": 100,
+      "agentic-browsing": 99
+    },
+    "timings": {
+      "fcp": 959,
+      "lcp": 959,
+      "si": 959,
+      "tbt": 8,
+      "tti": 1905,
+      "cls": 0.065,
+      "ttfb": 466,
+      "maxPotentialFid": 65,
+      "serverResponseTime": 33,
+      "networkRtt": 0.1,
+      "networkServerLatency": 46.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 34.6,
+      "elementRenderDelay": 64.9
+    },
+    "weight": {
+      "total": 447741,
+      "requests": 28,
+      "mainDocument": 14945,
+      "byType": {
+        "total": {
+          "bytes": 447742,
+          "requests": 27
+        },
+        "other": {
+          "bytes": 168142,
+          "requests": 13
+        },
+        "image": {
+          "bytes": 128323,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 94638,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 31321,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 14945,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 10373,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 193736,
+          "requests": 5
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 2,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 26939,
+      "mainThreadMs": 17.5,
+      "top": [
+        {
+          "entity": "Clarity",
+          "bytes": 26883,
+          "mainThreadMs": 17.5,
+          "byType": {
+            "script": 26603,
+            "other": 280
+          },
+          "typedBytes": 26883
+        },
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 56,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 56
+          },
+          "typedBytes": 56
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 609.9,
+      "byGroup": {
+        "scriptEvaluation": 209.6,
+        "other": 209,
+        "styleLayout": 129.5,
+        "paintCompositeRender": 20.8,
+        "scriptParseCompile": 16.8,
+        "parseHTML": 13.3,
+        "garbageCollection": 11
+      },
+      "bootupMs": 209.2,
+      "longTasks": 1,
+      "longestTaskMs": 65
+    },
+    "dom": {
+      "elements": 165,
+      "depth": 9,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 15014.800000000001,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 22,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 5
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 48
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2983,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T13:07:47.144Z",
+      "runtimeMs": 6175.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": "7.2.4",
+      "source": "meta",
+      "raw": "Astro v7.2.4"
+    },
+    "probe": {
+      "metas": [
+        "Astro v7.2.4"
+      ],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5c7334fbad6f71c-LAX",
+      "server": "cloudflare",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "6d9f62eb639a134aff9e1f6bd23f90115d4994df",
+      "x-github-request-id": "2646:F067F:277CF:2EC20:6AFDA31B",
+      "x-served-by": "cache-bur-kbur8200150-BUR"
+    },
+    "violations": 0,
+    "passes": 287,
+    "incomplete": 22,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "cac422019b20",
+        "nonce": "0f3cbb04ed64",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 08 Oct 2026 20:42:13 GMT",
+          "x-cache": "MISS",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "eb4f7d41299a",
+        "nonce": "1733d583a67f",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 08 Oct 2026 20:42:13 GMT",
+          "x-cache": "MISS",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "9dd438a9cba4",
+        "nonce": "287ad8a9f651",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "6",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 08 Oct 2026 20:42:13 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "8779baa7bfe7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 08 Oct 2026 20:42:13 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,309 @@
+{
+  "url": "https://www.chadams.me/",
+  "name": "www.chadams.me",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795007523401,
+  "date": "2026-11-18T13:12:03.401Z",
+  "runId": "2026-11-18T13-06-43-607Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23550,
+  "error": null,
+  "variance": {
+    "min": 63,
+    "max": 66,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.chadams.me/",
+    "finalUrl": "https://www.chadams.me/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 66,
+      "accessibility": 98,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1078,
+      "lcp": 22378,
+      "si": 9512,
+      "tbt": 0,
+      "tti": 22378,
+      "cls": 0,
+      "ttfb": 628,
+      "maxPotentialFid": 23,
+      "serverResponseTime": 19,
+      "networkRtt": 0,
+      "networkServerLatency": 27.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 20.9,
+      "resourceLoadDelay": 8.3,
+      "resourceLoadDuration": 108.6,
+      "elementRenderDelay": 45.9
+    },
+    "weight": {
+      "total": 9560909,
+      "requests": 19,
+      "mainDocument": 5308,
+      "byType": {
+        "total": {
+          "bytes": 9555550,
+          "requests": 18
+        },
+        "image": {
+          "bytes": 9421000,
+          "requests": 7
+        },
+        "script": {
+          "bytes": 119810,
+          "requests": 9
+        },
+        "stylesheet": {
+          "bytes": 9432,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 5308,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1915,
+          "requests": 1
+        }
+      },
+      "scripts": 9,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 1915,
+      "mainThreadMs": 0.9,
+      "top": [
+        {
+          "entity": "Plausible",
+          "bytes": 1915,
+          "mainThreadMs": 0.9,
+          "byType": {
+            "script": 1915
+          },
+          "typedBytes": 1915
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 510,
+      "byGroup": {
+        "other": 262.8,
+        "scriptEvaluation": 155.6,
+        "styleLayout": 40.2,
+        "scriptParseCompile": 20,
+        "paintCompositeRender": 13.5,
+        "parseHTML": 13.1,
+        "garbageCollection": 4.8
+      },
+      "bootupMs": 125.3,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 112,
+      "depth": 10,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 41861,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 300,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 27
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3085,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T13:12:20.376Z",
+      "runtimeMs": 6374.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7QCK0DFG02W0TH7NYZET9GD"
+    },
+    "violations": 3,
+    "passes": 199,
+    "incomplete": 1,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".mt-9",
+            "snippet": "<div class=\"sm:px-8 mt-9\">"
+          },
+          {
+            "selector": "#portfolio",
+            "snippet": "<section id=\"portfolio\" class=\"relative overflow-hidden\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" class=\"h-100\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "1dc6eef946c0",
+        "nonce": "33894d84197d",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "35255",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31500745",
+          "etag": "W/\"42bd268d51a67c76374b337580047b32-ssl\""
+        }
+      },
+      {
+        "hash": "1dc6eef946c0",
+        "nonce": "33894d84197d",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "35264",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31500736",
+          "etag": "W/\"42bd268d51a67c76374b337580047b32-ssl\""
+        }
+      },
+      {
+        "hash": "1dc6eef946c0",
+        "nonce": "33894d84197d",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "35271",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31500729",
+          "etag": "W/\"42bd268d51a67c76374b337580047b32-ssl\""
+        }
+      },
+      {
+        "hash": "1dc6eef946c0",
+        "nonce": "33894d84197d",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31500724",
+          "etag": "W/\"42bd268d51a67c76374b337580047b32-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

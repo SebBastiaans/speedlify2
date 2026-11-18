@@ -1,0 +1,336 @@
+{
+  "url": "https://www.ellyloel.com/",
+  "name": "www.ellyloel.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795007891529,
+  "date": "2026-11-18T13:18:11.529Z",
+  "runId": "2026-11-18T13-06-43-607Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23837,
+  "error": null,
+  "variance": {
+    "min": 73,
+    "max": 76,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.ellyloel.com/",
+    "finalUrl": "https://www.ellyloel.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 75,
+      "accessibility": 96,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 72
+    },
+    "timings": {
+      "fcp": 1175,
+      "lcp": 3769,
+      "si": 1668,
+      "tbt": 60,
+      "tti": 4543,
+      "cls": 0.274,
+      "ttfb": 514,
+      "maxPotentialFid": 110,
+      "serverResponseTime": 95,
+      "networkRtt": 159,
+      "networkServerLatency": 448.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 159.7,
+      "elementRenderDelay": 254.3
+    },
+    "weight": {
+      "total": 583723,
+      "requests": 41,
+      "mainDocument": 24786,
+      "byType": {
+        "total": {
+          "bytes": 580332,
+          "requests": 40
+        },
+        "font": {
+          "bytes": 319595,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 108779,
+          "requests": 17
+        },
+        "script": {
+          "bytes": 61502,
+          "requests": 7
+        },
+        "image": {
+          "bytes": 40173,
+          "requests": 11
+        },
+        "stylesheet": {
+          "bytes": 25497,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 24786,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 42955,
+          "requests": 15
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 42955,
+      "mainThreadMs": 8.9,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 20956,
+          "mainThreadMs": 8.8,
+          "byType": {
+            "script": 20956
+          },
+          "typedBytes": 20956
+        },
+        {
+          "entity": "Cloudinary",
+          "bytes": 20900,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 20900
+          },
+          "typedBytes": 20900
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 1063,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 1063
+          },
+          "typedBytes": 1063
+        },
+        {
+          "entity": "cloudflareinsights.com",
+          "bytes": 36,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "other": 36
+          },
+          "typedBytes": 36
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1152.4,
+      "byGroup": {
+        "scriptEvaluation": 459.5,
+        "styleLayout": 296.5,
+        "other": 263.8,
+        "paintCompositeRender": 69.4,
+        "parseHTML": 45,
+        "scriptParseCompile": 10.6,
+        "garbageCollection": 7.6
+      },
+      "bootupMs": 422.7,
+      "longTasks": 3,
+      "longestTaskMs": 110
+    },
+    "dom": {
+      "elements": 628,
+      "depth": 13,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 19586,
+      "legacyJsBytes": 20966,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 162,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 8382.4,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 28,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 72
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2927,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T13:18:12.743Z",
+      "runtimeMs": 7591.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.7",
+      "source": "meta",
+      "raw": "Eleventy v3.1.7"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.7"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5c7430499d33f37-LAX",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 1008,
+    "incomplete": 63,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h1",
+            "snippet": "<h1> <span class=\"[ stroke ]\" style=\"--thickness: 0.02em; --fill-color: var(--accent-bg); --stroke-color: var(--accent-border);\">Elly Loel</span> <svg width=\"100%\" viewBox=\"0 0 75 20\"> <text lengthAd…"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".song",
+            "snippet": "<a href=\"https://www.last.fm/music/Starjunk+95/_/Can+Ya+Bump+It\" class=\"[ song ][ u-url ][ link-icon-start text-decoration-none move-link-styling-to-child ]\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "f1aa67264e69",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "70d5efdbcadc",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "5015d2345551",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "f1aa67264e69",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
