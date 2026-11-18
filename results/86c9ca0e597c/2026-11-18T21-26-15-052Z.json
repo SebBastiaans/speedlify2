@@ -1,0 +1,278 @@
+{
+  "url": "https://eshlox.net/",
+  "name": "eshlox.net",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795037175052,
+  "date": "2026-11-18T21:26:15.052Z",
+  "runId": "2026-11-18T21-25-58-871Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25303,
+  "error": null,
+  "variance": {
+    "min": 78,
+    "max": 96,
+    "spread": 18,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://eshlox.net/",
+    "finalUrl": "https://eshlox.net/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2209,
+      "lcp": 2209,
+      "si": 2209,
+      "tbt": 56,
+      "tti": 2456,
+      "cls": 0,
+      "ttfb": 518,
+      "maxPotentialFid": 107,
+      "serverResponseTime": 48,
+      "networkRtt": 0.9,
+      "networkServerLatency": 67.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 49.4,
+      "elementRenderDelay": 116.9
+    },
+    "weight": {
+      "total": 174194,
+      "requests": 14,
+      "mainDocument": 5352,
+      "byType": {
+        "total": {
+          "bytes": 174194,
+          "requests": 14
+        },
+        "script": {
+          "bytes": 156730,
+          "requests": 6
+        },
+        "other": {
+          "bytes": 5505,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 5352,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 3698,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 2909,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10387,
+          "requests": 3
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 10387,
+      "mainThreadMs": 5.2,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 5.2,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "cloudflareinsights.com",
+          "bytes": 36,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 36
+          },
+          "typedBytes": 36
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 297.1,
+      "byGroup": {
+        "scriptEvaluation": 142.5,
+        "other": 89.9,
+        "scriptParseCompile": 38.6,
+        "styleLayout": 14.1,
+        "parseHTML": 6.5,
+        "paintCompositeRender": 2.8,
+        "garbageCollection": 2.7
+      },
+      "bootupMs": 127.3,
+      "longTasks": 1,
+      "longestTaskMs": 107
+    },
+    "dom": {
+      "elements": 43,
+      "depth": 8,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 82211,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 18836,
+      "duplicatedJsBytes": 3010,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 88126.14342708333,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 30
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3555.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T21:26:34.035Z",
+      "runtimeMs": 6196.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": "7.3.5",
+      "source": "meta",
+      "raw": "Astro v7.3.5"
+    },
+    "probe": {
+      "metas": [
+        "Astro v7.3.5"
+      ],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5ca0df26ba3c351-EWR",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 115,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ecd5fd744c4c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "EXPIRED",
+          "last-modified": "Wed, 18 Nov 2026 21:26:19 GMT"
+        }
+      },
+      {
+        "hash": "ecd5fd744c4c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "EXPIRED",
+          "last-modified": "Wed, 18 Nov 2026 21:26:27 GMT"
+        }
+      },
+      {
+        "hash": "ecd5fd744c4c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "EXPIRED",
+          "last-modified": "Wed, 18 Nov 2026 21:26:34 GMT"
+        }
+      },
+      {
+        "hash": "ecd5fd744c4c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "EXPIRED",
+          "last-modified": "Wed, 18 Nov 2026 21:26:37 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

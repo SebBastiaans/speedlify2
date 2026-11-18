@@ -1,0 +1,395 @@
+{
+  "url": "https://www.adobe.com/",
+  "name": "Adobe",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1795038006370,
+  "date": "2026-11-18T21:40:06.370Z",
+  "runId": "2026-11-18T21-25-58-871Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 367753,
+  "error": null,
+  "variance": {
+    "min": 30,
+    "max": 33,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.adobe.com/",
+    "finalUrl": "https://www.adobe.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 32,
+      "accessibility": 95,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 25
+    },
+    "timings": {
+      "fcp": 795,
+      "lcp": 46016,
+      "si": 23418,
+      "tbt": 862,
+      "tti": 46075,
+      "cls": 0.246,
+      "ttfb": 631,
+      "maxPotentialFid": 479,
+      "serverResponseTime": 38,
+      "networkRtt": 4.1,
+      "networkServerLatency": 113
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 39.9,
+      "resourceLoadDelay": 15658.8,
+      "resourceLoadDuration": 82.3,
+      "elementRenderDelay": 54.6
+    },
+    "weight": {
+      "total": 8313470,
+      "requests": 311,
+      "mainDocument": 8415,
+      "byType": {
+        "total": {
+          "bytes": 8311219,
+          "requests": 304
+        },
+        "script": {
+          "bytes": 6714297,
+          "requests": 109
+        },
+        "font": {
+          "bytes": 749849,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 578132,
+          "requests": 25
+        },
+        "other": {
+          "bytes": 129708,
+          "requests": 131
+        },
+        "stylesheet": {
+          "bytes": 122663,
+          "requests": 30
+        },
+        "document": {
+          "bytes": 16570,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1101431,
+          "requests": 58
+        }
+      },
+      "scripts": 115,
+      "stylesheets": 30,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 6921564,
+      "mainThreadMs": 516.9,
+      "top": [
+        {
+          "entity": "adobe.com",
+          "bytes": 5820133,
+          "mainThreadMs": 254.8,
+          "byType": {
+            "script": 5732533,
+            "document": 6600,
+            "stylesheet": 64662,
+            "other": 14783
+          },
+          "typedBytes": 5818578
+        },
+        {
+          "entity": "Adobe TypeKit",
+          "bytes": 753117,
+          "mainThreadMs": 0.4,
+          "byType": {
+            "stylesheet": 3268,
+            "font": 749849
+          },
+          "typedBytes": 753117
+        },
+        {
+          "entity": "Forter",
+          "bytes": 244640,
+          "mainThreadMs": 239.7,
+          "byType": {
+            "script": 241790,
+            "other": 2850
+          },
+          "typedBytes": 244640
+        },
+        {
+          "entity": "mPulse",
+          "bytes": 57422,
+          "mainThreadMs": 15.9,
+          "byType": {
+            "script": 57422
+          },
+          "typedBytes": 57422
+        },
+        {
+          "entity": "adobeccstatic.com",
+          "bytes": 44888,
+          "mainThreadMs": 6.1,
+          "byType": {
+            "script": 37578,
+            "stylesheet": 6131,
+            "other": 1179
+          },
+          "typedBytes": 44888
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 13651.7,
+      "byGroup": {
+        "scriptEvaluation": 4956,
+        "styleLayout": 3859.8,
+        "other": 3656.6,
+        "scriptParseCompile": 456.9,
+        "paintCompositeRender": 356.1,
+        "garbageCollection": 208.4,
+        "parseHTML": 157.8
+      },
+      "bootupMs": 4397.3,
+      "longTasks": 20,
+      "longestTaskMs": 479
+    },
+    "dom": {
+      "elements": 2568,
+      "depth": 20,
+      "maxChildren": 15
+    },
+    "waste": {
+      "unusedJsBytes": 1027386,
+      "unusedCssBytes": 82254,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 31923,
+      "unminifiedCssBytes": 4764,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 1714850.0944333333,
+      "poorlyCachedCount": 31
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 32,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "aria-required-children",
+          "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 5
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 4
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 5,
+      "baselineLimitedFeatures": 88
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3414.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T21:42:10.785Z",
+      "runtimeMs": 61233.3
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.9,
+    "resourceLoadDelay": 19408.2,
+    "resourceLoadDuration": 6022.1,
+    "elementRenderDelay": 69.3
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": true,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {
+      "x-served-by": "cache-iad-kiad7000165-IAD, cache-iad-kiad7000165-IAD, cache-dfw-kdfw8210098-DFW"
+    },
+    "violations": 8,
+    "passes": 1496,
+    "incomplete": 48,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "image-redundant-alt",
+        "impact": "minor",
+        "nodes": 6,
+        "help": "Alternative text of images should not be repeated as text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-redundant-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[daa-ll=\"rm-nav-1--Save 57 for a year\"] > .rm-card-icon[alt=\"Creativity and design\"][loading=\"lazy\"]",
+            "snippet": "<img class=\"rm-card-icon\" src=\"https://www.adobe.com/federal/assets/svgs/creative-cloud.svg\" loading=\"lazy\" alt=\"Creativity and design\">"
+          },
+          {
+            "selector": "a[daa-ll=\"rm-nav-2--Save 55 or more on C\"] > .rm-card-icon[alt=\"Black Friday is on\"][loading=\"lazy\"]",
+            "snippet": "<img class=\"rm-card-icon\" src=\"https://www.adobe.com/federal/assets/svgs/creative-cloud.svg\" loading=\"lazy\" alt=\"Black Friday is on\">"
+          },
+          {
+            "selector": "a[daa-ll=\"rm-nav-3--Save up to 60 on Fir\"] > .rm-card-icon[alt=\"Content creation\"][loading=\"lazy\"]",
+            "snippet": "<img class=\"rm-card-icon\" src=\"https://www.adobe.com/federal/assets/svgs/firefly-appicon-256.svg\" loading=\"lazy\" alt=\"Content creation\">"
+          },
+          {
+            "selector": "a[daa-ll=\"rm-nav-4--Get work done Faster\"] > .rm-card-icon[alt=\"PDF and document essentials\"][loading=\"lazy\"]",
+            "snippet": "<img class=\"rm-card-icon\" src=\"https://www.adobe.com/federal/assets/svgs/acrobat-pro.svg\" loading=\"lazy\" alt=\"PDF and document essentials\">"
+          },
+          {
+            "selector": "a[daa-ll=\"rm-nav-5--Orchestrate customer\"] > .rm-card-icon[alt=\"Adobe for Business\"][loading=\"lazy\"]",
+            "snippet": "<img class=\"rm-card-icon\" src=\"https://www.adobe.com/federal/assets/svgs/experience-cloud-logo.svg\" loading=\"lazy\" alt=\"Adobe for Business\">"
+          }
+        ]
+      },
+      {
+        "id": "aria-required-children",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Certain ARIA roles must contain particular children",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-children?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[data-viewport=\"mobile\"] > .rm-controls > .rm-cards[role=\"tablist\"]",
+            "snippet": "<div class=\"rm-cards\" role=\"tablist\" style=\"transition: transform 300ms cubic-bezier(0.42, 0, 0, 1); transform: translateX(0px);\">"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[aria-describedby=\"elastic-carousel-slide-1\"]",
+            "snippet": "<a class=\"elastic-carousel-ite...\" tabindex=\"0\" href=\"https://www.adobe.co...\" data-index=\"1\" role=\"link\" aria-roledescription=\"slide\" aria-label=\"Adobe products, caro...\" aria-describedby=\"elastic-c…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "63d517af9278",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Tue, 17 Nov 2026 17:14:14 GMT"
+        }
+      },
+      {
+        "hash": "63d517af9278",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Tue, 17 Nov 2026 17:14:14 GMT"
+        }
+      },
+      {
+        "hash": "63d517af9278",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Tue, 17 Nov 2026 17:14:14 GMT"
+        }
+      },
+      {
+        "hash": "63d517af9278",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Tue, 17 Nov 2026 17:14:14 GMT"
+        }
+      },
+      {
+        "hash": "63d517af9278",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Tue, 17 Nov 2026 17:14:14 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
