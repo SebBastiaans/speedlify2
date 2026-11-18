@@ -1,0 +1,310 @@
+{
+  "url": "https://www.fundaciongoethe.org/es",
+  "name": "www.fundaciongoethe.org",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795037600298,
+  "date": "2026-11-18T21:33:20.298Z",
+  "runId": "2026-11-18T21-25-55-760Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25462,
+  "error": null,
+  "variance": {
+    "min": 91,
+    "max": 99,
+    "spread": 8,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.fundaciongoethe.org/es",
+    "finalUrl": "https://www.fundaciongoethe.org/es/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 94,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2185,
+      "lcp": 2720,
+      "si": 2185,
+      "tbt": 0,
+      "tti": 2735,
+      "cls": 0,
+      "ttfb": 620,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 20,
+      "networkRtt": 0.1,
+      "networkServerLatency": 19.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 68.6,
+      "resourceLoadDelay": 66.8,
+      "resourceLoadDuration": 22.1,
+      "elementRenderDelay": 54.5
+    },
+    "weight": {
+      "total": 976925,
+      "requests": 41,
+      "mainDocument": 134040,
+      "byType": {
+        "total": {
+          "bytes": 970958,
+          "requests": 39
+        },
+        "image": {
+          "bytes": 621821,
+          "requests": 29
+        },
+        "document": {
+          "bytes": 134040,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 104176,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 86763,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 24158,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1914,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 0,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 1914,
+      "mainThreadMs": 1.2,
+      "top": [
+        {
+          "entity": "Plausible",
+          "bytes": 1914,
+          "mainThreadMs": 1.2,
+          "byType": {
+            "script": 1914
+          },
+          "typedBytes": 1914
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 487.1,
+      "byGroup": {
+        "other": 271.3,
+        "scriptEvaluation": 63.3,
+        "styleLayout": 59,
+        "parseHTML": 44.5,
+        "paintCompositeRender": 42.6,
+        "scriptParseCompile": 6.4
+      },
+      "bootupMs": 31.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 527,
+      "depth": 17,
+      "maxChildren": 28
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 32514,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 769.9,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 30
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2295.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T21:33:30.349Z",
+      "runtimeMs": 7305.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.6",
+      "source": "meta",
+      "raw": "Eleventy v3.1.6"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.6"
+      ],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.17.1"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7R98QRAREVGVVK9MSH153DM"
+    },
+    "violations": 5,
+    "passes": 784,
+    "incomplete": 4,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".my-6 > .text-gray-400.px-4",
+            "snippet": "<h3 class=\"px-4 text-center uppercase font-bold text-gray-400 text-sm\">Promotores Premium</h3>"
+          },
+          {
+            "selector": ".mb-6 > .text-gray-400.px-4",
+            "snippet": "<h3 class=\"px-4 text-center uppercase font-bold text-gray-400 text-sm\">Promotores</h3>"
+          },
+          {
+            "selector": ".md\\:text-lg",
+            "snippet": "<span class=\"block text-base md:text-lg\">...o bien promociona eventos puntuales bajo tu patrocinio.</span>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".pr-1",
+            "snippet": "<p class=\"pr-1 py-2 btn-label\">Hecho con</p>"
+          },
+          {
+            "selector": ".pl-1",
+            "snippet": "<p class=\"pl-1 py-2 btn-label\">por <a class=\"underline\" target=\"_blank\" rel=\"noopener\" title=\"Lene Saile - Diseñadora y desarrolladora web\" href=\"https://www.lenesaile.com\">Lene Saile</a>.</p>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a7f78e73ad65",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"e06b545cde571ca6e59cb578cf5ce2c9-ssl\""
+        }
+      },
+      {
+        "hash": "a7f78e73ad65",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"e06b545cde571ca6e59cb578cf5ce2c9-ssl\""
+        }
+      },
+      {
+        "hash": "a7f78e73ad65",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535985",
+          "etag": "W/\"e06b545cde571ca6e59cb578cf5ce2c9-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

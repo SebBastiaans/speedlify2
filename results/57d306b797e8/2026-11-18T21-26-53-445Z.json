@@ -1,0 +1,315 @@
+{
+  "url": "https://www.averagenerdpost.com/",
+  "name": "www.averagenerdpost.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795037213445,
+  "date": "2026-11-18T21:26:53.445Z",
+  "runId": "2026-11-18T21-25-55-760Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23373,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.averagenerdpost.com/",
+    "finalUrl": "https://www.averagenerdpost.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 935,
+      "lcp": 1567,
+      "si": 935,
+      "tbt": 0,
+      "tti": 1567,
+      "cls": 0,
+      "ttfb": 485,
+      "maxPotentialFid": 20,
+      "serverResponseTime": 34,
+      "networkRtt": 0.1,
+      "networkServerLatency": 35
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 35.6,
+      "resourceLoadDelay": 10.9,
+      "resourceLoadDuration": 31.3,
+      "elementRenderDelay": 75.8
+    },
+    "weight": {
+      "total": 325345,
+      "requests": 32,
+      "mainDocument": 3074,
+      "byType": {
+        "total": {
+          "bytes": 325345,
+          "requests": 31
+        },
+        "image": {
+          "bytes": 292160,
+          "requests": 10
+        },
+        "stylesheet": {
+          "bytes": 15273,
+          "requests": 15
+        },
+        "script": {
+          "bytes": 11309,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 3529,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 3074,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10351,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 15,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10351,
+      "mainThreadMs": 10.7,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 10.7,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 286.8,
+      "byGroup": {
+        "other": 161.4,
+        "scriptEvaluation": 68.7,
+        "styleLayout": 28.3,
+        "parseHTML": 16.2,
+        "paintCompositeRender": 10.6,
+        "scriptParseCompile": 1.6
+      },
+      "bootupMs": 66.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 102,
+      "depth": 11,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 16,
+      "poorlyCachedBytes": 4140.400000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 21,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 4
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "title": "Elements use prohibited ARIA attributes",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 22
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2384.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T21:27:02.917Z",
+      "runtimeMs": 6617.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.2",
+      "source": "meta",
+      "raw": "Eleventy v3.1.2"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.2"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5ca0ee12e74c6fa-CMH",
+      "server": "cloudflare"
+    },
+    "violations": 5,
+    "passes": 224,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".card-container:nth-child(1) > .card[aria-label=\"Read more about \"]",
+            "snippet": "<a href=\"/posts/2026/windows-is-getting-worse-but-most-people-arent-bothered/\" class=\"card\" aria-label=\"Read more about \">"
+          },
+          {
+            "selector": ".card-container:nth-child(2) > .card[aria-label=\"Read more about \"]",
+            "snippet": "<a href=\"/posts/2025/do-we-really-own-anything/\" class=\"card\" aria-label=\"Read more about \">"
+          },
+          {
+            "selector": ".card-container:nth-child(3) > .card[aria-label=\"Read more about \"]",
+            "snippet": "<a href=\"/posts/2025/daily-driving-a-macbook-air-m4/\" class=\"card\" aria-label=\"Read more about \">"
+          },
+          {
+            "selector": ".card-container:nth-child(4) > .card[aria-label=\"Read more about \"]",
+            "snippet": "<a href=\"/posts/2025/dangers-of-cloud-based-password-managers/\" class=\"card\" aria-label=\"Read more about \">"
+          }
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "label",
+            "snippet": "<label for=\"menu-toggle-checkbox\" class=\"menu-toggle-label\" aria-label=\"Toggle menu\"> <span class=\"menu-toggle-icon\"> <span></span> <span></span> <span></span> </span> </label>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "cc4a460163d8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "cc4a460163d8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "cc4a460163d8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "cc4a460163d8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

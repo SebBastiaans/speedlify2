@@ -1,0 +1,333 @@
+{
+  "url": "https://www.freecodecamp.org/news",
+  "name": "www.freecodecamp.org",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795037541286,
+  "date": "2026-11-18T21:32:21.286Z",
+  "runId": "2026-11-18T21-25-55-760Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 29326,
+  "error": null,
+  "variance": {
+    "min": 64,
+    "max": 69,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.freecodecamp.org/news",
+    "finalUrl": "https://www.freecodecamp.org/news",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 68,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1537,
+      "lcp": 11388,
+      "si": 1537,
+      "tbt": 302,
+      "tti": 11486,
+      "cls": 0.001,
+      "ttfb": 472,
+      "maxPotentialFid": 222,
+      "serverResponseTime": 41,
+      "networkRtt": 0.3,
+      "networkServerLatency": 82.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 42.5,
+      "resourceLoadDelay": 12.4,
+      "resourceLoadDuration": 39,
+      "elementRenderDelay": 71
+    },
+    "weight": {
+      "total": 6714476,
+      "requests": 56,
+      "mainDocument": 13979,
+      "byType": {
+        "total": {
+          "bytes": 6711005,
+          "requests": 55
+        },
+        "image": {
+          "bytes": 5954310,
+          "requests": 27
+        },
+        "script": {
+          "bytes": 552938,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 142105,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 31938,
+          "requests": 8
+        },
+        "other": {
+          "bytes": 15735,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 13979,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 6609378,
+          "requests": 36
+        }
+      },
+      "scripts": 12,
+      "stylesheets": 8,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 8,
+      "bytes": 6609378,
+      "mainThreadMs": 171.7,
+      "top": [
+        {
+          "entity": "hashnode.com",
+          "bytes": 5410396,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 5410396
+          },
+          "typedBytes": 5410396
+        },
+        {
+          "entity": "YouTube",
+          "bytes": 519363,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 519363
+          },
+          "typedBytes": 519363
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 487627,
+          "mainThreadMs": 147.6,
+          "byType": {
+            "script": 487627
+          },
+          "typedBytes": 487627
+        },
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 128140,
+          "mainThreadMs": 1.9,
+          "byType": {
+            "stylesheet": 14237,
+            "font": 113903
+          },
+          "typedBytes": 128140
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 29130,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 928,
+            "font": 28202
+          },
+          "typedBytes": 29130
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1743.2,
+      "byGroup": {
+        "scriptEvaluation": 684.1,
+        "other": 501.2,
+        "styleLayout": 255.3,
+        "scriptParseCompile": 160.7,
+        "paintCompositeRender": 66.7,
+        "parseHTML": 58.9,
+        "garbageCollection": 16.3
+      },
+      "bootupMs": 800.7,
+      "longTasks": 8,
+      "longestTaskMs": 222
+    },
+    "dom": {
+      "elements": 643,
+      "depth": 14,
+      "maxChildren": 30
+    },
+    "waste": {
+      "unusedJsBytes": 221317,
+      "unusedCssBytes": 12589,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 915,
+      "renderBlockingCount": 6,
+      "poorlyCachedBytes": 4937063.333333334,
+      "poorlyCachedCount": 27
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 22,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 31
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2320.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T21:32:31.242Z",
+      "runtimeMs": 8910.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {
+        "fontawesome": "7.0.1"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5ca170388ce7fd8-CMH",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 1378,
+    "incomplete": 1,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#banner",
+            "snippet": "<a class=\"banner\" id=\"banner\" data-test-label=\"banner\" rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://www.freecodecamp.org/\" text-variation=\"default\"> <p id=\"banner-text\">Learn Software Engi…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "1a93c3be6f59",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "1a93c3be6f59",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "1a93c3be6f59",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "1a93c3be6f59",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
