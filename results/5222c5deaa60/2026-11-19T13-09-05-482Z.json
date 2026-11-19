@@ -1,0 +1,307 @@
+{
+  "url": "https://cssnano.co/",
+  "name": "cssnano.co",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795093745482,
+  "date": "2026-11-19T13:09:05.482Z",
+  "runId": "2026-11-19T12-59-27-591Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23664,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://cssnano.co/",
+    "finalUrl": "https://cssnano.co/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 93,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 791,
+      "lcp": 1537,
+      "si": 1087,
+      "tbt": 0,
+      "tti": 1537,
+      "cls": 0,
+      "ttfb": 466,
+      "maxPotentialFid": 20,
+      "serverResponseTime": 204,
+      "networkRtt": 0.1,
+      "networkServerLatency": 20.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 205.2,
+      "resourceLoadDelay": 7.5,
+      "resourceLoadDuration": 19.6,
+      "elementRenderDelay": 22.2
+    },
+    "weight": {
+      "total": 881927,
+      "requests": 15,
+      "mainDocument": 5994,
+      "byType": {
+        "total": {
+          "bytes": 880951,
+          "requests": 14
+        },
+        "font": {
+          "bytes": 816198,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 30987,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 16315,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 10351,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 5994,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1106,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 854554,
+          "requests": 5
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 3,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 854554,
+      "mainThreadMs": 10.5,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 806626,
+          "mainThreadMs": 4.3,
+          "byType": {
+            "stylesheet": 27440,
+            "font": 779186
+          },
+          "typedBytes": 806626
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 37577,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 565,
+            "font": 37012
+          },
+          "typedBytes": 37577
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 6.1,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 357.3,
+      "byGroup": {
+        "other": 146.2,
+        "styleLayout": 118.3,
+        "scriptEvaluation": 38.8,
+        "parseHTML": 24.7,
+        "paintCompositeRender": 21.7,
+        "garbageCollection": 4.9,
+        "scriptParseCompile": 2.6
+      },
+      "bootupMs": 24.9,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 233,
+      "depth": 9,
+      "maxChildren": 46
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 27323,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 84802.99999999997,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 29,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "aria-dialog-name",
+          "title": "Elements with `role=\"dialog\"` or `role=\"alertdialog\"` do not have accessible names.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 19
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3507,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T13:09:14.892Z",
+      "runtimeMs": 6779.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5cf72ffec7a8736-PDX",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 389,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "body > p",
+            "snippet": "<p style=\"text-align:center; font-size:16px; margin:20px 0;\"> Acquired by <a href=\"https://serpnames.com\" title=\"Expired &amp; Aged Domains with Traffic\">SerpNames</a> – Expired &amp; Aged Domains wi…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b31dff0dbf85",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sun, 21 Jan 2024 10:43:54 GMT"
+        }
+      },
+      {
+        "hash": "b31dff0dbf85",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sun, 21 Jan 2024 10:43:54 GMT"
+        }
+      },
+      {
+        "hash": "b31dff0dbf85",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sun, 21 Jan 2024 10:43:54 GMT"
+        }
+      },
+      {
+        "hash": "a279a3dbfa2a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sun, 21 Jan 2024 10:43:54 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

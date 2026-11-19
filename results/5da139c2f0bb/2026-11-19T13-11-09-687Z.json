@@ -1,0 +1,331 @@
+{
+  "url": "https://indrajith.dev/",
+  "name": "indrajith.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795093869687,
+  "date": "2026-11-19T13:11:09.687Z",
+  "runId": "2026-11-19T12-59-27-591Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 32938,
+  "error": null,
+  "variance": {
+    "min": 45,
+    "max": 47,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://indrajith.dev/",
+    "finalUrl": "https://indrajith.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 46,
+      "accessibility": 92,
+      "best-practices": 92,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 17257,
+      "lcp": 17257,
+      "si": 17257,
+      "tbt": 373,
+      "tti": 17707,
+      "cls": 0,
+      "ttfb": 784,
+      "maxPotentialFid": 423,
+      "serverResponseTime": 170,
+      "networkRtt": 0.1,
+      "networkServerLatency": 183.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 171.5,
+      "elementRenderDelay": 2198
+    },
+    "weight": {
+      "total": 3756280,
+      "requests": 40,
+      "mainDocument": 10438,
+      "byType": {
+        "total": {
+          "bytes": 3735537,
+          "requests": 39
+        },
+        "script": {
+          "bytes": 3353782,
+          "requests": 6
+        },
+        "font": {
+          "bytes": 330611,
+          "requests": 26
+        },
+        "stylesheet": {
+          "bytes": 36130,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 10438,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 4576,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 40155,
+          "requests": 7
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 4,
+      "fonts": 26
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 40155,
+      "mainThreadMs": 4.7,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 29616,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1251,
+            "font": 28365
+          },
+          "typedBytes": 29616
+        },
+        {
+          "entity": "ko-fi.com",
+          "bytes": 5820,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "script": 1244,
+            "image": 4576
+          },
+          "typedBytes": 5820
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 4719,
+          "mainThreadMs": 4.3,
+          "byType": {
+            "script": 4719
+          },
+          "typedBytes": 4719
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 780,
+      "byGroup": {
+        "scriptEvaluation": 340.4,
+        "scriptParseCompile": 193.4,
+        "other": 165.9,
+        "styleLayout": 41.6,
+        "garbageCollection": 18.9,
+        "parseHTML": 10,
+        "paintCompositeRender": 9.9
+      },
+      "bootupMs": 468.4,
+      "longTasks": 1,
+      "longestTaskMs": 423
+    },
+    "dom": {
+      "elements": 145,
+      "depth": 10,
+      "maxChildren": 15
+    },
+    "waste": {
+      "unusedJsBytes": 2548857,
+      "unusedCssBytes": 23313,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 17430,
+      "renderBlockingCount": 6,
+      "poorlyCachedBytes": 3690618,
+      "poorlyCachedCount": 32
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 13,
+      "failingNodes": 24,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 24
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3556,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T13:11:21.863Z",
+      "runtimeMs": 9971.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "OpenResty",
+      "detailIcon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "openresty/1.31.1.1"
+    },
+    "violations": 24,
+    "passes": 315,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 24,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href=\"mailto:indrajith@indrajith.dev\"]",
+            "snippet": "<a href=\"mailto:indrajith@indrajith.dev\">indrajith@indrajith.dev</a>"
+          },
+          {
+            "selector": "p:nth-child(3) > a[target=\"_blank\"]",
+            "snippet": "<a href=\"https://github.com/cooljith91112\" target=\"_blank\">github.com/cooljith91112</a>"
+          },
+          {
+            "selector": "p:nth-child(4) > a[href$=\"git.indrajith.dev\"][target=\"_blank\"]",
+            "snippet": "<a href=\"https://git.indrajith.dev\" target=\"_blank\">git.indrajith.dev</a>"
+          },
+          {
+            "selector": "a[rel=\"me\"]",
+            "snippet": "<a rel=\"me\" href=\"https://mastodon.gamedev.place/@indrajith\">Mastodon</a>"
+          },
+          {
+            "selector": "div > ul > li:nth-child(1) > a[rel=\"external\"]",
+            "snippet": "<a rel=\"external\" href=\"https://git.indrajith.dev/indrajith-dev-crystal/\">Crystal Blog Framework</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "60a8631f65b3",
+        "nonce": "c677474fa2bd",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Wed, 21 Oct 2026 21:24:56 GMT"
+        }
+      },
+      {
+        "hash": "60a8631f65b3",
+        "nonce": "c677474fa2bd",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Wed, 21 Oct 2026 21:24:56 GMT"
+        }
+      },
+      {
+        "hash": "60a8631f65b3",
+        "nonce": "c677474fa2bd",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Wed, 21 Oct 2026 21:24:56 GMT"
+        }
+      },
+      {
+        "hash": "60a8631f65b3",
+        "nonce": "c677474fa2bd",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Wed, 21 Oct 2026 21:24:56 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,339 @@
+{
+  "url": "https://pub.dev/",
+  "name": "pub.dev",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795094115775,
+  "date": "2026-11-19T13:15:15.775Z",
+  "runId": "2026-11-19T12-59-27-591Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 43341,
+  "error": null,
+  "variance": {
+    "min": 83,
+    "max": 84,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://pub.dev/",
+    "finalUrl": "https://pub.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 84,
+      "accessibility": 92,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1538,
+      "lcp": 4432,
+      "si": 1538,
+      "tbt": 66,
+      "tti": 5468,
+      "cls": 0.003,
+      "ttfb": 618,
+      "maxPotentialFid": 119,
+      "serverResponseTime": 61,
+      "networkRtt": 0.2,
+      "networkServerLatency": 19.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 63,
+      "resourceLoadDelay": 8.5,
+      "resourceLoadDuration": 30.4,
+      "elementRenderDelay": 148.8
+    },
+    "weight": {
+      "total": 654109,
+      "requests": 38,
+      "mainDocument": 6341,
+      "byType": {
+        "total": {
+          "bytes": 654109,
+          "requests": 36
+        },
+        "script": {
+          "bytes": 463306,
+          "requests": 16
+        },
+        "image": {
+          "bytes": 68244,
+          "requests": 10
+        },
+        "other": {
+          "bytes": 50109,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 45790,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 20319,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 6341,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 390529,
+          "requests": 10
+        }
+      },
+      "scripts": 16,
+      "stylesheets": 3,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 390529,
+      "mainThreadMs": 72.1,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 307126,
+          "mainThreadMs": 57.1,
+          "byType": {
+            "script": 307126
+          },
+          "typedBytes": 307126
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 49580,
+          "mainThreadMs": 0.7,
+          "byType": {
+            "stylesheet": 3790,
+            "font": 45790
+          },
+          "typedBytes": 49580
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 20913,
+          "mainThreadMs": 10.7,
+          "byType": {
+            "script": 20875,
+            "other": 38
+          },
+          "typedBytes": 20913
+        },
+        {
+          "entity": "Google CDN",
+          "bytes": 12910,
+          "mainThreadMs": 3.6,
+          "byType": {
+            "script": 11537,
+            "stylesheet": 1305,
+            "other": 68
+          },
+          "typedBytes": 12910
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 854.8,
+      "byGroup": {
+        "scriptEvaluation": 405.7,
+        "other": 215.2,
+        "styleLayout": 96.9,
+        "scriptParseCompile": 85.9,
+        "paintCompositeRender": 24,
+        "garbageCollection": 13.8,
+        "parseHTML": 13.5
+      },
+      "bootupMs": 413.5,
+      "longTasks": 3,
+      "longestTaskMs": 119
+    },
+    "dom": {
+      "elements": 345,
+      "depth": 9,
+      "maxChildren": 18
+    },
+    "waste": {
+      "unusedJsBytes": 199894,
+      "unusedCssBytes": 12323,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 1409,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1684,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 36507.79832402234,
+      "poorlyCachedCount": 25
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 27,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 3,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 15
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3450.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T13:15:30.971Z",
+      "runtimeMs": 6603.2
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 597.9,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 902,
+    "elementRenderDelay": 522.6
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {
+      "via": "1.1 google",
+      "x-powered-by": "Dart with package:shelf"
+    },
+    "violations": 3,
+    "passes": 879,
+    "incomplete": 14,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-title-only",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Form elements should have a visible label",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-title-only?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "input",
+            "snippet": "<input class=\"input\" type=\"search\" name=\"q\" placeholder=\"Search packages\" autocomplete=\"off\" autofocus=\"autofocus\" title=\"Search\" data-widget=\"completion\" data-completion-src=\"/api/search-input-co...…"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".home-block-context-info > a[rel=\"noopener\"][target=\"_blank\"]",
+            "snippet": "<a href=\"https://flutter.dev/docs/development/packages-and-plugins/favorites\" rel=\"noopener\" target=\"_blank\">highest levels of quality</a>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "._banner-bg",
+            "snippet": "<div class=\"_banner-bg pub-dark-bg\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "405fd39b5815",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "405fd39b5815",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "405fd39b5815",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "405fd39b5815",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "376f1e481ba6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
