@@ -1,0 +1,305 @@
+{
+  "url": "https://datacatalogs.ru/",
+  "name": "datacatalogs.ru",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795093992916,
+  "date": "2026-11-19T13:13:12.916Z",
+  "runId": "2026-11-19T12-59-10-591Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 31640,
+  "error": null,
+  "variance": {
+    "min": 56,
+    "max": 99,
+    "spread": 43,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://datacatalogs.ru/",
+    "finalUrl": "https://datacatalogs.ru/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 56,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 9828,
+      "lcp": 9828,
+      "si": 9828,
+      "tbt": 0,
+      "tti": 9828,
+      "cls": 0.001,
+      "ttfb": 796,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 355,
+      "networkRtt": 0,
+      "networkServerLatency": 195.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 554.7,
+      "elementRenderDelay": 951.2
+    },
+    "weight": {
+      "total": 1543564,
+      "requests": 34,
+      "mainDocument": 1200201,
+      "byType": {
+        "total": {
+          "bytes": 1543567,
+          "requests": 31
+        },
+        "document": {
+          "bytes": 1234461,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 105363,
+          "requests": 7
+        },
+        "script": {
+          "bytes": 76956,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 50744,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 38734,
+          "requests": 8
+        },
+        "other": {
+          "bytes": 37309,
+          "requests": 6
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 88945,
+          "requests": 5
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 8,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "infoculture.work",
+          "bytes": 0,
+          "mainThreadMs": 0
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1260,
+      "byGroup": {
+        "other": 613.9,
+        "scriptEvaluation": 265.6,
+        "styleLayout": 187.5,
+        "parseHTML": 71.3,
+        "scriptParseCompile": 65.4,
+        "paintCompositeRender": 51.2,
+        "garbageCollection": 5.1
+      },
+      "bootupMs": 314.3,
+      "longTasks": 3,
+      "longestTaskMs": 86
+    },
+    "dom": {
+      "elements": 2444,
+      "depth": 11,
+      "maxChildren": 322
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 2983,
+      "unminifiedCssBytes": 2260,
+      "renderBlockingMs": 6107,
+      "renderBlockingCount": 11,
+      "poorlyCachedBytes": 165919,
+      "poorlyCachedCount": 19
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is not valid",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "http/1.1",
+      "legacyHttpRequests": 20,
+      "redirectMs": 1591.1,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 26
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4248.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T13:13:32.441Z",
+      "runtimeMs": 9408.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {},
+    "violations": 5,
+    "passes": 396,
+    "incomplete": 58,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "header",
+            "snippet": "<header>"
+          },
+          {
+            "selector": ".socials",
+            "snippet": "<nav class=\"socials\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-banner-is-top-level",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Banner landmark should not be contained in another landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-banner-is-top-level?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[role=\"banner\"]",
+            "snippet": "<div class=\"wrapper\" role=\"banner\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-no-duplicate-banner",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should not have more than one banner landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-banner?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "header",
+            "snippet": "<header>"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"ru\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9a18f2a16909",
+        "nonce": "41e923ec74e2",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "0780c9433060",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"667c45f0-1246d9\"",
+          "last-modified": "Wed, 26 Jun 2024 16:46:40 GMT"
+        }
+      },
+      {
+        "hash": "0780c9433060",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"667c45f0-1246d9\"",
+          "last-modified": "Wed, 26 Jun 2024 16:46:40 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

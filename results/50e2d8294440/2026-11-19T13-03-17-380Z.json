@@ -1,0 +1,369 @@
+{
+  "url": "https://zellwk.com/",
+  "name": "zellwk.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795093397380,
+  "date": "2026-11-19T13:03:17.380Z",
+  "runId": "2026-11-19T12-59-10-591Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27565,
+  "error": null,
+  "variance": {
+    "min": 73,
+    "max": 85,
+    "spread": 12,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://zellwk.com/",
+    "finalUrl": "https://zellwk.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 77,
+      "accessibility": 99,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 41
+    },
+    "timings": {
+      "fcp": 3298,
+      "lcp": 3298,
+      "si": 3730,
+      "tbt": 205,
+      "tti": 8439,
+      "cls": 0.133,
+      "ttfb": 555,
+      "maxPotentialFid": 137,
+      "serverResponseTime": 173,
+      "networkRtt": 0.1,
+      "networkServerLatency": 105
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 174.1,
+      "elementRenderDelay": 1183.5
+    },
+    "weight": {
+      "total": 1235700,
+      "requests": 53,
+      "mainDocument": 31931,
+      "byType": {
+        "total": {
+          "bytes": 1235700,
+          "requests": 53
+        },
+        "script": {
+          "bytes": 739753,
+          "requests": 31
+        },
+        "font": {
+          "bytes": 369374,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 58559,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 31931,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 27998,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 8085,
+          "requests": 11
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 924450,
+          "requests": 23
+        }
+      },
+      "scripts": 31,
+      "stylesheets": 3,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 924450,
+      "mainThreadMs": 115.9,
+      "top": [
+        {
+          "entity": "Adobe TypeKit",
+          "bytes": 370597,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1223,
+            "font": 369374
+          },
+          "typedBytes": 370597
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 216683,
+          "mainThreadMs": 52.9,
+          "byType": {
+            "script": 216666,
+            "image": 17
+          },
+          "typedBytes": 216683
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 184453,
+          "mainThreadMs": 37,
+          "byType": {
+            "script": 184453
+          },
+          "typedBytes": 184453
+        },
+        {
+          "entity": "posthog.com",
+          "bytes": 138176,
+          "mainThreadMs": 20.4,
+          "byType": {
+            "script": 138176
+          },
+          "typedBytes": 138176
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10352,
+          "mainThreadMs": 5.4,
+          "byType": {
+            "script": 10352
+          },
+          "typedBytes": 10352
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1294.1,
+      "byGroup": {
+        "scriptEvaluation": 779.5,
+        "other": 255.8,
+        "styleLayout": 120.3,
+        "scriptParseCompile": 97.2,
+        "parseHTML": 21.1,
+        "paintCompositeRender": 20.2
+      },
+      "bootupMs": 750.4,
+      "longTasks": 7,
+      "longestTaskMs": 137
+    },
+    "dom": {
+      "elements": 267,
+      "depth": 13,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 304066,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 52752,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1817,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 327982.0666666666,
+      "poorlyCachedCount": 10
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 8,
+      "failing": [
+        {
+          "id": "svg-img-alt",
+          "title": "SVG elements with an `img` role do not have an accessible text alternative",
+          "weight": 1,
+          "nodes": 8
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 66
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4528.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T13:03:35.657Z",
+      "runtimeMs": 8511.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro",
+        "svelte"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5cf6aa70ac380da-EWR",
+      "server": "cloudflare",
+      "x-powered-by": "Express"
+    },
+    "violations": 9,
+    "passes": 508,
+    "incomplete": 1,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "svg-img-alt",
+        "impact": "serious",
+        "nodes": 8,
+        "help": "<svg> elements with an img or image role must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/svg-img-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "svg[width=\"192\"]",
+            "snippet": "<svg fill=\"none\" width=\"192\" height=\"60\" viewBox=\"0 0 192 60\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" class=\" h-12 simple-svg fill-zgray-400\" style=\"\">"
+          },
+          {
+            "selector": "svg[width=\"194\"]",
+            "snippet": "<svg fill=\"none\" width=\"194\" height=\"60\" viewBox=\"0 0 194 60\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" class=\" h-12 simple-svg fill-zgray-400\" style=\"\">"
+          },
+          {
+            "selector": "svg[width=\"170\"]",
+            "snippet": "<svg fill=\"none\" width=\"170\" height=\"60\" viewBox=\"0 0 170 60\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" class=\" h-12 simple-svg fill-zgray-400\" style=\"\">"
+          },
+          {
+            "selector": "svg[width=\"153\"]",
+            "snippet": "<svg fill=\"none\" width=\"153\" height=\"60\" viewBox=\"0 0 153 60\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" class=\" h-12 simple-svg fill-zgray-400\" style=\"\">"
+          },
+          {
+            "selector": "svg[width=\"140\"]",
+            "snippet": "<svg fill=\"none\" width=\"140\" height=\"60\" viewBox=\"0 0 140 60\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" class=\" h-12 simple-svg fill-zgray-400\" style=\"\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".main-nav",
+            "snippet": "<nav class=\"main-nav horizontal items-center\"><a class=\"logo\" href=\"/\">ZL</a> <div class=\"horizontal gap-4 ml-auto\"><a class=\"link\" href=\"/about/\">About</a> <a class=\"link\" href=\"/blog/\">Articles</a>…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "5be83b797b39",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 19 Nov 2026 06:47:29 GMT"
+        }
+      },
+      {
+        "hash": "5be83b797b39",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 19 Nov 2026 06:47:29 GMT"
+        }
+      },
+      {
+        "hash": "5be83b797b39",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 19 Nov 2026 06:47:29 GMT"
+        }
+      },
+      {
+        "hash": "5be83b797b39",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "W/\"146f3-1a1f28f70bf\"",
+          "last-modified": "Thu, 19 Nov 2026 06:47:29 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
