@@ -1,0 +1,328 @@
+{
+  "url": "https://johan.im/",
+  "name": "johan.im",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795058593568,
+  "date": "2026-11-19T03:23:13.568Z",
+  "runId": "2026-11-19T03-22-42-156Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21052,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://johan.im/",
+    "finalUrl": "https://johan.im/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 99
+    },
+    "timings": {
+      "fcp": 794,
+      "lcp": 794,
+      "si": 794,
+      "tbt": 0,
+      "tti": 794,
+      "cls": 0.06,
+      "ttfb": 474,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 38,
+      "networkRtt": 0,
+      "networkServerLatency": 142.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 39.2,
+      "elementRenderDelay": 63.7
+    },
+    "weight": {
+      "total": 24845,
+      "requests": 10,
+      "mainDocument": 3043,
+      "byType": {
+        "total": {
+          "bytes": 24845,
+          "requests": 10
+        },
+        "stylesheet": {
+          "bytes": 6794,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 6528,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 5944,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 3043,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2536,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 4749,
+          "requests": 2
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 4749,
+      "mainThreadMs": 1.1,
+      "top": [
+        {
+          "entity": "zgo.at",
+          "bytes": 4367,
+          "mainThreadMs": 1.1,
+          "byType": {
+            "script": 4367
+          },
+          "typedBytes": 4367
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 116.3,
+      "byGroup": {
+        "other": 55.2,
+        "styleLayout": 31.3,
+        "scriptEvaluation": 16.6,
+        "parseHTML": 6.4,
+        "paintCompositeRender": 4.7,
+        "scriptParseCompile": 2.3
+      },
+      "bootupMs": 10.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 84,
+      "depth": 7,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 9729.663670138887,
+      "poorlyCachedCount": 6
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 23,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 5
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 31
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4059.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:23:23.293Z",
+      "runtimeMs": 5546.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": null,
+      "name": "frey",
+      "icon": null,
+      "version": null,
+      "source": "meta",
+      "raw": "frey"
+    },
+    "probe": {
+      "metas": [
+        "frey"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5cc18c31dfa585d-STL",
+      "server": "cloudflare"
+    },
+    "violations": 6,
+    "passes": 209,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "p > a[href$=\"about\"]",
+            "snippet": "<a href=\"/about\">About</a>"
+          },
+          {
+            "selector": "p > a[href$=\"feed.xml\"]",
+            "snippet": "<a href=\"/feed.xml\">Feed</a>"
+          },
+          {
+            "selector": "p > a:nth-child(3)",
+            "snippet": "<a href=\"https://git.sr.ht/~brookie/johan.im\">Source</a>"
+          },
+          {
+            "selector": "a[href$=\"tags\"]",
+            "snippet": "<a href=\"/tags\">Tags</a>"
+          },
+          {
+            "selector": "a[href$=\"all\"]",
+            "snippet": "<a href=\"/all\">All pages</a>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".skip-link",
+            "snippet": "<a href=\"#main\" class=\"sr-only skip-link\">Skip to content</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "58674d75aa47",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "MISS",
+          "last-modified": "Wed, 18 Nov 2026 10:12:25 GMT"
+        }
+      },
+      {
+        "hash": "58674d75aa47",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 18 Nov 2026 10:12:25 GMT"
+        }
+      },
+      {
+        "hash": "58674d75aa47",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 18 Nov 2026 10:12:25 GMT"
+        }
+      },
+      {
+        "hash": "58674d75aa47",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 18 Nov 2026 10:12:25 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

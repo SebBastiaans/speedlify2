@@ -1,0 +1,281 @@
+{
+  "url": "https://leilukin.neocities.org/",
+  "name": "leilukin.neocities.org",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795058617620,
+  "date": "2026-11-19T03:23:37.620Z",
+  "runId": "2026-11-19T03-22-42-156Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24066,
+  "error": null,
+  "variance": {
+    "min": 88,
+    "max": 93,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://leilukin.neocities.org/",
+    "finalUrl": "https://leilukin.com/",
+    "redirect": {
+      "from": "https://leilukin.neocities.org/",
+      "to": "https://leilukin.com/",
+      "chain": [
+        {
+          "url": "https://leilukin.neocities.org/",
+          "status": 200
+        },
+        {
+          "url": "https://leilukin.com/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        200
+      ],
+      "change": "host",
+      "permanent": false,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2433,
+      "lcp": 2883,
+      "si": 2433,
+      "tbt": 0,
+      "tti": 2883,
+      "cls": 0.03,
+      "ttfb": 734,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 117,
+      "networkRtt": 0,
+      "networkServerLatency": 133.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 120.5,
+      "resourceLoadDelay": 9.7,
+      "resourceLoadDuration": 149,
+      "elementRenderDelay": 33.5
+    },
+    "weight": {
+      "total": 238437,
+      "requests": 62,
+      "mainDocument": null,
+      "byType": {
+        "total": {
+          "bytes": 236220,
+          "requests": 62
+        },
+        "image": {
+          "bytes": 73151,
+          "requests": 23
+        },
+        "font": {
+          "bytes": 61022,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 53625,
+          "requests": 9
+        },
+        "stylesheet": {
+          "bytes": 32779,
+          "requests": 23
+        },
+        "document": {
+          "bytes": 15643,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 34276,
+          "requests": 19
+        }
+      },
+      "scripts": null,
+      "stylesheets": null,
+      "fonts": null
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 20030,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "neocities.org",
+          "bytes": 18921,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "script": 982,
+            "image": 10193,
+            "stylesheet": 7746
+          },
+          "typedBytes": 18921
+        },
+        {
+          "entity": "Unpkg",
+          "bytes": 1109,
+          "mainThreadMs": 0,
+          "byType": {
+            "script": 1109
+          },
+          "typedBytes": 1109
+        }
+      ]
+    },
+    "mainThread": null,
+    "dom": {
+      "elements": 389,
+      "depth": 10,
+      "maxChildren": 21
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10873,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 12,
+      "poorlyCachedBytes": 16957,
+      "poorlyCachedCount": 6
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 29,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 9
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "http/1.1",
+      "legacyHttpRequests": 10,
+      "redirectMs": 1650.1,
+      "consoleErrors": 9,
+      "baselineLimitedFeatures": 31
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4536,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:23:54.205Z",
+      "runtimeMs": 7164.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.8",
+      "source": "meta",
+      "raw": "Eleventy v3.1.8"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.8"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "neocities",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "neocities"
+    },
+    "violations": 0,
+    "passes": 972,
+    "incomplete": 3,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "818b1fa2dffb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmypvg90n6pi-klx-gzip\"",
+          "last-modified": "Wed, 18 Nov 2026 23:14:26 GMT"
+        }
+      },
+      {
+        "hash": "818b1fa2dffb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmypvg90n6pi-klx-gzip\"",
+          "last-modified": "Wed, 18 Nov 2026 23:14:26 GMT"
+        }
+      },
+      {
+        "hash": "818b1fa2dffb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmypvg90n6pi-klx-gzip\"",
+          "last-modified": "Wed, 18 Nov 2026 23:14:26 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
