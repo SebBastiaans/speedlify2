@@ -1,0 +1,390 @@
+{
+  "url": "https://francisrub.io/",
+  "name": "francisrubio.antaresph.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795124011878,
+  "date": "2026-11-19T21:33:31.878Z",
+  "runId": "2026-11-19T21-29-30-617Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 43124,
+  "error": null,
+  "variance": {
+    "min": 41,
+    "max": 42,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://francisrub.io/",
+    "finalUrl": "https://francisrub.io/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 41,
+      "accessibility": 98,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2916,
+      "lcp": 40067,
+      "si": 6228,
+      "tbt": 1162,
+      "tti": 40075,
+      "cls": 0,
+      "ttfb": 640,
+      "maxPotentialFid": 1127,
+      "serverResponseTime": 229,
+      "networkRtt": 118.2,
+      "networkServerLatency": 345.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 266.9,
+      "resourceLoadDelay": 1146.2,
+      "resourceLoadDuration": 1665.2,
+      "elementRenderDelay": 143.6
+    },
+    "weight": {
+      "total": 7639374,
+      "requests": 35,
+      "mainDocument": 136855,
+      "byType": {
+        "total": {
+          "bytes": 7637582,
+          "requests": 31
+        },
+        "image": {
+          "bytes": 5601511,
+          "requests": 10
+        },
+        "media": {
+          "bytes": 967568,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 804975,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 136855,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 107756,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 15524,
+          "requests": 6
+        },
+        "other": {
+          "bytes": 3393,
+          "requests": 5
+        },
+        "third-party": {
+          "bytes": 6193410,
+          "requests": 12
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 6,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 6193410,
+      "mainThreadMs": 3.8,
+      "top": [
+        {
+          "entity": "imagekit.io",
+          "bytes": 5427824,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 5427824
+          },
+          "typedBytes": 5427824
+        },
+        {
+          "entity": "rsms.me",
+          "bytes": 741986,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 741986
+          },
+          "typedBytes": 741986
+        },
+        {
+          "entity": "GitHub",
+          "bytes": 17544,
+          "mainThreadMs": 2.1,
+          "byType": {
+            "script": 17544
+          },
+          "typedBytes": 17544
+        },
+        {
+          "entity": "zgo.at",
+          "bytes": 4455,
+          "mainThreadMs": 1.5,
+          "byType": {
+            "script": 4455
+          },
+          "typedBytes": 4455
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 1219,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1219
+          },
+          "typedBytes": 1219
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 14211.4,
+      "byGroup": {
+        "other": 12887.3,
+        "styleLayout": 550.2,
+        "scriptEvaluation": 399.8,
+        "paintCompositeRender": 290.6,
+        "parseHTML": 41.3,
+        "scriptParseCompile": 33.4,
+        "garbageCollection": 8.8
+      },
+      "bootupMs": 413.9,
+      "longTasks": 2,
+      "longestTaskMs": 1127
+    },
+    "dom": {
+      "elements": 611,
+      "depth": 15,
+      "maxChildren": 40
+    },
+    "waste": {
+      "unusedJsBytes": 25547,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 23423,
+      "unminifiedJsBytes": 23903,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1846,
+      "renderBlockingCount": 6,
+      "poorlyCachedBytes": 16082,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 28,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 39
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3070.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T21:33:33.084Z",
+      "runtimeMs": 14997.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.2",
+      "source": "meta",
+      "raw": "Eleventy v3.1.2"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.2"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5d2566f3bf1b013-ATL",
+      "server": "cloudflare"
+    },
+    "violations": 7,
+    "passes": 677,
+    "incomplete": 56,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".skip-link",
+            "snippet": "<a href=\"#main\" class=\"navigation-link skip-link\">Skip to content</a>"
+          },
+          {
+            "selector": ".poster",
+            "snippet": "<img loading=\"lazy\" class=\"poster\" src=\"https://ik.imagekit....\" width=\"4794\" height=\"3840\" alt=\"The visionary, now w...\">"
+          },
+          {
+            "selector": ".police-report",
+            "snippet": "<section class=\"police-report\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".elsewhere",
+            "snippet": "<section class=\"elsewhere\" aria-labelledby=\"elsewhere-heading\">"
+          },
+          {
+            "selector": "section[aria-labelledby=\"pinoy-websites-heading\"] > nav",
+            "snippet": "<nav>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "f393291ffc4d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "EXPIRED",
+          "etag": "\"2dea2dc9703f0c2ad29faf56034ea8b8\"",
+          "last-modified": "Mon, 16 Nov 2026 17:50:23 UTC"
+        }
+      },
+      {
+        "hash": "f393291ffc4d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cf-cache-status": "HIT",
+          "etag": "\"2dea2dc9703f0c2ad29faf56034ea8b8\"",
+          "last-modified": "Mon, 16 Nov 2026 17:50:23 UTC"
+        }
+      },
+      {
+        "hash": "f393291ffc4d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "27",
+          "cf-cache-status": "HIT",
+          "etag": "\"2dea2dc9703f0c2ad29faf56034ea8b8\"",
+          "last-modified": "Mon, 16 Nov 2026 17:50:23 UTC"
+        }
+      },
+      {
+        "hash": "f393291ffc4d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "38",
+          "cf-cache-status": "HIT",
+          "etag": "\"2dea2dc9703f0c2ad29faf56034ea8b8\"",
+          "last-modified": "Mon, 16 Nov 2026 17:50:23 UTC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

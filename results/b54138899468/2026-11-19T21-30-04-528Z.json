@@ -1,0 +1,314 @@
+{
+  "url": "https://snappy-lemon.cloudvent.net/",
+  "name": "snappy-lemon.cloudvent.net",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795123804528,
+  "date": "2026-11-19T21:30:04.528Z",
+  "runId": "2026-11-19T21-29-30-617Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23032,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 100,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://snappy-lemon.cloudvent.net/",
+    "finalUrl": "https://snappy-lemon.cloudvent.net/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 61,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1530,
+      "lcp": 1530,
+      "si": 1530,
+      "tbt": 0,
+      "tti": 1530,
+      "cls": 0,
+      "ttfb": 614,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 19,
+      "networkRtt": 0,
+      "networkServerLatency": 15.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 20.9,
+      "elementRenderDelay": 48.9
+    },
+    "weight": {
+      "total": 73248,
+      "requests": 8,
+      "mainDocument": 5856,
+      "byType": {
+        "total": {
+          "bytes": 61818,
+          "requests": 7
+        },
+        "script": {
+          "bytes": 25175,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 15899,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 14228,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 5856,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 660,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1267,
+          "requests": 1
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 1267,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 1267,
+          "mainThreadMs": 0,
+          "byType": {
+            "stylesheet": 1267
+          },
+          "typedBytes": 1267
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 169.5,
+      "byGroup": {
+        "other": 65.1,
+        "styleLayout": 41.2,
+        "scriptEvaluation": 38.5,
+        "parseHTML": 11.7,
+        "paintCompositeRender": 6.8,
+        "scriptParseCompile": 6.2
+      },
+      "bootupMs": 8.4,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 223,
+      "depth": 11,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 915,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 23,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "weight": 4.043478260869565,
+          "nodes": 2
+        },
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 30
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2900,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T21:30:15.279Z",
+      "runtimeMs": 5779.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.8",
+      "source": "meta",
+      "raw": "Eleventy v3.1.8"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.8"
+      ],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.17.5"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5d250e89f22d637-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 350,
+    "incomplete": 2,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "image-redundant-alt",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Alternative text of images should not be repeated as text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-redundant-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "img[src$=\"PGzAgebepf-120.png\"]",
+            "snippet": "<img loading=\"lazy\" decoding=\"async\" src=\"/img/PGzAgebepf-120.png\" alt=\"Snappy Lemon\" class=\"h-8 w-auto\" width=\"120\" height=\"120\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".github-fork-ribbon",
+            "snippet": "<a class=\"github-fork-ribbon fixed\" href=\"https://github.com/freshjuice-dev/freshjuice-11ty-starter\" data-ribbon=\"Fork me on GitHub\" title=\"Fork me on GitHub\">Fork me on GitHub</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b6ff76e8080a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "119386",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sun, 15 Nov 2026 18:58:46 GMT"
+        }
+      },
+      {
+        "hash": "b6ff76e8080a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "119396",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sun, 15 Nov 2026 18:58:46 GMT"
+        }
+      },
+      {
+        "hash": "b6ff76e8080a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "119402",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sun, 15 Nov 2026 18:58:46 GMT"
+        }
+      },
+      {
+        "hash": "b6ff76e8080a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "119406",
+          "cf-cache-status": "HIT",
+          "etag": "\"6bd7c7bb5045665bb9b102fe18188d2a\"",
+          "last-modified": "Sun, 15 Nov 2026 18:58:46 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
