@@ -1,0 +1,289 @@
+{
+  "url": "https://lamplightdev.com/",
+  "name": "lamplightdev.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795059385327,
+  "date": "2026-11-19T03:36:25.327Z",
+  "runId": "2026-11-19T03-22-50-956Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22199,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://lamplightdev.com/",
+    "finalUrl": "https://lamplightdev.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 843,
+      "lcp": 843,
+      "si": 843,
+      "tbt": 0,
+      "tti": 843,
+      "cls": 0.041,
+      "ttfb": 517,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 67,
+      "networkRtt": 0,
+      "networkServerLatency": 165.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 68.4,
+      "elementRenderDelay": 122.5
+    },
+    "weight": {
+      "total": 165468,
+      "requests": 9,
+      "mainDocument": 4280,
+      "byType": {
+        "total": {
+          "bytes": 165468,
+          "requests": 9
+        },
+        "font": {
+          "bytes": 140585,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 11709,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 7232,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 4280,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1662,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10352,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10352,
+      "mainThreadMs": 5.7,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10352,
+          "mainThreadMs": 5.7,
+          "byType": {
+            "script": 10352
+          },
+          "typedBytes": 10352
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 208.1,
+      "byGroup": {
+        "other": 88.5,
+        "styleLayout": 67,
+        "scriptEvaluation": 37.1,
+        "paintCompositeRender": 7.5,
+        "parseHTML": 6.8,
+        "scriptParseCompile": 1.1
+      },
+      "bootupMs": 9.9,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 152,
+      "depth": 9,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10357,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2238,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 4140.8,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 23,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 5
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 33
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3021.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:36:40.769Z",
+      "runtimeMs": 6315.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5cc2c286daf6c5b-DFW",
+      "server": "cloudflare"
+    },
+    "violations": 5,
+    "passes": 373,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "li:nth-child(1) > .meta > a[href$=\"html/\"]",
+            "snippet": "<a href=\"/blog/tag/html/\">html</a>"
+          },
+          {
+            "selector": "li:nth-child(1) > .meta > a[href$=\"shadow%20dom/\"]",
+            "snippet": "<a href=\"/blog/tag/shadow%20dom/\">shadow dom</a>"
+          },
+          {
+            "selector": "a[href$=\"ssr/\"]",
+            "snippet": "<a href=\"/blog/tag/ssr/\">ssr</a>"
+          },
+          {
+            "selector": "a[href$=\"browsers/\"]",
+            "snippet": "<a href=\"/blog/tag/browsers/\">browsers</a>"
+          },
+          {
+            "selector": "li:nth-child(2) > .meta > a[href$=\"opinion/\"]",
+            "snippet": "<a href=\"/blog/tag/opinion/\">opinion</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "33171bd374b5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "33171bd374b5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "33171bd374b5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "33171bd374b5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

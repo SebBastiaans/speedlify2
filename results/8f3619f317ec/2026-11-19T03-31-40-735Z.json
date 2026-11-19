@@ -1,0 +1,291 @@
+{
+  "url": "https://imacrayon.com/",
+  "name": "imacrayon.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795059100735,
+  "date": "2026-11-19T03:31:40.735Z",
+  "runId": "2026-11-19T03-22-50-956Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 63754,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://imacrayon.com/",
+    "finalUrl": "https://imacrayon.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 840,
+      "lcp": 840,
+      "si": 840,
+      "tbt": 0,
+      "tti": 840,
+      "cls": 0.001,
+      "ttfb": 513,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 82,
+      "networkRtt": 0,
+      "networkServerLatency": 8274
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 83.5,
+      "elementRenderDelay": 31.8
+    },
+    "weight": {
+      "total": 76789,
+      "requests": 8,
+      "mainDocument": 5377,
+      "byType": {
+        "total": {
+          "bytes": 76789,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 53533,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 10351,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 5377,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 5086,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 2442,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10713,
+          "requests": 2
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 0,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 10713,
+      "mainThreadMs": 6.5,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 6.5,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "doserverless.co",
+          "bytes": 362,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 362
+          },
+          "typedBytes": 362
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 187.8,
+      "byGroup": {
+        "other": 91.4,
+        "styleLayout": 40.8,
+        "scriptEvaluation": 39.6,
+        "paintCompositeRender": 8.1,
+        "parseHTML": 6.8,
+        "scriptParseCompile": 1.1
+      },
+      "bootupMs": 19.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 67,
+      "depth": 10,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 4140.400000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 24,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 22
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2948,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:32:01.202Z",
+      "runtimeMs": 14445.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.0.0",
+      "source": "meta",
+      "raw": "Eleventy v3.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5cc25de39f82cb8-DFW",
+      "server": "cloudflare",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "e299f60bd5293c08cf44f6e655931e4eb0bf312c",
+      "x-github-request-id": "AD10:7499C:66FBDC:7BC286:6AFE65C7",
+      "x-served-by": "cache-dfw-kdfw8210051-DFW"
+    },
+    "violations": 0,
+    "passes": 170,
+    "incomplete": 4,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "8eb33fdcbbb4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 04 Jan 2025 06:08:35 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "8eb33fdcbbb4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "20",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 04 Jan 2025 06:08:35 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "8eb33fdcbbb4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "34",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 04 Jan 2025 06:08:35 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "8eb33fdcbbb4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "47",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 04 Jan 2025 06:08:35 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

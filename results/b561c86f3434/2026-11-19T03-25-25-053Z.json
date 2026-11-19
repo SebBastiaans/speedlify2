@@ -1,0 +1,316 @@
+{
+  "url": "https://yoncetheme.com/",
+  "name": "yoncetheme.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795058725053,
+  "date": "2026-11-19T03:25:25.053Z",
+  "runId": "2026-11-19T03-22-50-956Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26471,
+  "error": null,
+  "variance": {
+    "min": 64,
+    "max": 69,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://yoncetheme.com/",
+    "finalUrl": "https://yoncetheme.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 67,
+      "accessibility": 100,
+      "best-practices": 92,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2925,
+      "lcp": 14163,
+      "si": 4972,
+      "tbt": 0,
+      "tti": 14163,
+      "cls": 0,
+      "ttfb": 877,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 261,
+      "networkRtt": 27.2,
+      "networkServerLatency": 276.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 432.7,
+      "resourceLoadDelay": 8,
+      "resourceLoadDuration": 416.4,
+      "elementRenderDelay": 1754.6
+    },
+    "weight": {
+      "total": 3134742,
+      "requests": 26,
+      "mainDocument": 2576,
+      "byType": {
+        "total": {
+          "bytes": 3102279,
+          "requests": 20
+        },
+        "image": {
+          "bytes": 2777074,
+          "requests": 8
+        },
+        "document": {
+          "bytes": 122314,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 98731,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 72259,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 30925,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 976,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 251944,
+          "requests": 11
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 3,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 131230,
+      "mainThreadMs": 23.3,
+      "top": [
+        {
+          "entity": "Adobe TypeKit",
+          "bytes": 99960,
+          "mainThreadMs": 0.4,
+          "byType": {
+            "stylesheet": 1229,
+            "font": 98731
+          },
+          "typedBytes": 99960
+        },
+        {
+          "entity": "Twitter",
+          "bytes": 31270,
+          "mainThreadMs": 22.9,
+          "byType": {
+            "script": 30925,
+            "image": 345
+          },
+          "typedBytes": 31270
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 489.5,
+      "byGroup": {
+        "other": 205.5,
+        "scriptEvaluation": 117.5,
+        "styleLayout": 114.6,
+        "parseHTML": 30.3,
+        "paintCompositeRender": 12.9,
+        "scriptParseCompile": 8.6
+      },
+      "bootupMs": 119.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 116,
+      "depth": 6,
+      "maxChildren": 28
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 69210,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 2585,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 24273.287500000002,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 24,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 4
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2962,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:25:26.287Z",
+      "runtimeMs": 9546.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7RXDK8ZVKN0QWYS5TJVPBQG"
+    },
+    "violations": 3,
+    "passes": 311,
+    "incomplete": 8,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          },
+          {
+            "selector": "#twitter-widget-0 >>> html",
+            "snippet": "<html data-scribe=\"page:button\" lang=\"en\" class=\" en\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".github-corner",
+            "snippet": "<a target=\"_blank\" href=\"https://github.com/minamarkham/yonce\" class=\"github-corner\" aria-label=\"View source on Github\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9fd99b0cd370",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"686c053da47b6bccb40bb125183eb337-ssl\""
+        }
+      },
+      {
+        "hash": "9fd99b0cd370",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535990",
+          "etag": "W/\"686c053da47b6bccb40bb125183eb337-ssl\""
+        }
+      },
+      {
+        "hash": "9fd99b0cd370",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535983",
+          "etag": "W/\"686c053da47b6bccb40bb125183eb337-ssl\""
+        }
+      },
+      {
+        "hash": "9fd99b0cd370",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535978",
+          "etag": "W/\"686c053da47b6bccb40bb125183eb337-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

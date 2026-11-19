@@ -1,0 +1,314 @@
+{
+  "url": "https://www.nicolas-birckel.fr/",
+  "name": "www.nicolas-birckel.fr",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795058954927,
+  "date": "2026-11-19T03:29:14.927Z",
+  "runId": "2026-11-19T03-22-50-956Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21134,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.nicolas-birckel.fr/",
+    "finalUrl": "https://www.nicolas-birckel.fr/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 803,
+      "lcp": 803,
+      "si": 803,
+      "tbt": 33,
+      "tti": 1941,
+      "cls": 0,
+      "ttfb": 628,
+      "maxPotentialFid": 83,
+      "serverResponseTime": 30,
+      "networkRtt": 0,
+      "networkServerLatency": 29.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 31.2,
+      "elementRenderDelay": 28.6
+    },
+    "weight": {
+      "total": 95092,
+      "requests": 5,
+      "mainDocument": 5806,
+      "byType": {
+        "total": {
+          "bytes": 95092,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 55978,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 30699,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 5806,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2609,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 55065,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 0,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 55065,
+      "mainThreadMs": 19.2,
+      "top": [
+        {
+          "entity": "Netlify",
+          "bytes": 55065,
+          "mainThreadMs": 19.2,
+          "byType": {
+            "script": 55065
+          },
+          "typedBytes": 55065
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 204.9,
+      "byGroup": {
+        "scriptEvaluation": 69.4,
+        "other": 66.3,
+        "styleLayout": 31.9,
+        "scriptParseCompile": 22.2,
+        "parseHTML": 10.5,
+        "paintCompositeRender": 4.6
+      },
+      "bootupMs": 86.1,
+      "longTasks": 1,
+      "longestTaskMs": 83
+    },
+    "dom": {
+      "elements": 95,
+      "depth": 9,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 21305,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 13107,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 23,
+      "failingNodes": 6,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 6
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 6
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2947.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:29:23.683Z",
+      "runtimeMs": 6018.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7RXMBH83HZRM9MNSRJ856WK"
+    },
+    "violations": 6,
+    "passes": 219,
+    "incomplete": 1,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 6,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".post-list__item:nth-child(2) > h3 > .post-list__link[rel=\"bookmark\"]",
+            "snippet": "<a href=\"/posts/créer-un-dashboard-en-python-avec-panel/\" class=\"post-list__link\" rel=\"bookmark\">Créer un dashboard en python avec Panel</a>"
+          },
+          {
+            "selector": ".post-list__item:nth-child(3) > h3 > .post-list__link[rel=\"bookmark\"]",
+            "snippet": "<a href=\"/posts/goodbye-2023-welcome-2024/\" class=\"post-list__link\" rel=\"bookmark\">Goodbye 2023, welcome 2024 !</a>"
+          },
+          {
+            "selector": ".post-list__item:nth-child(4) > h3 > .post-list__link[rel=\"bookmark\"]",
+            "snippet": "<a href=\"/posts/créer-des-cartes-délevation-en-python-avec-ridge-map/\" class=\"post-list__link\" rel=\"bookmark\">Créer des cartes d'élevation en python avec ridge-map</a>"
+          },
+          {
+            "selector": "a[href$=\"photoctober-2023/\"]",
+            "snippet": "<a href=\"/posts/photoctober-2023/\" class=\"post-list__link\" rel=\"bookmark\">Photoctober 2023</a>"
+          },
+          {
+            "selector": ".box-inline-flex > span",
+            "snippet": "<span>Voir toutes les publications</span>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "eceeb5bf3a92",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"3652c8d8fd0dc91274c2ec5055245900-ssl\""
+        }
+      },
+      {
+        "hash": "eceeb5bf3a92",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"3652c8d8fd0dc91274c2ec5055245900-ssl\""
+        }
+      },
+      {
+        "hash": "eceeb5bf3a92",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"3652c8d8fd0dc91274c2ec5055245900-ssl\""
+        }
+      },
+      {
+        "hash": "eceeb5bf3a92",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535986",
+          "etag": "W/\"3652c8d8fd0dc91274c2ec5055245900-ssl\""
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
