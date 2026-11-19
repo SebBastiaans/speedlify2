@@ -1,0 +1,317 @@
+{
+  "url": "https://smzr.co.uk/",
+  "name": "smzr.co.uk",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795123821774,
+  "date": "2026-11-19T21:30:21.774Z",
+  "runId": "2026-11-19T21-29-40-396Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 338721,
+  "error": null,
+  "variance": {
+    "min": 46,
+    "max": 60,
+    "spread": 14,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://smzr.co.uk/",
+    "finalUrl": "https://smzr.co.uk/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 60,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 948,
+      "lcp": 948,
+      "si": 21655,
+      "tbt": 69367,
+      "tti": 94366,
+      "cls": 0,
+      "ttfb": 648,
+      "maxPotentialFid": 1001,
+      "serverResponseTime": 102,
+      "networkRtt": 0.1,
+      "networkServerLatency": 48.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 103.5,
+      "elementRenderDelay": 165.4
+    },
+    "weight": {
+      "total": 1064126,
+      "requests": 23,
+      "mainDocument": 14535,
+      "byType": {
+        "total": {
+          "bytes": 1064126,
+          "requests": 22
+        },
+        "script": {
+          "bytes": 655430,
+          "requests": 10
+        },
+        "image": {
+          "bytes": 322303,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 58947,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 14535,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 11746,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 1165,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 311470,
+          "requests": 4
+        }
+      },
+      "scripts": 10,
+      "stylesheets": 2,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 311470,
+      "mainThreadMs": 89.8,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 301071,
+          "mainThreadMs": 83.8,
+          "byType": {
+            "script": 301071
+          },
+          "typedBytes": 301071
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 6,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 48,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 48
+          },
+          "typedBytes": 48
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 179068.2,
+      "byGroup": {
+        "other": 176046,
+        "scriptEvaluation": 1778.7,
+        "styleLayout": 625.7,
+        "paintCompositeRender": 431.2,
+        "scriptParseCompile": 86.3,
+        "garbageCollection": 83.8,
+        "parseHTML": 16.4
+      },
+      "bootupMs": 1789.7,
+      "longTasks": 20,
+      "longestTaskMs": 1001
+    },
+    "dom": {
+      "elements": 388,
+      "depth": 14,
+      "maxChildren": 24
+    },
+    "waste": {
+      "unusedJsBytes": 298061,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 4140.400000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 24,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 45
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2482,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T21:32:47.163Z",
+      "runtimeMs": 71938
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": true,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": "6.1.9",
+      "source": "meta",
+      "raw": "Astro v6.1.9"
+    },
+    "probe": {
+      "metas": [
+        "Astro v6.1.9"
+      ],
+      "marks": [
+        "astro",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5d256164d7dcf17-SJC",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 574,
+    "incomplete": 50,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "image-redundant-alt",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Alternative text of images should not be repeated as text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-redundant-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".lg\\:flex-1.flex[data-astro-cid-3ef6ksr2=\"\"] > .logo-link[href=\"/\"][data-astro-cid-3ef6ksr2=\"\"] > .logo-mark > img[loading=\"eager\"][alt=\"Sammy McKay\"][height=\"64\"]",
+            "snippet": "<img alt=\"Sammy McKay\" decoding=\"async\" height=\"64\" loading=\"eager\" src=\"/_astro/sammy-3.-9bKMTgb_RqaOK.webp\" width=\"64\" srcset=\"/_astro/sammy-3.-9bKMTgb_RqaOK.webp, /_astro/sammy-3.-9bKMTgb_ZGsKaV.w…"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".marquee__content[data-astro-cid-sz7xmlte=\"\"]:nth-child(1)",
+            "snippet": "<div class=\"marquee__content\" data-astro-cid-sz7xmlte=\"\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "237e1516ebed",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "237e1516ebed",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "237e1516ebed",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "237e1516ebed",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
