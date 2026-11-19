@@ -1,0 +1,384 @@
+{
+  "url": "https://www.wearedeepspace.com/",
+  "name": "www.wearedeepspace.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795093852877,
+  "date": "2026-11-19T13:10:52.877Z",
+  "runId": "2026-11-19T12-59-14-700Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 68866,
+  "error": null,
+  "variance": {
+    "min": 33,
+    "max": 66,
+    "spread": 33,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.wearedeepspace.com/",
+    "finalUrl": "https://www.wearedeepspace.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 65,
+      "accessibility": 94,
+      "best-practices": 58,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1684,
+      "lcp": 1684,
+      "si": 5287,
+      "tbt": 6546,
+      "tti": 18612,
+      "cls": 0.034,
+      "ttfb": 612,
+      "maxPotentialFid": 463,
+      "serverResponseTime": 8,
+      "networkRtt": 0.6,
+      "networkServerLatency": 51
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 9.9,
+      "elementRenderDelay": 125
+    },
+    "weight": {
+      "total": 2520652,
+      "requests": 59,
+      "mainDocument": 16666,
+      "byType": {
+        "total": {
+          "bytes": 2518144,
+          "requests": 58
+        },
+        "image": {
+          "bytes": 1482315,
+          "requests": 26
+        },
+        "script": {
+          "bytes": 616435,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 287117,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 84374,
+          "requests": 7
+        },
+        "document": {
+          "bytes": 47290,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 613,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 809229,
+          "requests": 25
+        }
+      },
+      "scripts": 13,
+      "stylesheets": 7,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 8,
+      "bytes": 742462,
+      "mainThreadMs": 263.5,
+      "top": [
+        {
+          "entity": "Google CDN",
+          "bytes": 359629,
+          "mainThreadMs": 96.2,
+          "byType": {
+            "script": 359629
+          },
+          "typedBytes": 359629
+        },
+        {
+          "entity": "saassurf.com",
+          "bytes": 184520,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 184520
+          },
+          "typedBytes": 184520
+        },
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 128238,
+          "mainThreadMs": 22.9,
+          "byType": {
+            "script": 128238
+          },
+          "typedBytes": 128238
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 36320,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 780,
+            "font": 35540
+          },
+          "typedBytes": 36320
+        },
+        {
+          "entity": "Unpkg",
+          "bytes": 17562,
+          "mainThreadMs": 1.7,
+          "byType": {
+            "stylesheet": 688,
+            "script": 16874
+          },
+          "typedBytes": 17562
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 17280.7,
+      "byGroup": {
+        "other": 13367.6,
+        "scriptEvaluation": 2383.8,
+        "styleLayout": 790.7,
+        "paintCompositeRender": 342.2,
+        "scriptParseCompile": 168.5,
+        "garbageCollection": 168,
+        "parseHTML": 59.9
+      },
+      "bootupMs": 2544.3,
+      "longTasks": 20,
+      "longestTaskMs": 463
+    },
+    "dom": {
+      "elements": 1112,
+      "depth": 13,
+      "maxChildren": 121
+    },
+    "waste": {
+      "unusedJsBytes": 304674,
+      "unusedCssBytes": 40241,
+      "legacyJsBytes": 5642,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 5757,
+      "renderBlockingMs": 1831,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 3196,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 21,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 2
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 26
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2716.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T13:11:15.429Z",
+      "runtimeMs": 20778.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7SYYTB3CTQBXK2C26RP0N67"
+    },
+    "violations": 6,
+    "passes": 1513,
+    "incomplete": 179,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".tr-delay-1.column-50-100.three-columns:nth-child(2) > .padding-20.content-bg-dark-1-border.dark-blue-shadow > h6",
+            "snippet": "<h6 class=\"subhead-xxs margin-top-20\">Frequent Analytic Reports</h6>"
+          },
+          {
+            "selector": ".margin-bottom-40",
+            "snippet": "<h4 class=\"column-l-r-margin-10 margin-bottom-40 headline-l footer-title\"> We’re in space.<br> <span class=\"text-color-red\">Digital space</span>, that is. </h4>"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "body > a[href$=\"#up\"]",
+            "snippet": "<a href=\"#up\" class=\"scroll-to-btn js-headroom js-midnight-color js-smooth-scroll js-pointer-large _mPS2id-h mPS2id-highlight headroom headroom--top headroom--not-bottom\" style=\"position: fixed; top:…"
+          },
+          {
+            "selector": ".to-down",
+            "snippet": "<a href=\"#down\" class=\"scroll-to-btn to-down js-headroom js-midnight-color js-smooth-scroll js-pointer-large js-scroll-btn _mPS2id-h headroom headroom--top headroom--not-bottom\" style=\"position: fixe…"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".preloader__logoload-box",
+            "snippet": "<div class=\"preloader__logoload-box\"> <img class=\"preloader__logo\" src=\"/assets/images/logo/logo-white-vertical.png\" alt=\"logo\"> <div class=\"preloader__pulse\"></div> </div>"
+          },
+          {
+            "selector": "body > canvas",
+            "snippet": "<canvas width=\"412\" height=\"823\" style=\"position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 1000; pointer-events: none;\"></canvas>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a291484e49f0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"081f26daf0e3339abff47a0ba7d17a54-ssl\""
+        }
+      },
+      {
+        "hash": "a291484e49f0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "21",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535979",
+          "etag": "W/\"081f26daf0e3339abff47a0ba7d17a54-ssl\""
+        }
+      },
+      {
+        "hash": "a291484e49f0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "42",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535958",
+          "etag": "W/\"081f26daf0e3339abff47a0ba7d17a54-ssl\""
+        }
+      },
+      {
+        "hash": "a291484e49f0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535938",
+          "etag": "W/\"081f26daf0e3339abff47a0ba7d17a54-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

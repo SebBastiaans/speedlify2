@@ -1,0 +1,252 @@
+{
+  "url": "https://maprunner.co.uk/hertsway",
+  "name": "maprunner.co.uk",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795093426796,
+  "date": "2026-11-19T13:03:46.796Z",
+  "runId": "2026-11-19T12-59-14-700Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27168,
+  "error": null,
+  "variance": {
+    "min": 91,
+    "max": 99,
+    "spread": 8,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://maprunner.co.uk/hertsway",
+    "finalUrl": "https://maprunner.co.uk/hertsway/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1684,
+      "lcp": 1684,
+      "si": 1684,
+      "tbt": 87,
+      "tti": 3925,
+      "cls": 0.001,
+      "ttfb": 755,
+      "maxPotentialFid": 223,
+      "serverResponseTime": 91,
+      "networkRtt": 0.1,
+      "networkServerLatency": 154.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 182.6,
+      "elementRenderDelay": 138
+    },
+    "weight": {
+      "total": 667653,
+      "requests": 17,
+      "mainDocument": 4233,
+      "byType": {
+        "total": {
+          "bytes": 667653,
+          "requests": 17
+        },
+        "image": {
+          "bytes": 305912,
+          "requests": 8
+        },
+        "script": {
+          "bytes": 286463,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 57159,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 10925,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 4233,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2961,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 59147,
+          "requests": 3
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 59147,
+      "mainThreadMs": 0.3,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 59147,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 1988,
+            "font": 57159
+          },
+          "typedBytes": 59147
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 474.5,
+      "byGroup": {
+        "other": 147.8,
+        "scriptParseCompile": 136.5,
+        "scriptEvaluation": 102.2,
+        "styleLayout": 50.9,
+        "paintCompositeRender": 17.4,
+        "parseHTML": 12.1,
+        "garbageCollection": 7.6
+      },
+      "bootupMs": 236.4,
+      "longTasks": 1,
+      "longestTaskMs": 223
+    },
+    "dom": {
+      "elements": 206,
+      "depth": 10,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 148196,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 177934,
+      "unminifiedCssBytes": 2620,
+      "renderBlockingMs": 779,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 12,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 904.5,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 10
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2742,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T13:03:57.067Z",
+      "runtimeMs": 8139
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 0,
+    "passes": 335,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "13da06274382",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"4c82-61e23a8720fc0\"",
+          "last-modified": "Fri, 26 Jul 2024 10:05:59 GMT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "13da06274382",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"4c82-61e23a8720fc0\"",
+          "last-modified": "Fri, 26 Jul 2024 10:05:59 GMT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "13da06274382",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"4c82-61e23a8720fc0\"",
+          "last-modified": "Fri, 26 Jul 2024 10:05:59 GMT",
+          "x-proxy-cache": "MISS"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
