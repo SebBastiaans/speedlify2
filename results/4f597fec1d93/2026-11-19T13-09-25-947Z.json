@@ -1,0 +1,289 @@
+{
+  "url": "https://rowdy.codes/",
+  "name": "rowdy.codes",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795093765947,
+  "date": "2026-11-19T13:09:25.947Z",
+  "runId": "2026-11-19T12-59-13-367Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21252,
+  "error": null,
+  "variance": {
+    "min": 84,
+    "max": 98,
+    "spread": 14,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://rowdy.codes/",
+    "finalUrl": "https://rowdy.codes/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 86,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 74
+    },
+    "timings": {
+      "fcp": 1549,
+      "lcp": 1549,
+      "si": 1549,
+      "tbt": 0,
+      "tti": 1549,
+      "cls": 0.262,
+      "ttfb": 618,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 19,
+      "networkRtt": 0,
+      "networkServerLatency": 18.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 21,
+      "resourceLoadDelay": 9,
+      "resourceLoadDuration": 50.3,
+      "elementRenderDelay": 11.2
+    },
+    "weight": {
+      "total": 180051,
+      "requests": 7,
+      "mainDocument": 3859,
+      "byType": {
+        "total": {
+          "bytes": 178763,
+          "requests": 6
+        },
+        "font": {
+          "bytes": 104354,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 66718,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 3859,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 1917,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 1915,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1915,
+          "requests": 1
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 1915,
+      "mainThreadMs": 1.6,
+      "top": [
+        {
+          "entity": "Plausible",
+          "bytes": 1915,
+          "mainThreadMs": 1.6,
+          "byType": {
+            "script": 1915
+          },
+          "typedBytes": 1915
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 165.6,
+      "byGroup": {
+        "other": 86.5,
+        "styleLayout": 44.2,
+        "scriptEvaluation": 15.9,
+        "paintCompositeRender": 12.6,
+        "parseHTML": 5.3,
+        "scriptParseCompile": 1.2
+      },
+      "bootupMs": 4.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 105,
+      "depth": 8,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 3
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2608,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T13:09:34.936Z",
+      "runtimeMs": 5877.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7SYTVB26JC2CZ4XT1KBGFWP"
+    },
+    "violations": 1,
+    "passes": 249,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href=\"/\"]",
+            "snippet": "<a href=\"/\" aria-label=\"rowdy.codes homepage\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "25e9c08ba553",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"db4d91941dc7ff3ef508d25b70d4f427-ssl\""
+        }
+      },
+      {
+        "hash": "25e9c08ba553",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"db4d91941dc7ff3ef508d25b70d4f427-ssl\""
+        }
+      },
+      {
+        "hash": "25e9c08ba553",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535986",
+          "etag": "W/\"db4d91941dc7ff3ef508d25b70d4f427-ssl\""
+        }
+      },
+      {
+        "hash": "25e9c08ba553",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "etag": "W/\"db4d91941dc7ff3ef508d25b70d4f427-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

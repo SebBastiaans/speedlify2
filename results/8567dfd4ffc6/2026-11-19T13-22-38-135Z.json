@@ -1,0 +1,344 @@
+{
+  "url": "https://www.gatsbyjs.com/",
+  "name": "Gatsby",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795094558135,
+  "date": "2026-11-19T13:22:38.135Z",
+  "runId": "2026-11-19T12-59-13-367Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 47923,
+  "error": null,
+  "variance": {
+    "min": 80,
+    "max": 84,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.gatsbyjs.com/",
+    "finalUrl": "https://www.gatsbyjs.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 82,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 958,
+      "lcp": 3982,
+      "si": 958,
+      "tbt": 276,
+      "tti": 4537,
+      "cls": 0,
+      "ttfb": 619,
+      "maxPotentialFid": 233,
+      "serverResponseTime": 19,
+      "networkRtt": 0,
+      "networkServerLatency": 18.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 20.7,
+      "resourceLoadDelay": 86.3,
+      "resourceLoadDuration": 21.2,
+      "elementRenderDelay": 232.4
+    },
+    "weight": {
+      "total": 558516,
+      "requests": 43,
+      "mainDocument": 31887,
+      "byType": {
+        "total": {
+          "bytes": 558516,
+          "requests": 42
+        },
+        "script": {
+          "bytes": 432033,
+          "requests": 28
+        },
+        "font": {
+          "bytes": 55649,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 31887,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 20217,
+          "requests": 8
+        },
+        "image": {
+          "bytes": 18730,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 99777,
+          "requests": 4
+        }
+      },
+      "scripts": 28,
+      "stylesheets": 0,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 99777,
+      "mainThreadMs": 19.1,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 90308,
+          "mainThreadMs": 19.1,
+          "byType": {
+            "script": 90308
+          },
+          "typedBytes": 90308
+        },
+        {
+          "entity": "ctfassets.net",
+          "bytes": 9469,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 9469
+          },
+          "typedBytes": 9469
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1128.8,
+      "byGroup": {
+        "scriptEvaluation": 576.2,
+        "other": 227.1,
+        "scriptParseCompile": 160.4,
+        "styleLayout": 97.6,
+        "parseHTML": 37.8,
+        "paintCompositeRender": 29.7
+      },
+      "bootupMs": 626.5,
+      "longTasks": 4,
+      "longestTaskMs": 233
+    },
+    "dom": {
+      "elements": 331,
+      "depth": 13,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 122454,
+      "unusedCssBytes": 12019,
+      "legacyJsBytes": 12701,
+      "duplicatedJsBytes": 15571,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 29,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 4
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 24
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2611,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T13:22:54.420Z",
+      "runtimeMs": 7085.6
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 806.3,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 1548.1,
+    "elementRenderDelay": 515.4
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "gatsby",
+      "name": "Gatsby",
+      "icon": "Gatsby",
+      "version": "4.24.6",
+      "source": "meta",
+      "raw": "Gatsby 4.24.6"
+    },
+    "probe": {
+      "metas": [
+        "Gatsby 4.24.6"
+      ],
+      "marks": [
+        "gatsby",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7SZKT8820WKP6DZA3PWZE97"
+    },
+    "violations": 3,
+    "passes": 326,
+    "incomplete": 9,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 2,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "img[alt=\"Gatsby Framework null icon\"]",
+            "snippet": "<img src=\"//images.ctfassets.net/vkdbses00qqt/3Id5VwofmvaFbjuSumaOmM/592c2d2e523187bd054a16b358d5a7ec/framework.svg\" alt=\"Gatsby Framework null icon\" role=\"presentation\" class=\"css-2pj1d1\">"
+          },
+          {
+            "selector": "img[alt=\"Gatsby Data Layer null icon\"]",
+            "snippet": "<img src=\"//images.ctfassets.net/vkdbses00qqt/2Yjamnj5iiT981LbZHQHgI/e4a51ce53f00d52febd3a72caab662ed/cloud.svg\" alt=\"Gatsby Data Layer null icon\" role=\"presentation\" class=\"css-2pj1d1\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".e861rl0",
+            "snippet": "<div class=\"e861rl0 _1nrsgu0\"><div class=\"e861rl1\">Migrate to Netlify Today</div><div class=\"e861rl2\"><p>Netlify announces the next evolution of Gatsby Cloud. <a href=\"https://www.netlify.com/blog/ga…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "01758f054e93",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "36155",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31499845",
+          "etag": "W/\"4cca6695207ab07c2aba785590018fee-ssl\""
+        }
+      },
+      {
+        "hash": "01758f054e93",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "36163",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31499837",
+          "etag": "W/\"4cca6695207ab07c2aba785590018fee-ssl\""
+        }
+      },
+      {
+        "hash": "01758f054e93",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "36170",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31499830",
+          "etag": "W/\"4cca6695207ab07c2aba785590018fee-ssl\""
+        }
+      },
+      {
+        "hash": "01758f054e93",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "36177",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31499823",
+          "etag": "W/\"4cca6695207ab07c2aba785590018fee-ssl\""
+        }
+      },
+      {
+        "hash": "01758f054e93",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31499800",
+          "etag": "W/\"4cca6695207ab07c2aba785590018fee-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
