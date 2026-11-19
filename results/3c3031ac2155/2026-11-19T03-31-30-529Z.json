@@ -1,0 +1,311 @@
+{
+  "url": "https://www.psycareer.org/",
+  "name": "www.psycareer.ru",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795059090529,
+  "date": "2026-11-19T03:31:30.529Z",
+  "runId": "2026-11-19T03-22-43-470Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25256,
+  "error": null,
+  "variance": {
+    "min": 95,
+    "max": 99,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.psycareer.org/",
+    "finalUrl": "https://www.psycareer.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 918,
+      "lcp": 1744,
+      "si": 1016,
+      "tbt": 78,
+      "tti": 5581,
+      "cls": 0,
+      "ttfb": 520,
+      "maxPotentialFid": 169,
+      "serverResponseTime": 202,
+      "networkRtt": 163.6,
+      "networkServerLatency": 157.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 292.8,
+      "resourceLoadDelay": 8.2,
+      "resourceLoadDuration": 121.7,
+      "elementRenderDelay": 69.9
+    },
+    "weight": {
+      "total": 730041,
+      "requests": 28,
+      "mainDocument": 7607,
+      "byType": {
+        "total": {
+          "bytes": 730041,
+          "requests": 27
+        },
+        "script": {
+          "bytes": 398921,
+          "requests": 6
+        },
+        "font": {
+          "bytes": 220784,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 90577,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 7607,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 7007,
+          "requests": 12
+        },
+        "stylesheet": {
+          "bytes": 5145,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 401569,
+          "requests": 15
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 397461,
+      "mainThreadMs": 105.1,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 314345,
+          "mainThreadMs": 74.5,
+          "byType": {
+            "script": 314345
+          },
+          "typedBytes": 314345
+        },
+        {
+          "entity": "Yandex Metrica",
+          "bytes": 72638,
+          "mainThreadMs": 20.3,
+          "byType": {
+            "script": 70747,
+            "other": 1233,
+            "image": 658
+          },
+          "typedBytes": 72638
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 10.3,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 860.8,
+      "byGroup": {
+        "scriptEvaluation": 430.6,
+        "other": 235.8,
+        "styleLayout": 84.4,
+        "scriptParseCompile": 56.6,
+        "paintCompositeRender": 34.1,
+        "parseHTML": 9.9,
+        "garbageCollection": 9.4
+      },
+      "bootupMs": 423.3,
+      "longTasks": 3,
+      "longestTaskMs": 169
+    },
+    "dom": {
+      "elements": 210,
+      "depth": 9,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 181638,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 61708.9069375,
+      "poorlyCachedCount": 6
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 15
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 28
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3947,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:31:31.739Z",
+      "runtimeMs": 9410.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5cc2508baa41875-STL",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 442,
+    "incomplete": 1,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div:nth-child(2) > nav",
+            "snippet": "<nav>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "88d8c8bc087b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "88d8c8bc087b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "88d8c8bc087b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "88d8c8bc087b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

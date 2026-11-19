@@ -1,0 +1,301 @@
+{
+  "url": "https://kreativan.dev/",
+  "name": "kreativan.dev",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795058569057,
+  "date": "2026-11-19T03:22:49.057Z",
+  "runId": "2026-11-19T03-22-43-470Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26754,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 99,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://kreativan.dev/",
+    "finalUrl": "https://kreativan.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1021,
+      "lcp": 2132,
+      "si": 1021,
+      "tbt": 0,
+      "tti": 2132,
+      "cls": 0.004,
+      "ttfb": 482,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 63,
+      "networkRtt": 0.1,
+      "networkServerLatency": 35.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 64.2,
+      "resourceLoadDelay": 8.2,
+      "resourceLoadDuration": 33.5,
+      "elementRenderDelay": 83.1
+    },
+    "weight": {
+      "total": 227556,
+      "requests": 34,
+      "mainDocument": 14934,
+      "byType": {
+        "total": {
+          "bytes": 217838,
+          "requests": 33
+        },
+        "font": {
+          "bytes": 115977,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 55008,
+          "requests": 20
+        },
+        "stylesheet": {
+          "bytes": 18160,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 14934,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 12601,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 1158,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10351,
+          "requests": 1
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 3,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10351,
+      "mainThreadMs": 6.4,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 6.4,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2197.8,
+      "byGroup": {
+        "other": 1000.2,
+        "styleLayout": 632.7,
+        "paintCompositeRender": 482.9,
+        "scriptEvaluation": 50.5,
+        "parseHTML": 17.6,
+        "garbageCollection": 12.2,
+        "scriptParseCompile": 1.7
+      },
+      "bootupMs": 24.8,
+      "longTasks": 1,
+      "longestTaskMs": 72
+    },
+    "dom": {
+      "elements": 1076,
+      "depth": 14,
+      "maxChildren": 30
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 4140.400000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 29,
+      "failingNodes": 12,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 12
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 30
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3986,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:23:08.207Z",
+      "runtimeMs": 6979.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5cc1855eea38423-STL",
+      "server": "cloudflare"
+    },
+    "violations": 13,
+    "passes": 1262,
+    "incomplete": 29,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 13,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".flow > .ok[data-astro-cid-qrxll2fc=\"\"]",
+            "snippet": "<li class=\"ok\" data-astro-cid-qrxll2fc=\"\">email sent ✓</li>"
+          },
+          {
+            "selector": ".tag-green",
+            "snippet": "<p class=\"tag tag-green\" data-astro-cid-qrxll2fc=\"\">✓ Sent, no reload</p>"
+          },
+          {
+            "selector": ".count",
+            "snippet": "<p class=\"count\" data-astro-cid-slq4lsn3=\"\"><i class=\"dot\" data-astro-cid-slq4lsn3=\"\"></i> web design and development services</p>"
+          },
+          {
+            "selector": ".arrow-link.arrow-link-light[href$=\"multipress\"] > .arrow-link-text[data-astro-cid-slq4lsn3=\"\"] > small",
+            "snippet": "<small data-astro-cid-slq4lsn3=\"\">/multipress</small>"
+          },
+          {
+            "selector": ".arrow-link.arrow-link-light[href$=\"pagepilot\"] > .arrow-link-text[data-astro-cid-slq4lsn3=\"\"] > small",
+            "snippet": "<small data-astro-cid-slq4lsn3=\"\">/pagepilot</small>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7084cbf65327",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "7084cbf65327",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "7084cbf65327",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "7084cbf65327",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
