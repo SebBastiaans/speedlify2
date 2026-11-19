@@ -1,0 +1,371 @@
+{
+  "url": "https://prakriti.care/",
+  "name": "www.prakriti.care",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795059135023,
+  "date": "2026-11-19T03:32:15.023Z",
+  "runId": "2026-11-19T03-22-44-926Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 44369,
+  "error": null,
+  "variance": {
+    "min": 50,
+    "max": 75,
+    "spread": 25,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://prakriti.care/",
+    "finalUrl": "https://prakriti.care/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 64,
+      "accessibility": 97,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 85
+    },
+    "timings": {
+      "fcp": 1147,
+      "lcp": 3921,
+      "si": 2013,
+      "tbt": 378,
+      "tti": 10770,
+      "cls": 0.297,
+      "ttfb": 621,
+      "maxPotentialFid": 251,
+      "serverResponseTime": 12,
+      "networkRtt": 1.1,
+      "networkServerLatency": 113
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 13.7,
+      "resourceLoadDelay": 121,
+      "resourceLoadDuration": 97.7,
+      "elementRenderDelay": 65
+    },
+    "weight": {
+      "total": 2658104,
+      "requests": 271,
+      "mainDocument": 57683,
+      "byType": {
+        "total": {
+          "bytes": 2657577,
+          "requests": 269
+        },
+        "other": {
+          "bytes": 1051776,
+          "requests": 160
+        },
+        "script": {
+          "bytes": 969057,
+          "requests": 63
+        },
+        "image": {
+          "bytes": 432730,
+          "requests": 11
+        },
+        "document": {
+          "bytes": 88827,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 66680,
+          "requests": 31
+        },
+        "font": {
+          "bytes": 48507,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 795311,
+          "requests": 55
+        }
+      },
+      "scripts": 63,
+      "stylesheets": 31,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 795311,
+      "mainThreadMs": 190.5,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 493649,
+          "mainThreadMs": 109.8,
+          "byType": {
+            "script": 493649
+          },
+          "typedBytes": 493649
+        },
+        {
+          "entity": "Shopify",
+          "bytes": 263054,
+          "mainThreadMs": 74.7,
+          "byType": {
+            "script": 236107,
+            "stylesheet": 23193,
+            "image": 3610,
+            "other": 144
+          },
+          "typedBytes": 263054
+        },
+        {
+          "entity": "bogos.io",
+          "bytes": 25359,
+          "mainThreadMs": 3.4,
+          "byType": {
+            "script": 25359
+          },
+          "typedBytes": 25359
+        },
+        {
+          "entity": "powl.io",
+          "bytes": 7095,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "other": 7095
+          },
+          "typedBytes": 7095
+        },
+        {
+          "entity": "sibautomation.com",
+          "bytes": 4609,
+          "mainThreadMs": 1.7,
+          "byType": {
+            "script": 4609
+          },
+          "typedBytes": 4609
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3423.6,
+      "byGroup": {
+        "scriptEvaluation": 1656.7,
+        "other": 1103.3,
+        "styleLayout": 293.9,
+        "scriptParseCompile": 236,
+        "parseHTML": 63,
+        "paintCompositeRender": 43.1,
+        "garbageCollection": 27.5
+      },
+      "bootupMs": 1535.9,
+      "longTasks": 9,
+      "longestTaskMs": 251
+    },
+    "dom": {
+      "elements": 627,
+      "depth": 18,
+      "maxChildren": 35
+    },
+    "waste": {
+      "unusedJsBytes": 421959,
+      "unusedCssBytes": 22097,
+      "legacyJsBytes": 8138,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 31665.591666666667,
+      "poorlyCachedCount": 5
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 30,
+      "failingNodes": 14,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 14
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 51
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2910.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:32:44.328Z",
+      "runtimeMs": 12569.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5cc2689494f9c5b-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 17,
+    "passes": 677,
+    "incomplete": 22,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 14,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".rich-text__text > p",
+            "snippet": "<p>Bringing you products with the highest quality and the most natural ingredients.</p>"
+          },
+          {
+            "selector": ".newsletter__wrapper > .h1.inline-richtext",
+            "snippet": "<h2 class=\"inline-richtext h1 scroll-trigger animate--slide-in scroll-trigger--offscreen\" data-cascade=\"\" style=\"--animation-order: 1;\"> Subscribe to our emails </h2>"
+          },
+          {
+            "selector": ".title",
+            "snippet": "<h2 class=\"title inline-richtext h1 scroll-trigger animate--slide-in scroll-trigger--offscreen\"> Best-sellers </h2>"
+          },
+          {
+            "selector": "#ImageWithText--template--17590354378946__image_with_text_DYDtwA > .image-with-text__heading.h2.inline-richtext",
+            "snippet": "<h2 class=\"image-with-text__heading inline-richtext h2\"> Our shop </h2>"
+          },
+          {
+            "selector": "#ImageWithText--template--17590354378946__image_with_text_DYDtwA > .image-with-text__text.body.rte > h3",
+            "snippet": "<h3>We are dedicated to bringing you the essence of Ayurveda through our thoughtfully handcrafted wellness products.</h3>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#shopify-section-sections--17590354870466__announcement_bar_7hHnY6 > .utility-bar.utility-bar--bottom-border.color-background-1 > .utility-bar__grid.page-width > slideshow-component",
+            "snippet": "<slideshow-component class=\"announcement-bar\" role=\"region\" aria-roledescription=\"Carousel\" aria-label=\"Announcement bar\">"
+          },
+          {
+            "selector": "#Slide-sections--17590354870466__announcement_bar_7hHnY6-1 > .announcement-bar__announcement[aria-label=\"Announcement\"][role=\"region\"]",
+            "snippet": "<div class=\"announcement-bar__announcement\" role=\"region\" aria-label=\"Announcement\"><p class=\"announcement-bar__message h5\"> <span>BUY 1 ltr DESI COW GHEE and get 450gm CHYWANPRASH Free</span></p></d…"
+          }
+        ]
+      },
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".banner__heading",
+            "snippet": "<h2 class=\"banner__heading inline-richtext h1\"> </h2>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "4d4f4e410aa3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "e970b19d8a61",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "\"sfr:computation:v2:153b10008ac1c332907bee9a7d5791f5c72be07c37eaf71eafc5cb445c4bfd78:59cbf27e92ae7fcbcb67a8e0c19507ae\""
+        }
+      },
+      {
+        "hash": "b3367ea8a2b3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "\"sfr:computation:v2:153b10008ac1c332907bee9a7d5791f5c72be07c37eaf71eafc5cb445c4bfd78:59cbf27e92ae7fcbcb67a8e0c19507ae\""
+        }
+      },
+      {
+        "hash": "9e2dc90c90ee",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "\"sfr:computation:v2:153b10008ac1c332907bee9a7d5791f5c72be07c37eaf71eafc5cb445c4bfd78:59cbf27e92ae7fcbcb67a8e0c19507ae\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,279 @@
+{
+  "url": "https://michaelharley.net/",
+  "name": "mharley.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795059266265,
+  "date": "2026-11-19T03:34:26.265Z",
+  "runId": "2026-11-19T03-22-44-926Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21497,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://michaelharley.net/",
+    "finalUrl": "https://michaelharley.net/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 998,
+      "lcp": 998,
+      "si": 998,
+      "tbt": 0,
+      "tti": 998,
+      "cls": 0,
+      "ttfb": 626,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 14,
+      "networkRtt": 0,
+      "networkServerLatency": 51.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 15.3,
+      "elementRenderDelay": 117.5
+    },
+    "weight": {
+      "total": 606407,
+      "requests": 33,
+      "mainDocument": 14966,
+      "byType": {
+        "total": {
+          "bytes": 605322,
+          "requests": 27
+        },
+        "image": {
+          "bytes": 441762,
+          "requests": 15
+        },
+        "font": {
+          "bytes": 101536,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 24986,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 19314,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 14966,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 2758,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3194,
+          "requests": 2
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 3194,
+      "mainThreadMs": 3.8,
+      "top": [
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3194,
+          "mainThreadMs": 3.8,
+          "byType": {
+            "script": 2758,
+            "image": 436
+          },
+          "typedBytes": 3194
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 598.8,
+      "byGroup": {
+        "other": 279.3,
+        "styleLayout": 189.9,
+        "paintCompositeRender": 65.9,
+        "scriptEvaluation": 35.3,
+        "parseHTML": 16.3,
+        "scriptParseCompile": 6,
+        "garbageCollection": 6
+      },
+      "bootupMs": 22.9,
+      "longTasks": 1,
+      "longestTaskMs": 68
+    },
+    "dom": {
+      "elements": 574,
+      "depth": 12,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 15860,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 25,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 21
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3077,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:34:40.871Z",
+      "runtimeMs": 6461.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "webserver",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "webserver"
+    },
+    "violations": 1,
+    "passes": 839,
+    "incomplete": 1,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "cite",
+            "snippet": "<cite class=\"quote-cite\">The Dodge Idea, 1914. Not Mark Twain, despite the internet</cite>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "6f6038d5cc34",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmyv8znmzdk4-1vyh-gzip\"",
+          "last-modified": "Thu, 19 Nov 2026 03:27:13 GMT"
+        }
+      },
+      {
+        "hash": "6f6038d5cc34",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmyv8znmzdk4-1vyh-gzip\"",
+          "last-modified": "Thu, 19 Nov 2026 03:27:13 GMT"
+        }
+      },
+      {
+        "hash": "6f6038d5cc34",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmyv8znmzdk4-1vyh-gzip\"",
+          "last-modified": "Thu, 19 Nov 2026 03:27:13 GMT"
+        }
+      },
+      {
+        "hash": "6f6038d5cc34",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmyv8znmzdk4-1vyh-gzip\"",
+          "last-modified": "Thu, 19 Nov 2026 03:27:13 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
