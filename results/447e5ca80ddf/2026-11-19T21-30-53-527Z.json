@@ -1,0 +1,318 @@
+{
+  "url": "https://valinor.earth/",
+  "name": "valinor.earth",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795123853527,
+  "date": "2026-11-19T21:30:53.527Z",
+  "runId": "2026-11-19T21-29-34-150Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23733,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://valinor.earth/",
+    "finalUrl": "https://valinor.earth/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 799,
+      "lcp": 799,
+      "si": 799,
+      "tbt": 34,
+      "tti": 2692,
+      "cls": 0,
+      "ttfb": 622,
+      "maxPotentialFid": 118,
+      "serverResponseTime": 59,
+      "networkRtt": 0.1,
+      "networkServerLatency": 53.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 60.4,
+      "elementRenderDelay": 67.9
+    },
+    "weight": {
+      "total": 977098,
+      "requests": 14,
+      "mainDocument": 5224,
+      "byType": {
+        "total": {
+          "bytes": 973186,
+          "requests": 13
+        },
+        "image": {
+          "bytes": 786924,
+          "requests": 6
+        },
+        "script": {
+          "bytes": 176241,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 5224,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 4352,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 445,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 176241,
+          "requests": 4
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 176241,
+      "mainThreadMs": 44.9,
+      "top": [
+        {
+          "entity": "posthog.com",
+          "bytes": 165890,
+          "mainThreadMs": 38.1,
+          "byType": {
+            "script": 165890
+          },
+          "typedBytes": 165890
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 6.8,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 362.9,
+      "byGroup": {
+        "scriptEvaluation": 157.5,
+        "other": 116.9,
+        "scriptParseCompile": 37,
+        "styleLayout": 35.3,
+        "paintCompositeRender": 9.6,
+        "parseHTML": 6.7
+      },
+      "bootupMs": 159.8,
+      "longTasks": 1,
+      "longestTaskMs": 118
+    },
+    "dom": {
+      "elements": 128,
+      "depth": 13,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 115730,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 11369,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 542715.0383333333,
+      "poorlyCachedCount": 9
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 23,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 20
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2921.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T21:31:10.624Z",
+      "runtimeMs": 6391.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5d252138a212527-LAX",
+      "server": "cloudflare",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "87137917a92a6ebc64067b3834c003e7d095cb82",
+      "x-github-request-id": "D580:20F40C:AB47A:B7FF8:6AFF6A8D",
+      "x-served-by": "cache-lax-kwhp1940118-LAX"
+    },
+    "violations": 3,
+    "passes": 245,
+    "incomplete": 5,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "li:nth-child(1) > .space-y-4 > .space-y-1.leading-6.text-lg > .text-gray-400",
+            "snippet": "<p class=\"text-gray-400\">Co-Founder, CEO</p>"
+          },
+          {
+            "selector": "li:nth-child(2) > .space-y-4 > .space-y-1.leading-6.text-lg > .text-gray-400",
+            "snippet": "<p class=\"text-gray-400\">Co-Founder, CTO</p>"
+          },
+          {
+            "selector": ".text-center.text-gray-400.mt-8",
+            "snippet": "<p class=\"mt-8 text-center text-base text-gray-400\"> © 2026 Valinor Earth, Inc. All rights reserved. </p>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "3da95ecffbc7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Wed, 15 Jul 2026 06:54:36 GMT",
+          "x-cache": "MISS",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "3da95ecffbc7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Wed, 15 Jul 2026 06:54:36 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "3da95ecffbc7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Wed, 15 Jul 2026 06:54:36 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "3da95ecffbc7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "19",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Wed, 15 Jul 2026 06:54:36 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

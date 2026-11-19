@@ -1,0 +1,300 @@
+{
+  "url": "https://fberriman.com/blog",
+  "name": "fberriman.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795124266205,
+  "date": "2026-11-19T21:37:46.205Z",
+  "runId": "2026-11-19T21-29-34-150Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27092,
+  "error": null,
+  "variance": {
+    "min": 85,
+    "max": 99,
+    "spread": 14,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://fberriman.com/blog",
+    "finalUrl": "https://fberriman.com/blog/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 97,
+      "accessibility": 86,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 96
+    },
+    "timings": {
+      "fcp": 1774,
+      "lcp": 1774,
+      "si": 1795,
+      "tbt": 0,
+      "tti": 1774,
+      "cls": 0.094,
+      "ttfb": 828,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 112,
+      "networkRtt": 2.2,
+      "networkServerLatency": 228.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 495.7,
+      "elementRenderDelay": 256.4
+    },
+    "weight": {
+      "total": 260731,
+      "requests": 21,
+      "mainDocument": 10524,
+      "byType": {
+        "total": {
+          "bytes": 258287,
+          "requests": 13
+        },
+        "image": {
+          "bytes": 187902,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 43152,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 10524,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 7911,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 5958,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 2840,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 44218,
+          "requests": 2
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 44218,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 44218,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 1066,
+            "font": 43152
+          },
+          "typedBytes": 44218
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 356.8,
+      "byGroup": {
+        "other": 163.8,
+        "styleLayout": 93.5,
+        "paintCompositeRender": 65.3,
+        "scriptEvaluation": 22.4,
+        "parseHTML": 8.3,
+        "scriptParseCompile": 3.4
+      },
+      "bootupMs": 23.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 202,
+      "depth": 9,
+      "maxChildren": 15
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 944,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 9462.400000000001,
+      "poorlyCachedCount": 4
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 14,
+      "failingNodes": 28,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 26
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 982.9,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3091.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T21:37:47.441Z",
+      "runtimeMs": 9212.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7TVXKDQD1BN2CH8KA452VTK"
+    },
+    "violations": 26,
+    "passes": 391,
+    "incomplete": 4,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 26,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"art\"]",
+            "snippet": "<a href=\"/art\">Art</a>"
+          },
+          {
+            "selector": "li:nth-child(2) > a[href$=\"about\"]",
+            "snippet": "<a href=\"/about\">About</a>"
+          },
+          {
+            "selector": "a[href$=\"blog\"]",
+            "snippet": "<a href=\"/blog\">Blog</a>"
+          },
+          {
+            "selector": "a[href$=\"shop.fberriman.com\"]",
+            "snippet": "<a href=\"https://shop.fberriman.com\">Shop</a>"
+          },
+          {
+            "selector": "article:nth-child(1) > p:nth-child(3) > a:nth-child(2)",
+            "snippet": "<a href=\"https://alicebartlett.co.uk/blog/weaknotes-401\">turning her weekly notes into a printed and bound book</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "966f5d01028a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"c76d37cbb9b13bedb1b05a7dc80be17f-ssl\""
+        }
+      },
+      {
+        "hash": "966f5d01028a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535990",
+          "etag": "W/\"c76d37cbb9b13bedb1b05a7dc80be17f-ssl\""
+        }
+      },
+      {
+        "hash": "966f5d01028a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535983",
+          "etag": "W/\"c76d37cbb9b13bedb1b05a7dc80be17f-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

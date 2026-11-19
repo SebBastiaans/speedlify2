@@ -1,0 +1,299 @@
+{
+  "url": "https://github.com/lit/lit-element-starter-ts",
+  "name": "github.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795124140576,
+  "date": "2026-11-19T21:35:40.576Z",
+  "runId": "2026-11-19T21-29-34-150Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 37124,
+  "error": null,
+  "variance": {
+    "min": 57,
+    "max": 70,
+    "spread": 13,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://github.com/lit/lit-element-starter-ts",
+    "finalUrl": "https://github.com/lit/lit-element-starter-ts",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 58,
+      "accessibility": 97,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 75
+    },
+    "timings": {
+      "fcp": 3407,
+      "lcp": 9162,
+      "si": 3407,
+      "tbt": 418,
+      "tti": 11091,
+      "cls": 0,
+      "ttfb": 652,
+      "maxPotentialFid": 342,
+      "serverResponseTime": 51,
+      "networkRtt": 1.5,
+      "networkServerLatency": 136.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 53,
+      "elementRenderDelay": 239.3
+    },
+    "weight": {
+      "total": 2246264,
+      "requests": 130,
+      "mainDocument": 51036,
+      "byType": {
+        "total": {
+          "bytes": 2246264,
+          "requests": 130
+        },
+        "script": {
+          "bytes": 1515634,
+          "requests": 75
+        },
+        "image": {
+          "bytes": 315609,
+          "requests": 20
+        },
+        "stylesheet": {
+          "bytes": 302707,
+          "requests": 20
+        },
+        "other": {
+          "bytes": 61278,
+          "requests": 14
+        },
+        "document": {
+          "bytes": 51036,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2246264,
+          "requests": 130
+        }
+      },
+      "scripts": 75,
+      "stylesheets": 20,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 2099416,
+      "mainThreadMs": 327.6,
+      "top": [
+        {
+          "entity": "githubassets.com",
+          "bytes": 2099416,
+          "mainThreadMs": 327.6,
+          "byType": {
+            "script": 1515634,
+            "stylesheet": 302707,
+            "image": 263509,
+            "other": 17566
+          },
+          "typedBytes": 2099416
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3258.9,
+      "byGroup": {
+        "scriptEvaluation": 1535.3,
+        "other": 1013.2,
+        "styleLayout": 443.6,
+        "parseHTML": 151.3,
+        "paintCompositeRender": 72.3,
+        "garbageCollection": 35.1,
+        "scriptParseCompile": 7.9
+      },
+      "bootupMs": 1457.2,
+      "longTasks": 10,
+      "longestTaskMs": 342
+    },
+    "dom": {
+      "elements": 1824,
+      "depth": 34,
+      "maxChildren": 62
+    },
+    "waste": {
+      "unusedJsBytes": 628892,
+      "unusedCssBytes": 196029,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 87728,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 2302,
+      "renderBlockingCount": 18,
+      "poorlyCachedBytes": 49929.16666666667,
+      "poorlyCachedCount": 13
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 32,
+      "failingNodes": 11,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 9
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 3,
+      "baselineLimitedFeatures": 70
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3054,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T21:36:05.106Z",
+      "runtimeMs": 10732.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "react",
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "1.1.2"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "github.com",
+      "x-github-request-id": "5441:17A3AE:473FFE:5ED117:6AFF6BCB"
+    },
+    "violations": 2,
+    "passes": 1861,
+    "incomplete": 2,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[data-testid=\"notifications-sign-in-button\"]",
+            "snippet": "<a data-component=\"Button\" type=\"button\" href=\"/login?return_to=%2F...\" rel=\"nofollow\" aria-label=\"You must be signed i...\" data-testid=\"notifications-sign-i...\" class=\"prc-Button-ButtonBas...\" data-…"
+          },
+          {
+            "selector": "a[data-testid=\"fork-button\"]",
+            "snippet": "<a data-component=\"Button\" type=\"button\" href=\"/login?return_to=%2Flit%2Flit-element-starter-ts\" data-testid=\"fork-button\" aria-label=\"You must be signed in to fork a repository\" class=\"prc-Button-Bu…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "3faf244d7891",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"2c65a731ea88062138391f98b696d01c\""
+        }
+      },
+      {
+        "hash": "0266d669cb72",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"2c65a731ea88062138391f98b696d01c\""
+        }
+      },
+      {
+        "hash": "c2911b6d70fb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"7a7e88dd7e2c50666cc332ed330607e7\""
+        }
+      },
+      {
+        "hash": "fa802fad1b6f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"c389fb942602c0d14ec7ce9a112ff84d\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

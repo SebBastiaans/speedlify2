@@ -1,0 +1,313 @@
+{
+  "url": "https://gsap.com/",
+  "name": "gsap.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795124377804,
+  "date": "2026-11-19T21:39:37.804Z",
+  "runId": "2026-11-19T21-29-34-150Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 44109,
+  "error": null,
+  "variance": {
+    "min": 85,
+    "max": 91,
+    "spread": 6,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://gsap.com/",
+    "finalUrl": "https://gsap.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 90,
+      "accessibility": 90,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 1265,
+      "lcp": 3431,
+      "si": 2945,
+      "tbt": 97,
+      "tti": 5030,
+      "cls": 0,
+      "ttfb": 623,
+      "maxPotentialFid": 149,
+      "serverResponseTime": 425,
+      "networkRtt": 0.6,
+      "networkServerLatency": 22.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 427.1,
+      "elementRenderDelay": 150.3
+    },
+    "weight": {
+      "total": 4243039,
+      "requests": 35,
+      "mainDocument": 79799,
+      "byType": {
+        "total": {
+          "bytes": 4243039,
+          "requests": 31
+        },
+        "media": {
+          "bytes": 3550226,
+          "requests": 12
+        },
+        "script": {
+          "bytes": 314169,
+          "requests": 7
+        },
+        "image": {
+          "bytes": 217431,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 79799,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 77272,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 4142,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 193353,
+          "requests": 2
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 0,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 193353,
+      "mainThreadMs": 58.2,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 183002,
+          "mainThreadMs": 51.3,
+          "byType": {
+            "script": 183002
+          },
+          "typedBytes": 183002
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 6.9,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3037.7,
+      "byGroup": {
+        "other": 1424.1,
+        "scriptEvaluation": 782.9,
+        "styleLayout": 444.8,
+        "paintCompositeRender": 273.1,
+        "parseHTML": 57.1,
+        "scriptParseCompile": 41.3,
+        "garbageCollection": 14.3
+      },
+      "bootupMs": 780.8,
+      "longTasks": 3,
+      "longestTaskMs": 149
+    },
+    "dom": {
+      "elements": 1551,
+      "depth": 15,
+      "maxChildren": 13
+    },
+    "waste": {
+      "unusedJsBytes": 135923,
+      "unusedCssBytes": 12880,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 4140.400000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 23,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "http/1.1",
+      "legacyHttpRequests": 23,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 28
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2937,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T21:39:59.806Z",
+      "runtimeMs": 10363.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5d25f0e2ee7c982-LAX",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 789,
+    "incomplete": 57,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".subtitle--large",
+            "snippet": "<h3 class=\"subtitle subtitle--large subtitle--left \" data-block=\"subtitle\" data-delay=\"2.5\" style=\"opacity: 1; visibility: inherit;\">"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".footer-copy__webflow",
+            "snippet": "<a class=\"footer-copy__webflow\" href=\"https://webflow.com/\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "085d21af3557",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Thu, 19 Nov 2026 18:07:14 GMT",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "085d21af3557",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Thu, 19 Nov 2026 18:07:14 GMT",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "085d21af3557",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Thu, 19 Nov 2026 18:07:14 GMT",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "085d21af3557",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Thu, 19 Nov 2026 18:07:14 GMT",
+          "cf-cache-status": "DYNAMIC"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

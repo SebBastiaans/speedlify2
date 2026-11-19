@@ -1,0 +1,396 @@
+{
+  "url": "https://www.itsmeara.com/",
+  "name": "www.itsmeara.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795123932770,
+  "date": "2026-11-19T21:32:12.770Z",
+  "runId": "2026-11-19T21-29-34-150Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23815,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 99,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.itsmeara.com/",
+    "finalUrl": "https://www.itsmeara.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 97,
+      "accessibility": 90,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1087,
+      "lcp": 2605,
+      "si": 2152,
+      "tbt": 0,
+      "tti": 2605,
+      "cls": 0.001,
+      "ttfb": 691,
+      "maxPotentialFid": 41,
+      "serverResponseTime": 489,
+      "networkRtt": 19.7,
+      "networkServerLatency": 287.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 557,
+      "elementRenderDelay": 86.4
+    },
+    "weight": {
+      "total": 241059,
+      "requests": 28,
+      "mainDocument": 8970,
+      "byType": {
+        "total": {
+          "bytes": 241059,
+          "requests": 28
+        },
+        "image": {
+          "bytes": 95423,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 80353,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 52103,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 8970,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 2249,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 1961,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 149675,
+          "requests": 17
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 3,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 149675,
+      "mainThreadMs": 21.5,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 82602,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 2249,
+            "font": 80353
+          },
+          "typedBytes": 82602
+        },
+        {
+          "entity": "senja.io",
+          "bytes": 49176,
+          "mainThreadMs": 11.5,
+          "byType": {
+            "script": 33158,
+            "image": 16018
+          },
+          "typedBytes": 49176
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 7.2,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        },
+        {
+          "entity": "Google CDN",
+          "bytes": 6058,
+          "mainThreadMs": 2,
+          "byType": {
+            "script": 6058
+          },
+          "typedBytes": 6058
+        },
+        {
+          "entity": "b-cdn.net",
+          "bytes": 1361,
+          "mainThreadMs": 0.6,
+          "byType": {
+            "script": 1361
+          },
+          "typedBytes": 1361
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 559.8,
+      "byGroup": {
+        "other": 201.5,
+        "styleLayout": 168.8,
+        "scriptEvaluation": 103.8,
+        "paintCompositeRender": 54.5,
+        "parseHTML": 12.8,
+        "scriptParseCompile": 10.3,
+        "garbageCollection": 8.2
+      },
+      "bootupMs": 69.6,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 293,
+      "depth": 17,
+      "maxChildren": 13
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 4505.606064814815,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 14,
+      "failingNodes": 7,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 6
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 26
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2883,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T21:32:13.986Z",
+      "runtimeMs": 8526.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [
+        "svelte"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5d2540ecdf02527-LAX",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M7TVKHA8XW9NM0DQ6D03WWM5"
+    },
+    "violations": 17,
+    "passes": 533,
+    "incomplete": 1,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 10,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".logo",
+            "snippet": "<a href=\"/\" class=\"logo\"><img src=\"images/logo-ara.svg\" alt=\"Logo that says Ara\" width=\"104\" height=\"52\"></a>"
+          },
+          {
+            "selector": ".cta",
+            "snippet": "<a href=\"/Ara_Abcarians_Resume.pdf\" class=\"cta btn\">Resume</a>"
+          },
+          {
+            "selector": "section:nth-child(5)",
+            "snippet": "<section class=\"module\">"
+          },
+          {
+            "selector": "section:nth-child(6)",
+            "snippet": "<section class=\"module\">"
+          },
+          {
+            "selector": "section:nth-child(7)",
+            "snippet": "<section class=\"module\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 6,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[data-mode=\"shadow\"] .min-w-0.w-full:nth-child(1) > .max-w-xs.mx-auto.flex-col > .justify-center.mx-auto.gap-2 > .max-w-\\[200px\\].overflow-hidden.text-left > .text-sm.opacity-90.text-center > .block.opacity-70.hover\\:opacity-50 > a[target=\"_blank\"]",
+            "snippet": "<a href=\"https://www.linkedin.com/in/arala/\" target=\"_blank\">Sr. Creative Director at 1Password</a>"
+          },
+          {
+            "selector": "div[data-mode=\"shadow\"] .min-w-0.w-full:nth-child(2) > .max-w-xs.mx-auto.flex-col > .justify-center.mx-auto.gap-2 > .max-w-\\[200px\\].overflow-hidden.text-left > .text-sm.opacity-90.text-center > .block.opacity-70.hover\\:opacity-50 > a[target=\"_blank\"]",
+            "snippet": "<a href=\"https://www.linkedin.com/in/arala/\" target=\"_blank\">Marketing Web Developer</a>"
+          },
+          {
+            "selector": "div[data-mode=\"shadow\"] .min-w-0.w-full:nth-child(3) > .max-w-xs.mx-auto.flex-col > .justify-center.mx-auto.gap-2 > .max-w-\\[200px\\].overflow-hidden.text-left > .text-sm.opacity-90.text-center > .block.opacity-70.hover\\:opacity-50 > a[target=\"_blank\"]",
+            "snippet": "<a href=\"https://www.linkedin.com/in/arala/\" target=\"_blank\">Sr. Program Manager, Marketing Strategic Operations @ 1Password | Certified Prosci Change Practitioner | Formerly @ Drata &amp; Kandji</a>"
+          },
+          {
+            "selector": "div[data-mode=\"shadow\"] .min-w-0.w-full:nth-child(4) > .max-w-xs.mx-auto.flex-col > .justify-center.mx-auto.gap-2 > .max-w-\\[200px\\].overflow-hidden.text-left > .text-sm.opacity-90.text-center > .block.opacity-70.hover\\:opacity-50 > a[target=\"_blank\"]",
+            "snippet": "<a href=\"https://www.linkedin.com/in/arala/\" target=\"_blank\">Executive Vice President, Technology Platforms at Fox Corporation</a>"
+          },
+          {
+            "selector": "div[data-mode=\"shadow\"] .min-w-0.w-full:nth-child(5) > .max-w-xs.mx-auto.flex-col > .justify-center.mx-auto.gap-2 > .max-w-\\[200px\\].overflow-hidden.text-left > .text-sm.opacity-90.text-center > .block.opacity-70.hover\\:opacity-50 > a[target=\"_blank\"]",
+            "snippet": "<a href=\"https://www.linkedin.com/in/arala/\" target=\"_blank\">Product Design Leadership at Meta</a>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" class=\"bg-cursor color-terminal font-sans overflow-x-hidden wf-inter-n4-active wf-active\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a62898ed8318",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "a62898ed8318",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "a62898ed8318",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535985",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "a62898ed8318",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "21",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535979",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
