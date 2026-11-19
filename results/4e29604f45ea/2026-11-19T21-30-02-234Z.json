@@ -1,0 +1,318 @@
+{
+  "url": "https://priyanshusinha.in/",
+  "name": "priyanshusinha.in",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795123802234,
+  "date": "2026-11-19T21:30:02.234Z",
+  "runId": "2026-11-19T21-29-29-677Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23446,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 100,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://priyanshusinha.in/",
+    "finalUrl": "https://priyanshusinha.in/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 98,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 800,
+      "lcp": 800,
+      "si": 800,
+      "tbt": 3,
+      "tti": 2963,
+      "cls": 0,
+      "ttfb": 627,
+      "maxPotentialFid": 55,
+      "serverResponseTime": 20,
+      "networkRtt": 0,
+      "networkServerLatency": 27.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 21.8,
+      "elementRenderDelay": 108.6
+    },
+    "weight": {
+      "total": 841378,
+      "requests": 30,
+      "mainDocument": 7982,
+      "byType": {
+        "total": {
+          "bytes": 830059,
+          "requests": 29
+        },
+        "image": {
+          "bytes": 570957,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 128355,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 97056,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 18018,
+          "requests": 8
+        },
+        "document": {
+          "bytes": 7982,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 7691,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 13,
+      "stylesheets": 1,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 396.5,
+      "byGroup": {
+        "scriptEvaluation": 202.3,
+        "other": 115.8,
+        "styleLayout": 34.4,
+        "scriptParseCompile": 25.2,
+        "paintCompositeRender": 10.9,
+        "parseHTML": 8
+      },
+      "bootupMs": 167.3,
+      "longTasks": 1,
+      "longestTaskMs": 55
+    },
+    "dom": {
+      "elements": 138,
+      "depth": 12,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 24247,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 13258,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 25,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 14
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4055.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T21:30:19.548Z",
+      "runtimeMs": 5915.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "Nextdotjs",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "next",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "cle1::www29-1795123824491-30ab6f86c4e1"
+    },
+    "violations": 10,
+    "passes": 287,
+    "incomplete": 2,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 9,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".sr-only",
+            "snippet": "<a class=\"sr-only focus:not-sr-only text-sm\" href=\"/#main-content\">Skip to main content</a>"
+          },
+          {
+            "selector": ".float-right",
+            "snippet": "<img class=\"float-right h-[120px] w-[120px] md:h-40 md:w-40 rounded-full\" src=\"/about.jpeg\" style=\"shape-outside:circle()\" alt=\"Picture of Priyanshu Sinha\">"
+          },
+          {
+            "selector": ".text-\\[28px\\]",
+            "snippet": "<h2 class=\"text-[28px] leading-8 md:text-4xl font-serif tracking-tight text-blue-900\">Stillness hums beneath the roar,<br>Seeking more than ever before.</h2>"
+          },
+          {
+            "selector": ".space-y-4",
+            "snippet": "<div class=\"space-y-4 mt-6 mb-10 text-black/70 max-w-lg\">"
+          },
+          {
+            "selector": ".text-stone-900",
+            "snippet": "<span class=\"font-medium text-stone-900\">Recently</span>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "35d1dbfc5e4d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gsp"
+        ],
+        "headers": {
+          "age": "2697676",
+          "etag": "W/\"352c41e70536a4a0c26080aca79e3f0c\"",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "35d1dbfc5e4d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gsp"
+        ],
+        "headers": {
+          "age": "2697684",
+          "etag": "W/\"352c41e70536a4a0c26080aca79e3f0c\"",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "35d1dbfc5e4d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gsp"
+        ],
+        "headers": {
+          "age": "2697692",
+          "etag": "W/\"352c41e70536a4a0c26080aca79e3f0c\"",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "35d1dbfc5e4d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gsp"
+        ],
+        "headers": {
+          "age": "2697696",
+          "etag": "\"352c41e70536a4a0c26080aca79e3f0c\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
