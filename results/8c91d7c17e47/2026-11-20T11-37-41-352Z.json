@@ -1,0 +1,250 @@
+{
+  "url": "https://www.silvestar.codes/",
+  "name": "www.silvestar.codes",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795174661352,
+  "date": "2026-11-20T11:37:41.352Z",
+  "runId": "2026-11-20T11-30-47-462Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 23778,
+  "error": null,
+  "partialErrors": [
+    "NO_NAVSTART: Something went wrong with recording the trace over your page load. Please run Lighthouse again. (NO_NAVSTART)"
+  ],
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://www.silvestar.codes/",
+    "finalUrl": "https://www.silvestar.codes/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 963,
+      "lcp": 963,
+      "si": 1416,
+      "tbt": 9,
+      "tti": 1088,
+      "cls": 0,
+      "ttfb": 623,
+      "maxPotentialFid": 67,
+      "serverResponseTime": 23,
+      "networkRtt": 0,
+      "networkServerLatency": 22.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 24.4,
+      "elementRenderDelay": 101.8
+    },
+    "weight": {
+      "total": 184516,
+      "requests": 11,
+      "mainDocument": 27389,
+      "byType": {
+        "total": {
+          "bytes": 184516,
+          "requests": 11
+        },
+        "image": {
+          "bytes": 143944,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 27389,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 6865,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 5486,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 832,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 620.5,
+      "byGroup": {
+        "other": 243.3,
+        "styleLayout": 155.6,
+        "paintCompositeRender": 100.3,
+        "scriptEvaluation": 98,
+        "parseHTML": 22.5,
+        "scriptParseCompile": 0.8
+      },
+      "bootupMs": 15.1,
+      "longTasks": 2,
+      "longestTaskMs": 67
+    },
+    "dom": {
+      "elements": 367,
+      "depth": 11,
+      "maxChildren": 18
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 25,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 16,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 26
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2448,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T11:37:57.153Z",
+      "runtimeMs": 6689.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.7",
+      "source": "meta",
+      "raw": "Eleventy v3.1.7"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.7"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7WBZM7ZVNQW350RBK2R2FRE"
+    },
+    "violations": 0,
+    "passes": 684,
+    "incomplete": 54,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "01cff64e5b2a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"56b505acf2754746581b5fceb323b117-ssl\""
+        }
+      },
+      {
+        "hash": "01cff64e5b2a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535985",
+          "etag": "W/\"56b505acf2754746581b5fceb323b117-ssl\""
+        }
+      },
+      {
+        "hash": "01cff64e5b2a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535980",
+          "etag": "W/\"56b505acf2754746581b5fceb323b117-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

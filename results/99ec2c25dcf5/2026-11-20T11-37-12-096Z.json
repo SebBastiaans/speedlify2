@@ -1,0 +1,332 @@
+{
+  "url": "https://www.ryzokuken.dev/",
+  "name": "www.ryzokuken.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795174632096,
+  "date": "2026-11-20T11:37:12.096Z",
+  "runId": "2026-11-20T11-30-47-462Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26255,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.ryzokuken.dev/",
+    "finalUrl": "https://www.ryzokuken.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 799,
+      "lcp": 799,
+      "si": 799,
+      "tbt": 0,
+      "tti": 799,
+      "cls": 0,
+      "ttfb": 604,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 2,
+      "networkRtt": 0.1,
+      "networkServerLatency": 587.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 3.6,
+      "elementRenderDelay": 58.1
+    },
+    "weight": {
+      "total": 213541,
+      "requests": 16,
+      "mainDocument": 3050,
+      "byType": {
+        "total": {
+          "bytes": 213541,
+          "requests": 16
+        },
+        "font": {
+          "bytes": 129980,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 62085,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 9125,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 4840,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 4461,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 3050,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 34377,
+          "requests": 7
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 32019,
+      "mainThreadMs": 1.9,
+      "top": [
+        {
+          "entity": "archive.org",
+          "bytes": 25527,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 25527
+          },
+          "typedBytes": 25527
+        },
+        {
+          "entity": "zgo.at",
+          "bytes": 4389,
+          "mainThreadMs": 1.9,
+          "byType": {
+            "script": 4389
+          },
+          "typedBytes": 4389
+        },
+        {
+          "entity": "listenbrainz.org",
+          "bytes": 1721,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 1721
+          },
+          "typedBytes": 1721
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 309.3,
+      "byGroup": {
+        "other": 129.8,
+        "styleLayout": 104.1,
+        "scriptEvaluation": 42.7,
+        "paintCompositeRender": 16.5,
+        "parseHTML": 12.9,
+        "scriptParseCompile": 3.2
+      },
+      "bootupMs": 36.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 151,
+      "depth": 11,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 186964.83333333334,
+      "poorlyCachedCount": 9
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 4
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 31
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2486.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T11:37:21.047Z",
+      "runtimeMs": 6958
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "b52d63084c9d4d9fa153c44ad8882b1f41a41be6",
+      "x-github-request-id": "55D0:90062:B3E6FA:C51702:6B0030E8",
+      "x-served-by": "cache-chi-kmdw8640023-CHI"
+    },
+    "violations": 4,
+    "passes": 283,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".secnum[href$=\"#roles\"]",
+            "snippet": "<a class=\"secnum\" href=\"#roles\">1.1</a>"
+          },
+          {
+            "selector": ".secnum[href$=\"#past-roles\"]",
+            "snippet": "<a class=\"secnum\" href=\"#past-roles\">1.2</a>"
+          },
+          {
+            "selector": ".secnum[href$=\"#current\"]",
+            "snippet": "<a class=\"secnum\" href=\"#current\">1.3</a>"
+          },
+          {
+            "selector": ".secnum[href$=\"#record\"]",
+            "snippet": "<a class=\"secnum\" href=\"#record\">1.4</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "1f719ce2c5a1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"6adf36fe-2123\"",
+          "last-modified": "Mon, 26 Oct 2026 11:18:22 GMT",
+          "x-cache": "MISS",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "1f719ce2c5a1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "etag": "W/\"6adf36fe-2123\"",
+          "last-modified": "Mon, 26 Oct 2026 11:18:22 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "1f719ce2c5a1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "etag": "W/\"6adf36fe-2123\"",
+          "last-modified": "Mon, 26 Oct 2026 11:18:22 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "1f719ce2c5a1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "18",
+          "etag": "W/\"6adf36fe-2123\"",
+          "last-modified": "Mon, 26 Oct 2026 11:18:22 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,359 @@
+{
+  "url": "https://www.rosiedalia.com/",
+  "name": "www.rosiedalia.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795174502245,
+  "date": "2026-11-20T11:35:02.245Z",
+  "runId": "2026-11-20T11-30-47-462Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 91459,
+  "error": null,
+  "variance": {
+    "min": 31,
+    "max": 45,
+    "spread": 14,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.rosiedalia.com/",
+    "finalUrl": "https://www.rosiedalia.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 42,
+      "accessibility": 94,
+      "best-practices": 73,
+      "seo": 92,
+      "agentic-browsing": 94
+    },
+    "timings": {
+      "fcp": 1142,
+      "lcp": 4743,
+      "si": 7858,
+      "tbt": 1673,
+      "tti": 26858,
+      "cls": 0.152,
+      "ttfb": 613,
+      "maxPotentialFid": 464,
+      "serverResponseTime": 11,
+      "networkRtt": 42,
+      "networkServerLatency": 104
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 70.5,
+      "resourceLoadDelay": 282.1,
+      "resourceLoadDuration": 38.2,
+      "elementRenderDelay": 158.9
+    },
+    "weight": {
+      "total": 5775894,
+      "requests": 523,
+      "mainDocument": 73225,
+      "byType": {
+        "total": {
+          "bytes": 5775359,
+          "requests": 520
+        },
+        "script": {
+          "bytes": 2516571,
+          "requests": 151
+        },
+        "image": {
+          "bytes": 1511464,
+          "requests": 34
+        },
+        "other": {
+          "bytes": 1414316,
+          "requests": 312
+        },
+        "font": {
+          "bytes": 179790,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 109481,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 43737,
+          "requests": 12
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2665053,
+          "requests": 198
+        }
+      },
+      "scripts": 151,
+      "stylesheets": 12,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 15,
+      "bytes": 2205848,
+      "mainThreadMs": 566.9,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 1006075,
+          "mainThreadMs": 295.9,
+          "byType": {
+            "script": 1006075
+          },
+          "typedBytes": 1006075
+        },
+        {
+          "entity": "Shopify",
+          "bytes": 450983,
+          "mainThreadMs": 80,
+          "byType": {
+            "script": 225957,
+            "stylesheet": 6940,
+            "font": 130000,
+            "other": 84430,
+            "image": 3656
+          },
+          "typedBytes": 450983
+        },
+        {
+          "entity": "Klaviyo",
+          "bytes": 301635,
+          "mainThreadMs": 73.5,
+          "byType": {
+            "script": 283787,
+            "stylesheet": 9948,
+            "other": 7900
+          },
+          "typedBytes": 301635
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 222424,
+          "mainThreadMs": 105.3,
+          "byType": {
+            "script": 222424
+          },
+          "typedBytes": 222424
+        },
+        {
+          "entity": "klaviyomail.com",
+          "bytes": 128113,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 128113
+          },
+          "typedBytes": 128113
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 13952.5,
+      "byGroup": {
+        "scriptEvaluation": 4978.3,
+        "other": 4231.1,
+        "styleLayout": 3083.3,
+        "paintCompositeRender": 854.4,
+        "scriptParseCompile": 562.2,
+        "parseHTML": 159.3,
+        "garbageCollection": 84
+      },
+      "bootupMs": 4703.3,
+      "longTasks": 20,
+      "longestTaskMs": 464
+    },
+    "dom": {
+      "elements": 3538,
+      "depth": 20,
+      "maxChildren": 237
+    },
+    "waste": {
+      "unusedJsBytes": 752570,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 37811,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 2904,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 205548.52777777778,
+      "poorlyCachedCount": 9
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 35,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 5
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 5
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": null,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 87
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2466,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T11:35:03.516Z",
+      "runtimeMs": 31195.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5d72828de508114-ORD",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 2645,
+    "incomplete": 15,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".footer__aside > .localization-selectors > .relative > .localization-toggle.text-xxs[aria-label=\"Change country or currency\"]",
+            "snippet": "<button type=\"button\" class=\"localization-toggle heading text-xxs link-faded\" aria-controls=\"popover-localization--sections--23703026368890__footer-country\" aria-label=\"Change country or currency\" ar…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "dd1610371274",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "dd82ba78f6db",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "\"sfr:computation:v2:90759109aa876d6b2fd060e4f72e9bd9ac96bb9f3eefa8ed9d46bb98f38b9495:751cb445d6ffd8cc1a810d7b434afdf7\""
+        }
+      },
+      {
+        "hash": "5b1653d32a5d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "\"sfr:computation:v2:90759109aa876d6b2fd060e4f72e9bd9ac96bb9f3eefa8ed9d46bb98f38b9495:751cb445d6ffd8cc1a810d7b434afdf7\""
+        }
+      },
+      {
+        "hash": "0372bb27b30c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "\"sfr:computation:v2:90759109aa876d6b2fd060e4f72e9bd9ac96bb9f3eefa8ed9d46bb98f38b9495:751cb445d6ffd8cc1a810d7b434afdf7\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
