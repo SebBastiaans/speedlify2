@@ -1,0 +1,310 @@
+{
+  "url": "https://www.nuget.org/",
+  "name": "NuGet",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795174589022,
+  "date": "2026-11-20T11:36:29.022Z",
+  "runId": "2026-11-20T11-30-41-757Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 41676,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 99,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.nuget.org/",
+    "finalUrl": "https://www.nuget.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1588,
+      "lcp": 1588,
+      "si": 1588,
+      "tbt": 0,
+      "tti": 1588,
+      "cls": 0,
+      "ttfb": 644,
+      "maxPotentialFid": 49,
+      "serverResponseTime": 48,
+      "networkRtt": 4.5,
+      "networkServerLatency": 227.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 49.3,
+      "elementRenderDelay": 102.6
+    },
+    "weight": {
+      "total": 488357,
+      "requests": 20,
+      "mainDocument": 6110,
+      "byType": {
+        "total": {
+          "bytes": 471723,
+          "requests": 19
+        },
+        "font": {
+          "bytes": 197611,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 178458,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 72315,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 14320,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 6110,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2909,
+          "requests": 6
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 273374,
+          "requests": 5
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 2,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 273374,
+      "mainThreadMs": 11.5,
+      "top": [
+        {
+          "entity": "office.net",
+          "bytes": 197611,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 197611
+          },
+          "typedBytes": 197611
+        },
+        {
+          "entity": "Bing Ads",
+          "bytes": 53533,
+          "mainThreadMs": 1.3,
+          "byType": {
+            "script": 53533
+          },
+          "typedBytes": 53533
+        },
+        {
+          "entity": "azure.com",
+          "bytes": 22076,
+          "mainThreadMs": 10.1,
+          "byType": {
+            "script": 22076
+          },
+          "typedBytes": 22076
+        },
+        {
+          "entity": "Visual Studio",
+          "bytes": 154,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "other": 154
+          },
+          "typedBytes": 154
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 487,
+      "byGroup": {
+        "other": 194.2,
+        "scriptEvaluation": 160.5,
+        "styleLayout": 57.2,
+        "scriptParseCompile": 27.8,
+        "parseHTML": 23,
+        "paintCompositeRender": 17.2,
+        "garbageCollection": 7.2
+      },
+      "bootupMs": 145.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 131,
+      "depth": 12,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 94497,
+      "unusedCssBytes": 64878,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1288,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 259827.00833333333,
+      "poorlyCachedCount": 11
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 24,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "http/1.1",
+      "legacyHttpRequests": 12,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 14
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4176.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T11:36:37.557Z",
+      "runtimeMs": 6443.5
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.6,
+    "elementRenderDelay": 916.6
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {},
+    "violations": 1,
+    "passes": 198,
+    "incomplete": 21,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[aria-label=\"Frequently Asked Questions\"]",
+            "snippet": "<a aria-label=\"Frequently Asked Questions\" href=\"https://aka.ms/nuget-faq\"> <abbr title=\"Frequently Asked Questions\">FAQ</abbr> </a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b06d6b10c680",
+        "nonce": "2bc1a3bd180f",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "b06d6b10c680",
+        "nonce": "53a3a9a35ed3",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "b06d6b10c680",
+        "nonce": "8e3d5c91caa2",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "b06d6b10c680",
+        "nonce": "6c8cdd577933",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "b06d6b10c680",
+        "nonce": "d908230eaea7",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
