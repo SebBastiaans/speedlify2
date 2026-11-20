@@ -1,0 +1,303 @@
+{
+  "url": "https://svelte.dev/",
+  "name": "Svelte",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795146280326,
+  "date": "2026-11-20T03:44:40.326Z",
+  "runId": "2026-11-20T03-10-02-853Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 109612,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://svelte.dev/",
+    "finalUrl": "https://svelte.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1065,
+      "lcp": 1065,
+      "si": 1065,
+      "tbt": 0,
+      "tti": 1065,
+      "cls": 0,
+      "ttfb": 615,
+      "maxPotentialFid": 50,
+      "serverResponseTime": 2,
+      "networkRtt": 0,
+      "networkServerLatency": 15.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 3.5,
+      "elementRenderDelay": 118.3
+    },
+    "weight": {
+      "total": 10418824,
+      "requests": 72,
+      "mainDocument": 24358,
+      "byType": {
+        "total": {
+          "bytes": 10418824,
+          "requests": 57
+        },
+        "media": {
+          "bytes": 9444215,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 393375,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 341205,
+          "requests": 12
+        },
+        "script": {
+          "bytes": 120153,
+          "requests": 30
+        },
+        "font": {
+          "bytes": 70914,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 24604,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 24358,
+          "requests": 1
+        },
+        "third-party": {
+          "bytes": 9444215,
+          "requests": 1
+        }
+      },
+      "scripts": 30,
+      "stylesheets": 6,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 4194424,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "GitHub",
+          "bytes": 4194424,
+          "mainThreadMs": 0,
+          "byType": {
+            "media": 4194424
+          },
+          "typedBytes": 4194424
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1052.6,
+      "byGroup": {
+        "other": 432.4,
+        "scriptEvaluation": 295.3,
+        "styleLayout": 165.8,
+        "paintCompositeRender": 106,
+        "parseHTML": 31,
+        "scriptParseCompile": 11.6,
+        "garbageCollection": 10.5
+      },
+      "bootupMs": 291.7,
+      "longTasks": 1,
+      "longestTaskMs": 50
+    },
+    "dom": {
+      "elements": 355,
+      "depth": 11,
+      "maxChildren": 96
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 21,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 39
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3571,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T03:44:55.693Z",
+      "runtimeMs": 6656.6
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.6,
+    "elementRenderDelay": 964.2
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "sveltekit",
+      "name": "SvelteKit",
+      "icon": "Svelte",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "sveltekit",
+        "svelte"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "iad1::9z4gs-1795146325378-fb21f34250f2"
+    },
+    "violations": 1,
+    "passes": 587,
+    "incomplete": 3,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".small",
+            "snippet": "<span class=\"small svelte-1ssgw6y\">Svelte Summit Nov 19-20</span>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ea1fc1f34c5d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "74165",
+          "etag": "W/\"14de6d2046735bdcfdd0786158ebbfc0\"",
+          "last-modified": "Thu, 19 Nov 2026 07:08:36 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "ea1fc1f34c5d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "74168",
+          "etag": "W/\"14de6d2046735bdcfdd0786158ebbfc0\"",
+          "last-modified": "Thu, 19 Nov 2026 07:08:36 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "ea1fc1f34c5d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "74179",
+          "etag": "W/\"14de6d2046735bdcfdd0786158ebbfc0\"",
+          "last-modified": "Thu, 19 Nov 2026 07:08:36 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "ea1fc1f34c5d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "74186",
+          "etag": "W/\"14de6d2046735bdcfdd0786158ebbfc0\"",
+          "last-modified": "Thu, 19 Nov 2026 07:08:36 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "ea1fc1f34c5d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"14de6d2046735bdcfdd0786158ebbfc0\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

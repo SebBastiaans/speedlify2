@@ -1,0 +1,384 @@
+{
+  "url": "https://firebase.google.com/products/hosting",
+  "name": "Firebase Hosting",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795145123453,
+  "date": "2026-11-20T03:25:23.453Z",
+  "runId": "2026-11-20T03-10-02-853Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 75902,
+  "error": null,
+  "variance": {
+    "min": 63,
+    "max": 69,
+    "spread": 6,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://firebase.google.com/products/hosting",
+    "finalUrl": "https://firebase.google.com/products/hosting",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 67,
+      "accessibility": 95,
+      "best-practices": 96,
+      "seo": 85,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2832,
+      "lcp": 4639,
+      "si": 2832,
+      "tbt": 442,
+      "tti": 12139,
+      "cls": 0,
+      "ttfb": 707,
+      "maxPotentialFid": 194,
+      "serverResponseTime": 211,
+      "networkRtt": 0.9,
+      "networkServerLatency": 106.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 214.6,
+      "elementRenderDelay": 121
+    },
+    "weight": {
+      "total": 1963474,
+      "requests": 81,
+      "mainDocument": 88651,
+      "byType": {
+        "total": {
+          "bytes": 1963474,
+          "requests": 81
+        },
+        "script": {
+          "bytes": 1188944,
+          "requests": 50
+        },
+        "image": {
+          "bytes": 320442,
+          "requests": 10
+        },
+        "font": {
+          "bytes": 197457,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 165746,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 89177,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 1708,
+          "requests": 11
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1555572,
+          "requests": 62
+        }
+      },
+      "scripts": 50,
+      "stylesheets": 5,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 1854932,
+      "mainThreadMs": 323.7,
+      "top": [
+        {
+          "entity": "Google CDN",
+          "bytes": 851918,
+          "mainThreadMs": 99.8,
+          "byType": {
+            "script": 690694,
+            "stylesheet": 157735,
+            "image": 3425,
+            "other": 64
+          },
+          "typedBytes": 851918
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 797546,
+          "mainThreadMs": 222.9,
+          "byType": {
+            "script": 797546
+          },
+          "typedBytes": 797546
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 205468,
+          "mainThreadMs": 1,
+          "byType": {
+            "stylesheet": 8011,
+            "font": 197457
+          },
+          "typedBytes": 205468
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2603.6,
+      "byGroup": {
+        "scriptEvaluation": 1316.4,
+        "other": 567.3,
+        "styleLayout": 292.6,
+        "scriptParseCompile": 241.9,
+        "parseHTML": 81.2,
+        "paintCompositeRender": 60.4,
+        "garbageCollection": 43.7
+      },
+      "bootupMs": 1316.7,
+      "longTasks": 11,
+      "longestTaskMs": 194
+    },
+    "dom": {
+      "elements": 762,
+      "depth": 19,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 574026,
+      "unusedCssBytes": 203990,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 2431,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 29,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 4
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 3
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 4
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": null,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 47
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3433,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T03:25:46.167Z",
+      "runtimeMs": 10413.6
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1447.8,
+    "elementRenderDelay": 6518
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "3.3.3"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "google",
+      "name": "Google Frontend",
+      "icon": "Google",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Google Frontend",
+      "x-cloud-trace-context": "25fdb6d4ffc3e9f86086738e53e6dfa0"
+    },
+    "violations": 7,
+    "passes": 721,
+    "incomplete": 11,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 4,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".content-wrapper:nth-child(2) > .no-right-container-padding.side-side.bottom-padding > .side-side-wrapper > .side-side-wrapper__right-container > .content > .content__illo > img[loading=\"lazy\"]",
+            "snippet": "<img class=\"\" loading=\"lazy\" src=\"/static/images/products/hosting/hosting-1.png\">"
+          },
+          {
+            "selector": ".content-wrapper:nth-child(3) > .side-side.bottom-padding.top-padding > .side-side-wrapper > .side-side-wrapper__left-container > .content > .content__illo > img[loading=\"lazy\"]",
+            "snippet": "<img class=\"\" loading=\"lazy\" src=\"/static/images/products/hosting/hosting-2.png\">"
+          },
+          {
+            "selector": ".content-wrapper:nth-child(4) > .no-right-container-padding.side-side.bottom-padding > .side-side-wrapper > .side-side-wrapper__right-container > .content > .content__illo > img[loading=\"lazy\"]",
+            "snippet": "<img class=\"\" loading=\"lazy\" src=\"/static/images/products/hosting/hosting-3.png\">"
+          },
+          {
+            "selector": ".content-wrapper:nth-child(5) > .side-side.bottom-padding.top-padding > .side-side-wrapper > .side-side-wrapper__left-container > .content > .content__illo > img[loading=\"lazy\"]",
+            "snippet": "<img class=\"\" loading=\"lazy\" src=\"/static/images/products/hosting/hosting-4.png\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-main-is-top-level",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Main landmark should not be contained in another landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-main-is-top-level?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".devsite-article-body > main",
+            "snippet": "<main>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-no-duplicate-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should not have more than one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#main-content",
+            "snippet": "<main role=\"main\" id=\"main-content\" class=\"devsite-main-content\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#main-content",
+            "snippet": "<main role=\"main\" id=\"main-content\" class=\"devsite-main-content\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7775ebdeb0ad",
+        "nonce": "5bc994583028",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Mon, 06 Jul 2026 15:27:28 GMT"
+        }
+      },
+      {
+        "hash": "20af75a87af3",
+        "nonce": "58662fc00d00",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Mon, 06 Jul 2026 15:27:28 GMT"
+        }
+      },
+      {
+        "hash": "fa2318073b9c",
+        "nonce": "0321e582c01b",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Mon, 06 Jul 2026 15:27:28 GMT"
+        }
+      },
+      {
+        "hash": "ddca7bca8563",
+        "nonce": "017be9ebee93",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Mon, 06 Jul 2026 15:27:28 GMT"
+        }
+      },
+      {
+        "hash": "88541ce60ce7",
+        "nonce": "93d2a5c3bc94",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Mon, 06 Jul 2026 15:27:28 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

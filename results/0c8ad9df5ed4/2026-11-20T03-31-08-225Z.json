@@ -1,0 +1,415 @@
+{
+  "url": "https://www.lingfest.uk/",
+  "name": "www.lingfest.uk",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795145468225,
+  "date": "2026-11-20T03:31:08.225Z",
+  "runId": "2026-11-20T03-10-02-853Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 1,
+  "durationMs": 74899,
+  "error": null,
+  "partialErrors": [
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)",
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)"
+  ],
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://www.lingfest.uk/",
+    "finalUrl": "https://www.lingfest.uk/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 75,
+      "accessibility": 84,
+      "best-practices": 81,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1243,
+      "lcp": 6815,
+      "si": 3494,
+      "tbt": 29,
+      "tti": 6816,
+      "cls": 0,
+      "ttfb": 628,
+      "maxPotentialFid": 68,
+      "serverResponseTime": 159,
+      "networkRtt": 3.6,
+      "networkServerLatency": 30.6
+    },
+    "lcpBreakdown": null,
+    "weight": {
+      "total": 1534835,
+      "requests": 65,
+      "mainDocument": 6883,
+      "byType": {
+        "total": {
+          "bytes": 1531172,
+          "requests": 64
+        },
+        "image": {
+          "bytes": 634115,
+          "requests": 37
+        },
+        "script": {
+          "bytes": 515009,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 289445,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 85035,
+          "requests": 10
+        },
+        "document": {
+          "bytes": 6883,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 685,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 318519,
+          "requests": 9
+        }
+      },
+      "scripts": 8,
+      "stylesheets": 10,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 318519,
+      "mainThreadMs": 54,
+      "top": [
+        {
+          "entity": "Amazon Web Services",
+          "bytes": 143680,
+          "mainThreadMs": 12,
+          "byType": {
+            "script": 143680
+          },
+          "typedBytes": 143680
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 141799,
+          "mainThreadMs": 31,
+          "byType": {
+            "script": 141799
+          },
+          "typedBytes": 141799
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 21623,
+          "mainThreadMs": 9.6,
+          "byType": {
+            "script": 21597,
+            "other": 26
+          },
+          "typedBytes": 21623
+        },
+        {
+          "entity": "eep.io",
+          "bytes": 6388,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 6388
+          },
+          "typedBytes": 6388
+        },
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3212,
+          "mainThreadMs": 1.3,
+          "byType": {
+            "script": 2778,
+            "image": 434
+          },
+          "typedBytes": 3212
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1273.2,
+      "byGroup": {
+        "scriptEvaluation": 439.8,
+        "other": 387.3,
+        "styleLayout": 239.7,
+        "scriptParseCompile": 84.4,
+        "parseHTML": 72.2,
+        "paintCompositeRender": 35.6,
+        "garbageCollection": 14.2
+      },
+      "bootupMs": 464.8,
+      "longTasks": 3,
+      "longestTaskMs": 68
+    },
+    "dom": {
+      "elements": 330,
+      "depth": 15,
+      "maxChildren": 25
+    },
+    "waste": {
+      "unusedJsBytes": 274006,
+      "unusedCssBytes": 52396,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 4670,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 9,
+      "poorlyCachedBytes": 18050.85,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 22,
+      "failingNodes": 8,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 4
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 12
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3431,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T03:31:42.088Z",
+      "runtimeMs": 7895.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7VG6A0M46FE3ZTDDAC36Y6J"
+    },
+    "violations": 21,
+    "passes": 622,
+    "incomplete": 1,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 13,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".title-center",
+            "snippet": "<div class=\"heading-block title-center nobottomborder lingfestheading\"> <h1>Lingfest</h1> </div>"
+          },
+          {
+            "selector": ".introtext",
+            "snippet": "<div class=\"heading-block center introtext\">"
+          },
+          {
+            "selector": ".container.clearfix:nth-child(2)",
+            "snippet": "<div class=\"container clearfix\">"
+          },
+          {
+            "selector": ".section",
+            "snippet": "<div class=\"section nomargin\"> <div class=\"container clearfix\"> <div class=\"heading-block center nomargin\"> <h2>Lingfest 2019 gallery</h2> </div> </div> </div>"
+          },
+          {
+            "selector": ".masonry-thumbs",
+            "snippet": "<div class=\"nomargin masonry-thumbs grid-4\" data-lightbox=\"gallery\" style=\"margin-right: -1px; position: relative; height: 7px;\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "span > p",
+            "snippet": "<p>"
+          },
+          {
+            "selector": ".heading-block.center:nth-child(9) > span",
+            "snippet": "<span>Our fabulous Lingfest 2019 supporters</span>"
+          },
+          {
+            "selector": ".bronze-sponsors > li:nth-child(5)",
+            "snippet": "<li class=\"list-group-item\">Reeve Plumbing Solutions</li>"
+          },
+          {
+            "selector": "a[href$=\"terms-and-conditions/\"]",
+            "snippet": "<a href=\"/terms-and-conditions/\">Terms and Conditions</a>"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "span > p > a",
+            "snippet": "<a href=\"https://www.lingfieldparishcouncil.gov.uk/Contact_Us_23154.aspx\">Lingfield Parish Clerk</a>"
+          },
+          {
+            "selector": "a[data-scrollto=\"#mailinglist\"]",
+            "snippet": "<a href=\"#content\" data-scrollto=\"#mailinglist\">below</a>"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"iam_4D\"] > img",
+            "snippet": "<img src=\"https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html dir=\"ltr\" lang=\"en-GB\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "bc138789c710",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"733f070d3fdc86bf4cfcae8e332a7571-ssl\""
+        }
+      },
+      {
+        "hash": "bc138789c710",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"733f070d3fdc86bf4cfcae8e332a7571-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
