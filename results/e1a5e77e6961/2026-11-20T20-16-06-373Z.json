@@ -1,0 +1,284 @@
+{
+  "url": "https://alienlebarge.ch/",
+  "name": "alienlebarge.ch",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795205766373,
+  "date": "2026-11-20T20:16:06.373Z",
+  "runId": "2026-11-20T20-10-48-292Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 30380,
+  "error": null,
+  "variance": {
+    "min": 76,
+    "max": 99,
+    "spread": 23,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://alienlebarge.ch/",
+    "finalUrl": "https://alienlebarge.ch/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 76,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 53
+    },
+    "timings": {
+      "fcp": 1077,
+      "lcp": 1957,
+      "si": 1257,
+      "tbt": 4,
+      "tti": 1957,
+      "cls": 0.729,
+      "ttfb": 896,
+      "maxPotentialFid": 54,
+      "serverResponseTime": 235,
+      "networkRtt": 0.1,
+      "networkServerLatency": 295.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 237.1,
+      "elementRenderDelay": 356.3
+    },
+    "weight": {
+      "total": 439544,
+      "requests": 19,
+      "mainDocument": 6558,
+      "byType": {
+        "total": {
+          "bytes": 438019,
+          "requests": 18
+        },
+        "font": {
+          "bytes": 234686,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 174736,
+          "requests": 7
+        },
+        "stylesheet": {
+          "bytes": 10731,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 10039,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 6558,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1269,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1775,
+          "requests": 2
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 2114,
+      "mainThreadMs": 2.2,
+      "top": [
+        {
+          "entity": "neatstats.net",
+          "bytes": 2114,
+          "mainThreadMs": 2.2,
+          "byType": {
+            "script": 1775,
+            "other": 339
+          },
+          "typedBytes": 2114
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 595.4,
+      "byGroup": {
+        "other": 253.7,
+        "styleLayout": 220.3,
+        "paintCompositeRender": 69.3,
+        "scriptEvaluation": 31.3,
+        "parseHTML": 14.8,
+        "scriptParseCompile": 6.1
+      },
+      "bootupMs": 15.9,
+      "longTasks": 1,
+      "longestTaskMs": 54
+    },
+    "dom": {
+      "elements": 221,
+      "depth": 12,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 2521,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 1775,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 25,
+      "failingNodes": 10,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 10
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 37
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2466,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T20:16:26.779Z",
+      "runtimeMs": 8739.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Apache",
+      "detailIcon": "Apache",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Apache"
+    },
+    "violations": 10,
+    "passes": 443,
+    "incomplete": 3,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 10,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "time[datetime=\"2026-11-20 09:10:00\"] > span:nth-child(1)",
+            "snippet": "<span>2026-11-20</span>"
+          },
+          {
+            "selector": "time[datetime=\"2026-11-20 09:10:00\"] > span:nth-child(3)",
+            "snippet": "<span>09:10</span>"
+          },
+          {
+            "selector": "time[datetime=\"2026-11-04 21:30:00\"] > span:nth-child(1)",
+            "snippet": "<span>2026-11-04</span>"
+          },
+          {
+            "selector": "time[datetime=\"2026-11-04 21:30:00\"] > span:nth-child(3)",
+            "snippet": "<span>21:30</span>"
+          },
+          {
+            "selector": "time[datetime=\"2026-10-22 21:10:00\"] > span:nth-child(1)",
+            "snippet": "<span>2026-10-22</span>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "1e71026fbc49",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "1e71026fbc49",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "1e71026fbc49",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "1e71026fbc49",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {},
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
