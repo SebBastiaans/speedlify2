@@ -1,0 +1,347 @@
+{
+  "url": "https://webflow.com/",
+  "name": "Webflow",
+  "group": "builders",
+  "groupName": "Website Builders",
+  "timestamp": 1795176090190,
+  "date": "2026-11-20T12:01:30.190Z",
+  "runId": "2026-11-20T11-30-46-328Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 131787,
+  "error": null,
+  "variance": {
+    "min": 33,
+    "max": 34,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://webflow.com/",
+    "finalUrl": "https://webflow.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 33,
+      "accessibility": 100,
+      "best-practices": 73,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2908,
+      "lcp": 16010,
+      "si": 7950,
+      "tbt": 3929,
+      "tti": 31801,
+      "cls": 0.002,
+      "ttfb": 617,
+      "maxPotentialFid": 727,
+      "serverResponseTime": 43,
+      "networkRtt": 75.7,
+      "networkServerLatency": 87
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 44.5,
+      "resourceLoadDelay": 176.8,
+      "resourceLoadDuration": 83.5,
+      "elementRenderDelay": 362.5
+    },
+    "weight": {
+      "total": 6828713,
+      "requests": 238,
+      "mainDocument": 110297,
+      "byType": {
+        "total": {
+          "bytes": 6828713,
+          "requests": 237
+        },
+        "image": {
+          "bytes": 3993943,
+          "requests": 106
+        },
+        "script": {
+          "bytes": 2291404,
+          "requests": 80
+        },
+        "font": {
+          "bytes": 248998,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 167717,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 85932,
+          "requests": 11
+        },
+        "other": {
+          "bytes": 40719,
+          "requests": 31
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 6615062,
+          "requests": 226
+        }
+      },
+      "scripts": 80,
+      "stylesheets": 11,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 27,
+      "bytes": 6486004,
+      "mainThreadMs": 1364,
+      "top": [
+        {
+          "entity": "website-files.com",
+          "bytes": 4399981,
+          "mainThreadMs": 102.5,
+          "byType": {
+            "script": 291477,
+            "stylesheet": 34868,
+            "image": 3887374,
+            "font": 185249,
+            "other": 1013
+          },
+          "typedBytes": 4399981
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 548510,
+          "mainThreadMs": 351.4,
+          "byType": {
+            "script": 548510
+          },
+          "typedBytes": 548510
+        },
+        {
+          "entity": "Google CDN",
+          "bytes": 365135,
+          "mainThreadMs": 248.7,
+          "byType": {
+            "other": 359629,
+            "script": 5506
+          },
+          "typedBytes": 365135
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 274632,
+          "mainThreadMs": 233.1,
+          "byType": {
+            "script": 274632
+          },
+          "typedBytes": 274632
+        },
+        {
+          "entity": "transcend-cdn.com",
+          "bytes": 163357,
+          "mainThreadMs": 97.5,
+          "byType": {
+            "script": 156163,
+            "stylesheet": 4529,
+            "other": 2665
+          },
+          "typedBytes": 163357
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 14920.5,
+      "byGroup": {
+        "scriptEvaluation": 6882.1,
+        "styleLayout": 3598.4,
+        "other": 2706.2,
+        "scriptParseCompile": 976.3,
+        "paintCompositeRender": 269.2,
+        "garbageCollection": 265.6,
+        "parseHTML": 222.7
+      },
+      "bootupMs": 7142.9,
+      "longTasks": 20,
+      "longestTaskMs": 727
+    },
+    "dom": {
+      "elements": 3329,
+      "depth": 24,
+      "maxChildren": 51
+    },
+    "waste": {
+      "unusedJsBytes": 1149891,
+      "unusedCssBytes": 17020,
+      "legacyJsBytes": 70401,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 2575,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 789233.3419444442,
+      "poorlyCachedCount": 69
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 33,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 21
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": null,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 67
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2458,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T12:01:51.586Z",
+      "runtimeMs": 18849.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.1,
+    "resourceLoadDelay": 1218.7,
+    "resourceLoadDuration": 8296.8,
+    "elementRenderDelay": 16.6
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "webflow",
+      "name": "Webflow",
+      "icon": "Webflow",
+      "version": null,
+      "source": "meta",
+      "raw": "Webflow"
+    },
+    "probe": {
+      "metas": [
+        "Webflow"
+      ],
+      "marks": [
+        "webflow"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {
+      "cf-ray": "a5d74ff58f47c940-IAD"
+    },
+    "violations": 0,
+    "passes": 2639,
+    "incomplete": 63,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "26bdb621fdcd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10309",
+          "cf-cache-status": "HIT",
+          "last-modified": "Fri, 20 Nov 2026 09:08:47 GMT"
+        }
+      },
+      {
+        "hash": "26bdb621fdcd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10398",
+          "cf-cache-status": "HIT",
+          "last-modified": "Fri, 20 Nov 2026 09:08:33 GMT"
+        }
+      },
+      {
+        "hash": "26bdb621fdcd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10371",
+          "cf-cache-status": "HIT",
+          "last-modified": "Fri, 20 Nov 2026 09:08:33 GMT"
+        }
+      },
+      {
+        "hash": "26bdb621fdcd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10395",
+          "cf-cache-status": "HIT",
+          "last-modified": "Fri, 20 Nov 2026 09:08:47 GMT"
+        }
+      },
+      {
+        "hash": "26bdb621fdcd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10502",
+          "cf-cache-status": "HIT",
+          "last-modified": "Fri, 20 Nov 2026 09:08:33 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
