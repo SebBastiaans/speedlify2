@@ -1,0 +1,307 @@
+{
+  "url": "https://frontendnorth.com/",
+  "name": "frontendnorth.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795144709824,
+  "date": "2026-11-20T03:18:29.824Z",
+  "runId": "2026-11-20T03-10-02-533Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21922,
+  "error": null,
+  "variance": {
+    "min": 92,
+    "max": 100,
+    "spread": 8,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://frontendnorth.com/",
+    "finalUrl": "https://frontendnorth.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1542,
+      "lcp": 1542,
+      "si": 1542,
+      "tbt": 0,
+      "tti": 1542,
+      "cls": 0.001,
+      "ttfb": 615,
+      "maxPotentialFid": 49,
+      "serverResponseTime": 15,
+      "networkRtt": 37.1,
+      "networkServerLatency": 126
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 16.4,
+      "elementRenderDelay": 63.3
+    },
+    "weight": {
+      "total": 537465,
+      "requests": 23,
+      "mainDocument": 9153,
+      "byType": {
+        "total": {
+          "bytes": 537465,
+          "requests": 23
+        },
+        "image": {
+          "bytes": 311483,
+          "requests": 12
+        },
+        "script": {
+          "bytes": 146864,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 57198,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 9153,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 8757,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 4010,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 505875,
+          "requests": 13
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 505875,
+      "mainThreadMs": 13.6,
+      "top": [
+        {
+          "entity": "Sirv",
+          "bytes": 301587,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 301587
+          },
+          "typedBytes": 301587
+        },
+        {
+          "entity": "Amazon Web Services",
+          "bytes": 143680,
+          "mainThreadMs": 12.7,
+          "byType": {
+            "script": 143680
+          },
+          "typedBytes": 143680
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 58127,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 929,
+            "font": 57198
+          },
+          "typedBytes": 58127
+        },
+        {
+          "entity": "Plausible",
+          "bytes": 2481,
+          "mainThreadMs": 0.8,
+          "byType": {
+            "script": 2481
+          },
+          "typedBytes": 2481
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 407.4,
+      "byGroup": {
+        "other": 172.9,
+        "styleLayout": 119.7,
+        "scriptEvaluation": 50.7,
+        "paintCompositeRender": 26.8,
+        "parseHTML": 18,
+        "scriptParseCompile": 14,
+        "garbageCollection": 5.2
+      },
+      "bootupMs": 58.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 277,
+      "depth": 11,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 96583,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 927,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 36982.622477304474,
+      "poorlyCachedCount": 10
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 23,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 23
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2993,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T03:18:38.106Z",
+      "runtimeMs": 6340.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.0.0",
+      "source": "meta",
+      "raw": "Eleventy v3.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {
+      "x-served-by": "cache-dfw-kdfw8210039-DFW"
+    },
+    "violations": 1,
+    "passes": 425,
+    "incomplete": 4,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".raised--transparent",
+            "snippet": "<section class=\"raised raised--transparent feature\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "706ba0a482a0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"50c598eed3bb5b721a481fa69004bb08a8ba85888d34acfb2cb38814b3ab1900-br\"",
+          "last-modified": "Thu, 20 Nov 2025 21:30:43 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "706ba0a482a0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"50c598eed3bb5b721a481fa69004bb08a8ba85888d34acfb2cb38814b3ab1900-br\"",
+          "last-modified": "Thu, 20 Nov 2025 21:30:43 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "706ba0a482a0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"50c598eed3bb5b721a481fa69004bb08a8ba85888d34acfb2cb38814b3ab1900-br\"",
+          "last-modified": "Thu, 20 Nov 2025 21:30:43 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "706ba0a482a0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"50c598eed3bb5b721a481fa69004bb08a8ba85888d34acfb2cb38814b3ab1900-br\"",
+          "last-modified": "Thu, 20 Nov 2025 21:30:43 GMT",
+          "x-cache": "HIT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
