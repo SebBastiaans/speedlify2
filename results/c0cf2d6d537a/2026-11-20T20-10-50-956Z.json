@@ -1,0 +1,336 @@
+{
+  "url": "https://www.lhemingway.com/",
+  "name": "www.lhemingway.com",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795205450956,
+  "date": "2026-11-20T20:10:50.956Z",
+  "runId": "2026-11-20T20-10-49-830Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 56510,
+  "error": null,
+  "variance": {
+    "min": 67,
+    "max": 74,
+    "spread": 7,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.lhemingway.com/",
+    "finalUrl": "https://www.lhemingway.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 68,
+      "accessibility": 100,
+      "best-practices": 88,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 2233,
+      "lcp": 9412,
+      "si": 5692,
+      "tbt": 3,
+      "tti": 9494,
+      "cls": 0,
+      "ttfb": 2172,
+      "maxPotentialFid": 53,
+      "serverResponseTime": 1093,
+      "networkRtt": 125.9,
+      "networkServerLatency": 256.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 2172.5,
+      "resourceLoadDelay": 427.6,
+      "resourceLoadDuration": 688,
+      "elementRenderDelay": 49.2
+    },
+    "weight": {
+      "total": 6910257,
+      "requests": 83,
+      "mainDocument": 39683,
+      "byType": {
+        "total": {
+          "bytes": 6910258,
+          "requests": 75
+        },
+        "media": {
+          "bytes": 3736176,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 2482706,
+          "requests": 25
+        },
+        "script": {
+          "bytes": 535816,
+          "requests": 25
+        },
+        "font": {
+          "bytes": 72231,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 40911,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 38020,
+          "requests": 10
+        },
+        "other": {
+          "bytes": 4398,
+          "requests": 9
+        },
+        "third-party": {
+          "bytes": 2004287,
+          "requests": 42
+        }
+      },
+      "scripts": 26,
+      "stylesheets": 10,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 1538550,
+      "mainThreadMs": 11.6,
+      "top": [
+        {
+          "entity": "TripAdvisor",
+          "bytes": 1427681,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 1427681
+          },
+          "typedBytes": 1427681
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 73671,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1440,
+            "font": 72231
+          },
+          "typedBytes": 73671
+        },
+        {
+          "entity": "trustindex.io",
+          "bytes": 35169,
+          "mainThreadMs": 10.9,
+          "byType": {
+            "script": 26642,
+            "image": 8527
+          },
+          "typedBytes": 35169
+        },
+        {
+          "entity": "img-codes-cloude.info",
+          "bytes": 1172,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "script": 1172
+          },
+          "typedBytes": 1172
+        },
+        {
+          "entity": "tenderly.co",
+          "bytes": 461,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "other": 461
+          },
+          "typedBytes": 461
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1833.8,
+      "byGroup": {
+        "other": 714.1,
+        "styleLayout": 539.8,
+        "scriptEvaluation": 287.4,
+        "paintCompositeRender": 142.5,
+        "parseHTML": 106.1,
+        "scriptParseCompile": 44
+      },
+      "bootupMs": 266.5,
+      "longTasks": 3,
+      "longestTaskMs": 56
+    },
+    "dom": {
+      "elements": 467,
+      "depth": 19,
+      "maxChildren": 30
+    },
+    "waste": {
+      "unusedJsBytes": 20567,
+      "unusedCssBytes": 23959,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 4663,
+      "renderBlockingCount": 6,
+      "poorlyCachedBytes": 1043013.6500000001,
+      "poorlyCachedCount": 34
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 27,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "doctype",
+          "title": "Page lacks the HTML doctype, thus triggering quirks-mode",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "http/1.1",
+      "legacyHttpRequests": 33,
+      "redirectMs": 0,
+      "consoleErrors": 3,
+      "baselineLimitedFeatures": 34
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2219.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T20:10:52.564Z",
+      "runtimeMs": 13620.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Apache",
+      "detailIcon": "Apache",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Apache",
+      "x-powered-by": "PHP/8.2"
+    },
+    "violations": 3,
+    "passes": 926,
+    "incomplete": 2,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 2,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".uag-image-1919",
+            "snippet": "<img decoding=\"async\" src=\"https://www.lhemingway.com/wp-content/uploads/2023/09/logo_big-300x135.png\" alt=\"\" class=\"uag-image-1919\" width=\"300\" height=\"135\" title=\"logo_big\" loading=\"lazy\" role=\"img…"
+          },
+          {
+            "selector": ".uag-image-1983",
+            "snippet": "<img decoding=\"async\" src=\"https://www.lhemingway.com/wp-content/uploads/2021/02/LHemingway-blue.png\" alt=\"\" class=\"uag-image-1983\" width=\"80\" height=\"80\" title=\"LHemingway\" loading=\"lazy\" role=\"img\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"fr-FR\" style=\"--ms-slide-width: 397px;\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "f297c8c4711f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "f297c8c4711f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "f297c8c4711f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "f297c8c4711f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
