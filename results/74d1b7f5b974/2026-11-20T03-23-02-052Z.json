@@ -1,0 +1,314 @@
+{
+  "url": "https://lit.dev/",
+  "name": "Lit",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795144982052,
+  "date": "2026-11-20T03:23:02.052Z",
+  "runId": "2026-11-20T03-10-10-298Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 48874,
+  "error": null,
+  "variance": {
+    "min": 85,
+    "max": 88,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://lit.dev/",
+    "finalUrl": "https://lit.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 88,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 997,
+      "lcp": 3966,
+      "si": 997,
+      "tbt": 60,
+      "tti": 3966,
+      "cls": 0,
+      "ttfb": 665,
+      "maxPotentialFid": 82,
+      "serverResponseTime": 57,
+      "networkRtt": 0,
+      "networkServerLatency": 65.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 60.1,
+      "elementRenderDelay": 333.5
+    },
+    "weight": {
+      "total": 522915,
+      "requests": 35,
+      "mainDocument": 18901,
+      "byType": {
+        "total": {
+          "bytes": 522915,
+          "requests": 35
+        },
+        "font": {
+          "bytes": 288436,
+          "requests": 8
+        },
+        "script": {
+          "bytes": 207472,
+          "requests": 17
+        },
+        "document": {
+          "bytes": 18901,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 4707,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 3399,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 167291,
+          "requests": 1
+        }
+      },
+      "scripts": 17,
+      "stylesheets": 0,
+      "fonts": 8
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 167291,
+      "mainThreadMs": 41.3,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 167291,
+          "mainThreadMs": 41.3,
+          "byType": {
+            "script": 167291
+          },
+          "typedBytes": 167291
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 699.4,
+      "byGroup": {
+        "scriptEvaluation": 243.1,
+        "other": 216.6,
+        "styleLayout": 127.8,
+        "paintCompositeRender": 36.9,
+        "scriptParseCompile": 34.8,
+        "parseHTML": 32.6,
+        "garbageCollection": 7.6
+      },
+      "bootupMs": 271.6,
+      "longTasks": 3,
+      "longestTaskMs": 82
+    },
+    "dom": {
+      "elements": 904,
+      "depth": 16,
+      "maxChildren": 19
+    },
+    "waste": {
+      "unusedJsBytes": 73972,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 28,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 28
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3012.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T03:23:10.499Z",
+      "runtimeMs": 6820.4
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1128.1,
+    "elementRenderDelay": 1979.9
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "2.8.0"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "google",
+      "name": "Google Frontend",
+      "icon": "Google",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Google Frontend",
+      "x-cloud-trace-context": "f03c4138aebd3371f7d2c49229c76235"
+    },
+    "violations": 5,
+    "passes": 1001,
+    "incomplete": 11,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "litdev-cookie-banner .visually-hidden",
+            "snippet": "<h2 class=\"visually-hidden\">Cookies consent notice</h2>"
+          },
+          {
+            "selector": "litdev-cookie-banner .message",
+            "snippet": "<div class=\"message\">Lit.dev uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic.</div>"
+          },
+          {
+            "selector": "litdev-cookie-banner litdev-ripple-icon-button:nth-child(1)",
+            "snippet": "<litdev-ripple-icon-button href=\"https://policies.google.com/technologies/cookies\">Learn more</litdev-ripple-icon-button>"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#tourTsCode > figure",
+            "snippet": "<figure class=\"cm-editor\">"
+          },
+          {
+            "selector": "#tourHtmlCode > figure",
+            "snippet": "<figure class=\"cm-editor\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "21cf623ea6ed",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"4579-19de0b04eab\"",
+          "last-modified": "Thu, 30 Apr 2026 23:19:04 GMT"
+        }
+      },
+      {
+        "hash": "21cf623ea6ed",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"4579-19de0b04eab\"",
+          "last-modified": "Thu, 30 Apr 2026 23:19:04 GMT"
+        }
+      },
+      {
+        "hash": "21cf623ea6ed",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"4579-19de0b04eab\"",
+          "last-modified": "Thu, 30 Apr 2026 23:19:04 GMT"
+        }
+      },
+      {
+        "hash": "21cf623ea6ed",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"4579-19de0b04eab\"",
+          "last-modified": "Thu, 30 Apr 2026 23:19:04 GMT"
+        }
+      },
+      {
+        "hash": "21cf623ea6ed",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"4579-19de0b04eab\"",
+          "last-modified": "Thu, 30 Apr 2026 23:19:04 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

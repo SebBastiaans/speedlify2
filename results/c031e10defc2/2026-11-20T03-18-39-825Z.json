@@ -1,0 +1,388 @@
+{
+  "url": "https://www.samsung.com/",
+  "name": "Samsung",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1795144719825,
+  "date": "2026-11-20T03:18:39.825Z",
+  "runId": "2026-11-20T03-10-10-298Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 161807,
+  "error": null,
+  "variance": {
+    "min": 11,
+    "max": 38,
+    "spread": 27,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.samsung.com/",
+    "finalUrl": "https://www.samsung.com/us/",
+    "redirect": {
+      "from": "https://www.samsung.com/",
+      "to": "https://www.samsung.com/us",
+      "chain": [
+        {
+          "url": "https://www.samsung.com/",
+          "status": 301
+        },
+        {
+          "url": "https://www.samsung.com/us/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        301
+      ],
+      "change": "path",
+      "permanent": true,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 32,
+      "accessibility": 97,
+      "best-practices": 58,
+      "seo": 92,
+      "agentic-browsing": 62
+    },
+    "timings": {
+      "fcp": 2528,
+      "lcp": 6999,
+      "si": 10631,
+      "tbt": 2484,
+      "tti": 33979,
+      "cls": 0.109,
+      "ttfb": 497,
+      "maxPotentialFid": 462,
+      "serverResponseTime": 91,
+      "networkRtt": 99.5,
+      "networkServerLatency": 244
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 136.1,
+      "resourceLoadDelay": 12.8,
+      "resourceLoadDuration": 64.8,
+      "elementRenderDelay": 159
+    },
+    "weight": {
+      "total": 4530672,
+      "requests": 258,
+      "mainDocument": 49210,
+      "byType": {
+        "total": {
+          "bytes": 4530673,
+          "requests": 246
+        },
+        "script": {
+          "bytes": 2750242,
+          "requests": 109
+        },
+        "other": {
+          "bytes": 923212,
+          "requests": 59
+        },
+        "font": {
+          "bytes": 419143,
+          "requests": 9
+        },
+        "image": {
+          "bytes": 260312,
+          "requests": 25
+        },
+        "stylesheet": {
+          "bytes": 115636,
+          "requests": 32
+        },
+        "document": {
+          "bytes": 62128,
+          "requests": 12
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2495288,
+          "requests": 175
+        }
+      },
+      "scripts": 110,
+      "stylesheets": 32,
+      "fonts": 9
+    },
+    "thirdParty": {
+      "count": 27,
+      "bytes": 2472290,
+      "mainThreadMs": 3836.7,
+      "top": [
+        {
+          "entity": "audioeye.com",
+          "bytes": 392412,
+          "mainThreadMs": 2758.6,
+          "byType": {
+            "script": 380063,
+            "stylesheet": 12289,
+            "other": 60
+          },
+          "typedBytes": 392412
+        },
+        {
+          "entity": "Google CDN",
+          "bytes": 359628,
+          "mainThreadMs": 29.4,
+          "byType": {
+            "script": 359628
+          },
+          "typedBytes": 359628
+        },
+        {
+          "entity": "Wunderkind",
+          "bytes": 342252,
+          "mainThreadMs": 112,
+          "byType": {
+            "script": 334090,
+            "stylesheet": 6050,
+            "other": 1759,
+            "image": 353
+          },
+          "typedBytes": 342252
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 302432,
+          "mainThreadMs": 169.8,
+          "byType": {
+            "script": 302415,
+            "image": 17
+          },
+          "typedBytes": 302432
+        },
+        {
+          "entity": "Adobe Tag Manager",
+          "bytes": 184443,
+          "mainThreadMs": 100.3,
+          "byType": {
+            "script": 184443
+          },
+          "typedBytes": 184443
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 22568.5,
+      "byGroup": {
+        "scriptEvaluation": 17987.4,
+        "other": 2176.5,
+        "styleLayout": 912.2,
+        "scriptParseCompile": 828.6,
+        "garbageCollection": 291.6,
+        "paintCompositeRender": 200,
+        "parseHTML": 172.2
+      },
+      "bootupMs": 17780.6,
+      "longTasks": 20,
+      "longestTaskMs": 462
+    },
+    "dom": {
+      "elements": 3947,
+      "depth": 16,
+      "maxChildren": 427
+    },
+    "waste": {
+      "unusedJsBytes": 1033867,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 72069,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 10116,
+      "unminifiedCssBytes": 6402,
+      "renderBlockingMs": 2572,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 1369368.8236111104,
+      "poorlyCachedCount": 121
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 32,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "aria-command-name",
+          "title": "`button`, `link`, and `menuitem` elements do not have accessible names.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 4,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 32
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 3
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 4
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 2,
+      "protocol": "h2",
+      "legacyHttpRequests": 29,
+      "redirectMs": 796.9,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 61
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2945.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T03:19:38.307Z",
+      "runtimeMs": 26828.6
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1341,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 2549.6,
+    "elementRenderDelay": 105.3
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "preact",
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {},
+    "violations": 2,
+    "passes": 1330,
+    "incomplete": 35,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-command-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "ARIA commands must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-command-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#truste-consent-buttons",
+            "snippet": "<div id=\"truste-consent-buttons\" class=\"trustarc-buttons\" style=\"\" role=\"button\"></div>"
+          }
+        ]
+      },
+      {
+        "id": "aria-dialog-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "ARIA dialog and alertdialog nodes should have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-dialog-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#consent_blackbar",
+            "snippet": "<div id=\"consent_blackbar\" lang=\"en\" aria-modal=\"true\" role=\"dialog\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "80b9d1efd07b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"63fbc-660aae0f129c0\"",
+          "last-modified": "Fri, 20 Nov 2026 01:08:14 GMT"
+        }
+      },
+      {
+        "hash": "1eefc6923093",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"63fbc-660ab29935338\"",
+          "last-modified": "Fri, 20 Nov 2026 01:28:33 GMT"
+        }
+      },
+      {
+        "hash": "f5ca066aaf48",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"63fbc-660ab29935338\"",
+          "last-modified": "Fri, 20 Nov 2026 01:28:33 GMT"
+        }
+      },
+      {
+        "hash": "6c4a5d67f4a7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"63fbc-660ab29935338\"",
+          "last-modified": "Fri, 20 Nov 2026 01:28:33 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
