@@ -1,0 +1,288 @@
+{
+  "url": "https://openai.com/",
+  "name": "OpenAI",
+  "group": "ai",
+  "groupName": "AI",
+  "timestamp": 1795206710075,
+  "date": "2026-11-20T20:31:50.075Z",
+  "runId": "2026-11-20T20-10-49-227Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 1,
+  "durationMs": 157031,
+  "error": null,
+  "partialErrors": [
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)",
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)"
+  ],
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://openai.com/",
+    "finalUrl": "https://openai.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 28,
+      "accessibility": 100,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 7064,
+      "lcp": 44745,
+      "si": 14572,
+      "tbt": 1802,
+      "tti": 49917,
+      "cls": 0,
+      "ttfb": 732,
+      "maxPotentialFid": 463,
+      "serverResponseTime": 240,
+      "networkRtt": 16.4,
+      "networkServerLatency": 132.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 290.5,
+      "resourceLoadDelay": 35.8,
+      "resourceLoadDuration": 195.5,
+      "elementRenderDelay": 1962.5
+    },
+    "weight": {
+      "total": 8265467,
+      "requests": 274,
+      "mainDocument": 52366,
+      "byType": {
+        "total": {
+          "bytes": 8265467,
+          "requests": 274
+        },
+        "script": {
+          "bytes": 5394078,
+          "requests": 121
+        },
+        "image": {
+          "bytes": 1678804,
+          "requests": 10
+        },
+        "other": {
+          "bytes": 664284,
+          "requests": 66
+        },
+        "stylesheet": {
+          "bytes": 308655,
+          "requests": 73
+        },
+        "font": {
+          "bytes": 167280,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 52366,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2083171,
+          "requests": 30
+        }
+      },
+      "scripts": 121,
+      "stylesheets": 73,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 2083171,
+      "mainThreadMs": 8.3,
+      "top": [
+        {
+          "entity": "ctfassets.net",
+          "bytes": 1678804,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 1678804
+          },
+          "typedBytes": 1678804
+        },
+        {
+          "entity": "chatgpt.com",
+          "bytes": 393640,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 393640
+          },
+          "typedBytes": 393640
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 8.3,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        },
+        {
+          "entity": "statsigapi.net",
+          "bytes": 214,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 214
+          },
+          "typedBytes": 214
+        },
+        {
+          "entity": "cloudflareinsights.com",
+          "bytes": 35,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 35
+          },
+          "typedBytes": 35
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 9586.8,
+      "byGroup": {
+        "scriptEvaluation": 3530.6,
+        "other": 2661.2,
+        "scriptParseCompile": 1585.7,
+        "styleLayout": 1259.5,
+        "garbageCollection": 218.3,
+        "parseHTML": 218.2,
+        "paintCompositeRender": 113.2
+      },
+      "bootupMs": 3996.8,
+      "longTasks": 20,
+      "longestTaskMs": 463
+    },
+    "dom": {
+      "elements": 817,
+      "depth": 16,
+      "maxChildren": 56
+    },
+    "waste": {
+      "unusedJsBytes": 3945594,
+      "unusedCssBytes": 83366,
+      "legacyJsBytes": 39527,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 3560,
+      "renderBlockingMs": 1510,
+      "renderBlockingCount": 73,
+      "poorlyCachedBytes": 4191.2,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 27,
+      "failingNodes": 16,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 16
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 5
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "http/1.1",
+      "legacyHttpRequests": 0,
+      "redirectMs": 882.4,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 93
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2442.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T20:31:51.370Z",
+      "runtimeMs": 69507.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": "Just a moment...",
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5da3c26093bed19-MSP",
+      "server": "cloudflare"
+    },
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "72ba0b7b3000",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "650",
+          "cf-cache-status": "DYNAMIC",
+          "x-nextjs-prerender": "1",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
