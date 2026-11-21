@@ -1,0 +1,300 @@
+{
+  "url": "https://awsbites.com/",
+  "name": "awsbites.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795282464564,
+  "date": "2026-11-21T17:34:24.564Z",
+  "runId": "2026-11-21T17-28-27-062Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 32084,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://awsbites.com/",
+    "finalUrl": "https://awsbites.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 49
+    },
+    "timings": {
+      "fcp": 991,
+      "lcp": 991,
+      "si": 991,
+      "tbt": 34,
+      "tti": 3205,
+      "cls": 0.055,
+      "ttfb": 635,
+      "maxPotentialFid": 87,
+      "serverResponseTime": 35,
+      "networkRtt": 0,
+      "networkServerLatency": 40.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 36.7,
+      "elementRenderDelay": 109
+    },
+    "weight": {
+      "total": 436676,
+      "requests": 18,
+      "mainDocument": 19281,
+      "byType": {
+        "total": {
+          "bytes": 436676,
+          "requests": 17
+        },
+        "script": {
+          "bytes": 203677,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 196864,
+          "requests": 10
+        },
+        "document": {
+          "bytes": 19281,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 13012,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 3842,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 175596,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 175596,
+      "mainThreadMs": 43.6,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 175596,
+          "mainThreadMs": 43.6,
+          "byType": {
+            "script": 175596
+          },
+          "typedBytes": 175596
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 564.8,
+      "byGroup": {
+        "scriptEvaluation": 177.8,
+        "other": 171.5,
+        "styleLayout": 98.6,
+        "scriptParseCompile": 44.1,
+        "paintCompositeRender": 40.6,
+        "parseHTML": 20.2,
+        "garbageCollection": 11.9
+      },
+      "bootupMs": 208.8,
+      "longTasks": 2,
+      "longestTaskMs": 87
+    },
+    "dom": {
+      "elements": 1458,
+      "depth": 11,
+      "maxChildren": 156
+    },
+    "waste": {
+      "unusedJsBytes": 75910,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2190,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 28,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "svg-img-alt",
+          "title": "SVG elements with an `img` role do not have an accessible text alternative",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 37
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3288,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T17:34:35.158Z",
+      "runtimeMs": 8466.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "svelte"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7ZJSNXS2GA001VMP9YA9NDB"
+    },
+    "violations": 3,
+    "passes": 2515,
+    "incomplete": 47,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "svg-img-alt",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "<svg> elements with an img or image role must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/svg-img-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".shrink-0[aria-label=\"Home\"][href=\"/\"] > .h-12.w\\:auto.pr-1",
+            "snippet": "<svg role=\"img\" class=\"h-12 w:auto max-w-full pr-1\" clip-rule=\"evenodd\" fill-rule=\"evenodd\" stroke-miterlimit=\"10\" viewBox=\"0 0 307 85\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.o…"
+          },
+          {
+            "selector": ".\\[\\&_svg\\]\\:h-16 > .h-12.w\\:auto.pr-1",
+            "snippet": "<svg role=\"img\" class=\"h-12 w:auto max-w-full pr-1\" clip-rule=\"evenodd\" fill-rule=\"evenodd\" stroke-miterlimit=\"10\" viewBox=\"0 0 307 85\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.o…"
+          }
+        ]
+      },
+      {
+        "id": "label-title-only",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Form elements should have a visible label",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-title-only?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "input",
+            "snippet": "<input class=\"pagefind-ui__search-input svelte-e9gkc3\" type=\"text\" placeholder=\"Search\" title=\"Search\" autocapitalize=\"none\" enterkeyhint=\"search\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "40202ff728b3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"c23d65e7f15a226521e8c0b5df8ef56f-ssl\""
+        }
+      },
+      {
+        "hash": "40202ff728b3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535990",
+          "etag": "W/\"c23d65e7f15a226521e8c0b5df8ef56f-ssl\""
+        }
+      },
+      {
+        "hash": "40202ff728b3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "18",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "etag": "W/\"c23d65e7f15a226521e8c0b5df8ef56f-ssl\""
+        }
+      },
+      {
+        "hash": "40202ff728b3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535974",
+          "etag": "W/\"c23d65e7f15a226521e8c0b5df8ef56f-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,501 @@
+{
+  "url": "https://birkscinema.co.uk/",
+  "name": "birkscinema.co.uk",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795282796848,
+  "date": "2026-11-21T17:39:56.848Z",
+  "runId": "2026-11-21T17-28-27-062Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 54950,
+  "error": null,
+  "variance": {
+    "min": 4,
+    "max": 5,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://birkscinema.co.uk/",
+    "finalUrl": "https://birkscinema.co.uk/home/",
+    "redirect": {
+      "from": "https://birkscinema.co.uk/",
+      "to": "https://birkscinema.co.uk/home",
+      "chain": [
+        {
+          "url": "https://birkscinema.co.uk/",
+          "status": 200
+        },
+        {
+          "url": "https://birkscinema.co.uk/home/",
+          "status": null
+        }
+      ],
+      "statuses": [
+        200
+      ],
+      "change": "path",
+      "permanent": false,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 4,
+      "accessibility": 88,
+      "best-practices": 96,
+      "seo": 92,
+      "agentic-browsing": 4
+    },
+    "timings": {
+      "fcp": 8134,
+      "lcp": 36885,
+      "si": 17853,
+      "tbt": 5434,
+      "tti": 39350,
+      "cls": 0.488,
+      "ttfb": 620,
+      "maxPotentialFid": 6326,
+      "serverResponseTime": 19,
+      "networkRtt": 83.7,
+      "networkServerLatency": 137.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 20.9,
+      "resourceLoadDelay": 4029,
+      "resourceLoadDuration": 33,
+      "elementRenderDelay": 42.9
+    },
+    "weight": {
+      "total": 7130532,
+      "requests": 121,
+      "mainDocument": 2447,
+      "byType": {
+        "total": {
+          "bytes": 7128900,
+          "requests": 120
+        },
+        "script": {
+          "bytes": 3791779,
+          "requests": 40
+        },
+        "image": {
+          "bytes": 2202374,
+          "requests": 26
+        },
+        "font": {
+          "bytes": 758242,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 228938,
+          "requests": 27
+        },
+        "stylesheet": {
+          "bytes": 145120,
+          "requests": 21
+        },
+        "document": {
+          "bytes": 2447,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2546132,
+          "requests": 42
+        }
+      },
+      "scripts": 40,
+      "stylesheets": 21,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 8,
+      "bytes": 2546132,
+      "mainThreadMs": 158.2,
+      "top": [
+        {
+          "entity": "imgix",
+          "bytes": 2206137,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 2200512,
+            "other": 5625
+          },
+          "typedBytes": 2206137
+        },
+        {
+          "entity": "Accessibe Accessibility Overlay",
+          "bytes": 255514,
+          "mainThreadMs": 81,
+          "byType": {
+            "script": 255106,
+            "other": 408
+          },
+          "typedBytes": 255514
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 27217,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 600,
+            "font": 26617
+          },
+          "typedBytes": 27217
+        },
+        {
+          "entity": "Cookie-Script.com",
+          "bytes": 26400,
+          "mainThreadMs": 54.5,
+          "byType": {
+            "script": 26400
+          },
+          "typedBytes": 26400
+        },
+        {
+          "entity": "Rollbar",
+          "bytes": 25254,
+          "mainThreadMs": 21.3,
+          "byType": {
+            "script": 25254
+          },
+          "typedBytes": 25254
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 16446.5,
+      "byGroup": {
+        "scriptEvaluation": 12104.9,
+        "other": 1589.6,
+        "scriptParseCompile": 1047.7,
+        "garbageCollection": 847.2,
+        "styleLayout": 579.4,
+        "paintCompositeRender": 217.2,
+        "parseHTML": 60.4
+      },
+      "bootupMs": 12897.2,
+      "longTasks": 20,
+      "longestTaskMs": 6326
+    },
+    "dom": {
+      "elements": 1291,
+      "depth": 25,
+      "maxChildren": 69
+    },
+    "waste": {
+      "unusedJsBytes": 2820722,
+      "unusedCssBytes": 195580,
+      "legacyJsBytes": 62458,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 4413,
+      "renderBlockingCount": 8,
+      "poorlyCachedBytes": 1497076.9999999998,
+      "poorlyCachedCount": 46
+    },
+    "accessibility": {
+      "failingCount": 5,
+      "applicableCount": 36,
+      "failingNodes": 15,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 7
+        },
+        {
+          "id": "aria-allowed-attr",
+          "title": "`[aria-*]` attributes do not match their roles",
+          "weight": 10,
+          "nodes": 3
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "meta-viewport",
+          "title": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 3
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 51
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2950.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T17:40:14.921Z",
+      "runtimeMs": 15914.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "vue",
+        "fontawesome"
+      ],
+      "markVersions": {
+        "vue": "3.5.13"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7ZK4GDY2Y58Y9M7BX53B3TZ"
+    },
+    "violations": 17,
+    "passes": 2161,
+    "incomplete": 49,
+    "violationRules": 7,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 7,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".active",
+            "snippet": "<button data-v-2496e784=\"\" class=\"q-btn q-btn-item non...\" tabindex=\"0\" type=\"button\" aria-label=\"Today, Saturday, 21 ...\" aria-pressed=\"true\" style=\"width: 55px; border-...\">"
+          },
+          {
+            "selector": "button[aria-label=\"Tomorrow, Sunday, 22 November\"]",
+            "snippet": "<button data-v-2496e784=\"\" class=\"q-btn q-btn-item non...\" tabindex=\"0\" type=\"button\" aria-label=\"Tomorrow, Sunday, 22...\" aria-pressed=\"false\" style=\"width: 55px; border-...\">"
+          },
+          {
+            "selector": "button[aria-label=\"Monday, 23 November\"]",
+            "snippet": "<button data-v-2496e784=\"\" class=\"q-btn q-btn-item non...\" tabindex=\"0\" type=\"button\" aria-label=\"Monday, 23 November\" aria-pressed=\"false\" style=\"width: 55px; border-...\">"
+          },
+          {
+            "selector": "button[aria-label=\"Wednesday, 25 November\"]",
+            "snippet": "<button data-v-2496e784=\"\" class=\"q-btn q-btn-item non...\" tabindex=\"0\" type=\"button\" aria-label=\"Wednesday, 25 Novemb...\" aria-pressed=\"false\" style=\"width: 55px; border-...\">"
+          },
+          {
+            "selector": ".calendar",
+            "snippet": "<button data-v-2496e784=\"\" class=\"q-btn q-btn-item non...\" tabindex=\"0\" type=\"button\" aria-label=\"More Dates\" aria-haspopup=\"dialog\" aria-expanded=\"false\" style=\"width: 55px; border-...\">"
+          }
+        ]
+      },
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "nodes": 3,
+        "help": "Elements must only use supported ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".banner-info.q-mt-sm[aria-label=\"The Pollinators\"] > .full-width[data-v-ccd363fc=\"\"] > .q-px-sm.col-auto[data-v-ccd363fc=\"\"] > .justify-between.items-center[data-v-ccd363fc=\"\"] > .justify-end.col-auto[data-v-ccd363fc=\"\"] > .q-chip.q-chip--colored[aria-describedby=\"showing-badge-tooltip-4\"]",
+            "snippet": "<div data-v-ccd363fc=\"\" class=\"q-chip row inline no...\" tabindex=\"0\" aria-label=\"Reserved Seating. Th...\" aria-describedby=\"showing-badge-toolti...\" aria-pressed=\"false\" style=\"font-size: 10px; bac..…"
+          },
+          {
+            "selector": "div[aria-describedby=\"showing-badge-tooltip-1714\"]",
+            "snippet": "<div data-v-ccd363fc=\"\" class=\"q-chip row inline no...\" tabindex=\"0\" aria-label=\"Healthiest Town. Hea...\" aria-describedby=\"showing-badge-toolti...\" aria-pressed=\"false\" style=\"font-size: 10px; bac..…"
+          },
+          {
+            "selector": ".banner-info.q-mt-sm[aria-label=\"Wicker\"] > .full-width[data-v-ccd363fc=\"\"] > .q-px-sm.col-auto[data-v-ccd363fc=\"\"] > .justify-between.items-center[data-v-ccd363fc=\"\"] > .justify-end.col-auto[data-v-ccd363fc=\"\"] > .q-chip.q-chip--colored[aria-describedby=\"showing-badge-tooltip-4\"]",
+            "snippet": "<div data-v-ccd363fc=\"\" class=\"q-chip row inline no...\" tabindex=\"0\" aria-label=\"Reserved Seating. Th...\" aria-describedby=\"showing-badge-toolti...\" aria-pressed=\"false\" style=\"font-size: 10px; bac..…"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h3",
+            "snippet": "<h3 data-v-19e74d8b=\"\" class=\"text-uppercase text-h6 text-left q-my-xs\" style=\"color: rgb(119, 119, 119); padding-left: 4px; padding-right: 4px;\"><span data-v-19e74d8b=\"\" class=\"text-primary\">Today</…"
+          },
+          {
+            "selector": ".q-tab__label",
+            "snippet": "<div class=\"q-tab__label\">Privacy Policy</div>"
+          },
+          {
+            "selector": "#cookiescript_readmore",
+            "snippet": "<a id=\"cookiescript_readmore\" data-cs-i18n-text=\"{\"en\":\"Privacy Policy\"}\" data-cs-i18n-url=\"{\"en\":\"https:\\/\\/tickets.birkscinema.co.uk\\/privacy-policy\"}\" target=\"_blank\" aria-label=\"Privacy Policy, o…"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".self-center.text-primary[data-v-0212b8ce=\"\"] > h4",
+            "snippet": "<h4 data-v-0212b8ce=\"\" class=\"col-auto q-my-none row items-center text-current-color text-center text-h4 q-pl-md q-pr-md\" style=\"max-width: 80%;\">Coming Soon </h4>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-no-duplicate-contentinfo",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should not have more than one contentinfo landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-contentinfo?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "footer[data-test-id=\"global-widget-footer\"]",
+            "snippet": "<footer data-v-9132f916=\"\" data-test-id=\"global-widget-footer\" class=\"\" style=\"background-color: rgb(255, 255, 255);\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "footer[data-test-id=\"global-widget-footer\"]",
+            "snippet": "<footer data-v-9132f916=\"\" data-test-id=\"global-widget-footer\" class=\"\" style=\"background-color: rgb(255, 255, 255);\">"
+          }
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Zooming and scaling must not be disabled",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "meta[name=\"viewport\"]",
+            "snippet": "<meta name=\"viewport\" content=\"user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=device-width,viewport-fit=cover\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "94fde60ae261",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"9c78b9593d3917a825ad7605b2ba7de4-ssl\""
+        }
+      },
+      {
+        "hash": "94fde60ae261",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535984",
+          "etag": "W/\"9c78b9593d3917a825ad7605b2ba7de4-ssl\""
+        }
+      },
+      {
+        "hash": "94fde60ae261",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "33",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535967",
+          "etag": "W/\"9c78b9593d3917a825ad7605b2ba7de4-ssl\""
+        }
+      },
+      {
+        "hash": "94fde60ae261",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535952",
+          "etag": "W/\"9c78b9593d3917a825ad7605b2ba7de4-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
