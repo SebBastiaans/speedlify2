@@ -1,0 +1,292 @@
+{
+  "url": "https://cuteblog.pages.dev/",
+  "name": "cuteblog.pages.dev",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1795303193096,
+  "date": "2026-11-21T23:19:53.096Z",
+  "runId": "2026-11-21T23-12-09-781Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22511,
+  "error": null,
+  "variance": {
+    "min": 82,
+    "max": 96,
+    "spread": 14,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://cuteblog.pages.dev/",
+    "finalUrl": "https://cuteblog.pages.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 82,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 73
+    },
+    "timings": {
+      "fcp": 1769,
+      "lcp": 2618,
+      "si": 1769,
+      "tbt": 0,
+      "tti": 2618,
+      "cls": 0.269,
+      "ttfb": 484,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 46,
+      "networkRtt": 0.1,
+      "networkServerLatency": 234.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 48.1,
+      "resourceLoadDelay": 9.7,
+      "resourceLoadDuration": 15.6,
+      "elementRenderDelay": 257
+    },
+    "weight": {
+      "total": 132863,
+      "requests": 10,
+      "mainDocument": 2817,
+      "byType": {
+        "total": {
+          "bytes": 132863,
+          "requests": 10
+        },
+        "image": {
+          "bytes": 59676,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 29501,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 21401,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 19468,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 2817,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 129220,
+          "requests": 8
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 4,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 129220,
+      "mainThreadMs": 3.2,
+      "top": [
+        {
+          "entity": "vecteezy.com",
+          "bytes": 59676,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 59676
+          },
+          "typedBytes": 59676
+        },
+        {
+          "entity": "istockphoto.com",
+          "bytes": 29501,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 29501
+          },
+          "typedBytes": 29501
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 21994,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 593,
+            "font": 21401
+          },
+          "typedBytes": 21994
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 17718,
+          "mainThreadMs": 3,
+          "byType": {
+            "stylesheet": 17718
+          },
+          "typedBytes": 17718
+        },
+        {
+          "entity": "my.id",
+          "bytes": 331,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 331
+          },
+          "typedBytes": 331
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 188.1,
+      "byGroup": {
+        "other": 108.6,
+        "styleLayout": 45.5,
+        "parseHTML": 17.5,
+        "scriptEvaluation": 8.3,
+        "paintCompositeRender": 7.4,
+        "scriptParseCompile": 0.6
+      },
+      "bootupMs": 7.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 69,
+      "depth": 9,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 16996,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 2673,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 33.099999999999994,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 13,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 9
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2463,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:20:08.466Z",
+      "runtimeMs": 6158.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "2.0.1",
+      "source": "meta",
+      "raw": "Eleventy v2.0.1"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v2.0.1"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5e36c7d4d5b7af0-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 173,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "5d1e41005262",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "5d1e41005262",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "5d1e41005262",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "5d1e41005262",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

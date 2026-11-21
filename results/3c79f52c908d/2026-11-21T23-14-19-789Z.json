@@ -1,0 +1,253 @@
+{
+  "url": "https://andrewshell.org/",
+  "name": "blog.andrewshell.org",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795302859789,
+  "date": "2026-11-21T23:14:19.789Z",
+  "runId": "2026-11-21T23-12-09-781Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 28755,
+  "error": null,
+  "partialErrors": [
+    "NO_NAVSTART: Something went wrong with recording the trace over your page load. Please run Lighthouse again. (NO_NAVSTART)"
+  ],
+  "variance": {
+    "min": 74,
+    "max": 74,
+    "spread": 0,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://andrewshell.org/",
+    "finalUrl": "https://andrewshell.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 74,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 981,
+      "lcp": 8181,
+      "si": 981,
+      "tbt": 154,
+      "tti": 8181,
+      "cls": 0,
+      "ttfb": 681,
+      "maxPotentialFid": 140,
+      "serverResponseTime": 175,
+      "networkRtt": 11.1,
+      "networkServerLatency": 188
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 176.9,
+      "resourceLoadDelay": 17.9,
+      "resourceLoadDuration": 206.1,
+      "elementRenderDelay": 44.6
+    },
+    "weight": {
+      "total": 1725396,
+      "requests": 16,
+      "mainDocument": 6282,
+      "byType": {
+        "total": {
+          "bytes": 1725396,
+          "requests": 16
+        },
+        "image": {
+          "bytes": 1480100,
+          "requests": 6
+        },
+        "script": {
+          "bytes": 171494,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 55815,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 11705,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 6282,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 172122,
+          "requests": 4
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 172122,
+      "mainThreadMs": 67.1,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 166820,
+          "mainThreadMs": 63.5,
+          "byType": {
+            "script": 166820
+          },
+          "typedBytes": 166820
+        },
+        {
+          "entity": "umami.is",
+          "bytes": 5302,
+          "mainThreadMs": 3.6,
+          "byType": {
+            "script": 4674,
+            "other": 628
+          },
+          "typedBytes": 5302
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 573.7,
+      "byGroup": {
+        "scriptEvaluation": 218.3,
+        "other": 185.5,
+        "scriptParseCompile": 67,
+        "styleLayout": 54.8,
+        "paintCompositeRender": 22.7,
+        "parseHTML": 18.2,
+        "garbageCollection": 7.2
+      },
+      "bootupMs": 267.8,
+      "longTasks": 2,
+      "longestTaskMs": 140
+    },
+    "dom": {
+      "elements": 236,
+      "depth": 11,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 74533,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2078,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 311391.2,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 24,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 36
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2481.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:14:38.896Z",
+      "runtimeMs": 8625.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {
+      "via": "1.1 Caddy"
+    },
+    "violations": 0,
+    "passes": 508,
+    "incomplete": 15,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "2037d8697d90",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"d8356c4bce6fb5b5c50ae4f8fed0472b\""
+        }
+      },
+      {
+        "hash": "2037d8697d90",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"d8356c4bce6fb5b5c50ae4f8fed0472b\""
+        }
+      },
+      {
+        "hash": "2037d8697d90",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"d8356c4bce6fb5b5c50ae4f8fed0472b\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

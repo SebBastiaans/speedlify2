@@ -1,0 +1,365 @@
+{
+  "url": "https://calgarygroups.ca/",
+  "name": "calgarygroups.ca",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795302793552,
+  "date": "2026-11-21T23:13:13.552Z",
+  "runId": "2026-11-21T23-12-09-781Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 37154,
+  "error": null,
+  "variance": {
+    "min": 62,
+    "max": 67,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://calgarygroups.ca/",
+    "finalUrl": "https://calgarygroups.ca/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 63,
+      "accessibility": 92,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1823,
+      "lcp": 4524,
+      "si": 1823,
+      "tbt": 844,
+      "tti": 4524,
+      "cls": 0,
+      "ttfb": 608,
+      "maxPotentialFid": 894,
+      "serverResponseTime": 8,
+      "networkRtt": 0.1,
+      "networkServerLatency": 24.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 10.1,
+      "elementRenderDelay": 597.4
+    },
+    "weight": {
+      "total": 525020,
+      "requests": 15,
+      "mainDocument": 40268,
+      "byType": {
+        "total": {
+          "bytes": 525020,
+          "requests": 14
+        },
+        "font": {
+          "bytes": 436423,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 40268,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 27255,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 19207,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 957,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 910,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 475803,
+          "requests": 9
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 3,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 475803,
+      "mainThreadMs": 346.3,
+      "top": [
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 320421,
+          "mainThreadMs": 4.5,
+          "byType": {
+            "stylesheet": 19180,
+            "font": 301241
+          },
+          "typedBytes": 320421
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 136175,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 993,
+            "font": 135182
+          },
+          "typedBytes": 136175
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 19207,
+          "mainThreadMs": 341.6,
+          "byType": {
+            "script": 19207
+          },
+          "typedBytes": 19207
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3152.2,
+      "byGroup": {
+        "scriptEvaluation": 1404.3,
+        "styleLayout": 1017.3,
+        "other": 377.7,
+        "paintCompositeRender": 182.5,
+        "garbageCollection": 117.8,
+        "parseHTML": 42.2,
+        "scriptParseCompile": 10.5
+      },
+      "bootupMs": 1411.4,
+      "longTasks": 6,
+      "longestTaskMs": 894
+    },
+    "dom": {
+      "elements": 6650,
+      "depth": 10,
+      "maxChildren": 290
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 18440,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1840,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 1920.6999999999996,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 24,
+      "failingNodes": 290,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 289
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 2,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 14
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2438,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:13:36.619Z",
+      "runtimeMs": 10086.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [
+        "fontawesome",
+        "alpine"
+      ],
+      "markVersions": {
+        "fontawesome": "6.5.1",
+        "alpine": "3.17.5"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M80667RGASZ1B2542N61S5XJ"
+    },
+    "violations": 291,
+    "passes": 8607,
+    "incomplete": 326,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 289,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"aawear/\"] > span:nth-child(1)",
+            "snippet": "<span>Learn More</span>"
+          },
+          {
+            "selector": "a[href$=\"alberta-acorn/\"] > span:nth-child(1)",
+            "snippet": "<span>Learn More</span>"
+          },
+          {
+            "selector": "article:nth-child(4) > .mt-4 > .hover\\:bg-brand-orange\\/10.dark\\:hover\\:bg-cyan-400\\/10.dark\\:text-cyan-400 > span:nth-child(1)",
+            "snippet": "<span>Learn More</span>"
+          },
+          {
+            "selector": "article:nth-child(5) > .mt-4 > .hover\\:bg-brand-orange\\/10.dark\\:hover\\:bg-cyan-400\\/10.dark\\:text-cyan-400 > span:nth-child(1)",
+            "snippet": "<span>Learn More</span>"
+          },
+          {
+            "selector": "article:nth-child(6) > .mt-4 > .hover\\:bg-brand-orange\\/10.dark\\:hover\\:bg-cyan-400\\/10.dark\\:text-cyan-400 > span:nth-child(1)",
+            "snippet": "<span>Learn More</span>"
+          }
+        ]
+      },
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "article:nth-child(230) > .items-start.gap-3.flex-wrap > .flex-1.leading-snug.text-lg",
+            "snippet": "<h2 class=\"min-w-0 flex-1 break-words text-lg font-semibold leading-snug\">"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "article:nth-child(230) > .items-start.gap-3.flex-wrap > .flex-1.leading-snug.text-lg > .block.focus\\:outline-none[x-text=\"org.name\"]",
+            "snippet": "<a class=\"p-name u-url block break-words rounded hover:underline focus:outline-none focus:ring-2 focus:ring-brand-orange/50 dark:focus:ring-brand-cyan/50\" :href=\"org.url\" x-text=\"org.name\" href=\"/con…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7518f7416bd3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"0b4539b15b03a6cbfaafb0af4a76269b-ssl\""
+        }
+      },
+      {
+        "hash": "7518f7416bd3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535988",
+          "etag": "W/\"0b4539b15b03a6cbfaafb0af4a76269b-ssl\""
+        }
+      },
+      {
+        "hash": "7518f7416bd3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "22",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535978",
+          "etag": "W/\"0b4539b15b03a6cbfaafb0af4a76269b-ssl\""
+        }
+      },
+      {
+        "hash": "7518f7416bd3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "31",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535969",
+          "etag": "W/\"0b4539b15b03a6cbfaafb0af4a76269b-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
