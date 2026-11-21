@@ -1,0 +1,312 @@
+{
+  "url": "https://binnyva.com/",
+  "name": "binnyva.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795282423728,
+  "date": "2026-11-21T17:33:43.728Z",
+  "runId": "2026-11-21T17-28-28-736Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27626,
+  "error": null,
+  "variance": {
+    "min": 84,
+    "max": 98,
+    "spread": 14,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://binnyva.com/",
+    "finalUrl": "https://binnyva.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1865,
+      "lcp": 1865,
+      "si": 2677,
+      "tbt": 69,
+      "tti": 4770,
+      "cls": 0,
+      "ttfb": 807,
+      "maxPotentialFid": 144,
+      "serverResponseTime": 206,
+      "networkRtt": 0.2,
+      "networkServerLatency": 206.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 208.3,
+      "elementRenderDelay": 1161.4
+    },
+    "weight": {
+      "total": 583824,
+      "requests": 12,
+      "mainDocument": 2065,
+      "byType": {
+        "total": {
+          "bytes": 580533,
+          "requests": 11
+        },
+        "script": {
+          "bytes": 303106,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 160199,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 101495,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 13668,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 2065,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 417400,
+          "requests": 7
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 5,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 417400,
+      "mainThreadMs": 58.8,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 303106,
+          "mainThreadMs": 57.3,
+          "byType": {
+            "script": 303106
+          },
+          "typedBytes": 303106
+        },
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 84048,
+          "mainThreadMs": 1,
+          "byType": {
+            "stylesheet": 6246,
+            "font": 77802
+          },
+          "typedBytes": 84048
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 24445,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 752,
+            "font": 23693
+          },
+          "typedBytes": 24445
+        },
+        {
+          "entity": "w3schools.com",
+          "bytes": 5801,
+          "mainThreadMs": 0.4,
+          "byType": {
+            "stylesheet": 5801
+          },
+          "typedBytes": 5801
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 472.4,
+      "byGroup": {
+        "scriptEvaluation": 265.3,
+        "other": 93.2,
+        "scriptParseCompile": 62.2,
+        "styleLayout": 38.1,
+        "parseHTML": 10.4,
+        "paintCompositeRender": 3.3
+      },
+      "bootupMs": 325.9,
+      "longTasks": 2,
+      "longestTaskMs": 144
+    },
+    "dom": {
+      "elements": 56,
+      "depth": 8,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 149363,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 3454,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 161068,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 13,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 7,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "http/1.1",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 4
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2836,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T17:33:53.960Z",
+      "runtimeMs": 8387.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {
+        "fontawesome": "4.7.0"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Apache",
+      "detailIcon": "Apache",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Apache/2.4.63 (Ubuntu)"
+    },
+    "violations": 1,
+    "passes": 108,
+    "incomplete": 2,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#myNavbar",
+            "snippet": "<div class=\"w3-top w3-hide-large w3-hide-medium\" id=\"myNavbar\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a86efc187624",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"10db-640a21adbd270-gzip\"",
+          "last-modified": "Wed, 08 Oct 2025 09:13:59 GMT"
+        }
+      },
+      {
+        "hash": "a86efc187624",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"10db-640a21adbd270-gzip\"",
+          "last-modified": "Wed, 08 Oct 2025 09:13:59 GMT"
+        }
+      },
+      {
+        "hash": "a86efc187624",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"10db-640a21adbd270-gzip\"",
+          "last-modified": "Wed, 08 Oct 2025 09:13:59 GMT"
+        }
+      },
+      {
+        "hash": "a86efc187624",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"10db-640a21adbd270-gzip\"",
+          "last-modified": "Wed, 08 Oct 2025 09:13:59 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

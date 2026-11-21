@@ -1,0 +1,304 @@
+{
+  "url": "https://11ty-notes.vercel.app/",
+  "name": "11ty-notes.vercel.app",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1795282246681,
+  "date": "2026-11-21T17:30:46.681Z",
+  "runId": "2026-11-21T17-28-28-736Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 19683,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 99,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://11ty-notes.vercel.app/",
+    "finalUrl": "https://11ty-notes.vercel.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 90,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1682,
+      "lcp": 1682,
+      "si": 1682,
+      "tbt": 0,
+      "tti": 1682,
+      "cls": 0,
+      "ttfb": 625,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 15,
+      "networkRtt": 2.3,
+      "networkServerLatency": 25.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 57.7,
+      "elementRenderDelay": 118.4
+    },
+    "weight": {
+      "total": 27056,
+      "requests": 5,
+      "mainDocument": 1120,
+      "byType": {
+        "total": {
+          "bytes": 26868,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 20477,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 5271,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 1120,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 25748,
+          "requests": 3
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 25748,
+      "mainThreadMs": 4.8,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 25748,
+          "mainThreadMs": 4.8,
+          "byType": {
+            "script": 5271,
+            "stylesheet": 20477
+          },
+          "typedBytes": 25748
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 122.2,
+      "byGroup": {
+        "other": 65.5,
+        "styleLayout": 22.6,
+        "scriptEvaluation": 17,
+        "parseHTML": 11,
+        "paintCompositeRender": 3.2,
+        "scriptParseCompile": 2.9
+      },
+      "bootupMs": 4.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 28,
+      "depth": 7,
+      "maxChildren": 3
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 18319,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 2284,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 906,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 11,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 7,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 3
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2798.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T17:30:47.931Z",
+      "runtimeMs": 6041.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "iad1::lbszc-1795282264713-cc8096bdb2c6"
+    },
+    "violations": 2,
+    "passes": 44,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "nav:nth-child(1)",
+            "snippet": "<nav class=\"navbar\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".content-wrapper",
+            "snippet": "<div class=\"content-wrapper\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "6686e3ed5c7d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "264848",
+          "etag": "W/\"6686e3ed5c7d523642d2e0daa86a161d92ce40f69bcccda1ee555b06c3987ae5\"",
+          "last-modified": "Wed, 18 Nov 2026 15:56:39 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "6686e3ed5c7d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "264854",
+          "etag": "W/\"6686e3ed5c7d523642d2e0daa86a161d92ce40f69bcccda1ee555b06c3987ae5\"",
+          "last-modified": "Wed, 18 Nov 2026 15:56:39 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "6686e3ed5c7d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "264860",
+          "etag": "W/\"6686e3ed5c7d523642d2e0daa86a161d92ce40f69bcccda1ee555b06c3987ae5\"",
+          "last-modified": "Wed, 18 Nov 2026 15:56:39 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "6686e3ed5c7d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6686e3ed5c7d523642d2e0daa86a161d92ce40f69bcccda1ee555b06c3987ae5\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
