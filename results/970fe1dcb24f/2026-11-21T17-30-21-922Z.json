@@ -1,0 +1,412 @@
+{
+  "url": "https://bennypowers.dev/",
+  "name": "bennypowers.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795282221922,
+  "date": "2026-11-21T17:30:21.922Z",
+  "runId": "2026-11-21T17-28-38-502Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 31278,
+  "error": null,
+  "variance": {
+    "min": 80,
+    "max": 86,
+    "spread": 6,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://bennypowers.dev/",
+    "finalUrl": "https://bennypowers.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 81,
+      "accessibility": 88,
+      "best-practices": 96,
+      "seo": 91,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1676,
+      "lcp": 4654,
+      "si": 1676,
+      "tbt": 147,
+      "tti": 5162,
+      "cls": 0.002,
+      "ttfb": 603,
+      "maxPotentialFid": 343,
+      "serverResponseTime": 3,
+      "networkRtt": 0,
+      "networkServerLatency": 175.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 4.7,
+      "elementRenderDelay": 274.5
+    },
+    "weight": {
+      "total": 971545,
+      "requests": 105,
+      "mainDocument": 42088,
+      "byType": {
+        "total": {
+          "bytes": 971545,
+          "requests": 101
+        },
+        "font": {
+          "bytes": 487750,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 301372,
+          "requests": 33
+        },
+        "script": {
+          "bytes": 133919,
+          "requests": 60
+        },
+        "document": {
+          "bytes": 42088,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 4148,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 2268,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 43812,
+          "requests": 31
+        }
+      },
+      "scripts": 64,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 43812,
+      "mainThreadMs": 12.6,
+      "top": [
+        {
+          "entity": "JSPM",
+          "bytes": 37666,
+          "mainThreadMs": 10.6,
+          "byType": {
+            "script": 37666
+          },
+          "typedBytes": 37666
+        },
+        {
+          "entity": "zgo.at",
+          "bytes": 4367,
+          "mainThreadMs": 1.6,
+          "byType": {
+            "script": 4367
+          },
+          "typedBytes": 4367
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 1397,
+          "mainThreadMs": 0.4,
+          "byType": {
+            "stylesheet": 1397
+          },
+          "typedBytes": 1397
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1775.9,
+      "byGroup": {
+        "other": 921.5,
+        "scriptEvaluation": 426.4,
+        "parseHTML": 209.3,
+        "styleLayout": 170.5,
+        "paintCompositeRender": 35.5,
+        "scriptParseCompile": 12.7
+      },
+      "bootupMs": 393.6,
+      "longTasks": 3,
+      "longestTaskMs": 343
+    },
+    "dom": {
+      "elements": 5129,
+      "depth": 12,
+      "maxChildren": 90
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 773,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 27,
+      "failingNodes": 17,
+      "failing": [
+        {
+          "id": "aria-required-parent",
+          "title": "`[role]`s are not contained by their required parent element",
+          "weight": 10,
+          "nodes": 10
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "title": "Elements use prohibited ARIA attributes",
+          "weight": 7,
+          "nodes": 4
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 33
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2485.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T17:30:43.332Z",
+      "runtimeMs": 8381.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "3.3.3"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7ZJJAZQNFK82700Z7QNYKPS"
+    },
+    "violations": 18,
+    "passes": 1057,
+    "incomplete": 70,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-required-parent",
+        "impact": "critical",
+        "nodes": 10,
+        "help": "Certain ARIA roles must be contained by particular parents",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-parent?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "gnome2-session gtk2-menu-button[label=\"Applications\"] button[part=\"trigger\"][role=\"menuitem\"]",
+            "snippet": "<button part=\"trigger\" role=\"menuitem\" aria-haspopup=\"menu\" aria-expanded=\"false\"> <!-- An icon rendered before the label text, typically an SVG. SHOULD be 14px wide. --> <slot name=\"icon\"></slot> <s…"
+          },
+          {
+            "selector": "gnome2-session gtk2-menu-button[label=\"Places\"] button[part=\"trigger\"][role=\"menuitem\"]",
+            "snippet": "<button part=\"trigger\" role=\"menuitem\" aria-haspopup=\"menu\" aria-expanded=\"false\"> <!-- An icon rendered before the label text, typically an SVG. SHOULD be 14px wide. --> <slot name=\"icon\"></slot> <s…"
+          },
+          {
+            "selector": "gnome2-session gtk2-menu-button[label=\"System\"] button[part=\"trigger\"][role=\"menuitem\"]",
+            "snippet": "<button part=\"trigger\" role=\"menuitem\" aria-haspopup=\"menu\" aria-expanded=\"false\"> <!-- An icon rendered before the label text, typically an SVG. SHOULD be 14px wide. --> <slot name=\"icon\"></slot> <s…"
+          },
+          {
+            "selector": "gtk2-menu-button[label=\"Conversation\"] button[part=\"trigger\"][role=\"menuitem\"]",
+            "snippet": "<button part=\"trigger\" role=\"menuitem\" aria-haspopup=\"menu\" aria-expanded=\"false\"> <!-- An icon rendered before the label text, typically an SVG. SHOULD be 14px wide. --> <slot name=\"icon\"></slot> <s…"
+          },
+          {
+            "selector": "gtk2-menu-button[label=\"Buddies\"] button[part=\"trigger\"][role=\"menuitem\"]",
+            "snippet": "<button part=\"trigger\" role=\"menuitem\" aria-haspopup=\"menu\" aria-expanded=\"false\"> <!-- An icon rendered before the label text, typically an SVG. SHOULD be 14px wide. --> <slot name=\"icon\"></slot> <s…"
+          }
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "gnome2-workspace-switcher div[aria-label=\"Workspace 1 (active)\"]",
+            "snippet": "<div class=\"workspace active\" aria-label=\"Workspace 1 (active)\"> <!--?lit$796693565$--> </div>"
+          },
+          {
+            "selector": "gnome2-workspace-switcher div[aria-label=\"Workspace 2\"]",
+            "snippet": "<div class=\"workspace \" aria-label=\"Workspace 2\"> <!--?lit$796693565$--> </div>"
+          },
+          {
+            "selector": "gnome2-workspace-switcher div[aria-label=\"Workspace 3\"]",
+            "snippet": "<div class=\"workspace \" aria-label=\"Workspace 3\"> <!--?lit$796693565$--> </div>"
+          },
+          {
+            "selector": "gnome2-workspace-switcher div[aria-label=\"Workspace 4\"]",
+            "snippet": "<div class=\"workspace \" aria-label=\"Workspace 4\"> <!--?lit$796693565$--> </div>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 4,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "gnome2-session gtk2-menu-button[label=\"Applications\"] span",
+            "snippet": "<span><!--lit-part-->Applications<!--/lit-part--></span>"
+          },
+          {
+            "selector": "gnome2-session gtk2-menu-button[label=\"Places\"] button[part=\"trigger\"][role=\"menuitem\"]",
+            "snippet": "<button part=\"trigger\" role=\"menuitem\" aria-haspopup=\"menu\" aria-expanded=\"false\"> <!-- An icon rendered before the label text, typically an SVG. SHOULD be 14px wide. --> <slot name=\"icon\"></slot> <s…"
+          },
+          {
+            "selector": "gnome2-session gtk2-menu-button[label=\"System\"] button[part=\"trigger\"][role=\"menuitem\"]",
+            "snippet": "<button part=\"trigger\" role=\"menuitem\" aria-haspopup=\"menu\" aria-expanded=\"false\"> <!-- An icon rendered before the label text, typically an SVG. SHOULD be 14px wide. --> <slot name=\"icon\"></slot> <s…"
+          },
+          {
+            "selector": "gnome2-panel[position=\"bottom\"] #end",
+            "snippet": "<div id=\"end\" part=\"end\"> <!-- Panel applets (block elements) aligned to the end. SHOULD contain gnome2-clock and gnome2-workspace-switcher. --> <slot name=\"end\"></slot> </div>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "1a173d743e53",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"42e7cb127d1719f7abc636cc42720af7-ssl\""
+        }
+      },
+      {
+        "hash": "1a173d743e53",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "11",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535989",
+          "etag": "W/\"42e7cb127d1719f7abc636cc42720af7-ssl\""
+        }
+      },
+      {
+        "hash": "1a173d743e53",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "20",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535980",
+          "etag": "W/\"42e7cb127d1719f7abc636cc42720af7-ssl\""
+        }
+      },
+      {
+        "hash": "1a173d743e53",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535973",
+          "etag": "W/\"42e7cb127d1719f7abc636cc42720af7-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,365 @@
+{
+  "url": "https://www.shopify.com/",
+  "name": "Shopify",
+  "group": "builders",
+  "groupName": "Website Builders",
+  "timestamp": 1795283253180,
+  "date": "2026-11-21T17:47:33.180Z",
+  "runId": "2026-11-21T17-28-38-502Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 136801,
+  "error": null,
+  "variance": {
+    "min": 48,
+    "max": 57,
+    "spread": 9,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.shopify.com/",
+    "finalUrl": "https://www.shopify.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 54,
+      "accessibility": 100,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 1858,
+      "lcp": 4406,
+      "si": 3084,
+      "tbt": 2283,
+      "tti": 13504,
+      "cls": 0,
+      "ttfb": 700,
+      "maxPotentialFid": 953,
+      "serverResponseTime": 73,
+      "networkRtt": 6.2,
+      "networkServerLatency": 202.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 75.1,
+      "resourceLoadDelay": 17.6,
+      "resourceLoadDuration": 18.4,
+      "elementRenderDelay": 159.7
+    },
+    "weight": {
+      "total": 2174438,
+      "requests": 218,
+      "mainDocument": 161203,
+      "byType": {
+        "total": {
+          "bytes": 2174438,
+          "requests": 216
+        },
+        "script": {
+          "bytes": 1172909,
+          "requests": 125
+        },
+        "image": {
+          "bytes": 461890,
+          "requests": 47
+        },
+        "other": {
+          "bytes": 321060,
+          "requests": 40
+        },
+        "document": {
+          "bytes": 162997,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 55582,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2174438,
+          "requests": 216
+        }
+      },
+      "scripts": 125,
+      "stylesheets": 0,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 430885,
+      "mainThreadMs": 223.1,
+      "top": [
+        {
+          "entity": "Facebook",
+          "bytes": 245600,
+          "mainThreadMs": 128.5,
+          "byType": {
+            "script": 245583,
+            "image": 17
+          },
+          "typedBytes": 245600
+        },
+        {
+          "entity": "TikTok",
+          "bytes": 160789,
+          "mainThreadMs": 72.4,
+          "byType": {
+            "script": 154408,
+            "other": 6381
+          },
+          "typedBytes": 160789
+        },
+        {
+          "entity": "LinkedIn Ads",
+          "bytes": 22629,
+          "mainThreadMs": 22.2,
+          "byType": {
+            "script": 21933,
+            "image": 632,
+            "other": 64
+          },
+          "typedBytes": 22629
+        },
+        {
+          "entity": "tiktokw.us",
+          "bytes": 977,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 977
+          },
+          "typedBytes": 977
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 713,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 505,
+            "other": 208
+          },
+          "typedBytes": 713
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 7786.8,
+      "byGroup": {
+        "scriptEvaluation": 3902.2,
+        "other": 1564.7,
+        "styleLayout": 1407.9,
+        "scriptParseCompile": 351.5,
+        "parseHTML": 216,
+        "paintCompositeRender": 213.9,
+        "garbageCollection": 130.6
+      },
+      "bootupMs": 4168.1,
+      "longTasks": 20,
+      "longestTaskMs": 953
+    },
+    "dom": {
+      "elements": 1803,
+      "depth": 16,
+      "maxChildren": 107
+    },
+    "waste": {
+      "unusedJsBytes": 321959,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 19577,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 226419.85,
+      "poorlyCachedCount": 10
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 33,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 11
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 116
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": null,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 70
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2451,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T17:48:26.727Z",
+      "runtimeMs": 26316.2
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 599,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 815.5,
+    "elementRenderDelay": 120.1
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "reactrouter",
+      "name": "React Router",
+      "icon": "Reactrouter",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "reactrouter",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5e1882b2fe7156a-SJC",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 1531,
+    "incomplete": 63,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".w-\\[50px\\]",
+            "snippet": "<label for=\"bk-nav-hamburger\" class=\"flex flex-col items-...\" aria-label=\"Menu\" role=\"button\" aria-controls=\"bk-nav-level1-items\" data-component-name=\"navigation-toggle\" tabindex=\"0\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "45fde1ccd834",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "190",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 21 Nov 2026 17:44:23 GMT"
+        }
+      },
+      {
+        "hash": "45fde1ccd834",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "217",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 21 Nov 2026 17:44:23 GMT"
+        }
+      },
+      {
+        "hash": "45fde1ccd834",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "243",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 21 Nov 2026 17:44:23 GMT"
+        }
+      },
+      {
+        "hash": "45fde1ccd834",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "269",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 21 Nov 2026 17:44:23 GMT"
+        }
+      },
+      {
+        "hash": "f19b736b0479",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "525",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 21 Nov 2026 17:40:50 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
