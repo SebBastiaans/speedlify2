@@ -1,0 +1,323 @@
+{
+  "url": "https://carlovan.com/",
+  "name": "carlovan.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795303025145,
+  "date": "2026-11-21T23:17:05.145Z",
+  "runId": "2026-11-21T23-12-11-564Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 34605,
+  "error": null,
+  "variance": {
+    "min": 97,
+    "max": 99,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://carlovan.com/",
+    "finalUrl": "https://carlovan.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 883,
+      "lcp": 1753,
+      "si": 883,
+      "tbt": 170,
+      "tti": 3802,
+      "cls": 0.002,
+      "ttfb": 676,
+      "maxPotentialFid": 139,
+      "serverResponseTime": 18,
+      "networkRtt": 24.5,
+      "networkServerLatency": 76.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 257.2,
+      "resourceLoadDelay": 40.5,
+      "resourceLoadDuration": 79.4,
+      "elementRenderDelay": 27.3
+    },
+    "weight": {
+      "total": 2114899,
+      "requests": 27,
+      "mainDocument": 7718,
+      "byType": {
+        "total": {
+          "bytes": 2114902,
+          "requests": 23
+        },
+        "other": {
+          "bytes": 1603073,
+          "requests": 7
+        },
+        "document": {
+          "bytes": 234258,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 226526,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 51045,
+          "requests": 12
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2058925,
+          "requests": 10
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 227637,
+      "mainThreadMs": 89.1,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 198174,
+          "mainThreadMs": 69.2,
+          "byType": {
+            "script": 198174
+          },
+          "typedBytes": 198174
+        },
+        {
+          "entity": "cloudflare.com",
+          "bytes": 28352,
+          "mainThreadMs": 19.9,
+          "byType": {
+            "script": 28352
+          },
+          "typedBytes": 28352
+        },
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 556,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 556
+          },
+          "typedBytes": 556
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 555,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 555
+          },
+          "typedBytes": 555
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 657.7,
+      "byGroup": {
+        "scriptEvaluation": 317.7,
+        "other": 197.7,
+        "scriptParseCompile": 54.5,
+        "styleLayout": 48.2,
+        "paintCompositeRender": 21.6,
+        "parseHTML": 18
+      },
+      "bootupMs": 370.5,
+      "longTasks": 2,
+      "longestTaskMs": 139
+    },
+    "dom": {
+      "elements": 154,
+      "depth": 11,
+      "maxChildren": 25
+    },
+    "waste": {
+      "unusedJsBytes": 82917,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 3880,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 16,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 52
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3077.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:17:06.444Z",
+      "runtimeMs": 12292.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.5",
+      "source": "meta",
+      "raw": "Eleventy v3.1.5"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.5"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "cle1::xx2wc-1795303056553-79892c4c2cad"
+    },
+    "violations": 1,
+    "passes": 217,
+    "incomplete": 1,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" class=\"font-default\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "5e8307254428",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "284630",
+          "etag": "W/\"874538b9b7e0981e1575c8f501029993\"",
+          "last-modified": "Wed, 18 Nov 2026 16:13:16 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5e8307254428",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "284642",
+          "etag": "W/\"874538b9b7e0981e1575c8f501029993\"",
+          "last-modified": "Wed, 18 Nov 2026 16:13:16 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5e8307254428",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "284654",
+          "etag": "W/\"874538b9b7e0981e1575c8f501029993\"",
+          "last-modified": "Wed, 18 Nov 2026 16:13:16 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5e8307254428",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"874538b9b7e0981e1575c8f501029993\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

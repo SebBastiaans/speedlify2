@@ -1,0 +1,354 @@
+{
+  "url": "https://css-tip.com/",
+  "name": "css-tip.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795303586706,
+  "date": "2026-11-21T23:26:26.706Z",
+  "runId": "2026-11-21T23-12-11-564Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23490,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://css-tip.com/",
+    "finalUrl": "https://css-tip.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 95,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 786,
+      "lcp": 786,
+      "si": 786,
+      "tbt": 36,
+      "tti": 3433,
+      "cls": 0,
+      "ttfb": 614,
+      "maxPotentialFid": 93,
+      "serverResponseTime": 12,
+      "networkRtt": 26.4,
+      "networkServerLatency": 51.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 13.4,
+      "elementRenderDelay": 40.7
+    },
+    "weight": {
+      "total": 430386,
+      "requests": 18,
+      "mainDocument": 7089,
+      "byType": {
+        "total": {
+          "bytes": 430386,
+          "requests": 18
+        },
+        "image": {
+          "bytes": 206661,
+          "requests": 9
+        },
+        "script": {
+          "bytes": 201036,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 15600,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 7089,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 233626,
+          "requests": 10
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 233626,
+      "mainThreadMs": 50.8,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 172770,
+          "mainThreadMs": 44.7,
+          "byType": {
+            "script": 172770
+          },
+          "typedBytes": 172770
+        },
+        {
+          "entity": "Carbon Ads",
+          "bytes": 42856,
+          "mainThreadMs": 3.5,
+          "byType": {
+            "script": 10933,
+            "image": 30889,
+            "other": 1034
+          },
+          "typedBytes": 42856
+        },
+        {
+          "entity": "servedby-buysellads.com",
+          "bytes": 17333,
+          "mainThreadMs": 2.6,
+          "byType": {
+            "script": 17333
+          },
+          "typedBytes": 17333
+        },
+        {
+          "entity": "BuySellAds",
+          "bytes": 598,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 598
+          },
+          "typedBytes": 598
+        },
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 69,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 69
+          },
+          "typedBytes": 69
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 717,
+      "byGroup": {
+        "other": 227.5,
+        "scriptEvaluation": 180.1,
+        "styleLayout": 173.9,
+        "paintCompositeRender": 72.6,
+        "scriptParseCompile": 47.1,
+        "parseHTML": 9.4,
+        "garbageCollection": 6.3
+      },
+      "bootupMs": 193.9,
+      "longTasks": 2,
+      "longestTaskMs": 93
+    },
+    "dom": {
+      "elements": 163,
+      "depth": 10,
+      "maxChildren": 15
+    },
+    "waste": {
+      "unusedJsBytes": 75547,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 192415.98333333334,
+      "poorlyCachedCount": 10
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 21,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 27
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2813,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:26:35.403Z",
+      "runtimeMs": 7242.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.0.0",
+      "source": "meta",
+      "raw": "Eleventy v3.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "03c724d950a3e7ff04b8f96bb85afaa50371912d",
+      "x-github-request-id": "2E7A:11EDC7:1B4147F:1E836C1:6B021D53",
+      "x-served-by": "cache-chi-kmdw8640065-CHI"
+    },
+    "violations": 1,
+    "passes": 256,
+    "incomplete": 76,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".vuejs > a[rel=\"noopener\"][target=\"_blank\"]",
+            "snippet": "<a rel=\"noopener\" href=\"https://certificates.dev/vuejs?utm_source=CSSTIP&amp;utm_medium=website&amp;utm_campaign=affiliate&amp;friend=CSSTIP\" target=\"_blank\">Get Vue.js Certified</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "639fb2fe8211",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"6afc7990-55fb\"",
+          "last-modified": "Tue, 17 Nov 2026 15:58:08 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "639fb2fe8211",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "etag": "W/\"6afc7990-55fb\"",
+          "last-modified": "Tue, 17 Nov 2026 15:58:08 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "639fb2fe8211",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "etag": "W/\"6afc7990-55fb\"",
+          "last-modified": "Tue, 17 Nov 2026 15:58:08 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "639fb2fe8211",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "18",
+          "etag": "W/\"6afc7990-55fb\"",
+          "last-modified": "Tue, 17 Nov 2026 15:58:08 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

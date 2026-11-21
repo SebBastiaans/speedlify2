@@ -1,0 +1,300 @@
+{
+  "url": "https://cathydutton.co.uk/",
+  "name": "cathydutton.co.uk",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795303062753,
+  "date": "2026-11-21T23:17:42.753Z",
+  "runId": "2026-11-21T23-12-11-564Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25104,
+  "error": null,
+  "variance": {
+    "min": 82,
+    "max": 96,
+    "spread": 14,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://cathydutton.co.uk/",
+    "finalUrl": "https://cathydutton.co.uk/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 848,
+      "lcp": 2733,
+      "si": 2648,
+      "tbt": 45,
+      "tti": 3006,
+      "cls": 0.019,
+      "ttfb": 660,
+      "maxPotentialFid": 107,
+      "serverResponseTime": 59,
+      "networkRtt": 0.1,
+      "networkServerLatency": 59.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 60.6,
+      "resourceLoadDelay": 8.3,
+      "resourceLoadDuration": 116,
+      "elementRenderDelay": 17.4
+    },
+    "weight": {
+      "total": 295453,
+      "requests": 27,
+      "mainDocument": 7334,
+      "byType": {
+        "total": {
+          "bytes": 295453,
+          "requests": 27
+        },
+        "script": {
+          "bytes": 185771,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 90667,
+          "requests": 18
+        },
+        "document": {
+          "bytes": 7334,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 6571,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 5110,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 185035,
+          "requests": 3
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 185035,
+      "mainThreadMs": 53.8,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 183005,
+          "mainThreadMs": 49.5,
+          "byType": {
+            "script": 183005
+          },
+          "typedBytes": 183005
+        },
+        {
+          "entity": "Unpkg",
+          "bytes": 1415,
+          "mainThreadMs": 4.3,
+          "byType": {
+            "script": 1415
+          },
+          "typedBytes": 1415
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 615,
+          "mainThreadMs": 0,
+          "byType": {
+            "stylesheet": 615
+          },
+          "typedBytes": 615
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 531.4,
+      "byGroup": {
+        "scriptEvaluation": 205.7,
+        "other": 162.6,
+        "styleLayout": 84.9,
+        "scriptParseCompile": 36.6,
+        "paintCompositeRender": 29.8,
+        "parseHTML": 11.8
+      },
+      "bootupMs": 217.5,
+      "longTasks": 2,
+      "longestTaskMs": 107
+    },
+    "dom": {
+      "elements": 234,
+      "depth": 12,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 78585,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 29,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 14
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3070,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:18:00.600Z",
+      "runtimeMs": 6850.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M806E6CY216CCXC2TSZPM4J2"
+    },
+    "violations": 1,
+    "passes": 694,
+    "incomplete": 6,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#default-font",
+            "snippet": "<button id=\"default-font\" type=\"submit\" aria-label=\"Change font to Verdana\" class=\"button--ally--active\">Default</button>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "974cc307286d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "32218",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31503782",
+          "etag": "W/\"f7a455782ca1e5f02304d93a3800966f-ssl\""
+        }
+      },
+      {
+        "hash": "974cc307286d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "32227",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31503773",
+          "etag": "W/\"f7a455782ca1e5f02304d93a3800966f-ssl\""
+        }
+      },
+      {
+        "hash": "974cc307286d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "32234",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31503766",
+          "etag": "W/\"f7a455782ca1e5f02304d93a3800966f-ssl\""
+        }
+      },
+      {
+        "hash": "974cc307286d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31503760",
+          "etag": "W/\"f7a455782ca1e5f02304d93a3800966f-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
