@@ -1,0 +1,329 @@
+{
+  "url": "https://austinjavascript.com/",
+  "name": "austinjavascript.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795282412864,
+  "date": "2026-11-21T17:33:32.864Z",
+  "runId": "2026-11-21T17-28-26-227Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27583,
+  "error": null,
+  "variance": {
+    "min": 94,
+    "max": 99,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://austinjavascript.com/",
+    "finalUrl": "https://austinjavascript.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 96,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 947,
+      "lcp": 2147,
+      "si": 947,
+      "tbt": 133,
+      "tti": 5109,
+      "cls": 0,
+      "ttfb": 497,
+      "maxPotentialFid": 162,
+      "serverResponseTime": 19,
+      "networkRtt": 1,
+      "networkServerLatency": 66.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 20.8,
+      "resourceLoadDelay": 8.6,
+      "resourceLoadDuration": 14.7,
+      "elementRenderDelay": 60.9
+    },
+    "weight": {
+      "total": 1023260,
+      "requests": 128,
+      "mainDocument": 12225,
+      "byType": {
+        "total": {
+          "bytes": 1023260,
+          "requests": 128
+        },
+        "script": {
+          "bytes": 480478,
+          "requests": 14
+        },
+        "image": {
+          "bytes": 414601,
+          "requests": 102
+        },
+        "other": {
+          "bytes": 54865,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 32253,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 22096,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 18967,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 597293,
+          "requests": 24
+        }
+      },
+      "scripts": 14,
+      "stylesheets": 4,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 197993,
+      "mainThreadMs": 82.8,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 166730,
+          "mainThreadMs": 42.8,
+          "byType": {
+            "script": 166730
+          },
+          "typedBytes": 166730
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 20913,
+          "mainThreadMs": 31.3,
+          "byType": {
+            "script": 20875,
+            "other": 38
+          },
+          "typedBytes": 20913
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10350,
+          "mainThreadMs": 8.7,
+          "byType": {
+            "script": 10350
+          },
+          "typedBytes": 10350
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1126.8,
+      "byGroup": {
+        "other": 466.4,
+        "scriptEvaluation": 395.1,
+        "styleLayout": 100.7,
+        "paintCompositeRender": 88.7,
+        "scriptParseCompile": 51.7,
+        "parseHTML": 16.3,
+        "garbageCollection": 7.9
+      },
+      "bootupMs": 420.2,
+      "longTasks": 4,
+      "longestTaskMs": 162
+    },
+    "dom": {
+      "elements": 483,
+      "depth": 10,
+      "maxChildren": 128
+    },
+    "waste": {
+      "unusedJsBytes": 54731,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10355,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 308317.7100000001,
+      "poorlyCachedCount": 106
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 24,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "frame-title",
+          "title": "`<frame>` or `<iframe>` elements do not have a title",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 29
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2942.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T17:33:51.009Z",
+      "runtimeMs": 8216
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5e17137d99cd095-IAD",
+      "server": "cloudflare",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "eb4431156a8bca7db360d1adef0b0bfa3c57c7f1",
+      "x-github-request-id": "55EA:304BAD:D3B2D3:1086E80:6B01D5EE",
+      "x-served-by": "cache-iad-kiad7000176-IAD"
+    },
+    "violations": 1,
+    "passes": 2316,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Frames must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe",
+            "snippet": "<iframe scrolling=\"no\" style=\"width:100%!important;height:220px;border:1px #ccc solid!important\" src=\"https://buttondown.com/austinjavascript?as_embed=true\"></iframe>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7df6bade7219",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Wed, 18 Jun 2025 15:24:31 GMT",
+          "x-cache": "MISS",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "7df6bade7219",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Wed, 18 Jun 2025 15:24:31 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "7df6bade7219",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Wed, 18 Jun 2025 15:24:31 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "7df6bade7219",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "22",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Wed, 18 Jun 2025 15:24:31 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
