@@ -1,0 +1,363 @@
+{
+  "url": "https://saulcorona.com/",
+  "name": "saulcorona.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795224614717,
+  "date": "2026-11-21T01:30:14.717Z",
+  "runId": "2026-11-21T01-29-22-839Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 21361,
+  "error": null,
+  "partialErrors": [
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)"
+  ],
+  "variance": {
+    "min": 86,
+    "max": 99,
+    "spread": 13,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://saulcorona.com/",
+    "finalUrl": "https://saulcorona.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 86,
+      "accessibility": 82,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1579,
+      "lcp": 4105,
+      "si": 1579,
+      "tbt": 0,
+      "tti": 4105,
+      "cls": 0.017,
+      "ttfb": 636,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 123,
+      "networkRtt": 0,
+      "networkServerLatency": 42.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 125,
+      "resourceLoadDelay": 120.3,
+      "resourceLoadDuration": 39.5,
+      "elementRenderDelay": 29.5
+    },
+    "weight": {
+      "total": 569982,
+      "requests": 45,
+      "mainDocument": 3037,
+      "byType": {
+        "total": {
+          "bytes": 568821,
+          "requests": 44
+        },
+        "font": {
+          "bytes": 456161,
+          "requests": 30
+        },
+        "image": {
+          "bytes": 87955,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 15438,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 6230,
+          "requests": 8
+        },
+        "document": {
+          "bytes": 3037,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 467582,
+          "requests": 32
+        }
+      },
+      "scripts": 8,
+      "stylesheets": 3,
+      "fonts": 30
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 467582,
+      "mainThreadMs": 1.6,
+      "top": [
+        {
+          "entity": "iconscout.com",
+          "bytes": 403672,
+          "mainThreadMs": 1.5,
+          "byType": {
+            "stylesheet": 10760,
+            "font": 392912
+          },
+          "typedBytes": 403672
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 63910,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 661,
+            "font": 63249
+          },
+          "typedBytes": 63910
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 435,
+      "byGroup": {
+        "other": 188.7,
+        "styleLayout": 181.9,
+        "paintCompositeRender": 29.6,
+        "scriptEvaluation": 16.4,
+        "parseHTML": 12,
+        "garbageCollection": 5.3,
+        "scriptParseCompile": 1.1
+      },
+      "bootupMs": 15.7,
+      "longTasks": 1,
+      "longestTaskMs": 51
+    },
+    "dom": {
+      "elements": 261,
+      "depth": 10,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1562,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 9820.199999999997,
+      "poorlyCachedCount": 11
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 15,
+      "failingNodes": 18,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 12
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 4
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3336.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T01:30:22.235Z",
+      "runtimeMs": 7162.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "hcdn",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "hcdn"
+    },
+    "violations": 18,
+    "passes": 367,
+    "incomplete": 0,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 12,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#work > .qualification__data:nth-child(1) > div:nth-child(1) > .qualification__calendar",
+            "snippet": "<div class=\"qualification__calendar\"> <i class=\"uil uil-calendar-alt\"></i> 2023 - current </div>"
+          },
+          {
+            "selector": "#work > .qualification__data:nth-child(2) > div:nth-child(3) > .qualification__calendar",
+            "snippet": "<div class=\"qualification__calendar\"> <i class=\"uil uil-calendar-alt\"></i> 2021 - 2023 </div>"
+          },
+          {
+            "selector": ".qualification__data:nth-child(3) > div:nth-child(1) > .qualification__calendar",
+            "snippet": "<div class=\"qualification__calendar\"> <i class=\"uil uil-calendar-alt\"></i> 2020 - 2021 </div>"
+          },
+          {
+            "selector": ".qualification__data:nth-child(4) > div:nth-child(3) > .qualification__calendar",
+            "snippet": "<div class=\"qualification__calendar\"> <i class=\"uil uil-calendar-alt\"></i> 2019 - 2020 </div>"
+          },
+          {
+            "selector": ".qualification__data:nth-child(5) > div:nth-child(1) > .qualification__calendar",
+            "snippet": "<div class=\"qualification__calendar\"> <i class=\"uil uil-calendar-alt\"></i> 2019 - 2019 </div>"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".home__social-icon[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(1)",
+            "snippet": "<a href=\"https://www.linkedin.com/in/saulcorona/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"home__social-icon\"> <i class=\"uil uil-linkedin\"></i> </a>"
+          },
+          {
+            "selector": ".home__social-icon[href$=\"saul-corona\"][target=\"_blank\"]",
+            "snippet": "<a href=\"https://github.com/saul-corona\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"home__social-icon\"> <i class=\"uil uil-github\"></i> </a>"
+          },
+          {
+            "selector": ".footer__social[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(1)",
+            "snippet": "<a href=\"https://www.linkedin.com/in/saulcorona/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"footer__social\"> <i class=\"uil uil-linkedin\"></i> </a>"
+          },
+          {
+            "selector": ".footer__social[href$=\"saul-corona\"][target=\"_blank\"]",
+            "snippet": "<a href=\"https://github.com/saul-corona\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"footer__social\"> <i class=\"uil uil-github\"></i> </a>"
+          },
+          {
+            "selector": "#scroll-up",
+            "snippet": "<a href=\"#\" class=\"scrollup\" id=\"scroll-up\"> <i class=\"uil uil-arrow-up scrollup__icon\"></i> </a>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".home__subtitle",
+            "snippet": "<h3 class=\"home__subtitle\">Software Engineer</h3>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "cdd67c54e921",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"4cf8-6817e721-d3ec1eaf599ba56a;br\"",
+          "last-modified": "Sun, 04 May 2025 22:16:01 GMT"
+        }
+      },
+      {
+        "hash": "cdd67c54e921",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"4cf8-6817e721-d3ec1eaf599ba56a;br\"",
+          "last-modified": "Sun, 04 May 2025 22:16:01 GMT"
+        }
+      },
+      {
+        "hash": "cdd67c54e921",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"4cf8-6817e721-d3ec1eaf599ba56a;br\"",
+          "last-modified": "Sun, 04 May 2025 22:16:01 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
