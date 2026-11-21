@@ -1,0 +1,312 @@
+{
+  "url": "https://cfp.watch/",
+  "name": "cfp.watch",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795303057702,
+  "date": "2026-11-21T23:17:37.702Z",
+  "runId": "2026-11-21T23-12-12-301Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20701,
+  "error": null,
+  "variance": {
+    "min": 94,
+    "max": 98,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://cfp.watch/",
+    "finalUrl": "https://cfp.watch/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 98,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1720,
+      "lcp": 2506,
+      "si": 2003,
+      "tbt": 0,
+      "tti": 2506,
+      "cls": 0.002,
+      "ttfb": 776,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 175,
+      "networkRtt": 12.5,
+      "networkServerLatency": 175.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 627.6,
+      "elementRenderDelay": 313.2
+    },
+    "weight": {
+      "total": 44896,
+      "requests": 13,
+      "mainDocument": 11555,
+      "byType": {
+        "total": {
+          "bytes": 42821,
+          "requests": 10
+        },
+        "font": {
+          "bytes": 14463,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 11555,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 11531,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 4602,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 670,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 25338,
+          "requests": 5
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 2,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 25338,
+      "mainThreadMs": 5.4,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 15218,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 755,
+            "font": 14463
+          },
+          "typedBytes": 15218
+        },
+        {
+          "entity": "buymeacoffee.com",
+          "bytes": 6044,
+          "mainThreadMs": 4,
+          "byType": {
+            "script": 6044
+          },
+          "typedBytes": 6044
+        },
+        {
+          "entity": "Plausible",
+          "bytes": 4076,
+          "mainThreadMs": 1.3,
+          "byType": {
+            "script": 4076
+          },
+          "typedBytes": 4076
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 176.6,
+      "byGroup": {
+        "other": 79.4,
+        "styleLayout": 39.9,
+        "scriptEvaluation": 32.9,
+        "parseHTML": 13.3,
+        "paintCompositeRender": 8.1,
+        "scriptParseCompile": 3.1
+      },
+      "bootupMs": 3.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 520,
+      "depth": 9,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 930,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 23,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 11
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3460.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:17:38.914Z",
+      "runtimeMs": 7213.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M806DX9YZKVM98KZ02A27EM0"
+    },
+    "violations": 2,
+    "passes": 648,
+    "incomplete": 2,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "article:nth-child(1) > h3",
+            "snippet": "<h3> DevFest Nantes </h3>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".bmc-btn-container",
+            "snippet": "<div class=\"bmc-btn-container\"><a class=\"bmc-btn\" target=\"_blank\" href=\"https://buymeacoffee.com/rowdyrabouw\">🥤<span class=\"bmc-btn-text\">Buy me a Coca-Cola Zero</span></a></div>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "3d10ed9076c0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"4d0338bfcf62153bbce7d4bcf55d5d21-ssl\""
+        }
+      },
+      {
+        "hash": "3d10ed9076c0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"4d0338bfcf62153bbce7d4bcf55d5d21-ssl\""
+        }
+      },
+      {
+        "hash": "3d10ed9076c0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"4d0338bfcf62153bbce7d4bcf55d5d21-ssl\""
+        }
+      },
+      {
+        "hash": "3d10ed9076c0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "etag": "W/\"4d0338bfcf62153bbce7d4bcf55d5d21-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

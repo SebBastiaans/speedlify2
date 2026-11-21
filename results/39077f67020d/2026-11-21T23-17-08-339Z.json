@@ -1,0 +1,461 @@
+{
+  "url": "https://cfam.es/",
+  "name": "cfam.es",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795303028339,
+  "date": "2026-11-21T23:17:08.339Z",
+  "runId": "2026-11-21T23-12-12-301Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26362,
+  "error": null,
+  "variance": {
+    "min": 97,
+    "max": 99,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://cfam.es/",
+    "finalUrl": "https://cfam.es/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 69,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1535,
+      "lcp": 1535,
+      "si": 1535,
+      "tbt": 59,
+      "tti": 4016,
+      "cls": 0.046,
+      "ttfb": 620,
+      "maxPotentialFid": 120,
+      "serverResponseTime": 37,
+      "networkRtt": 0.3,
+      "networkServerLatency": 20.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 38.1,
+      "elementRenderDelay": 297.1
+    },
+    "weight": {
+      "total": 4455006,
+      "requests": 42,
+      "mainDocument": 4499,
+      "byType": {
+        "total": {
+          "bytes": 4455006,
+          "requests": 42
+        },
+        "image": {
+          "bytes": 4038707,
+          "requests": 28
+        },
+        "script": {
+          "bytes": 236756,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 141557,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 30833,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 4499,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2654,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 249123,
+          "requests": 10
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 4,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 249123,
+      "mainThreadMs": 57.7,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 183228,
+          "mainThreadMs": 57.5,
+          "byType": {
+            "script": 183087,
+            "image": 141
+          },
+          "typedBytes": 183228
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 65200,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 955,
+            "font": 64245
+          },
+          "typedBytes": 65200
+        },
+        {
+          "entity": "WordPress",
+          "bytes": 695,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 695
+          },
+          "typedBytes": 695
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 961.6,
+      "byGroup": {
+        "other": 508.2,
+        "scriptEvaluation": 270.9,
+        "styleLayout": 76.8,
+        "scriptParseCompile": 53.3,
+        "paintCompositeRender": 24.6,
+        "parseHTML": 17.9,
+        "garbageCollection": 10
+      },
+      "bootupMs": 271.4,
+      "longTasks": 3,
+      "longestTaskMs": 285
+    },
+    "dom": {
+      "elements": 263,
+      "depth": 11,
+      "maxChildren": 13
+    },
+    "waste": {
+      "unusedJsBytes": 98292,
+      "unusedCssBytes": 18227,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 8697,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1064,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 141,
+      "poorlyCachedCount": 5
+    },
+    "accessibility": {
+      "failingCount": 6,
+      "applicableCount": 19,
+      "failingNodes": 14,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 7
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 2
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "meta-viewport",
+          "title": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 15
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3390,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:17:27.474Z",
+      "runtimeMs": 6848.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M806D60C79QFSX627E7W3EAR"
+    },
+    "violations": 19,
+    "passes": 575,
+    "incomplete": 1,
+    "violationRules": 7,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 7,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".col-md-10.mx-auto.col-lg-4:nth-child(2) > .site-project-item > a",
+            "snippet": "<a href=\"/portfolio/0-vigilante-seguridad/\"> </a>"
+          },
+          {
+            "selector": ".site-project-item > a[href$=\"1-escolta-privado/\"]",
+            "snippet": "<a href=\"/portfolio/1-escolta-privado/\"> </a>"
+          },
+          {
+            "selector": ".col-md-10.mx-auto.col-lg-4:nth-child(4) > .site-project-item > a",
+            "snippet": "<a href=\"/portfolio/2-vigilante-explosivos/\"> </a>"
+          },
+          {
+            "selector": ".site-project-item > a[href$=\"3-guardapescas/\"]",
+            "snippet": "<a href=\"/portfolio/3-guardapescas/\"> </a>"
+          },
+          {
+            "selector": ".site-project-item > a[href$=\"4-guarda-caza/\"]",
+            "snippet": "<a href=\"/portfolio/4-guarda-caza/\"> </a>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 5,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".site-hero",
+            "snippet": "<section class=\"site-hero\">"
+          },
+          {
+            "selector": "#project",
+            "snippet": "<section class=\"site-project\" id=\"project\">"
+          },
+          {
+            "selector": "#counter",
+            "snippet": "<section class=\"site-counter\" id=\"counter\">"
+          },
+          {
+            "selector": ".site-homologado",
+            "snippet": "<section class=\"site-homologado\">"
+          },
+          {
+            "selector": ".site-testimonial",
+            "snippet": "<section class=\"site-testimonial\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "span[data-text=\"Nuestros Cursos\"]",
+            "snippet": "<span data-text=\"Nuestros Cursos\"> Nuestros Cursos </span>"
+          },
+          {
+            "selector": ".site-project-cta",
+            "snippet": "<a href=\"/portfolio\" class=\"site-project-cta\">VER MÁS</a>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#project > .container > .row > .col-12:nth-child(1) > .section-title > h3",
+            "snippet": "<h3>¿Conoces nuestros cursos?</h3>"
+          },
+          {
+            "selector": ".col-lg-3.col-md-6:nth-child(2) > .site-testimonial-item > .site-testimonial-item-header > .person > h5",
+            "snippet": "<h5>Alejandro Sagnier</h5>"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "button",
+            "snippet": "<button class=\"navbar-toggler collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\"#sitenavbar\"> <span class=\"icon-bar\"></span> <span class=\"icon-bar\"></span> <span class=\"icon-bar\"></span> <…"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"es\">"
+          }
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Zooming and scaling must not be disabled",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "meta[name=\"viewport\"]:nth-child(7)",
+            "snippet": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "835f3fc56ae4",
+        "nonce": "4f1a48e8499f",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"26193c91c094dfb1288c1868264ff8e9-ssl\""
+        }
+      },
+      {
+        "hash": "835f3fc56ae4",
+        "nonce": "6cff3010cef6",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"26193c91c094dfb1288c1868264ff8e9-ssl\""
+        }
+      },
+      {
+        "hash": "835f3fc56ae4",
+        "nonce": "2492b3c5dc0a",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535984",
+          "etag": "W/\"26193c91c094dfb1288c1868264ff8e9-ssl\""
+        }
+      },
+      {
+        "hash": "835f3fc56ae4",
+        "nonce": "387ca03d27cd",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "23",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535978",
+          "etag": "W/\"26193c91c094dfb1288c1868264ff8e9-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,355 @@
+{
+  "url": "https://carteakey.dev/",
+  "name": "carteakey.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795302948287,
+  "date": "2026-11-21T23:15:48.287Z",
+  "runId": "2026-11-21T23-12-12-301Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26726,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://carteakey.dev/",
+    "finalUrl": "https://carteakey.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1107,
+      "lcp": 1107,
+      "si": 3154,
+      "tbt": 34,
+      "tti": 4825,
+      "cls": 0.003,
+      "ttfb": 463,
+      "maxPotentialFid": 92,
+      "serverResponseTime": 152,
+      "networkRtt": 23.7,
+      "networkServerLatency": 18
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 206.4,
+      "elementRenderDelay": 101.1
+    },
+    "weight": {
+      "total": 1098273,
+      "requests": 45,
+      "mainDocument": 20826,
+      "byType": {
+        "total": {
+          "bytes": 1098273,
+          "requests": 44
+        },
+        "font": {
+          "bytes": 597373,
+          "requests": 10
+        },
+        "script": {
+          "bytes": 243326,
+          "requests": 16
+        },
+        "image": {
+          "bytes": 197594,
+          "requests": 9
+        },
+        "stylesheet": {
+          "bytes": 35804,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 20826,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3350,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 407790,
+          "requests": 7
+        }
+      },
+      "scripts": 16,
+      "stylesheets": 3,
+      "fonts": 10
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 407790,
+      "mainThreadMs": 51.9,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 181738,
+          "mainThreadMs": 44.2,
+          "byType": {
+            "script": 181738
+          },
+          "typedBytes": 181738
+        },
+        {
+          "entity": "Spotify",
+          "bytes": 143087,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 143087
+          },
+          "typedBytes": 143087
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 68477,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 1052,
+            "font": 67425
+          },
+          "typedBytes": 68477
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 7.3,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 3463,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "script": 3463
+          },
+          "typedBytes": 3463
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 4272.3,
+      "byGroup": {
+        "other": 3020.2,
+        "scriptEvaluation": 686.5,
+        "styleLayout": 362,
+        "paintCompositeRender": 108.6,
+        "scriptParseCompile": 41.7,
+        "parseHTML": 33.9,
+        "garbageCollection": 19.5
+      },
+      "bootupMs": 645.4,
+      "longTasks": 3,
+      "longestTaskMs": 92
+    },
+    "dom": {
+      "elements": 830,
+      "depth": 17,
+      "maxChildren": 15
+    },
+    "waste": {
+      "unusedJsBytes": 77926,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 3167,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 159,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 4191.2,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 32,
+      "failingNodes": 14,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 14
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 58
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3506,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:15:49.477Z",
+      "runtimeMs": 8779.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy",
+        "Eleventy v3.1.8"
+      ],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.15.3"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5e3669e7fbe8b90-PDX",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M806AQRRXSYPRCJ2BZRNKCR4"
+    },
+    "violations": 4,
+    "passes": 1135,
+    "incomplete": 27,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "figcaption",
+            "snippet": "<figcaption class=\"footer-scene-caption\"> <span>~ a quiet place at the edge of the internet ~</span> <a href=\"https://ascii.rest/night-coast/\" target=\"_blank\" rel=\"noopener noreferrer\">after night co…"
+          },
+          {
+            "selector": ".grid-cols-2",
+            "snippet": "<div class=\"grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-3 md:gap-y-2 text-xs\">"
+          },
+          {
+            "selector": ".mt-4 > span",
+            "snippet": "<span>Made with ❤️ · <a href=\"https://www.11ty.dev/\" target=\"_blank\" rel=\"noopener\">Eleventy</a> + <a href=\"https://tailwindcss.com/\" target=\"_blank\" rel=\"noopener\">Tailwind</a> · <a href=\"/colophon/…"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "article[data-authored-by=\"ai-assisted\"]:nth-child(5) > .feed-clamp.relative.mt-2 > .max-w-none.not-prose.editorial-support-compact > .table-scroll[role=\"region\"][aria-label=\"Scrollable table\"]",
+            "snippet": "<div class=\"table-scroll\" role=\"region\" aria-label=\"Scrollable table\" tabindex=\"0\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9153b52c4f0e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "11099",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31524901",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "9153b52c4f0e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "11108",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31524892",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "9153b52c4f0e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "11116",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31524884",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "9153b52c4f0e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "11123",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31524877",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
