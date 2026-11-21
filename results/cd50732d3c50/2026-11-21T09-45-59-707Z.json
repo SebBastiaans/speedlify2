@@ -1,0 +1,288 @@
+{
+  "url": "https://arpit.tk/",
+  "name": "arpit.tk",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795254359707,
+  "date": "2026-11-21T09:45:59.707Z",
+  "runId": "2026-11-21T09-45-41-582Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25680,
+  "error": null,
+  "variance": {
+    "min": 77,
+    "max": 99,
+    "spread": 22,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://arpit.tk/",
+    "finalUrl": "https://arpit.si/",
+    "redirect": {
+      "from": "https://arpit.tk/",
+      "to": "https://arpit.si/",
+      "chain": [
+        {
+          "url": "https://arpit.tk/",
+          "status": 308
+        },
+        {
+          "url": "https://arpit.si/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        308
+      ],
+      "change": "host",
+      "permanent": true,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1536,
+      "lcp": 1977,
+      "si": 1536,
+      "tbt": 0,
+      "tti": 1977,
+      "cls": 0,
+      "ttfb": 615,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 6,
+      "networkRtt": 0,
+      "networkServerLatency": 15
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 20.8,
+      "resourceLoadDelay": 18.1,
+      "resourceLoadDuration": 17.4,
+      "elementRenderDelay": 21.4
+    },
+    "weight": {
+      "total": 104133,
+      "requests": 8,
+      "mainDocument": 2497,
+      "byType": {
+        "total": {
+          "bytes": 104133,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 51212,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 46264,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 2497,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 2346,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 1454,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 360,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 83,
+          "requests": 1
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 104050,
+      "mainThreadMs": 3.2,
+      "top": [
+        {
+          "entity": "arpit.si",
+          "bytes": 104050,
+          "mainThreadMs": 3.2,
+          "byType": {
+            "document": 2497,
+            "script": 2346,
+            "stylesheet": 1454,
+            "image": 46264,
+            "font": 51212,
+            "other": 277
+          },
+          "typedBytes": 104050
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 110.2,
+      "byGroup": {
+        "other": 70.6,
+        "scriptEvaluation": 14.3,
+        "styleLayout": 14.1,
+        "parseHTML": 4.9,
+        "paintCompositeRender": 4,
+        "scriptParseCompile": 2.4
+      },
+      "bootupMs": 3.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 45,
+      "depth": 6,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 21,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 761.8,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 9
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2999.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T09:46:13.813Z",
+      "runtimeMs": 5552.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.6",
+      "source": "meta",
+      "raw": "Eleventy v3.1.6"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.6"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "iad1::gxtgf-1795254384188-abeb8e4e9287"
+    },
+    "violations": 0,
+    "passes": 124,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "668517265411",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "248811",
+          "etag": "W/\"bd4d4275cc4e4d0e2718cd2ca3f2a550\"",
+          "last-modified": "Wed, 18 Nov 2026 12:39:15 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "668517265411",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "248818",
+          "etag": "W/\"bd4d4275cc4e4d0e2718cd2ca3f2a550\"",
+          "last-modified": "Wed, 18 Nov 2026 12:39:15 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "668517265411",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "248824",
+          "etag": "W/\"bd4d4275cc4e4d0e2718cd2ca3f2a550\"",
+          "last-modified": "Wed, 18 Nov 2026 12:39:15 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
