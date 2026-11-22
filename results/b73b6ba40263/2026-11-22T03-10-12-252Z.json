@@ -1,0 +1,365 @@
+{
+  "url": "https://disjfa.github.io/eleventy-encore",
+  "name": "disjfa.github.io",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1795317012252,
+  "date": "2026-11-22T03:10:12.252Z",
+  "runId": "2026-11-22T03-08-13-795Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20281,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 96,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://disjfa.github.io/eleventy-encore",
+    "finalUrl": "https://disjfa.github.io/eleventy-encore/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 92,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 908,
+      "lcp": 2782,
+      "si": 908,
+      "tbt": 24,
+      "tti": 2782,
+      "cls": 0,
+      "ttfb": 608,
+      "maxPotentialFid": 74,
+      "serverResponseTime": 6,
+      "networkRtt": 0,
+      "networkServerLatency": 7.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 17.1,
+      "resourceLoadDelay": 9.1,
+      "resourceLoadDuration": 10.1,
+      "elementRenderDelay": 43.8
+    },
+    "weight": {
+      "total": 291032,
+      "requests": 10,
+      "mainDocument": 1840,
+      "byType": {
+        "total": {
+          "bytes": 288645,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 156566,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 61474,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 36438,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 32147,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 1840,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 180,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 288645,
+          "requests": 8
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 32147,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "unsplash.com",
+          "bytes": 32147,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 32147
+          },
+          "typedBytes": 32147
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 246.6,
+      "byGroup": {
+        "other": 91.1,
+        "scriptEvaluation": 57.3,
+        "styleLayout": 38.7,
+        "parseHTML": 27.9,
+        "scriptParseCompile": 26.5,
+        "paintCompositeRender": 5
+      },
+      "bootupMs": 81.1,
+      "longTasks": 1,
+      "longestTaskMs": 74
+    },
+    "dom": {
+      "elements": 81,
+      "depth": 9,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 44989,
+      "unusedCssBytes": 35267,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 151,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 233271.49999999997,
+      "poorlyCachedCount": 5
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 22,
+      "failingNodes": 21,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 18
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 2
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 757.9,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 7
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2463,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T03:10:19.977Z",
+      "runtimeMs": 5799.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "1616d1c0c5251f9cbca9bf1c979c67d2da09df87",
+      "x-github-request-id": "13CE:167A06:10F0DA7:12A184C:6B025D15",
+      "x-served-by": "cache-iad-khef600055-IAD"
+    },
+    "violations": 23,
+    "passes": 141,
+    "incomplete": 0,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 18,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".navbar-brand",
+            "snippet": "<a class=\"navbar-brand\" href=\"/eleventy-encore/\"> eleventy-encore </a>"
+          },
+          {
+            "selector": "figcaption > a:nth-child(1)",
+            "snippet": "<a href=\"https://unsplash.com/@m_maaris?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\"> Marek Szturc </a>"
+          },
+          {
+            "selector": "a:nth-child(2)",
+            "snippet": "<a href=\"https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText\">Unsplash</a>"
+          },
+          {
+            "selector": "p:nth-child(2) > a[href$=\"www.11ty.io\"]",
+            "snippet": "<a href=\"https://www.11ty.io\">11ty</a>"
+          },
+          {
+            "selector": "p:nth-child(3) > a",
+            "snippet": "<a href=\"https://symfony.com/doc/current/frontend.html\">webpack encore</a>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h3",
+            "snippet": "<h3>Next up</h3>"
+          },
+          {
+            "selector": ".col-12.col-md:nth-child(1) > h5:nth-child(1)",
+            "snippet": "<h5>Steps</h5>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".bg-light:nth-child(2)",
+            "snippet": "<div class=\"bg-light\">"
+          },
+          {
+            "selector": "body > .container",
+            "snippet": "<div class=\"container\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "baf0e8800d97",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"5e792fec-1ad9\"",
+          "last-modified": "Mon, 23 Mar 2020 21:53:48 GMT",
+          "x-cache": "MISS",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "baf0e8800d97",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "6",
+          "etag": "W/\"5e792fec-1ad9\"",
+          "last-modified": "Mon, 23 Mar 2020 21:53:48 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "baf0e8800d97",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12",
+          "etag": "W/\"5e792fec-1ad9\"",
+          "last-modified": "Mon, 23 Mar 2020 21:53:48 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
