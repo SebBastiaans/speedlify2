@@ -1,0 +1,291 @@
+{
+  "url": "https://frontenddogma.com/",
+  "name": "frontenddogma.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795346741062,
+  "date": "2026-11-22T11:25:41.062Z",
+  "runId": "2026-11-22T11-16-58-118Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 46688,
+  "error": null,
+  "variance": {
+    "min": 87,
+    "max": 89,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://frontenddogma.com/",
+    "finalUrl": "https://dxsrc.org/",
+    "redirect": {
+      "from": "https://frontenddogma.com/",
+      "to": "https://dxsrc.org/",
+      "chain": [
+        {
+          "url": "https://frontenddogma.com/",
+          "status": 301
+        },
+        {
+          "url": "https://dxsrc.org/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        301
+      ],
+      "change": "host",
+      "permanent": true,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 87,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 85,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 3215,
+      "lcp": 3215,
+      "si": 3215,
+      "tbt": 0,
+      "tti": 3215,
+      "cls": 0,
+      "ttfb": 761,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 216,
+      "networkRtt": 108.5,
+      "networkServerLatency": 54.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 760.9,
+      "elementRenderDelay": 116.8
+    },
+    "weight": {
+      "total": 55582,
+      "requests": 8,
+      "mainDocument": 42640,
+      "byType": {
+        "total": {
+          "bytes": 49172,
+          "requests": 7
+        },
+        "document": {
+          "bytes": 42640,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 3512,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 2914,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 106,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 6532,
+          "requests": 6
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 55476,
+      "mainThreadMs": 12.9,
+      "top": [
+        {
+          "entity": "dxsrc.org",
+          "bytes": 49050,
+          "mainThreadMs": 12.4,
+          "byType": {
+            "document": 42640,
+            "other": 6410
+          },
+          "typedBytes": 49050
+        },
+        {
+          "entity": "cloudfront.net",
+          "bytes": 6426,
+          "mainThreadMs": 0.5,
+          "byType": {
+            "image": 3512,
+            "stylesheet": 2914
+          },
+          "typedBytes": 6426
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1069.4,
+      "byGroup": {
+        "other": 565.7,
+        "styleLayout": 362.8,
+        "paintCompositeRender": 80,
+        "parseHTML": 47.4,
+        "scriptEvaluation": 12,
+        "scriptParseCompile": 1.6
+      },
+      "bootupMs": 12.1,
+      "longTasks": 3,
+      "longestTaskMs": 160
+    },
+    "dom": {
+      "elements": 6866,
+      "depth": 9,
+      "maxChildren": 1000
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 755,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 621.9988826815642,
+      "poorlyCachedCount": 5
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 1071.5,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 17
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2481.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T11:25:56.046Z",
+      "runtimeMs": 13100.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Apache",
+      "detailIcon": "Apache",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Apache"
+    },
+    "violations": 0,
+    "passes": 13736,
+    "incomplete": 45,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b896c2be506a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"40ea2b5-3a23c-660d8eaaa3466-br\"",
+          "last-modified": "Sun, 22 Nov 2026 08:03:46 GMT"
+        }
+      },
+      {
+        "hash": "b896c2be506a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"40ea2b5-3a23c-660d8eaaa3466-br\"",
+          "last-modified": "Sun, 22 Nov 2026 08:03:46 GMT"
+        }
+      },
+      {
+        "hash": "b896c2be506a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"40ea2b5-3a23c-660d8eaaa3466-br\"",
+          "last-modified": "Sun, 22 Nov 2026 08:03:46 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
