@@ -1,0 +1,355 @@
+{
+  "url": "https://www.anthropic.com/",
+  "name": "Anthropic",
+  "group": "ai",
+  "groupName": "AI",
+  "timestamp": 1795346914916,
+  "date": "2026-11-22T11:28:34.916Z",
+  "runId": "2026-11-22T11-17-00-965Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 78229,
+  "error": null,
+  "variance": {
+    "min": 55,
+    "max": 57,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.anthropic.com/",
+    "finalUrl": "https://www.anthropic.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 56,
+      "accessibility": 100,
+      "best-practices": 73,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1704,
+      "lcp": 8830,
+      "si": 5318,
+      "tbt": 577,
+      "tti": 16889,
+      "cls": 0,
+      "ttfb": 504,
+      "maxPotentialFid": 225,
+      "serverResponseTime": 17,
+      "networkRtt": 3.6,
+      "networkServerLatency": 114.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 18.9,
+      "resourceLoadDelay": 12.8,
+      "resourceLoadDuration": 40.4,
+      "elementRenderDelay": 141.9
+    },
+    "weight": {
+      "total": 4647835,
+      "requests": 93,
+      "mainDocument": 30518,
+      "byType": {
+        "total": {
+          "bytes": 4643279,
+          "requests": 92
+        },
+        "media": {
+          "bytes": 1648553,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 1318739,
+          "requests": 50
+        },
+        "font": {
+          "bytes": 738358,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 702074,
+          "requests": 7
+        },
+        "stylesheet": {
+          "bytes": 155081,
+          "requests": 12
+        },
+        "document": {
+          "bytes": 65462,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 15012,
+          "requests": 14
+        },
+        "third-party": {
+          "bytes": 2880564,
+          "requests": 30
+        }
+      },
+      "scripts": 50,
+      "stylesheets": 12,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 2880564,
+      "mainThreadMs": 179.4,
+      "top": [
+        {
+          "entity": "claude.com",
+          "bytes": 2291380,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 642399,
+            "media": 1648553,
+            "other": 428
+          },
+          "typedBytes": 2291380
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 322333,
+          "mainThreadMs": 96.6,
+          "byType": {
+            "script": 322333
+          },
+          "typedBytes": 322333
+        },
+        {
+          "entity": "TikTok",
+          "bytes": 170799,
+          "mainThreadMs": 65.9,
+          "byType": {
+            "script": 161269,
+            "other": 9530
+          },
+          "typedBytes": 170799
+        },
+        {
+          "entity": "claude.ai",
+          "bytes": 50768,
+          "mainThreadMs": 4,
+          "byType": {
+            "script": 50768
+          },
+          "typedBytes": 50768
+        },
+        {
+          "entity": "Hubspot",
+          "bytes": 45284,
+          "mainThreadMs": 12.9,
+          "byType": {
+            "script": 44864,
+            "image": 420
+          },
+          "typedBytes": 45284
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 4736.9,
+      "byGroup": {
+        "scriptEvaluation": 2106.3,
+        "styleLayout": 1112.2,
+        "other": 847.7,
+        "scriptParseCompile": 404.7,
+        "paintCompositeRender": 120.3,
+        "parseHTML": 93.4,
+        "garbageCollection": 52.3
+      },
+      "bootupMs": 2202.9,
+      "longTasks": 18,
+      "longestTaskMs": 225
+    },
+    "dom": {
+      "elements": 541,
+      "depth": 16,
+      "maxChildren": 17
+    },
+    "waste": {
+      "unusedJsBytes": 403833,
+      "unusedCssBytes": 105850,
+      "legacyJsBytes": 14214,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 21324,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 750,
+      "renderBlockingCount": 12,
+      "poorlyCachedBytes": 83317.61249999999,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 28,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 3
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 3,
+      "baselineLimitedFeatures": 71
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2476.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T11:28:57.643Z",
+      "runtimeMs": 10360.4
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 607.9,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 12285.5,
+    "elementRenderDelay": 49.1
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "Nextdotjs",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "next",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5e7993edb284759-SEA",
+      "server": "cloudflare",
+      "via": "1.1 google"
+    },
+    "violations": 0,
+    "passes": 754,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "f50c8c7bb130",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "23",
+          "cf-cache-status": "HIT",
+          "x-nextjs-cache": "STALE",
+          "x-nextjs-prerender": "1"
+        }
+      },
+      {
+        "hash": "6d65b64f8f73",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "3",
+          "cf-cache-status": "HIT",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1"
+        }
+      },
+      {
+        "hash": "6d65b64f8f73",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "cf-cache-status": "HIT",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1"
+        }
+      },
+      {
+        "hash": "6d65b64f8f73",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "24",
+          "cf-cache-status": "HIT",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1"
+        }
+      },
+      {
+        "hash": "f50c8c7bb130",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "4",
+          "cf-cache-status": "HIT",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
