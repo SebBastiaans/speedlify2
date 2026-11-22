@@ -1,0 +1,378 @@
+{
+  "url": "https://bigdetector.com/",
+  "name": "bigdetector.com",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1795317118333,
+  "date": "2026-11-22T03:11:58.333Z",
+  "runId": "2026-11-22T03-08-29-803Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23548,
+  "error": null,
+  "variance": {
+    "min": 88,
+    "max": 90,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://bigdetector.com/",
+    "finalUrl": "https://bigdetector.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 90,
+      "accessibility": 84,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 2868,
+      "lcp": 2868,
+      "si": 2868,
+      "tbt": 9,
+      "tti": 2988,
+      "cls": 0,
+      "ttfb": 606,
+      "maxPotentialFid": 68,
+      "serverResponseTime": 6,
+      "networkRtt": 0.1,
+      "networkServerLatency": 11.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 8.1,
+      "elementRenderDelay": 112.5
+    },
+    "weight": {
+      "total": 1019380,
+      "requests": 8,
+      "mainDocument": 259303,
+      "byType": {
+        "total": {
+          "bytes": 1018121,
+          "requests": 7
+        },
+        "image": {
+          "bytes": 746371,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 259303,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 9228,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 2955,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 264,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 12447,
+          "requests": 4
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 12183,
+      "mainThreadMs": 4.9,
+      "top": [
+        {
+          "entity": "Unpkg",
+          "bytes": 10996,
+          "mainThreadMs": 4.6,
+          "byType": {
+            "script": 9228,
+            "stylesheet": 1768
+          },
+          "typedBytes": 10996
+        },
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 1187,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 1187
+          },
+          "typedBytes": 1187
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 595.8,
+      "byGroup": {
+        "other": 255.8,
+        "parseHTML": 137.4,
+        "scriptParseCompile": 119.9,
+        "scriptEvaluation": 41.5,
+        "styleLayout": 33.5,
+        "paintCompositeRender": 7.7
+      },
+      "bootupMs": 141.9,
+      "longTasks": 4,
+      "longestTaskMs": 175
+    },
+    "dom": {
+      "elements": 118,
+      "depth": 5,
+      "maxChildren": 19
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1526,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 16,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 6
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2462.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T03:12:14.459Z",
+      "runtimeMs": 6313.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "2.3.1"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M80KV2BVT0RM8GDQNDD1WSV2"
+    },
+    "violations": 17,
+    "passes": 252,
+    "incomplete": 0,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 13,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h1",
+            "snippet": "<h1>home</h1>"
+          },
+          {
+            "selector": "p:nth-child(4)",
+            "snippet": "<p>⚠️&nbsp;This site content has been generated using Notion AI + 11ty + NotionCMS (see <a href=\"https://github.com/agency-kit/agencykit-11ty-starter\">the starter kit</a>). It is meant to demonstrate…"
+          },
+          {
+            "selector": "p:nth-child(6)",
+            "snippet": "<p>Welcome to the ultimate destination for everything related to metal detecting! Whether you're a seasoned detectorist or a novice who's just getting started, our website offers a wealth of resource…"
+          },
+          {
+            "selector": "p:nth-child(7)",
+            "snippet": "<p>"
+          },
+          {
+            "selector": "p:nth-child(8)",
+            "snippet": "<p>Remember, metal detecting is not just about finding treasures, but also about the thrill of the hunt, connecting with nature, and learning about history. So, whether you're interested in finding c…"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "p:nth-child(4) > a",
+            "snippet": "<a href=\"https://github.com/agency-kit/agencykit-11ty-starter\">the starter kit</a>"
+          },
+          {
+            "selector": "p:nth-child(9) > a[href$=\"about\"]",
+            "snippet": "<a href=\"/about\">About</a>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "footer > a",
+            "snippet": "<a href=\"https://www.agencykit.so/notion-cms/guide/\"> <img src=\"/built_with.png\" alt=\"\"> </a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "dabc585dffd0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"15db92338a7b855361bfd458bbb3193b-ssl\""
+        }
+      },
+      {
+        "hash": "dabc585dffd0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"15db92338a7b855361bfd458bbb3193b-ssl\""
+        }
+      },
+      {
+        "hash": "dabc585dffd0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535986",
+          "etag": "W/\"15db92338a7b855361bfd458bbb3193b-ssl\""
+        }
+      },
+      {
+        "hash": "dabc585dffd0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535981",
+          "etag": "W/\"15db92338a7b855361bfd458bbb3193b-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

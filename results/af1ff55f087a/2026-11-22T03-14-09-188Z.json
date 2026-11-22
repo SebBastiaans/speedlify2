@@ -1,0 +1,312 @@
+{
+  "url": "https://courtnotes.netlify.app/",
+  "name": "courtnotes.netlify.app",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795317249188,
+  "date": "2026-11-22T03:14:09.188Z",
+  "runId": "2026-11-22T03-08-29-803Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23469,
+  "error": null,
+  "variance": {
+    "min": 75,
+    "max": 98,
+    "spread": 23,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://courtnotes.netlify.app/",
+    "finalUrl": "https://courtnotes.netlify.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 895,
+      "lcp": 895,
+      "si": 3810,
+      "tbt": 38,
+      "tti": 2162,
+      "cls": 0,
+      "ttfb": 724,
+      "maxPotentialFid": 125,
+      "serverResponseTime": 268,
+      "networkRtt": 3.8,
+      "networkServerLatency": 123.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 291.5,
+      "elementRenderDelay": 2170.6
+    },
+    "weight": {
+      "total": 12757551,
+      "requests": 11,
+      "mainDocument": 4756,
+      "byType": {
+        "total": {
+          "bytes": 12757551,
+          "requests": 11
+        },
+        "image": {
+          "bytes": 12693214,
+          "requests": 7
+        },
+        "script": {
+          "bytes": 55133,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 4756,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 4355,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 93,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 55133,
+          "requests": 1
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 55133,
+      "mainThreadMs": 27.8,
+      "top": [
+        {
+          "entity": "Netlify",
+          "bytes": 55133,
+          "mainThreadMs": 27.8,
+          "byType": {
+            "script": 55133
+          },
+          "typedBytes": 55133
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 433,
+      "byGroup": {
+        "other": 240.5,
+        "scriptEvaluation": 112.6,
+        "styleLayout": 35.2,
+        "scriptParseCompile": 22.6,
+        "parseHTML": 13.5,
+        "paintCompositeRender": 8.5
+      },
+      "bootupMs": 133.4,
+      "longTasks": 1,
+      "longestTaskMs": 125
+    },
+    "dom": {
+      "elements": 107,
+      "depth": 9,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 21305,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 13107,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failingNodes": 14,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 14
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is not valid",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 4
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2486,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T03:14:10.477Z",
+      "runtimeMs": 8838.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M80KZ2SJAF541A8XDBDVD0EJ"
+    },
+    "violations": 14,
+    "passes": 193,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 14,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".hero-premium-subtitle",
+            "snippet": "<p class=\"hero-premium-subtitle\">"
+          },
+          {
+            "selector": ".featured-articles-header > p",
+            "snippet": "<p>Discover my latest hand-picked featured articles below:</p>"
+          },
+          {
+            "selector": ".featured-article:nth-child(2) > .featured-article-text > .article-meta",
+            "snippet": "<p class=\"article-meta\">Oct 26, 2026</p>"
+          },
+          {
+            "selector": ".featured-article:nth-child(2) > .featured-article-text > p:nth-child(3)",
+            "snippet": "<p>How a thought about automating software development rituals turned into the first module of my personal AI assistant.</p>"
+          },
+          {
+            "selector": ".featured-article:nth-child(3) > .featured-article-text > .article-meta",
+            "snippet": "<p class=\"article-meta\">Mar 19, 2026</p>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ae291c42cb1d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"41bbcd47ea1231b51f4c60d87398714f-ssl\""
+        }
+      },
+      {
+        "hash": "ae291c42cb1d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535991",
+          "etag": "W/\"41bbcd47ea1231b51f4c60d87398714f-ssl\""
+        }
+      },
+      {
+        "hash": "ae291c42cb1d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535984",
+          "etag": "W/\"41bbcd47ea1231b51f4c60d87398714f-ssl\""
+        }
+      },
+      {
+        "hash": "ae291c42cb1d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535979",
+          "etag": "W/\"41bbcd47ea1231b51f4c60d87398714f-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
