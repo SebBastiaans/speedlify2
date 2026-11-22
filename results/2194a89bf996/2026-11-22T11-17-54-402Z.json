@@ -1,0 +1,308 @@
+{
+  "url": "https://cw2architects.com/",
+  "name": "cw2architects.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795346274402,
+  "date": "2026-11-22T11:17:54.402Z",
+  "runId": "2026-11-22T11-16-56-229Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24461,
+  "error": null,
+  "variance": {
+    "min": 77,
+    "max": 92,
+    "spread": 15,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://cw2architects.com/",
+    "finalUrl": "https://cw2architects.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 92,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1607,
+      "lcp": 3240,
+      "si": 1607,
+      "tbt": 53,
+      "tti": 4682,
+      "cls": 0,
+      "ttfb": 681,
+      "maxPotentialFid": 130,
+      "serverResponseTime": 81,
+      "networkRtt": 0.1,
+      "networkServerLatency": 81.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 82.7,
+      "resourceLoadDelay": 8.4,
+      "resourceLoadDuration": 11.6,
+      "elementRenderDelay": 103.8
+    },
+    "weight": {
+      "total": 799801,
+      "requests": 22,
+      "mainDocument": 5560,
+      "byType": {
+        "total": {
+          "bytes": 799801,
+          "requests": 22
+        },
+        "image": {
+          "bytes": 443861,
+          "requests": 13
+        },
+        "script": {
+          "bytes": 303861,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 35540,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 9599,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 5560,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1380,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 769299,
+          "requests": 13
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 2,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 769299,
+      "mainThreadMs": 59.4,
+      "top": [
+        {
+          "entity": "imagekit.io",
+          "bytes": 429858,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 429858
+          },
+          "typedBytes": 429858
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 303080,
+          "mainThreadMs": 59.2,
+          "byType": {
+            "script": 303080
+          },
+          "typedBytes": 303080
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 36361,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 821,
+            "font": 35540
+          },
+          "typedBytes": 36361
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 491.9,
+      "byGroup": {
+        "scriptEvaluation": 230.6,
+        "other": 136.2,
+        "scriptParseCompile": 57.2,
+        "styleLayout": 37.6,
+        "parseHTML": 10.6,
+        "paintCompositeRender": 9.9,
+        "garbageCollection": 9.8
+      },
+      "bootupMs": 283.2,
+      "longTasks": 2,
+      "longestTaskMs": 130
+    },
+    "dom": {
+      "elements": 131,
+      "depth": 10,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 150262,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 775,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2976.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T11:18:11.742Z",
+      "runtimeMs": 6759.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx/1.31.9"
+    },
+    "violations": 1,
+    "passes": 211,
+    "incomplete": 9,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".o-image-grid__item--portrait.o-image-grid__item:nth-child(1) > article > h3",
+            "snippet": "<h3 class=\"c-teaser__title\"> <a href=\"/stamp-house/\">Stamp House</a> </h3>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d7f77952c20b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"62cc5cbc-6776\"",
+          "last-modified": "Mon, 11 Jul 2022 17:24:12 GMT"
+        }
+      },
+      {
+        "hash": "d7f77952c20b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"62cc5cbc-6776\"",
+          "last-modified": "Mon, 11 Jul 2022 17:24:12 GMT"
+        }
+      },
+      {
+        "hash": "d7f77952c20b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"62cc5cbc-6776\"",
+          "last-modified": "Mon, 11 Jul 2022 17:24:12 GMT"
+        }
+      },
+      {
+        "hash": "d7f77952c20b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"62cc5cbc-6776\"",
+          "last-modified": "Mon, 11 Jul 2022 17:24:12 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

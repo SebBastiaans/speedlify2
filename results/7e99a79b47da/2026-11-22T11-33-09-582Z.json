@@ -1,0 +1,364 @@
+{
+  "url": "https://about.google/",
+  "name": "Alphabet",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1795347189582,
+  "date": "2026-11-22T11:33:09.582Z",
+  "runId": "2026-11-22T11-16-56-229Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 98829,
+  "error": null,
+  "variance": {
+    "min": 60,
+    "max": 73,
+    "spread": 13,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://about.google/",
+    "finalUrl": "https://about.google/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 61,
+      "accessibility": 99,
+      "best-practices": 73,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2123,
+      "lcp": 9588,
+      "si": 2123,
+      "tbt": 489,
+      "tti": 9655,
+      "cls": 0,
+      "ttfb": 612,
+      "maxPotentialFid": 338,
+      "serverResponseTime": 8,
+      "networkRtt": 6.8,
+      "networkServerLatency": 43.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 11.2,
+      "resourceLoadDelay": 12.1,
+      "resourceLoadDuration": 14.4,
+      "elementRenderDelay": 1167.2
+    },
+    "weight": {
+      "total": 9588642,
+      "requests": 64,
+      "mainDocument": 29388,
+      "byType": {
+        "total": {
+          "bytes": 9588642,
+          "requests": 63
+        },
+        "media": {
+          "bytes": 8390171,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 707266,
+          "requests": 37
+        },
+        "image": {
+          "bytes": 220159,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 153895,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 84126,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 29904,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 3121,
+          "requests": 8
+        },
+        "third-party": {
+          "bytes": 9558955,
+          "requests": 61
+        }
+      },
+      "scripts": 37,
+      "stylesheets": 3,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 9326148,
+      "mainThreadMs": 243.7,
+      "top": [
+        {
+          "entity": "Google CDN",
+          "bytes": 8732078,
+          "mainThreadMs": 63.2,
+          "byType": {
+            "script": 239049,
+            "stylesheet": 78679,
+            "image": 220159,
+            "media": 8192038,
+            "other": 2153
+          },
+          "typedBytes": 8732078
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 316798,
+          "mainThreadMs": 155.2,
+          "byType": {
+            "script": 316798
+          },
+          "typedBytes": 316798
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 159342,
+          "mainThreadMs": 1.8,
+          "byType": {
+            "stylesheet": 5447,
+            "font": 153895
+          },
+          "typedBytes": 159342
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 117375,
+          "mainThreadMs": 23.5,
+          "byType": {
+            "script": 117375
+          },
+          "typedBytes": 117375
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 555,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 555
+          },
+          "typedBytes": 555
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2170.9,
+      "byGroup": {
+        "scriptEvaluation": 914.4,
+        "other": 667.7,
+        "styleLayout": 228.2,
+        "scriptParseCompile": 196.3,
+        "paintCompositeRender": 64,
+        "garbageCollection": 53.2,
+        "parseHTML": 47.2
+      },
+      "bootupMs": 874.7,
+      "longTasks": 7,
+      "longestTaskMs": 338
+    },
+    "dom": {
+      "elements": 567,
+      "depth": 17,
+      "maxChildren": 77
+    },
+    "waste": {
+      "unusedJsBytes": 277577,
+      "unusedCssBytes": 72942,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 2004,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 235884.5166666667,
+      "poorlyCachedCount": 32
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 33,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": null,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 31
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3102.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T11:33:18.531Z",
+      "runtimeMs": 7669.7
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 695.4,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 848.3,
+    "elementRenderDelay": 3926.9
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "3.1.3"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "sffe",
+      "name": "Google",
+      "icon": "Google",
+      "source": "server"
+    },
+    "headers": {
+      "server": "sffe"
+    },
+    "violations": 2,
+    "passes": 499,
+    "incomplete": 4,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h6",
+            "snippet": "<h6 class=\"glue-headline glue-headline--headline-4 glue-spacer-2-bottom\" data-cy=\"title\"> <div class=\"cms-textAlign-center\"></div> </h6>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h6",
+            "snippet": "<h6 class=\"glue-headline glue-headline--headline-4 glue-spacer-2-bottom\" data-cy=\"title\"> <div class=\"cms-textAlign-center\"></div> </h6>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a1c614778464",
+        "nonce": "262388d17774",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "a1c614778464",
+        "nonce": "e891ec288370",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "a1c614778464",
+        "nonce": "8f0b381094e7",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "a1c614778464",
+        "nonce": "ec9127506992",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "a1c614778464",
+        "nonce": "a9de7da5e2af",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

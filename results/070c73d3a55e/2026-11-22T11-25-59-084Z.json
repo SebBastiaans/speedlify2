@@ -1,0 +1,361 @@
+{
+  "url": "https://docusaurus.io/",
+  "name": "Docusaurus",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795346759084,
+  "date": "2026-11-22T11:25:59.084Z",
+  "runId": "2026-11-22T11-16-56-229Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 52605,
+  "error": null,
+  "variance": {
+    "min": 91,
+    "max": 94,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://docusaurus.io/",
+    "finalUrl": "https://docusaurus.io/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 92,
+      "accessibility": 98,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1540,
+      "lcp": 1540,
+      "si": 1540,
+      "tbt": 321,
+      "tti": 5165,
+      "cls": 0,
+      "ttfb": 468,
+      "maxPotentialFid": 386,
+      "serverResponseTime": 20,
+      "networkRtt": 0.1,
+      "networkServerLatency": 30.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 21.2,
+      "elementRenderDelay": 104.5
+    },
+    "weight": {
+      "total": 800114,
+      "requests": 49,
+      "mainDocument": 11102,
+      "byType": {
+        "total": {
+          "bytes": 800114,
+          "requests": 43
+        },
+        "script": {
+          "bytes": 504506,
+          "requests": 7
+        },
+        "image": {
+          "bytes": 153631,
+          "requests": 14
+        },
+        "other": {
+          "bytes": 90684,
+          "requests": 18
+        },
+        "stylesheet": {
+          "bytes": 37058,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 14235,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 282761,
+          "requests": 7
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 278059,
+      "mainThreadMs": 50.2,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 181490,
+          "mainThreadMs": 50.2,
+          "byType": {
+            "script": 181490
+          },
+          "typedBytes": 181490
+        },
+        {
+          "entity": "YouTube",
+          "bytes": 64583,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 64583
+          },
+          "typedBytes": 64583
+        },
+        {
+          "entity": "unavatar.io",
+          "bytes": 31986,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 31986
+          },
+          "typedBytes": 31986
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1835,
+      "byGroup": {
+        "scriptEvaluation": 712.5,
+        "other": 555.7,
+        "styleLayout": 192.7,
+        "scriptParseCompile": 189,
+        "paintCompositeRender": 116.2,
+        "garbageCollection": 35.1,
+        "parseHTML": 33.9
+      },
+      "bootupMs": 846.2,
+      "longTasks": 6,
+      "longestTaskMs": 386
+    },
+    "dom": {
+      "elements": 436,
+      "depth": 13,
+      "maxChildren": 22
+    },
+    "waste": {
+      "unusedJsBytes": 130023,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 450,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 50006.25,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 27,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 44
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3055.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T11:26:08.262Z",
+      "runtimeMs": 7382.7
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.7,
+    "elementRenderDelay": 1228.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "docusaurus",
+      "name": "Docusaurus",
+      "icon": "Docusaurus",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Docusaurus v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Docusaurus v4.0.0"
+      ],
+      "marks": [
+        "docusaurus",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5e794d09e062899-IAD",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M81G4FK4QFQFM0ZSK4WFH96T"
+    },
+    "violations": 3,
+    "passes": 627,
+    "incomplete": 4,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "article",
+            "snippet": "<article class=\"yt-lite \" data-title=\"Explain Like I'm 5: Docusaurus\" role=\"img\" aria-label=\"Explain Like I'm 5: Docusaurus - YouTube video preview\" style=\"background-image: url(\"https://img.youtube.…"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".margin-top--lg > .col:nth-child(1) > h3",
+            "snippet": "<h3 class=\"featureHeading_TLGJ\">Powered by MDX</h3>"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Interactive controls must not be nested",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "article",
+            "snippet": "<article class=\"yt-lite \" data-title=\"Explain Like I'm 5: Docusaurus\" role=\"img\" aria-label=\"Explain Like I'm 5: Docusaurus - YouTube video preview\" style=\"background-image: url(\"https://img.youtube.…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c96b9ba1f464",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "22629",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31513371",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "c96b9ba1f464",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "22637",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31513363",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "c96b9ba1f464",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "22644",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31513356",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "c96b9ba1f464",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "22652",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31513348",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "c96b9ba1f464",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "22677",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31513323",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
