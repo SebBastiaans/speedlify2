@@ -1,0 +1,356 @@
+{
+  "url": "https://crates.io/",
+  "name": "crates.io",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795372813175,
+  "date": "2026-11-22T18:40:13.175Z",
+  "runId": "2026-11-22T18-33-16-022Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 47153,
+  "error": null,
+  "variance": {
+    "min": 95,
+    "max": 96,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://crates.io/",
+    "finalUrl": "https://crates.io/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 911,
+      "lcp": 2675,
+      "si": 911,
+      "tbt": 98,
+      "tti": 2682,
+      "cls": 0.011,
+      "ttfb": 611,
+      "maxPotentialFid": 140,
+      "serverResponseTime": 74,
+      "networkRtt": 0,
+      "networkServerLatency": 11.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 75.5,
+      "elementRenderDelay": 269.7
+    },
+    "weight": {
+      "total": 230240,
+      "requests": 71,
+      "mainDocument": 2504,
+      "byType": {
+        "total": {
+          "bytes": 225583,
+          "requests": 59
+        },
+        "script": {
+          "bytes": 92150,
+          "requests": 40
+        },
+        "font": {
+          "bytes": 74498,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 34213,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 19653,
+          "requests": 9
+        },
+        "image": {
+          "bytes": 2565,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 2504,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 23327,
+          "requests": 2
+        }
+      },
+      "scripts": 40,
+      "stylesheets": 9,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 23327,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "rust-lang.org",
+          "bytes": 23327,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 23327
+          },
+          "typedBytes": 23327
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1002.7,
+      "byGroup": {
+        "other": 383.2,
+        "scriptEvaluation": 286.3,
+        "styleLayout": 184.3,
+        "parseHTML": 67.1,
+        "paintCompositeRender": 49,
+        "garbageCollection": 18.5,
+        "scriptParseCompile": 14.3
+      },
+      "bootupMs": 265.1,
+      "longTasks": 2,
+      "longestTaskMs": 140
+    },
+    "dom": {
+      "elements": 680,
+      "depth": 12,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 27,
+      "failingNodes": 164,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 104
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 60
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 23
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2563.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T18:40:22.649Z",
+      "runtimeMs": 7354.9
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127,
+    "elementRenderDelay": 2423.7
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "sveltekit",
+      "name": "SvelteKit",
+      "icon": "Svelte",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "sveltekit",
+        "svelte"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "Heroku",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "Heroku",
+      "via": "1.1 heroku-router, 1.1 varnish",
+      "x-served-by": "cache-bfi-krnt7300067-BFI"
+    },
+    "violations": 164,
+    "passes": 1457,
+    "incomplete": 2,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 104,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".all",
+            "snippet": "<a class=\"all svelte-1f1yxno\" href=\"https://blog.rust-lang.org/tags/crates-io/\">All posts on the Rust blog <span class=\"icon i-mdi:chevron-right svelte-1eqehiz\" aria-hidden=\"true\"></span><!----></a>"
+          },
+          {
+            "selector": "time[datetime=\"2026-09-17T00:00:00.000Z\"]",
+            "snippet": "<time class=\"svelte-1f1yxno\" datetime=\"2026-09-17T00:00:00.000Z\">Sep 17, 2026</time>"
+          },
+          {
+            "selector": "time[datetime=\"2026-08-20T00:00:00.000Z\"]",
+            "snippet": "<time class=\"svelte-1f1yxno\" datetime=\"2026-08-20T00:00:00.000Z\">Aug 20, 2026</time>"
+          },
+          {
+            "selector": "time[datetime=\"2026-07-13T00:00:00.000Z\"]",
+            "snippet": "<time class=\"svelte-1f1yxno\" datetime=\"2026-07-13T00:00:00.000Z\">Jul 13, 2026</time>"
+          },
+          {
+            "selector": "#c5-subtitle",
+            "snippet": "<div class=\"subtitle svelte-124xg1a\" id=\"c5-subtitle\">gpdoc support for task lists and task items <span class=\"anchor svelte-11extwn\"></span> <!----><!----></div>"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 60,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"gpdoc-plugin-task-list\"]",
+            "snippet": "<a href=\"/crates/gpdoc-plugin-task-list\" class=\"box svelte-124xg1a\" aria-labelledby=\"c5-title\" aria-describedby=\"c5-subtitle c5-trailing\">"
+          },
+          {
+            "selector": "a[href$=\"seatwise\"]",
+            "snippet": "<a href=\"/crates/seatwise\" class=\"box svelte-124xg1a\" aria-labelledby=\"c6-title\" aria-describedby=\"c6-subtitle c6-trailing\">"
+          },
+          {
+            "selector": "a[href$=\"lib_jsl_interpolation\"]",
+            "snippet": "<a href=\"/crates/lib_jsl_interpolation\" class=\"box svelte-124xg1a\" aria-labelledby=\"c7-title\" aria-describedby=\"c7-subtitle c7-trailing\">"
+          },
+          {
+            "selector": "a[href$=\"neonhive\"]",
+            "snippet": "<a href=\"/crates/neonhive\" class=\"box svelte-124xg1a\" aria-labelledby=\"c8-title\" aria-describedby=\"c8-subtitle c8-trailing\">"
+          },
+          {
+            "selector": "a[href$=\"toddstack-renderer\"]",
+            "snippet": "<a href=\"/crates/toddstack-renderer\" class=\"box svelte-124xg1a\" aria-labelledby=\"c9-title\" aria-describedby=\"c9-subtitle c9-trailing\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9fc7f28b4b97",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "MISS"
+        }
+      },
+      {
+        "hash": "9fc7f28b4b97",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "MISS"
+        }
+      },
+      {
+        "hash": "9fc7f28b4b97",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "MISS"
+        }
+      },
+      {
+        "hash": "9fc7f28b4b97",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "MISS"
+        }
+      },
+      {
+        "hash": "9fc7f28b4b97",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "MISS"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
