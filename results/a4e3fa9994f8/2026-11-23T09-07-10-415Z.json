@@ -1,0 +1,282 @@
+{
+  "url": "https://journa11ty.pages.dev/",
+  "name": "journa11ty.pages.dev",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1795424830415,
+  "date": "2026-11-23T09:07:10.415Z",
+  "runId": "2026-11-23T08-59-04-551Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 19195,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 99,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://journa11ty.pages.dev/",
+    "finalUrl": "https://journa11ty.pages.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1694,
+      "lcp": 1694,
+      "si": 1694,
+      "tbt": 0,
+      "tti": 1694,
+      "cls": 0.004,
+      "ttfb": 471,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 18,
+      "networkRtt": 0,
+      "networkServerLatency": 23.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 19.7,
+      "elementRenderDelay": 75.1
+    },
+    "weight": {
+      "total": 114539,
+      "requests": 12,
+      "mainDocument": 2042,
+      "byType": {
+        "total": {
+          "bytes": 112498,
+          "requests": 11
+        },
+        "font": {
+          "bytes": 65705,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 24339,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 20412,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 2042,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 67878,
+          "requests": 3
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 5,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 67878,
+      "mainThreadMs": 0.3,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 67878,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 2173,
+            "font": 65705
+          },
+          "typedBytes": 67878
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 166.7,
+      "byGroup": {
+        "other": 79.9,
+        "styleLayout": 39.9,
+        "scriptEvaluation": 23.4,
+        "parseHTML": 10.8,
+        "scriptParseCompile": 6.6,
+        "paintCompositeRender": 6.1
+      },
+      "bootupMs": 16.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 110,
+      "depth": 10,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 923,
+      "renderBlockingCount": 7,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 13,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is not valid",
+          "weight": 1,
+          "nodes": 242
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 19
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3362,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T09:07:23.299Z",
+      "runtimeMs": 5724.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.0",
+      "source": "meta",
+      "raw": "Eleventy v3.1.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5ef06143f0c6a8a-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 217,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".grid:nth-child(1) > div:nth-child(1) > article > header > h3",
+            "snippet": "<h3><a href=\"/posts/2025-05-07/\">Post 7</a></h3>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "5a0d37a2bbc8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "5a0d37a2bbc8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "5a0d37a2bbc8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "5a0d37a2bbc8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
