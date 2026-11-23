@@ -1,0 +1,422 @@
+{
+  "url": "https://jerseycitybitcoin.com/",
+  "name": "jerseycitybitcoin.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795424556759,
+  "date": "2026-11-23T09:02:36.759Z",
+  "runId": "2026-11-23T08-59-05-839Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25001,
+  "error": null,
+  "variance": {
+    "min": 84,
+    "max": 96,
+    "spread": 12,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://jerseycitybitcoin.com/",
+    "finalUrl": "https://jerseycitybitcoin.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 93,
+      "accessibility": 74,
+      "best-practices": 77,
+      "seo": 82,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1542,
+      "lcp": 2750,
+      "si": 1542,
+      "tbt": 200,
+      "tti": 5758,
+      "cls": 0.03,
+      "ttfb": 467,
+      "maxPotentialFid": 148,
+      "serverResponseTime": 15,
+      "networkRtt": 0.2,
+      "networkServerLatency": 65.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 16.5,
+      "elementRenderDelay": 73.4
+    },
+    "weight": {
+      "total": 648488,
+      "requests": 26,
+      "mainDocument": 3260,
+      "byType": {
+        "total": {
+          "bytes": 647369,
+          "requests": 25
+        },
+        "script": {
+          "bytes": 529013,
+          "requests": 9
+        },
+        "font": {
+          "bytes": 101274,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 12204,
+          "requests": 8
+        },
+        "document": {
+          "bytes": 3260,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1618,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 627111,
+          "requests": 13
+        }
+      },
+      "scripts": 9,
+      "stylesheets": 8,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 627111,
+      "mainThreadMs": 133.8,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 486422,
+          "mainThreadMs": 106.5,
+          "byType": {
+            "script": 486422
+          },
+          "typedBytes": 486422
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 102552,
+          "mainThreadMs": 0.4,
+          "byType": {
+            "stylesheet": 1278,
+            "font": 101274
+          },
+          "typedBytes": 102552
+        },
+        {
+          "entity": "Clarity",
+          "bytes": 27201,
+          "mainThreadMs": 19.3,
+          "byType": {
+            "script": 26631,
+            "other": 570
+          },
+          "typedBytes": 27201
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 7.6,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "bitpay.com",
+          "bytes": 585,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 585
+          },
+          "typedBytes": 585
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 844.1,
+      "byGroup": {
+        "scriptEvaluation": 480.3,
+        "other": 141.5,
+        "scriptParseCompile": 120,
+        "styleLayout": 81.5,
+        "parseHTML": 11.9,
+        "paintCompositeRender": 8.9
+      },
+      "bootupMs": 549.8,
+      "longTasks": 5,
+      "longestTaskMs": 148
+    },
+    "dom": {
+      "elements": 118,
+      "depth": 9,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 276535,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 926,
+      "renderBlockingCount": 9,
+      "poorlyCachedBytes": 14446.400000000001,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 5,
+      "applicableCount": 17,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "html-has-lang",
+          "title": "`<html>` element does not have a `[lang]` attribute",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "meta-viewport",
+          "title": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 5
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 20
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2478.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T09:02:53.758Z",
+      "runtimeMs": 7394.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5eeff8a0a6defaa-IAD",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M83T9WJKTA4R1NP7ZX1Z3NH9"
+    },
+    "violations": 5,
+    "passes": 190,
+    "incomplete": 14,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".Footer-source",
+            "snippet": "<p class=\"Footer-source\"> Source available on Github → <a href=\"https://github.com/Jersey-City-Bitcoin/JerseyCityBitcoin\" target=\"_blank\" rel=\"noopener nofollow\">Jersey-City-Bitcoin/JerseyCityBitcoin…"
+          }
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<html> element must have a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html>"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".Nav-stamp",
+            "snippet": "<a class=\"Nav-stamp\" href=\"/\" aria-label=\"Jersey City Bitcoin home\">JC BTC</a>"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"contact-us/\"]",
+            "snippet": "<a href=\"/contact-us/\">here</a>"
+          }
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Zooming and scaling must not be disabled",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "meta[name=\"viewport\"]",
+            "snippet": "<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "26e4bb2a32a2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "26e4bb2a32a2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "26e4bb2a32a2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535985",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "26e4bb2a32a2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "22",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535978",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
