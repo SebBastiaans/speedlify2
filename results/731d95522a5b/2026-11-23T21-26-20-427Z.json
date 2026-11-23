@@ -1,0 +1,412 @@
+{
+  "url": "https://krav-maga-karlsruhe.de/",
+  "name": "krav-maga-karlsruhe.de",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795469180427,
+  "date": "2026-11-23T21:26:20.427Z",
+  "runId": "2026-11-23T21-18-04-817Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 54148,
+  "error": null,
+  "variance": {
+    "min": 48,
+    "max": 60,
+    "spread": 12,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://krav-maga-karlsruhe.de/",
+    "finalUrl": "https://krav-maga-karlsruhe.de/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 60,
+      "accessibility": 82,
+      "best-practices": 92,
+      "seo": 91,
+      "agentic-browsing": 36
+    },
+    "timings": {
+      "fcp": 3053,
+      "lcp": 6099,
+      "si": 4938,
+      "tbt": 166,
+      "tti": 6114,
+      "cls": 0.162,
+      "ttfb": 803,
+      "maxPotentialFid": 216,
+      "serverResponseTime": 202,
+      "networkRtt": 0.1,
+      "networkServerLatency": 203.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 203.5,
+      "resourceLoadDelay": 16.9,
+      "resourceLoadDuration": 199.4,
+      "elementRenderDelay": 1955
+    },
+    "weight": {
+      "total": 10977623,
+      "requests": 54,
+      "mainDocument": 7507,
+      "byType": {
+        "total": {
+          "bytes": 10977375,
+          "requests": 47
+        },
+        "image": {
+          "bytes": 5700285,
+          "requests": 37
+        },
+        "media": {
+          "bytes": 4924014,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 307456,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 33752,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 7507,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 4361,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10658442,
+          "requests": 44
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 6306723,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "kravmaga-ka.de",
+          "bytes": 6288336,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 391,
+            "image": 5681898,
+            "media": 572295,
+            "font": 33752
+          },
+          "typedBytes": 6288336
+        },
+        {
+          "entity": "Wix",
+          "bytes": 18387,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 18387
+          },
+          "typedBytes": 18387
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1389.4,
+      "byGroup": {
+        "other": 988.2,
+        "parseHTML": 190.8,
+        "styleLayout": 136.7,
+        "paintCompositeRender": 42.1,
+        "scriptEvaluation": 26.4,
+        "scriptParseCompile": 5.3
+      },
+      "bootupMs": 24,
+      "longTasks": 3,
+      "longestTaskMs": 255
+    },
+    "dom": {
+      "elements": 224,
+      "depth": 8,
+      "maxChildren": 13
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 306276,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 58334,
+      "renderBlockingMs": 3045,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 6075210,
+      "poorlyCachedCount": 45
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 27,
+      "failingNodes": 9,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 5
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 2
+        },
+        {
+          "id": "aria-required-children",
+          "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 6
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 5
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 10
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2431.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T21:26:56.996Z",
+      "runtimeMs": 16741.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 10,
+    "passes": 461,
+    "incomplete": 27,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 5,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".trainer-card.md\\:w-42.lg\\:w-56:nth-child(1) > .h-auto:nth-child(1)",
+            "snippet": "<img src=\"https://media.kravmaga-ka.de/pictures/trainer/mario.jpg\" class=\"w-full h-auto\">"
+          },
+          {
+            "selector": ".trainer-card.md\\:w-42.lg\\:w-56:nth-child(2) > .h-auto:nth-child(1)",
+            "snippet": "<img src=\"https://media.kravmaga-ka.de/pictures/trainer/kevin-2023-05.jpg\" class=\"w-full h-auto\">"
+          },
+          {
+            "selector": ".trainer-card.md\\:w-42.lg\\:w-56:nth-child(3) > .h-auto:nth-child(1)",
+            "snippet": "<img src=\"https://media.kravmaga-ka.de/pictures/trainer/andre.jpg\" class=\"w-full h-auto\">"
+          },
+          {
+            "selector": ".trainer-card.md\\:w-42.lg\\:w-56:nth-child(4) > .h-auto:nth-child(1)",
+            "snippet": "<img src=\"https://media.kravmaga-ka.de/pictures/trainer/thomas.jpg\" class=\"w-full h-auto\">"
+          },
+          {
+            "selector": ".trainer-card.md\\:w-42.lg\\:w-56:nth-child(5) > .h-auto:nth-child(1)",
+            "snippet": "<img src=\"https://media.kravmaga-ka.de/pictures/trainer/miriam.jpg\" class=\"w-full h-auto\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".p-8.max-w-3xl.bg-gray:nth-child(2) > .max-w-md.text-xl > h3",
+            "snippet": "<h3 class=\"text-sm\">12.08.2025</h3>"
+          },
+          {
+            "selector": "section:nth-child(1) > h3",
+            "snippet": "<h3 class=\"text-xl font-bold\">Kontakt</h3>"
+          }
+        ]
+      },
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".top-10",
+            "snippet": "<button role=\"menu\" class=\"absolute top-10 right-10\"> <img src=\"https://media.kravmaga-ka.de/pictures/icons/close.png\" alt=\"close\" width=\"24\" height=\"24\"> </button>"
+          }
+        ]
+      },
+      {
+        "id": "aria-required-children",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Certain ARIA roles must contain particular children",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-children?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".top-10",
+            "snippet": "<button role=\"menu\" class=\"absolute top-10 right-10\"> <img src=\"https://media.kravmaga-ka.de/pictures/icons/close.png\" alt=\"close\" width=\"24\" height=\"24\"> </button>"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".top-10",
+            "snippet": "<button role=\"menu\" class=\"absolute top-10 right-10\"> <img src=\"https://media.kravmaga-ka.de/pictures/icons/close.png\" alt=\"close\" width=\"24\" height=\"24\"> </button>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "f609f748bc14",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"68d926ac-88cf\"",
+          "last-modified": "Sun, 28 Sep 2025 12:14:36 GMT"
+        }
+      },
+      {
+        "hash": "f609f748bc14",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"68d926ac-88cf\"",
+          "last-modified": "Sun, 28 Sep 2025 12:14:36 GMT"
+        }
+      },
+      {
+        "hash": "f609f748bc14",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"68d926ac-88cf\"",
+          "last-modified": "Sun, 28 Sep 2025 12:14:36 GMT"
+        }
+      },
+      {
+        "hash": "f609f748bc14",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"68d926ac-88cf\"",
+          "last-modified": "Sun, 28 Sep 2025 12:14:36 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

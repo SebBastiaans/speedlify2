@@ -1,0 +1,279 @@
+{
+  "url": "https://lenny.fyi/",
+  "name": "lenny.fyi",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795469532041,
+  "date": "2026-11-23T21:32:12.041Z",
+  "runId": "2026-11-23T21-18-04-817Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 28631,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 99,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://lenny.fyi/",
+    "finalUrl": "https://lenny.fyi/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1151,
+      "lcp": 1151,
+      "si": 3914,
+      "tbt": 0,
+      "tti": 1151,
+      "cls": 0,
+      "ttfb": 935,
+      "maxPotentialFid": 35,
+      "serverResponseTime": 168,
+      "networkRtt": 0,
+      "networkServerLatency": 335.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 169.4,
+      "elementRenderDelay": 2193.7
+    },
+    "weight": {
+      "total": 140531,
+      "requests": 21,
+      "mainDocument": 2127,
+      "byType": {
+        "total": {
+          "bytes": 124953,
+          "requests": 9
+        },
+        "font": {
+          "bytes": 99546,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 13406,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 6174,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 3257,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 2127,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 443,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 443,
+          "requests": 1
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 443,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "speedlify.dev",
+          "bytes": 443,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 443
+          },
+          "typedBytes": 443
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 263.8,
+      "byGroup": {
+        "other": 114.7,
+        "styleLayout": 86.3,
+        "scriptEvaluation": 40.1,
+        "paintCompositeRender": 13,
+        "parseHTML": 8.5,
+        "scriptParseCompile": 1.2
+      },
+      "bootupMs": 27.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 121,
+      "depth": 7,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "aria-allowed-attr",
+          "title": "`[aria-*]` attributes do not match their roles",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 17
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2420,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T21:32:31.227Z",
+      "runtimeMs": 9140.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 1,
+    "passes": 347,
+    "incomplete": 10,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Elements must only use supported ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href=\"/\"]",
+            "snippet": "<a href=\"/\" class=\"nav__link\" aria-current=\"Page\"> Home </a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "dd5d25d3c0ca",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6b0383cd-155b\"",
+          "last-modified": "Mon, 23 Nov 2026 00:07:41 GMT"
+        }
+      },
+      {
+        "hash": "dd5d25d3c0ca",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6b0383cd-155b\"",
+          "last-modified": "Mon, 23 Nov 2026 00:07:41 GMT"
+        }
+      },
+      {
+        "hash": "dd5d25d3c0ca",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6b0383cd-155b\"",
+          "last-modified": "Mon, 23 Nov 2026 00:07:41 GMT"
+        }
+      },
+      {
+        "hash": "dd5d25d3c0ca",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6b0383cd-155b\"",
+          "last-modified": "Mon, 23 Nov 2026 00:07:41 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

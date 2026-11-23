@@ -1,0 +1,272 @@
+{
+  "url": "https://manifesteren.nl/",
+  "name": "manifesteren.nl",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795469629080,
+  "date": "2026-11-23T21:33:49.080Z",
+  "runId": "2026-11-23T21-18-04-817Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 28897,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://manifesteren.nl/",
+    "finalUrl": "https://manifesteren.nl/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 927,
+      "lcp": 1741,
+      "si": 2249,
+      "tbt": 0,
+      "tti": 1748,
+      "cls": 0,
+      "ttfb": 764,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 152,
+      "networkRtt": 0.1,
+      "networkServerLatency": 164
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 154.1,
+      "resourceLoadDelay": 11.2,
+      "resourceLoadDuration": 203.1,
+      "elementRenderDelay": 958.3
+    },
+    "weight": {
+      "total": 274879,
+      "requests": 15,
+      "mainDocument": 5818,
+      "byType": {
+        "total": {
+          "bytes": 272427,
+          "requests": 14
+        },
+        "image": {
+          "bytes": 233178,
+          "requests": 8
+        },
+        "script": {
+          "bytes": 26235,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 5818,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 5576,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1620,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3259,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 3259,
+      "mainThreadMs": 0.8,
+      "top": [
+        {
+          "entity": "Plausible",
+          "bytes": 3259,
+          "mainThreadMs": 0.8,
+          "byType": {
+            "script": 3259
+          },
+          "typedBytes": 3259
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 290.9,
+      "byGroup": {
+        "other": 160.6,
+        "paintCompositeRender": 38.6,
+        "scriptEvaluation": 36.2,
+        "styleLayout": 33.9,
+        "scriptParseCompile": 11,
+        "parseHTML": 10.6
+      },
+      "bootupMs": 14.6,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 139,
+      "depth": 11,
+      "maxChildren": 17
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 29404.84166666666,
+      "poorlyCachedCount": 11
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2451.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T21:34:08.697Z",
+      "runtimeMs": 8893.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "LiteSpeed",
+      "detailIcon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "LiteSpeed"
+    },
+    "violations": 0,
+    "passes": 213,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "00853d421375",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Thu, 19 Nov 2026 08:41:07 GMT"
+        }
+      },
+      {
+        "hash": "00853d421375",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Thu, 19 Nov 2026 08:41:07 GMT"
+        }
+      },
+      {
+        "hash": "00853d421375",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Thu, 19 Nov 2026 08:41:07 GMT"
+        }
+      },
+      {
+        "hash": "00853d421375",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Thu, 19 Nov 2026 08:41:07 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
