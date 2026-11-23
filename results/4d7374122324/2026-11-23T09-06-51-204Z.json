@@ -1,0 +1,273 @@
+{
+  "url": "https://games.porg.es/",
+  "name": "games.porg.es",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795424811204,
+  "date": "2026-11-23T09:06:51.204Z",
+  "runId": "2026-11-23T08-59-14-176Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25336,
+  "error": null,
+  "variance": {
+    "min": 95,
+    "max": 99,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://games.porg.es/",
+    "finalUrl": "https://games.porg.es/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1522,
+      "lcp": 1522,
+      "si": 1522,
+      "tbt": 126,
+      "tti": 5997,
+      "cls": 0,
+      "ttfb": 611,
+      "maxPotentialFid": 139,
+      "serverResponseTime": 10,
+      "networkRtt": 60,
+      "networkServerLatency": 60.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 11.5,
+      "elementRenderDelay": 113.4
+    },
+    "weight": {
+      "total": 762345,
+      "requests": 19,
+      "mainDocument": 3766,
+      "byType": {
+        "total": {
+          "bytes": 762345,
+          "requests": 19
+        },
+        "font": {
+          "bytes": 505520,
+          "requests": 6
+        },
+        "script": {
+          "bytes": 212544,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 21195,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 16727,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 3766,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2593,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 210787,
+          "requests": 4
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 5,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 210787,
+      "mainThreadMs": 88.9,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 183569,
+          "mainThreadMs": 63,
+          "byType": {
+            "script": 183569
+          },
+          "typedBytes": 183569
+        },
+        {
+          "entity": "Clarity",
+          "bytes": 27218,
+          "mainThreadMs": 25.9,
+          "byType": {
+            "script": 26941,
+            "other": 277
+          },
+          "typedBytes": 27218
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 760.7,
+      "byGroup": {
+        "scriptEvaluation": 354.5,
+        "other": 160,
+        "styleLayout": 134.3,
+        "scriptParseCompile": 56.1,
+        "paintCompositeRender": 40.6,
+        "parseHTML": 15.2
+      },
+      "bootupMs": 388.3,
+      "longTasks": 3,
+      "longestTaskMs": 139
+    },
+    "dom": {
+      "elements": 264,
+      "depth": 7,
+      "maxChildren": 30
+    },
+    "waste": {
+      "unusedJsBytes": 78524,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 5318,
+      "renderBlockingMs": 2305,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 555782,
+      "poorlyCachedCount": 14
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 25,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "http/1.1",
+      "legacyHttpRequests": 15,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 36
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2446,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T09:07:08.300Z",
+      "runtimeMs": 7375.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "neocities",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "neocities"
+    },
+    "violations": 0,
+    "passes": 487,
+    "incomplete": 119,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "2b1a2c4c5f2e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6ac5fc21-35a7\"",
+          "last-modified": "Wed, 07 Oct 2026 08:00:33 GMT"
+        }
+      },
+      {
+        "hash": "2b1a2c4c5f2e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6ac5fc21-35a7\"",
+          "last-modified": "Wed, 07 Oct 2026 08:00:33 GMT"
+        }
+      },
+      {
+        "hash": "2b1a2c4c5f2e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6ac5fc21-35a7\"",
+          "last-modified": "Wed, 07 Oct 2026 08:00:33 GMT"
+        }
+      },
+      {
+        "hash": "2b1a2c4c5f2e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6ac5fc21-35a7\"",
+          "last-modified": "Wed, 07 Oct 2026 08:00:33 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
