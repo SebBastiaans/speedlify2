@@ -1,0 +1,307 @@
+{
+  "url": "https://liz.hoeser.dev/",
+  "name": "liz.hoeser.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795469208267,
+  "date": "2026-11-23T21:26:48.267Z",
+  "runId": "2026-11-23T21-17-58-012Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22412,
+  "error": null,
+  "variance": {
+    "min": 89,
+    "max": 90,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://liz.hoeser.dev/",
+    "finalUrl": "https://liz.hoeser.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 89,
+      "accessibility": 84,
+      "best-practices": 100,
+      "seo": 83,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 834,
+      "lcp": 3810,
+      "si": 834,
+      "tbt": 0,
+      "tti": 3810,
+      "cls": 0.029,
+      "ttfb": 510,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 85,
+      "networkRtt": 0.1,
+      "networkServerLatency": 60.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 86.6,
+      "resourceLoadDelay": 17.5,
+      "resourceLoadDuration": 81.9,
+      "elementRenderDelay": 32.2
+    },
+    "weight": {
+      "total": 1182314,
+      "requests": 18,
+      "mainDocument": 5146,
+      "byType": {
+        "total": {
+          "bytes": 1177472,
+          "requests": 17
+        },
+        "image": {
+          "bytes": 1161506,
+          "requests": 14
+        },
+        "script": {
+          "bytes": 10368,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 5146,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 452,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10368,
+          "requests": 1
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10368,
+      "mainThreadMs": 7.2,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10368,
+          "mainThreadMs": 7.2,
+          "byType": {
+            "script": 10368
+          },
+          "typedBytes": 10368
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 219.1,
+      "byGroup": {
+        "other": 117.5,
+        "scriptEvaluation": 41.9,
+        "styleLayout": 36.4,
+        "paintCompositeRender": 16.7,
+        "parseHTML": 6.1,
+        "scriptParseCompile": 0.6
+      },
+      "bootupMs": 19,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 263,
+      "depth": 7,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10373,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 4147.2,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 12,
+      "failingNodes": 6,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 4
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is not valid",
+          "weight": 1,
+          "nodes": 458
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 19
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3524,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T21:27:03.935Z",
+      "runtimeMs": 6407.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.0.0",
+      "source": "meta",
+      "raw": "Eleventy v3.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5f3419b8b8c302c-PDX",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 300,
+    "incomplete": 48,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#Contact > h1",
+            "snippet": "<h1>Contact</h1>"
+          },
+          {
+            "selector": "p:nth-child(4) > a",
+            "snippet": "<a href=\"https://www.instagram.com/liz.hoeser/\">Instagram</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "50f23c5102f8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "50f23c5102f8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "50f23c5102f8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "50f23c5102f8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

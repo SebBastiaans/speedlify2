@@ -1,0 +1,269 @@
+{
+  "url": "https://legonotlegos.com/",
+  "name": "legonotlegos.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795469086509,
+  "date": "2026-11-23T21:24:46.509Z",
+  "runId": "2026-11-23T21-17-58-012Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20250,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://legonotlegos.com/",
+    "finalUrl": "https://legonotlegos.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 793,
+      "lcp": 793,
+      "si": 793,
+      "tbt": 0,
+      "tti": 793,
+      "cls": 0.006,
+      "ttfb": 621,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 23,
+      "networkRtt": 0,
+      "networkServerLatency": 21.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 24.4,
+      "elementRenderDelay": 30
+    },
+    "weight": {
+      "total": 105968,
+      "requests": 6,
+      "mainDocument": 6122,
+      "byType": {
+        "total": {
+          "bytes": 105968,
+          "requests": 6
+        },
+        "font": {
+          "bytes": 91540,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 7589,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 6122,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 717,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 92257,
+          "requests": 3
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 92257,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 92257,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 717,
+            "font": 91540
+          },
+          "typedBytes": 92257
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 159.4,
+      "byGroup": {
+        "other": 73.8,
+        "styleLayout": 59.3,
+        "scriptEvaluation": 9.9,
+        "paintCompositeRender": 9.7,
+        "parseHTML": 6.2,
+        "scriptParseCompile": 0.5
+      },
+      "bootupMs": 8.4,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 148,
+      "depth": 10,
+      "maxChildren": 21
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 11,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 7,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 3
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3520,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T21:25:00.380Z",
+      "runtimeMs": 5660.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy, https://github.com/robsterlini/legonotlegos"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy, https://github.com/robsterlini/legonotlegos"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M854RNX8CYPG5BS4SRAVTHR1"
+    },
+    "violations": 0,
+    "passes": 256,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b152b86ca717",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"d2e1adb8ddbbce92ec96b633083ef13f-ssl\""
+        }
+      },
+      {
+        "hash": "b152b86ca717",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535994",
+          "etag": "W/\"d2e1adb8ddbbce92ec96b633083ef13f-ssl\""
+        }
+      },
+      {
+        "hash": "b152b86ca717",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535988",
+          "etag": "W/\"d2e1adb8ddbbce92ec96b633083ef13f-ssl\""
+        }
+      },
+      {
+        "hash": "b152b86ca717",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535983",
+          "etag": "W/\"d2e1adb8ddbbce92ec96b633083ef13f-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
