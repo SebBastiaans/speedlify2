@@ -1,0 +1,286 @@
+{
+  "url": "https://justin.poehnelt.com/",
+  "name": "justin.poehnelt.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795468755890,
+  "date": "2026-11-23T21:19:15.890Z",
+  "runId": "2026-11-23T21-18-06-072Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24326,
+  "error": null,
+  "variance": {
+    "min": 89,
+    "max": 99,
+    "spread": 10,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://justin.poehnelt.com/",
+    "finalUrl": "https://justin.poehnelt.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1037,
+      "lcp": 1865,
+      "si": 1070,
+      "tbt": 82,
+      "tti": 3247,
+      "cls": 0,
+      "ttfb": 665,
+      "maxPotentialFid": 107,
+      "serverResponseTime": 89,
+      "networkRtt": 0,
+      "networkServerLatency": 65
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 90.8,
+      "resourceLoadDelay": 24.1,
+      "resourceLoadDuration": 103.1,
+      "elementRenderDelay": 26.1
+    },
+    "weight": {
+      "total": 408967,
+      "requests": 42,
+      "mainDocument": 26653,
+      "byType": {
+        "total": {
+          "bytes": 408967,
+          "requests": 42
+        },
+        "script": {
+          "bytes": 297603,
+          "requests": 35
+        },
+        "image": {
+          "bytes": 63578,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 26653,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 14501,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 6632,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 181287,
+          "requests": 1
+        }
+      },
+      "scripts": 35,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 181287,
+      "mainThreadMs": 38.2,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 181287,
+          "mainThreadMs": 38.2,
+          "byType": {
+            "script": 181287
+          },
+          "typedBytes": 181287
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 784,
+      "byGroup": {
+        "scriptEvaluation": 404.8,
+        "other": 187.8,
+        "styleLayout": 65.2,
+        "parseHTML": 46,
+        "garbageCollection": 34.7,
+        "scriptParseCompile": 34.2,
+        "paintCompositeRender": 11.3
+      },
+      "bootupMs": 431.9,
+      "longTasks": 3,
+      "longestTaskMs": 107
+    },
+    "dom": {
+      "elements": 2059,
+      "depth": 16,
+      "maxChildren": 432
+    },
+    "waste": {
+      "unusedJsBytes": 80155,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 33,
+      "failingNodes": 9,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 9
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 42
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3537,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T21:19:32.296Z",
+      "runtimeMs": 7057.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "sveltekit",
+      "name": "SvelteKit",
+      "icon": "Svelte",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "sveltekit",
+        "svelte"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5f33698dc2511d1-PHX",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 1855,
+    "incomplete": 36,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".calendar-section",
+            "snippet": "<figure class=\"calendar-section svelte-1c2cs42\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ad25464502e3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "ad25464502e3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "ad25464502e3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "ad25464502e3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

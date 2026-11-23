@@ -1,0 +1,307 @@
+{
+  "url": "https://kajkandler.com/",
+  "name": "kajkandler.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795468783217,
+  "date": "2026-11-23T21:19:43.217Z",
+  "runId": "2026-11-23T21-18-06-072Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27194,
+  "error": null,
+  "variance": {
+    "min": 80,
+    "max": 90,
+    "spread": 10,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://kajkandler.com/",
+    "finalUrl": "https://kajkandler.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 90,
+      "accessibility": 96,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1863,
+      "lcp": 3436,
+      "si": 2683,
+      "tbt": 29,
+      "tti": 3607,
+      "cls": 0,
+      "ttfb": 797,
+      "maxPotentialFid": 88,
+      "serverResponseTime": 173,
+      "networkRtt": 0,
+      "networkServerLatency": 196.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 175,
+      "resourceLoadDelay": 1143.3,
+      "resourceLoadDuration": 201.1,
+      "elementRenderDelay": 10.9
+    },
+    "weight": {
+      "total": 345700,
+      "requests": 20,
+      "mainDocument": 11932,
+      "byType": {
+        "total": {
+          "bytes": 345700,
+          "requests": 20
+        },
+        "script": {
+          "bytes": 189015,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 61398,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 53402,
+          "requests": 10
+        },
+        "other": {
+          "bytes": 17114,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 12839,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 11932,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 202602,
+          "requests": 4
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 4,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 202602,
+      "mainThreadMs": 41.5,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 183091,
+          "mainThreadMs": 41.2,
+          "byType": {
+            "script": 183091
+          },
+          "typedBytes": 183091
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 19511,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 4008,
+            "font": 15503
+          },
+          "typedBytes": 19511
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 383.8,
+      "byGroup": {
+        "scriptEvaluation": 156.8,
+        "other": 107.4,
+        "styleLayout": 57.1,
+        "scriptParseCompile": 29.3,
+        "paintCompositeRender": 15.1,
+        "parseHTML": 10.6,
+        "garbageCollection": 7.5
+      },
+      "bootupMs": 177.3,
+      "longTasks": 2,
+      "longestTaskMs": 88
+    },
+    "dom": {
+      "elements": 185,
+      "depth": 8,
+      "maxChildren": 54
+    },
+    "waste": {
+      "unusedJsBytes": 78587,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 916,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 114052,
+      "poorlyCachedCount": 14
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 22,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 10
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3476.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T21:19:52.918Z",
+      "runtimeMs": 8612
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)"
+    },
+    "violations": 3,
+    "passes": 419,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".copyright_section > .copyright_text:nth-child(1)",
+            "snippet": "<div class=\"copyright_text\">Copyright&nbsp;2023&nbsp;-&nbsp;2026&nbsp;© Kaj&nbsp;Kandler - All rights reserved &nbsp;-&nbsp;<a class=\"copyright_text\" href=\"/privacy-policy/\">Privacy Policy</a> </div>"
+          },
+          {
+            "selector": "a[href$=\"privacy-policy/\"]",
+            "snippet": "<a class=\"copyright_text\" href=\"/privacy-policy/\">Privacy Policy</a>"
+          },
+          {
+            "selector": "a[href$=\"facts/\"]",
+            "snippet": "<a class=\"copyright_text\" href=\"/facts/\">Facts</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "4c764c0d1a18",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6adf2a90-91fc\"",
+          "last-modified": "Mon, 26 Oct 2026 10:25:20 GMT"
+        }
+      },
+      {
+        "hash": "4c764c0d1a18",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6adf2a90-91fc\"",
+          "last-modified": "Mon, 26 Oct 2026 10:25:20 GMT"
+        }
+      },
+      {
+        "hash": "4c764c0d1a18",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6adf2a90-91fc\"",
+          "last-modified": "Mon, 26 Oct 2026 10:25:20 GMT"
+        }
+      },
+      {
+        "hash": "4c764c0d1a18",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6adf2a90-91fc\"",
+          "last-modified": "Mon, 26 Oct 2026 10:25:20 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
