@@ -1,0 +1,300 @@
+{
+  "url": "https://firebreakfarms.com/",
+  "name": "firebreakfarms.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795393099954,
+  "date": "2026-11-23T00:18:19.954Z",
+  "runId": "2026-11-23T00-17-39-555Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 101748,
+  "error": null,
+  "variance": {
+    "min": 62,
+    "max": 73,
+    "spread": 11,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://firebreakfarms.com/",
+    "finalUrl": "https://firebreakfarms.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 73,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 814,
+      "lcp": 9036,
+      "si": 3592,
+      "tbt": 99,
+      "tti": 9036,
+      "cls": 0,
+      "ttfb": 636,
+      "maxPotentialFid": 120,
+      "serverResponseTime": 65,
+      "networkRtt": 0.1,
+      "networkServerLatency": 36.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 66.4,
+      "resourceLoadDelay": 13.9,
+      "resourceLoadDuration": 27.5,
+      "elementRenderDelay": 30.3
+    },
+    "weight": {
+      "total": 2053635,
+      "requests": 27,
+      "mainDocument": 11072,
+      "byType": {
+        "total": {
+          "bytes": 2045507,
+          "requests": 26
+        },
+        "image": {
+          "bytes": 1769113,
+          "requests": 17
+        },
+        "script": {
+          "bytes": 264066,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 11072,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1256,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 193412,
+          "requests": 4
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 193412,
+      "mainThreadMs": 57.3,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 183004,
+          "mainThreadMs": 52.8,
+          "byType": {
+            "script": 183004
+          },
+          "typedBytes": 183004
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 4.5,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 57,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 57
+          },
+          "typedBytes": 57
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 736,
+      "byGroup": {
+        "scriptEvaluation": 360.8,
+        "other": 252.6,
+        "scriptParseCompile": 48.3,
+        "styleLayout": 32.2,
+        "paintCompositeRender": 18.6,
+        "parseHTML": 11.8,
+        "garbageCollection": 11.7
+      },
+      "bootupMs": 393.4,
+      "longTasks": 2,
+      "longestTaskMs": 120
+    },
+    "dom": {
+      "elements": 240,
+      "depth": 11,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 115384,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 4439.22651388889,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 37
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3485.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T00:19:15.287Z",
+      "runtimeMs": 26410.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.0.0",
+      "source": "meta",
+      "raw": "Eleventy v3.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.0.0"
+      ],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.14.9"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5ec00f3795ec36d-PDX",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 436,
+    "incomplete": 1,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" x-data=\"xDOM\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "69d61fd57d38",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "69d61fd57d38",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "69d61fd57d38",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "69d61fd57d38",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
