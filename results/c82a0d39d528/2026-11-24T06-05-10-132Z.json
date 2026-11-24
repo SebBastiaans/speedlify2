@@ -1,0 +1,280 @@
+{
+  "url": "https://my.stuffandthings.lol/",
+  "name": "my.stuffandthings.lol",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795500310132,
+  "date": "2026-11-24T06:05:10.132Z",
+  "runId": "2026-11-24T05-59-22-219Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23761,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 97,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://my.stuffandthings.lol/",
+    "finalUrl": "https://my.stuffandthings.lol/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 96
+    },
+    "timings": {
+      "fcp": 1590,
+      "lcp": 1590,
+      "si": 1590,
+      "tbt": 0,
+      "tti": 1590,
+      "cls": 0.091,
+      "ttfb": 684,
+      "maxPotentialFid": 46,
+      "serverResponseTime": 183,
+      "networkRtt": 0.2,
+      "networkServerLatency": 83.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 184.7,
+      "elementRenderDelay": 139.4
+    },
+    "weight": {
+      "total": 766470,
+      "requests": 37,
+      "mainDocument": 5755,
+      "byType": {
+        "total": {
+          "bytes": 766470,
+          "requests": 37
+        },
+        "font": {
+          "bytes": 500749,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 142922,
+          "requests": 25
+        },
+        "stylesheet": {
+          "bytes": 96298,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 12942,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 7804,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 5755,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 51273,
+          "requests": 8
+        }
+      },
+      "scripts": 25,
+      "stylesheets": 3,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 51273,
+      "mainThreadMs": 0.5,
+      "top": [
+        {
+          "entity": "bunny.net",
+          "bytes": 27552,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 1313,
+            "font": 26239
+          },
+          "typedBytes": 27552
+        },
+        {
+          "entity": "pika.page",
+          "bytes": 20746,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 12942,
+            "other": 7804
+          },
+          "typedBytes": 20746
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 2975,
+          "mainThreadMs": 0.4,
+          "byType": {
+            "stylesheet": 2975
+          },
+          "typedBytes": 2975
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 361.1,
+      "byGroup": {
+        "other": 177.9,
+        "styleLayout": 62.4,
+        "scriptEvaluation": 59.2,
+        "parseHTML": 36.9,
+        "paintCompositeRender": 11.2,
+        "garbageCollection": 9,
+        "scriptParseCompile": 4.5
+      },
+      "bootupMs": 58.1,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 70,
+      "depth": 8,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 60015,
+      "unusedCssBytes": 88397,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 3068,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1656,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 31
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3551,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T06:05:26.874Z",
+      "runtimeMs": 6774.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "render",
+      "name": "Render",
+      "icon": "Render",
+      "source": "x-render-origin-server"
+    },
+    "headers": {
+      "cf-ray": "a5f638f72dcafef4-PDX",
+      "server": "cloudflare",
+      "x-render-origin-server": "Render"
+    },
+    "violations": 0,
+    "passes": 159,
+    "incomplete": 2,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "be8aca24a2c7",
+        "nonce": "b5bea41b6c62",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "W/\"396461e7f112e2009690609f7a831bb3\""
+        }
+      },
+      {
+        "hash": "be8aca24a2c7",
+        "nonce": "b5bea41b6c62",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "W/\"396461e7f112e2009690609f7a831bb3\""
+        }
+      },
+      {
+        "hash": "be8aca24a2c7",
+        "nonce": "b5bea41b6c62",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "W/\"396461e7f112e2009690609f7a831bb3\""
+        }
+      },
+      {
+        "hash": "be8aca24a2c7",
+        "nonce": "b5bea41b6c62",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "W/\"396461e7f112e2009690609f7a831bb3\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

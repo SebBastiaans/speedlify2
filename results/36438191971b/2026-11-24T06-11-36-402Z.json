@@ -1,0 +1,312 @@
+{
+  "url": "https://www.lyonspsychologicalservices.com/",
+  "name": "lyonspsychologicalservices.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795500696402,
+  "date": "2026-11-24T06:11:36.402Z",
+  "runId": "2026-11-24T05-59-22-219Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 32636,
+  "error": null,
+  "partialErrors": [
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)"
+  ],
+  "variance": {
+    "min": 65,
+    "max": 81,
+    "spread": 16,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://www.lyonspsychologicalservices.com/",
+    "finalUrl": "https://www.lyonspsychologicalservices.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 65,
+      "accessibility": 90,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 2360,
+      "lcp": 21124,
+      "si": 7514,
+      "tbt": 24,
+      "tti": 21869,
+      "cls": 0.002,
+      "ttfb": 755,
+      "maxPotentialFid": 98,
+      "serverResponseTime": 216,
+      "networkRtt": 12.1,
+      "networkServerLatency": 305.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 291.7,
+      "resourceLoadDelay": 68.9,
+      "resourceLoadDuration": 378.5,
+      "elementRenderDelay": 121.8
+    },
+    "weight": {
+      "total": 5439070,
+      "requests": 54,
+      "mainDocument": 49926,
+      "byType": {
+        "total": {
+          "bytes": 5437071,
+          "requests": 52
+        },
+        "image": {
+          "bytes": 4997252,
+          "requests": 29
+        },
+        "font": {
+          "bytes": 309685,
+          "requests": 6
+        },
+        "script": {
+          "bytes": 55999,
+          "requests": 7
+        },
+        "document": {
+          "bytes": 49926,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 20699,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 3510,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 365941,
+          "requests": 14
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 4,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 365535,
+      "mainThreadMs": 11.5,
+      "top": [
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 233051,
+          "mainThreadMs": 2,
+          "byType": {
+            "stylesheet": 17329,
+            "font": 215722
+          },
+          "typedBytes": 233051
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 97333,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 3370,
+            "font": 93963
+          },
+          "typedBytes": 97333
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 21538,
+          "mainThreadMs": 3,
+          "byType": {
+            "script": 21538
+          },
+          "typedBytes": 21538
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 5.9,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        },
+        {
+          "entity": "startbootstrap.com",
+          "bytes": 3135,
+          "mainThreadMs": 0.4,
+          "byType": {
+            "script": 3135
+          },
+          "typedBytes": 3135
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 829.3,
+      "byGroup": {
+        "scriptEvaluation": 268.3,
+        "other": 252.5,
+        "styleLayout": 183.7,
+        "parseHTML": 55.1,
+        "paintCompositeRender": 42.5,
+        "garbageCollection": 17,
+        "scriptParseCompile": 10.3
+      },
+      "bootupMs": 226.3,
+      "longTasks": 2,
+      "longestTaskMs": 98
+    },
+    "dom": {
+      "elements": 498,
+      "depth": 14,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 51761,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 7085,
+      "renderBlockingMs": 1733,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 4510.706163194444,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 23,
+      "failingNodes": 16,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 7
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 7
+        },
+        {
+          "id": "skip-link",
+          "title": "Skip links are not focusable.",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 36
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3534.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T06:11:37.577Z",
+      "runtimeMs": 8112
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": "Just a moment...",
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5f6428c3ed20d10-PDX",
+      "server": "cloudflare"
+    },
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "838247bd5d5c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "e0ff5c9f544d",
+        "nonce": "d6dfcd9a47ca",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
