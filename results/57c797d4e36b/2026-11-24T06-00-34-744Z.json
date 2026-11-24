@@ -1,0 +1,330 @@
+{
+  "url": "https://peterthaleikis.com/",
+  "name": "peterthaleikis.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795500034744,
+  "date": "2026-11-24T06:00:34.744Z",
+  "runId": "2026-11-24T05-59-12-503Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27871,
+  "error": null,
+  "variance": {
+    "min": 83,
+    "max": 85,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://peterthaleikis.com/",
+    "finalUrl": "https://peterthaleikis.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 84,
+      "accessibility": 84,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1703,
+      "lcp": 4313,
+      "si": 1703,
+      "tbt": 67,
+      "tti": 4799,
+      "cls": 0,
+      "ttfb": 638,
+      "maxPotentialFid": 184,
+      "serverResponseTime": 17,
+      "networkRtt": 0.4,
+      "networkServerLatency": 39.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 18.5,
+      "resourceLoadDelay": 9.3,
+      "resourceLoadDuration": 36.8,
+      "elementRenderDelay": 111.1
+    },
+    "weight": {
+      "total": 21895299,
+      "requests": 47,
+      "mainDocument": 17648,
+      "byType": {
+        "total": {
+          "bytes": 21895299,
+          "requests": 47
+        },
+        "image": {
+          "bytes": 21510615,
+          "requests": 36
+        },
+        "script": {
+          "bytes": 198765,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 149712,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 17648,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 13076,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 5483,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 392488,
+          "requests": 8
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 392488,
+      "mainThreadMs": 80.8,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 166722,
+          "mainThreadMs": 48,
+          "byType": {
+            "script": 166722
+          },
+          "typedBytes": 166722
+        },
+        {
+          "entity": "FontAwesome CDN",
+          "bytes": 162788,
+          "mainThreadMs": 3.9,
+          "byType": {
+            "stylesheet": 13076,
+            "font": 149712
+          },
+          "typedBytes": 162788
+        },
+        {
+          "entity": "bringyourownideas.com",
+          "bytes": 31714,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 31714
+          },
+          "typedBytes": 31714
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 20913,
+          "mainThreadMs": 19,
+          "byType": {
+            "script": 20875,
+            "other": 38
+          },
+          "typedBytes": 20913
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 9.9,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1042.8,
+      "byGroup": {
+        "other": 485.8,
+        "scriptEvaluation": 326.2,
+        "styleLayout": 100.9,
+        "scriptParseCompile": 51.7,
+        "paintCompositeRender": 43.2,
+        "parseHTML": 35
+      },
+      "bootupMs": 346.9,
+      "longTasks": 2,
+      "longestTaskMs": 184
+    },
+    "dom": {
+      "elements": 526,
+      "depth": 9,
+      "maxChildren": 37
+    },
+    "waste": {
+      "unusedJsBytes": 76488,
+      "unusedCssBytes": 12710,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 765,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 19796.65,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 15,
+      "failingNodes": 29,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 28
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 19
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2424,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T06:00:53.265Z",
+      "runtimeMs": 8676
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5f632550e5dc750-IAD",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M8629C9DMZXXQMS7FDFVWTH5"
+    },
+    "violations": 1,
+    "passes": 879,
+    "incomplete": 187,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "button",
+            "snippet": "<button class=\"toggle-menu\"><i class=\"fas fa-bars\"></i></button>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "242f757bf307",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "242f757bf307",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535991",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "242f757bf307",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535983",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "242f757bf307",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "24",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535976",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
