@@ -1,0 +1,315 @@
+{
+  "url": "https://jarijokinen.com/",
+  "name": "jarijokinen.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795499970972,
+  "date": "2026-11-24T05:59:30.972Z",
+  "runId": "2026-11-24T05-59-21-316Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26169,
+  "error": null,
+  "variance": {
+    "min": 70,
+    "max": 76,
+    "spread": 6,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://jarijokinen.com/",
+    "finalUrl": "https://jarijokinen.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 75,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 775,
+      "lcp": 8261,
+      "si": 775,
+      "tbt": 91,
+      "tti": 8261,
+      "cls": 0,
+      "ttfb": 611,
+      "maxPotentialFid": 135,
+      "serverResponseTime": 10,
+      "networkRtt": 0,
+      "networkServerLatency": 19.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 11.7,
+      "resourceLoadDelay": 7.3,
+      "resourceLoadDuration": 37.7,
+      "elementRenderDelay": 32.3
+    },
+    "weight": {
+      "total": 1634116,
+      "requests": 13,
+      "mainDocument": 2357,
+      "byType": {
+        "total": {
+          "bytes": 1625370,
+          "requests": 12
+        },
+        "image": {
+          "bytes": 1259315,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 309955,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 48898,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 3970,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 2357,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 875,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 307429,
+          "requests": 3
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 307429,
+      "mainThreadMs": 57.4,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 307371,
+          "mainThreadMs": 57.4,
+          "byType": {
+            "script": 307371
+          },
+          "typedBytes": 307371
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 58,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 58
+          },
+          "typedBytes": 58
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 891.9,
+      "byGroup": {
+        "other": 294.6,
+        "scriptEvaluation": 242.8,
+        "styleLayout": 159.1,
+        "paintCompositeRender": 128.8,
+        "scriptParseCompile": 49.4,
+        "garbageCollection": 11.8,
+        "parseHTML": 5.5
+      },
+      "bootupMs": 277.7,
+      "longTasks": 2,
+      "longestTaskMs": 135
+    },
+    "dom": {
+      "elements": 75,
+      "depth": 8,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 144540,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 39118.4,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 22,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 18
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3510.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T05:59:43.423Z",
+      "runtimeMs": 6703.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "amazons3",
+      "name": "Amazon S3",
+      "icon": "Amazon",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AmazonS3",
+      "via": "1.1 41d11417b7470cfb79cc5b299692369a.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "y5cAXjclm0iJODpd2fuxItiJpnkbzJFtOAVMUn0T_-oXRO4Gp2ScRA=="
+    },
+    "violations": 3,
+    "passes": 146,
+    "incomplete": 5,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".consent-title",
+            "snippet": "<h2 class=\"consent-title\">Privacy Preferences</h2>"
+          },
+          {
+            "selector": ".consent > p",
+            "snippet": "<p> <span class=\"consent-message\">With your permission, we use analytics cookies to understand how the site is used.</span> <a href=\"/cookies\">Learn&nbsp;More</a> </p>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".header-nav",
+            "snippet": "<nav class=\"header-nav\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e7a0b674f42b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"d1f2a6b997b5f0c597ee0aefc4e92bfd\"",
+          "last-modified": "Mon, 05 Oct 2026 12:03:22 GMT",
+          "x-cache": "RefreshHit from cloudfront"
+        }
+      },
+      {
+        "hash": "e7a0b674f42b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10",
+          "etag": "W/\"d1f2a6b997b5f0c597ee0aefc4e92bfd\"",
+          "last-modified": "Mon, 05 Oct 2026 12:03:22 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "e7a0b674f42b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "etag": "W/\"d1f2a6b997b5f0c597ee0aefc4e92bfd\"",
+          "last-modified": "Mon, 05 Oct 2026 12:03:22 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "e7a0b674f42b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "20",
+          "etag": "W/\"d1f2a6b997b5f0c597ee0aefc4e92bfd\"",
+          "last-modified": "Mon, 05 Oct 2026 12:03:22 GMT",
+          "x-cache": "Hit from cloudfront"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

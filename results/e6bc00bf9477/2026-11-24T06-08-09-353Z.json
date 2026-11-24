@@ -1,0 +1,367 @@
+{
+  "url": "https://mindos.in/",
+  "name": "mindos.in",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795500489353,
+  "date": "2026-11-24T06:08:09.353Z",
+  "runId": "2026-11-24T05-59-21-316Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 35086,
+  "error": null,
+  "variance": {
+    "min": 68,
+    "max": 88,
+    "spread": 20,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://mindos.in/",
+    "finalUrl": "https://mindos.in/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 73,
+      "accessibility": 96,
+      "best-practices": 73,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 4396,
+      "lcp": 4396,
+      "si": 4396,
+      "tbt": 90,
+      "tti": 5349,
+      "cls": 0,
+      "ttfb": 841,
+      "maxPotentialFid": 147,
+      "serverResponseTime": 243,
+      "networkRtt": 3.7,
+      "networkServerLatency": 240.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 244.3,
+      "elementRenderDelay": 1157.4
+    },
+    "weight": {
+      "total": 2398759,
+      "requests": 222,
+      "mainDocument": 12134,
+      "byType": {
+        "total": {
+          "bytes": 2398759,
+          "requests": 222
+        },
+        "script": {
+          "bytes": 2045198,
+          "requests": 175
+        },
+        "stylesheet": {
+          "bytes": 251740,
+          "requests": 30
+        },
+        "image": {
+          "bytes": 40449,
+          "requests": 7
+        },
+        "document": {
+          "bytes": 30576,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 16266,
+          "requests": 6
+        },
+        "font": {
+          "bytes": 14530,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2312943,
+          "requests": 212
+        }
+      },
+      "scripts": 175,
+      "stylesheets": 30,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 172787,
+      "mainThreadMs": 72.4,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 172787,
+          "mainThreadMs": 72.4,
+          "byType": {
+            "script": 172787
+          },
+          "typedBytes": 172787
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 493.7,
+      "byGroup": {
+        "scriptEvaluation": 269.8,
+        "other": 111.2,
+        "scriptParseCompile": 50.2,
+        "styleLayout": 41,
+        "parseHTML": 14.8,
+        "paintCompositeRender": 6.7
+      },
+      "bootupMs": 295.6,
+      "longTasks": 2,
+      "longestTaskMs": 147
+    },
+    "dom": {
+      "elements": 316,
+      "depth": 14,
+      "maxChildren": 17
+    },
+    "waste": {
+      "unusedJsBytes": 75301,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 2914,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 98914.36,
+      "poorlyCachedCount": 11
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 25,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 2
+        },
+        {
+          "id": "frame-title",
+          "title": "`<frame>` or `<iframe>` elements do not have a title",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 4
+        },
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "http/1.1",
+      "legacyHttpRequests": 10,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 52
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3379,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T06:08:32.757Z",
+      "runtimeMs": 10621.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Apache",
+      "detailIcon": "Apache",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Apache/2.4.63 (Ubuntu)"
+    },
+    "violations": 11,
+    "passes": 533,
+    "incomplete": 59,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 6,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#sidebar-contents > div:nth-child(1)",
+            "snippet": "<div>"
+          },
+          {
+            "selector": ".menu",
+            "snippet": "<div class=\"menu\">"
+          },
+          {
+            "selector": ".row-end-5 > .w-5[aria-label=\"Open Instagram profile\"][href$=\"inmindos\"]",
+            "snippet": "<a href=\"https://instagram.com/inmindos\" aria-label=\"Open Instagram profile\" target=\"_blank\" class=\"w-5 h-5\" rel=\"noopener\">"
+          },
+          {
+            "selector": ".row-end-5 > .w-5[aria-label=\"Open Twitter profile\"][href$=\"inmindos\"]",
+            "snippet": "<a href=\"https://twitter.com/inmindos\" aria-label=\"Open Twitter profile\" target=\"_blank\" class=\"w-5 h-5\" rel=\"noopener\">"
+          },
+          {
+            "selector": ".row-end-5 > .w-5[aria-label=\"Open RSS feed\"][href$=\"rss.xml\"]",
+            "snippet": "<a href=\"https://mindos.in/rss.xml\" aria-label=\"Open RSS feed\" target=\"_blank\" class=\"w-5 h-5\" rel=\"noopener\">"
+          }
+        ]
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Frames must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe",
+            "snippet": "<iframe src=\"https://binnyva.substack.com/embed\" width=\"480\" height=\"320\" class=\"newsletter-embed\" frameborder=\"0\" scrolling=\"no\"></iframe>"
+          },
+          {
+            "selector": "iframe >>> iframe",
+            "snippet": "<iframe src=\"https://substack.com/session-attribution-frame\" width=\"0\" height=\"0\" style=\"display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: none;\"></i…"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "li:nth-child(1) > .w-5[aria-label=\"Open Instagram profile\"][href$=\"inmindos\"]",
+            "snippet": "<a href=\"https://instagram.com/inmindos\" aria-label=\"Open Instagram profile\" target=\"_blank\" class=\"w-5 h-5\" rel=\"noopener\">"
+          },
+          {
+            "selector": "li:nth-child(2) > .w-5[aria-label=\"Open Twitter profile\"][href$=\"inmindos\"]",
+            "snippet": "<a href=\"https://twitter.com/inmindos\" aria-label=\"Open Twitter profile\" target=\"_blank\" class=\"w-5 h-5\" rel=\"noopener\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".mt-4",
+            "snippet": "<h3 class=\"text-xl mt-4\">Or follow us on social media...</h3>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c30d5bd34257",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"1103a-643e5daa3acac-gzip\"",
+          "last-modified": "Tue, 18 Nov 2025 22:19:14 GMT"
+        }
+      },
+      {
+        "hash": "c30d5bd34257",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"1103a-643e5daa3acac-gzip\"",
+          "last-modified": "Tue, 18 Nov 2025 22:19:14 GMT"
+        }
+      },
+      {
+        "hash": "c30d5bd34257",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"1103a-643e5daa3acac-gzip\"",
+          "last-modified": "Tue, 18 Nov 2025 22:19:14 GMT"
+        }
+      },
+      {
+        "hash": "c30d5bd34257",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"1103a-643e5daa3acac-gzip\"",
+          "last-modified": "Tue, 18 Nov 2025 22:19:14 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

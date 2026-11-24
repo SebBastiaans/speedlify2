@@ -1,0 +1,268 @@
+{
+  "url": "https://gemmaevans.com/",
+  "name": "gemma.ee",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795500268709,
+  "date": "2026-11-24T06:04:28.709Z",
+  "runId": "2026-11-24T05-59-21-316Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23464,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 100,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://gemmaevans.com/",
+    "finalUrl": "https://gemmaevans.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 930,
+      "lcp": 1672,
+      "si": 1093,
+      "tbt": 0,
+      "tti": 1672,
+      "cls": 0.001,
+      "ttfb": 565,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 162,
+      "networkRtt": 13.2,
+      "networkServerLatency": 115.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 271.5,
+      "resourceLoadDelay": 8.3,
+      "resourceLoadDuration": 129.4,
+      "elementRenderDelay": 27.8
+    },
+    "weight": {
+      "total": 506961,
+      "requests": 20,
+      "mainDocument": 13947,
+      "byType": {
+        "total": {
+          "bytes": 503083,
+          "requests": 19
+        },
+        "image": {
+          "bytes": 304276,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 138928,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 35821,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 13947,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 7415,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 2696,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10478,
+          "requests": 1
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10478,
+      "mainThreadMs": 6.1,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 6.1,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 799.6,
+      "byGroup": {
+        "other": 304.2,
+        "styleLayout": 277.3,
+        "paintCompositeRender": 116,
+        "scriptEvaluation": 74.3,
+        "parseHTML": 13,
+        "garbageCollection": 9.2,
+        "scriptParseCompile": 5.7
+      },
+      "bootupMs": 18,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 171,
+      "depth": 9,
+      "maxChildren": 20
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 4191.2,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 25,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 44
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3390.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T06:04:29.907Z",
+      "runtimeMs": 7411.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.17.5"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5f637ef2e76ad66-PDX",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 290,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ae881c5fab12",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "ae881c5fab12",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "ae881c5fab12",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "ae881c5fab12",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

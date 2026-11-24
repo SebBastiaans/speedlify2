@@ -1,0 +1,309 @@
+{
+  "url": "https://jonplummer.com/",
+  "name": "jonplummer.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795500141415,
+  "date": "2026-11-24T06:02:21.415Z",
+  "runId": "2026-11-24T05-59-21-316Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24178,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://jonplummer.com/",
+    "finalUrl": "https://jonplummer.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 95,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 983,
+      "lcp": 983,
+      "si": 983,
+      "tbt": 0,
+      "tti": 983,
+      "cls": 0,
+      "ttfb": 638,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 31,
+      "networkRtt": 0,
+      "networkServerLatency": 38.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 32.5,
+      "elementRenderDelay": 162.4
+    },
+    "weight": {
+      "total": 61983,
+      "requests": 11,
+      "mainDocument": 22311,
+      "byType": {
+        "total": {
+          "bytes": 61983,
+          "requests": 9
+        },
+        "document": {
+          "bytes": 22311,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 13787,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 11635,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 11115,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 1616,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 1519,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10351,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10351,
+      "mainThreadMs": 5.1,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 5.1,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 239.2,
+      "byGroup": {
+        "other": 93.1,
+        "styleLayout": 81.7,
+        "scriptEvaluation": 33.3,
+        "paintCompositeRender": 20.1,
+        "parseHTML": 10.2,
+        "scriptParseCompile": 0.7
+      },
+      "bootupMs": 9.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 467,
+      "depth": 8,
+      "maxChildren": 38
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 5971,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 4140.400000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 21,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 4
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 4
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 4,
+      "baselineLimitedFeatures": 40
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3510.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T06:02:37.734Z",
+      "runtimeMs": 7276.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.6",
+      "source": "meta",
+      "raw": "Eleventy v3.1.6"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.6"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5f634d929cfff15-PDX",
+      "server": "cloudflare"
+    },
+    "violations": 4,
+    "passes": 956,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "li:nth-child(1) > a[href$=\"about/\"]",
+            "snippet": "<a href=\"/about/\">/about</a>"
+          },
+          {
+            "selector": "li:nth-child(2) > a[href$=\"portfolio/\"]",
+            "snippet": "<a href=\"/portfolio/\">/portfolio</a>"
+          },
+          {
+            "selector": "li:nth-child(3) > a[href$=\"hire/\"]",
+            "snippet": "<a href=\"/hire/\">/hire</a>"
+          },
+          {
+            "selector": ".prev",
+            "snippet": "<a class=\"prev\" href=\"/page/1/\">Older posts</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "181576ad9a66",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1257",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sat, 21 Nov 2026 01:34:06 GMT"
+        }
+      },
+      {
+        "hash": "181576ad9a66",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1265",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sat, 21 Nov 2026 01:34:06 GMT"
+        }
+      },
+      {
+        "hash": "181576ad9a66",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1272",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sat, 21 Nov 2026 01:34:06 GMT"
+        }
+      },
+      {
+        "hash": "181576ad9a66",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1279",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sat, 21 Nov 2026 01:34:06 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
