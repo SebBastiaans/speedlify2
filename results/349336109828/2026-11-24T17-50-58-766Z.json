@@ -1,0 +1,324 @@
+{
+  "url": "https://surge.sh/",
+  "name": "Surge",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795542658766,
+  "date": "2026-11-24T17:50:58.766Z",
+  "runId": "2026-11-24T17-38-37-616Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 164305,
+  "error": null,
+  "variance": {
+    "min": 95,
+    "max": 100,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://surge.sh/",
+    "finalUrl": "https://surge.sh/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 95,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 855,
+      "lcp": 2892,
+      "si": 855,
+      "tbt": 0,
+      "tti": 2892,
+      "cls": 0.031,
+      "ttfb": 635,
+      "maxPotentialFid": 24,
+      "serverResponseTime": 26,
+      "networkRtt": 23.2,
+      "networkServerLatency": 34.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 27.6,
+      "elementRenderDelay": 151.2
+    },
+    "weight": {
+      "total": 268766,
+      "requests": 17,
+      "mainDocument": 6881,
+      "byType": {
+        "total": {
+          "bytes": 268766,
+          "requests": 17
+        },
+        "font": {
+          "bytes": 177890,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 67770,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 7940,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 6881,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 5603,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 2682,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 179143,
+          "requests": 7
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 3,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 179143,
+      "mainThreadMs": 0.3,
+      "top": [
+        {
+          "entity": "Adobe TypeKit",
+          "bytes": 179143,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 1253,
+            "font": 177890
+          },
+          "typedBytes": 179143
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 646.6,
+      "byGroup": {
+        "other": 285.2,
+        "styleLayout": 198.2,
+        "paintCompositeRender": 100.3,
+        "scriptEvaluation": 43.7,
+        "parseHTML": 16.8,
+        "scriptParseCompile": 2.3
+      },
+      "bootupMs": 12,
+      "longTasks": 1,
+      "longestTaskMs": 54
+    },
+    "dom": {
+      "elements": 690,
+      "depth": 10,
+      "maxChildren": 155
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 17.199999999999996,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 30,
+      "failingNodes": 112,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 112
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 14
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2479,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T17:51:15.113Z",
+      "runtimeMs": 6924.3
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.2,
+    "elementRenderDelay": 235.1
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": true,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "Surge",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "Surge"
+    },
+    "violations": 111,
+    "passes": 982,
+    "incomplete": 115,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 109,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "summary",
+            "snippet": "<summary aria-label=\"Menu\">Menu</summary>"
+          },
+          {
+            "selector": ".wrap > .eyebrow",
+            "snippet": "<span class=\"eyebrow\">Static web publishing · since 2014</span>"
+          },
+          {
+            "selector": ".hero-grid > div:nth-child(1) > .actions > .btn-primary.btn[href$=\"getting-started\"]",
+            "snippet": "<a href=\"/docs/getting-started\" class=\"btn btn-primary\">Get started</a>"
+          },
+          {
+            "selector": ".btn[href$=\"docs/\"]",
+            "snippet": "<a href=\"/docs/\" class=\"btn\">Read the docs</a>"
+          },
+          {
+            "selector": ".hero-agent > a[href$=\"agents\"]",
+            "snippet": "<a href=\"/docs/agents\">surge.sh/docs/agents</a>"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".steno-terminal",
+            "snippet": "<pre class=\"steno-terminal\">"
+          },
+          {
+            "selector": ".agent-panel",
+            "snippet": "<pre class=\"agent-panel\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "40f399a7539c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "65983",
+          "etag": "\"5f3cab288453cd293e2672af308476a053a3db707519fe5684aec1e73743314b\""
+        }
+      },
+      {
+        "hash": "40f399a7539c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "65990",
+          "etag": "\"5f3cab288453cd293e2672af308476a053a3db707519fe5684aec1e73743314b\""
+        }
+      },
+      {
+        "hash": "40f399a7539c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "65998",
+          "etag": "\"5f3cab288453cd293e2672af308476a053a3db707519fe5684aec1e73743314b\""
+        }
+      },
+      {
+        "hash": "40f399a7539c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "66005",
+          "etag": "\"5f3cab288453cd293e2672af308476a053a3db707519fe5684aec1e73743314b\""
+        }
+      },
+      {
+        "hash": "40f399a7539c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "66024",
+          "etag": "\"5f3cab288453cd293e2672af308476a053a3db707519fe5684aec1e73743314b\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

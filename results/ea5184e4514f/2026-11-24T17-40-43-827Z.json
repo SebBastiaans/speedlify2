@@ -1,0 +1,365 @@
+{
+  "url": "https://snipshop.lea-tortay.com/",
+  "name": "snipshop.lea-tortay.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795542043827,
+  "date": "2026-11-24T17:40:43.827Z",
+  "runId": "2026-11-24T17-38-37-616Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23981,
+  "error": null,
+  "variance": {
+    "min": 85,
+    "max": 96,
+    "spread": 11,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://snipshop.lea-tortay.com/",
+    "finalUrl": "https://snipshop.lea-tortay.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 94,
+      "accessibility": 86,
+      "best-practices": 96,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1038,
+      "lcp": 2138,
+      "si": 1403,
+      "tbt": 242,
+      "tti": 5085,
+      "cls": 0,
+      "ttfb": 785,
+      "maxPotentialFid": 370,
+      "serverResponseTime": 338,
+      "networkRtt": 26.9,
+      "networkServerLatency": 347.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 495.7,
+      "resourceLoadDelay": 16,
+      "resourceLoadDuration": 79.5,
+      "elementRenderDelay": 30.9
+    },
+    "weight": {
+      "total": 498827,
+      "requests": 14,
+      "mainDocument": 4462,
+      "byType": {
+        "total": {
+          "bytes": 497470,
+          "requests": 13
+        },
+        "script": {
+          "bytes": 368750,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 71965,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 35540,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 12663,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 4462,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 4090,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 493008,
+          "requests": 12
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 3,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 493008,
+      "mainThreadMs": 93.8,
+      "top": [
+        {
+          "entity": "snipcart.com",
+          "bytes": 382494,
+          "mainThreadMs": 93.5,
+          "byType": {
+            "script": 368750,
+            "stylesheet": 9654,
+            "other": 4090
+          },
+          "typedBytes": 382494
+        },
+        {
+          "entity": "unsplash.com",
+          "bytes": 71965,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 71965
+          },
+          "typedBytes": 71965
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 38549,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 3009,
+            "font": 35540
+          },
+          "typedBytes": 38549
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 662.8,
+      "byGroup": {
+        "scriptEvaluation": 325.9,
+        "other": 149.8,
+        "scriptParseCompile": 105.5,
+        "styleLayout": 59.3,
+        "parseHTML": 11.9,
+        "paintCompositeRender": 10.4
+      },
+      "bootupMs": 429.1,
+      "longTasks": 1,
+      "longestTaskMs": 370
+    },
+    "dom": {
+      "elements": 47,
+      "depth": 9,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 264385,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 33406,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 24,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 3
+        },
+        {
+          "id": "aria-required-children",
+          "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "listitem",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2422.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T17:40:45.075Z",
+      "runtimeMs": 8105.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "vue"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M87AB8WPKHRMNX157KJFGNDW"
+    },
+    "violations": 5,
+    "passes": 109,
+    "incomplete": 11,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 3,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href=\"product/seylan/index.html\"] > .frame > img",
+            "snippet": "<img src=\"https://images.unsplash.com/photo-1504382103100-db7e92322d39?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=400\" width=\"300\" loading=\"auto\">"
+          },
+          {
+            "selector": "a[href=\"product/rose-tea/index.html\"] > .frame > img",
+            "snippet": "<img src=\"https://images.unsplash.com/photo-1501841580093-a258b1937efe?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=400\" width=\"300\" loading=\"auto\">"
+          },
+          {
+            "selector": "a[href=\"product/black-tea/index.html\"] > .frame > img",
+            "snippet": "<img src=\"https://images.unsplash.com/photo-1590434434890-eee41ce7d4e1?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=400\" width=\"300\" loading=\"auto\">"
+          }
+        ]
+      },
+      {
+        "id": "aria-required-children",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Certain ARIA roles must contain particular children",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-children?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "ul",
+            "snippet": "<ul role=\"menubar\" class=\"u-flex u-align-center menu\">"
+          }
+        ]
+      },
+      {
+        "id": "listitem",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/listitem?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".menu-item-button",
+            "snippet": "<li class=\"menu-item menu-item-button\"> <span class=\"snipcart-checkout button button--full\"> <span>Checkout</span> (<span class=\"snipcart-items-count\">0</span>) </span> </li>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "aeec6dcff751",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"726d6f0f8ec57192fe13c17f434ea647-ssl\""
+        }
+      },
+      {
+        "hash": "aeec6dcff751",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"726d6f0f8ec57192fe13c17f434ea647-ssl\""
+        }
+      },
+      {
+        "hash": "aeec6dcff751",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535985",
+          "etag": "W/\"726d6f0f8ec57192fe13c17f434ea647-ssl\""
+        }
+      },
+      {
+        "hash": "aeec6dcff751",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535979",
+          "etag": "W/\"726d6f0f8ec57192fe13c17f434ea647-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
