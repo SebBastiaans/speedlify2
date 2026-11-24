@@ -1,0 +1,374 @@
+{
+  "url": "https://www.broadcom.com/",
+  "name": "Broadcom",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1795543214282,
+  "date": "2026-11-24T18:00:14.282Z",
+  "runId": "2026-11-24T17-38-32-120Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 104276,
+  "error": null,
+  "partialErrors": [
+    "NO_NAVSTART: Something went wrong with recording the trace over your page load. Please run Lighthouse again. (NO_NAVSTART)"
+  ],
+  "variance": {
+    "min": 57,
+    "max": 60,
+    "spread": 3,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://www.broadcom.com/",
+    "finalUrl": "https://www.broadcom.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 57,
+      "accessibility": 90,
+      "best-practices": 81,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1318,
+      "lcp": 10951,
+      "si": 5558,
+      "tbt": 522,
+      "tti": 13129,
+      "cls": 0,
+      "ttfb": 639,
+      "maxPotentialFid": 177,
+      "serverResponseTime": 42,
+      "networkRtt": 68.3,
+      "networkServerLatency": 59.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 105.4,
+      "elementRenderDelay": 678.9
+    },
+    "weight": {
+      "total": 2383199,
+      "requests": 95,
+      "mainDocument": 7509,
+      "byType": {
+        "total": {
+          "bytes": 2383199,
+          "requests": 95
+        },
+        "script": {
+          "bytes": 976678,
+          "requests": 20
+        },
+        "font": {
+          "bytes": 540757,
+          "requests": 10
+        },
+        "image": {
+          "bytes": 457908,
+          "requests": 21
+        },
+        "stylesheet": {
+          "bytes": 301301,
+          "requests": 14
+        },
+        "other": {
+          "bytes": 99046,
+          "requests": 29
+        },
+        "document": {
+          "bytes": 7509,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 821192,
+          "requests": 30
+        }
+      },
+      "scripts": 20,
+      "stylesheets": 14,
+      "fonts": 10
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 821408,
+      "mainThreadMs": 156.3,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 374241,
+          "mainThreadMs": 92.4,
+          "byType": {
+            "script": 374241
+          },
+          "typedBytes": 374241
+        },
+        {
+          "entity": "Optanon",
+          "bytes": 260393,
+          "mainThreadMs": 36.4,
+          "byType": {
+            "script": 142855,
+            "other": 56957,
+            "image": 60581
+          },
+          "typedBytes": 260393
+        },
+        {
+          "entity": "Amplitude Mobile Analytics",
+          "bytes": 139701,
+          "mainThreadMs": 23.4,
+          "byType": {
+            "script": 138092,
+            "other": 1609
+          },
+          "typedBytes": 139701
+        },
+        {
+          "entity": "Qualtrics",
+          "bytes": 43733,
+          "mainThreadMs": 3.9,
+          "byType": {
+            "script": 43499,
+            "other": 234
+          },
+          "typedBytes": 43733
+        },
+        {
+          "entity": "Oracle",
+          "bytes": 2790,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "script": 2790
+          },
+          "typedBytes": 2790
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3123.1,
+      "byGroup": {
+        "scriptEvaluation": 1428.8,
+        "other": 958.1,
+        "styleLayout": 287.1,
+        "scriptParseCompile": 197.4,
+        "parseHTML": 105,
+        "paintCompositeRender": 94.8,
+        "garbageCollection": 52
+      },
+      "bootupMs": 1531.8,
+      "longTasks": 10,
+      "longestTaskMs": 177
+    },
+    "dom": {
+      "elements": 556,
+      "depth": 28,
+      "maxChildren": 18
+    },
+    "waste": {
+      "unusedJsBytes": 438753,
+      "unusedCssBytes": 153399,
+      "legacyJsBytes": 32665,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 3775,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 494,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 89231.29999999999,
+      "poorlyCachedCount": 7
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 27,
+      "failingNodes": 10,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 5
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 3
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 16,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 5
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 3,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 31
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4185,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T18:00:15.518Z",
+      "runtimeMs": 12904.6
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.1,
+    "elementRenderDelay": 8455.2
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5fa51a6dc6b2abf-LAX",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 114,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".ot-cookie-policy-link",
+            "snippet": "<a class=\"ot-cookie-policy-link\" href=\"https://www.broadcom.com/company/legal/cookie-policy\" aria-label=\"More information about your privacy, opens in a new tab\" rel=\"noopener noreferrer\" target=\"_bl…"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".ot-cookie-policy-link",
+            "snippet": "<a class=\"ot-cookie-policy-link\" href=\"https://www.broadcom.com/company/legal/cookie-policy\" aria-label=\"More information about your privacy, opens in a new tab\" rel=\"noopener noreferrer\" target=\"_bl…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "348430320132",
+        "nonce": "31af00317d07",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "42855",
+          "cf-cache-status": "HIT",
+          "last-modified": "Tue, 24 Nov 2026 00:45:39 GMT"
+        }
+      },
+      {
+        "hash": "cbf515b04911",
+        "nonce": "ec4ec3f51803",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "42878",
+          "cf-cache-status": "HIT",
+          "last-modified": "Tue, 24 Nov 2026 00:45:39 GMT"
+        }
+      },
+      {
+        "hash": "0dfb0c530fc2",
+        "nonce": "358774e367c6",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "42889",
+          "cf-cache-status": "HIT",
+          "last-modified": "Tue, 24 Nov 2026 00:45:39 GMT"
+        }
+      },
+      {
+        "hash": "fe845604e687",
+        "nonce": "4235609bf8a3",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "42926",
+          "cf-cache-status": "HIT",
+          "last-modified": "Tue, 24 Nov 2026 00:45:39 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

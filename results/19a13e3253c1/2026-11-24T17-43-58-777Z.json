@@ -1,0 +1,415 @@
+{
+  "url": "https://repado.com/",
+  "name": "repado.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795542238777,
+  "date": "2026-11-24T17:43:58.777Z",
+  "runId": "2026-11-24T17-38-32-120Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 31172,
+  "error": null,
+  "variance": {
+    "min": 71,
+    "max": 72,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://repado.com/",
+    "finalUrl": "https://repado.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 71,
+      "accessibility": 94,
+      "best-practices": 77,
+      "seo": 85,
+      "agentic-browsing": 99
+    },
+    "timings": {
+      "fcp": 2107,
+      "lcp": 9173,
+      "si": 2444,
+      "tbt": 149,
+      "tti": 10004,
+      "cls": 0.056,
+      "ttfb": 741,
+      "maxPotentialFid": 132,
+      "serverResponseTime": 186,
+      "networkRtt": 138.6,
+      "networkServerLatency": 140.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 671.7,
+      "resourceLoadDelay": 7.4,
+      "resourceLoadDuration": 1154.1,
+      "elementRenderDelay": 33.4
+    },
+    "weight": {
+      "total": 4050786,
+      "requests": 64,
+      "mainDocument": 8863,
+      "byType": {
+        "total": {
+          "bytes": 4050786,
+          "requests": 64
+        },
+        "media": {
+          "bytes": 1885538,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 1323298,
+          "requests": 26
+        },
+        "script": {
+          "bytes": 618999,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 186730,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 18853,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 8863,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 8505,
+          "requests": 10
+        },
+        "third-party": {
+          "bytes": 800363,
+          "requests": 25
+        }
+      },
+      "scripts": 13,
+      "stylesheets": 6,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 798233,
+      "mainThreadMs": 142.2,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 532643,
+          "mainThreadMs": 122.6,
+          "byType": {
+            "script": 532643
+          },
+          "typedBytes": 532643
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 191745,
+          "mainThreadMs": 0.7,
+          "byType": {
+            "stylesheet": 5015,
+            "font": 186730
+          },
+          "typedBytes": 191745
+        },
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 23155,
+          "mainThreadMs": 7.2,
+          "byType": {
+            "script": 23155
+          },
+          "typedBytes": 23155
+        },
+        {
+          "entity": "LinkedIn Ads",
+          "bytes": 22724,
+          "mainThreadMs": 6.2,
+          "byType": {
+            "script": 21966,
+            "image": 494,
+            "other": 264
+          },
+          "typedBytes": 22724
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 21823,
+          "mainThreadMs": 1.6,
+          "byType": {
+            "script": 21411,
+            "other": 412
+          },
+          "typedBytes": 21823
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1347.1,
+      "byGroup": {
+        "scriptEvaluation": 541,
+        "other": 366.5,
+        "styleLayout": 208.6,
+        "scriptParseCompile": 102.5,
+        "paintCompositeRender": 79.7,
+        "garbageCollection": 28,
+        "parseHTML": 20.7
+      },
+      "bootupMs": 551,
+      "longTasks": 5,
+      "longestTaskMs": 132
+    },
+    "dom": {
+      "elements": 353,
+      "depth": 9,
+      "maxChildren": 21
+    },
+    "waste": {
+      "unusedJsBytes": 224431,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2375,
+      "renderBlockingMs": 1090,
+      "renderBlockingCount": 7,
+      "poorlyCachedBytes": 750734.05,
+      "poorlyCachedCount": 42
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failingNodes": 18,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 18
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 6
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 4
+        },
+        {
+          "id": "canonical",
+          "title": "Document does not have a valid `rel=canonical`",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 15
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4008.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T17:43:59.967Z",
+      "runtimeMs": 9642.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.5",
+      "source": "meta",
+      "raw": "Eleventy v3.1.5"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.5"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Apache",
+      "detailIcon": "Apache",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Apache"
+    },
+    "violations": 38,
+    "passes": 524,
+    "incomplete": 4,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 19,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".graded > .left-padded.left-area",
+            "snippet": "<div class=\"left-area left-padded\"> <a href=\"/\" class=\"imtext logo\"> <img src=\"/img/repado-logo.svg\" alt=\"Custom certified medical software development\"> </a> </div>"
+          },
+          {
+            "selector": "#menubtn",
+            "snippet": "<div class=\"menu-icon\" id=\"menubtn\"> <a href=\"#\"><img src=\"/img/menuicon.svg\" alt=\"menu-icon\"></a> </div>"
+          },
+          {
+            "selector": "#intro > .left-padded.left-area",
+            "snippet": "<div class=\"left-area left-padded\">"
+          },
+          {
+            "selector": "#first-point",
+            "snippet": "<section class=\"wrapped wrappy padded myintrosection ourservices first-point to-animate\" id=\"first-point\">"
+          },
+          {
+            "selector": "#sec-point",
+            "snippet": "<section class=\"wrapped wrappy padded myintrosection ourservices sec-point \" id=\"sec-point\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 18,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#first-point > .right-area > a > h3",
+            "snippet": "<h3 class=\"imtext\">//encoding your needs</h3>"
+          },
+          {
+            "selector": "a[href$=\"consultation/\"] > h3",
+            "snippet": "<h3 class=\"\">//helping you Understand, Implement <br>&amp; Conform to Regulatory frameworks</h3>"
+          },
+          {
+            "selector": ".forth:nth-child(1) > .target-txt > span",
+            "snippet": "<span>Companies</span>"
+          },
+          {
+            "selector": ".forth:nth-child(2) > .target-txt > span",
+            "snippet": "<span>Companies</span>"
+          },
+          {
+            "selector": ".forth:nth-child(3) > .target-txt > span",
+            "snippet": "<span>Manufacturers</span>"
+          }
+        ]
+      },
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h4:nth-child(3)",
+            "snippet": "<h4 class=\"imtext\"></h4>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b600ecc41728",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"7fbb-65ee4842b2376-gzip\"",
+          "last-modified": "Wed, 28 Oct 2026 11:03:43 GMT"
+        }
+      },
+      {
+        "hash": "b600ecc41728",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"7fbb-65ee4842b2376-gzip\"",
+          "last-modified": "Wed, 28 Oct 2026 11:03:43 GMT"
+        }
+      },
+      {
+        "hash": "b600ecc41728",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"7fbb-65ee4842b2376-gzip\"",
+          "last-modified": "Wed, 28 Oct 2026 11:03:43 GMT"
+        }
+      },
+      {
+        "hash": "b600ecc41728",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"7fbb-65ee4842b2376-gzip\"",
+          "last-modified": "Wed, 28 Oct 2026 11:03:43 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

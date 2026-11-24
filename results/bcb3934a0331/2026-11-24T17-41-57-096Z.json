@@ -1,0 +1,332 @@
+{
+  "url": "https://printsgram.com/",
+  "name": "printsgram.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795542117096,
+  "date": "2026-11-24T17:41:57.096Z",
+  "runId": "2026-11-24T17-38-32-120Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25497,
+  "error": null,
+  "variance": {
+    "min": 77,
+    "max": 98,
+    "spread": 21,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://printsgram.com/",
+    "finalUrl": "https://printsgram.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 92,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2626,
+      "lcp": 2626,
+      "si": 2626,
+      "tbt": 106,
+      "tti": 4340,
+      "cls": 0,
+      "ttfb": 481,
+      "maxPotentialFid": 156,
+      "serverResponseTime": 281,
+      "networkRtt": 7.5,
+      "networkServerLatency": 34.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 282.3,
+      "elementRenderDelay": 103.8
+    },
+    "weight": {
+      "total": 436951,
+      "requests": 16,
+      "mainDocument": 7367,
+      "byType": {
+        "total": {
+          "bytes": 436951,
+          "requests": 16
+        },
+        "script": {
+          "bytes": 324585,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 83116,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 17526,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 7367,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 4357,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 404901,
+          "requests": 9
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 4,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 404901,
+      "mainThreadMs": 65.8,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 309400,
+          "mainThreadMs": 61,
+          "byType": {
+            "script": 309400
+          },
+          "typedBytes": 309400
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 85093,
+          "mainThreadMs": 0.4,
+          "byType": {
+            "stylesheet": 1977,
+            "font": 83116
+          },
+          "typedBytes": 85093
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 4.4,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 57,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 57
+          },
+          "typedBytes": 57
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 472.6,
+      "byGroup": {
+        "scriptEvaluation": 235.2,
+        "other": 107.7,
+        "styleLayout": 55.4,
+        "scriptParseCompile": 41.6,
+        "parseHTML": 15.2,
+        "paintCompositeRender": 9.4,
+        "garbageCollection": 8
+      },
+      "bootupMs": 262.2,
+      "longTasks": 2,
+      "longestTaskMs": 156
+    },
+    "dom": {
+      "elements": 215,
+      "depth": 11,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 144662,
+      "unusedCssBytes": 10375,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 2571,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 4140.400000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 22,
+      "failingNodes": 16,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 16
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 35
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4154,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T17:42:14.745Z",
+      "runtimeMs": 7597.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.2",
+      "source": "meta",
+      "raw": "Eleventy v3.1.2"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.2"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5fa359c1d330a82-LAX",
+      "server": "cloudflare"
+    },
+    "violations": 16,
+    "passes": 342,
+    "incomplete": 12,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 16,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".text-3xl",
+            "snippet": "<a href=\"/\" class=\"font-pixel text-3xl font-bold text-primary t--ext-transparent bg-clip-text no-underline hover:text-secondary transition-colors duration-150 tracking-tight p-4\">Printsgram</a>"
+          },
+          {
+            "selector": ".mb-6.tracking-\\[0\\.18em\\].uppercase",
+            "snippet": "<span class=\"font-mono text-[0.8rem] tracking-[0.18em] uppercase text-primary block mb-6\">Compare • Decide • Create</span>"
+          },
+          {
+            "selector": ".py-\\[4\\.5rem\\]:nth-child(2) > .site-wrap > .mb-10 > .text-\\[0\\.75rem\\].tracking-\\[0\\.2em\\].mb-\\[0\\.6rem\\]",
+            "snippet": "<span class=\"font-mono text-[0.75rem] tracking-[0.2em] uppercase text-primary block mb-[0.6rem]\">Directory</span>"
+          },
+          {
+            "selector": ".py-\\[1\\.1rem\\].group[href$=\"suppliers/\"] > .items-baseline.gap-5.min-w-0 > .text-\\[1\\.1rem\\].font-semibold.whitespace-nowrap",
+            "snippet": "<span class=\"font-serif text-[1.1rem] font-semibold text-primary whitespace-nowrap\">View complete directory</span>"
+          },
+          {
+            "selector": "label:nth-child(1) > .dark\\:text-gray-400.text-gray-600.text-sm",
+            "snippet": "<span class=\"text-sm text-gray-600 dark:text-gray-400\">I accept the terms and conditions</span>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "8ada2a7e000f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 21 Nov 2026 13:08:50 GMT"
+        }
+      },
+      {
+        "hash": "8ada2a7e000f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 21 Nov 2026 13:08:50 GMT"
+        }
+      },
+      {
+        "hash": "8ada2a7e000f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 21 Nov 2026 13:08:50 GMT"
+        }
+      },
+      {
+        "hash": "8ada2a7e000f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 21 Nov 2026 13:08:50 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

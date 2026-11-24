@@ -1,0 +1,269 @@
+{
+  "url": "https://ryanprintup.com/",
+  "name": "ryanprintup.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795542455888,
+  "date": "2026-11-24T17:47:35.888Z",
+  "runId": "2026-11-24T17-38-32-120Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22364,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://ryanprintup.com/",
+    "finalUrl": "https://ryanprintup.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 957,
+      "lcp": 1289,
+      "si": 1598,
+      "tbt": 0,
+      "tti": 1289,
+      "cls": 0,
+      "ttfb": 657,
+      "maxPotentialFid": 32,
+      "serverResponseTime": 60,
+      "networkRtt": 0.1,
+      "networkServerLatency": 74.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 62,
+      "resourceLoadDelay": 8,
+      "resourceLoadDuration": 66.2,
+      "elementRenderDelay": 20.9
+    },
+    "weight": {
+      "total": 1212512,
+      "requests": 30,
+      "mainDocument": 11446,
+      "byType": {
+        "total": {
+          "bytes": 1212512,
+          "requests": 29
+        },
+        "media": {
+          "bytes": 740891,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 337981,
+          "requests": 15
+        },
+        "font": {
+          "bytes": 44364,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 42630,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 19124,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 16076,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 11446,
+          "requests": 1
+        },
+        "third-party": {
+          "bytes": 25907,
+          "requests": 2
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 25907,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "YouTube",
+          "bytes": 22569,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 22569
+          },
+          "typedBytes": 22569
+        },
+        {
+          "entity": "bandsintown.com",
+          "bytes": 3338,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 3338
+          },
+          "typedBytes": 3338
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 671.2,
+      "byGroup": {
+        "other": 286.3,
+        "scriptEvaluation": 198.4,
+        "styleLayout": 104.4,
+        "paintCompositeRender": 43.3,
+        "parseHTML": 19.7,
+        "scriptParseCompile": 11.9,
+        "garbageCollection": 7.2
+      },
+      "bootupMs": 202.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 991,
+      "depth": 15,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 10953,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 440983.95000000007,
+      "poorlyCachedCount": 17
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 27,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 42
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4010.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T17:47:44.139Z",
+      "runtimeMs": 6499.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 0,
+    "passes": 928,
+    "incomplete": 16,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9ccaf36ab465",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6af2784a-fe90\"",
+          "last-modified": "Tue, 10 Nov 2026 01:50:02 GMT"
+        }
+      },
+      {
+        "hash": "9ccaf36ab465",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6af2784a-fe90\"",
+          "last-modified": "Tue, 10 Nov 2026 01:50:02 GMT"
+        }
+      },
+      {
+        "hash": "9ccaf36ab465",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6af2784a-fe90\"",
+          "last-modified": "Tue, 10 Nov 2026 01:50:02 GMT"
+        }
+      },
+      {
+        "hash": "9ccaf36ab465",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"6af2784a-fe90\"",
+          "last-modified": "Tue, 10 Nov 2026 01:50:02 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
