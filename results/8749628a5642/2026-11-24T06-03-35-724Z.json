@@ -1,0 +1,387 @@
+{
+  "url": "https://mess.gr/",
+  "name": "mess.gr",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795500215724,
+  "date": "2026-11-24T06:03:35.724Z",
+  "runId": "2026-11-24T05-59-12-491Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20919,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 99,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://mess.gr/",
+    "finalUrl": "https://mess.gr/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 85,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1557,
+      "lcp": 1557,
+      "si": 1557,
+      "tbt": 92,
+      "tti": 4058,
+      "cls": 0.001,
+      "ttfb": 620,
+      "maxPotentialFid": 132,
+      "serverResponseTime": 21,
+      "networkRtt": 0.2,
+      "networkServerLatency": 48.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 22.6,
+      "elementRenderDelay": 71.2
+    },
+    "weight": {
+      "total": 390428,
+      "requests": 11,
+      "mainDocument": 2412,
+      "byType": {
+        "total": {
+          "bytes": 390428,
+          "requests": 11
+        },
+        "script": {
+          "bytes": 303716,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 71333,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 8229,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 3479,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 2412,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1259,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 375736,
+          "requests": 5
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 3,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 375736,
+      "mainThreadMs": 60.8,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 302901,
+          "mainThreadMs": 60.5,
+          "byType": {
+            "script": 302901
+          },
+          "typedBytes": 302901
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 72835,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 1502,
+            "font": 71333
+          },
+          "typedBytes": 72835
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 560.9,
+      "byGroup": {
+        "scriptEvaluation": 243.1,
+        "other": 164.2,
+        "styleLayout": 63.2,
+        "scriptParseCompile": 55.8,
+        "paintCompositeRender": 14.9,
+        "garbageCollection": 12.4,
+        "parseHTML": 7.4
+      },
+      "bootupMs": 293.5,
+      "longTasks": 2,
+      "longestTaskMs": 132
+    },
+    "dom": {
+      "elements": 116,
+      "depth": 11,
+      "maxChildren": 24
+    },
+    "waste": {
+      "unusedJsBytes": 150299,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 786,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 18,
+      "failingNodes": 9,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 7
+        },
+        {
+          "id": "aria-allowed-attr",
+          "title": "`[aria-*]` attributes do not match their roles",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 10
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2943,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T06:03:44.003Z",
+      "runtimeMs": 6088.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "2.0.1",
+      "source": "meta",
+      "raw": "Eleventy v2.0.1"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v2.0.1"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M862EPJSZ0XPHWV9XDRE0G83"
+    },
+    "violations": 11,
+    "passes": 196,
+    "incomplete": 1,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 7,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".menu-item-has-children.main-li.menu-item:nth-child(2) > .sub-menu > .menu-item:nth-child(3) > a[href=\"#\"]",
+            "snippet": "<a href=\"#\"> </a>"
+          },
+          {
+            "selector": ".menu-item-has-children.main-li.menu-item:nth-child(2) > .sub-menu > .menu-item:nth-child(4) > a[href=\"#\"]",
+            "snippet": "<a href=\"#\"> </a>"
+          },
+          {
+            "selector": ".menu-item-has-children.main-li.menu-item:nth-child(3) > .sub-menu > .menu-item:nth-child(2) > a[href=\"#\"]",
+            "snippet": "<a href=\"#\"> </a>"
+          },
+          {
+            "selector": ".menu-item:nth-child(5) > a[href=\"#\"]",
+            "snippet": "<a href=\"#\"> </a>"
+          },
+          {
+            "selector": ".menu-item-has-children.main-li.menu-item:nth-child(5) > .sub-menu > .menu-item:nth-child(3) > a[href=\"#\"]",
+            "snippet": "<a href=\"#\"> </a>"
+          }
+        ]
+      },
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Elements must only use supported ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#menu-toggler",
+            "snippet": "<div id=\"menu-toggler\" class=\"menu-toggle\" aria-expanded=\"false\"> <span></span> <span></span> <span></span> </div>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#navigation",
+            "snippet": "<nav id=\"navigation\" class=\"d-flex\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".basic-container",
+            "snippet": "<section class=\"container basic-container\"> <p class=\"intro-text\"> <span> creative </span><br>content &amp; services </p> </section>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "1766c49fe823",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"7327cd9160cc4a3025d3c3116a75ebd2-ssl\""
+        }
+      },
+      {
+        "hash": "1766c49fe823",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"7327cd9160cc4a3025d3c3116a75ebd2-ssl\""
+        }
+      },
+      {
+        "hash": "1766c49fe823",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"7327cd9160cc4a3025d3c3116a75ebd2-ssl\""
+        }
+      },
+      {
+        "hash": "1766c49fe823",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "etag": "W/\"7327cd9160cc4a3025d3c3116a75ebd2-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
