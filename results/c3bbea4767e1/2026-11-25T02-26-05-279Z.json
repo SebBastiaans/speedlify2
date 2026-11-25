@@ -1,0 +1,272 @@
+{
+  "url": "https://sindre.is/",
+  "name": "sindre.is",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795573565279,
+  "date": "2026-11-25T02:26:05.279Z",
+  "runId": "2026-11-25T02-22-53-619Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 19609,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 100,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://sindre.is/",
+    "finalUrl": "https://sindre.is/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 795,
+      "lcp": 2484,
+      "si": 795,
+      "tbt": 0,
+      "tti": 2484,
+      "cls": 0.001,
+      "ttfb": 634,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 27,
+      "networkRtt": 0,
+      "networkServerLatency": 39.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 28.8,
+      "elementRenderDelay": 88.8
+    },
+    "weight": {
+      "total": 34987,
+      "requests": 7,
+      "mainDocument": 3226,
+      "byType": {
+        "total": {
+          "bytes": 34987,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 24037,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 3690,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 3226,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 3022,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 1012,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 24801,
+          "requests": 2
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 3,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 24801,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 24801,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 764,
+            "font": 24037
+          },
+          "typedBytes": 24801
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 280,
+      "byGroup": {
+        "other": 147.9,
+        "paintCompositeRender": 57.2,
+        "styleLayout": 56.4,
+        "scriptEvaluation": 10.5,
+        "parseHTML": 6.7,
+        "scriptParseCompile": 1.3
+      },
+      "bootupMs": 10.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 60,
+      "depth": 7,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 16,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 5
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4049.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T02:26:12.865Z",
+      "runtimeMs": 5836.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "sfo1::6vn4q-1795573583711-56c1e8918adb"
+    },
+    "violations": 0,
+    "passes": 109,
+    "incomplete": 4,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "bcfaea1c8563",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "91413",
+          "etag": "W/\"3b2237d53cb9f9cad56a5a8fe73b936d\"",
+          "last-modified": "Tue, 24 Nov 2026 01:02:33 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "bcfaea1c8563",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "91419",
+          "etag": "W/\"3b2237d53cb9f9cad56a5a8fe73b936d\"",
+          "last-modified": "Tue, 24 Nov 2026 01:02:33 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "bcfaea1c8563",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "91425",
+          "etag": "W/\"3b2237d53cb9f9cad56a5a8fe73b936d\"",
+          "last-modified": "Tue, 24 Nov 2026 01:02:33 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "bcfaea1c8563",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"3b2237d53cb9f9cad56a5a8fe73b936d\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,357 @@
+{
+  "url": "https://pypi.org/",
+  "name": "PyPI",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795574188769,
+  "date": "2026-11-25T02:36:28.769Z",
+  "runId": "2026-11-25T02-22-53-619Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 67992,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 99,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://pypi.org/",
+    "finalUrl": "https://pypi.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 96,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 98
+    },
+    "timings": {
+      "fcp": 1060,
+      "lcp": 1060,
+      "si": 1060,
+      "tbt": 0,
+      "tti": 1060,
+      "cls": 0.07,
+      "ttfb": 610,
+      "maxPotentialFid": 25,
+      "serverResponseTime": 9,
+      "networkRtt": 0,
+      "networkServerLatency": 38.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 10.6,
+      "elementRenderDelay": 50.4
+    },
+    "weight": {
+      "total": 253227,
+      "requests": 18,
+      "mainDocument": 7669,
+      "byType": {
+        "total": {
+          "bytes": 253227,
+          "requests": 18
+        },
+        "font": {
+          "bytes": 163892,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 39405,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 36578,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 7669,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3926,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 1757,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 12106,
+          "requests": 3
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 3,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 12106,
+      "mainThreadMs": 2.5,
+      "top": [
+        {
+          "entity": "ethicalads.io",
+          "bytes": 8411,
+          "mainThreadMs": 1.5,
+          "byType": {
+            "script": 8411
+          },
+          "typedBytes": 8411
+        },
+        {
+          "entity": "python.org",
+          "bytes": 2459,
+          "mainThreadMs": 1,
+          "byType": {
+            "script": 2459
+          },
+          "typedBytes": 2459
+        },
+        {
+          "entity": "Statuspage",
+          "bytes": 1236,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 1236
+          },
+          "typedBytes": 1236
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 278,
+      "byGroup": {
+        "other": 101.7,
+        "styleLayout": 76.2,
+        "scriptEvaluation": 59.1,
+        "parseHTML": 15.7,
+        "paintCompositeRender": 14.7,
+        "scriptParseCompile": 10.7
+      },
+      "bootupMs": 56,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 254,
+      "depth": 12,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 32654,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 300,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 9167.308333333334,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 29,
+      "failingNodes": 14,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 14
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 11
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4010.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T02:36:42.224Z",
+      "runtimeMs": 5659.4
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.5,
+    "elementRenderDelay": 337.1
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {
+      "x-served-by": "cache-hhr-khhr2060023-HHR"
+    },
+    "violations": 41,
+    "passes": 401,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 27,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"anthropic.com/\"] > .sponsors__name",
+            "snippet": "<span class=\"sponsors__name\">Anthropic, PBC</span>"
+          },
+          {
+            "selector": "a[href$=\"anthropic.com/\"] > .sponsors__description",
+            "snippet": "<span class=\"sponsors__description\">Visionary sponsor</span>"
+          },
+          {
+            "selector": ".sponsors__sponsor[target=\"_blank\"][rel=\"noopener\"]:nth-child(2) > .sponsors__name",
+            "snippet": "<span class=\"sponsors__name\">Bloomberg</span>"
+          },
+          {
+            "selector": ".sponsors__sponsor[target=\"_blank\"][rel=\"noopener\"]:nth-child(2) > .sponsors__description",
+            "snippet": "<span class=\"sponsors__description\">Visionary sponsor</span>"
+          },
+          {
+            "selector": ".sponsors__sponsor[target=\"_blank\"][rel=\"noopener\"]:nth-child(3) > .sponsors__name",
+            "snippet": "<span class=\"sponsors__name\">Hudson River Trading</span>"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 14,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".footer__tagline",
+            "snippet": "<p class=\"footer__tagline\">Developed and maintained by the <a href=\"https://www.python.org/psf/\" title=\"External link\" target=\"_blank\" rel=\"noopener\">Python Software Foundation</a> and Python communi…"
+          },
+          {
+            "selector": "a[href$=\"anthropic.com/\"] > .sponsors__description",
+            "snippet": "<span class=\"sponsors__description\">Visionary sponsor</span>"
+          },
+          {
+            "selector": ".sponsors__sponsor[target=\"_blank\"][rel=\"noopener\"]:nth-child(2) > .sponsors__description",
+            "snippet": "<span class=\"sponsors__description\">Visionary sponsor</span>"
+          },
+          {
+            "selector": ".sponsors__sponsor[target=\"_blank\"][rel=\"noopener\"]:nth-child(3) > .sponsors__description",
+            "snippet": "<span class=\"sponsors__description\">Visionary sponsor</span>"
+          },
+          {
+            "selector": ".sponsors__sponsor[target=\"_blank\"][rel=\"noopener\"]:nth-child(4) > .sponsors__description",
+            "snippet": "<span class=\"sponsors__description\">Visionary sponsor</span>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9ad5ad8424c7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"boaApgqqvERCzomPGKd3UA\"",
+          "x-cache": "MISS, HIT, HIT"
+        }
+      },
+      {
+        "hash": "9ad5ad8424c7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"boaApgqqvERCzomPGKd3UA\"",
+          "x-cache": "MISS, HIT, HIT"
+        }
+      },
+      {
+        "hash": "9ad5ad8424c7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"boaApgqqvERCzomPGKd3UA\"",
+          "x-cache": "MISS, HIT, HIT"
+        }
+      },
+      {
+        "hash": "9ad5ad8424c7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"boaApgqqvERCzomPGKd3UA\"",
+          "x-cache": "MISS, HIT, HIT"
+        }
+      },
+      {
+        "hash": "9ad5ad8424c7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"boaApgqqvERCzomPGKd3UA\"",
+          "x-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

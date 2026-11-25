@@ -1,0 +1,320 @@
+{
+  "url": "https://sia.codes/",
+  "name": "sia.codes",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795573493807,
+  "date": "2026-11-25T02:24:53.807Z",
+  "runId": "2026-11-25T02-22-53-619Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23536,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://sia.codes/",
+    "finalUrl": "https://sia.codes/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 983,
+      "lcp": 983,
+      "si": 983,
+      "tbt": 28,
+      "tti": 3898,
+      "cls": 0.021,
+      "ttfb": 655,
+      "maxPotentialFid": 93,
+      "serverResponseTime": 43,
+      "networkRtt": 0.1,
+      "networkServerLatency": 69.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 44.9,
+      "elementRenderDelay": 122
+    },
+    "weight": {
+      "total": 484837,
+      "requests": 26,
+      "mainDocument": 19510,
+      "byType": {
+        "total": {
+          "bytes": 484837,
+          "requests": 24
+        },
+        "script": {
+          "bytes": 203095,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 144819,
+          "requests": 11
+        },
+        "font": {
+          "bytes": 114786,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 19510,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2627,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 295461,
+          "requests": 10
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 0,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 295461,
+      "mainThreadMs": 52.5,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 177673,
+          "mainThreadMs": 41.1,
+          "byType": {
+            "script": 177673
+          },
+          "typedBytes": 177673
+        },
+        {
+          "entity": "Cloudinary",
+          "bytes": 66838,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 66838
+          },
+          "typedBytes": 66838
+        },
+        {
+          "entity": "YouTube",
+          "bytes": 28033,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 28033
+          },
+          "typedBytes": 28033
+        },
+        {
+          "entity": "SpeedCurve RUM",
+          "bytes": 12566,
+          "mainThreadMs": 7.2,
+          "byType": {
+            "script": 12496,
+            "image": 70
+          },
+          "typedBytes": 12566
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 4.2,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 513.2,
+      "byGroup": {
+        "scriptEvaluation": 200.7,
+        "other": 147.6,
+        "styleLayout": 90.5,
+        "scriptParseCompile": 28.2,
+        "paintCompositeRender": 22.7,
+        "parseHTML": 16.1,
+        "garbageCollection": 7.3
+      },
+      "bootupMs": 184,
+      "longTasks": 2,
+      "longestTaskMs": 93
+    },
+    "dom": {
+      "elements": 320,
+      "depth": 11,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 73846,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 35231.950000000004,
+      "poorlyCachedCount": 4
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 28,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 34
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3906,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T02:25:02.523Z",
+      "runtimeMs": 6677.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.8",
+      "source": "meta",
+      "raw": "Eleventy v3.1.8"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.8"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5fd33a51e3072d5-LAX",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 520,
+    "incomplete": 4,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".logo",
+            "snippet": "<a aria-label=\"Home\" class=\"logo layer\" href=\"/\"> sia.codes </a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "2bf62fcea797",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "2bf62fcea797",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "2bf62fcea797",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "2bf62fcea797",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
