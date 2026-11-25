@@ -1,0 +1,373 @@
+{
+  "url": "https://worldtouroperators.com/",
+  "name": "worldtouroperators.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795646200877,
+  "date": "2026-11-25T22:36:40.877Z",
+  "runId": "2026-11-25T22-29-31-399Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26464,
+  "error": null,
+  "variance": {
+    "min": 85,
+    "max": 95,
+    "spread": 10,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://worldtouroperators.com/",
+    "finalUrl": "https://worldtouroperators.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 85,
+      "accessibility": 94,
+      "best-practices": 77,
+      "seo": 92,
+      "agentic-browsing": 75
+    },
+    "timings": {
+      "fcp": 1571,
+      "lcp": 4161,
+      "si": 1571,
+      "tbt": 78,
+      "tti": 4808,
+      "cls": 0.057,
+      "ttfb": 620,
+      "maxPotentialFid": 183,
+      "serverResponseTime": 274,
+      "networkRtt": 0.1,
+      "networkServerLatency": 21.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 275.5,
+      "resourceLoadDelay": 8.4,
+      "resourceLoadDuration": 44.7,
+      "elementRenderDelay": 51.1
+    },
+    "weight": {
+      "total": 635683,
+      "requests": 20,
+      "mainDocument": 13597,
+      "byType": {
+        "total": {
+          "bytes": 635683,
+          "requests": 20
+        },
+        "script": {
+          "bytes": 365376,
+          "requests": 9
+        },
+        "image": {
+          "bytes": 206649,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 30156,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 13926,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 13597,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 5979,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 344596,
+          "requests": 7
+        }
+      },
+      "scripts": 9,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 344596,
+      "mainThreadMs": 82.5,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 309392,
+          "mainThreadMs": 71,
+          "byType": {
+            "script": 309392
+          },
+          "typedBytes": 309392
+        },
+        {
+          "entity": "getyourguide.com",
+          "bytes": 24796,
+          "mainThreadMs": 6.9,
+          "byType": {
+            "script": 23345,
+            "other": 1451
+          },
+          "typedBytes": 24796
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 4.6,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 57,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 57
+          },
+          "typedBytes": 57
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 655.7,
+      "byGroup": {
+        "scriptEvaluation": 325.8,
+        "other": 163.4,
+        "scriptParseCompile": 62.6,
+        "styleLayout": 60.8,
+        "paintCompositeRender": 16.7,
+        "parseHTML": 15.8,
+        "garbageCollection": 10.6
+      },
+      "bootupMs": 311.7,
+      "longTasks": 2,
+      "longestTaskMs": 183
+    },
+    "dom": {
+      "elements": 518,
+      "depth": 11,
+      "maxChildren": 20
+    },
+    "waste": {
+      "unusedJsBytes": 144076,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 6054.7295416666675,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 24,
+      "failingNodes": 8,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 7
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is not valid",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 37
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3410.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T22:36:50.958Z",
+      "runtimeMs": 7919.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.2",
+      "source": "meta",
+      "raw": "Eleventy v3.1.2"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.2"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a60422c02cec2095-PDX",
+      "server": "cloudflare"
+    },
+    "violations": 8,
+    "passes": 776,
+    "incomplete": 18,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 7,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".container.px-4.mx-auto > .md\\:text-4xl",
+            "snippet": "<h2 class=\"text-3xl md:text-4xl font-bold mb-6 text-white\">Find Tour Operators Worldwide</h2>"
+          },
+          {
+            "selector": ".max-w-2xl",
+            "snippet": "<p class=\"text-xl mb-8 text-blue-100 max-w-2xl mx-auto\">Start exploring tour operators by country or region. Your next adventure begins here.</p>"
+          },
+          {
+            "selector": ".border-white.hover\\:bg-white.hover\\:text-blue-900:nth-child(1)",
+            "snippet": "<a href=\"/country/\" class=\"border-2 border-white hover:bg-white hover:text-blue-900 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200\">Browse All Countries </a>"
+          },
+          {
+            "selector": ".border-white.hover\\:bg-white.hover\\:text-blue-900:nth-child(2)",
+            "snippet": "<a href=\"/region/\" class=\"border-2 border-white hover:bg-white hover:text-blue-900 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200\">Browse by Region </a>"
+          },
+          {
+            "selector": ".border-white.hover\\:bg-white.hover\\:text-blue-900:nth-child(3)",
+            "snippet": "<a href=\"/activity/\" class=\"border-2 border-white hover:bg-white hover:text-blue-900 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200\">Browse by Activity</a>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div:nth-child(1) > h6",
+            "snippet": "<h6 class=\"mb-4 font-semibold uppercase text-secondary-500\">Wto</h6>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ee6a06d19899",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 20 Nov 2026 19:28:30 GMT"
+        }
+      },
+      {
+        "hash": "bdd493d7d5e2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 20 Nov 2026 19:28:30 GMT"
+        }
+      },
+      {
+        "hash": "f4fdcb84d628",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 20 Nov 2026 19:28:30 GMT"
+        }
+      },
+      {
+        "hash": "0c74d065ed8b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 20 Nov 2026 19:28:30 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

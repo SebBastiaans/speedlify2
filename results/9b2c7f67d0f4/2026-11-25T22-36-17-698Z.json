@@ -1,0 +1,312 @@
+{
+  "url": "https://wirgen.dev/",
+  "name": "wirgen.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795646177698,
+  "date": "2026-11-25T22:36:17.698Z",
+  "runId": "2026-11-25T22-29-31-399Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20179,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://wirgen.dev/",
+    "finalUrl": "https://wirgen.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 99,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 803,
+      "lcp": 803,
+      "si": 803,
+      "tbt": 50,
+      "tti": 2595,
+      "cls": 0,
+      "ttfb": 630,
+      "maxPotentialFid": 81,
+      "serverResponseTime": 30,
+      "networkRtt": 0,
+      "networkServerLatency": 29.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 31.3,
+      "elementRenderDelay": 26.3
+    },
+    "weight": {
+      "total": 186131,
+      "requests": 7,
+      "mainDocument": 5517,
+      "byType": {
+        "total": {
+          "bytes": 186131,
+          "requests": 7
+        },
+        "script": {
+          "bytes": 172952,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 6420,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 5517,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 816,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 426,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 180188,
+          "requests": 5
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 180188,
+      "mainThreadMs": 39.6,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 171964,
+          "mainThreadMs": 38.9,
+          "byType": {
+            "script": 171964
+          },
+          "typedBytes": 171964
+        },
+        {
+          "entity": "cloudfront.net",
+          "bytes": 6246,
+          "mainThreadMs": 0.5,
+          "byType": {
+            "script": 988,
+            "stylesheet": 4442,
+            "image": 816
+          },
+          "typedBytes": 6246
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 1978,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1978
+          },
+          "typedBytes": 1978
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 277.4,
+      "byGroup": {
+        "scriptEvaluation": 141.7,
+        "other": 62.7,
+        "styleLayout": 29.8,
+        "scriptParseCompile": 27.7,
+        "parseHTML": 11.1,
+        "paintCompositeRender": 4.4
+      },
+      "bootupMs": 166.2,
+      "longTasks": 2,
+      "longestTaskMs": 81
+    },
+    "dom": {
+      "elements": 121,
+      "depth": 9,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 75924,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 24,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "svg-img-alt",
+          "title": "SVG elements with an `img` role do not have an accessible text alternative",
+          "weight": 1,
+          "nodes": 4
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 5
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3441,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T22:36:32.060Z",
+      "runtimeMs": 5670.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8ADN30MRGBQ0VF31AFFXEZR"
+    },
+    "violations": 4,
+    "passes": 230,
+    "incomplete": 1,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "svg-img-alt",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "<svg> elements with an img or image role must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/svg-img-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"wirgen\"][rel=\"nofollow noopener\"][target=\"_blank\"]:nth-child(1) > .fill-current[role=\"img\"][viewBox=\"0 0 24 24\"]",
+            "snippet": "<svg class=\"fill-current\" style=\"width:1.5rem;height:1.5rem\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">"
+          },
+          {
+            "selector": "a[href$=\"wirgen\"][rel=\"nofollow noopener\"][target=\"_blank\"]:nth-child(2) > .fill-current[role=\"img\"][viewBox=\"0 0 24 24\"]",
+            "snippet": "<svg class=\"fill-current\" style=\"width:1.5rem;height:1.5rem\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">"
+          },
+          {
+            "selector": ".text-gray-700[rel=\"nofollow noopener\"][target=\"_blank\"]:nth-child(3) > .fill-current[role=\"img\"][viewBox=\"0 0 24 24\"]",
+            "snippet": "<svg class=\"fill-current\" style=\"width:1.5rem;height:1.5rem\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">"
+          },
+          {
+            "selector": ".text-gray-700[rel=\"nofollow noopener\"][target=\"_blank\"]:nth-child(4) > .fill-current[role=\"img\"][viewBox=\"0 0 24 24\"]",
+            "snippet": "<svg class=\"fill-current\" style=\"width:1.5rem;height:1.5rem\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "20d52d56f36e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"b2a48f114bb22a82360881dff1d63185-ssl\""
+        }
+      },
+      {
+        "hash": "20d52d56f36e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"b2a48f114bb22a82360881dff1d63185-ssl\""
+        }
+      },
+      {
+        "hash": "20d52d56f36e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"b2a48f114bb22a82360881dff1d63185-ssl\""
+        }
+      },
+      {
+        "hash": "20d52d56f36e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535983",
+          "etag": "W/\"b2a48f114bb22a82360881dff1d63185-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
