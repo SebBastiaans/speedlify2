@@ -1,0 +1,359 @@
+{
+  "url": "https://webawesome.com/",
+  "name": "webawesome.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795611115247,
+  "date": "2026-11-25T12:51:55.247Z",
+  "runId": "2026-11-25T12-47-43-763Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 40187,
+  "error": null,
+  "variance": {
+    "min": 52,
+    "max": 56,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://webawesome.com/",
+    "finalUrl": "https://webawesome.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 54,
+      "accessibility": 99,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1240,
+      "lcp": 6158,
+      "si": 3373,
+      "tbt": 1069,
+      "tti": 6165,
+      "cls": 0,
+      "ttfb": 640,
+      "maxPotentialFid": 367,
+      "serverResponseTime": 27,
+      "networkRtt": 0.7,
+      "networkServerLatency": 39.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 28.8,
+      "resourceLoadDelay": 10,
+      "resourceLoadDuration": 243,
+      "elementRenderDelay": 1030.6
+    },
+    "weight": {
+      "total": 953891,
+      "requests": 356,
+      "mainDocument": 31659,
+      "byType": {
+        "total": {
+          "bytes": 946814,
+          "requests": 345
+        },
+        "script": {
+          "bytes": 488409,
+          "requests": 186
+        },
+        "other": {
+          "bytes": 258717,
+          "requests": 114
+        },
+        "font": {
+          "bytes": 79718,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 72087,
+          "requests": 40
+        },
+        "document": {
+          "bytes": 31659,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 16224,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 278134,
+          "requests": 114
+        }
+      },
+      "scripts": 186,
+      "stylesheets": 40,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 278134,
+      "mainThreadMs": 101.3,
+      "top": [
+        {
+          "entity": "posthog.com",
+          "bytes": 184768,
+          "mainThreadMs": 100.4,
+          "byType": {
+            "script": 183868,
+            "other": 900
+          },
+          "typedBytes": 184768
+        },
+        {
+          "entity": "FontAwesome CDN",
+          "bytes": 64442,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 64442
+          },
+          "typedBytes": 64442
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 28924,
+          "mainThreadMs": 0.9,
+          "byType": {
+            "script": 28924
+          },
+          "typedBytes": 28924
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 5559.9,
+      "byGroup": {
+        "other": 1859.7,
+        "scriptEvaluation": 1693.7,
+        "styleLayout": 1360.2,
+        "paintCompositeRender": 300.2,
+        "parseHTML": 193.6,
+        "scriptParseCompile": 98.4,
+        "garbageCollection": 54
+      },
+      "bootupMs": 1617,
+      "longTasks": 15,
+      "longestTaskMs": 367
+    },
+    "dom": {
+      "elements": 5015,
+      "depth": 22,
+      "maxChildren": 133
+    },
+    "waste": {
+      "unusedJsBytes": 121654,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 15104,
+      "unminifiedJsBytes": 12301,
+      "unminifiedCssBytes": 19855,
+      "renderBlockingMs": 300,
+      "renderBlockingCount": 38,
+      "poorlyCachedBytes": 218391.26488773144,
+      "poorlyCachedCount": 31
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 30,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 65
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2448.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T12:52:09.396Z",
+      "runtimeMs": 11178.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "lit",
+        "webawesome"
+      ],
+      "markVersions": {
+        "lit": "3.3.0"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a600ca7f8cc71500-ORD",
+      "server": "cloudflare"
+    },
+    "violations": 9,
+    "passes": 1746,
+    "incomplete": 101,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-tab-name",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "ARIA tab nodes must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-tab-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#home-components-demo-tab-feedback",
+            "snippet": "<wa-tab id=\"home-components-demo...\" panel=\"demo-feedback\" data-track-event=\"home:component_demo_...\" data-track-context=\"components\" data-track-destinati...=\"feedback\" aria-disabled=\"false\" aria-sel…"
+          },
+          {
+            "selector": "#home-components-demo-tab-charts",
+            "snippet": "<wa-tab id=\"home-components-demo...\" panel=\"demo-charts\" data-track-event=\"home:component_demo_...\" data-track-context=\"components\" data-track-destinati...=\"charts\" aria-disabled=\"false\" aria-selecte…"
+          },
+          {
+            "selector": "#home-components-demo-tab-actions",
+            "snippet": "<wa-tab id=\"home-components-demo...\" panel=\"demo-actions\" data-track-event=\"home:component_demo_...\" data-track-context=\"components\" data-track-destinati...=\"actions\" aria-disabled=\"false\" aria-selec…"
+          },
+          {
+            "selector": "#home-components-demo-tab-forms",
+            "snippet": "<wa-tab id=\"home-components-demo...\" panel=\"demo-forms\" data-track-event=\"home:component_demo_...\" data-track-context=\"components\" data-track-destinati...=\"forms\" aria-disabled=\"false\" aria-selected=…"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "wa-page a[href$=\"#main-content\"]",
+            "snippet": "<a href=\"#main-content\" part=\"skip-to-content\" class=\"wa-visually-hidden\"> <slot name=\"skip-to-content\">Skip to content</slot> </a>"
+          },
+          {
+            "selector": ".subheader-logo-simple",
+            "snippet": "<div class=\"subheader-logo-simple\">"
+          },
+          {
+            "selector": "#login-button-icon",
+            "snippet": "<wa-button appearance=\"plain\" size=\"s\" href=\"/login\" data-track-event=\"navigation:header_link_click\" data-track-destination=\"login\" id=\"login-button-icon\" variant=\"neutral\" aria-labelledby=\"wa-toolti…"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".components-demo-preview.preview:nth-child(1) > .wa-stack > h4",
+            "snippet": "<h4 class=\"wa-heading-s\"><a href=\"https://www.youtube.com/watch?v=lDK9QqIzhwk\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wa-link-plain\">Whoaaa, we're half way there…</a></h4>"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#code-block-09e13657-e6b7-4ff5-9bf4-d10496a3a61d-inner",
+            "snippet": "<code class=\"language-markup\" id=\"code-block-09e13657-e6b7-4ff5-9bf4-d10496a3a61d-inner\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "df5fdb6c3ea2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "BYPASS"
+        }
+      },
+      {
+        "hash": "9946ce304173",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "b1cae6b61bef",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "bb5def728cd9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
