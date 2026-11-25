@@ -1,0 +1,391 @@
+{
+  "url": "https://www.samsung.com/",
+  "name": "Samsung",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1795574033814,
+  "date": "2026-11-25T02:33:53.814Z",
+  "runId": "2026-11-25T02-22-57-599Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 170236,
+  "error": null,
+  "variance": {
+    "min": 28,
+    "max": 43,
+    "spread": 15,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.samsung.com/",
+    "finalUrl": "https://www.samsung.com/us/",
+    "redirect": {
+      "from": "https://www.samsung.com/",
+      "to": "https://www.samsung.com/us",
+      "chain": [
+        {
+          "url": "https://www.samsung.com/",
+          "status": 301
+        },
+        {
+          "url": "https://www.samsung.com/us/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        301
+      ],
+      "change": "path",
+      "permanent": true,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 42,
+      "accessibility": 100,
+      "best-practices": 58,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2056,
+      "lcp": 5810,
+      "si": 6293,
+      "tbt": 3009,
+      "tti": 35366,
+      "cls": 0.008,
+      "ttfb": 501,
+      "maxPotentialFid": 401,
+      "serverResponseTime": 121,
+      "networkRtt": 134.7,
+      "networkServerLatency": 288.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 156.4,
+      "resourceLoadDelay": 16.4,
+      "resourceLoadDuration": 82.2,
+      "elementRenderDelay": 86.8
+    },
+    "weight": {
+      "total": 4554564,
+      "requests": 261,
+      "mainDocument": 49219,
+      "byType": {
+        "total": {
+          "bytes": 4554565,
+          "requests": 251
+        },
+        "script": {
+          "bytes": 2776558,
+          "requests": 113
+        },
+        "other": {
+          "bytes": 920006,
+          "requests": 63
+        },
+        "font": {
+          "bytes": 419116,
+          "requests": 9
+        },
+        "image": {
+          "bytes": 259528,
+          "requests": 22
+        },
+        "stylesheet": {
+          "bytes": 115670,
+          "requests": 32
+        },
+        "document": {
+          "bytes": 63687,
+          "requests": 12
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2524130,
+          "requests": 180
+        }
+      },
+      "scripts": 114,
+      "stylesheets": 32,
+      "fonts": 9
+    },
+    "thirdParty": {
+      "count": 25,
+      "bytes": 2497506,
+      "mainThreadMs": 4144.8,
+      "top": [
+        {
+          "entity": "audioeye.com",
+          "bytes": 372403,
+          "mainThreadMs": 2889.4,
+          "byType": {
+            "script": 360020,
+            "stylesheet": 12323,
+            "other": 60
+          },
+          "typedBytes": 372403
+        },
+        {
+          "entity": "Google CDN",
+          "bytes": 360995,
+          "mainThreadMs": 33.9,
+          "byType": {
+            "script": 360995
+          },
+          "typedBytes": 360995
+        },
+        {
+          "entity": "Wunderkind",
+          "bytes": 342525,
+          "mainThreadMs": 142.2,
+          "byType": {
+            "script": 334368,
+            "stylesheet": 6050,
+            "other": 1754,
+            "image": 353
+          },
+          "typedBytes": 342525
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 302224,
+          "mainThreadMs": 180.5,
+          "byType": {
+            "script": 302207,
+            "image": 17
+          },
+          "typedBytes": 302224
+        },
+        {
+          "entity": "Adobe Tag Manager",
+          "bytes": 184965,
+          "mainThreadMs": 123.7,
+          "byType": {
+            "script": 184965
+          },
+          "typedBytes": 184965
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 24720.7,
+      "byGroup": {
+        "scriptEvaluation": 19553.4,
+        "other": 2433.9,
+        "styleLayout": 1046.3,
+        "scriptParseCompile": 907.4,
+        "garbageCollection": 322.7,
+        "paintCompositeRender": 236.5,
+        "parseHTML": 220.6
+      },
+      "bootupMs": 19226.2,
+      "longTasks": 20,
+      "longestTaskMs": 401
+    },
+    "dom": {
+      "elements": 3940,
+      "depth": 16,
+      "maxChildren": 427
+    },
+    "waste": {
+      "unusedJsBytes": 1049743,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 71931,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 10069,
+      "unminifiedCssBytes": 6402,
+      "renderBlockingMs": 2377,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 1387593.183333333,
+      "poorlyCachedCount": 124
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 32,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 4,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 32
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 4
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 2,
+      "protocol": "h3",
+      "legacyHttpRequests": 32,
+      "redirectMs": 801,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 57
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2746,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T02:34:55.817Z",
+      "runtimeMs": 29755.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1339.1,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 2526.4,
+    "elementRenderDelay": 175.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {},
+    "violations": 3,
+    "passes": 1470,
+    "incomplete": 17,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".truste-custom-wrapper",
+            "snippet": "<div class=\"truste-custom-wrapper\"> <div class=\"truste-custom-img\"> <img alt=\"Samsung\" src=\"https://consent.trustarc.com/get?name=samsungblack_logo.png\"> </div> </div>"
+          },
+          {
+            "selector": ".truste-custom-text-wrapper",
+            "snippet": "<p class=\"truste-custom-text-wrapper\">"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".footer-copyright-wrap > .footer-language > .footer-language__anchor[data-di-id=\"di-id-8a51b6e9-9a22d789\"][an-ac=\"footer\"]",
+            "snippet": "<a class=\"footer-language__anc...\" href=\"/us/function/ipredir...\" aria-label=\"Choose your location...\" an-tr=\"nv02_footer bottom--...\" an-ca=\"navigation\" an-ac=\"footer\" an-la=\"bottom:country selec...…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "71fc9045e9a8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"64053-66110211e3618\"",
+          "last-modified": "Wed, 25 Nov 2026 01:56:03 GMT"
+        }
+      },
+      {
+        "hash": "e69d9b2249fb",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"64053-66110211e3618\"",
+          "last-modified": "Wed, 25 Nov 2026 01:56:03 GMT"
+        }
+      },
+      {
+        "hash": "b20d44274241",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"64053-66110211e3618\"",
+          "last-modified": "Wed, 25 Nov 2026 01:56:03 GMT"
+        }
+      },
+      {
+        "hash": "a93cf08c4086",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"64053-66110211e3618\"",
+          "last-modified": "Wed, 25 Nov 2026 01:56:03 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

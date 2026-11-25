@@ -1,0 +1,254 @@
+{
+  "url": "https://souradip.com/",
+  "name": "souradip.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795573748033,
+  "date": "2026-11-25T02:29:08.033Z",
+  "runId": "2026-11-25T02-22-57-599Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 33205,
+  "error": null,
+  "partialErrors": [
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)"
+  ],
+  "variance": {
+    "min": 73,
+    "max": 76,
+    "spread": 3,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://souradip.com/",
+    "finalUrl": "https://souradip.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 73,
+      "accessibility": 100,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1029,
+      "lcp": 6994,
+      "si": 5110,
+      "tbt": 59,
+      "tti": 7232,
+      "cls": 0,
+      "ttfb": 450,
+      "maxPotentialFid": 123,
+      "serverResponseTime": 257,
+      "networkRtt": 16.6,
+      "networkServerLatency": 20
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 305,
+      "resourceLoadDelay": 9.7,
+      "resourceLoadDuration": 127.7,
+      "elementRenderDelay": 2037.5
+    },
+    "weight": {
+      "total": 4387598,
+      "requests": 69,
+      "mainDocument": 7961,
+      "byType": {
+        "total": {
+          "bytes": 4384170,
+          "requests": 67
+        },
+        "image": {
+          "bytes": 3014722,
+          "requests": 14
+        },
+        "other": {
+          "bytes": 1206719,
+          "requests": 43
+        },
+        "font": {
+          "bytes": 91424,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 57280,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 7961,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 6064,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10478,
+          "requests": 1
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 2,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10478,
+      "mainThreadMs": 10,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 10,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1760.4,
+      "byGroup": {
+        "other": 737.7,
+        "scriptEvaluation": 546,
+        "styleLayout": 371.9,
+        "paintCompositeRender": 64.9,
+        "scriptParseCompile": 18.6,
+        "parseHTML": 14.9,
+        "garbageCollection": 6.4
+      },
+      "bootupMs": 515.9,
+      "longTasks": 2,
+      "longestTaskMs": 123
+    },
+    "dom": {
+      "elements": 409,
+      "depth": 9,
+      "maxChildren": 13
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 8249,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 159,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 4490.90809375,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 27,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 37
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 37,
+      "baselineLimitedFeatures": 44
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2623.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T02:29:09.270Z",
+      "runtimeMs": 10365.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": "Just a moment...",
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5fd3a06eb5dfd0d-MSP",
+      "server": "cloudflare"
+    },
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "86adf3261cd3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "22b5bca1494b",
+        "nonce": "13f9f8e7a51e",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

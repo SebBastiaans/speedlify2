@@ -1,0 +1,399 @@
+{
+  "url": "https://spyrath.dev/",
+  "name": "spyrath.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795573834844,
+  "date": "2026-11-25T02:30:34.844Z",
+  "runId": "2026-11-25T02-22-57-599Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 34014,
+  "error": null,
+  "variance": {
+    "min": 70,
+    "max": 73,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://spyrath.dev/",
+    "finalUrl": "https://spyrath.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 72,
+      "accessibility": 94,
+      "best-practices": 77,
+      "seo": 92,
+      "agentic-browsing": 49
+    },
+    "timings": {
+      "fcp": 2216,
+      "lcp": 4505,
+      "si": 4967,
+      "tbt": 271,
+      "tti": 8998,
+      "cls": 0.058,
+      "ttfb": 895,
+      "maxPotentialFid": 130,
+      "serverResponseTime": 503,
+      "networkRtt": 31.8,
+      "networkServerLatency": 445.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 592.5,
+      "resourceLoadDelay": 63,
+      "resourceLoadDuration": 649.7,
+      "elementRenderDelay": 57.9
+    },
+    "weight": {
+      "total": 2344127,
+      "requests": 76,
+      "mainDocument": 26983,
+      "byType": {
+        "total": {
+          "bytes": 2344127,
+          "requests": 70
+        },
+        "font": {
+          "bytes": 1049289,
+          "requests": 10
+        },
+        "script": {
+          "bytes": 718658,
+          "requests": 31
+        },
+        "image": {
+          "bytes": 410254,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 92948,
+          "requests": 10
+        },
+        "document": {
+          "bytes": 55364,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 17614,
+          "requests": 11
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 756282,
+          "requests": 36
+        }
+      },
+      "scripts": 31,
+      "stylesheets": 10,
+      "fonts": 10
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 655419,
+      "mainThreadMs": 201.5,
+      "top": [
+        {
+          "entity": "Google CDN",
+          "bytes": 361494,
+          "mainThreadMs": 101.1,
+          "byType": {
+            "other": 361494
+          },
+          "typedBytes": 361494
+        },
+        {
+          "entity": "Usercentrics CMP",
+          "bytes": 246642,
+          "mainThreadMs": 90.8,
+          "byType": {
+            "script": 231791,
+            "other": 14063,
+            "image": 788
+          },
+          "typedBytes": 246642
+        },
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 35766,
+          "mainThreadMs": 0.6,
+          "byType": {
+            "stylesheet": 3503,
+            "font": 32263
+          },
+          "typedBytes": 35766
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 7.9,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 1039,
+          "mainThreadMs": 1.1,
+          "byType": {
+            "script": 1039
+          },
+          "typedBytes": 1039
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2535.6,
+      "byGroup": {
+        "scriptEvaluation": 1392.2,
+        "other": 535.2,
+        "styleLayout": 308.7,
+        "scriptParseCompile": 123.9,
+        "parseHTML": 89.2,
+        "paintCompositeRender": 63.9,
+        "garbageCollection": 22.6
+      },
+      "bootupMs": 1369.3,
+      "longTasks": 9,
+      "longestTaskMs": 130
+    },
+    "dom": {
+      "elements": 540,
+      "depth": 27,
+      "maxChildren": 23
+    },
+    "waste": {
+      "unusedJsBytes": 282273,
+      "unusedCssBytes": 20005,
+      "legacyJsBytes": 21666,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1617,
+      "renderBlockingCount": 10,
+      "poorlyCachedBytes": 38488.49999999999,
+      "poorlyCachedCount": 5
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 31,
+      "failingNodes": 14,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 10
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 4
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 39
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2745,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T02:30:36.071Z",
+      "runtimeMs": 11876.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {
+        "fontawesome": "7.2.0"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5fd3c33cd258596-MSP",
+      "server": "cloudflare"
+    },
+    "violations": 15,
+    "passes": 824,
+    "incomplete": 11,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 10,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h1",
+            "snippet": "<h1><span style=\"color: #3a5c64;\">We Develop Websites That</span><br> Grow With Your Business</h1>"
+          },
+          {
+            "selector": ".pp-button-2-text",
+            "snippet": "<span class=\"pp-button-2-text\">About Us</span>"
+          },
+          {
+            "selector": ".fl-node-61292735e825d > .fl-module-content.fl-node-content > .fl-rich-text > h3",
+            "snippet": "<h3><span style=\"color: #3a5c64;\">We Provide Flexible</span><br> Website Services</h3>"
+          },
+          {
+            "selector": ".fl-node-61291f32d8ad9 > .fl-module-content.fl-node-content > .fl-rich-text > h3",
+            "snippet": "<h3><span style=\"color: #3a5c64;\">Spyrath Dev -</span><br> Website Partnership</h3>"
+          },
+          {
+            "selector": ".fl-node-612926778bf13 > .fl-module-content.fl-node-content > .fl-rich-text > h3",
+            "snippet": "<h3><span style=\"color: #3a5c64;\">Meet </span>The Founder</h3>"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#fl-icon-text-61293926350a7 > .fl-icon-text-link.fl-icon-text-wrap[target=\"_self\"]",
+            "snippet": "<a href=\"mailto:louise@louisefindlay.com\" target=\"_self\" class=\"fl-icon-text-link fl-icon-text-wrap\"> </a>"
+          },
+          {
+            "selector": "#fl-icon-text-61293926350a7 > p > .fl-icon-text-link.fl-icon-text-wrap[target=\"_self\"]",
+            "snippet": "<a href=\"mailto:louise@louisefindlay.com\" target=\"_self\" class=\"fl-icon-text-link fl-icon-text-wrap\"></a>"
+          },
+          {
+            "selector": "#fl-icon-text-612939532a4dc > .fl-icon-text-link.fl-icon-text-wrap[target=\"_self\"]",
+            "snippet": "<a href=\"https://www.linkedin.com/in/louise-findlay23\" target=\"_self\" class=\"fl-icon-text-link fl-icon-text-wrap\"> </a>"
+          },
+          {
+            "selector": "#fl-icon-text-612939532a4dc > p > .fl-icon-text-link.fl-icon-text-wrap[target=\"_self\"]",
+            "snippet": "<a href=\"https://www.linkedin.com/in/louise-findlay23\" target=\"_self\" class=\"fl-icon-text-link fl-icon-text-wrap\"></a>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".fl-node-612914e73ad45 > .fl-module-content.fl-node-content > .fl-menu.no-hover > nav",
+            "snippet": "<nav aria-label=\"Navigation Menu\" itemscope=\"itemscope\" itemtype=\"https://schema.org/SiteNavigationElement\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "86bda011f4f3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "86bda011f4f3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "86bda011f4f3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "86bda011f4f3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
