@@ -1,0 +1,341 @@
+{
+  "url": "https://azure.microsoft.com/en-us/products/app-service/static",
+  "name": "Azure Static Web Apps",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795574008771,
+  "date": "2026-11-25T02:33:28.771Z",
+  "runId": "2026-11-25T02-23-00-502Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 127585,
+  "error": null,
+  "variance": {
+    "min": 23,
+    "max": 24,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://azure.microsoft.com/en-us/products/app-service/static",
+    "finalUrl": "https://azure.microsoft.com/en-us/products/app-service/static",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 24,
+      "accessibility": 100,
+      "best-practices": 54,
+      "seo": 85,
+      "agentic-browsing": 95
+    },
+    "timings": {
+      "fcp": 12056,
+      "lcp": 37192,
+      "si": 14661,
+      "tbt": 2607,
+      "tti": 37410,
+      "cls": 0.103,
+      "ttfb": 623,
+      "maxPotentialFid": 1159,
+      "serverResponseTime": 226,
+      "networkRtt": 6.2,
+      "networkServerLatency": 270.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 227.7,
+      "resourceLoadDelay": 1181,
+      "resourceLoadDuration": 39,
+      "elementRenderDelay": 1105.6
+    },
+    "weight": {
+      "total": 7453491,
+      "requests": 161,
+      "mainDocument": 34955,
+      "byType": {
+        "total": {
+          "bytes": 7255923,
+          "requests": 160
+        },
+        "script": {
+          "bytes": 3848726,
+          "requests": 82
+        },
+        "image": {
+          "bytes": 2005935,
+          "requests": 29
+        },
+        "font": {
+          "bytes": 919691,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 433422,
+          "requests": 22
+        },
+        "document": {
+          "bytes": 35279,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 12870,
+          "requests": 21
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 7255923,
+          "requests": 160
+        }
+      },
+      "scripts": 82,
+      "stylesheets": 22,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 18,
+      "bytes": 761425,
+      "mainThreadMs": 292,
+      "top": [
+        {
+          "entity": "Adobe Tag Manager",
+          "bytes": 179951,
+          "mainThreadMs": 98.2,
+          "byType": {
+            "script": 179139,
+            "other": 812
+          },
+          "typedBytes": 179951
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 177070,
+          "mainThreadMs": 75.2,
+          "byType": {
+            "script": 177053,
+            "image": 17
+          },
+          "typedBytes": 177070
+        },
+        {
+          "entity": "TikTok",
+          "bytes": 164243,
+          "mainThreadMs": 60.9,
+          "byType": {
+            "script": 161285,
+            "other": 1912,
+            "image": 1046
+          },
+          "typedBytes": 164243
+        },
+        {
+          "entity": "s-microsoft.com",
+          "bytes": 63856,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 63856
+          },
+          "typedBytes": 63856
+        },
+        {
+          "entity": "mPulse",
+          "bytes": 57422,
+          "mainThreadMs": 14.7,
+          "byType": {
+            "script": 57422
+          },
+          "typedBytes": 57422
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 9474.4,
+      "byGroup": {
+        "scriptEvaluation": 5064.7,
+        "styleLayout": 1846.2,
+        "other": 1397.4,
+        "scriptParseCompile": 773.7,
+        "parseHTML": 195.9,
+        "paintCompositeRender": 104.3,
+        "garbageCollection": 92.2
+      },
+      "bootupMs": 5315.4,
+      "longTasks": 20,
+      "longestTaskMs": 1159
+    },
+    "dom": {
+      "elements": 1981,
+      "depth": 36,
+      "maxChildren": 37
+    },
+    "waste": {
+      "unusedJsBytes": 1566402,
+      "unusedCssBytes": 392196,
+      "legacyJsBytes": 112316,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 610283,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 42895,
+      "renderBlockingCount": 25,
+      "poorlyCachedBytes": 3286404.0912986114,
+      "poorlyCachedCount": 59
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 32,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 5,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 24
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 6
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 5
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 12
+        },
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are not crawlable",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 4,
+      "protocol": "http/1.1",
+      "legacyHttpRequests": 78,
+      "redirectMs": 0,
+      "consoleErrors": 6,
+      "baselineLimitedFeatures": 60
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2474,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T02:33:52.193Z",
+      "runtimeMs": 17637.2
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.1,
+    "resourceLoadDelay": 10642.8,
+    "resourceLoadDuration": 16307.9,
+    "elementRenderDelay": 100.4
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "react",
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "3.3.3"
+      }
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {},
+    "violations": 0,
+    "passes": 1655,
+    "incomplete": 5,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "0148ce073fdc",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "055dc35d15a5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "f4146e783341",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "334cf8642a4c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "bfb1b025caf5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
