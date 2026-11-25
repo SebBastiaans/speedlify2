@@ -1,0 +1,266 @@
+{
+  "url": "https://web-standards.ru/",
+  "name": "web-standards.ru",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795645834606,
+  "date": "2026-11-25T22:30:34.606Z",
+  "runId": "2026-11-25T22-29-27-537Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26985,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://web-standards.ru/",
+    "finalUrl": "https://web-standards.ru/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1021,
+      "lcp": 1379,
+      "si": 1198,
+      "tbt": 0,
+      "tti": 1379,
+      "cls": 0,
+      "ttfb": 779,
+      "maxPotentialFid": 47,
+      "serverResponseTime": 175,
+      "networkRtt": 0,
+      "networkServerLatency": 179.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 177,
+      "resourceLoadDelay": 22.1,
+      "resourceLoadDuration": 355.4,
+      "elementRenderDelay": 29.1
+    },
+    "weight": {
+      "total": 170363,
+      "requests": 42,
+      "mainDocument": 5072,
+      "byType": {
+        "total": {
+          "bytes": 170363,
+          "requests": 42
+        },
+        "font": {
+          "bytes": 85610,
+          "requests": 7
+        },
+        "image": {
+          "bytes": 66380,
+          "requests": 28
+        },
+        "stylesheet": {
+          "bytes": 8873,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 5072,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3067,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 1361,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 7
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 593.2,
+      "byGroup": {
+        "other": 348.5,
+        "styleLayout": 125.2,
+        "paintCompositeRender": 42.8,
+        "parseHTML": 39.5,
+        "scriptEvaluation": 35.1,
+        "scriptParseCompile": 2.2
+      },
+      "bootupMs": 33.1,
+      "longTasks": 1,
+      "longestTaskMs": 60
+    },
+    "dom": {
+      "elements": 202,
+      "depth": 10,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 23,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 16
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2444.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T22:30:44.960Z",
+      "runtimeMs": 7899.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {},
+    "violations": 2,
+    "passes": 460,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".links__section:nth-child(4) > dd > .links__link",
+            "snippet": "<a class=\"links__link\" href=\"mailto:podcast@web-standards.ru\"> podcast@web-standards.ru </a>"
+          },
+          {
+            "selector": "a[href=\"mailto:wst@web-standards.ru\"]",
+            "snippet": "<a class=\"links__link\" href=\"mailto:wst@web-standards.ru\"> wst@web-standards.ru </a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "520db3cc465a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dn2e0o6wvy2n-3v1\"",
+          "last-modified": "Mon, 23 Nov 2026 06:47:42 GMT"
+        }
+      },
+      {
+        "hash": "520db3cc465a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dn2e0o6wvy2n-3v1\"",
+          "last-modified": "Mon, 23 Nov 2026 06:47:42 GMT"
+        }
+      },
+      {
+        "hash": "520db3cc465a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dn2e0o6wvy2n-3v1\"",
+          "last-modified": "Mon, 23 Nov 2026 06:47:42 GMT"
+        }
+      },
+      {
+        "hash": "520db3cc465a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dn2e0o6wvy2n-3v1\"",
+          "last-modified": "Mon, 23 Nov 2026 06:47:42 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,304 @@
+{
+  "url": "https://wiltomakesfood.com/",
+  "name": "wiltomakesfood.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795645938497,
+  "date": "2026-11-25T22:32:18.497Z",
+  "runId": "2026-11-25T22-29-27-537Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25164,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 100,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://wiltomakesfood.com/",
+    "finalUrl": "https://wiltomakesfood.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 919,
+      "lcp": 1594,
+      "si": 919,
+      "tbt": 0,
+      "tti": 1617,
+      "cls": 0,
+      "ttfb": 619,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 19,
+      "networkRtt": 0.1,
+      "networkServerLatency": 19
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 20.7,
+      "resourceLoadDelay": 13.8,
+      "resourceLoadDuration": 53.7,
+      "elementRenderDelay": 60
+    },
+    "weight": {
+      "total": 1092744,
+      "requests": 23,
+      "mainDocument": 6619,
+      "byType": {
+        "total": {
+          "bytes": 1092744,
+          "requests": 23
+        },
+        "image": {
+          "bytes": 969295,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 92528,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 13263,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 9143,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 6619,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 1896,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 257807,
+          "requests": 3
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 257807,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "Cloudinary",
+          "bytes": 257807,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 257807
+          },
+          "typedBytes": 257807
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 272.1,
+      "byGroup": {
+        "other": 153.2,
+        "styleLayout": 52.2,
+        "scriptEvaluation": 25.4,
+        "parseHTML": 23.4,
+        "paintCompositeRender": 16,
+        "scriptParseCompile": 1.9
+      },
+      "bootupMs": 15.4,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 224,
+      "depth": 9,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 23,
+      "failingNodes": 8,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 8
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2477,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T22:32:36.604Z",
+      "runtimeMs": 6541.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8ADDXXW4MYHVM46HT4Z7Z6Z"
+    },
+    "violations": 4,
+    "passes": 361,
+    "incomplete": 21,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "label",
+            "snippet": "<label for=\"search\"> <span class=\"a11y-only\">Site Search</span> <input type=\"search\" name=\"q\" placeholder=\"Search for…\"> </label>"
+          },
+          {
+            "selector": ".subnav",
+            "snippet": "<ul class=\"subnav\"> <li><a href=\"/articles/wmf/\" class=\"\">What is this?</a><!-- li--></li></ul>"
+          },
+          {
+            "selector": ".site-head > .patreon[href$=\"wilto\"]",
+            "snippet": "<a href=\"https://www.patreon.com/wilto\" class=\"patreon\"> Support the site on Patreon <span> <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" viewBox=\"0 0 180 180\" aria-hidden=\"true\"> <use xlink:hr…"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".sitenav",
+            "snippet": "<nav role=\"navigation\" class=\"sitenav\"> <ul> <li><a href=\"/recipes/\" class=\"\">Recipes</a></li> <li><a href=\"/articles/\" class=\"\">Articles</a></li> </ul> </nav>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "3a80ed2c675a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"04d90014aed891236168195977cb60ab-ssl\""
+        }
+      },
+      {
+        "hash": "3a80ed2c675a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535991",
+          "etag": "W/\"04d90014aed891236168195977cb60ab-ssl\""
+        }
+      },
+      {
+        "hash": "3a80ed2c675a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535984",
+          "etag": "W/\"04d90014aed891236168195977cb60ab-ssl\""
+        }
+      },
+      {
+        "hash": "3a80ed2c675a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "20",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535978",
+          "etag": "W/\"04d90014aed891236168195977cb60ab-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

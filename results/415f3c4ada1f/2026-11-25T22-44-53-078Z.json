@@ -1,0 +1,278 @@
+{
+  "url": "https://www.flyweb.at/",
+  "name": "www.flyweb.at",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795646693078,
+  "date": "2026-11-25T22:44:53.078Z",
+  "runId": "2026-11-25T22-29-27-537Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 36460,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 98,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.flyweb.at/",
+    "finalUrl": "https://www.flyweb.at/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 995,
+      "lcp": 995,
+      "si": 4172,
+      "tbt": 0,
+      "tti": 995,
+      "cls": 0,
+      "ttfb": 624,
+      "maxPotentialFid": 44,
+      "serverResponseTime": 204,
+      "networkRtt": 0,
+      "networkServerLatency": 24.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 205.4,
+      "elementRenderDelay": 2164.5
+    },
+    "weight": {
+      "total": 274837,
+      "requests": 18,
+      "mainDocument": 20773,
+      "byType": {
+        "total": {
+          "bytes": 270802,
+          "requests": 17
+        },
+        "font": {
+          "bytes": 146098,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 57827,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 20773,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 20732,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 18179,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 7193,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10351,
+          "requests": 1
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10351,
+      "mainThreadMs": 8.2,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 8.2,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1545.1,
+      "byGroup": {
+        "other": 747.6,
+        "styleLayout": 299.8,
+        "scriptEvaluation": 251.4,
+        "paintCompositeRender": 224.1,
+        "parseHTML": 18.5,
+        "scriptParseCompile": 3.7
+      },
+      "bootupMs": 225.1,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 283,
+      "depth": 8,
+      "maxChildren": 21
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 4453.908466435186,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 23,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 24
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2470,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T22:45:18.626Z",
+      "runtimeMs": 10452
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a6042ee8f894db6a-LAX",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 247,
+    "incomplete": 33,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h1",
+            "snippet": "<h1>Flyweb<br><small>Production</small></h1>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "973d1f072914",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Wed, 11 Aug 2021 17:08:46 GMT"
+        }
+      },
+      {
+        "hash": "973d1f072914",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Wed, 11 Aug 2021 17:08:46 GMT"
+        }
+      },
+      {
+        "hash": "973d1f072914",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Wed, 11 Aug 2021 17:08:46 GMT"
+        }
+      },
+      {
+        "hash": "87aa404e6c89",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Wed, 11 Aug 2021 17:08:46 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
