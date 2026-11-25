@@ -1,0 +1,325 @@
+{
+  "url": "https://www.faustotasca.com/",
+  "name": "www.faustotasca.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795646314097,
+  "date": "2026-11-25T22:38:34.097Z",
+  "runId": "2026-11-25T22-29-37-607Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20144,
+  "error": null,
+  "variance": {
+    "min": 68,
+    "max": 90,
+    "spread": 22,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.faustotasca.com/",
+    "finalUrl": "https://www.faustotasca.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 90,
+      "accessibility": 91,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1523,
+      "lcp": 3606,
+      "si": 1523,
+      "tbt": 0,
+      "tti": 3606,
+      "cls": 0.013,
+      "ttfb": 606,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 9,
+      "networkRtt": 0.1,
+      "networkServerLatency": 41.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 10.5,
+      "resourceLoadDelay": 8.9,
+      "resourceLoadDuration": 20.8,
+      "elementRenderDelay": 24.1
+    },
+    "weight": {
+      "total": 398465,
+      "requests": 9,
+      "mainDocument": 2038,
+      "byType": {
+        "total": {
+          "bytes": 398465,
+          "requests": 9
+        },
+        "image": {
+          "bytes": 371370,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 15503,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3958,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 2818,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 2778,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 2038,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 19674,
+          "requests": 4
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 19674,
+      "mainThreadMs": 2,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 16462,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 959,
+            "font": 15503
+          },
+          "typedBytes": 16462
+        },
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3212,
+          "mainThreadMs": 1.9,
+          "byType": {
+            "script": 2778,
+            "image": 434
+          },
+          "typedBytes": 3212
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 137.8,
+      "byGroup": {
+        "other": 85.2,
+        "styleLayout": 26.6,
+        "scriptEvaluation": 15.9,
+        "parseHTML": 4.6,
+        "paintCompositeRender": 3.9,
+        "scriptParseCompile": 1.7
+      },
+      "bootupMs": 3.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 55,
+      "depth": 7,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 767,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 11,
+      "failingNodes": 9,
+      "failing": [
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 9
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 3
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3121,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T22:38:42.662Z",
+      "runtimeMs": 5619.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "2.0.1",
+      "source": "meta",
+      "raw": "Eleventy v2.0.1"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v2.0.1"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8ADS843GXK8BSGESJ6FJ0R2"
+    },
+    "violations": 9,
+    "passes": 83,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 9,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "p:nth-child(4) > a",
+            "snippet": "<a href=\"https://en.wikipedia.org/wiki/Fausto_Bellino_Tasca\">Fausto Bellino Tasca</a>"
+          },
+          {
+            "selector": "p:nth-child(5) > a[href$=\"plein-air/\"]",
+            "snippet": "<a href=\"/plein-air/\">landscape painting</a>"
+          },
+          {
+            "selector": "p:nth-child(5) > a[href$=\"portraits/\"]",
+            "snippet": "<a href=\"/portraits/\">portraiture</a>"
+          },
+          {
+            "selector": "p:nth-child(5) > a[href$=\"los-angeles/\"]",
+            "snippet": "<a href=\"/los-angeles/\">banks</a>"
+          },
+          {
+            "selector": "a[href=\"/los-angeles/#redondo-library\"]",
+            "snippet": "<a href=\"/los-angeles/#redondo-library\">libraries</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ac35a1ef6a66",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"cca7f645e4fe2eaa894c4bc93ae046d9-ssl\""
+        }
+      },
+      {
+        "hash": "ac35a1ef6a66",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"cca7f645e4fe2eaa894c4bc93ae046d9-ssl\""
+        }
+      },
+      {
+        "hash": "ac35a1ef6a66",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"cca7f645e4fe2eaa894c4bc93ae046d9-ssl\""
+        }
+      },
+      {
+        "hash": "ac35a1ef6a66",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "etag": "W/\"cca7f645e4fe2eaa894c4bc93ae046d9-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
