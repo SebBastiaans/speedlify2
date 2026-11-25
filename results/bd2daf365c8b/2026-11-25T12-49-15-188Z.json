@@ -1,0 +1,273 @@
+{
+  "url": "https://mattdoane.com/",
+  "name": "mattdoane.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795610955188,
+  "date": "2026-11-25T12:49:15.188Z",
+  "runId": "2026-11-25T12-47-43-408Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26428,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 100,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://mattdoane.com/",
+    "finalUrl": "https://mattdoane.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 922,
+      "lcp": 2422,
+      "si": 922,
+      "tbt": 0,
+      "tti": 2422,
+      "cls": 0,
+      "ttfb": 472,
+      "maxPotentialFid": 30,
+      "serverResponseTime": 14,
+      "networkRtt": 18.3,
+      "networkServerLatency": 340.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 15.7,
+      "resourceLoadDelay": 12,
+      "resourceLoadDuration": 23.6,
+      "elementRenderDelay": 49.6
+    },
+    "weight": {
+      "total": 583810,
+      "requests": 44,
+      "mainDocument": 6524,
+      "byType": {
+        "total": {
+          "bytes": 571746,
+          "requests": 43
+        },
+        "image": {
+          "bytes": 370990,
+          "requests": 28
+        },
+        "font": {
+          "bytes": 162425,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 16049,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 14661,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 6524,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1097,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 15725,
+          "requests": 4
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 5,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 15725,
+      "mainThreadMs": 13.2,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10350,
+          "mainThreadMs": 10.6,
+          "byType": {
+            "script": 10350
+          },
+          "typedBytes": 10350
+        },
+        {
+          "entity": "umami.is",
+          "bytes": 5375,
+          "mainThreadMs": 2.6,
+          "byType": {
+            "script": 4721,
+            "other": 654
+          },
+          "typedBytes": 5375
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 404.7,
+      "byGroup": {
+        "other": 220.7,
+        "scriptEvaluation": 88.8,
+        "styleLayout": 48.9,
+        "paintCompositeRender": 24.2,
+        "parseHTML": 19.4,
+        "scriptParseCompile": 2.7
+      },
+      "bootupMs": 32.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 253,
+      "depth": 9,
+      "maxChildren": 24
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10355,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 4140,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 22,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 32
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2451,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T12:49:25.184Z",
+      "runtimeMs": 7522.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.6",
+      "source": "meta",
+      "raw": "Eleventy v3.1.6"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.6"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a600c64d4b7b5896-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 313,
+    "incomplete": 7,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "487c0c837623",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "487c0c837623",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "487c0c837623",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "487c0c837623",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

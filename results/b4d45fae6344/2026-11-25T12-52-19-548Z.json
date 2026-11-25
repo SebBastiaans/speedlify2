@@ -1,0 +1,305 @@
+{
+  "url": "https://www.squareorbits.com/",
+  "name": "www.squareorbits.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795611139548,
+  "date": "2026-11-25T12:52:19.548Z",
+  "runId": "2026-11-25T12-47-43-408Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 19620,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.squareorbits.com/",
+    "finalUrl": "https://www.squareorbits.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 791,
+      "lcp": 791,
+      "si": 791,
+      "tbt": 0,
+      "tti": 791,
+      "cls": 0.001,
+      "ttfb": 605,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 5,
+      "networkRtt": 0.3,
+      "networkServerLatency": 115
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 6.5,
+      "elementRenderDelay": 60.1
+    },
+    "weight": {
+      "total": 170728,
+      "requests": 17,
+      "mainDocument": 5348,
+      "byType": {
+        "total": {
+          "bytes": 169462,
+          "requests": 16
+        },
+        "font": {
+          "bytes": 122579,
+          "requests": 5
+        },
+        "image": {
+          "bytes": 24334,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 11683,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 5348,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 4584,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 934,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 4834,
+          "requests": 2
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 4834,
+      "mainThreadMs": 3.6,
+      "top": [
+        {
+          "entity": "zgo.at",
+          "bytes": 4452,
+          "mainThreadMs": 3.6,
+          "byType": {
+            "script": 4452
+          },
+          "typedBytes": 4452
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 294.4,
+      "byGroup": {
+        "other": 142.2,
+        "styleLayout": 66.7,
+        "scriptEvaluation": 55.5,
+        "paintCompositeRender": 14.4,
+        "parseHTML": 9.7,
+        "scriptParseCompile": 6
+      },
+      "bootupMs": 9.6,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 144,
+      "depth": 11,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 23,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 5
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 13
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2447.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T12:52:26.940Z",
+      "runtimeMs": 5834.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M89C7S8X20NNWMRN259A6MD3"
+    },
+    "violations": 5,
+    "passes": 225,
+    "incomplete": 6,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".footer-muted",
+            "snippet": "<div class=\"footer-muted\">"
+          },
+          {
+            "selector": ".muted-link[href$=\"guestbook\"]",
+            "snippet": "<a href=\"/guestbook\" class=\"muted-link\">Guestbook</a>"
+          },
+          {
+            "selector": "a[href$=\"privacy\"]",
+            "snippet": "<a href=\"/privacy\" class=\"muted-link\">Privacy Policy</a>"
+          },
+          {
+            "selector": ".external",
+            "snippet": "<a href=\"https://iheartrss.com/\" class=\"muted-link external\" target=\"_blank\" rel=\"noopener\">"
+          },
+          {
+            "selector": ".external-end",
+            "snippet": "<span class=\"external-end\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "683d6f779dde",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "27449",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31508551",
+          "etag": "W/\"b8b6e8bc472c7ff49a7546abaae538ce-ssl\""
+        }
+      },
+      {
+        "hash": "683d6f779dde",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "27455",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31508545",
+          "etag": "W/\"b8b6e8bc472c7ff49a7546abaae538ce-ssl\""
+        }
+      },
+      {
+        "hash": "683d6f779dde",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "27462",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31508538",
+          "etag": "W/\"b8b6e8bc472c7ff49a7546abaae538ce-ssl\""
+        }
+      },
+      {
+        "hash": "683d6f779dde",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31508534",
+          "etag": "W/\"b8b6e8bc472c7ff49a7546abaae538ce-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
