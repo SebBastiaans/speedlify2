@@ -1,0 +1,325 @@
+{
+  "url": "https://tactile.co.za/",
+  "name": "tactile.co.za",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795611063597,
+  "date": "2026-11-25T12:51:03.597Z",
+  "runId": "2026-11-25T12-47-44-295Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20920,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 99,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://tactile.co.za/",
+    "finalUrl": "https://tactile.co.za/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 91,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 980,
+      "lcp": 980,
+      "si": 1080,
+      "tbt": 125,
+      "tti": 3785,
+      "cls": 0,
+      "ttfb": 611,
+      "maxPotentialFid": 175,
+      "serverResponseTime": 177,
+      "networkRtt": 18.4,
+      "networkServerLatency": 161.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 444.4,
+      "elementRenderDelay": 44.8
+    },
+    "weight": {
+      "total": 211798,
+      "requests": 10,
+      "mainDocument": 6238,
+      "byType": {
+        "total": {
+          "bytes": 210741,
+          "requests": 9
+        },
+        "script": {
+          "bytes": 200443,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 6238,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 4060,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 200926,
+          "requests": 5
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 200926,
+      "mainThreadMs": 64.3,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 168556,
+          "mainThreadMs": 45.6,
+          "byType": {
+            "script": 168556
+          },
+          "typedBytes": 168556
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 21892,
+          "mainThreadMs": 12.6,
+          "byType": {
+            "script": 21409,
+            "other": 483
+          },
+          "typedBytes": 21892
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 6.1,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 468.7,
+      "byGroup": {
+        "scriptEvaluation": 275.1,
+        "other": 100.4,
+        "scriptParseCompile": 44.5,
+        "styleLayout": 31.1,
+        "paintCompositeRender": 11,
+        "parseHTML": 6.7
+      },
+      "bootupMs": 301.8,
+      "longTasks": 1,
+      "longestTaskMs": 175
+    },
+    "dom": {
+      "elements": 103,
+      "depth": 7,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 75406,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 20247.95,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 13,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 15
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2476.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T12:51:04.851Z",
+      "runtimeMs": 7212.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "cf-ray": "a600c8c99d4a710e-MSP",
+      "server": "cloudflare",
+      "x-github-request-id": "349A:434F2:12A9F82:1454C8F:6B06D9B9"
+    },
+    "violations": 2,
+    "passes": 140,
+    "incomplete": 4,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h1",
+            "snippet": "<h1> <a href=\"/\"> <svg width=\"279\" height=\"51\"> <use href=\"#logo_tactile\"></use> </svg> </a> </h1>"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h1 > a[href=\"/\"]",
+            "snippet": "<a href=\"/\"> <svg width=\"279\" height=\"51\"> <use href=\"#logo_tactile\"></use> </svg> </a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a3dfd9212833",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "MISS",
+          "last-modified": "Mon, 02 Nov 2026 07:03:25 GMT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "a3dfd9212833",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "6",
+          "cf-cache-status": "HIT",
+          "last-modified": "Mon, 02 Nov 2026 07:03:25 GMT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "a3dfd9212833",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cf-cache-status": "HIT",
+          "last-modified": "Mon, 02 Nov 2026 07:03:25 GMT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "a3dfd9212833",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cf-cache-status": "HIT",
+          "last-modified": "Mon, 02 Nov 2026 07:03:25 GMT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

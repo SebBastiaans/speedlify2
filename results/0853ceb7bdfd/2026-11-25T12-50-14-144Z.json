@@ -1,0 +1,323 @@
+{
+  "url": "https://surma.dev/",
+  "name": "surma.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795611014144,
+  "date": "2026-11-25T12:50:14.144Z",
+  "runId": "2026-11-25T12-47-44-295Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22857,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 98,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://surma.dev/",
+    "finalUrl": "https://surma.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 83,
+      "best-practices": 100,
+      "seo": 85,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 834,
+      "lcp": 2338,
+      "si": 2394,
+      "tbt": 0,
+      "tti": 2338,
+      "cls": 0,
+      "ttfb": 471,
+      "maxPotentialFid": 72,
+      "serverResponseTime": 320,
+      "networkRtt": 23.5,
+      "networkServerLatency": 20.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 364.9,
+      "elementRenderDelay": 787.4
+    },
+    "weight": {
+      "total": 191672,
+      "requests": 24,
+      "mainDocument": 4869,
+      "byType": {
+        "total": {
+          "bytes": 191672,
+          "requests": 23
+        },
+        "font": {
+          "bytes": 145750,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 16638,
+          "requests": 9
+        },
+        "script": {
+          "bytes": 15996,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 7125,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 4869,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1294,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 11330,
+          "requests": 4
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 11330,
+      "mainThreadMs": 7.8,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 7.8,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 852,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 852
+          },
+          "typedBytes": 852
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 554.1,
+      "byGroup": {
+        "other": 285.3,
+        "styleLayout": 157.4,
+        "scriptEvaluation": 73.4,
+        "paintCompositeRender": 22.8,
+        "parseHTML": 12.9,
+        "scriptParseCompile": 2.4
+      },
+      "bootupMs": 44.1,
+      "longTasks": 1,
+      "longestTaskMs": 72
+    },
+    "dom": {
+      "elements": 121,
+      "depth": 6,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 4191.2,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 14,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "html-has-lang",
+          "title": "`<html>` element does not have a `[lang]` attribute",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 24
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2491.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T12:50:15.402Z",
+      "runtimeMs": 7671.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a600c7ac7bb3ad80-MSP",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M89C41YVW14VYC9YP80NFYGA"
+    },
+    "violations": 2,
+    "passes": 213,
+    "incomplete": 47,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<html> element must have a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html class=\"forcelight\">"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "img",
+            "snippet": "<img src=\"/assets/surma.1bdb48ee.jpg\" class=\"avatar\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b6e770d0a334",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "b6e770d0a334",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "b6e770d0a334",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535985",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "b6e770d0a334",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "20",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535980",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
