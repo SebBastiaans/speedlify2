@@ -1,0 +1,342 @@
+{
+  "url": "https://ulfschneider.io/",
+  "name": "ulf.codes",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795646123798,
+  "date": "2026-11-25T22:35:23.798Z",
+  "runId": "2026-11-25T22-29-33-918Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 40556,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://ulfschneider.io/",
+    "finalUrl": "https://ulfschneider.io/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 93,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 950,
+      "lcp": 950,
+      "si": 1053,
+      "tbt": 0,
+      "tti": 950,
+      "cls": 0,
+      "ttfb": 606,
+      "maxPotentialFid": 44,
+      "serverResponseTime": 2,
+      "networkRtt": 0,
+      "networkServerLatency": 39.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 4.2,
+      "elementRenderDelay": 80.3
+    },
+    "weight": {
+      "total": 192715,
+      "requests": 17,
+      "mainDocument": 7345,
+      "byType": {
+        "total": {
+          "bytes": 192715,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 168234,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 8702,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 8686,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 6501,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 592,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 4491,
+          "requests": 2
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 1,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 3134,
+      "mainThreadMs": 4.2,
+      "top": [
+        {
+          "entity": "codepenassets.com",
+          "bytes": 3134,
+          "mainThreadMs": 4.2,
+          "byType": {
+            "script": 3134
+          },
+          "typedBytes": 3134
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 328.8,
+      "byGroup": {
+        "other": 139.9,
+        "styleLayout": 95.9,
+        "scriptEvaluation": 40.8,
+        "parseHTML": 24.5,
+        "paintCompositeRender": 19.7,
+        "scriptParseCompile": 7.9
+      },
+      "bootupMs": 22.9,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 449,
+      "depth": 12,
+      "maxChildren": 117
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 626.7999999999998,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 15,
+      "failingNodes": 17,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 17
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 38
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2442,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T22:35:38.669Z",
+      "runtimeMs": 11641.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8ADM09ACB4M1RP9VM9M7XNT"
+    },
+    "violations": 22,
+    "passes": 612,
+    "incomplete": 14,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 17,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".tag.token:nth-child(4) > .attr-name.token",
+            "snippet": "<span class=\"token attr-name\">class</span>"
+          },
+          {
+            "selector": "pre[data-language=\"HTML\"]:nth-child(6) > .language-html > .tag.token:nth-child(2) > .attr-name.token",
+            "snippet": "<span class=\"token attr-name\">class</span>"
+          },
+          {
+            "selector": "pre[data-language=\"HTML\"]:nth-child(8) > .language-html > .tag.token:nth-child(2) > .attr-name.token",
+            "snippet": "<span class=\"token attr-name\">class</span>"
+          },
+          {
+            "selector": ".selector.token:nth-child(1)",
+            "snippet": "<span class=\"token selector\">details &gt; summary</span>"
+          },
+          {
+            "selector": ".selector.token:nth-child(21)",
+            "snippet": "<span class=\"token selector\">details &gt; summary::marker</span>"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "pre[data-language=\"HTML\"]:nth-child(4) > .language-html",
+            "snippet": "<code class=\"language-html\">"
+          },
+          {
+            "selector": "pre[data-language=\"HTML\"]:nth-child(6) > .language-html",
+            "snippet": "<code class=\"language-html\">"
+          },
+          {
+            "selector": "pre[data-language=\"HTML\"]:nth-child(8) > .language-html",
+            "snippet": "<code class=\"language-html\">"
+          },
+          {
+            "selector": "pre[data-language=\"CSS\"] > .language-css",
+            "snippet": "<code class=\"language-css\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".fixed",
+            "snippet": "<nav data-pagefind-ignore=\"\" class=\"fixed z-50 top-0 left-0 right-0 p-base md:px-xl lg:px-2xl bg-canvas flex flex-row gap-md\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "02122279e5cf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"16df6a71a60413c046ea4aaf187d2cf8-ssl\""
+        }
+      },
+      {
+        "hash": "02122279e5cf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"16df6a71a60413c046ea4aaf187d2cf8-ssl\""
+        }
+      },
+      {
+        "hash": "02122279e5cf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "25",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535975",
+          "etag": "W/\"16df6a71a60413c046ea4aaf187d2cf8-ssl\""
+        }
+      },
+      {
+        "hash": "02122279e5cf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "33",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535964",
+          "etag": "W/\"16df6a71a60413c046ea4aaf187d2cf8-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
