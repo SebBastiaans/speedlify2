@@ -1,0 +1,293 @@
+{
+  "url": "https://www.undefinednull.com/",
+  "name": "www.undefinednull.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795705845005,
+  "date": "2026-11-26T15:10:45.005Z",
+  "runId": "2026-11-26T15-09-18-688Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24116,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.undefinednull.com/",
+    "finalUrl": "https://www.undefinednull.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 980,
+      "lcp": 980,
+      "si": 980,
+      "tbt": 68,
+      "tti": 4334,
+      "cls": 0,
+      "ttfb": 486,
+      "maxPotentialFid": 186,
+      "serverResponseTime": 30,
+      "networkRtt": 0.1,
+      "networkServerLatency": 36.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 31.2,
+      "elementRenderDelay": 46.3
+    },
+    "weight": {
+      "total": 1139439,
+      "requests": 39,
+      "mainDocument": 33110,
+      "byType": {
+        "total": {
+          "bytes": 1123831,
+          "requests": 38
+        },
+        "other": {
+          "bytes": 876195,
+          "requests": 34
+        },
+        "script": {
+          "bytes": 214526,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 33110,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 214564,
+          "requests": 4
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 0,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 214564,
+      "mainThreadMs": 70.4,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 183300,
+          "mainThreadMs": 48.1,
+          "byType": {
+            "script": 183300
+          },
+          "typedBytes": 183300
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 20913,
+          "mainThreadMs": 14.3,
+          "byType": {
+            "script": 20875,
+            "other": 38
+          },
+          "typedBytes": 20913
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 8,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 585.1,
+      "byGroup": {
+        "scriptEvaluation": 297,
+        "other": 120.6,
+        "styleLayout": 72.7,
+        "scriptParseCompile": 55.7,
+        "paintCompositeRender": 16.7,
+        "parseHTML": 13.4,
+        "garbageCollection": 9
+      },
+      "bootupMs": 316.2,
+      "longTasks": 1,
+      "longestTaskMs": 186
+    },
+    "dom": {
+      "elements": 192,
+      "depth": 8,
+      "maxChildren": 25
+    },
+    "waste": {
+      "unusedJsBytes": 84047,
+      "unusedCssBytes": 12741,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 19796.65,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 22,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 19
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2469.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T15:10:54.079Z",
+      "runtimeMs": 6909.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "cf-ray": "a609d2d56c556dc8-EWR",
+      "server": "cloudflare",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "be7005fbee054d6fe877aeab7c36ea51de18e02a",
+      "x-github-request-id": "A8E2:314E50:4DB575:534128:6B084BCB",
+      "x-served-by": "cache-ewr-kewr1740022-EWR"
+    },
+    "violations": 0,
+    "passes": 405,
+    "incomplete": 26,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "f98de2754902",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 26 Jul 2025 13:35:11 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "f98de2754902",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 26 Jul 2025 13:35:11 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "f98de2754902",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 26 Jul 2025 13:35:11 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "f98de2754902",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "18",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 26 Jul 2025 13:35:11 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
