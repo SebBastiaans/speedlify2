@@ -1,0 +1,505 @@
+{
+  "url": "https://www.realproducersmag.com/",
+  "name": "www.realproducersmag.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795669745782,
+  "date": "2026-11-26T05:09:05.782Z",
+  "runId": "2026-11-26T04-59-38-630Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 34516,
+  "error": null,
+  "variance": {
+    "min": 46,
+    "max": 58,
+    "spread": 12,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.realproducersmag.com/",
+    "finalUrl": "https://www.realproducersmag.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 53,
+      "accessibility": 75,
+      "best-practices": 73,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 2449,
+      "lcp": 7502,
+      "si": 3214,
+      "tbt": 808,
+      "tti": 12211,
+      "cls": 0.004,
+      "ttfb": 766,
+      "maxPotentialFid": 321,
+      "serverResponseTime": 242,
+      "networkRtt": 104.6,
+      "networkServerLatency": 166.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 710.2,
+      "resourceLoadDelay": 255.3,
+      "resourceLoadDuration": 172.8,
+      "elementRenderDelay": 59.6
+    },
+    "weight": {
+      "total": 1682387,
+      "requests": 58,
+      "mainDocument": 8911,
+      "byType": {
+        "total": {
+          "bytes": 1679643,
+          "requests": 56
+        },
+        "script": {
+          "bytes": 1098796,
+          "requests": 21
+        },
+        "image": {
+          "bytes": 441919,
+          "requests": 13
+        },
+        "other": {
+          "bytes": 63458,
+          "requests": 17
+        },
+        "font": {
+          "bytes": 48956,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 16999,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 9515,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1443328,
+          "requests": 39
+        }
+      },
+      "scripts": 21,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 12,
+      "bytes": 1442808,
+      "mainThreadMs": 439.6,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 527141,
+          "mainThreadMs": 233.9,
+          "byType": {
+            "script": 527141
+          },
+          "typedBytes": 527141
+        },
+        {
+          "entity": "Amazon Web Services",
+          "bytes": 430238,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 430238
+          },
+          "typedBytes": 430238
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 207038,
+          "mainThreadMs": 84.8,
+          "byType": {
+            "script": 206627,
+            "image": 411
+          },
+          "typedBytes": 207038
+        },
+        {
+          "entity": "LiveHelpNow",
+          "bytes": 96976,
+          "mainThreadMs": 27.2,
+          "byType": {
+            "script": 95823,
+            "other": 1153
+          },
+          "typedBytes": 96976
+        },
+        {
+          "entity": "Netlify",
+          "bytes": 55204,
+          "mainThreadMs": 25.5,
+          "byType": {
+            "script": 55204
+          },
+          "typedBytes": 55204
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2967.4,
+      "byGroup": {
+        "scriptEvaluation": 1697.1,
+        "other": 542.5,
+        "scriptParseCompile": 341,
+        "styleLayout": 176.7,
+        "parseHTML": 103.2,
+        "garbageCollection": 60.2,
+        "paintCompositeRender": 46.6
+      },
+      "bootupMs": 1933.5,
+      "longTasks": 12,
+      "longestTaskMs": 321
+    },
+    "dom": {
+      "elements": 372,
+      "depth": 11,
+      "maxChildren": 167
+    },
+    "waste": {
+      "unusedJsBytes": 444812,
+      "unusedCssBytes": 35444,
+      "legacyJsBytes": 22377,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 13107,
+      "renderBlockingMs": 1414,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 754807.0718901304,
+      "poorlyCachedCount": 17
+    },
+    "accessibility": {
+      "failingCount": 6,
+      "applicableCount": 24,
+      "failingNodes": 21,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 7
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 4
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "aria-allowed-attr",
+          "title": "`[aria-*]` attributes do not match their roles",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 5
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 20
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2489.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T05:09:07.071Z",
+      "runtimeMs": 10453.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8B44NVP3GTZ4R4C0H04AS1T"
+    },
+    "violations": 21,
+    "passes": 476,
+    "incomplete": 3,
+    "violationRules": 8,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 7,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".award-link",
+            "snippet": "<a class=\"award-link\" href=\"https://n2co.com/awards\" target=\"_blank\"> <img src=\"assets/images/miscellaneous/award.svg\" alt=\"\" class=\"award-link__icon\"> </a>"
+          },
+          {
+            "selector": ".social-nav__menu-item:nth-child(1) > .social-nav__menu-link--light.social-nav__menu-link[target=\"_blank\"]",
+            "snippet": "<a class=\"social-nav__menu-link social-nav__menu-link--light\" href=\"https://www.facebook.com/RealProducersMagazine/\" target=\"_blank\">"
+          },
+          {
+            "selector": ".social-nav__menu-item:nth-child(2) > .social-nav__menu-link--light.social-nav__menu-link[target=\"_blank\"]",
+            "snippet": "<a class=\"social-nav__menu-link social-nav__menu-link--light\" href=\"https://www.instagram.com/realproducers/\" target=\"_blank\">"
+          },
+          {
+            "selector": ".social-nav__menu-item:nth-child(3) > .social-nav__menu-link--light.social-nav__menu-link[target=\"_blank\"]",
+            "snippet": "<a class=\"social-nav__menu-link social-nav__menu-link--light\" href=\"https://www.linkedin.com/company/real-producers/\" target=\"_blank\">"
+          },
+          {
+            "selector": ".social-nav__menu-item:nth-child(4) > .social-nav__menu-link--light.social-nav__menu-link[target=\"_blank\"]",
+            "snippet": "<a class=\"social-nav__menu-link social-nav__menu-link--light\" href=\"https://www.pinterest.com/realproducersmag/\" target=\"_blank\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".glide__slide--active > .h6.mt-0.blue-text",
+            "snippet": "<p class=\"h6 mt-0 blue-text\">REAL PRODUCERS READER</p>"
+          },
+          {
+            "selector": ".m-0.px-2.pl-0-md:nth-child(1)",
+            "snippet": "<p class=\"h4 no-text-transform m-0 px-2 pl-0-md pr-4-lg white-text\">Inc.</p>"
+          },
+          {
+            "selector": ".m-0.px-2.pl-0-md:nth-child(2)",
+            "snippet": "<p class=\"h4 no-text-transform m-0 px-2 pl-0-md pr-4-lg white-text\">Fortune</p>"
+          },
+          {
+            "selector": ".m-0.px-2.pl-0-md:nth-child(3)",
+            "snippet": "<p class=\"h4 no-text-transform m-0 px-2 pl-0-md pr-4-lg white-text\">Entrepreneur</p>"
+          },
+          {
+            "selector": ".m-0.px-2.pl-0-md:nth-child(4)",
+            "snippet": "<p class=\"h4 no-text-transform m-0 px-2 pl-0-md pr-4-lg white-text\">Outside</p>"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 4,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".nav__open-menu",
+            "snippet": "<button class=\"nav__open-menu nav__open-menu--show js-open-menu\" type=\"button\"> <svg class=\"nav__open-menu-icon\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"/assets/images/sprite.svg#…"
+          },
+          {
+            "selector": ".glide__bullet--active",
+            "snippet": "<button class=\"glide__bullet quotes-carousel__bullets glide__bullet--active\" data-glide-dir=\"=0\"></button>"
+          },
+          {
+            "selector": "button[data-glide-dir=\"=1\"]",
+            "snippet": "<button class=\"glide__bullet quotes-carousel__bullets\" data-glide-dir=\"=1\"></button>"
+          },
+          {
+            "selector": "button[data-glide-dir=\"=2\"]",
+            "snippet": "<button class=\"glide__bullet quotes-carousel__bullets\" data-glide-dir=\"=2\"></button>"
+          }
+        ]
+      },
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Elements must only use supported ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[data-item=\"\"]",
+            "snippet": "<div class=\"choices__item choices__placeholder choices__item--selectable\" data-item=\"\" data-id=\"1\" data-value=\"\" data-custom-properties=\"[object Object]\" aria-selected=\"true\">Find My Real Producers</…"
+          }
+        ]
+      },
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".header__video-background >>> body",
+            "snippet": "<body role=\"presentation\" class=\"vp-center\">"
+          }
+        ]
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Frames must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".header__video-background",
+            "snippet": "<iframe data-src=\"https://player.vimeo...\" width=\"800\" height=\"450\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"\" class=\"header__video-backgr...\" src=\"https://player.vimeo...\" style…"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".pr-6-lg > h3",
+            "snippet": "<h3>Real Producers magazines are for and about real estate’s top performers.</h3>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".nav",
+            "snippet": "<nav class=\"nav js-nav\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e28392fe984d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=stale; fwd-status=200; stored",
+          "etag": "W/\"e785ce3c4faee5666e01c7b24cd44a41-ssl\""
+        }
+      },
+      {
+        "hash": "e28392fe984d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535990",
+          "etag": "W/\"e785ce3c4faee5666e01c7b24cd44a41-ssl\""
+        }
+      },
+      {
+        "hash": "e28392fe984d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "21",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535979",
+          "etag": "W/\"e785ce3c4faee5666e01c7b24cd44a41-ssl\""
+        }
+      },
+      {
+        "hash": "e28392fe984d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535971",
+          "etag": "W/\"e785ce3c4faee5666e01c7b24cd44a41-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

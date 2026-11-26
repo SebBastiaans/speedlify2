@@ -1,0 +1,330 @@
+{
+  "url": "https://www.spencerharston.com/",
+  "name": "www.spencerharston.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795669809349,
+  "date": "2026-11-26T05:10:09.349Z",
+  "runId": "2026-11-26T04-59-38-630Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 29746,
+  "error": null,
+  "variance": {
+    "min": 88,
+    "max": 88,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.spencerharston.com/",
+    "finalUrl": "https://www.spencerharston.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 88,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 26
+    },
+    "timings": {
+      "fcp": 790,
+      "lcp": 790,
+      "si": 790,
+      "tbt": 0,
+      "tti": 790,
+      "cls": 0.238,
+      "ttfb": 468,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 26,
+      "networkRtt": 0.1,
+      "networkServerLatency": 3094.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 27.6,
+      "elementRenderDelay": 72.6
+    },
+    "weight": {
+      "total": 39892,
+      "requests": 11,
+      "mainDocument": 3234,
+      "byType": {
+        "total": {
+          "bytes": 39892,
+          "requests": 11
+        },
+        "font": {
+          "bytes": 17099,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 8216,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 7291,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 4052,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 3234,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 5222,
+          "requests": 3
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 3,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 5222,
+      "mainThreadMs": 1.7,
+      "top": [
+        {
+          "entity": "zgo.at",
+          "bytes": 4389,
+          "mainThreadMs": 1.7,
+          "byType": {
+            "script": 4389
+          },
+          "typedBytes": 4389
+        },
+        {
+          "entity": "workers.dev",
+          "bytes": 451,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 451
+          },
+          "typedBytes": 451
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 190.9,
+      "byGroup": {
+        "other": 89.9,
+        "styleLayout": 48.6,
+        "scriptEvaluation": 25.5,
+        "parseHTML": 12.2,
+        "paintCompositeRender": 7.8,
+        "scriptParseCompile": 7
+      },
+      "bootupMs": 11.9,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 83,
+      "depth": 8,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 12
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2464.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T05:10:20.310Z",
+      "runtimeMs": 9128.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.7",
+      "source": "meta",
+      "raw": "Eleventy v3.1.7"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.7"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a6066345af924a04-ORD",
+      "server": "cloudflare"
+    },
+    "violations": 6,
+    "passes": 186,
+    "incomplete": 0,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 4,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[title=\"Mastodon profile\"]",
+            "snippet": "<a target=\"_blank\" href=\"https://mastodon.social/@sphars\" role=\"listitem\" class=\"flex items-center gap-x-2\" title=\"Mastodon profile\" rel=\"noreferrer\">"
+          },
+          {
+            "selector": "a[title=\"Bluesky profile\"]",
+            "snippet": "<a target=\"_blank\" href=\"https://bsky.app/profile/sphars.bsky.social\" role=\"listitem\" class=\"flex items-center gap-x-2\" title=\"Bluesky profile\" rel=\"noreferrer\">"
+          },
+          {
+            "selector": "a[href$=\"sphars\"]:nth-child(3)",
+            "snippet": "<a rel=\"noreferrer\" target=\"_blank\" href=\"https://github.com/sphars\" role=\"listitem\" class=\"flex items-center gap-x-2\" title=\"GitHub profile\">"
+          },
+          {
+            "selector": "a[title=\"Last.fm profile\"]",
+            "snippet": "<a rel=\"noreferrer\" target=\"_blank\" href=\"https://www.last.fm/user/spencer314\" role=\"listitem\" class=\"flex items-center gap-x-2\" title=\"Last.fm profile\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".text-red-500",
+            "snippet": "<div class=\"text-red-500\">⚠️ API call to last.fm failed, check the console</div>"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c602a956efdf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "c602a956efdf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "c602a956efdf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "c602a956efdf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,311 @@
+{
+  "url": "https://www.oddbird.net/",
+  "name": "www.oddbird.net",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795669665634,
+  "date": "2026-11-26T05:07:45.634Z",
+  "runId": "2026-11-26T04-59-38-630Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25764,
+  "error": null,
+  "variance": {
+    "min": 77,
+    "max": 92,
+    "spread": 15,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.oddbird.net/",
+    "finalUrl": "https://www.oddbird.net/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 89,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 2582,
+      "lcp": 3254,
+      "si": 2582,
+      "tbt": 0,
+      "tti": 3276,
+      "cls": 0.038,
+      "ttfb": 623,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 23,
+      "networkRtt": 0,
+      "networkServerLatency": 22.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 24.3,
+      "elementRenderDelay": 173.5
+    },
+    "weight": {
+      "total": 1412654,
+      "requests": 22,
+      "mainDocument": 45538,
+      "byType": {
+        "total": {
+          "bytes": 1409166,
+          "requests": 21
+        },
+        "image": {
+          "bytes": 1151879,
+          "requests": 6
+        },
+        "font": {
+          "bytes": 133346,
+          "requests": 6
+        },
+        "script": {
+          "bytes": 46835,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 45538,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 29755,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 1813,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 136780,
+          "requests": 9
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 4,
+      "fonts": 7
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 136780,
+      "mainThreadMs": 2,
+      "top": [
+        {
+          "entity": "Adobe TypeKit",
+          "bytes": 134859,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 1513,
+            "font": 133346
+          },
+          "typedBytes": 134859
+        },
+        {
+          "entity": "Plausible",
+          "bytes": 1921,
+          "mainThreadMs": 1.7,
+          "byType": {
+            "script": 1921
+          },
+          "typedBytes": 1921
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 562.1,
+      "byGroup": {
+        "styleLayout": 225.4,
+        "other": 180.1,
+        "scriptEvaluation": 79.6,
+        "paintCompositeRender": 40.8,
+        "parseHTML": 33.3,
+        "scriptParseCompile": 2.8
+      },
+      "bootupMs": 80.8,
+      "longTasks": 2,
+      "longestTaskMs": 71
+    },
+    "dom": {
+      "elements": 692,
+      "depth": 11,
+      "maxChildren": 26
+    },
+    "waste": {
+      "unusedJsBytes": 26085,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1510,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 17.299999999999997,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 30,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "aria-input-field-name",
+          "title": "ARIA input fields do not have accessible names",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 29
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2474,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T05:07:56.210Z",
+      "runtimeMs": 7112.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8B421AKMWPNB92J6QW5EXZB"
+    },
+    "violations": 4,
+    "passes": 863,
+    "incomplete": 100,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".oddnews-signup > h3",
+            "snippet": "<h3>Level Up Your <span class=\"caps\">CSS</span></h3>"
+          },
+          {
+            "selector": ".oddnews-signup > p",
+            "snippet": "<p><strong>Get free cutting-edge demos in your inbox!</strong> Grid <span class=\"amp\">&amp;</span> layouts with Miriam Suzanne, anchor positioning with James Stuckey Weber, and more! <a href=\"/oddnew…"
+          },
+          {
+            "selector": ".mc-field-group",
+            "snippet": "<div class=\"mc-field-group\">"
+          }
+        ]
+      },
+      {
+        "id": "aria-input-field-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "ARIA input fields must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-input-field-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".aa-Autocomplete",
+            "snippet": "<div class=\"aa-Autocomplete\" role=\"combobox\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-labelledby=\"autocomplete-0-label\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e9bb84aedf82",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"aff2946c7a082a112a4baae1b31ca057-ssl\""
+        }
+      },
+      {
+        "hash": "e9bb84aedf82",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535991",
+          "etag": "W/\"aff2946c7a082a112a4baae1b31ca057-ssl\""
+        }
+      },
+      {
+        "hash": "e9bb84aedf82",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535984",
+          "etag": "W/\"aff2946c7a082a112a4baae1b31ca057-ssl\""
+        }
+      },
+      {
+        "hash": "e9bb84aedf82",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535978",
+          "etag": "W/\"aff2946c7a082a112a4baae1b31ca057-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
