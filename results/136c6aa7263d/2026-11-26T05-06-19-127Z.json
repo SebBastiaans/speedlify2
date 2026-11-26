@@ -1,0 +1,296 @@
+{
+  "url": "https://www.yeshyendamuri.com/",
+  "name": "www.yeshyendamuri.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795669579127,
+  "date": "2026-11-26T05:06:19.127Z",
+  "runId": "2026-11-26T04-59-38-929Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22211,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 100,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.yeshyendamuri.com/",
+    "finalUrl": "https://www.yeshyendamuri.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 967,
+      "lcp": 967,
+      "si": 981,
+      "tbt": 133,
+      "tti": 1616,
+      "cls": 0,
+      "ttfb": 485,
+      "maxPotentialFid": 176,
+      "serverResponseTime": 96,
+      "networkRtt": 16.3,
+      "networkServerLatency": 35.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 166.4,
+      "elementRenderDelay": 150.2
+    },
+    "weight": {
+      "total": 6496638,
+      "requests": 38,
+      "mainDocument": 11751,
+      "byType": {
+        "total": {
+          "bytes": 6496638,
+          "requests": 38
+        },
+        "image": {
+          "bytes": 6167758,
+          "requests": 19
+        },
+        "other": {
+          "bytes": 237574,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 62339,
+          "requests": 15
+        },
+        "stylesheet": {
+          "bytes": 17216,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 11751,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10478,
+          "requests": 1
+        }
+      },
+      "scripts": 15,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10478,
+      "mainThreadMs": 8,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 8,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 982.1,
+      "byGroup": {
+        "scriptEvaluation": 436,
+        "other": 411.7,
+        "styleLayout": 85,
+        "parseHTML": 19.4,
+        "paintCompositeRender": 17.6,
+        "scriptParseCompile": 12.2
+      },
+      "bootupMs": 425.7,
+      "longTasks": 3,
+      "longestTaskMs": 176
+    },
+    "dom": {
+      "elements": 138,
+      "depth": 10,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 12217,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 158,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 4191.2,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 23,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 49
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2472.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T05:06:20.403Z",
+      "runtimeMs": 6845.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "sveltekit",
+      "name": "SvelteKit",
+      "icon": "Svelte",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "sveltekit",
+        "svelte"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a6065d780e02790e-LAX",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 286,
+    "incomplete": 1,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".site-brand",
+            "snippet": "<a class=\"site-brand\" href=\"/\" aria-label=\"Home\">yesh<span class=\"site-brand-dot\" aria-hidden=\"true\">.</span></a>"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".photo-reel",
+            "snippet": "<div class=\"photo-reel\" aria-label=\"Photography reel\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "781bd6b6e74f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "781bd6b6e74f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "781bd6b6e74f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "781bd6b6e74f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

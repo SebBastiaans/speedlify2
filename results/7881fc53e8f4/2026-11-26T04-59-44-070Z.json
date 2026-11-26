@@ -1,0 +1,270 @@
+{
+  "url": "https://www.edwardhorsford.com/",
+  "name": "www.edwardhorsford.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795669184070,
+  "date": "2026-11-26T04:59:44.070Z",
+  "runId": "2026-11-26T04-59-38-929Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26197,
+  "error": null,
+  "variance": {
+    "min": 95,
+    "max": 100,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.edwardhorsford.com/",
+    "finalUrl": "https://www.edwardhorsford.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1570,
+      "lcp": 1698,
+      "si": 1570,
+      "tbt": 0,
+      "tti": 1698,
+      "cls": 0,
+      "ttfb": 479,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 49,
+      "networkRtt": 0,
+      "networkServerLatency": 28.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 50.6,
+      "elementRenderDelay": 66.8
+    },
+    "weight": {
+      "total": 253459,
+      "requests": 24,
+      "mainDocument": 3847,
+      "byType": {
+        "total": {
+          "bytes": 253459,
+          "requests": 24
+        },
+        "other": {
+          "bytes": 153326,
+          "requests": 15
+        },
+        "font": {
+          "bytes": 52283,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 27632,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 16371,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 3847,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 20704,
+          "requests": 2
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 20704,
+      "mainThreadMs": 9.3,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 20704,
+          "mainThreadMs": 9.3,
+          "byType": {
+            "script": 20704
+          },
+          "typedBytes": 20704
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 304.9,
+      "byGroup": {
+        "other": 158.8,
+        "scriptEvaluation": 82.5,
+        "styleLayout": 33.1,
+        "parseHTML": 16.7,
+        "scriptParseCompile": 9.4,
+        "paintCompositeRender": 4.3
+      },
+      "bootupMs": 33.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 62,
+      "depth": 7,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 15480,
+      "legacyJsBytes": 20714,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 8281.6,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 22
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2453,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T04:59:57.590Z",
+      "runtimeMs": 6132.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.7",
+      "source": "meta",
+      "raw": "Eleventy v3.1.7"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.7"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a60653ebf8e32360-LAX",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M8B3KBW6KF4CRBJHFW1FS6B2"
+    },
+    "violations": 0,
+    "passes": 133,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "5b7fd4586731",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "30813",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31505187",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "5b7fd4586731",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "30823",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31505177",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "5b7fd4586731",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "30830",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31505170",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "5b7fd4586731",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "30834",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31505166",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
