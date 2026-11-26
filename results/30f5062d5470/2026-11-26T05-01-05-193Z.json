@@ -1,0 +1,301 @@
+{
+  "url": "https://www.jeremiahlee.com/",
+  "name": "www.jeremiahlee.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795669265193,
+  "date": "2026-11-26T05:01:05.193Z",
+  "runId": "2026-11-26T04-59-41-118Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20354,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.jeremiahlee.com/",
+    "finalUrl": "https://www.jeremiahlee.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 97,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 946,
+      "lcp": 946,
+      "si": 946,
+      "tbt": 0,
+      "tti": 946,
+      "cls": 0,
+      "ttfb": 496,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 38,
+      "networkRtt": 0,
+      "networkServerLatency": 45.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 39,
+      "elementRenderDelay": 174
+    },
+    "weight": {
+      "total": 202912,
+      "requests": 12,
+      "mainDocument": 2328,
+      "byType": {
+        "total": {
+          "bytes": 202912,
+          "requests": 12
+        },
+        "image": {
+          "bytes": 167566,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 15578,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 14564,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 2876,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 2328,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10352,
+          "requests": 3
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 10352,
+      "mainThreadMs": 5.2,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10352,
+          "mainThreadMs": 5.2,
+          "byType": {
+            "script": 10352
+          },
+          "typedBytes": 10352
+        },
+        {
+          "entity": "cloudflareinsights.com",
+          "bytes": 0,
+          "mainThreadMs": 0
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 124.7,
+      "byGroup": {
+        "other": 65.1,
+        "scriptEvaluation": 29.6,
+        "styleLayout": 17.5,
+        "parseHTML": 6.3,
+        "scriptParseCompile": 3.3,
+        "paintCompositeRender": 2.9
+      },
+      "bootupMs": 2.9,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 31,
+      "depth": 5,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10357,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2915,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 4140.8,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 13,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 28
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3455,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T05:01:13.446Z",
+      "runtimeMs": 5935.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a60655c37b4968f1-PDX",
+      "server": "cloudflare"
+    },
+    "violations": 2,
+    "passes": 79,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" dir=\"ltr\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div",
+            "snippet": "<div class=\"container mx-auto prose prose-violet text-lg\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "021302368d7a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "W/\"472ed29e412fa2918f9d37a07201773a\""
+        }
+      },
+      {
+        "hash": "021302368d7a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "W/\"472ed29e412fa2918f9d37a07201773a\""
+        }
+      },
+      {
+        "hash": "021302368d7a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "etag": "W/\"472ed29e412fa2918f9d37a07201773a\""
+        }
+      },
+      {
+        "hash": "021302368d7a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,269 @@
+{
+  "url": "https://www.kogakure.de/",
+  "name": "www.kogakure.de",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795669393528,
+  "date": "2026-11-26T05:03:13.528Z",
+  "runId": "2026-11-26T04-59-41-118Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 44777,
+  "error": null,
+  "variance": {
+    "min": 88,
+    "max": 97,
+    "spread": 9,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.kogakure.de/",
+    "finalUrl": "https://www.kogakure.de/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1312,
+      "lcp": 1312,
+      "si": 4918,
+      "tbt": 27,
+      "tti": 1462,
+      "cls": 0,
+      "ttfb": 785,
+      "maxPotentialFid": 77,
+      "serverResponseTime": 181,
+      "networkRtt": 0,
+      "networkServerLatency": 184.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 182.4,
+      "elementRenderDelay": 2160
+    },
+    "weight": {
+      "total": 1820894,
+      "requests": 47,
+      "mainDocument": 25729,
+      "byType": {
+        "total": {
+          "bytes": 1820894,
+          "requests": 45
+        },
+        "image": {
+          "bytes": 1579052,
+          "requests": 16
+        },
+        "font": {
+          "bytes": 181084,
+          "requests": 15
+        },
+        "document": {
+          "bytes": 25729,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 17152,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 10434,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 7443,
+          "requests": 6
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2992,
+          "requests": 3
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 2,
+      "fonts": 15
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 2992,
+      "mainThreadMs": 1.1,
+      "top": [
+        {
+          "entity": "kogakure.cloud",
+          "bytes": 2992,
+          "mainThreadMs": 1.1,
+          "byType": {
+            "script": 2297,
+            "other": 695
+          },
+          "typedBytes": 2992
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 735,
+      "byGroup": {
+        "other": 383.4,
+        "styleLayout": 242.2,
+        "paintCompositeRender": 51.5,
+        "scriptEvaluation": 23.5,
+        "parseHTML": 22.3,
+        "garbageCollection": 6.5,
+        "scriptParseCompile": 5.7
+      },
+      "bootupMs": 23.4,
+      "longTasks": 2,
+      "longestTaskMs": 77
+    },
+    "dom": {
+      "elements": 675,
+      "depth": 9,
+      "maxChildren": 13
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 1579052,
+      "poorlyCachedCount": 16
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 26,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 54
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3602.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T05:03:31.442Z",
+      "runtimeMs": 13547.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx/1.29.8"
+    },
+    "violations": 0,
+    "passes": 1245,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "34e5e6e597e9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6af5da65-1a6a4\"",
+          "last-modified": "Thu, 12 Nov 2026 15:25:25 GMT"
+        }
+      },
+      {
+        "hash": "4ba2e86afea4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6af5da65-1ad13\"",
+          "last-modified": "Thu, 12 Nov 2026 15:25:25 GMT"
+        }
+      },
+      {
+        "hash": "4ba2e86afea4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6af5da65-1ad13\"",
+          "last-modified": "Thu, 12 Nov 2026 15:25:25 GMT"
+        }
+      },
+      {
+        "hash": "4ba2e86afea4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6af5da65-1ad13\"",
+          "last-modified": "Thu, 12 Nov 2026 15:25:25 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,330 @@
+{
+  "url": "https://www.justus.ws/",
+  "name": "www.justus.ws",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795669316898,
+  "date": "2026-11-26T05:01:56.898Z",
+  "runId": "2026-11-26T04-59-41-118Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20267,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 99,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.justus.ws/",
+    "finalUrl": "https://www.justus.ws/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 99
+    },
+    "timings": {
+      "fcp": 1527,
+      "lcp": 1527,
+      "si": 1527,
+      "tbt": 0,
+      "tti": 1527,
+      "cls": 0.062,
+      "ttfb": 613,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 9,
+      "networkRtt": 0,
+      "networkServerLatency": 13.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 10.7,
+      "elementRenderDelay": 72.3
+    },
+    "weight": {
+      "total": 639152,
+      "requests": 15,
+      "mainDocument": 2938,
+      "byType": {
+        "total": {
+          "bytes": 639152,
+          "requests": 15
+        },
+        "font": {
+          "bytes": 554923,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 32384,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 19135,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 17471,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 12301,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 2938,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 355083,
+          "requests": 2
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 5,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 355083,
+      "mainThreadMs": 0.2,
+      "top": [
+        {
+          "entity": "rsms.me",
+          "bytes": 355083,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 2055,
+            "font": 353028
+          },
+          "typedBytes": 355083
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 223.4,
+      "byGroup": {
+        "other": 86.4,
+        "styleLayout": 72.6,
+        "scriptEvaluation": 30,
+        "paintCompositeRender": 15.7,
+        "parseHTML": 13.3,
+        "scriptParseCompile": 5.3
+      },
+      "bootupMs": 4.9,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 151,
+      "depth": 7,
+      "maxChildren": 18
+    },
+    "waste": {
+      "unusedJsBytes": 21970,
+      "unusedCssBytes": 12376,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 914,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 243085.73333333334,
+      "poorlyCachedCount": 12
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 5
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3540.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T05:02:05.616Z",
+      "runtimeMs": 5671.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "700370c70101035164e233baf239558e71f1a02a",
+      "x-github-request-id": "993E:13D6C6:17E17:26950:6B07BD44",
+      "x-served-by": "cache-bfi-kbfi7400068-BFI"
+    },
+    "violations": 5,
+    "passes": 399,
+    "incomplete": 0,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#titleContainer",
+            "snippet": "<div id=\"titleContainer\">"
+          },
+          {
+            "selector": "#tagline",
+            "snippet": "<div id=\"tagline\">"
+          },
+          {
+            "selector": "#sidebar",
+            "snippet": "<div id=\"sidebar\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#tagline",
+            "snippet": "<div id=\"tagline\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html style=\"scroll-behavior: smooth;\" lang=\"en\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "fce9b4497b1d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"6aff0760-3089\"",
+          "last-modified": "Thu, 19 Nov 2026 14:27:44 GMT",
+          "x-cache": "MISS",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "fce9b4497b1d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "etag": "W/\"6aff0760-3089\"",
+          "last-modified": "Thu, 19 Nov 2026 14:27:44 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "fce9b4497b1d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "etag": "W/\"6aff0760-3089\"",
+          "last-modified": "Thu, 19 Nov 2026 14:27:44 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "fce9b4497b1d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "etag": "W/\"6aff0760-3089\"",
+          "last-modified": "Thu, 19 Nov 2026 14:27:44 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
