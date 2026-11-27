@@ -1,0 +1,393 @@
+{
+  "url": "https://gurumedia.com/",
+  "name": "gurumedia.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795737913403,
+  "date": "2026-11-27T00:05:13.403Z",
+  "runId": "2026-11-26T23-48-56-657Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24926,
+  "error": null,
+  "variance": {
+    "min": 71,
+    "max": 74,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://gurumedia.com/",
+    "finalUrl": "https://gurumedia.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 73,
+      "accessibility": 92,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 969,
+      "lcp": 5690,
+      "si": 1152,
+      "tbt": 280,
+      "tti": 5709,
+      "cls": 0,
+      "ttfb": 627,
+      "maxPotentialFid": 132,
+      "serverResponseTime": 17,
+      "networkRtt": 0.3,
+      "networkServerLatency": 94.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 19.1,
+      "elementRenderDelay": 1137.8
+    },
+    "weight": {
+      "total": 820914,
+      "requests": 33,
+      "mainDocument": 14601,
+      "byType": {
+        "total": {
+          "bytes": 820914,
+          "requests": 33
+        },
+        "script": {
+          "bytes": 599981,
+          "requests": 14
+        },
+        "image": {
+          "bytes": 115230,
+          "requests": 9
+        },
+        "font": {
+          "bytes": 76890,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 14601,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 12261,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1951,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 429778,
+          "requests": 7
+        }
+      },
+      "scripts": 14,
+      "stylesheets": 1,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 429778,
+      "mainThreadMs": 117.5,
+      "top": [
+        {
+          "entity": "Facebook",
+          "bytes": 206598,
+          "mainThreadMs": 56,
+          "byType": {
+            "script": 206471,
+            "image": 127
+          },
+          "typedBytes": 206598
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 200658,
+          "mainThreadMs": 55.1,
+          "byType": {
+            "script": 200658
+          },
+          "typedBytes": 200658
+        },
+        {
+          "entity": "LinkedIn Ads",
+          "bytes": 22522,
+          "mainThreadMs": 6.4,
+          "byType": {
+            "script": 21924,
+            "image": 332,
+            "other": 266
+          },
+          "typedBytes": 22522
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2511,
+      "byGroup": {
+        "other": 1276.6,
+        "scriptEvaluation": 763.6,
+        "scriptParseCompile": 184.3,
+        "styleLayout": 169.6,
+        "paintCompositeRender": 86.6,
+        "parseHTML": 15.4,
+        "garbageCollection": 14.7
+      },
+      "bootupMs": 860,
+      "longTasks": 6,
+      "longestTaskMs": 132
+    },
+    "dom": {
+      "elements": 499,
+      "depth": 10,
+      "maxChildren": 41
+    },
+    "waste": {
+      "unusedJsBytes": 215580,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 24946,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 191611.31666666668,
+      "poorlyCachedCount": 5
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 23,
+      "failingNodes": 6,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 7
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 33
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3000.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T00:05:30.426Z",
+      "runtimeMs": 7241
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "Nextdotjs",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "next",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "iad1::iad1::cxh6s-1795737936689-cfe6820d3ce5"
+    },
+    "violations": 79,
+    "passes": 541,
+    "incomplete": 35,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 73,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".stats",
+            "snippet": "<section class=\"stats\">"
+          },
+          {
+            "selector": "#offers",
+            "snippet": "<section class=\"pad\" id=\"offers\">"
+          },
+          {
+            "selector": ".wrap > .center.shead.rv",
+            "snippet": "<div class=\"shead center rv\">"
+          },
+          {
+            "selector": ".lead.bcard.rv > h3",
+            "snippet": "<h3>Better payouts</h3>"
+          },
+          {
+            "selector": ".lead.bcard.rv > p",
+            "snippet": "<p>Exclusive, high-converting offers at rates above network standard. And when your volume earns it, ask for a bump. We say yes more than we say no.</p>"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".rail-hint",
+            "snippet": "<span class=\"rail-hint\">drag to browse →</span>"
+          },
+          {
+            "selector": ".crossing",
+            "snippet": "<div class=\"crossing\">↑ That was for traffic partners<!-- --> &nbsp;·&nbsp; <span class=\"down\">↓</span> <b>Below: for advertisers &amp; brand owners</b></div>"
+          },
+          {
+            "selector": ".addr",
+            "snippet": "<p class=\"addr\">The exclusive CPS affiliate network.<br>17 Ha-Kisufim St., Jerusalem, Israel</p>"
+          },
+          {
+            "selector": ".fcopy > span:nth-child(1)",
+            "snippet": "<span>© <!-- -->2010<!-- -->-<span>2026</span> <!-- -->Guru Media LTD.</span>"
+          },
+          {
+            "selector": ".fcopy > span:nth-child(1) > span",
+            "snippet": "<span>2026</span>"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".foot-cta > a",
+            "snippet": "<a href=\"https://stats.gurumedia.com/affiliate/signup\">Get started →</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "2c8988b7fda6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "3377",
+          "etag": "W/\"1221a66gc41wsz\"",
+          "x-nextjs-prerender": "1",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "2c8988b7fda6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "3385",
+          "etag": "W/\"1221a66gc41wsz\"",
+          "x-nextjs-prerender": "1",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "2c8988b7fda6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "3393",
+          "etag": "W/\"1221a66gc41wsz\"",
+          "x-nextjs-prerender": "1",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "2c8988b7fda6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "3399",
+          "etag": "\"1221a66gc41wsz\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

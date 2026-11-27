@@ -1,0 +1,310 @@
+{
+  "url": "https://pnetto.com/",
+  "name": "pnetto.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795737480985,
+  "date": "2026-11-26T23:58:00.985Z",
+  "runId": "2026-11-26T23-48-56-657Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22522,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 96,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://pnetto.com/",
+    "finalUrl": "https://pnetto.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2279,
+      "lcp": 2279,
+      "si": 2279,
+      "tbt": 0,
+      "tti": 2279,
+      "cls": 0,
+      "ttfb": 611,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 6,
+      "networkRtt": 6.1,
+      "networkServerLatency": 104.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 7.9,
+      "elementRenderDelay": 97.8
+    },
+    "weight": {
+      "total": 395076,
+      "requests": 28,
+      "mainDocument": 8161,
+      "byType": {
+        "total": {
+          "bytes": 395076,
+          "requests": 28
+        },
+        "image": {
+          "bytes": 239646,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 54809,
+          "requests": 14
+        },
+        "script": {
+          "bytes": 44783,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 33475,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 14202,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 8161,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 279801,
+          "requests": 11
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 4,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 279801,
+      "mainThreadMs": 4.2,
+      "top": [
+        {
+          "entity": "pnetto.store",
+          "bytes": 239646,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 239646
+          },
+          "typedBytes": 239646
+        },
+        {
+          "entity": "Adobe TypeKit",
+          "bytes": 34816,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 1341,
+            "font": 33475
+          },
+          "typedBytes": 34816
+        },
+        {
+          "entity": "umami.is",
+          "bytes": 5339,
+          "mainThreadMs": 3.9,
+          "byType": {
+            "script": 4715,
+            "other": 624
+          },
+          "typedBytes": 5339
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 299.9,
+      "byGroup": {
+        "other": 134.4,
+        "styleLayout": 81.1,
+        "scriptEvaluation": 48,
+        "paintCompositeRender": 20.3,
+        "parseHTML": 14.2,
+        "scriptParseCompile": 2
+      },
+      "bootupMs": 11.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 468,
+      "depth": 11,
+      "maxChildren": 21
+    },
+    "waste": {
+      "unusedJsBytes": 37685,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1667,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 162976.58,
+      "poorlyCachedCount": 5
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 24,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 26
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2979.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T23:58:16.598Z",
+      "runtimeMs": 6377.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "iad1::g8xx6-1795737501995-262499b0c725"
+    },
+    "violations": 1,
+    "passes": 1094,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".logo",
+            "snippet": "<a href=\"/\" class=\"logo\" aria-label=\"Home\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "5278ccb0437f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2783",
+          "etag": "W/\"132c2b65072880f01c46ffada6e3bd41\"",
+          "last-modified": "Thu, 26 Nov 2026 23:11:38 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5278ccb0437f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2791",
+          "etag": "W/\"132c2b65072880f01c46ffada6e3bd41\"",
+          "last-modified": "Thu, 26 Nov 2026 23:11:38 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5278ccb0437f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2798",
+          "etag": "W/\"132c2b65072880f01c46ffada6e3bd41\"",
+          "last-modified": "Thu, 26 Nov 2026 23:11:38 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "5278ccb0437f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"132c2b65072880f01c46ffada6e3bd41\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

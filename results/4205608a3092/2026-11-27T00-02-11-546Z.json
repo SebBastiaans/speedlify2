@@ -1,0 +1,454 @@
+{
+  "url": "https://gametime.events/",
+  "name": "gametime.events",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795737731546,
+  "date": "2026-11-27T00:02:11.546Z",
+  "runId": "2026-11-26T23-48-56-657Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 60174,
+  "error": null,
+  "variance": {
+    "min": 50,
+    "max": 56,
+    "spread": 6,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://gametime.events/",
+    "finalUrl": "https://gametime.events/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 55,
+      "accessibility": 91,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1063,
+      "lcp": 8106,
+      "si": 4443,
+      "tbt": 706,
+      "tti": 22115,
+      "cls": 0.012,
+      "ttfb": 613,
+      "maxPotentialFid": 214,
+      "serverResponseTime": 8,
+      "networkRtt": 0.9,
+      "networkServerLatency": 64.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 9.9,
+      "resourceLoadDelay": 10.2,
+      "resourceLoadDuration": 38.3,
+      "elementRenderDelay": 126.4
+    },
+    "weight": {
+      "total": 27184977,
+      "requests": 107,
+      "mainDocument": 20122,
+      "byType": {
+        "total": {
+          "bytes": 27184977,
+          "requests": 107
+        },
+        "media": {
+          "bytes": 18898226,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 6307291,
+          "requests": 27
+        },
+        "script": {
+          "bytes": 1625024,
+          "requests": 43
+        },
+        "stylesheet": {
+          "bytes": 131305,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 122900,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 91094,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 9137,
+          "requests": 25
+        },
+        "third-party": {
+          "bytes": 1924023,
+          "requests": 72
+        }
+      },
+      "scripts": 43,
+      "stylesheets": 4,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 693561,
+      "mainThreadMs": 301.6,
+      "top": [
+        {
+          "entity": "Google CDN",
+          "bytes": 360995,
+          "mainThreadMs": 60.2,
+          "byType": {
+            "other": 360995
+          },
+          "typedBytes": 360995
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 174452,
+          "mainThreadMs": 84.7,
+          "byType": {
+            "script": 174452
+          },
+          "typedBytes": 174452
+        },
+        {
+          "entity": "FullStory",
+          "bytes": 86765,
+          "mainThreadMs": 61.3,
+          "byType": {
+            "script": 84237,
+            "other": 2528
+          },
+          "typedBytes": 86765
+        },
+        {
+          "entity": "Unpkg",
+          "bytes": 55631,
+          "mainThreadMs": 3.5,
+          "byType": {
+            "script": 55631
+          },
+          "typedBytes": 55631
+        },
+        {
+          "entity": "honeybadger.io",
+          "bytes": 11933,
+          "mainThreadMs": 89.3,
+          "byType": {
+            "script": 11933
+          },
+          "typedBytes": 11933
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 4728,
+      "byGroup": {
+        "scriptEvaluation": 1900,
+        "other": 1329,
+        "paintCompositeRender": 709.4,
+        "styleLayout": 287.2,
+        "scriptParseCompile": 268.7,
+        "garbageCollection": 145.8,
+        "parseHTML": 88
+      },
+      "bootupMs": 2039.1,
+      "longTasks": 13,
+      "longestTaskMs": 214
+    },
+    "dom": {
+      "elements": 695,
+      "depth": 19,
+      "maxChildren": 17
+    },
+    "waste": {
+      "unusedJsBytes": 302986,
+      "unusedCssBytes": 30801,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 869,
+      "unminifiedJsBytes": 17531,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 98387.85,
+      "poorlyCachedCount": 5
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 29,
+      "failingNodes": 8,
+      "failing": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 6
+        },
+        {
+          "id": "list",
+          "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 63
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2946.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T00:02:40.362Z",
+      "runtimeMs": 10580.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "eleventy"
+    },
+    "probe": {
+      "metas": [
+        "eleventy"
+      ],
+      "marks": [
+        "lit",
+        "alpine"
+      ],
+      "markVersions": {
+        "lit": "1.4.1",
+        "alpine": "3.14.9"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8D4ZNZ3ASYR8FA1S7XPVQ5A"
+    },
+    "violations": 12,
+    "passes": 1050,
+    "incomplete": 31,
+    "violationRules": 7,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 6,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div:nth-child(4) > div > .modal.modal-hidden > .modal-bg[\\@click=\"closeVideoLightbox()\"]",
+            "snippet": "<button type=\"button\" class=\"modal-bg\" @click=\"closeVideoLightbox()\"></button>"
+          },
+          {
+            "selector": ".sm\\:mb-8 > .hover\\:bg-gray-300.close-button[\\@click=\"closeVideoLightbox()\"]",
+            "snippet": "<button type=\"button\" class=\"close-button hover:bg-gray-300\" @click=\"closeVideoLightbox()\">"
+          },
+          {
+            "selector": ".z-90",
+            "snippet": "<button type=\"button\" class=\"modal-bg z-90\" @click=\"closePackageLightbox()\"></button>"
+          },
+          {
+            "selector": ".large",
+            "snippet": "<button type=\"button\" class=\"sticky top-0 close-button large transition-all shadow-md hover:bg-white\" @click=\"closePackageLightbox()\">"
+          },
+          {
+            "selector": "div:nth-child(2) > div > .modal.modal-hidden > .modal-bg[\\@click=\"closeVideoLightbox()\"]",
+            "snippet": "<button type=\"button\" class=\"modal-bg\" @click=\"closeVideoLightbox()\"></button>"
+          }
+        ]
+      },
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Elements must only use supported ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div:nth-child(2) > iframe[width=\"100%\"][height=\"100%\"][title=\"Embedded YouTube video\"] >>> .ytmVideoInfoVideoTitle",
+            "snippet": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=ypCli_AyPSo\"><span class=\"ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap\" style=\"\">G…"
+          }
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div:nth-child(2) > iframe[width=\"100%\"][height=\"100%\"][title=\"Embedded YouTube video\"] >>> #movie_player",
+            "snippet": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/pl…"
+          }
+        ]
+      },
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".mb-4.justify-between.items-center > .sm\\:text-3xl",
+            "snippet": "<h1 id=\"modal-title\" class=\"text-2xl leading-none sm:text-3xl font-semibold\"><span x-text=\"lightboxSelectedGame &amp;&amp; lightboxSelectedGame.title\"></span> </h1>"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href=\"/\"]",
+            "snippet": "<a href=\"/\" class=\"flex items-center\" aria-label=\"Home\">"
+          }
+        ]
+      },
+      {
+        "id": "list",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".pb-6 > ul",
+            "snippet": "<ul>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".inline-grid",
+            "snippet": "<div class=\"inline-grid gap-4 grid-cols-1 sm:grid-cols-3\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b69cb26f2f5c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"d6e94f0da7943f4d49735d41d1beb573-ssl\""
+        }
+      },
+      {
+        "hash": "b69cb26f2f5c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535984",
+          "etag": "W/\"d6e94f0da7943f4d49735d41d1beb573-ssl\""
+        }
+      },
+      {
+        "hash": "b69cb26f2f5c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "28",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535973",
+          "etag": "W/\"d6e94f0da7943f4d49735d41d1beb573-ssl\""
+        }
+      },
+      {
+        "hash": "b69cb26f2f5c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535964",
+          "etag": "W/\"d6e94f0da7943f4d49735d41d1beb573-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
