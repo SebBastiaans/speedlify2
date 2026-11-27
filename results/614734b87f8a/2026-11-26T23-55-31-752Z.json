@@ -1,0 +1,364 @@
+{
+  "url": "https://pico-blades.buildawesome.one/",
+  "name": "pico-blades.buildawesome.one",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1795737331752,
+  "date": "2026-11-26T23:55:31.752Z",
+  "runId": "2026-11-26T23-49-08-566Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 58609,
+  "error": null,
+  "variance": {
+    "min": 49,
+    "max": 82,
+    "spread": 33,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://pico-blades.buildawesome.one/",
+    "finalUrl": "https://examples.buildawesome.one/",
+    "redirect": {
+      "from": "https://pico-blades.buildawesome.one/",
+      "to": "https://examples.buildawesome.one/",
+      "chain": [
+        {
+          "url": "https://pico-blades.buildawesome.one/",
+          "status": 301
+        },
+        {
+          "url": "https://examples.buildawesome.one/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        301
+      ],
+      "change": "host",
+      "permanent": true,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 80,
+      "accessibility": 93,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 72
+    },
+    "timings": {
+      "fcp": 2291,
+      "lcp": 2291,
+      "si": 2291,
+      "tbt": 134,
+      "tti": 5150,
+      "cls": 0.278,
+      "ttfb": 619,
+      "maxPotentialFid": 176,
+      "serverResponseTime": 19,
+      "networkRtt": 0.1,
+      "networkServerLatency": 123.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 42.7,
+      "elementRenderDelay": 47.6
+    },
+    "weight": {
+      "total": 355707,
+      "requests": 16,
+      "mainDocument": 1858,
+      "byType": {
+        "total": {
+          "bytes": 338859,
+          "requests": 14
+        },
+        "script": {
+          "bytes": 313687,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 12083,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 7906,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 4733,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 450,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 336307,
+          "requests": 11
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 350906,
+      "mainThreadMs": 92.7,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 309297,
+          "mainThreadMs": 88.6,
+          "byType": {
+            "script": 309297
+          },
+          "typedBytes": 309297
+        },
+        {
+          "entity": "blades.dev",
+          "bytes": 16848,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 16848
+          },
+          "typedBytes": 16848
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 12083,
+          "mainThreadMs": 1.7,
+          "byType": {
+            "stylesheet": 12083
+          },
+          "typedBytes": 12083
+        },
+        {
+          "entity": "shields.io",
+          "bytes": 5630,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 5630
+          },
+          "typedBytes": 5630
+        },
+        {
+          "entity": "zgo.at",
+          "bytes": 4390,
+          "mainThreadMs": 2.4,
+          "byType": {
+            "script": 4390
+          },
+          "typedBytes": 4390
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 839.2,
+      "byGroup": {
+        "scriptEvaluation": 356.4,
+        "other": 253.8,
+        "styleLayout": 92.6,
+        "scriptParseCompile": 84.2,
+        "paintCompositeRender": 25.2,
+        "parseHTML": 14.2,
+        "garbageCollection": 12.8
+      },
+      "bootupMs": 429.1,
+      "longTasks": 4,
+      "longestTaskMs": 176
+    },
+    "dom": {
+      "elements": 70,
+      "depth": 8,
+      "maxChildren": 17
+    },
+    "waste": {
+      "unusedJsBytes": 146504,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 752,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 8362.521666666666,
+      "poorlyCachedCount": 6
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "object-alt",
+          "title": "`<object>` elements do not have alternate text",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 770.4,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 34
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2604,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T23:56:22.965Z",
+      "runtimeMs": 6263.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8D4M172V2XNS2W3KW1WYE3F"
+    },
+    "violations": 4,
+    "passes": 157,
+    "incomplete": 0,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "object-alt",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "<object> elements must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div:nth-child(2) > object",
+            "snippet": "<object data=\"https://img.shields.io/github/stars/open-sveti/one-examples?label=GitHub\"></object>"
+          },
+          {
+            "selector": ".dark-auto",
+            "snippet": "<object data=\"https://buildawesome.one/gh.svg\" class=\"dark-auto\"></object>"
+          }
+        ]
+      },
+      {
+        "id": "empty-table-header",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Table header text should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-table-header?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "th:nth-child(2)",
+            "snippet": "<th><img src=\"https://img.shields.io/netlify/41df6bc0-3b91-48f7-903a-3511ca3652a8?logo=&amp;label=%F0%9F%A5%B7\" alt=\"\"></th>"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "pre:nth-child(9)",
+            "snippet": "<pre><code class=\"language-sh\">npm install # dependencies npm start # development npm run stage # serve production version locally # ready to deploy! 🚀 </code></pre>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "4b7a28f4df28",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10567",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31525433",
+          "etag": "W/\"8c4db04ece5a52e252f2ffc4b0a9a0a1-ssl\""
+        }
+      },
+      {
+        "hash": "4b7a28f4df28",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "4",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535996",
+          "etag": "W/\"8c4db04ece5a52e252f2ffc4b0a9a0a1-ssl\""
+        }
+      },
+      {
+        "hash": "4b7a28f4df28",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"8c4db04ece5a52e252f2ffc4b0a9a0a1-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,367 @@
+{
+  "url": "https://www.kiwisat.org.nz/",
+  "name": "www.kiwisat.org.nz",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795737126453,
+  "date": "2026-11-26T23:52:06.453Z",
+  "runId": "2026-11-26T23-49-08-566Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20866,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.kiwisat.org.nz/",
+    "finalUrl": "https://www.kiwisat.org.nz/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 88,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 785,
+      "lcp": 785,
+      "si": 785,
+      "tbt": 0,
+      "tti": 785,
+      "cls": 0,
+      "ttfb": 618,
+      "maxPotentialFid": 18,
+      "serverResponseTime": 18,
+      "networkRtt": 0.9,
+      "networkServerLatency": 19.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 19.6,
+      "elementRenderDelay": 65.9
+    },
+    "weight": {
+      "total": 37018,
+      "requests": 9,
+      "mainDocument": 2940,
+      "byType": {
+        "total": {
+          "bytes": 34181,
+          "requests": 8
+        },
+        "script": {
+          "bytes": 26312,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 4316,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 2940,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 512,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 101,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10964,
+          "requests": 5
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 10898,
+      "mainThreadMs": 7.3,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 7.3,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "licensebuttons.net",
+          "bytes": 512,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 512
+          },
+          "typedBytes": 512
+        },
+        {
+          "entity": "cloudflareinsights.com",
+          "bytes": 35,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 35
+          },
+          "typedBytes": 35
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 179.9,
+      "byGroup": {
+        "other": 75.8,
+        "scriptEvaluation": 65,
+        "styleLayout": 20.3,
+        "scriptParseCompile": 8.1,
+        "parseHTML": 7.5,
+        "paintCompositeRender": 3.2
+      },
+      "bootupMs": 4.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 112,
+      "depth": 8,
+      "maxChildren": 20
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 4217.200000000001,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 13,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 17
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2634,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T23:52:15.149Z",
+      "runtimeMs": 5872
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.2",
+      "source": "meta",
+      "raw": "Eleventy v3.1.2"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.2"
+      ],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.15.0"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8D4CMQAQ3AG6RCD1V92CSW4"
+    },
+    "violations": 9,
+    "passes": 107,
+    "incomplete": 2,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 5,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".text-gray-700",
+            "snippet": "<div class=\"bg-gray-100 text-gray-700 text-center py-2 text-sm border-b\"> This site is a historical archive. The KiwiSAT project was dissolved in June 2023. </div>"
+          },
+          {
+            "selector": "h1",
+            "snippet": "<h1 class=\"text-white text-3xl md:text-4xl\">KiwiSAT</h1>"
+          },
+          {
+            "selector": ".pb-4",
+            "snippet": "<h2 class=\"text-white pb-4 md:pb-80\">A New Zealand Satellite</h2>"
+          },
+          {
+            "selector": "body > .container",
+            "snippet": "<div class=\"container\">"
+          },
+          {
+            "selector": ".md\\:invisible",
+            "snippet": "<div class=\"md:invisible mt-4 py-4 bottom-0 w-full bg-gray-100\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div:nth-child(1) > .text-gray-500.text-ml[href$=\"news/\"]",
+            "snippet": "<a class=\"text-ml inline-block text-gray-500 no-underline hover:text-blue-500 py-2 px-4\" href=\"/news/\">News</a>"
+          },
+          {
+            "selector": "div:nth-child(2) > .text-gray-500.text-ml[href$=\"news/\"]",
+            "snippet": "<a class=\"text-ml inline-block text-gray-500 no-underline hover:text-blue-500 py-2 px-4\" href=\"/news/\">Contact</a>"
+          },
+          {
+            "selector": "small",
+            "snippet": "<small class=\"text-gray-500\">Copyright ©2006-2023 AMSAT ZL </small>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" class=\"min-h-screen\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "fcb5efbeda26",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"1546f80d6a21be15846025225f8906d5-ssl\""
+        }
+      },
+      {
+        "hash": "fcb5efbeda26",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"1546f80d6a21be15846025225f8906d5-ssl\""
+        }
+      },
+      {
+        "hash": "fcb5efbeda26",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535986",
+          "etag": "W/\"1546f80d6a21be15846025225f8906d5-ssl\""
+        }
+      },
+      {
+        "hash": "fcb5efbeda26",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535981",
+          "etag": "W/\"1546f80d6a21be15846025225f8906d5-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
