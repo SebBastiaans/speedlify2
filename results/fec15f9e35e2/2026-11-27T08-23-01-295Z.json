@@ -1,0 +1,313 @@
+{
+  "url": "https://kareldesmet.be/",
+  "name": "www.kareldesmet.be",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795767781295,
+  "date": "2026-11-27T08:23:01.295Z",
+  "runId": "2026-11-27T08-22-53-007Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23739,
+  "error": null,
+  "variance": {
+    "min": 75,
+    "max": 93,
+    "spread": 18,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://kareldesmet.be/",
+    "finalUrl": "https://kareldesmet.be/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 93,
+      "accessibility": 89,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 98
+    },
+    "timings": {
+      "fcp": 1530,
+      "lcp": 3036,
+      "si": 1530,
+      "tbt": 49,
+      "tti": 4398,
+      "cls": 0.075,
+      "ttfb": 608,
+      "maxPotentialFid": 127,
+      "serverResponseTime": 8,
+      "networkRtt": 0.2,
+      "networkServerLatency": 37.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 9.7,
+      "resourceLoadDelay": 13.6,
+      "resourceLoadDuration": 25.7,
+      "elementRenderDelay": 25.2
+    },
+    "weight": {
+      "total": 600128,
+      "requests": 14,
+      "mainDocument": 1757,
+      "byType": {
+        "total": {
+          "bytes": 600128,
+          "requests": 14
+        },
+        "script": {
+          "bytes": 301785,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 216742,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 74495,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 4091,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 1757,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1258,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 377217,
+          "requests": 7
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 4,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 377217,
+      "mainThreadMs": 57.3,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 301050,
+          "mainThreadMs": 57.1,
+          "byType": {
+            "script": 301050
+          },
+          "typedBytes": 301050
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 76167,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1672,
+            "font": 74495
+          },
+          "typedBytes": 76167
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 649.1,
+      "byGroup": {
+        "other": 229.8,
+        "scriptEvaluation": 225.1,
+        "garbageCollection": 79.1,
+        "scriptParseCompile": 54.7,
+        "styleLayout": 47,
+        "paintCompositeRender": 7.1,
+        "parseHTML": 6.3
+      },
+      "bootupMs": 276.1,
+      "longTasks": 4,
+      "longestTaskMs": 127
+    },
+    "dom": {
+      "elements": 55,
+      "depth": 7,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 150118,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 772,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 722.4000000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 13,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 12
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2922.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T08:23:12.494Z",
+      "runtimeMs": 6100
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8E1M7WX6V0SGPCDMHFWAAA1"
+    },
+    "violations": 2,
+    "passes": 121,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "img",
+            "snippet": "<img src=\"/assets/img/kareldesmet-transparent.png\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e1173453b7f1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"10e5648539be1c0ea09b3728a24f2630-ssl\""
+        }
+      },
+      {
+        "hash": "e1173453b7f1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"10e5648539be1c0ea09b3728a24f2630-ssl\""
+        }
+      },
+      {
+        "hash": "e1173453b7f1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"10e5648539be1c0ea09b3728a24f2630-ssl\""
+        }
+      },
+      {
+        "hash": "e1173453b7f1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "etag": "W/\"10e5648539be1c0ea09b3728a24f2630-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,466 @@
+{
+  "url": "https://www.broadcom.com/",
+  "name": "Broadcom",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1795769571369,
+  "date": "2026-11-27T08:52:51.369Z",
+  "runId": "2026-11-27T08-22-53-007Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 110459,
+  "error": null,
+  "variance": {
+    "min": 50,
+    "max": 54,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.broadcom.com/",
+    "finalUrl": "https://www.broadcom.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 52,
+      "accessibility": 90,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1226,
+      "lcp": 10075,
+      "si": 3884,
+      "tbt": 921,
+      "tti": 12382,
+      "cls": 0,
+      "ttfb": 626,
+      "maxPotentialFid": 342,
+      "serverResponseTime": 24,
+      "networkRtt": 2.8,
+      "networkServerLatency": 82.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 28,
+      "elementRenderDelay": 567.3
+    },
+    "weight": {
+      "total": 2245566,
+      "requests": 85,
+      "mainDocument": 6512,
+      "byType": {
+        "total": {
+          "bytes": 2245566,
+          "requests": 85
+        },
+        "script": {
+          "bytes": 963225,
+          "requests": 19
+        },
+        "font": {
+          "bytes": 513125,
+          "requests": 8
+        },
+        "image": {
+          "bytes": 458158,
+          "requests": 21
+        },
+        "stylesheet": {
+          "bytes": 210941,
+          "requests": 13
+        },
+        "other": {
+          "bytes": 93605,
+          "requests": 23
+        },
+        "document": {
+          "bytes": 6512,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 823218,
+          "requests": 27
+        }
+      },
+      "scripts": 19,
+      "stylesheets": 13,
+      "fonts": 8
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 823218,
+      "mainThreadMs": 215.3,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 373861,
+          "mainThreadMs": 139.9,
+          "byType": {
+            "script": 373861
+          },
+          "typedBytes": 373861
+        },
+        {
+          "entity": "Optanon",
+          "bytes": 264657,
+          "mainThreadMs": 42.7,
+          "byType": {
+            "script": 147638,
+            "other": 56464,
+            "image": 60555
+          },
+          "typedBytes": 264657
+        },
+        {
+          "entity": "Amplitude Mobile Analytics",
+          "bytes": 138881,
+          "mainThreadMs": 27.3,
+          "byType": {
+            "script": 138081,
+            "other": 800
+          },
+          "typedBytes": 138881
+        },
+        {
+          "entity": "Qualtrics",
+          "bytes": 43029,
+          "mainThreadMs": 5,
+          "byType": {
+            "script": 42896,
+            "other": 133
+          },
+          "typedBytes": 43029
+        },
+        {
+          "entity": "Oracle",
+          "bytes": 2790,
+          "mainThreadMs": 0.4,
+          "byType": {
+            "script": 2790
+          },
+          "typedBytes": 2790
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3275,
+      "byGroup": {
+        "scriptEvaluation": 1514.2,
+        "other": 963.7,
+        "styleLayout": 307.9,
+        "scriptParseCompile": 266.4,
+        "parseHTML": 125.9,
+        "paintCompositeRender": 50.5,
+        "garbageCollection": 46.3
+      },
+      "bootupMs": 1663.5,
+      "longTasks": 12,
+      "longestTaskMs": 342
+    },
+    "dom": {
+      "elements": 554,
+      "depth": 28,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 440678,
+      "unusedCssBytes": 153400,
+      "legacyJsBytes": 32668,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 3775,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 450,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 90713.30000000002,
+      "poorlyCachedCount": 7
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 27,
+      "failingNodes": 10,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 5
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 3
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 16,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 5
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 3,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 21
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2968.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T08:53:19.509Z",
+      "runtimeMs": 12012.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.7,
+    "elementRenderDelay": 8606.4
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a60fe8173b54d6c4-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 13,
+    "passes": 608,
+    "incomplete": 35,
+    "violationRules": 7,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 5,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".solution-item:nth-child(1) > .lnk > .solution-icon > div:nth-child(1) > .solution-icon-default.image-source[loading=\"lazy\"]",
+            "snippet": "<img loading=\"lazy\" class=\"image-source solution-icon-default fadein\" width=\"122\" height=\"96\" src=\"/media/blt4ac44e0e6c6d8341/bltb3ff87fb56ade90a/69458eaaf9bda56c765542ed/Broadcom-brand-refresh-web-H…"
+          },
+          {
+            "selector": ".solution-item:nth-child(2) > .lnk > .solution-icon > div:nth-child(1) > .solution-icon-default.image-source[loading=\"lazy\"]",
+            "snippet": "<img loading=\"lazy\" class=\"image-source solution-icon-default fadein\" width=\"122\" height=\"96\" src=\"/media/blt4ac44e0e6c6d8341/blt164b814f875ab28a/69458fbfcedfd57db041ecd8/Broadcom-brand-refresh-web-H…"
+          },
+          {
+            "selector": ".solution-item:nth-child(3) > .lnk > .solution-icon > div:nth-child(1) > .solution-icon-default.image-source[loading=\"lazy\"]",
+            "snippet": "<img loading=\"lazy\" class=\"image-source solution-icon-default fadein\" width=\"122\" height=\"96\" src=\"/media/blt4ac44e0e6c6d8341/bltea77c48d019d01c0/694590eb0fbf16e7d4e0e127/Broadcom-brand-refresh-web-H…"
+          },
+          {
+            "selector": "a[href$=\"private-cloud\"] > .solution-icon > div:nth-child(1) > .solution-icon-default.image-source[loading=\"lazy\"]",
+            "snippet": "<img loading=\"lazy\" class=\"image-source solution-icon-default fadein\" width=\"122\" height=\"96\" src=\"/media/blt4ac44e0e6c6d8341/bltfd3b7255f2f35c69/694591230f4138ce5bc923de/Broadcom-brand-refresh-web-H…"
+          },
+          {
+            "selector": ".solution-item:nth-child(5) > .lnk > .solution-icon > div:nth-child(1) > .solution-icon-default.image-source[loading=\"lazy\"]",
+            "snippet": "<img loading=\"lazy\" class=\"image-source solution-icon-default fadein\" width=\"122\" height=\"96\" src=\"/media/blt4ac44e0e6c6d8341/blt689255f987374a27/69459195908bb11887c74fc7/Broadcom-brand-refresh-web-H…"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".solutions-title > h3",
+            "snippet": "<h3>Core technologies to accelerate innovation</h3>"
+          },
+          {
+            "selector": ".loaded > ul > li:nth-child(1) > h5",
+            "snippet": "<h5><a href=\"/company/news/product-releases/64846\" class=\"lnk lnk\">Broadcom Contributes VM API Open Source Project to Cloud Native Computing Foundation</a></h5>"
+          },
+          {
+            "selector": ".feed-body > ul > li:nth-child(1) > h5",
+            "snippet": "<h5><a class=\"lnk\" href=\"/company/news/articles/sovereign-cloud/digital-sovereignty-control-without-isolation\">Digital Sovereignty: Control Without Isolation</a></h5>"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".ot-cookie-policy-link",
+            "snippet": "<a class=\"ot-cookie-policy-link\" href=\"https://www.broadcom.com/company/legal/cookie-policy\" aria-label=\"More information about your privacy, opens in a new tab\" rel=\"noopener noreferrer\" target=\"_bl…"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".ot-cookie-policy-link",
+            "snippet": "<a class=\"ot-cookie-policy-link\" href=\"https://www.broadcom.com/company/legal/cookie-policy\" aria-label=\"More information about your privacy, opens in a new tab\" rel=\"noopener noreferrer\" target=\"_bl…"
+          }
+        ]
+      },
+      {
+        "id": "landmark-banner-is-top-level",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Banner landmark should not be contained in another landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-banner-is-top-level?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[role=\"banner\"]",
+            "snippet": "<div role=\"banner\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-contentinfo-is-top-level",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Contentinfo landmark should not be contained in another landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-contentinfo-is-top-level?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#footer",
+            "snippet": "<footer id=\"footer\" class=\"print-none footer-show\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#header",
+            "snippet": "<div id=\"header\" role=\"navigation\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e449932f2187",
+        "nonce": "a50123dbdfaf",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "76402",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 25 Nov 2026 17:02:45 GMT"
+        }
+      },
+      {
+        "hash": "4567e8003e76",
+        "nonce": "a198ae679ee1",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "76416",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 25 Nov 2026 17:02:45 GMT"
+        }
+      },
+      {
+        "hash": "c3ddf524b217",
+        "nonce": "2c0d7acd556d",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "76429",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 25 Nov 2026 17:02:45 GMT"
+        }
+      },
+      {
+        "hash": "da4b92a7a949",
+        "nonce": "1bfd003a0413",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "76441",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 25 Nov 2026 17:02:45 GMT"
+        }
+      },
+      {
+        "hash": "32eef7586875",
+        "nonce": "e27f18fdac24",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "76479",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 25 Nov 2026 17:02:45 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
