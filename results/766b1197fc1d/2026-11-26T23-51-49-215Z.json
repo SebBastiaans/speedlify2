@@ -1,0 +1,383 @@
+{
+  "url": "https://www.simpleerb.com/",
+  "name": "www.simpleerb.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795737109215,
+  "date": "2026-11-26T23:51:49.215Z",
+  "runId": "2026-11-26T23-49-12-691Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24670,
+  "error": null,
+  "variance": {
+    "min": 97,
+    "max": 98,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.simpleerb.com/",
+    "finalUrl": "https://www.simpleerb.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 86,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 940,
+      "lcp": 940,
+      "si": 940,
+      "tbt": 156,
+      "tti": 8381,
+      "cls": 0,
+      "ttfb": 631,
+      "maxPotentialFid": 187,
+      "serverResponseTime": 31,
+      "networkRtt": 0,
+      "networkServerLatency": 152.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 32.7,
+      "elementRenderDelay": 57.5
+    },
+    "weight": {
+      "total": 1410072,
+      "requests": 20,
+      "mainDocument": 27944,
+      "byType": {
+        "total": {
+          "bytes": 1410072,
+          "requests": 19
+        },
+        "image": {
+          "bytes": 712903,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 644536,
+          "requests": 8
+        },
+        "document": {
+          "bytes": 27961,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 14357,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 10315,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 627296,
+          "requests": 11
+        }
+      },
+      "scripts": 8,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 627300,
+      "mainThreadMs": 163.1,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 370001,
+          "mainThreadMs": 87.8,
+          "byType": {
+            "script": 370001
+          },
+          "typedBytes": 370001
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 218663,
+          "mainThreadMs": 58.8,
+          "byType": {
+            "script": 218663
+          },
+          "typedBytes": 218663
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 20901,
+          "mainThreadMs": 7.2,
+          "byType": {
+            "script": 20875,
+            "other": 26
+          },
+          "typedBytes": 20901
+        },
+        {
+          "entity": "Twitter Online Conversion Tracking",
+          "bytes": 17555,
+          "mainThreadMs": 9.3,
+          "byType": {
+            "script": 17397,
+            "image": 158
+          },
+          "typedBytes": 17555
+        },
+        {
+          "entity": "Twitter Short URL",
+          "bytes": 159,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 159
+          },
+          "typedBytes": 159
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1124.2,
+      "byGroup": {
+        "scriptEvaluation": 625.6,
+        "other": 197.8,
+        "scriptParseCompile": 123.5,
+        "styleLayout": 81.3,
+        "garbageCollection": 42.1,
+        "parseHTML": 32.6,
+        "paintCompositeRender": 21.3
+      },
+      "bootupMs": 624.6,
+      "longTasks": 5,
+      "longestTaskMs": 187
+    },
+    "dom": {
+      "elements": 734,
+      "depth": 13,
+      "maxChildren": 115
+    },
+    "waste": {
+      "unusedJsBytes": 236978,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10865,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 208808.56666666665,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 21,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 7
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": null,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 23
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3417.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T23:51:58.665Z",
+      "runtimeMs": 7193.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "2.0.1",
+      "source": "meta",
+      "raw": "Eleventy v2.0.1"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v2.0.1"
+      ],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.10.0"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8D4C765PJJGQGX11CEBCDBA"
+    },
+    "violations": 3,
+    "passes": 803,
+    "incomplete": 0,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".text-gray-600",
+            "snippet": "<button @click=\"open = !open\" class=\"text-gray-600 hover:text-gray-900 focus:outline-none p-2\"> <svg class=\"h-6 w-6\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"> <path stroke-linecap=\"round…"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".text-violet-500 > span",
+            "snippet": "<span>Book an online Demo</span>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".z-10.text-center.w-full > .text-2xl",
+            "snippet": "<h3 class=\"mt-4 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-4xl\"> Book, Manage and Fill Every Table </h3>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b68fb5c994ac",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5033",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31530968",
+          "etag": "W/\"a86d6e80ac298c3af5a31e29e6624935-ssl\""
+        }
+      },
+      {
+        "hash": "b68fb5c994ac",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5041",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31530960",
+          "etag": "W/\"a86d6e80ac298c3af5a31e29e6624935-ssl\""
+        }
+      },
+      {
+        "hash": "b68fb5c994ac",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5049",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31530952",
+          "etag": "W/\"a86d6e80ac298c3af5a31e29e6624935-ssl\""
+        }
+      },
+      {
+        "hash": "b68fb5c994ac",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31530946",
+          "etag": "W/\"a86d6e80ac298c3af5a31e29e6624935-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
