@@ -1,0 +1,426 @@
+{
+  "url": "https://dsev.dk/",
+  "name": "www.dsev.dk",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795805832456,
+  "date": "2026-11-27T18:57:12.456Z",
+  "runId": "2026-11-27T18-55-44-334Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 80760,
+  "error": null,
+  "variance": {
+    "min": 61,
+    "max": 71,
+    "spread": 10,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://dsev.dk/",
+    "finalUrl": "https://dsev.dk/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 71,
+      "accessibility": 85,
+      "best-practices": 73,
+      "seo": 91,
+      "agentic-browsing": 33
+    },
+    "timings": {
+      "fcp": 1901,
+      "lcp": 3007,
+      "si": 1901,
+      "tbt": 535,
+      "tti": 5856,
+      "cls": 0.183,
+      "ttfb": 605,
+      "maxPotentialFid": 453,
+      "serverResponseTime": 5,
+      "networkRtt": 113.7,
+      "networkServerLatency": 24
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 7.7,
+      "resourceLoadDelay": 78.9,
+      "resourceLoadDuration": 10.2,
+      "elementRenderDelay": 36.9
+    },
+    "weight": {
+      "total": 702491,
+      "requests": 29,
+      "mainDocument": 14578,
+      "byType": {
+        "total": {
+          "bytes": 701232,
+          "requests": 28
+        },
+        "script": {
+          "bytes": 456608,
+          "requests": 10
+        },
+        "image": {
+          "bytes": 116083,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 46122,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 45274,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 35540,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1605,
+          "requests": 6
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 562260,
+          "requests": 22
+        }
+      },
+      "scripts": 10,
+      "stylesheets": 5,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 495193,
+      "mainThreadMs": 281.4,
+      "top": [
+        {
+          "entity": "Google CDN",
+          "bytes": 360995,
+          "mainThreadMs": 215.1,
+          "byType": {
+            "script": 360995
+          },
+          "typedBytes": 360995
+        },
+        {
+          "entity": "Netlify",
+          "bytes": 55114,
+          "mainThreadMs": 24.2,
+          "byType": {
+            "script": 55114
+          },
+          "typedBytes": 55114
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 36782,
+          "mainThreadMs": 0.6,
+          "byType": {
+            "stylesheet": 1242,
+            "font": 35540
+          },
+          "typedBytes": 36782
+        },
+        {
+          "entity": "Unpkg",
+          "bytes": 36063,
+          "mainThreadMs": 34.7,
+          "byType": {
+            "script": 34957,
+            "stylesheet": 1106
+          },
+          "typedBytes": 36063
+        },
+        {
+          "entity": "zgo.at",
+          "bytes": 4462,
+          "mainThreadMs": 4.6,
+          "byType": {
+            "script": 4462
+          },
+          "typedBytes": 4462
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1984.3,
+      "byGroup": {
+        "scriptEvaluation": 1027.9,
+        "scriptParseCompile": 438.9,
+        "other": 291.5,
+        "styleLayout": 127.7,
+        "parseHTML": 48.8,
+        "paintCompositeRender": 24.7,
+        "garbageCollection": 24.7
+      },
+      "bootupMs": 1414.8,
+      "longTasks": 8,
+      "longestTaskMs": 453
+    },
+    "dom": {
+      "elements": 607,
+      "depth": 18,
+      "maxChildren": 8
+    },
+    "waste": {
+      "unusedJsBytes": 457389,
+      "unusedCssBytes": 21305,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 13107,
+      "renderBlockingMs": 1969,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 22,
+      "failingNodes": 9,
+      "failing": [
+        {
+          "id": "aria-hidden-focus",
+          "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+          "weight": 7,
+          "nodes": 4
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 4
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 3
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 3,
+      "baselineLimitedFeatures": 23
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2464.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T18:58:16.237Z",
+      "runtimeMs": 7292.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.17.5"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8F5Z52T4BPPPQPS846GY0N2"
+    },
+    "violations": 10,
+    "passes": 488,
+    "incomplete": 5,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "ARIA hidden element must not be focusable or contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-hidden-focus?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".carousel-cell.carousel-style.h-72:nth-child(2)",
+            "snippet": "<a href=\"/posts/jobs/postdoc-...\" class=\"carousel-cell carous...\" target=\"_blank\" aria-hidden=\"true\" style=\"position: absolute; ...\">"
+          },
+          {
+            "selector": ".carousel-cell.carousel-style.h-72:nth-child(3)",
+            "snippet": "<a href=\"/posts/jobs/phd-gene...\" class=\"carousel-cell carous...\" target=\"_blank\" aria-hidden=\"true\" style=\"position: absolute; ...\">"
+          },
+          {
+            "selector": ".carousel-cell.carousel-style.h-72:nth-child(4)",
+            "snippet": "<a href=\"/posts/courses/extra...\" class=\"carousel-cell carous...\" target=\"_blank\" aria-hidden=\"true\" style=\"position: absolute; ...\">"
+          },
+          {
+            "selector": ".carousel-cell.carousel-style.h-72:nth-child(5)",
+            "snippet": "<a href=\"/posts/courses/advan...\" class=\"carousel-cell carous...\" target=\"_blank\" aria-hidden=\"true\" style=\"position: absolute; ...\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".pl-1.flex-col.flex:nth-child(1) > .tracking-normal.text-blue-500.text-lg",
+            "snippet": "<a class=\"text-lg tracking-normal text-blue-500\" href=\"/posts/news/8th-dsev-annual-symposium-2027-in-odense/\">8th DSEV Annual Symposium 2027 in Odense </a>"
+          },
+          {
+            "selector": ".pl-1.flex-col.flex:nth-child(2) > .tracking-normal.text-blue-500.text-lg",
+            "snippet": "<a class=\"text-lg tracking-normal text-blue-500\" href=\"/posts/news/photos-from-7th-dsev-annual-symposium-2026-in-copenhagen/\">Photos from 7th DSEV Annual Symposium 2026 in Copenhagen </a>"
+          },
+          {
+            "selector": ".h-8 > .self-center.text-center",
+            "snippet": "<p class=\"text-center self-center\">See 20 more</p>"
+          },
+          {
+            "selector": ".space-y-2[x-show=\"!sucess\"] > .inline-flex.border-transparent.shadow-sm > .p-1.pl-3.pr-3 > .self-center.text-center",
+            "snippet": "<p class=\"text-center self-center\">Subscribe</p>"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".justify-self-end",
+            "snippet": "<button class=\"relative p-3 focus:outline-none flex justify-self-end\" @click=\"accordion = !accordion\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "nav[x-data=\"{ accordion: false }\"]",
+            "snippet": "<nav class=\"w-full flex flex-col h-auto\" x-data=\"{ accordion: false }\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e1bd3ded6aa8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"9c14f6a0865f6d9eb37eb14aac82c2e2-ssl\""
+        }
+      },
+      {
+        "hash": "e1bd3ded6aa8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535995",
+          "etag": "W/\"9c14f6a0865f6d9eb37eb14aac82c2e2-ssl\""
+        }
+      },
+      {
+        "hash": "e1bd3ded6aa8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535988",
+          "etag": "W/\"9c14f6a0865f6d9eb37eb14aac82c2e2-ssl\""
+        }
+      },
+      {
+        "hash": "e1bd3ded6aa8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535981",
+          "etag": "W/\"9c14f6a0865f6d9eb37eb14aac82c2e2-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

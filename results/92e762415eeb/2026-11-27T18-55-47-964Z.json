@@ -1,0 +1,308 @@
+{
+  "url": "https://workingdraft.de/",
+  "name": "workingdraft.de",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795805747964,
+  "date": "2026-11-27T18:55:47.964Z",
+  "runId": "2026-11-27T18-55-44-334Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 33721,
+  "error": null,
+  "variance": {
+    "min": 78,
+    "max": 100,
+    "spread": 22,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://workingdraft.de/",
+    "finalUrl": "https://workingdraft.de/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1099,
+      "lcp": 1099,
+      "si": 1341,
+      "tbt": 87,
+      "tti": 2583,
+      "cls": 0,
+      "ttfb": 722,
+      "maxPotentialFid": 159,
+      "serverResponseTime": 106,
+      "networkRtt": 0.2,
+      "networkServerLatency": 121.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 107.7,
+      "elementRenderDelay": 183
+    },
+    "weight": {
+      "total": 333511,
+      "requests": 45,
+      "mainDocument": 16349,
+      "byType": {
+        "total": {
+          "bytes": 333511,
+          "requests": 42
+        },
+        "other": {
+          "bytes": 111921,
+          "requests": 22
+        },
+        "script": {
+          "bytes": 96240,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 73429,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 16349,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 13874,
+          "requests": 9
+        },
+        "media": {
+          "bytes": 12288,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 9410,
+          "requests": 2
+        },
+        "third-party": {
+          "bytes": 3146,
+          "requests": 2
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 2,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 3146,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "webmention.io",
+          "bytes": 3146,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 3146
+          },
+          "typedBytes": 3146
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1347.9,
+      "byGroup": {
+        "scriptEvaluation": 600.9,
+        "other": 349.7,
+        "styleLayout": 201.2,
+        "paintCompositeRender": 105.5,
+        "parseHTML": 48.5,
+        "scriptParseCompile": 31.1,
+        "garbageCollection": 11
+      },
+      "bootupMs": 627.6,
+      "longTasks": 4,
+      "longestTaskMs": 159
+    },
+    "dom": {
+      "elements": 2092,
+      "depth": 12,
+      "maxChildren": 1446
+    },
+    "waste": {
+      "unusedJsBytes": 25945,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 192953,
+      "poorlyCachedCount": 18
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 30,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 25
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2489,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T18:56:01.791Z",
+      "runtimeMs": 8951
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "2.0.0",
+      "source": "meta",
+      "raw": "Eleventy v2.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v2.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {},
+    "violations": 3,
+    "passes": 1276,
+    "incomplete": 1,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href=\"/\"]",
+            "snippet": "<a href=\"/\" aria-label=\"zur Startseite\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#sponsoring",
+            "snippet": "<aside class=\"message\" id=\"sponsoring\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "section",
+            "snippet": "<section data-ai-attribution=\"\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d93671a1b2e1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Fri, 27 Nov 2026 06:23:51 GMT"
+        }
+      },
+      {
+        "hash": "d93671a1b2e1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Fri, 27 Nov 2026 06:23:51 GMT"
+        }
+      },
+      {
+        "hash": "d93671a1b2e1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Fri, 27 Nov 2026 06:23:51 GMT"
+        }
+      },
+      {
+        "hash": "d93671a1b2e1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Fri, 27 Nov 2026 06:23:51 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

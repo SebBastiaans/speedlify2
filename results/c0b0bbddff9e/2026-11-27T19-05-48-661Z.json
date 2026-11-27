@@ -1,0 +1,335 @@
+{
+  "url": "https://www.tgiles.dev/",
+  "name": "www.tgiles.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795806348661,
+  "date": "2026-11-27T19:05:48.661Z",
+  "runId": "2026-11-27T18-55-44-334Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20143,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 99,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.tgiles.dev/",
+    "finalUrl": "https://www.tgiles.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 93,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 49
+    },
+    "timings": {
+      "fcp": 1521,
+      "lcp": 1521,
+      "si": 1521,
+      "tbt": 0,
+      "tti": 1521,
+      "cls": 0.065,
+      "ttfb": 604,
+      "maxPotentialFid": 20,
+      "serverResponseTime": 3,
+      "networkRtt": 0.1,
+      "networkServerLatency": 16.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 4.8,
+      "elementRenderDelay": 60.5
+    },
+    "weight": {
+      "total": 238225,
+      "requests": 12,
+      "mainDocument": 5819,
+      "byType": {
+        "total": {
+          "bytes": 238225,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 192610,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 22956,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 10397,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 5848,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 5819,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 595,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 219487,
+          "requests": 9
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 219487,
+      "mainThreadMs": 3.4,
+      "top": [
+        {
+          "entity": "FontAwesome CDN",
+          "bytes": 182588,
+          "mainThreadMs": 3.4,
+          "byType": {
+            "script": 5848,
+            "font": 156306,
+            "other": 20434
+          },
+          "typedBytes": 182588
+        },
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 24137,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 24137
+          },
+          "typedBytes": 24137
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 12762,
+          "mainThreadMs": 0,
+          "byType": {
+            "stylesheet": 595,
+            "font": 12167
+          },
+          "typedBytes": 12762
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 240,
+      "byGroup": {
+        "other": 95.1,
+        "styleLayout": 78.2,
+        "scriptEvaluation": 38.7,
+        "paintCompositeRender": 19,
+        "parseHTML": 6.5,
+        "scriptParseCompile": 2.5
+      },
+      "bootupMs": 10.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 93,
+      "depth": 6,
+      "maxChildren": 20
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 12184,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 767,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 16196.266666666666,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 14,
+      "failingNodes": 7,
+      "failing": [
+        {
+          "id": "aria-hidden-focus",
+          "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+          "weight": 7,
+          "nodes": 7
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 3
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2351.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T19:06:02.538Z",
+      "runtimeMs": 6035.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "amazons3",
+      "name": "Amazon S3",
+      "icon": "Amazon",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AmazonS3",
+      "via": "1.1 797df79630b7d1b80c027735720fa8a4.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "eAENldZFQ3koS2f0bhqsDzYkLavAAqkQdDRUGGU6oSz3EzhJSEteYA=="
+    },
+    "violations": 7,
+    "passes": 168,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "nodes": 7,
+        "help": "ARIA hidden element must not be focusable or contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-hidden-focus?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#tim-giles",
+            "snippet": "<a id=\"tim-giles\" class=\"anchor\" href=\"#tim-giles\" aria-hidden=\"true\">"
+          },
+          {
+            "selector": "#about-me",
+            "snippet": "<a id=\"about-me\" class=\"anchor\" href=\"#about-me\" aria-hidden=\"true\">"
+          },
+          {
+            "selector": "#featured-projects",
+            "snippet": "<a id=\"featured-projects\" class=\"anchor\" href=\"#featured-projects\" aria-hidden=\"true\">"
+          },
+          {
+            "selector": "#auto-lighthouse",
+            "snippet": "<a id=\"auto-lighthouse\" class=\"anchor\" href=\"#auto-lighthouse\" aria-hidden=\"true\">"
+          },
+          {
+            "selector": "#masters-thesis",
+            "snippet": "<a id=\"masters-thesis\" class=\"anchor\" href=\"#masters-thesis\" aria-hidden=\"true\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b595e3352738",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "83758",
+          "etag": "W/\"9b85649a13ac7bf3ba2f808f480cb03f\"",
+          "last-modified": "Thu, 10 Aug 2023 20:18:23 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "b595e3352738",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "83764",
+          "etag": "W/\"9b85649a13ac7bf3ba2f808f480cb03f\"",
+          "last-modified": "Thu, 10 Aug 2023 20:18:23 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "b595e3352738",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "83770",
+          "etag": "W/\"9b85649a13ac7bf3ba2f808f480cb03f\"",
+          "last-modified": "Thu, 10 Aug 2023 20:18:23 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "b595e3352738",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "83773",
+          "etag": "W/\"9b85649a13ac7bf3ba2f808f480cb03f\"",
+          "last-modified": "Thu, 10 Aug 2023 20:18:23 GMT",
+          "x-cache": "Hit from cloudfront"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

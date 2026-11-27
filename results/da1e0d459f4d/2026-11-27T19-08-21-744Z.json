@@ -1,0 +1,374 @@
+{
+  "url": "https://www.troyv.dev/",
+  "name": "www.troyv.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795806501744,
+  "date": "2026-11-27T19:08:21.744Z",
+  "runId": "2026-11-27T18-55-44-334Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27412,
+  "error": null,
+  "variance": {
+    "min": 82,
+    "max": 88,
+    "spread": 6,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.troyv.dev/",
+    "finalUrl": "https://www.troyv.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 84,
+      "accessibility": 87,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 18
+    },
+    "timings": {
+      "fcp": 905,
+      "lcp": 905,
+      "si": 905,
+      "tbt": 0,
+      "tti": 905,
+      "cls": 0.328,
+      "ttfb": 605,
+      "maxPotentialFid": 23,
+      "serverResponseTime": 4,
+      "networkRtt": 0.1,
+      "networkServerLatency": 651.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 5.7,
+      "elementRenderDelay": 109.9
+    },
+    "weight": {
+      "total": 803324,
+      "requests": 89,
+      "mainDocument": 9472,
+      "byType": {
+        "total": {
+          "bytes": 803324,
+          "requests": 89
+        },
+        "font": {
+          "bytes": 462524,
+          "requests": 7
+        },
+        "other": {
+          "bytes": 187839,
+          "requests": 32
+        },
+        "image": {
+          "bytes": 81407,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 54662,
+          "requests": 46
+        },
+        "document": {
+          "bytes": 9472,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 7420,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 136408,
+          "requests": 45
+        }
+      },
+      "scripts": 46,
+      "stylesheets": 1,
+      "fonts": 7
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 132112,
+      "mainThreadMs": 7.5,
+      "top": [
+        {
+          "entity": "archive.org",
+          "bytes": 81407,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 81407
+          },
+          "typedBytes": 81407
+        },
+        {
+          "entity": "ESM>CDN",
+          "bytes": 45252,
+          "mainThreadMs": 7.5,
+          "byType": {
+            "script": 45252
+          },
+          "typedBytes": 45252
+        },
+        {
+          "entity": "listenbrainz.org",
+          "bytes": 5453,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 5453
+          },
+          "typedBytes": 5453
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1473.3,
+      "byGroup": {
+        "other": 544.5,
+        "paintCompositeRender": 383.4,
+        "styleLayout": 383,
+        "scriptEvaluation": 127.5,
+        "parseHTML": 30.8,
+        "scriptParseCompile": 4.1
+      },
+      "bootupMs": 104.5,
+      "longTasks": 1,
+      "longestTaskMs": 58
+    },
+    "dom": {
+      "elements": 587,
+      "depth": 11,
+      "maxChildren": 59
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 3579,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 87721.91666666667,
+      "poorlyCachedCount": 17
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 26,
+      "failingNodes": 6,
+      "failing": [
+        {
+          "id": "aria-required-attr",
+          "title": "`[role]`s do not have all required `[aria-*]` attributes",
+          "weight": 10,
+          "nodes": 4
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 57
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2485.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T19:08:32.390Z",
+      "runtimeMs": 7735.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.7",
+      "source": "meta",
+      "raw": "Eleventy v3.1.7"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.7"
+      ],
+      "marks": [
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "3.3.3"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8F6HZPJ1GS5TQ29JMTEQ38W"
+    },
+    "violations": 7,
+    "passes": 1022,
+    "incomplete": 29,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-required-attr",
+        "impact": "critical",
+        "nodes": 4,
+        "help": "Required ARIA attributes must be provided",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#notes div[part=\"heading\"][role=\"heading\"][aria-level=\"\"]",
+            "snippet": "<div part=\"heading\" role=\"heading\" aria-level=\"\"> <span class=\"title\" part=\"title\"><slot name=\"title\"></slot></span> <span class=\"disclaimer\" part=\"disclaimer\"><slot name=\"disclaimer\"></slot></span> …"
+          },
+          {
+            "selector": "#posts div[part=\"heading\"][role=\"heading\"][aria-level=\"\"]",
+            "snippet": "<div part=\"heading\" role=\"heading\" aria-level=\"\"> <span class=\"title\" part=\"title\"><slot name=\"title\"></slot></span> <span class=\"disclaimer\" part=\"disclaimer\"><slot name=\"disclaimer\"></slot></span> …"
+          },
+          {
+            "selector": "#music div[part=\"heading\"][role=\"heading\"][aria-level=\"\"]",
+            "snippet": "<div part=\"heading\" role=\"heading\" aria-level=\"\"> <span class=\"title\" part=\"title\"><slot name=\"title\"></slot></span> <span class=\"disclaimer\" part=\"disclaimer\"><slot name=\"disclaimer\"></slot></span> …"
+          },
+          {
+            "selector": "#code div[part=\"heading\"][role=\"heading\"][aria-level=\"\"]",
+            "snippet": "<div part=\"heading\" role=\"heading\" aria-level=\"\"> <span class=\"title\" part=\"title\"><slot name=\"title\"></slot></span> <span class=\"disclaimer\" part=\"disclaimer\"><slot name=\"disclaimer\"></slot></span> …"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#code > span[slot=\"disclaimer\"]",
+            "snippet": "<span slot=\"disclaimer\">(I write some)</span>"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".u-in-reply-to",
+            "snippet": "<a class=\"u-in-reply-to\" href=\"https://fosstodon.org/@rest/112493045954708300\"></a>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "s-hell skip-link",
+            "snippet": "<skip-link> <a href=\"#main\">Skip to main content</a> </skip-link>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "79b686794e2d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"0a672fdff1ba00e2741f93a9d2d037d0-ssl\""
+        }
+      },
+      {
+        "hash": "79b686794e2d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535991",
+          "etag": "W/\"0a672fdff1ba00e2741f93a9d2d037d0-ssl\""
+        }
+      },
+      {
+        "hash": "79b686794e2d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535983",
+          "etag": "W/\"0a672fdff1ba00e2741f93a9d2d037d0-ssl\""
+        }
+      },
+      {
+        "hash": "79b686794e2d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535976",
+          "etag": "W/\"0a672fdff1ba00e2741f93a9d2d037d0-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
