@@ -1,0 +1,417 @@
+{
+  "url": "https://fossgaming.codeberg.page/",
+  "name": "fossgaming.codeberg.page",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795768136800,
+  "date": "2026-11-27T08:28:56.800Z",
+  "runId": "2026-11-27T08-22-54-770Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 48272,
+  "error": null,
+  "variance": {
+    "min": 68,
+    "max": 95,
+    "spread": 27,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://fossgaming.codeberg.page/",
+    "finalUrl": "https://fossgaming.codeberg.page/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 95,
+      "accessibility": 91,
+      "best-practices": 88,
+      "seo": 91,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 2318,
+      "lcp": 2318,
+      "si": 2318,
+      "tbt": 0,
+      "tti": 2318,
+      "cls": 0.033,
+      "ttfb": 800,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 125,
+      "networkRtt": 0.9,
+      "networkServerLatency": 200
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 127.5,
+      "elementRenderDelay": 468.1
+    },
+    "weight": {
+      "total": 1785603,
+      "requests": 69,
+      "mainDocument": 77326,
+      "byType": {
+        "total": {
+          "bytes": 1783057,
+          "requests": 62
+        },
+        "script": {
+          "bytes": 973978,
+          "requests": 11
+        },
+        "font": {
+          "bytes": 340199,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 223534,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 137403,
+          "requests": 22
+        },
+        "stylesheet": {
+          "bytes": 104392,
+          "requests": 10
+        },
+        "other": {
+          "bytes": 1938,
+          "requests": 7
+        },
+        "media": {
+          "bytes": 1613,
+          "requests": 3
+        },
+        "third-party": {
+          "bytes": 1589767,
+          "requests": 39
+        }
+      },
+      "scripts": 11,
+      "stylesheets": 10,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 1262072,
+      "mainThreadMs": 3.6,
+      "top": [
+        {
+          "entity": "masto.host",
+          "bytes": 937362,
+          "mainThreadMs": 0,
+          "byType": {
+            "media": 937362
+          },
+          "typedBytes": 937362
+        },
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 296696,
+          "mainThreadMs": 3.5,
+          "byType": {
+            "stylesheet": 18499,
+            "font": 278197
+          },
+          "typedBytes": 296696
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 28014,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 712,
+            "font": 27302
+          },
+          "typedBytes": 28014
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1266.4,
+      "byGroup": {
+        "other": 642.1,
+        "styleLayout": 357.5,
+        "paintCompositeRender": 158.9,
+        "parseHTML": 63.1,
+        "scriptEvaluation": 29.9,
+        "garbageCollection": 11.5,
+        "scriptParseCompile": 3.3
+      },
+      "bootupMs": 30.9,
+      "longTasks": 1,
+      "longestTaskMs": 85
+    },
+    "dom": {
+      "elements": 986,
+      "depth": 12,
+      "maxChildren": 50
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 17906,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 3063,
+      "renderBlockingMs": 918,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 148151.7083333333,
+      "poorlyCachedCount": 24
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 23,
+      "failingNodes": 6,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 4
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 47
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3878.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T08:29:21.231Z",
+      "runtimeMs": 9590.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {
+        "fontawesome": "6.7.2"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "git-pages",
+      "detailIcon": "Forgejo",
+      "source": "server"
+    },
+    "headers": {
+      "server": "git-pages (git-pages), pages-server",
+      "via": "1.1 Caddy"
+    },
+    "violations": 12,
+    "passes": 1836,
+    "incomplete": 5,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".selected",
+            "snippet": "<a href=\"/\" class=\"selected\" aria-current=\"page\">Latest</a>"
+          },
+          {
+            "selector": ".social-media.mastodon.news-entry:nth-child(2) > .blog-entry-header > .right-section > .update-content > p:nth-child(1) > .mention.hashtag[rel=\"tag\"] > span",
+            "snippet": "<span>blog</span>"
+          },
+          {
+            "selector": ".social-media.mastodon.news-entry:nth-child(2) > .blog-entry-header > .right-section > .update-content > p:nth-child(2) > a[target=\"_blank\"][rel=\"nofollow noopener\"][translate=\"no\"] > .invisible:nth-child(1)",
+            "snippet": "<span class=\"invisible\">https://</span>"
+          },
+          {
+            "selector": ".social-media.mastodon.news-entry:nth-child(2) > .blog-entry-header > .right-section > .update-content > p:nth-child(2) > a[target=\"_blank\"][rel=\"nofollow noopener\"][translate=\"no\"] > .ellipsis",
+            "snippet": "<span class=\"ellipsis\">cxong.github.io/2026/11/anatom</span>"
+          }
+        ]
+      },
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "nodes": 2,
+        "help": "Elements must only use supported ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".videos.youtube.news-entry:nth-child(3) > .blog-entry-header > .right-section > .video-embed.media-content > iframe >>> .ytmVideoInfoVideoTitle",
+            "snippet": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=-xouXdtIiYA\"><span class=\"ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap\" style=\"\">5…"
+          },
+          {
+            "selector": ".videos.youtube.news-entry:nth-child(15) > .blog-entry-header > .right-section > .video-embed.media-content > iframe >>> .ytmVideoInfoVideoTitle",
+            "snippet": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=6u4PVCG3PNw\">"
+          }
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".videos.youtube.news-entry:nth-child(3) > .blog-entry-header > .right-section > .video-embed.media-content > iframe >>> #movie_player",
+            "snippet": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/pl…"
+          },
+          {
+            "selector": ".videos.youtube.news-entry:nth-child(15) > .blog-entry-header > .right-section > .video-embed.media-content > iframe >>> #movie_player",
+            "snippet": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/pl…"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 2,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".videos.youtube.news-entry:nth-child(3) > .blog-entry-header > .right-section > .video-embed.media-content > iframe >>> .ytmVideoInfoChannelAvatar",
+            "snippet": "<button class=\"ytmVideoInfoLink ytmVideoInfoChannelAvatar\"><img class=\"ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspect…"
+          },
+          {
+            "selector": ".videos.youtube.news-entry:nth-child(15) > .blog-entry-header > .right-section > .video-embed.media-content > iframe >>> .ytmVideoInfoChannelAvatar",
+            "snippet": "<button class=\"ytmVideoInfoLink ytmVideoInfoChannelAvatar\"><img class=\"ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspect…"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".footer-links > li:nth-child(2) > a",
+            "snippet": "<a href=\"https://fosstodon.org/@fossgaming\"> <i class=\"fab fa-mastodon social-icon mastodon\"></i> </a>"
+          },
+          {
+            "selector": "a[href$=\"follow.rss\"]",
+            "snippet": "<a href=\"/follow.rss\"> <i class=\"fa-solid fa-rss social-icon rss\"></i> </a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "651556e64f1e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"d6336f78ff3c89cba0cd6aaf25c39ceaccf02feb\"",
+          "last-modified": "Fri, 27 Nov 2026 00:45:00 GMT"
+        }
+      },
+      {
+        "hash": "651556e64f1e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"d6336f78ff3c89cba0cd6aaf25c39ceaccf02feb\"",
+          "last-modified": "Fri, 27 Nov 2026 00:45:00 GMT"
+        }
+      },
+      {
+        "hash": "651556e64f1e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"d6336f78ff3c89cba0cd6aaf25c39ceaccf02feb\"",
+          "last-modified": "Fri, 27 Nov 2026 00:45:00 GMT"
+        }
+      },
+      {
+        "hash": "651556e64f1e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"d6336f78ff3c89cba0cd6aaf25c39ceaccf02feb\"",
+          "last-modified": "Fri, 27 Nov 2026 00:45:00 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
