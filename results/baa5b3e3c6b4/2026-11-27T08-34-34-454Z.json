@@ -1,0 +1,330 @@
+{
+  "url": "https://www.wix.com/",
+  "name": "Wix",
+  "group": "builders",
+  "groupName": "Website Builders",
+  "timestamp": 1795768474454,
+  "date": "2026-11-27T08:34:34.454Z",
+  "runId": "2026-11-27T08-22-55-515Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 1,
+  "durationMs": 192754,
+  "error": null,
+  "partialErrors": [
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)",
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)"
+  ],
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://www.wix.com/",
+    "finalUrl": "https://www.wix.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 26,
+      "accessibility": 100,
+      "best-practices": 73,
+      "seo": 69,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 7294,
+      "lcp": 7294,
+      "si": 26184,
+      "tbt": 6223,
+      "tti": 25701,
+      "cls": 0,
+      "ttfb": 641,
+      "maxPotentialFid": 764,
+      "serverResponseTime": 6,
+      "networkRtt": 50.3,
+      "networkServerLatency": 143.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 8.7,
+      "elementRenderDelay": 15828.7
+    },
+    "weight": {
+      "total": 4213981,
+      "requests": 380,
+      "mainDocument": 284499,
+      "byType": {
+        "total": {
+          "bytes": 4210734,
+          "requests": 376
+        },
+        "script": {
+          "bytes": 2880593,
+          "requests": 130
+        },
+        "other": {
+          "bytes": 771497,
+          "requests": 167
+        },
+        "document": {
+          "bytes": 285784,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 141758,
+          "requests": 66
+        },
+        "font": {
+          "bytes": 121481,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 9621,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 4210734,
+          "requests": 376
+        }
+      },
+      "scripts": 133,
+      "stylesheets": 3,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 15,
+      "bytes": 2131614,
+      "mainThreadMs": 1691.4,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 1368694,
+          "mainThreadMs": 1142.3,
+          "byType": {
+            "script": 1368694
+          },
+          "typedBytes": 1368694
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 298883,
+          "mainThreadMs": 349.1,
+          "byType": {
+            "script": 298883
+          },
+          "typedBytes": 298883
+        },
+        {
+          "entity": "wix-host.com",
+          "bytes": 191572,
+          "mainThreadMs": 63.6,
+          "byType": {
+            "script": 191572
+          },
+          "typedBytes": 191572
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 104402,
+          "mainThreadMs": 18.3,
+          "byType": {
+            "script": 103262,
+            "other": 499,
+            "stylesheet": 385,
+            "image": 256
+          },
+          "typedBytes": 104402
+        },
+        {
+          "entity": "Sentry",
+          "bytes": 42371,
+          "mainThreadMs": 10,
+          "byType": {
+            "script": 42371
+          },
+          "typedBytes": 42371
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 19631.6,
+      "byGroup": {
+        "scriptEvaluation": 11757.5,
+        "other": 3861.9,
+        "styleLayout": 1467.2,
+        "scriptParseCompile": 1422.8,
+        "parseHTML": 623.2,
+        "garbageCollection": 362.6,
+        "paintCompositeRender": 136.5
+      },
+      "bootupMs": 12122.2,
+      "longTasks": 20,
+      "longestTaskMs": 764
+    },
+    "dom": {
+      "elements": 4336,
+      "depth": 33,
+      "maxChildren": 75
+    },
+    "waste": {
+      "unusedJsBytes": 975309,
+      "unusedCssBytes": 17776,
+      "legacyJsBytes": 36534,
+      "duplicatedJsBytes": 30854,
+      "unminifiedJsBytes": 62451,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 763,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 307053.23666666663,
+      "poorlyCachedCount": 17
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 34,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 23
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "weight": 4.043478260869565,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": null,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 66
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 1345,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T08:35:53.108Z",
+      "runtimeMs": 38567.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.1,
+    "elementRenderDelay": 516.6
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "wix",
+      "name": "Wix",
+      "icon": "Wix",
+      "version": null,
+      "source": "meta",
+      "raw": "Wix.com Website Builder"
+    },
+    "probe": {
+      "metas": [
+        "Wix.com Website Builder"
+      ],
+      "marks": [
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a60fcfeb2bca2979-IAD",
+      "server": "cloudflare",
+      "x-served-by": "IAD"
+    },
+    "violations": 0,
+    "passes": 4347,
+    "incomplete": 103,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "76a243cf0b2c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "336956",
+          "cf-cache-status": "BYPASS",
+          "etag": "W/\"16e3ad31bbb861f9ff0835f7405a067c\""
+        }
+      },
+      {
+        "hash": "76a243cf0b2c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "336995",
+          "cf-cache-status": "BYPASS",
+          "etag": "W/\"16e3ad31bbb861f9ff0835f7405a067c\""
+        }
+      },
+      {
+        "hash": "76a243cf0b2c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "337063",
+          "cf-cache-status": "BYPASS",
+          "etag": "W/\"16e3ad31bbb861f9ff0835f7405a067c\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

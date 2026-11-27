@@ -1,0 +1,375 @@
+{
+  "url": "https://www.squarespace.com/",
+  "name": "Squarespace",
+  "group": "builders",
+  "groupName": "Website Builders",
+  "timestamp": 1795768015483,
+  "date": "2026-11-27T08:26:55.483Z",
+  "runId": "2026-11-27T08-22-55-515Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 458773,
+  "error": null,
+  "partialErrors": [
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)"
+  ],
+  "variance": {
+    "min": 35,
+    "max": 36,
+    "spread": 1,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://www.squarespace.com/",
+    "finalUrl": "https://www.squarespace.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 35,
+      "accessibility": 97,
+      "best-practices": 73,
+      "seo": 92,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 2792,
+      "lcp": 15899,
+      "si": 6382,
+      "tbt": 5674,
+      "tti": 31211,
+      "cls": 0,
+      "ttfb": 642,
+      "maxPotentialFid": 1138,
+      "serverResponseTime": 14,
+      "networkRtt": 94.4,
+      "networkServerLatency": 795.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 39.6,
+      "resourceLoadDelay": 10.4,
+      "resourceLoadDuration": 63.4,
+      "elementRenderDelay": 1617.5
+    },
+    "weight": {
+      "total": 5126168,
+      "requests": 182,
+      "mainDocument": 90493,
+      "byType": {
+        "total": {
+          "bytes": 5126168,
+          "requests": 181
+        },
+        "script": {
+          "bytes": 3176100,
+          "requests": 43
+        },
+        "image": {
+          "bytes": 1439780,
+          "requests": 38
+        },
+        "font": {
+          "bytes": 270645,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 119566,
+          "requests": 84
+        },
+        "document": {
+          "bytes": 93740,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 26337,
+          "requests": 6
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 5126168,
+          "requests": 181
+        }
+      },
+      "scripts": 43,
+      "stylesheets": 6,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 26,
+      "bytes": 2395496,
+      "mainThreadMs": 393.1,
+      "top": [
+        {
+          "entity": "sqspcdn.com",
+          "bytes": 1697346,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 1425635,
+            "font": 270645,
+            "other": 1066
+          },
+          "typedBytes": 1697346
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 245173,
+          "mainThreadMs": 190.8,
+          "byType": {
+            "script": 245153,
+            "image": 20
+          },
+          "typedBytes": 245173
+        },
+        {
+          "entity": "featureassets.org",
+          "bytes": 89138,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 89138
+          },
+          "typedBytes": 89138
+        },
+        {
+          "entity": "TrustArc",
+          "bytes": 67339,
+          "mainThreadMs": 29,
+          "byType": {
+            "script": 55596,
+            "image": 10816,
+            "other": 927
+          },
+          "typedBytes": 67339
+        },
+        {
+          "entity": "Pinterest",
+          "bytes": 47708,
+          "mainThreadMs": 28,
+          "byType": {
+            "script": 44885,
+            "other": 2823
+          },
+          "typedBytes": 47708
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 26957,
+      "byGroup": {
+        "scriptEvaluation": 13411.9,
+        "other": 9683.4,
+        "scriptParseCompile": 1372.7,
+        "styleLayout": 992.2,
+        "paintCompositeRender": 883.1,
+        "garbageCollection": 510.5,
+        "parseHTML": 103.1
+      },
+      "bootupMs": 14368.8,
+      "longTasks": 20,
+      "longestTaskMs": 1138
+    },
+    "dom": {
+      "elements": 3314,
+      "depth": 18,
+      "maxChildren": 40
+    },
+    "waste": {
+      "unusedJsBytes": 1192945,
+      "unusedCssBytes": 14555,
+      "legacyJsBytes": 65665,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1364,
+      "renderBlockingCount": 9,
+      "poorlyCachedBytes": 415102.5103243327,
+      "poorlyCachedCount": 23
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 32,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "aria-prohibited-attr",
+          "title": "Elements use prohibited ARIA attributes",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 4,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 32
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 13
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are not crawlable",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 56
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2503,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T08:26:56.821Z",
+      "runtimeMs": 66028.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": true,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "Squarespace",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "Squarespace"
+    },
+    "violations": 4,
+    "passes": 1660,
+    "incomplete": 59,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#starting-point-rotate",
+            "snippet": "<a class=\"cta cta--inline templates__mobile-carousel-item-content\" id=\"starting-point-rotate\" title=\"Rotate\" aria-label=\"Start with this template\" tabindex=\"-1\" data-sl-attr-variant=\"aria-label:e2561…"
+          },
+          {
+            "selector": "#starting-point-altaloma",
+            "snippet": "<a class=\"cta cta--inline templates__mobile-carousel-item-content\" id=\"starting-point-altaloma\" title=\"Alta Loma\" aria-label=\"Start with this template\" tabindex=\"-1\" data-sl-attr-variant=\"aria-label:…"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".footer-auxiliary__locale-settings > .footer__locale-setting:nth-child(1) > .footer__locale-setting-button[aria-label=\"Select language:\"]",
+            "snippet": "<button class=\"footer__locale-setting-button\" aria-label=\"Select language:\">"
+          },
+          {
+            "selector": "#icon-id005954021095304207",
+            "snippet": "<a id=\"icon-id005954021095304207\" tabindex=\"0\" role=\"link\" lang=\"en\" aria-haspopup=\"dialog\" aria-label=\"Cookie Preferences, opens a dedicated popup modal window\" class=\"truste_cursor_pointer truste_a…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9a6cf5b772d3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "127924",
+          "etag": "W/\"29fddf38a15839759390873f4a4eb544--gzip\""
+        }
+      },
+      {
+        "hash": "8a2af754a13c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"29fddf38a15839759390873f4a4eb544\""
+        }
+      },
+      {
+        "hash": "8a2af754a13c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"29fddf38a15839759390873f4a4eb544\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
