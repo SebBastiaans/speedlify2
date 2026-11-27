@@ -1,0 +1,325 @@
+{
+  "url": "https://pages.github.com/",
+  "name": "GitHub Pages",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795737932146,
+  "date": "2026-11-27T00:05:32.146Z",
+  "runId": "2026-11-26T23-48-57-219Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 64172,
+  "error": null,
+  "variance": {
+    "min": 61,
+    "max": 67,
+    "spread": 6,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://pages.github.com/",
+    "finalUrl": "https://docs.github.com/en/pages",
+    "redirect": {
+      "from": "https://pages.github.com/",
+      "to": "https://docs.github.com/en/pages",
+      "chain": [
+        {
+          "url": "https://pages.github.com/",
+          "status": 200
+        },
+        {
+          "url": "https://docs.github.com/pages",
+          "status": 302
+        },
+        {
+          "url": "https://docs.github.com/en/pages",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        200,
+        302
+      ],
+      "change": "host+path",
+      "permanent": false,
+      "schemeUpgrade": false,
+      "hops": 2
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 64,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1671,
+      "lcp": 10973,
+      "si": 2533,
+      "tbt": 406,
+      "tti": 11030,
+      "cls": 0.02,
+      "ttfb": 608,
+      "maxPotentialFid": 138,
+      "serverResponseTime": 7,
+      "networkRtt": 0,
+      "networkServerLatency": 39.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 21.3,
+      "elementRenderDelay": 153.1
+    },
+    "weight": {
+      "total": 3885524,
+      "requests": 52,
+      "mainDocument": 17418,
+      "byType": {
+        "total": {
+          "bytes": 3884178,
+          "requests": 51
+        },
+        "image": {
+          "bytes": 2905305,
+          "requests": 18
+        },
+        "script": {
+          "bytes": 505008,
+          "requests": 17
+        },
+        "font": {
+          "bytes": 259506,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 178568,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 21574,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 14217,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3884178,
+          "requests": 51
+        }
+      },
+      "scripts": 17,
+      "stylesheets": 6,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 1944.4,
+      "byGroup": {
+        "other": 712.6,
+        "scriptEvaluation": 597.4,
+        "styleLayout": 350.6,
+        "scriptParseCompile": 158.6,
+        "parseHTML": 69.4,
+        "paintCompositeRender": 39.8,
+        "garbageCollection": 15.8
+      },
+      "bootupMs": 680.8,
+      "longTasks": 7,
+      "longestTaskMs": 138
+    },
+    "dom": {
+      "elements": 441,
+      "depth": 22,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 202891,
+      "unusedCssBytes": 148398,
+      "legacyJsBytes": 12250,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 146876.01666666666,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 28,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 1520.7,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 47
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3027,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T00:05:47.843Z",
+      "runtimeMs": 7169.5
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1707.3,
+    "elementRenderDelay": 2288
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "Nextdotjs",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "next",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "3ac13daaa90db961345718c125ce1194ebcb3753",
+      "x-github-request-id": "1EE6:198174:7F3FC7:8E614A:6B08C983",
+      "x-served-by": "cache-iad-kcgs7200140-IAD"
+    },
+    "violations": 1,
+    "passes": 578,
+    "incomplete": 2,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".Primer_Brand__SubdomainNavBar-module__SubdomainNavBar-title___Zm_g2",
+            "snippet": "<a href=\"/en\" aria-label=\"Docs home\" class=\"Primer_Brand__SubdomainNavBar-module__SubdomainNavBar-title___Zm_g2\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e305ff82447a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gssp"
+        ],
+        "headers": {
+          "age": "212",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "e305ff82447a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gssp"
+        ],
+        "headers": {
+          "age": "219",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "e305ff82447a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gssp"
+        ],
+        "headers": {
+          "age": "226",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "e305ff82447a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "next-gssp"
+        ],
+        "headers": {
+          "age": "250",
+          "x-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,415 @@
+{
+  "url": "https://alpinejs.dev/",
+  "name": "Alpine.js",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795738074683,
+  "date": "2026-11-27T00:07:54.683Z",
+  "runId": "2026-11-26T23-48-57-219Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 42416,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 99,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://alpinejs.dev/",
+    "finalUrl": "https://alpinejs.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 97,
+      "accessibility": 93,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1542,
+      "lcp": 2594,
+      "si": 1542,
+      "tbt": 0,
+      "tti": 2594,
+      "cls": 0.001,
+      "ttfb": 465,
+      "maxPotentialFid": 42,
+      "serverResponseTime": 64,
+      "networkRtt": 0.1,
+      "networkServerLatency": 50.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 65.8,
+      "resourceLoadDelay": 9.4,
+      "resourceLoadDuration": 15,
+      "elementRenderDelay": 37.9
+    },
+    "weight": {
+      "total": 215223,
+      "requests": 27,
+      "mainDocument": 8569,
+      "byType": {
+        "total": {
+          "bytes": 215223,
+          "requests": 27
+        },
+        "script": {
+          "bytes": 148023,
+          "requests": 15
+        },
+        "font": {
+          "bytes": 24293,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 17203,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 15516,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 8569,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1619,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 133857,
+          "requests": 18
+        }
+      },
+      "scripts": 15,
+      "stylesheets": 3,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 133857,
+      "mainThreadMs": 26,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 95424,
+          "mainThreadMs": 19.3,
+          "byType": {
+            "script": 92520,
+            "stylesheet": 2904
+          },
+          "typedBytes": 95424
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 24868,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 575,
+            "font": 24293
+          },
+          "typedBytes": 24868
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 5,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3214,
+          "mainThreadMs": 1.6,
+          "byType": {
+            "script": 2779,
+            "image": 435
+          },
+          "typedBytes": 3214
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 425,
+      "byGroup": {
+        "other": 164.1,
+        "scriptEvaluation": 121,
+        "styleLayout": 58.6,
+        "scriptParseCompile": 43.4,
+        "paintCompositeRender": 20.9,
+        "parseHTML": 17
+      },
+      "bootupMs": 21.9,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 399,
+      "depth": 10,
+      "maxChildren": 15
+    },
+    "waste": {
+      "unusedJsBytes": 57244,
+      "unusedCssBytes": 11803,
+      "legacyJsBytes": 26528,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1699,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 33270.200000000004,
+      "poorlyCachedCount": 19
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failingNodes": 16,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 15
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 22
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3004.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T00:08:10.711Z",
+      "runtimeMs": 6448.2
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 616.4,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 652.2,
+    "elementRenderDelay": 167.4
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "preact",
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.17.5"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a60ce6346beb22ed-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 54,
+    "passes": 329,
+    "incomplete": 10,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 36,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".pb-24",
+            "snippet": "<div class=\"m-auto flex flex-col items-center px-8 pt-32 pb-24 text-center text-gray-800 md:w-[650px]\">"
+          },
+          {
+            "selector": ".md\\:w-\\[775px\\]",
+            "snippet": "<div class=\"m-auto px-4 text-gray-800 md:w-[775px] md:px-0\">"
+          },
+          {
+            "selector": ".space-y-2.font-title",
+            "snippet": "<div class=\"font-title space-y-2\"> <h2 class=\"text-6xl font-extrabold\">Simple.</h2> <h2 class=\"text-6xl font-extrabold\">Lightweight.</h2> <h2 class=\"text-6xl font-extrabold\">Powerful as hell.</h2> </…"
+          },
+          {
+            "selector": ".space-y-6",
+            "snippet": "<div class=\"space-y-6 pt-16 text-xl\">"
+          },
+          {
+            "selector": "div[x-show=\"currentStep === 'directives'\"] > .md\\:flex-row.flex-col.flex:nth-child(1) > .md\\:w-\\[30\\%\\].pt-8.pb-4",
+            "snippet": "<div class=\"md:w-[30%] pt-8 pb-4 md:pb-8\"> <span class=\"text-2xl font-bold\">x-data</span> <p>Declare a new Alpine component and its data for a block of HTML</p> </div>"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 15,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".md\\:flex-row.flex-col.flex:nth-child(1) > .md\\:w-\\[60\\%\\].border-b-4.md\\:border-b-0 > .overflow-x-hidden.py-8.hover\\:overflow-x-auto > .block.whitespace-pre:nth-child(1) > .text-\\[\\#48a9c1\\]",
+            "snippet": "<span class=\"text-[#48a9c1]\">x-data</span>"
+          },
+          {
+            "selector": "div[x-show=\"currentStep === 'directives'\"] > .md\\:flex-row.flex-col.flex:nth-child(2) > .md\\:rounded-t-none.md\\:border-t-0.md\\:w-\\[60\\%\\] > .overflow-x-hidden.py-8.hover\\:overflow-x-auto > .whitespace-pre:nth-child(1) > .text-\\[\\#48a9c1\\]",
+            "snippet": "<span class=\"text-[#48a9c1]\">x-bind</span>"
+          },
+          {
+            "selector": ".md\\:flex-row.flex-col.flex:nth-child(3) > .md\\:rounded-t-none.md\\:border-t-0.md\\:w-\\[60\\%\\] > .overflow-x-hidden.py-8.hover\\:overflow-x-auto > .whitespace-pre:nth-child(1) > .text-\\[\\#48a9c1\\]",
+            "snippet": "<span class=\"text-[#48a9c1]\">x-on</span>"
+          },
+          {
+            "selector": ".block.whitespace-pre:nth-child(4) > .text-\\[\\#48a9c1\\]",
+            "snippet": "<span class=\"text-[#48a9c1]\">x-text</span>"
+          },
+          {
+            "selector": "div[x-show=\"currentStep === 'directives'\"] > .md\\:flex-row.flex-col.flex:nth-child(5) > .md\\:rounded-t-none.md\\:border-t-0.md\\:w-\\[60\\%\\] > .overflow-x-hidden.py-8.hover\\:overflow-x-auto > .whitespace-pre:nth-child(1) > .text-\\[\\#48a9c1\\]",
+            "snippet": "<span class=\"text-[#48a9c1]\">x-html</span>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".overflow-x-auto",
+            "snippet": "<div class=\"flex flex-col space-y-2 overflow-x-auto px-8 py-6 md:overflow-hidden\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "97b69a24b4d7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "97b69a24b4d7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "97b69a24b4d7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "97b69a24b4d7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "97b69a24b4d7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

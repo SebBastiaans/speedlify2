@@ -1,0 +1,278 @@
+{
+  "url": "https://www.npmjs.com/",
+  "name": "npm",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795737530682,
+  "date": "2026-11-26T23:58:50.682Z",
+  "runId": "2026-11-26T23-48-57-219Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 55920,
+  "error": null,
+  "partialErrors": [
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)"
+  ],
+  "variance": {
+    "min": 70,
+    "max": 78,
+    "spread": 8,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://www.npmjs.com/",
+    "finalUrl": "https://www.npmjs.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 70,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2637,
+      "lcp": 7531,
+      "si": 2637,
+      "tbt": 145,
+      "tti": 7892,
+      "cls": 0,
+      "ttfb": 623,
+      "maxPotentialFid": 181,
+      "serverResponseTime": 23,
+      "networkRtt": 8.3,
+      "networkServerLatency": 22.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 24.3,
+      "resourceLoadDelay": 96,
+      "resourceLoadDuration": 25,
+      "elementRenderDelay": 48.2
+    },
+    "weight": {
+      "total": 1232874,
+      "requests": 21,
+      "mainDocument": 11051,
+      "byType": {
+        "total": {
+          "bytes": 1232874,
+          "requests": 21
+        },
+        "script": {
+          "bytes": 579459,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 485042,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 83488,
+          "requests": 8
+        },
+        "stylesheet": {
+          "bytes": 72973,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 11051,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 861,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 87047,
+          "requests": 12
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 5,
+      "fonts": 8
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 87047,
+      "mainThreadMs": 0.3,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 87047,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 3559,
+            "font": 83488
+          },
+          "typedBytes": 87047
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 4904.9,
+      "byGroup": {
+        "scriptEvaluation": 4112.9,
+        "other": 263.8,
+        "garbageCollection": 181.5,
+        "scriptParseCompile": 168.9,
+        "styleLayout": 127.6,
+        "parseHTML": 33.2,
+        "paintCompositeRender": 16.9
+      },
+      "bootupMs": 4272,
+      "longTasks": 3,
+      "longestTaskMs": 181
+    },
+    "dom": {
+      "elements": 136,
+      "depth": 17,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 324002,
+      "unusedCssBytes": 54012,
+      "legacyJsBytes": 19232,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 15987,
+      "renderBlockingMs": 1864,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 139074.4562011173,
+      "poorlyCachedCount": 6
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 28,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 12
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2896,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T23:59:08.873Z",
+      "runtimeMs": 12481.9
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.6,
+    "resourceLoadDelay": 2118.6,
+    "resourceLoadDuration": 4450.5,
+    "elementRenderDelay": 24
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a60cd94189b2ffb9-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 349,
+    "incomplete": 10,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "89b8e1032bb9",
+        "nonce": "086341b0694c",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "a1b56f2e2041",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1146",
+          "cf-cache-status": "HIT",
+          "last-modified": "Thu, 26 Nov 2026 23:40:03 GMT"
+        }
+      },
+      {
+        "hash": "a1b56f2e2041",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1159",
+          "cf-cache-status": "HIT",
+          "last-modified": "Thu, 26 Nov 2026 23:40:03 GMT"
+        }
+      },
+      {
+        "hash": "a1b56f2e2041",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1182",
+          "cf-cache-status": "HIT",
+          "last-modified": "Thu, 26 Nov 2026 23:40:03 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
