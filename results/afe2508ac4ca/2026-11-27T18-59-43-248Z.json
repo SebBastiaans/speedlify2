@@ -1,0 +1,362 @@
+{
+  "url": "https://www.anthropic.com/",
+  "name": "Anthropic",
+  "group": "ai",
+  "groupName": "AI",
+  "timestamp": 1795805983248,
+  "date": "2026-11-27T18:59:43.248Z",
+  "runId": "2026-11-27T18-55-42-493Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 73360,
+  "error": null,
+  "variance": {
+    "min": 59,
+    "max": 61,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.anthropic.com/",
+    "finalUrl": "https://www.anthropic.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 59,
+      "accessibility": 100,
+      "best-practices": 73,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2588,
+      "lcp": 15735,
+      "si": 8176,
+      "tbt": 248,
+      "tti": 16282,
+      "cls": 0.003,
+      "ttfb": 528,
+      "maxPotentialFid": 172,
+      "serverResponseTime": 39,
+      "networkRtt": 24.2,
+      "networkServerLatency": 81.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 78.7,
+      "resourceLoadDelay": 11.2,
+      "resourceLoadDuration": 67,
+      "elementRenderDelay": 1142.5
+    },
+    "weight": {
+      "total": 3145928,
+      "requests": 87,
+      "mainDocument": 30010,
+      "byType": {
+        "total": {
+          "bytes": 3141418,
+          "requests": 86
+        },
+        "script": {
+          "bytes": 1320983,
+          "requests": 50
+        },
+        "font": {
+          "bytes": 738130,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 526491,
+          "requests": 6
+        },
+        "media": {
+          "bytes": 335882,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 154519,
+          "requests": 12
+        },
+        "document": {
+          "bytes": 57316,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 8097,
+          "requests": 7
+        },
+        "third-party": {
+          "bytes": 1448844,
+          "requests": 25
+        }
+      },
+      "scripts": 50,
+      "stylesheets": 12,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 1487555,
+      "mainThreadMs": 123.9,
+      "top": [
+        {
+          "entity": "claude.com",
+          "bytes": 900543,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 525522,
+            "media": 374593,
+            "other": 428
+          },
+          "typedBytes": 900543
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 323048,
+          "mainThreadMs": 68.9,
+          "byType": {
+            "script": 323048
+          },
+          "typedBytes": 323048
+        },
+        {
+          "entity": "TikTok",
+          "bytes": 163982,
+          "mainThreadMs": 40.8,
+          "byType": {
+            "script": 161275,
+            "other": 2707
+          },
+          "typedBytes": 163982
+        },
+        {
+          "entity": "claude.ai",
+          "bytes": 52936,
+          "mainThreadMs": 4.1,
+          "byType": {
+            "script": 52936
+          },
+          "typedBytes": 52936
+        },
+        {
+          "entity": "Hubspot",
+          "bytes": 47046,
+          "mainThreadMs": 10.1,
+          "byType": {
+            "script": 46077,
+            "image": 969
+          },
+          "typedBytes": 47046
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3433.4,
+      "byGroup": {
+        "scriptEvaluation": 1637.5,
+        "styleLayout": 787.5,
+        "other": 569.2,
+        "scriptParseCompile": 295.5,
+        "parseHTML": 65.6,
+        "garbageCollection": 39.8,
+        "paintCompositeRender": 38.3
+      },
+      "bootupMs": 1599.4,
+      "longTasks": 11,
+      "longestTaskMs": 172
+    },
+    "dom": {
+      "elements": 530,
+      "depth": 16,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 403160,
+      "unusedCssBytes": 105798,
+      "legacyJsBytes": 14204,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 15576,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1392,
+      "renderBlockingCount": 12,
+      "poorlyCachedBytes": 44203.82083333334,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 28,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 8
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 8,
+      "baselineLimitedFeatures": 70
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3108.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T18:59:44.451Z",
+      "runtimeMs": 9397.5
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 603.8,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 3978,
+    "elementRenderDelay": 1177.8
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "Nextdotjs",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "next",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a61360dc2f3f2eae-LAX",
+      "server": "cloudflare",
+      "via": "1.1 google"
+    },
+    "violations": 0,
+    "passes": 759,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9ad77d4e0fc9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "11",
+          "cf-cache-status": "HIT",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1"
+        }
+      },
+      {
+        "hash": "9ad77d4e0fc9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "21",
+          "cf-cache-status": "HIT",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1"
+        }
+      },
+      {
+        "hash": "9ad77d4e0fc9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "30",
+          "cf-cache-status": "UPDATING",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1"
+        }
+      },
+      {
+        "hash": "fa9709cac626",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10",
+          "cf-cache-status": "HIT",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1"
+        }
+      },
+      {
+        "hash": "fa9709cac626",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "18",
+          "cf-cache-status": "HIT",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
