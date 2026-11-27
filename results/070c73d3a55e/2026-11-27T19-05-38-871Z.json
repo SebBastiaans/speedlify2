@@ -1,0 +1,347 @@
+{
+  "url": "https://docusaurus.io/",
+  "name": "Docusaurus",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795806338871,
+  "date": "2026-11-27T19:05:38.871Z",
+  "runId": "2026-11-27T18-55-47-718Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 55479,
+  "error": null,
+  "partialErrors": [
+    "The \"start lh:driver:navigate\" performance mark has not been set"
+  ],
+  "variance": {
+    "min": 63,
+    "max": 93,
+    "spread": 30,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://docusaurus.io/",
+    "finalUrl": "https://docusaurus.io/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 63,
+      "accessibility": 98,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 3439,
+      "lcp": 3439,
+      "si": 4292,
+      "tbt": 821,
+      "tti": 5954,
+      "cls": 0,
+      "ttfb": 638,
+      "maxPotentialFid": 493,
+      "serverResponseTime": 189,
+      "networkRtt": 26.9,
+      "networkServerLatency": 115.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 252.9,
+      "elementRenderDelay": 1015.3
+    },
+    "weight": {
+      "total": 821467,
+      "requests": 51,
+      "mainDocument": 11137,
+      "byType": {
+        "total": {
+          "bytes": 821467,
+          "requests": 45
+        },
+        "script": {
+          "bytes": 504700,
+          "requests": 7
+        },
+        "image": {
+          "bytes": 174379,
+          "requests": 15
+        },
+        "other": {
+          "bytes": 91178,
+          "requests": 19
+        },
+        "stylesheet": {
+          "bytes": 36906,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 14304,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 304435,
+          "requests": 9
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 299615,
+      "mainThreadMs": 88.1,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 181742,
+          "mainThreadMs": 88.1,
+          "byType": {
+            "script": 181742
+          },
+          "typedBytes": 181742
+        },
+        {
+          "entity": "YouTube",
+          "bytes": 65278,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 65278
+          },
+          "typedBytes": 65278
+        },
+        {
+          "entity": "unavatar.io",
+          "bytes": 52039,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 52039
+          },
+          "typedBytes": 52039
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 556,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 556
+          },
+          "typedBytes": 556
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3190.6,
+      "byGroup": {
+        "scriptEvaluation": 1795.9,
+        "other": 659.6,
+        "scriptParseCompile": 298.7,
+        "styleLayout": 259.7,
+        "paintCompositeRender": 86.4,
+        "parseHTML": 55.1,
+        "garbageCollection": 35.2
+      },
+      "bootupMs": 2013.7,
+      "longTasks": 8,
+      "longestTaskMs": 493
+    },
+    "dom": {
+      "elements": 436,
+      "depth": 13,
+      "maxChildren": 22
+    },
+    "waste": {
+      "unusedJsBytes": 128462,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 468,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 50611.5,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 27,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 44
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 1776,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T19:05:40.541Z",
+      "runtimeMs": 9837.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "docusaurus",
+      "name": "Docusaurus",
+      "icon": "Docusaurus",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Docusaurus v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Docusaurus v4.0.0"
+      ],
+      "marks": [
+        "docusaurus",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a61369160bc6acfc-MSP",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M8F6DTET99PNS7A4C1XHN682"
+    },
+    "violations": 3,
+    "passes": 627,
+    "incomplete": 4,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "article",
+            "snippet": "<article class=\"yt-lite \" data-title=\"Explain Like I'm 5: Docusaurus\" role=\"img\" aria-label=\"Explain Like I'm 5: Docusaurus - YouTube video preview\" style=\"background-image: url(\"https://img.youtube.…"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".margin-top--lg > .col:nth-child(1) > h3",
+            "snippet": "<h3 class=\"featureHeading_TLGJ\">Powered by MDX</h3>"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Interactive controls must not be nested",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "article",
+            "snippet": "<article class=\"yt-lite \" data-title=\"Explain Like I'm 5: Docusaurus\" role=\"img\" aria-label=\"Explain Like I'm 5: Docusaurus - YouTube video preview\" style=\"background-image: url(\"https://img.youtube.…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "017ce4f79a6c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8880",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31527120",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "017ce4f79a6c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8890",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31527110",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "017ce4f79a6c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8930",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31527070",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
