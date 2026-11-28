@@ -1,0 +1,367 @@
+{
+  "url": "https://emberjs.com/",
+  "name": "Ember",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795833385690,
+  "date": "2026-11-28T02:36:25.690Z",
+  "runId": "2026-11-28T01-57-03-550Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 49541,
+  "error": null,
+  "variance": {
+    "min": 69,
+    "max": 72,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://emberjs.com/",
+    "finalUrl": "https://emberjs.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 72,
+      "accessibility": 93,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1059,
+      "lcp": 5702,
+      "si": 1059,
+      "tbt": 331,
+      "tti": 7076,
+      "cls": 0,
+      "ttfb": 609,
+      "maxPotentialFid": 262,
+      "serverResponseTime": 9,
+      "networkRtt": 0,
+      "networkServerLatency": 28.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 10.3,
+      "resourceLoadDelay": 114.4,
+      "resourceLoadDuration": 9.3,
+      "elementRenderDelay": 150.9
+    },
+    "weight": {
+      "total": 1163000,
+      "requests": 48,
+      "mainDocument": 27712,
+      "byType": {
+        "total": {
+          "bytes": 1162005,
+          "requests": 46
+        },
+        "script": {
+          "bytes": 553449,
+          "requests": 7
+        },
+        "image": {
+          "bytes": 332671,
+          "requests": 15
+        },
+        "font": {
+          "bytes": 224976,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 27712,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 21768,
+          "requests": 19
+        },
+        "other": {
+          "bytes": 1429,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 189939,
+          "requests": 4
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 19,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 189939,
+      "mainThreadMs": 43.8,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 168304,
+          "mainThreadMs": 33.6,
+          "byType": {
+            "script": 168304
+          },
+          "typedBytes": 168304
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 21635,
+          "mainThreadMs": 10.2,
+          "byType": {
+            "script": 21597,
+            "other": 38
+          },
+          "typedBytes": 21635
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1425.9,
+      "byGroup": {
+        "scriptEvaluation": 524.7,
+        "other": 418.2,
+        "styleLayout": 222.5,
+        "scriptParseCompile": 139.7,
+        "paintCompositeRender": 59.3,
+        "parseHTML": 40.3,
+        "garbageCollection": 21.2
+      },
+      "bootupMs": 586,
+      "longTasks": 6,
+      "longestTaskMs": 262
+    },
+    "dom": {
+      "elements": 524,
+      "depth": 11,
+      "maxChildren": 25
+    },
+    "waste": {
+      "unusedJsBytes": 323728,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 19,
+      "poorlyCachedBytes": 16233.85,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 27,
+      "failingNodes": 6,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 12
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2902.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T02:36:35.464Z",
+      "runtimeMs": 6880.9
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.7,
+    "resourceLoadDelay": 761.8,
+    "resourceLoadDuration": 668.1,
+    "elementRenderDelay": 22.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "ember",
+      "name": "Ember.js",
+      "icon": "Emberdotjs",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "ember"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8G072YY4972WFADB5J1Z51K"
+    },
+    "violations": 6,
+    "passes": 938,
+    "incomplete": 44,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#ember-addons-panel-0 > code > pre",
+            "snippet": "<pre class=\"mt-3\">&gt; ember install ember-concurrency</pre>"
+          },
+          {
+            "selector": ".bg-shape-boxes > .container > .grid.lg\\:grid-2.list-unstyled > .card--link.card:nth-child(1) > .card__content > h3 > a",
+            "snippet": "<a href=\"https://guides.emberjs.com/release/\">Read the Guides</a>"
+          },
+          {
+            "selector": "h3 > a[href$=\"blog.emberjs.com\"]",
+            "snippet": "<a href=\"https://blog.emberjs.com\">Read Our Blog</a>"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".footer-help > .py-1.container > a:nth-child(1)",
+            "snippet": "<a href=\"mailto:help@emberjs.com?subject=Help\">email</a>"
+          },
+          {
+            "selector": ".py-1.container > a:nth-child(2)",
+            "snippet": "<a href=\"https://github.com/ember-learn/ember-website/issues/new\"> issue</a>"
+          },
+          {
+            "selector": ".py-1.container > a[href$=\"emberjs\"]",
+            "snippet": "<a href=\"https://discord.gg/emberjs\">Ember Discord</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "bf3850582733",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15581",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31520419",
+          "etag": "W/\"8912334daf7a64d88b1379c312a3301c-ssl\""
+        }
+      },
+      {
+        "hash": "bf3850582733",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15589",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31520411",
+          "etag": "W/\"8912334daf7a64d88b1379c312a3301c-ssl\""
+        }
+      },
+      {
+        "hash": "bf3850582733",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15596",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31520404",
+          "etag": "W/\"8912334daf7a64d88b1379c312a3301c-ssl\""
+        }
+      },
+      {
+        "hash": "bf3850582733",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15603",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31520397",
+          "etag": "W/\"8912334daf7a64d88b1379c312a3301c-ssl\""
+        }
+      },
+      {
+        "hash": "bf3850582733",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31520373",
+          "etag": "W/\"8912334daf7a64d88b1379c312a3301c-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

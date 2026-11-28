@@ -1,0 +1,377 @@
+{
+  "url": "https://www.ti.com/",
+  "name": "Texas Instruments",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1795832365490,
+  "date": "2026-11-28T02:19:25.490Z",
+  "runId": "2026-11-28T01-57-03-550Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 152159,
+  "error": null,
+  "variance": {
+    "min": 13,
+    "max": 17,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.ti.com/",
+    "finalUrl": "https://www.ti.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 14,
+      "accessibility": 95,
+      "best-practices": 73,
+      "seo": 100,
+      "agentic-browsing": 0
+    },
+    "timings": {
+      "fcp": 1430,
+      "lcp": 12560,
+      "si": 8498,
+      "tbt": 1984,
+      "tti": 29918,
+      "cls": 2.037,
+      "ttfb": 679,
+      "maxPotentialFid": 615,
+      "serverResponseTime": 73,
+      "networkRtt": 11.4,
+      "networkServerLatency": 96.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 74.7,
+      "resourceLoadDelay": 932.8,
+      "resourceLoadDuration": 11.5,
+      "elementRenderDelay": 195.1
+    },
+    "weight": {
+      "total": 39434616,
+      "requests": 281,
+      "mainDocument": 85452,
+      "byType": {
+        "total": {
+          "bytes": 39431702,
+          "requests": 274
+        },
+        "media": {
+          "bytes": 34665319,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 3680066,
+          "requests": 164
+        },
+        "image": {
+          "bytes": 557068,
+          "requests": 24
+        },
+        "font": {
+          "bytes": 357657,
+          "requests": 9
+        },
+        "document": {
+          "bytes": 89977,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 45108,
+          "requests": 8
+        },
+        "other": {
+          "bytes": 36507,
+          "requests": 62
+        },
+        "third-party": {
+          "bytes": 2428526,
+          "requests": 141
+        }
+      },
+      "scripts": 169,
+      "stylesheets": 8,
+      "fonts": 9
+    },
+    "thirdParty": {
+      "count": 19,
+      "bytes": 5689403,
+      "mainThreadMs": 741.5,
+      "top": [
+        {
+          "entity": "katalon.com",
+          "bytes": 3728977,
+          "mainThreadMs": 214.7,
+          "byType": {
+            "script": 3727245,
+            "other": 1732
+          },
+          "typedBytes": 3728977
+        },
+        {
+          "entity": "Optimizely",
+          "bytes": 988618,
+          "mainThreadMs": 154.6,
+          "byType": {
+            "script": 988545,
+            "other": 73
+          },
+          "typedBytes": 988618
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 360601,
+          "mainThreadMs": 144.4,
+          "byType": {
+            "script": 360601
+          },
+          "typedBytes": 360601
+        },
+        {
+          "entity": "coveo.com",
+          "bytes": 255128,
+          "mainThreadMs": 29.7,
+          "byType": {
+            "script": 250470,
+            "other": 4658
+          },
+          "typedBytes": 255128
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 208398,
+          "mainThreadMs": 71.9,
+          "byType": {
+            "script": 208398
+          },
+          "typedBytes": 208398
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 11207.6,
+      "byGroup": {
+        "scriptEvaluation": 6254.2,
+        "other": 2286.6,
+        "scriptParseCompile": 1201.8,
+        "styleLayout": 730.9,
+        "paintCompositeRender": 424.3,
+        "garbageCollection": 171.4,
+        "parseHTML": 138.4
+      },
+      "bootupMs": 6912.4,
+      "longTasks": 20,
+      "longestTaskMs": 615
+    },
+    "dom": {
+      "elements": 2107,
+      "depth": 27,
+      "maxChildren": 141
+    },
+    "waste": {
+      "unusedJsBytes": 1988131,
+      "unusedCssBytes": 16078,
+      "legacyJsBytes": 114476,
+      "duplicatedJsBytes": 8852,
+      "unminifiedJsBytes": 11562,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 3582880.208333336,
+      "poorlyCachedCount": 186
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 29,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "aria-required-children",
+          "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 4,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 43
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 3
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 64
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": null,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 3,
+      "baselineLimitedFeatures": 79
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3069,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T02:20:08.210Z",
+      "runtimeMs": 20987.7
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.7,
+    "resourceLoadDelay": 9390.2,
+    "resourceLoadDuration": 3094.4,
+    "elementRenderDelay": 29
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "Nextdotjs",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "next",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Apache",
+      "detailIcon": "Apache",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Apache"
+    },
+    "violations": 1,
+    "passes": 1559,
+    "incomplete": 24,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-required-children",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Certain ARIA roles must contain particular children",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-children?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".ti_p-responsiveHeader-nav-bar-list",
+            "snippet": "<ul class=\"ti_p-responsiveHeader-nav-bar-list\" role=\"menubar\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b5f4b31aa063",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"63tdyz3r0khefk\"",
+          "x-nextjs-cache": "STALE",
+          "x-nextjs-prerender": "1"
+        }
+      },
+      {
+        "hash": "b5f4b31aa063",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"63tdyz3r0khefk\"",
+          "x-nextjs-cache": "STALE",
+          "x-nextjs-prerender": "1"
+        }
+      },
+      {
+        "hash": "b5f4b31aa063",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"63tdyz3r0khefk\"",
+          "x-nextjs-cache": "STALE",
+          "x-nextjs-prerender": "1"
+        }
+      },
+      {
+        "hash": "b5f4b31aa063",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"63tdyz3r0khefk\"",
+          "x-nextjs-cache": "STALE",
+          "x-nextjs-prerender": "1"
+        }
+      },
+      {
+        "hash": "b5f4b31aa063",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"63tdyz3r0khefk\"",
+          "x-nextjs-cache": "STALE",
+          "x-nextjs-prerender": "1"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
