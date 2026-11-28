@@ -1,0 +1,327 @@
+{
+  "url": "https://magazine.atavist.com/",
+  "name": "The Atavist Magazine",
+  "group": "wordpress-showcase",
+  "groupName": "WordPress Showcase",
+  "timestamp": 1795861296693,
+  "date": "2026-11-28T10:21:36.693Z",
+  "runId": "2026-11-28T10-21-26-988Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 63955,
+  "error": null,
+  "variance": {
+    "min": 77,
+    "max": 80,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://magazine.atavist.com/",
+    "finalUrl": "https://magazine.atavist.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 77,
+      "accessibility": 93,
+      "best-practices": 88,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 2165,
+      "lcp": 5790,
+      "si": 2165,
+      "tbt": 18,
+      "tti": 7714,
+      "cls": 0.011,
+      "ttfb": 615,
+      "maxPotentialFid": 73,
+      "serverResponseTime": 9,
+      "networkRtt": 0.3,
+      "networkServerLatency": 19.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 10.6,
+      "resourceLoadDelay": 10.5,
+      "resourceLoadDuration": 42.8,
+      "elementRenderDelay": 74.1
+    },
+    "weight": {
+      "total": 1345725,
+      "requests": 65,
+      "mainDocument": 48765,
+      "byType": {
+        "total": {
+          "bytes": 1345725,
+          "requests": 65
+        },
+        "script": {
+          "bytes": 545023,
+          "requests": 32
+        },
+        "font": {
+          "bytes": 463900,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 207241,
+          "requests": 8
+        },
+        "stylesheet": {
+          "bytes": 75735,
+          "requests": 16
+        },
+        "document": {
+          "bytes": 48765,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 5061,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 286990,
+          "requests": 20
+        }
+      },
+      "scripts": 32,
+      "stylesheets": 16,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 286990,
+      "mainThreadMs": 72.8,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 164785,
+          "mainThreadMs": 34.7,
+          "byType": {
+            "script": 164785
+          },
+          "typedBytes": 164785
+        },
+        {
+          "entity": "WordPress",
+          "bytes": 98935,
+          "mainThreadMs": 29.8,
+          "byType": {
+            "script": 80747,
+            "stylesheet": 18188
+          },
+          "typedBytes": 98935
+        },
+        {
+          "entity": "Parse.ly",
+          "bytes": 20119,
+          "mainThreadMs": 7.5,
+          "byType": {
+            "script": 19943,
+            "image": 176
+          },
+          "typedBytes": 20119
+        },
+        {
+          "entity": "WordPress Site Stats",
+          "bytes": 1934,
+          "mainThreadMs": 0.6,
+          "byType": {
+            "script": 1757,
+            "image": 177
+          },
+          "typedBytes": 1934
+        },
+        {
+          "entity": "Mailchimp",
+          "bytes": 1217,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "script": 1217
+          },
+          "typedBytes": 1217
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1007.5,
+      "byGroup": {
+        "scriptEvaluation": 368.7,
+        "other": 275.1,
+        "styleLayout": 141.3,
+        "scriptParseCompile": 120.7,
+        "parseHTML": 71.7,
+        "garbageCollection": 15.9,
+        "paintCompositeRender": 14.1
+      },
+      "bootupMs": 261.1,
+      "longTasks": 4,
+      "longestTaskMs": 73
+    },
+    "dom": {
+      "elements": 391,
+      "depth": 18,
+      "maxChildren": 61
+    },
+    "waste": {
+      "unusedJsBytes": 309580,
+      "unusedCssBytes": 70483,
+      "legacyJsBytes": 10412,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1509,
+      "renderBlockingCount": 17,
+      "poorlyCachedBytes": 1167.9819444444445,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 29,
+      "failingNodes": 8,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "paste-preventing-inputs",
+          "title": "Prevents users from pasting into input fields",
+          "weight": 3,
+          "nodes": 6
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 53
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3396,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T10:21:49.116Z",
+      "runtimeMs": 6302.5
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 756.6,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 1906.3,
+    "elementRenderDelay": 16.7
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": "Checking your browser...",
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "2814f187a7f7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 28 Nov 2026 10:20:11 GMT",
+          "x-nananana": "Batcache-Hit"
+        }
+      },
+      {
+        "hash": "2814f187a7f7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 28 Nov 2026 10:20:11 GMT",
+          "x-nananana": "Batcache-Hit"
+        }
+      },
+      {
+        "hash": "2814f187a7f7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 28 Nov 2026 10:20:11 GMT",
+          "x-nananana": "Batcache-Hit"
+        }
+      },
+      {
+        "hash": "2814f187a7f7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 28 Nov 2026 10:20:11 GMT",
+          "x-nananana": "Batcache-Hit"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

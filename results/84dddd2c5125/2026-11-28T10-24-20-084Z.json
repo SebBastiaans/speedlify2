@@ -1,0 +1,431 @@
+{
+  "url": "https://www.dailykos.com/",
+  "name": "Daily Kos",
+  "group": "wordpress-showcase",
+  "groupName": "WordPress Showcase",
+  "timestamp": 1795861460084,
+  "date": "2026-11-28T10:24:20.084Z",
+  "runId": "2026-11-28T10-21-26-988Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 104150,
+  "error": null,
+  "variance": {
+    "min": 42,
+    "max": 47,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.dailykos.com/",
+    "finalUrl": "https://www.dailykos.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 44,
+      "accessibility": 87,
+      "best-practices": 73,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 2115,
+      "lcp": 8866,
+      "si": 6446,
+      "tbt": 1104,
+      "tti": 26427,
+      "cls": 0,
+      "ttfb": 615,
+      "maxPotentialFid": 271,
+      "serverResponseTime": 9,
+      "networkRtt": 3.4,
+      "networkServerLatency": 63.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 11.1,
+      "resourceLoadDelay": 11.6,
+      "resourceLoadDuration": 49.5,
+      "elementRenderDelay": 111.3
+    },
+    "weight": {
+      "total": 5444599,
+      "requests": 199,
+      "mainDocument": 62883,
+      "byType": {
+        "total": {
+          "bytes": 5444599,
+          "requests": 195
+        },
+        "script": {
+          "bytes": 2489651,
+          "requests": 65
+        },
+        "image": {
+          "bytes": 1806914,
+          "requests": 62
+        },
+        "font": {
+          "bytes": 885131,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 153421,
+          "requests": 22
+        },
+        "document": {
+          "bytes": 63362,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 46120,
+          "requests": 39
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2248497,
+          "requests": 97
+        }
+      },
+      "scripts": 66,
+      "stylesheets": 22,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 23,
+      "bytes": 2248018,
+      "mainThreadMs": 429.1,
+      "top": [
+        {
+          "entity": "tickaroo.com",
+          "bytes": 361006,
+          "mainThreadMs": 20.4,
+          "byType": {
+            "script": 336196,
+            "stylesheet": 24810
+          },
+          "typedBytes": 361006
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 344632,
+          "mainThreadMs": 93,
+          "byType": {
+            "script": 344632
+          },
+          "typedBytes": 344632
+        },
+        {
+          "entity": "Viafoura",
+          "bytes": 328549,
+          "mainThreadMs": 75.8,
+          "byType": {
+            "script": 299590,
+            "stylesheet": 23466,
+            "other": 5071,
+            "image": 422
+          },
+          "typedBytes": 328549
+        },
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 293218,
+          "mainThreadMs": 43.9,
+          "byType": {
+            "script": 270028,
+            "other": 23190
+          },
+          "typedBytes": 293218
+        },
+        {
+          "entity": "intergient.com",
+          "bytes": 257169,
+          "mainThreadMs": 43.5,
+          "byType": {
+            "script": 257169
+          },
+          "typedBytes": 257169
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 5660.8,
+      "byGroup": {
+        "scriptEvaluation": 3063.2,
+        "styleLayout": 953.3,
+        "other": 769.6,
+        "scriptParseCompile": 522.7,
+        "paintCompositeRender": 131,
+        "parseHTML": 122.2,
+        "garbageCollection": 98.9
+      },
+      "bootupMs": 2938.5,
+      "longTasks": 20,
+      "longestTaskMs": 271
+    },
+    "dom": {
+      "elements": 2158,
+      "depth": 21,
+      "maxChildren": 49
+    },
+    "waste": {
+      "unusedJsBytes": 1308930,
+      "unusedCssBytes": 98008,
+      "legacyJsBytes": 17270,
+      "duplicatedJsBytes": 22252,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1960,
+      "renderBlockingCount": 20,
+      "poorlyCachedBytes": 427730.6180555556,
+      "poorlyCachedCount": 14
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 26,
+      "failingNodes": 55,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 42
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 11
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 72
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3539.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T10:24:52.025Z",
+      "runtimeMs": 11902.2
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 752.6,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 1581.7,
+    "elementRenderDelay": 295
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "preact",
+        "vue"
+      ],
+      "markVersions": {
+        "vue": "3.5.45"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx",
+      "x-powered-by": "WordPress VIP <https://wpvip.com>"
+    },
+    "violations": 45,
+    "passes": 2278,
+    "incomplete": 7,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 42,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".card--hero > .card__content.wp-container-core-group-is-layout-fe9cc265.is-vertical > .post-authors-block.wp-block-daily-kos-post-authors > .post-authors-block__author > .post-authors-block__info > .post-authors-block__role > .post-authors-block__label-staff.post-authors-block__label",
+            "snippet": "<span class=\"post-authors-block__label post-authors-block__label-staff\"> Staff </span>"
+          },
+          {
+            "selector": ".ccb__region--sidebar > .card--vertical.card--post[data-slot=\"2\"] > .card__content.wp-container-core-group-is-layout-fe9cc265.is-vertical > .post-authors-block.wp-block-daily-kos-post-authors > .post-authors-block__author > .post-authors-block__info > .post-authors-block__role > .post-authors-block__label-staff.post-authors-block__label",
+            "snippet": "<span class=\"post-authors-block__label post-authors-block__label-staff\"> Staff </span>"
+          },
+          {
+            "selector": ".card--vertical.card--post[data-slot=\"3\"] > .card__content.wp-container-core-group-is-layout-fe9cc265.is-vertical > .post-authors-block.wp-block-daily-kos-post-authors > .post-authors-block__author > .post-authors-block__info > .post-authors-block__role > .post-authors-block__label-staff.post-authors-block__label",
+            "snippet": "<span class=\"post-authors-block__label post-authors-block__label-staff\"> Staff </span>"
+          },
+          {
+            "selector": ".ccb__region--third-column > .card--post.card--small[data-slot=\"5\"] > .card__content.wp-container-core-group-is-layout-fe9cc265.is-vertical > .post-authors-block.wp-block-daily-kos-post-authors > .post-authors-block__author > .post-authors-block__info > .post-authors-block__role > .post-authors-block__label-staff.post-authors-block__label",
+            "snippet": "<span class=\"post-authors-block__label post-authors-block__label-staff\"> Staff </span>"
+          },
+          {
+            "selector": ".card--post.card--small[data-slot=\"6\"] > .card__content.wp-container-core-group-is-layout-fe9cc265.is-vertical > .post-authors-block.wp-block-daily-kos-post-authors > .post-authors-block__author > .post-authors-block__info > .post-authors-block__role > .post-authors-block__label-staff.post-authors-block__label",
+            "snippet": "<span class=\"post-authors-block__label post-authors-block__label-staff\"> Staff </span>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".wp-block-column.wp-block-column-is-layout-flow.is-layout-flow:nth-child(1) > h6",
+            "snippet": "<h6 class=\"wp-block-heading\">Daily Kos</h6>"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".custom-logo-link",
+            "snippet": "<a href=\"https://www.dailykos.com/\" class=\"custom-logo-link\" rel=\"home\" aria-current=\"page\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en-US\" style=\"--dk-header-height: 73px;\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "4bbda0454a53",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4bbda0454a53",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4bbda0454a53",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4bbda0454a53",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4bbda0454a53",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

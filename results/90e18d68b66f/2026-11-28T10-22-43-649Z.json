@@ -1,0 +1,330 @@
+{
+  "url": "https://noma.dk/",
+  "name": "Noma",
+  "group": "wordpress-showcase",
+  "groupName": "WordPress Showcase",
+  "timestamp": 1795861363649,
+  "date": "2026-11-28T10:22:43.649Z",
+  "runId": "2026-11-28T10-21-26-988Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 93434,
+  "error": null,
+  "variance": {
+    "min": 67,
+    "max": 69,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://noma.dk/",
+    "finalUrl": "https://noma.dk/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 69,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1874,
+      "lcp": 43162,
+      "si": 1874,
+      "tbt": 241,
+      "tti": 43162,
+      "cls": 0.006,
+      "ttfb": 627,
+      "maxPotentialFid": 140,
+      "serverResponseTime": 9,
+      "networkRtt": 0.3,
+      "networkServerLatency": 123.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 10.9,
+      "resourceLoadDelay": 124,
+      "resourceLoadDuration": 23.8,
+      "elementRenderDelay": 299.4
+    },
+    "weight": {
+      "total": 38728053,
+      "requests": 96,
+      "mainDocument": 29269,
+      "byType": {
+        "total": {
+          "bytes": 38728054,
+          "requests": 95
+        },
+        "media": {
+          "bytes": 26687180,
+          "requests": 5
+        },
+        "image": {
+          "bytes": 11098865,
+          "requests": 17
+        },
+        "script": {
+          "bytes": 578644,
+          "requests": 51
+        },
+        "font": {
+          "bytes": 262338,
+          "requests": 7
+        },
+        "stylesheet": {
+          "bytes": 64246,
+          "requests": 11
+        },
+        "document": {
+          "bytes": 29269,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 7512,
+          "requests": 3
+        },
+        "third-party": {
+          "bytes": 38431974,
+          "requests": 60
+        }
+      },
+      "scripts": 52,
+      "stylesheets": 11,
+      "fonts": 7
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 14017164,
+      "mainThreadMs": 139.2,
+      "top": [
+        {
+          "entity": "WordPress",
+          "bytes": 13418515,
+          "mainThreadMs": 17.6,
+          "byType": {
+            "script": 47822,
+            "stylesheet": 2121,
+            "image": 11095413,
+            "media": 2272370,
+            "other": 789
+          },
+          "typedBytes": 13418515
+        },
+        {
+          "entity": "Klaviyo",
+          "bytes": 299228,
+          "mainThreadMs": 64.4,
+          "byType": {
+            "script": 282566,
+            "other": 6723,
+            "stylesheet": 9939
+          },
+          "typedBytes": 299228
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 185622,
+          "mainThreadMs": 57.2,
+          "byType": {
+            "script": 185622
+          },
+          "typedBytes": 185622
+        },
+        {
+          "entity": "Shopify",
+          "bytes": 113366,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 113366
+          },
+          "typedBytes": 113366
+        },
+        {
+          "entity": "Fastest Forward",
+          "bytes": 433,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 433
+          },
+          "typedBytes": 433
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2174.2,
+      "byGroup": {
+        "other": 858.1,
+        "scriptEvaluation": 849.7,
+        "styleLayout": 193.4,
+        "scriptParseCompile": 149.8,
+        "parseHTML": 58.6,
+        "paintCompositeRender": 44.4,
+        "garbageCollection": 20.1
+      },
+      "bootupMs": 615.8,
+      "longTasks": 5,
+      "longestTaskMs": 140
+    },
+    "dom": {
+      "elements": 506,
+      "depth": 21,
+      "maxChildren": 48
+    },
+    "waste": {
+      "unusedJsBytes": 140706,
+      "unusedCssBytes": 20648,
+      "legacyJsBytes": 18729,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 5839,
+      "renderBlockingMs": 1357,
+      "renderBlockingCount": 13,
+      "poorlyCachedBytes": 6555.750873464331,
+      "poorlyCachedCount": 6
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 30,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "svg-img-alt",
+          "title": "SVG elements with an `img` role do not have an accessible text alternative",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 50
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3379,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T10:23:07.389Z",
+      "runtimeMs": 11323.7
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.7,
+    "resourceLoadDelay": 1191,
+    "resourceLoadDuration": 28763.9,
+    "elementRenderDelay": 18.2
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": "Checking your browser...",
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "6303f0924b20",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 28 Nov 2026 08:58:20 GMT",
+          "x-nananana": "Batcache-Set"
+        }
+      },
+      {
+        "hash": "1be2878491c2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 28 Nov 2026 10:22:45 GMT",
+          "x-nananana": "Batcache-Set"
+        }
+      },
+      {
+        "hash": "1be2878491c2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 28 Nov 2026 10:22:45 GMT",
+          "x-nananana": "Batcache-Set"
+        }
+      },
+      {
+        "hash": "1be2878491c2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 28 Nov 2026 10:22:45 GMT",
+          "x-nananana": "Batcache-Set"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
