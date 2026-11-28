@@ -1,0 +1,368 @@
+{
+  "url": "https://antlersocial.com/",
+  "name": "antlersocial.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795863192923,
+  "date": "2026-11-28T10:53:12.923Z",
+  "runId": "2026-11-28T10-21-12-203Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 144205,
+  "error": null,
+  "variance": {
+    "min": 73,
+    "max": 75,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://antlersocial.com/",
+    "finalUrl": "https://antlersocial.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 74,
+      "accessibility": 94,
+      "best-practices": 73,
+      "seo": 92,
+      "agentic-browsing": 91
+    },
+    "timings": {
+      "fcp": 2568,
+      "lcp": 3630,
+      "si": 2568,
+      "tbt": 321,
+      "tti": 6835,
+      "cls": 0.133,
+      "ttfb": 714,
+      "maxPotentialFid": 311,
+      "serverResponseTime": 59,
+      "networkRtt": 34.6,
+      "networkServerLatency": 114.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 208.4,
+      "elementRenderDelay": 121.3
+    },
+    "weight": {
+      "total": 846522,
+      "requests": 47,
+      "mainDocument": 170407,
+      "byType": {
+        "total": {
+          "bytes": 842878,
+          "requests": 29
+        },
+        "script": {
+          "bytes": 563228,
+          "requests": 10
+        },
+        "document": {
+          "bytes": 170407,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 53337,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 47807,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 6143,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 1956,
+          "requests": 6
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 608699,
+          "requests": 16
+        }
+      },
+      "scripts": 10,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 608717,
+      "mainThreadMs": 173.2,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 482495,
+          "mainThreadMs": 143.1,
+          "byType": {
+            "script": 482495
+          },
+          "typedBytes": 482495
+        },
+        {
+          "entity": "Netlify",
+          "bytes": 55246,
+          "mainThreadMs": 22.4,
+          "byType": {
+            "script": 55246
+          },
+          "typedBytes": 55246
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 48986,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 1179,
+            "font": 47807
+          },
+          "typedBytes": 48986
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 21825,
+          "mainThreadMs": 7.3,
+          "byType": {
+            "script": 21409,
+            "other": 416
+          },
+          "typedBytes": 21825
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 105,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 105
+          },
+          "typedBytes": 105
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1922.5,
+      "byGroup": {
+        "scriptEvaluation": 838.3,
+        "other": 441,
+        "styleLayout": 271.7,
+        "paintCompositeRender": 164.3,
+        "scriptParseCompile": 110.5,
+        "parseHTML": 77.2,
+        "garbageCollection": 19.5
+      },
+      "bootupMs": 913.6,
+      "longTasks": 4,
+      "longestTaskMs": 311
+    },
+    "dom": {
+      "elements": 573,
+      "depth": 12,
+      "maxChildren": 24
+    },
+    "waste": {
+      "unusedJsBytes": 200051,
+      "unusedCssBytes": 21305,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 13107,
+      "renderBlockingMs": 805,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 16056.75,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 24,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 3
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 8
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 8,
+      "baselineLimitedFeatures": 23
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3750.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T10:53:14.105Z",
+      "runtimeMs": 7999
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": true,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8GWM05BFDABTWWE6H6XQFKC"
+    },
+    "violations": 3,
+    "passes": 668,
+    "incomplete": 7,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".stat-slat:nth-child(1) > .stat-slat__content.\\[.\\] > .stat-slat__title",
+            "snippet": "<h4 class=\"stat-slat__title\">Impressions generated</h4>"
+          },
+          {
+            "selector": ".stat-slat:nth-child(2) > .stat-slat__content.\\[.\\] > .stat-slat__title",
+            "snippet": "<h4 class=\"stat-slat__title\">Engagements</h4>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h4:nth-child(3)",
+            "snippet": "<h4><a href=\"mailto:jess@antlersocial.com\">jess@antlersocial.com</a></h4>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c36ad582d87b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"4ac2e2784ceb1766e3233a54938dd927-ssl\""
+        }
+      },
+      {
+        "hash": "c36ad582d87b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"4ac2e2784ceb1766e3233a54938dd927-ssl\""
+        }
+      },
+      {
+        "hash": "c36ad582d87b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535985",
+          "etag": "W/\"4ac2e2784ceb1766e3233a54938dd927-ssl\""
+        }
+      },
+      {
+        "hash": "c36ad582d87b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535978",
+          "etag": "W/\"4ac2e2784ceb1766e3233a54938dd927-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

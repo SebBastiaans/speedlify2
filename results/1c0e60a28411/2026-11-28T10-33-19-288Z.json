@@ -1,0 +1,393 @@
+{
+  "url": "https://www.nasa.gov/",
+  "name": "NASA",
+  "group": "wordpress-showcase",
+  "groupName": "WordPress Showcase",
+  "timestamp": 1795861999288,
+  "date": "2026-11-28T10:33:19.288Z",
+  "runId": "2026-11-28T10-21-12-203Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 92274,
+  "error": null,
+  "variance": {
+    "min": 50,
+    "max": 51,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.nasa.gov/",
+    "finalUrl": "https://www.nasa.gov/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 50,
+      "accessibility": 95,
+      "best-practices": 73,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1961,
+      "lcp": 137206,
+      "si": 27643,
+      "tbt": 540,
+      "tti": 150278,
+      "cls": 0,
+      "ttfb": 651,
+      "maxPotentialFid": 299,
+      "serverResponseTime": 11,
+      "networkRtt": 38,
+      "networkServerLatency": 50.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 71.4,
+      "resourceLoadDelay": 258.8,
+      "resourceLoadDuration": 86.8,
+      "elementRenderDelay": 221.7
+    },
+    "weight": {
+      "total": 38020671,
+      "requests": 114,
+      "mainDocument": 46509,
+      "byType": {
+        "total": {
+          "bytes": 38020671,
+          "requests": 114
+        },
+        "image": {
+          "bytes": 34690054,
+          "requests": 46
+        },
+        "script": {
+          "bytes": 2818338,
+          "requests": 36
+        },
+        "font": {
+          "bytes": 210534,
+          "requests": 7
+        },
+        "document": {
+          "bytes": 183236,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 112831,
+          "requests": 8
+        },
+        "other": {
+          "bytes": 5678,
+          "requests": 14
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2927260,
+          "requests": 43
+        }
+      },
+      "scripts": 36,
+      "stylesheets": 8,
+      "fonts": 7
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 725584,
+      "mainThreadMs": 255.3,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 660562,
+          "mainThreadMs": 210.9,
+          "byType": {
+            "script": 660562
+          },
+          "typedBytes": 660562
+        },
+        {
+          "entity": "Parse.ly",
+          "bytes": 27518,
+          "mainThreadMs": 22.2,
+          "byType": {
+            "script": 27026,
+            "other": 337,
+            "image": 155
+          },
+          "typedBytes": 27518
+        },
+        {
+          "entity": "YouTube",
+          "bytes": 22777,
+          "mainThreadMs": 6.5,
+          "byType": {
+            "script": 22777
+          },
+          "typedBytes": 22777
+        },
+        {
+          "entity": "digitalgov.gov",
+          "bytes": 14114,
+          "mainThreadMs": 15.7,
+          "byType": {
+            "script": 14114
+          },
+          "typedBytes": 14114
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 613,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 613
+          },
+          "typedBytes": 613
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 4141.7,
+      "byGroup": {
+        "other": 1642.6,
+        "scriptEvaluation": 1210.3,
+        "styleLayout": 473.6,
+        "paintCompositeRender": 348.8,
+        "scriptParseCompile": 238,
+        "parseHTML": 174.7,
+        "garbageCollection": 53.7
+      },
+      "bootupMs": 1247.2,
+      "longTasks": 15,
+      "longestTaskMs": 299
+    },
+    "dom": {
+      "elements": 2465,
+      "depth": 18,
+      "maxChildren": 33
+    },
+    "waste": {
+      "unusedJsBytes": 359329,
+      "unusedCssBytes": 40411,
+      "legacyJsBytes": 7558,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 6911,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1118,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 2998322.40625,
+      "poorlyCachedCount": 29
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 28,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 4
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 3
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 3,
+      "baselineLimitedFeatures": 60
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3586.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T10:33:20.553Z",
+      "runtimeMs": 12081.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.1,
+    "resourceLoadDelay": 1587,
+    "resourceLoadDuration": 30731.6,
+    "elementRenderDelay": 59.2
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "wordpress",
+      "name": "WordPress",
+      "icon": "Wordpress",
+      "version": "7.1.5",
+      "source": "meta",
+      "raw": "WordPress 7.1.5"
+    },
+    "probe": {
+      "metas": [
+        "WordPress 7.1.5"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 5,
+    "passes": 1299,
+    "incomplete": 37,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 3,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#global-navigation-trigger--mobile",
+            "snippet": "<button id=\"global-navigation-trigger--mobile\" class=\"hds-global-menu-toggle menu-toggle menu-mobile-toggle\" aria-expanded=\"false\" data-menu-action=\"open\" data-menu-location=\"left\">"
+          },
+          {
+            "selector": ".hds-search-panel-mobile-trigger",
+            "snippet": "<button class=\"hds-search-panel-mobile-trigger search-mobile color-carbon-20 menu-toggle\" data-menu-action=\"open\" data-menu-location=\"right\">"
+          },
+          {
+            "selector": "#youtube-8748921 >>> .ytmVideoInfoChannelAvatar",
+            "snippet": "<button class=\"ytmVideoInfoLink ytmVideoInfoChannelAvatar\"><img class=\"ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspect…"
+          }
+        ]
+      },
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Elements must only use supported ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#youtube-8748921 >>> .ytmVideoInfoVideoTitle",
+            "snippet": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=TQUqnOtUC_M\"><span class=\"ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap\" style=\"\">2…"
+          }
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#youtube-8748921 >>> #movie_player",
+            "snippet": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/pl…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "38cb21619893",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "38cb21619893",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "38cb21619893",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "38cb21619893",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "d17a44ebb644",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

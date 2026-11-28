@@ -1,0 +1,433 @@
+{
+  "url": "https://www.noguchi.org/",
+  "name": "The Noguchi Museum",
+  "group": "wordpress-showcase",
+  "groupName": "WordPress Showcase",
+  "timestamp": 1795862094565,
+  "date": "2026-11-28T10:34:54.565Z",
+  "runId": "2026-11-28T10-21-12-203Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 56032,
+  "error": null,
+  "variance": {
+    "min": 70,
+    "max": 74,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.noguchi.org/",
+    "finalUrl": "https://www.noguchi.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 73,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1072,
+      "lcp": 6169,
+      "si": 2626,
+      "tbt": 249,
+      "tti": 6169,
+      "cls": 0,
+      "ttfb": 618,
+      "maxPotentialFid": 233,
+      "serverResponseTime": 207,
+      "networkRtt": 14.6,
+      "networkServerLatency": 30
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 274.8,
+      "resourceLoadDelay": 399.3,
+      "resourceLoadDuration": 29.7,
+      "elementRenderDelay": 122.5
+    },
+    "weight": {
+      "total": 2170653,
+      "requests": 23,
+      "mainDocument": 18216,
+      "byType": {
+        "total": {
+          "bytes": 2170653,
+          "requests": 22
+        },
+        "image": {
+          "bytes": 1433573,
+          "requests": 10
+        },
+        "script": {
+          "bytes": 488006,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 186782,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 42609,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 18216,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1467,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 191088,
+          "requests": 3
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 191088,
+      "mainThreadMs": 45.3,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 181726,
+          "mainThreadMs": 43.2,
+          "byType": {
+            "script": 181726
+          },
+          "typedBytes": 181726
+        },
+        {
+          "entity": "Vimeo",
+          "bytes": 8804,
+          "mainThreadMs": 2.1,
+          "byType": {
+            "script": 8804
+          },
+          "typedBytes": 8804
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 558,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 558
+          },
+          "typedBytes": 558
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1456.3,
+      "byGroup": {
+        "scriptEvaluation": 580.8,
+        "other": 400.9,
+        "styleLayout": 260.6,
+        "scriptParseCompile": 95.1,
+        "paintCompositeRender": 63.9,
+        "parseHTML": 42.6,
+        "garbageCollection": 12.5
+      },
+      "bootupMs": 665,
+      "longTasks": 3,
+      "longestTaskMs": 233
+    },
+    "dom": {
+      "elements": 1013,
+      "depth": 26,
+      "maxChildren": 18
+    },
+    "waste": {
+      "unusedJsBytes": 274376,
+      "unusedCssBytes": 36507,
+      "legacyJsBytes": 9913,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 151,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 7593.450000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 32,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "aria-hidden-focus",
+          "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 24
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3665,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T10:34:55.745Z",
+      "runtimeMs": 9782.8
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.8,
+    "resourceLoadDelay": 13326.5,
+    "resourceLoadDuration": 1749.3,
+    "elementRenderDelay": 640.2
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a618ba5bcf9faa16-DFW",
+      "server": "cloudflare",
+      "x-powered-by": "WP Engine"
+    },
+    "violations": 10,
+    "passes": 889,
+    "incomplete": 0,
+    "violationRules": 8,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "ARIA hidden element must not be focusable or contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-hidden-focus?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#slick-slide10 > div > .slick-slide[aria-hidden=\"true\"]",
+            "snippet": "<div class=\"slick-slide\" aria-hidden=\"true\" style=\"width: 100%; display: inline-block;\">"
+          },
+          {
+            "selector": ".hide-for-desktop > .mailchimp-newsletter-form[aria-hidden=\"true\"]",
+            "snippet": "<div class=\"mailchimp-newsletter-form\" aria-hidden=\"true\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-contentinfo-is-top-level",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Contentinfo landmark should not be contained in another landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-contentinfo-is-top-level?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#menu-container > footer",
+            "snippet": "<footer class=\"text-align-center\">"
+          },
+          {
+            "selector": "div[role=\"contentinfo\"]",
+            "snippet": "<div class=\"copyright\" role=\"contentinfo\" aria-label=\"Copyright\">© 2026 INFGM</div>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-banner-is-top-level",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Banner landmark should not be contained in another landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-banner-is-top-level?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#search-container > header",
+            "snippet": "<header>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-no-duplicate-banner",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should not have more than one banner landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-banner?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#header-mobile",
+            "snippet": "<header id=\"header-mobile\" class=\"hide-for-desktop\" style=\"position: fixed; margin: auto; inset: 0px auto auto 0px; box-sizing: border-box; width: 100%;\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-no-duplicate-contentinfo",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should not have more than one contentinfo landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-contentinfo?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#menu-container > footer",
+            "snippet": "<footer class=\"text-align-center\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#header-mobile",
+            "snippet": "<header id=\"header-mobile\" class=\"hide-for-desktop\" style=\"position: fixed; margin: auto; inset: 0px auto auto 0px; box-sizing: border-box; width: 100%;\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en-US\" class=\"home wp-singular pag...\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".screen-reader-only",
+            "snippet": "<div class=\"screen-reader-only\"><a href=\"https://www.noguchi.org/museum/education/access/\">Access</a></div>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d765890cb024",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 12 Nov 2026 21:00:37 GMT",
+          "x-cache": "HIT: 18"
+        }
+      },
+      {
+        "hash": "d765890cb024",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 12 Nov 2026 21:00:37 GMT",
+          "x-cache": "HIT: 19"
+        }
+      },
+      {
+        "hash": "d765890cb024",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 12 Nov 2026 21:00:37 GMT",
+          "x-cache": "HIT: 20"
+        }
+      },
+      {
+        "hash": "d765890cb024",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 12 Nov 2026 21:00:37 GMT",
+          "x-cache": "HIT: 21"
+        }
+      },
+      {
+        "hash": "d765890cb024",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 12 Nov 2026 21:00:37 GMT",
+          "x-cache": "HIT: 22"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

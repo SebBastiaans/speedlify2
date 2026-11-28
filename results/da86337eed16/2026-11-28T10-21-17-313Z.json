@@ -1,0 +1,350 @@
+{
+  "url": "https://disneyexperiences.com/",
+  "name": "Disney Experiences",
+  "group": "wordpress-showcase",
+  "groupName": "WordPress Showcase",
+  "timestamp": 1795861277313,
+  "date": "2026-11-28T10:21:17.313Z",
+  "runId": "2026-11-28T10-21-12-203Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 99278,
+  "error": null,
+  "variance": {
+    "min": 47,
+    "max": 64,
+    "spread": 17,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://disneyexperiences.com/",
+    "finalUrl": "https://disneyexperiences.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 63,
+      "accessibility": 95,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 4424,
+      "lcp": 15824,
+      "si": 4424,
+      "tbt": 105,
+      "tti": 16598,
+      "cls": 0.018,
+      "ttfb": 625,
+      "maxPotentialFid": 103,
+      "serverResponseTime": 174,
+      "networkRtt": 0.9,
+      "networkServerLatency": 66.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 176,
+      "resourceLoadDelay": 178.6,
+      "resourceLoadDuration": 0,
+      "elementRenderDelay": 139.6
+    },
+    "weight": {
+      "total": 44842594,
+      "requests": 81,
+      "mainDocument": 351510,
+      "byType": {
+        "total": {
+          "bytes": 44842595,
+          "requests": 78
+        },
+        "media": {
+          "bytes": 22063012,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 21697257,
+          "requests": 20
+        },
+        "document": {
+          "bytes": 351510,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 331928,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 177250,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 169493,
+          "requests": 28
+        },
+        "other": {
+          "bytes": 52145,
+          "requests": 9
+        },
+        "third-party": {
+          "bytes": 318180,
+          "requests": 18
+        }
+      },
+      "scripts": 14,
+      "stylesheets": 28,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 317317,
+      "mainThreadMs": 62.2,
+      "top": [
+        {
+          "entity": "Optanon",
+          "bytes": 207706,
+          "mainThreadMs": 52.6,
+          "byType": {
+            "script": 136014,
+            "other": 49665,
+            "image": 22027
+          },
+          "typedBytes": 207706
+        },
+        {
+          "entity": "disney.com",
+          "bytes": 71982,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 71982
+          },
+          "typedBytes": 71982
+        },
+        {
+          "entity": "Adobe Tag Manager",
+          "bytes": 37404,
+          "mainThreadMs": 9.6,
+          "byType": {
+            "script": 37404
+          },
+          "typedBytes": 37404
+        },
+        {
+          "entity": "go.com",
+          "bytes": 225,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 225
+          },
+          "typedBytes": 225
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2059.7,
+      "byGroup": {
+        "other": 898.4,
+        "scriptEvaluation": 513.3,
+        "styleLayout": 263.1,
+        "scriptParseCompile": 153.7,
+        "parseHTML": 148.2,
+        "paintCompositeRender": 71.3,
+        "garbageCollection": 11.9
+      },
+      "bootupMs": 469.8,
+      "longTasks": 4,
+      "longestTaskMs": 103
+    },
+    "dom": {
+      "elements": 2836,
+      "depth": 16,
+      "maxChildren": 759
+    },
+    "waste": {
+      "unusedJsBytes": 166718,
+      "unusedCssBytes": 126001,
+      "legacyJsBytes": 8780,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 2573,
+      "renderBlockingCount": 33,
+      "poorlyCachedBytes": 2281302.7999999984,
+      "poorlyCachedCount": 59
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 26,
+      "failingNodes": 13,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 8
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 5
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 26
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3905,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T10:21:30.500Z",
+      "runtimeMs": 8072.8
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.7,
+    "elementRenderDelay": 2954.8
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Apache",
+      "detailIcon": "Apache",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Apache",
+      "via": "1.1 99efc521448ac72d9653e4dc0952e778.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "ju2m-9xwse9lrm13NL0znT4PnUV8rdwyGhjddWaxIaVR5JFPoN0f8g=="
+    },
+    "violations": 5,
+    "passes": 972,
+    "incomplete": 26,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 5,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[aria-label=\"1 / 11\"] > .no-underline[target=\"_self\"] > .has-purple-gradient-bg.text-start.px-3 > h4",
+            "snippet": "<h4 class=\"t05\">Bringing the World of ‘Disney’s Hexed’ to Life at Disneyland</h4>"
+          },
+          {
+            "selector": "div[aria-label=\"1 / 9\"] > .no-underline > .content-wrapper > .standard.card-container.has-no-bg > .content-container > h6",
+            "snippet": "<h6 class=\"t06 mb-s\">Disneyland Resort</h6>"
+          },
+          {
+            "selector": ".col-lg-4.mb-l:nth-child(1) > .no-underline[target=\"_self\"] > .content-wrapper > .card.standard.card-container > .content-container > h6",
+            "snippet": "<h6 class=\"t06\"> Disney Cruise Line </h6>"
+          },
+          {
+            "selector": ".col-lg-4.mb-l:nth-child(2) > .no-underline[target=\"_self\"] > .content-wrapper > .card.standard.card-container > .content-container > h6",
+            "snippet": "<h6 class=\"t06\"> Disney Vacation Club </h6>"
+          },
+          {
+            "selector": ".col-lg-4.mb-l:nth-child(3) > .no-underline[target=\"_self\"] > .content-wrapper > .card.standard.card-container > .content-container > h6",
+            "snippet": "<h6 class=\"t06\"> Walt Disney World Resort </h6>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "f3f9d4a7e83d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "f3f9d4a7e83d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "f3f9d4a7e83d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "f3f9d4a7e83d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "f3f9d4a7e83d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "Miss from cloudfront"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

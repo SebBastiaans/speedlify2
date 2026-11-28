@@ -1,0 +1,380 @@
+{
+  "url": "https://www.whitehouse.gov/",
+  "name": "The White House",
+  "group": "wordpress-showcase",
+  "groupName": "WordPress Showcase",
+  "timestamp": 1795863102052,
+  "date": "2026-11-28T10:51:42.052Z",
+  "runId": "2026-11-28T10-21-12-203Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 87870,
+  "error": null,
+  "variance": {
+    "min": 51,
+    "max": 57,
+    "spread": 6,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.whitehouse.gov/",
+    "finalUrl": "https://www.whitehouse.gov/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 55,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 85,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1203,
+      "lcp": 20175,
+      "si": 4933,
+      "tbt": 655,
+      "tti": 22754,
+      "cls": 0.028,
+      "ttfb": 614,
+      "maxPotentialFid": 209,
+      "serverResponseTime": 15,
+      "networkRtt": 33,
+      "networkServerLatency": 69.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 103.1,
+      "resourceLoadDelay": 47.1,
+      "resourceLoadDuration": 221.3,
+      "elementRenderDelay": 263.5
+    },
+    "weight": {
+      "total": 30556245,
+      "requests": 105,
+      "mainDocument": 56826,
+      "byType": {
+        "total": {
+          "bytes": 30556245,
+          "requests": 105
+        },
+        "media": {
+          "bytes": 26300989,
+          "requests": 7
+        },
+        "image": {
+          "bytes": 2982681,
+          "requests": 25
+        },
+        "script": {
+          "bytes": 604294,
+          "requests": 24
+        },
+        "font": {
+          "bytes": 558984,
+          "requests": 28
+        },
+        "document": {
+          "bytes": 56826,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 34047,
+          "requests": 13
+        },
+        "stylesheet": {
+          "bytes": 18424,
+          "requests": 7
+        },
+        "third-party": {
+          "bytes": 870997,
+          "requests": 35
+        }
+      },
+      "scripts": 24,
+      "stylesheets": 7,
+      "fonts": 28
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 870997,
+      "mainThreadMs": 175.8,
+      "top": [
+        {
+          "entity": "Mailchimp",
+          "bytes": 379056,
+          "mainThreadMs": 60.3,
+          "byType": {
+            "script": 157130,
+            "image": 209510,
+            "other": 12416
+          },
+          "typedBytes": 379056
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 326178,
+          "mainThreadMs": 89.2,
+          "byType": {
+            "script": 326178
+          },
+          "typedBytes": 326178
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 79162,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1594,
+            "font": 77568
+          },
+          "typedBytes": 79162
+        },
+        {
+          "entity": "Parse.ly",
+          "bytes": 61347,
+          "mainThreadMs": 17.3,
+          "byType": {
+            "script": 60843,
+            "other": 349,
+            "image": 155
+          },
+          "typedBytes": 61347
+        },
+        {
+          "entity": "New Relic",
+          "bytes": 24486,
+          "mainThreadMs": 8.7,
+          "byType": {
+            "script": 22694,
+            "other": 1792
+          },
+          "typedBytes": 24486
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3739.3,
+      "byGroup": {
+        "other": 1318.9,
+        "scriptEvaluation": 1310.2,
+        "styleLayout": 680.3,
+        "scriptParseCompile": 180.9,
+        "paintCompositeRender": 133.5,
+        "parseHTML": 97.1,
+        "garbageCollection": 18.4
+      },
+      "bootupMs": 1393.9,
+      "longTasks": 18,
+      "longestTaskMs": 209
+    },
+    "dom": {
+      "elements": 973,
+      "depth": 19,
+      "maxChildren": 42
+    },
+    "waste": {
+      "unusedJsBytes": 249296,
+      "unusedCssBytes": 11785,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 30218,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 352585.1013888889,
+      "poorlyCachedCount": 7
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 31,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are not crawlable",
+          "weight": 1,
+          "nodes": 14
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 55
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3812,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T10:51:43.259Z",
+      "runtimeMs": 10270.4
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.9,
+    "resourceLoadDelay": 1054.6,
+    "resourceLoadDuration": 18869.4,
+    "elementRenderDelay": 22149.3
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 4,
+    "passes": 624,
+    "incomplete": 27,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#mcforms-132923-353640 .visible",
+            "snippet": "<form data-amped-type=\"step\" role=\"dialog\" aria-modal=\"false\" aria-labelledby=\"popup_label_353640\" aria-live=\"assertive\" tabindex=\"-1\" class=\"step visible\" style=\"display: block; outline-color: trans…"
+          }
+        ]
+      },
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h1",
+            "snippet": "<h1 class=\"wp-block-whitehouse-topper__headline\"> </h1>"
+          }
+        ]
+      },
+      {
+        "id": "label-title-only",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Form elements should have a visible label",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-title-only?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "input[name=\"EMAIL\"]",
+            "snippet": "<input type=\"email\" value=\"\" name=\"EMAIL\" placeholder=\"Your email\" title=\"Your email\" required=\"\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".wp-block-whitehouse-header__primary-navigation",
+            "snippet": "<nav class=\"wp-block-whitehouse-header__primary-navigation\" data-wp-init=\"callbacks.initPrimaryNavigation\" data-wp-on-async-window--resize=\"callbacks.handlePrimaryNavigationResize\" data-wp-on-async--…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e1c01aad9a27",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "e1c01aad9a27",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "e1c01aad9a27",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "e1c01aad9a27",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "6034f67a1439",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "HIT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
