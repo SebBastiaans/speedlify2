@@ -1,0 +1,433 @@
+{
+  "url": "https://www.typeform.com/",
+  "name": "Typeform",
+  "group": "nextjs-showcase",
+  "groupName": "Next.js Showcase",
+  "timestamp": 1795862422398,
+  "date": "2026-11-28T10:40:22.398Z",
+  "runId": "2026-11-28T10-21-16-184Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 372821,
+  "error": null,
+  "variance": {
+    "min": 28,
+    "max": 32,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.typeform.com/",
+    "finalUrl": "https://www.typeform.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 29,
+      "accessibility": 97,
+      "best-practices": 69,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 4242,
+      "lcp": 18221,
+      "si": 9644,
+      "tbt": 2855,
+      "tti": 28407,
+      "cls": 0,
+      "ttfb": 527,
+      "maxPotentialFid": 419,
+      "serverResponseTime": 161,
+      "networkRtt": 47.4,
+      "networkServerLatency": 129.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 162.9,
+      "elementRenderDelay": 1240.6
+    },
+    "weight": {
+      "total": 6712636,
+      "requests": 271,
+      "mainDocument": 312743,
+      "byType": {
+        "total": {
+          "bytes": 6712636,
+          "requests": 271
+        },
+        "other": {
+          "bytes": 2857954,
+          "requests": 146
+        },
+        "script": {
+          "bytes": 2729487,
+          "requests": 66
+        },
+        "document": {
+          "bytes": 313713,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 313174,
+          "requests": 48
+        },
+        "font": {
+          "bytes": 213908,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 169367,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 115033,
+          "requests": 2
+        },
+        "third-party": {
+          "bytes": 5613003,
+          "requests": 258
+        }
+      },
+      "scripts": 66,
+      "stylesheets": 2,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 29,
+      "bytes": 5609276,
+      "mainThreadMs": 2700.1,
+      "top": [
+        {
+          "entity": "Wistia",
+          "bytes": 3160645,
+          "mainThreadMs": 625.7,
+          "byType": {
+            "script": 409881,
+            "other": 2749169,
+            "image": 1595
+          },
+          "typedBytes": 3160645
+        },
+        {
+          "entity": "website-files.com",
+          "bytes": 1070146,
+          "mainThreadMs": 266.9,
+          "byType": {
+            "script": 318307,
+            "stylesheet": 114119,
+            "media": 169367,
+            "image": 302047,
+            "font": 165444,
+            "other": 862
+          },
+          "typedBytes": 1070146
+        },
+        {
+          "entity": "Optanon",
+          "bytes": 231884,
+          "mainThreadMs": 70.4,
+          "byType": {
+            "script": 157675,
+            "other": 65363,
+            "image": 8846
+          },
+          "typedBytes": 231884
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 217412,
+          "mainThreadMs": 93.4,
+          "byType": {
+            "script": 217412
+          },
+          "typedBytes": 217412
+        },
+        {
+          "entity": "TikTok",
+          "bytes": 166426,
+          "mainThreadMs": 97.6,
+          "byType": {
+            "script": 161652,
+            "other": 4774
+          },
+          "typedBytes": 166426
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 38541.4,
+      "byGroup": {
+        "scriptEvaluation": 18153.6,
+        "other": 14392.3,
+        "styleLayout": 2417.5,
+        "paintCompositeRender": 2040.4,
+        "scriptParseCompile": 799.6,
+        "garbageCollection": 586.1,
+        "parseHTML": 151.9
+      },
+      "bootupMs": 18511.6,
+      "longTasks": 20,
+      "longestTaskMs": 419
+    },
+    "dom": {
+      "elements": 2126,
+      "depth": 33,
+      "maxChildren": 41
+    },
+    "waste": {
+      "unusedJsBytes": 1037359,
+      "unusedCssBytes": 137934,
+      "legacyJsBytes": 59901,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 38514,
+      "unminifiedCssBytes": 2375,
+      "renderBlockingMs": 5816,
+      "renderBlockingCount": 12,
+      "poorlyCachedBytes": 963483.3724999998,
+      "poorlyCachedCount": 47
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 33,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 5,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 15
+        },
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 22
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": null,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 62
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2649.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T10:40:47.553Z",
+      "runtimeMs": 75973.5
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.7,
+    "elementRenderDelay": 14432.4
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": true,
+    "generator": {
+      "id": "webflow",
+      "name": "Webflow",
+      "icon": "Webflow",
+      "version": null,
+      "source": "meta",
+      "raw": "Webflow"
+    },
+    "probe": {
+      "metas": [
+        "Webflow"
+      ],
+      "marks": [
+        "webflow",
+        "preact"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a618c725feb77f3b-CMH",
+      "server": "cloudflare",
+      "via": "1.1 fc89c9c06a97b25cf4504eb862f19fec.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "WAlECy2v_w4qVJumVX6TVf6sgAiLNlmaR4i6OOzEPQ8n6uxnURO3XQ=="
+    },
+    "violations": 5,
+    "passes": 2870,
+    "incomplete": 22,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div:nth-child(5) > .text-media_wrap[data-wf--2--style-layout=\"right\"][data-media-move=\"section\"] > .text-media_layout-outer > .u-container-10.u-container:nth-child(1) > .text-media_layout.u-layout[data-media-move=\"container\"] > .text-media_content > .section-heading_wrap[data-wf--101--style-heading-alignment=\"left\"] > .section-heading_content > .u-gap-8.u-hflex-left-center > .eyebrow_wrap > .u-text-eyebrow",
+            "snippet": "<p class=\"u-text-eyebrow\">INTELLIGENT forms</p>"
+          },
+          {
+            "selector": ".w-variant-f2e47773-c8d1-2130-3e67-791f3bcfdd1a.text-media_layout.u-layout > .text-media_content > .section-heading_wrap[data-wf--101--style-heading-alignment=\"left\"] > .section-heading_content > .u-gap-8.u-hflex-left-center > .h2-tag_wrap[data-wf--atom-tag--variant=\"base---large\"] > .h2-tag",
+            "snippet": "<p class=\"h2-tag\">NEW</p>"
+          },
+          {
+            "selector": ".text-media_wrap[data-wf--2--style-layout=\"right\"][data-media-move=\"section\"] > .text-media_layout-outer > .u-container-10.u-container:nth-child(1) > .text-media_layout.u-layout[data-media-move=\"container\"] > .text-media_content > .section-heading_wrap[data-wf--101--style-heading-alignment=\"left\"] > .section-heading_content > .u-gap-8.u-hflex-left-center > .h2-tag_wrap[data-wf--atom-tag--variant=\"base---large\"] > .h2-tag",
+            "snippet": "<p class=\"h2-tag\">NEW</p>"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".ot-cookie-policy-link",
+            "snippet": "<a class=\"ot-cookie-policy-link\" href=\"https://admin.typeform.com/to/dwk6gt/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\", opens in a new tab\">cookie policy</a>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".announcement-banner_content-wrapper",
+            "snippet": "<div class=\"announcement-banner_content-wrapper\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "f168e4ef9c40",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "232759",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 25 Nov 2026 18:01:07 GMT",
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "f168e4ef9c40",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "232783",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 25 Nov 2026 18:01:04 GMT",
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "f168e4ef9c40",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "232859",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 25 Nov 2026 18:01:04 GMT",
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "f168e4ef9c40",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "232935",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 25 Nov 2026 18:01:04 GMT",
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "f168e4ef9c40",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "233007",
+          "cf-cache-status": "HIT",
+          "last-modified": "Wed, 25 Nov 2026 18:01:04 GMT",
+          "x-cache": "Miss from cloudfront"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

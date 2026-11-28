@@ -1,0 +1,401 @@
+{
+  "url": "https://www.taylorswift.com/",
+  "name": "Taylor Swift",
+  "group": "wordpress-showcase",
+  "groupName": "WordPress Showcase",
+  "timestamp": 1795862314600,
+  "date": "2026-11-28T10:38:34.600Z",
+  "runId": "2026-11-28T10-21-16-184Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 104796,
+  "error": null,
+  "variance": {
+    "min": 6,
+    "max": 30,
+    "spread": 24,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.taylorswift.com/",
+    "finalUrl": "https://www.taylorswift.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 29,
+      "accessibility": 95,
+      "best-practices": 77,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 4897,
+      "lcp": 14765,
+      "si": 9914,
+      "tbt": 1911,
+      "tti": 34192,
+      "cls": 0.031,
+      "ttfb": 611,
+      "maxPotentialFid": 380,
+      "serverResponseTime": 65,
+      "networkRtt": 10.1,
+      "networkServerLatency": 73.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 66.6,
+      "resourceLoadDelay": 15.4,
+      "resourceLoadDuration": 100.9,
+      "elementRenderDelay": 168
+    },
+    "weight": {
+      "total": 10266701,
+      "requests": 179,
+      "mainDocument": 70188,
+      "byType": {
+        "total": {
+          "bytes": 10266702,
+          "requests": 177
+        },
+        "image": {
+          "bytes": 7164895,
+          "requests": 60
+        },
+        "script": {
+          "bytes": 2503121,
+          "requests": 71
+        },
+        "font": {
+          "bytes": 279720,
+          "requests": 9
+        },
+        "stylesheet": {
+          "bytes": 168680,
+          "requests": 14
+        },
+        "document": {
+          "bytes": 98767,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 51519,
+          "requests": 21
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 7624119,
+          "requests": 110
+        }
+      },
+      "scripts": 72,
+      "stylesheets": 14,
+      "fonts": 9
+    },
+    "thirdParty": {
+      "count": 17,
+      "bytes": 7520739,
+      "mainThreadMs": 890.4,
+      "top": [
+        {
+          "entity": "umusic.com",
+          "bytes": 4913841,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 4857911,
+            "font": 55930
+          },
+          "typedBytes": 4913841
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 1319604,
+          "mainThreadMs": 534.1,
+          "byType": {
+            "script": 1319604
+          },
+          "typedBytes": 1319604
+        },
+        {
+          "entity": "Google CDN",
+          "bytes": 360995,
+          "mainThreadMs": 98.4,
+          "byType": {
+            "other": 360995
+          },
+          "typedBytes": 360995
+        },
+        {
+          "entity": "Optanon",
+          "bytes": 223006,
+          "mainThreadMs": 76.6,
+          "byType": {
+            "script": 144067,
+            "other": 43660,
+            "image": 35279
+          },
+          "typedBytes": 223006
+        },
+        {
+          "entity": "YouTube",
+          "bytes": 188610,
+          "mainThreadMs": 3.4,
+          "byType": {
+            "script": 9979,
+            "image": 178631
+          },
+          "typedBytes": 188610
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 8067.7,
+      "byGroup": {
+        "scriptEvaluation": 4600,
+        "other": 1229.3,
+        "styleLayout": 839.8,
+        "scriptParseCompile": 833.3,
+        "parseHTML": 266.2,
+        "garbageCollection": 153.2,
+        "paintCompositeRender": 146
+      },
+      "bootupMs": 5083.2,
+      "longTasks": 20,
+      "longestTaskMs": 380
+    },
+    "dom": {
+      "elements": 1829,
+      "depth": 22,
+      "maxChildren": 250
+    },
+    "waste": {
+      "unusedJsBytes": 975605,
+      "unusedCssBytes": 141871,
+      "legacyJsBytes": 37745,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 15212,
+      "unminifiedCssBytes": 3510,
+      "renderBlockingMs": 12456,
+      "renderBlockingCount": 40,
+      "poorlyCachedBytes": 7394116.929166664,
+      "poorlyCachedCount": 109
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 35,
+      "failingNodes": 6,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 6
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 43
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2631,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T10:38:51.467Z",
+      "runtimeMs": 13454.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.2,
+    "elementRenderDelay": 17362.1
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "wordpress",
+      "name": "WordPress",
+      "icon": "Wordpress",
+      "version": "6.9.12",
+      "source": "meta",
+      "raw": "WordPress 6.9.12"
+    },
+    "probe": {
+      "metas": [
+        "WordPress 6.9.12"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Envoy",
+      "detailIcon": "Envoyproxy",
+      "source": "server"
+    },
+    "headers": {
+      "server": "istio-envoy"
+    },
+    "violations": 12,
+    "passes": 1552,
+    "incomplete": 44,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 11,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "body > .sr-only",
+            "snippet": "<span class=\"sr-only\">If you need assistance using our website, placing an order, or if you are using a screen reader and are having problems with this website, please contact us for assistance. Phon…"
+          },
+          {
+            "selector": ".copyright",
+            "snippet": "<div class=\"copyright \"><span><a href=\"https://www.taylorswift.com/\"> © <span class=\"copyright-date\">2026 </span>Taylor Nation, LLC</a></span></div>"
+          },
+          {
+            "selector": "a[href$=\"terms/\"]",
+            "snippet": "<a class=\"\" href=\"/terms/\">Terms</a>"
+          },
+          {
+            "selector": "a[href$=\"privacy/\"]",
+            "snippet": "<a class=\"\" href=\"/privacy/\">Privacy</a>"
+          },
+          {
+            "selector": "a[href$=\"accessibility/\"]",
+            "snippet": "<a class=\"\" href=\"/accessibility/\">Accessibility</a>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h6[aria-level=\"6\"]",
+            "snippet": "<h6 aria-level=\"6\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c605fb967d63",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "59154",
+          "x-cache": "HIT (36009)"
+        }
+      },
+      {
+        "hash": "3e1c47c10d33",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "59169",
+          "x-cache": "HIT (36123)"
+        }
+      },
+      {
+        "hash": "3e1c47c10d33",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "59182",
+          "x-cache": "HIT (36125)"
+        }
+      },
+      {
+        "hash": "3e1c47c10d33",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "59196",
+          "x-cache": "HIT (36127)"
+        }
+      },
+      {
+        "hash": "3e1c47c10d33",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "59252",
+          "x-cache": "HIT (36140)"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

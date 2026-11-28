@@ -1,0 +1,258 @@
+{
+  "url": "https://www.producthunt.com/",
+  "name": "Product Hunt",
+  "group": "nextjs-showcase",
+  "groupName": "Next.js Showcase",
+  "timestamp": 1795861816566,
+  "date": "2026-11-28T10:30:16.566Z",
+  "runId": "2026-11-28T10-21-16-184Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 1,
+  "durationMs": 96628,
+  "error": null,
+  "partialErrors": [
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)",
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)"
+  ],
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://www.producthunt.com/",
+    "finalUrl": "https://www.producthunt.com/",
+    "redirect": null,
+    "statusCode": "error",
+    "scores": {
+      "performance": 77,
+      "accessibility": 93,
+      "best-practices": 96,
+      "seo": 50,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1003,
+      "lcp": 1003,
+      "si": 1172,
+      "tbt": 1109,
+      "tti": 5239,
+      "cls": 0.001,
+      "ttfb": 496,
+      "maxPotentialFid": 418,
+      "serverResponseTime": 24,
+      "networkRtt": 21.5,
+      "networkServerLatency": 45.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 146.4,
+      "elementRenderDelay": 238.8
+    },
+    "weight": {
+      "total": 2208692,
+      "requests": 15,
+      "mainDocument": 4931,
+      "byType": {
+        "total": {
+          "bytes": 2208694,
+          "requests": 10
+        },
+        "other": {
+          "bytes": 1741337,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 233205,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 229090,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 5062,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1817194,
+          "requests": 5
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 28404,
+      "mainThreadMs": 11.7,
+      "top": [
+        {
+          "entity": "cloudflare.com",
+          "bytes": 28404,
+          "mainThreadMs": 11.7,
+          "byType": {
+            "script": 28404
+          },
+          "typedBytes": 28404
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1878.2,
+      "byGroup": {
+        "scriptEvaluation": 1509.7,
+        "other": 225.4,
+        "scriptParseCompile": 58.7,
+        "garbageCollection": 37.9,
+        "styleLayout": 29.8,
+        "parseHTML": 8.8,
+        "paintCompositeRender": 7.9
+      },
+      "bootupMs": 1522.7,
+      "longTasks": 8,
+      "longestTaskMs": 418
+    },
+    "dom": {
+      "elements": 36,
+      "depth": 8,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 43024,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 2024.8000000000002,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 21,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "meta-refresh",
+          "title": "The document uses `<meta http-equiv=\"refresh\">`",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 3,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "weight": 4.043478260869565,
+          "nodes": 1
+        },
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "http-status-code",
+          "title": "Page has unsuccessful HTTP status code",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "http/1.1",
+      "legacyHttpRequests": 0,
+      "redirectMs": 795.8,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 32
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2788,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T10:30:17.804Z",
+      "runtimeMs": 13471.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": "Just a moment...",
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a618b4804c4f6e1a-DFW",
+      "server": "cloudflare"
+    },
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "aa23765828a8",
+        "nonce": "575d50a35db6",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
