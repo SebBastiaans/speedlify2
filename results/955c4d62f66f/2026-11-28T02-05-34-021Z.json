@@ -1,0 +1,275 @@
+{
+  "url": "https://kompaktapp.com/",
+  "name": "kompaktapp.com",
+  "group": "astro-showcase",
+  "groupName": "Astro Showcase",
+  "timestamp": 1795831534021,
+  "date": "2026-11-28T02:05:34.021Z",
+  "runId": "2026-11-28T01-57-07-672Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 1,
+  "durationMs": 74162,
+  "error": null,
+  "partialErrors": [
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)",
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)"
+  ],
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://kompaktapp.com/",
+    "finalUrl": "https://kompaktapp.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 95,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 996,
+      "lcp": 2964,
+      "si": 1431,
+      "tbt": 51,
+      "tti": 3055,
+      "cls": 0,
+      "ttfb": 696,
+      "maxPotentialFid": 151,
+      "serverResponseTime": 122,
+      "networkRtt": 2.6,
+      "networkServerLatency": 95.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 198.7,
+      "resourceLoadDelay": 9.6,
+      "resourceLoadDuration": 137.4,
+      "elementRenderDelay": 32.2
+    },
+    "weight": {
+      "total": 632188,
+      "requests": 31,
+      "mainDocument": 9388,
+      "byType": {
+        "total": {
+          "bytes": 541155,
+          "requests": 30
+        },
+        "image": {
+          "bytes": 251086,
+          "requests": 18
+        },
+        "script": {
+          "bytes": 210918,
+          "requests": 6
+        },
+        "media": {
+          "bytes": 57301,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 10633,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 9388,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1829,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 198671,
+          "requests": 5
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 198671,
+      "mainThreadMs": 58.7,
+      "top": [
+        {
+          "entity": "playheadapp.com",
+          "bytes": 188193,
+          "mainThreadMs": 50,
+          "byType": {
+            "script": 187546,
+            "other": 647
+          },
+          "typedBytes": 188193
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 8.7,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1127.7,
+      "byGroup": {
+        "other": 520,
+        "scriptEvaluation": 277.2,
+        "styleLayout": 195.6,
+        "scriptParseCompile": 56,
+        "paintCompositeRender": 49.8,
+        "parseHTML": 29.1
+      },
+      "bootupMs": 265.2,
+      "longTasks": 1,
+      "longestTaskMs": 151
+    },
+    "dom": {
+      "elements": 223,
+      "depth": 9,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 121386,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 19099,
+      "duplicatedJsBytes": 13416,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 185409.4916666667,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 24,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "aria-prohibited-attr",
+          "title": "Elements use prohibited ARIA attributes",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 48
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2486,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T02:05:35.287Z",
+      "runtimeMs": 8419
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a615d0b5aa9153c6-ATL",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 341,
+    "incomplete": 10,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".dock",
+            "snippet": "<div class=\"dock\" aria-label=\"macOS Dock\" data-astro-cid-kmzjmlzo=\"\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7c827d7dc1d5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "7c827d7dc1d5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

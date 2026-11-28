@@ -1,0 +1,410 @@
+{
+  "url": "https://ademhatay.com/",
+  "name": "ademhatay.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795831089907,
+  "date": "2026-11-28T01:58:09.907Z",
+  "runId": "2026-11-28T01-57-07-672Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 37442,
+  "error": null,
+  "variance": {
+    "min": 59,
+    "max": 65,
+    "spread": 6,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://ademhatay.com/",
+    "finalUrl": "https://ademhatay.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 59,
+      "accessibility": 96,
+      "best-practices": 96,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 6646,
+      "lcp": 13172,
+      "si": 6646,
+      "tbt": 0,
+      "tti": 13285,
+      "cls": 0,
+      "ttfb": 484,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 153,
+      "networkRtt": 0.9,
+      "networkServerLatency": 45.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 154.2,
+      "resourceLoadDelay": 9,
+      "resourceLoadDuration": 46.3,
+      "elementRenderDelay": 2127.6
+    },
+    "weight": {
+      "total": 2340283,
+      "requests": 65,
+      "mainDocument": 5710,
+      "byType": {
+        "total": {
+          "bytes": 2337168,
+          "requests": 64
+        },
+        "script": {
+          "bytes": 1008438,
+          "requests": 14
+        },
+        "image": {
+          "bytes": 795158,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 317750,
+          "requests": 13
+        },
+        "document": {
+          "bytes": 129311,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 74905,
+          "requests": 7
+        },
+        "other": {
+          "bytes": 11606,
+          "requests": 14
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1519466,
+          "requests": 49
+        }
+      },
+      "scripts": 14,
+      "stylesheets": 7,
+      "fonts": 13
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 359441,
+      "mainThreadMs": 36,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 264120,
+          "mainThreadMs": 0.5,
+          "byType": {
+            "stylesheet": 2539,
+            "font": 261581
+          },
+          "typedBytes": 264120
+        },
+        {
+          "entity": "Unpkg",
+          "bytes": 84286,
+          "mainThreadMs": 27.2,
+          "byType": {
+            "script": 84286
+          },
+          "typedBytes": 84286
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 8.3,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "netlify.app",
+          "bytes": 684,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 684
+          },
+          "typedBytes": 684
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 586,
+      "byGroup": {
+        "other": 230,
+        "scriptEvaluation": 161.9,
+        "styleLayout": 126.2,
+        "scriptParseCompile": 29.9,
+        "parseHTML": 25.6,
+        "paintCompositeRender": 12.4
+      },
+      "bootupMs": 141.9,
+      "longTasks": 1,
+      "longestTaskMs": 101
+    },
+    "dom": {
+      "elements": 176,
+      "depth": 9,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 2634,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 551892.7771516205,
+      "poorlyCachedCount": 17
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 25,
+      "failingNodes": 14,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 14
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 54
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2476.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T01:58:35.110Z",
+      "runtimeMs": 10660.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a615c4ddc99703c8-ATL",
+      "server": "cloudflare"
+    },
+    "violations": 23,
+    "passes": 517,
+    "incomplete": 9,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 14,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "speedlify-score .circle-ok",
+            "snippet": "<span title=\"Performance\" class=\"circle circle-ok\">66</span>"
+          },
+          {
+            "selector": "a[href$=\"en/\"]",
+            "snippet": "<a class=\"lang-btn\" href=\"/en/\">EN</a>"
+          },
+          {
+            "selector": "a[href$=\"yazilar/\"]",
+            "snippet": "<a class=\"navlink\" href=\"/yazilar/\">Yazılar</a>"
+          },
+          {
+            "selector": "a[href$=\"notlar/\"]",
+            "snippet": "<a class=\"navlink\" href=\"/notlar/\">Notlar</a>"
+          },
+          {
+            "selector": ".navlink[href$=\"hakkimda/\"]",
+            "snippet": "<a class=\"navlink\" href=\"/hakkimda/\">Hakkımda</a>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".avatar",
+            "snippet": "<img class=\"avatar\" src=\"/assets/avatar.png\" alt=\"Adem Hatay\" onerror=\"this.style.display='none';this.nextElementSibling.style.display='flex';\">"
+          },
+          {
+            "selector": ".intro__body",
+            "snippet": "<div class=\"intro__body\">"
+          },
+          {
+            "selector": ".pagehead",
+            "snippet": "<div class=\"wrap pagehead\"> <h1 class=\"title\">Akış</h1> <p class=\"subtitle\">Yazılar ve notlar</p> </div>"
+          }
+        ]
+      },
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "nodes": 2,
+        "help": "Elements must only use supported ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".note--video.note:nth-child(4) > .note__video-wrap > iframe >>> .ytmVideoInfoVideoTitle",
+            "snippet": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=FsMIEZ85kbI\"><span class=\"ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap\" style=\"\">G…"
+          },
+          {
+            "selector": "iframe[title=\"React Native App Performance\"] >>> .ytmVideoInfoVideoTitle",
+            "snippet": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=lq2H35D9gb0\"><span class=\"ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap\" style=\"\">R…"
+          }
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".note--video.note:nth-child(4) > .note__video-wrap > iframe >>> #movie_player",
+            "snippet": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/pl…"
+          },
+          {
+            "selector": "iframe[title=\"React Native App Performance\"] >>> #movie_player",
+            "snippet": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/pl…"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 2,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".note--video.note:nth-child(4) > .note__video-wrap > iframe >>> .ytmVideoInfoChannelAvatar",
+            "snippet": "<button class=\"ytmVideoInfoLink ytmVideoInfoChannelAvatar\"><img class=\"ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspect…"
+          },
+          {
+            "selector": "iframe[title=\"React Native App Performance\"] >>> .ytmVideoInfoChannelAvatar",
+            "snippet": "<button class=\"ytmVideoInfoLink ytmVideoInfoChannelAvatar\"><img class=\"ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspect…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "549313bdf9fe",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 02:50:54 GMT"
+        }
+      },
+      {
+        "hash": "549313bdf9fe",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 02:50:54 GMT"
+        }
+      },
+      {
+        "hash": "549313bdf9fe",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 02:50:54 GMT"
+        }
+      },
+      {
+        "hash": "549313bdf9fe",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Fri, 13 Nov 2026 02:50:54 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
