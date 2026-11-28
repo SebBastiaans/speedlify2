@@ -1,0 +1,344 @@
+{
+  "url": "https://steffiedeleeuw.com/",
+  "name": "Steffie de Leeuw",
+  "group": "wordpress-showcase",
+  "groupName": "WordPress Showcase",
+  "timestamp": 1795862241927,
+  "date": "2026-11-28T10:37:21.927Z",
+  "runId": "2026-11-28T10-21-15-194Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 93922,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 99,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://steffiedeleeuw.com/",
+    "finalUrl": "https://steffiedeleeuw.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 97,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1666,
+      "lcp": 1666,
+      "si": 4229,
+      "tbt": 14,
+      "tti": 9642,
+      "cls": 0,
+      "ttfb": 1789,
+      "maxPotentialFid": 64,
+      "serverResponseTime": 1417,
+      "networkRtt": 111.7,
+      "networkServerLatency": 109.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 1789.4,
+      "elementRenderDelay": 511.3
+    },
+    "weight": {
+      "total": 5190885,
+      "requests": 93,
+      "mainDocument": 25857,
+      "byType": {
+        "total": {
+          "bytes": 5190886,
+          "requests": 92
+        },
+        "image": {
+          "bytes": 4220582,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 537614,
+          "requests": 9
+        },
+        "script": {
+          "bytes": 312460,
+          "requests": 30
+        },
+        "stylesheet": {
+          "bytes": 91160,
+          "requests": 36
+        },
+        "document": {
+          "bytes": 25857,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3213,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 31,
+      "stylesheets": 36,
+      "fonts": 9
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 1542.2,
+      "byGroup": {
+        "scriptEvaluation": 611.6,
+        "other": 507,
+        "styleLayout": 153.4,
+        "parseHTML": 127.5,
+        "scriptParseCompile": 99.6,
+        "paintCompositeRender": 28.3,
+        "garbageCollection": 14.8
+      },
+      "bootupMs": 493.1,
+      "longTasks": 3,
+      "longestTaskMs": 66
+    },
+    "dom": {
+      "elements": 634,
+      "depth": 16,
+      "maxChildren": 47
+    },
+    "waste": {
+      "unusedJsBytes": 115486,
+      "unusedCssBytes": 34266,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 4124,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 600,
+      "renderBlockingCount": 35,
+      "poorlyCachedBytes": 140872,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 23,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 4
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 24
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2796,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T10:37:23.209Z",
+      "runtimeMs": 13129.8
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127,
+    "elementRenderDelay": 1828.2
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "wordpress",
+      "name": "WordPress",
+      "icon": "Wordpress",
+      "version": "7.1.5",
+      "source": "meta",
+      "raw": "WordPress 7.1.5"
+    },
+    "probe": {
+      "metas": [
+        "WordPress 7.1.5",
+        "WooCommerce 11.3.1",
+        "Elementor 4.4.2; features: additional_custom_breakpoints; settings: css_print_method-internal, google_font-enabled, font"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 8,
+    "passes": 248,
+    "incomplete": 3,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".elementor-element-046dfd9 > .elementor-motion-effects-element.elementor-widget-container > a[href$=\"steffiedeleeuw.com\"]",
+            "snippet": "<a href=\"https://steffiedeleeuw.com\">"
+          },
+          {
+            "selector": ".elementor-element-4115152.elementor-sticky--active.elementor-section--handles-inside > .elementor-container.elementor-column-gap-default > .elementor-element-3aaeebf.elementor-col-33[data-id=\"3aaeebf\"] > .elementor-widget-wrap.elementor-element-populated > .elementor-element-eb673d2.elementor-widget-tablet__width-auto[data-id=\"eb673d2\"] > .elementor-widget-container > a",
+            "snippet": "<a href=\"#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjE1NDIiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D\"> <img width=\"22\" height=\"17\" src=\"https://steffiedeleeuw.com/wp-content/uploads/2021/11/h…"
+          },
+          {
+            "selector": ".elementor-element-4d66db3.elementor-motion-effects-parent[data-id=\"4d66db3\"] > .elementor-motion-effects-element.elementor-widget-container > a[href$=\"steffiedeleeuw.com\"]",
+            "snippet": "<a href=\"https://steffiedeleeuw.com\">"
+          },
+          {
+            "selector": ".elementor-element-4115152.elementor-sticky--active.elementor-section--handles-inside > .elementor-container.elementor-column-gap-default > .elementor-element-3b8c997.elementor-col-33[data-id=\"3b8c997\"] > .elementor-widget-wrap.elementor-element-populated > .elementor-element-121c612.elementor-widget-tablet__width-auto[data-id=\"121c612\"] > .elementor-widget-container > a",
+            "snippet": "<a href=\"https://steffiedeleeuw.com/cart/\"> <img width=\"22\" height=\"17\" src=\"https://steffiedeleeuw.com/wp-content/uploads/2021/11/cart-2.svg\" class=\"attachment-large size-large wp-image-2076\" alt=\"\"…"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".elementor-element-4f23d35",
+            "snippet": "<div class=\"elementor-element el...\" data-id=\"4f23d35\" data-element_type=\"widget\" data-e-type=\"widget\" data-settings=\"{\"_position\":\"fixed\"...\" data-widget_type=\"heading.default\">"
+          },
+          {
+            "selector": ".elementor-element-237ca99",
+            "snippet": "<div class=\"elementor-element el...\" data-id=\"237ca99\" data-element_type=\"widget\" data-e-type=\"widget\" data-settings=\"{\"_position\":\"fixed\"...\" data-widget_type=\"button.default\">"
+          },
+          {
+            "selector": ".elementor-element-5c70548",
+            "snippet": "<div class=\"elementor-element elementor-element-5c70548 elementor-widget elementor-widget-text-editor\" data-id=\"5c70548\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.…"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".elementor-element-32bc5d1 > .elementor-widget-container > .elementor-nav-menu--layout-vertical.elementor-nav-menu--main.e--pointer-none",
+            "snippet": "<nav aria-label=\"Menu\" class=\"elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "5b430801ac60",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "02f41d8c715f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "242319b94b33",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "f8099bd86a2f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "5131a3308181",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-proxy-cache": "MISS"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

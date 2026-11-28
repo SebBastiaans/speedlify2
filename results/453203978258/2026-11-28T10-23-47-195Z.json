@@ -1,0 +1,394 @@
+{
+  "url": "https://designmuseum.dk/",
+  "name": "Designmuseum Danmark",
+  "group": "wordpress-showcase",
+  "groupName": "WordPress Showcase",
+  "timestamp": 1795861427195,
+  "date": "2026-11-28T10:23:47.195Z",
+  "runId": "2026-11-28T10-21-15-194Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 72892,
+  "error": null,
+  "variance": {
+    "min": 78,
+    "max": 81,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://designmuseum.dk/",
+    "finalUrl": "https://designmuseum.dk/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 80,
+      "accessibility": 93,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 3784,
+      "lcp": 3784,
+      "si": 3784,
+      "tbt": 12,
+      "tti": 3839,
+      "cls": 0,
+      "ttfb": 709,
+      "maxPotentialFid": 46,
+      "serverResponseTime": 104,
+      "networkRtt": 0.2,
+      "networkServerLatency": 108.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 105.6,
+      "elementRenderDelay": 600.8
+    },
+    "weight": {
+      "total": 4695059,
+      "requests": 24,
+      "mainDocument": 11750,
+      "byType": {
+        "total": {
+          "bytes": 4589163,
+          "requests": 18
+        },
+        "media": {
+          "bytes": 3457063,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 603671,
+          "requests": 10
+        },
+        "stylesheet": {
+          "bytes": 394792,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 91824,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 26135,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 12569,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 3109,
+          "requests": 2
+        },
+        "third-party": {
+          "bytes": 161151,
+          "requests": 7
+        }
+      },
+      "scripts": 10,
+      "stylesheets": 1,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 160332,
+      "mainThreadMs": 48.7,
+      "top": [
+        {
+          "entity": "Cookiebot",
+          "bytes": 159501,
+          "mainThreadMs": 48.6,
+          "byType": {
+            "script": 158870,
+            "other": 631
+          },
+          "typedBytes": 159501
+        },
+        {
+          "entity": "Amazon Web Services",
+          "bytes": 831,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "script": 831
+          },
+          "typedBytes": 831
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2437.7,
+      "byGroup": {
+        "styleLayout": 683.7,
+        "scriptEvaluation": 675.1,
+        "other": 551,
+        "scriptParseCompile": 232.6,
+        "paintCompositeRender": 213.2,
+        "parseHTML": 65.5,
+        "garbageCollection": 16.7
+      },
+      "bootupMs": 874.4,
+      "longTasks": 3,
+      "longestTaskMs": 243
+    },
+    "dom": {
+      "elements": 817,
+      "depth": 22,
+      "maxChildren": 25
+    },
+    "waste": {
+      "unusedJsBytes": 172361,
+      "unusedCssBytes": 400618,
+      "legacyJsBytes": 6453,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 3860,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 121606.90722222219,
+      "poorlyCachedCount": 12
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 29,
+      "failingNodes": 10,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 6
+        },
+        {
+          "id": "list",
+          "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+          "weight": 7,
+          "nodes": 4
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 22
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2898,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T10:24:08.858Z",
+      "runtimeMs": 8806.7
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.2,
+    "elementRenderDelay": 5839.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "LiteSpeed",
+      "detailIcon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "LiteSpeed",
+      "x-powered-by": "PHP/8.4.28"
+    },
+    "violations": 13,
+    "passes": 782,
+    "incomplete": 48,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 6,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#CybotCookiebotDialogBodyContentTitle",
+            "snippet": "<div id=\"CybotCookiebotDialogBodyContentTitle\" class=\"CybotCookiebotDialogBodyContentHeading\" lang=\"en\" role=\"heading\" aria-level=\"2\">This website uses cookies</div>"
+          },
+          {
+            "selector": "#CybotCookiebotDialogBodyContentText",
+            "snippet": "<div id=\"CybotCookiebotDialogBodyContentText\" lang=\"en\">"
+          },
+          {
+            "selector": ".CybotCookiebotDialogBodyLevelButtonWrapper:nth-child(2) > label > .CybotCookiebotDialogBodyLevelButtonDescription",
+            "snippet": "<strong class=\"CybotCookiebotDialogBodyLevelButtonDescription\">Preferences</strong>"
+          },
+          {
+            "selector": ".CybotCookiebotDialogBodyLevelButtonWrapper:nth-child(3) > label > .CybotCookiebotDialogBodyLevelButtonDescription",
+            "snippet": "<strong class=\"CybotCookiebotDialogBodyLevelButtonDescription\">Statistics</strong>"
+          },
+          {
+            "selector": ".CybotCookiebotDialogBodyLevelButtonWrapper:nth-child(4) > label > .CybotCookiebotDialogBodyLevelButtonDescription",
+            "snippet": "<strong class=\"CybotCookiebotDialogBodyLevelButtonDescription\">Marketing</strong>"
+          }
+        ]
+      },
+      {
+        "id": "list",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#menu-item-6 > .sub-menu",
+            "snippet": "<ul class=\"sub-menu\">"
+          },
+          {
+            "selector": "#menu-item-7 > .sub-menu",
+            "snippet": "<ul class=\"sub-menu\">"
+          },
+          {
+            "selector": "#menu-item-179 > .sub-menu",
+            "snippet": "<ul class=\"sub-menu\">"
+          },
+          {
+            "selector": "#menu-item-64687 > .sub-menu",
+            "snippet": "<ul class=\"sub-menu\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".skip-to-content-link",
+            "snippet": "<a class=\"skip-to-content-link\" href=\"#main\">Skip to content</a>"
+          },
+          {
+            "selector": "#frontpage_video",
+            "snippet": "<div id=\"frontpage_video\" class=\"frontpage_video\">"
+          },
+          {
+            "selector": ".app__fifth-element",
+            "snippet": "<div class=\"app__fifth-element\"> <div id=\"fifth-element\"><canvas id=\"defaultCanvas0\" class=\"p5Canvas\" style=\"width: 412px; height: 823px;\" width=\"412\" height=\"823\"></canvas></div> </div>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "73fcadc2bf44",
+        "nonce": null,
+        "stamp": {
+          "plugin": "LiteSpeed Cache",
+          "at": "2026-11-28 01:17:33"
+        },
+        "marks": [],
+        "headers": {
+          "etag": "\"4688-1795825053;br\"",
+          "x-litespeed-cache": "hit"
+        }
+      },
+      {
+        "hash": "73fcadc2bf44",
+        "nonce": null,
+        "stamp": {
+          "plugin": "LiteSpeed Cache",
+          "at": "2026-11-28 01:17:33"
+        },
+        "marks": [],
+        "headers": {
+          "etag": "\"4688-1795825053;br\"",
+          "x-litespeed-cache": "hit"
+        }
+      },
+      {
+        "hash": "73fcadc2bf44",
+        "nonce": null,
+        "stamp": {
+          "plugin": "LiteSpeed Cache",
+          "at": "2026-11-28 01:17:33"
+        },
+        "marks": [],
+        "headers": {
+          "etag": "\"4688-1795825053;br\"",
+          "x-litespeed-cache": "hit"
+        }
+      },
+      {
+        "hash": "73fcadc2bf44",
+        "nonce": null,
+        "stamp": {
+          "plugin": "LiteSpeed Cache",
+          "at": "2026-11-28 01:17:33"
+        },
+        "marks": [],
+        "headers": {
+          "etag": "\"4688-1795825053;br\"",
+          "x-litespeed-cache": "hit"
+        }
+      },
+      {
+        "hash": "73fcadc2bf44",
+        "nonce": null,
+        "stamp": {
+          "plugin": "LiteSpeed Cache",
+          "at": "2026-11-28 01:17:33"
+        },
+        "marks": [],
+        "headers": {
+          "etag": "\"4688-1795825053;br\"",
+          "x-litespeed-cache": "hit"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
